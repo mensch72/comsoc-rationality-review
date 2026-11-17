@@ -1,38 +1,38 @@
 paper_id,venue_type,hc_rank,in_handcheck,title
 AAAI-2023-82e8fe3a,AIconf,1,1,Strategyproofness and Proportionality in Party-Approval Multiwinner Elections
-AAMAS-2024-216391c9,AIconf,2,1,Robust Knowledge Extraction from Large Language Models using Social Choice Theory
-IJCAI-2022-09a7b277,AIconf,3,1,Explaining Preferences by Multiple Patterns in Voters’ Behavior
-AAAI-2022-8da10d84,AIconf,4,1,The Complexity of Proportionality Degree in Committee Elections
-AAAI-2025-04d586ed,AIconf,5,0,Verifying Proportionality in Temporal Voting
-IJCAI-2024-f56c85c4,AIconf,6,0,Comparing Ways of Obtaining Candidate Orderings from Approval Ballots
-AAMAS-2021-91bcdfa2,AIconf,7,0,Worst-case Bounds for Spending a Common Budget
-IJCAI-2023-59c4763a,AIconf,8,0,Deliberation and Voting in Approval-Based Multi-Winner Elections
-IJCAI-2021-155ad31e,AIconf,9,0,Winner Determination and Strategic Control in Conditional Approval Voting
-AAMAS-2023-3ebf1401,AIconf,10,0,Revisiting the Distortion of Distributed Voting
-AAAI-2023-119744b9,AIconf,11,0,Differentially Private Condorcet Voting
-IJCAI-2022-5e7bc3ad,AIconf,12,0,Multiwinner Elections under Minimax Chamberlin-Courant Rule in Euclidean Space
-IJCAI-2022-25f008e9,AIconf,13,0,Manipulating Elections by Changing Voter Perceptions
-AAMAS-2024-aa390e86,AIconf,14,0,Multi-user Norm Consensus
-AAMAS-2025-4af64bcc,AIconf,15,0,The Degree of (Extended) Justified Representation and Its Optimization
-AAMAS-2024-629cc4bd,AIconf,16,0,Single-Winner Voting with Alliances: Avoiding the Spoiler Effect
-AAAI-2023-f6a8c13d,AIconf,17,0,Now We’re Talking: Better Deliberation Groups through Submodular Optimization
-AAAI-2021-65f952a0,AIconf,18,0,Margin of Victory in Tournaments: Structural and Experimental Results
-AAAI-2021-434fe260,AIconf,19,0,Power in Liquid Democracy
-AAAI-2025-401e133f,AIconf,20,0,Adaptive Manipulation for Coalitions in Knockout Tournaments
-AAAI-2021-37c64d33,AIconf,21,0,Computing the Proportional Veto Core
-IJCAI-2021-43528f67,AIconf,22,0,Fairness in Long-Term Participatory Budgeting
-IJCAI-2022-724fc628,AIconf,23,0,Near-Tight Algorithms for the Chamberlin-Courant and Thiele Voting Rules
-IJCAI-2025-fe32a5c8,AIconf,24,0,Recommender Systems for Democracy: Toward Adversarial Robustness in Voting Advice Applications
-AAMAS-2024-b87545dd,AIconf,25,0,On the Potential and Limitations of Proxy Voting: Delegation with Incomplete Votes
-IJCAI-2025-767a08ba,AIconf,26,0,Improved Rank Aggregation Under Fairness Constraint
-IJCAI-2022-0b527f93,AIconf,27,0,Local Differential Privacy Meets Computational Social Choice - Resilience under Voter Deletion
-IJCAI-2021-2a15c54a,AIconf,28,0,Dynamic Proportional Rankings
-AAMAS-2021-0cf9d56a,AIconf,29,0,Probabilistic Inference of Winners in Elections by Independent Random Voters
-AAMAS-2023-ab1e7cc5,AIconf,30,0,The Distortion of Approval Voting with Runoff
-IJCAI-2022-d9445a57,AIconf,31,0,Approval with Runoff
-IJCAI-2023-a0a9f446,AIconf,32,0,Algorithmics of Egalitarian versus Equitable Sequences of Committees
-AAMAS-2024-3b0ee8e7,AIconf,33,0,Evaluating District-based Election Surveys with Synthetic Dirichlet Likelihood
-AAMAS-2025-d4c20165,AIconf,34,0,The Metric Distortion of Randomized Social Choice Functions: C1 Maximal Lottery Rules and Simulations
+AAAI-2022-8da10d84,AIconf,2,1,The Complexity of Proportionality Degree in Committee Elections
+AAAI-2025-04d586ed,AIconf,3,1,Verifying Proportionality in Temporal Voting
+IJCAI-2024-f56c85c4,AIconf,4,1,Comparing Ways of Obtaining Candidate Orderings from Approval Ballots
+AAMAS-2021-91bcdfa2,AIconf,5,0,Worst-case Bounds for Spending a Common Budget
+IJCAI-2023-59c4763a,AIconf,6,0,Deliberation and Voting in Approval-Based Multi-Winner Elections
+IJCAI-2021-155ad31e,AIconf,7,0,Winner Determination and Strategic Control in Conditional Approval Voting
+AAMAS-2023-3ebf1401,AIconf,8,0,Revisiting the Distortion of Distributed Voting
+AAAI-2023-119744b9,AIconf,9,0,Differentially Private Condorcet Voting
+IJCAI-2022-5e7bc3ad,AIconf,10,0,Multiwinner Elections under Minimax Chamberlin-Courant Rule in Euclidean Space
+IJCAI-2022-25f008e9,AIconf,11,0,Manipulating Elections by Changing Voter Perceptions
+AAMAS-2024-aa390e86,AIconf,12,0,Multi-user Norm Consensus
+AAMAS-2025-4af64bcc,AIconf,13,0,The Degree of (Extended) Justified Representation and Its Optimization
+AAMAS-2024-629cc4bd,AIconf,14,0,Single-Winner Voting with Alliances: Avoiding the Spoiler Effect
+AAAI-2023-f6a8c13d,AIconf,15,0,Now We’re Talking: Better Deliberation Groups through Submodular Optimization
+IJCAI-2022-56e99f56,AIconf,16,0,How to Sample Approval Elections?
+AAAI-2021-65f952a0,AIconf,17,0,Margin of Victory in Tournaments: Structural and Experimental Results
+AAAI-2021-434fe260,AIconf,18,0,Power in Liquid Democracy
+AAAI-2025-401e133f,AIconf,19,0,Adaptive Manipulation for Coalitions in Knockout Tournaments
+AAAI-2021-37c64d33,AIconf,20,0,Computing the Proportional Veto Core
+IJCAI-2021-43528f67,AIconf,21,0,Fairness in Long-Term Participatory Budgeting
+IJCAI-2022-724fc628,AIconf,22,0,Near-Tight Algorithms for the Chamberlin-Courant and Thiele Voting Rules
+IJCAI-2025-fe32a5c8,AIconf,23,0,Recommender Systems for Democracy: Toward Adversarial Robustness in Voting Advice Applications
+AAMAS-2024-b87545dd,AIconf,24,0,On the Potential and Limitations of Proxy Voting: Delegation with Incomplete Votes
+IJCAI-2025-767a08ba,AIconf,25,0,Improved Rank Aggregation Under Fairness Constraint
+IJCAI-2022-0b527f93,AIconf,26,0,Local Differential Privacy Meets Computational Social Choice - Resilience under Voter Deletion
+IJCAI-2021-2a15c54a,AIconf,27,0,Dynamic Proportional Rankings
+AAMAS-2021-0cf9d56a,AIconf,28,0,Probabilistic Inference of Winners in Elections by Independent Random Voters
+AAMAS-2023-ab1e7cc5,AIconf,29,0,The Distortion of Approval Voting with Runoff
+IJCAI-2022-d9445a57,AIconf,30,0,Approval with Runoff
+IJCAI-2023-a0a9f446,AIconf,31,0,Algorithmics of Egalitarian versus Equitable Sequences of Committees
+AAMAS-2024-3b0ee8e7,AIconf,32,0,Evaluating District-based Election Surveys with Synthetic Dirichlet Likelihood
+AAMAS-2025-d4c20165,AIconf,33,0,The Metric Distortion of Randomized Social Choice Functions: C1 Maximal Lottery Rules and Simulations
+AAAI-2024-09752c91,AIconf,34,0,The Moderating Effect of Instant Runoff Voting
 IJCAI-2021-e589063d,AIconf,35,0,Diversity in Kemeny Rank Aggregation: A Parameterized Approach
 AAMAS-2022-6fc4c96a,AIconf,36,0,How Hard is Safe Bribery?
 AAAI-2024-33b09f7b,AIconf,37,0,Eliciting Kemeny Rankings
@@ -45,22 +45,22 @@ AAAI-2025-b174e3f4,AIconf,43,0,Learning to Manipulate Under Limited Information
 COMSOC-2021-c2545a38,COMSOC,1,1,Selecting Matchings via Multiwinner Voting: How Structure Defeats a Large Candidate Space
 COMSOC-2023-e81b4148,COMSOC,2,1,Proportionality Degree of Multiwinner Rules
 COMSOC-2025-0abf8270,COMSOC,3,1,Approximate Core of Participatory Budgeting via Lindahl Equilibrium
-COMSOC-2023-740c660f,COMSOC,4,1,Frustratingly Easy Truth Discovery for Rank Aggregation
-COMSOC-2025-f7a8cdd7,COMSOC,5,0,On Condorcet’s Jury Theorem with Abstention
-COMSOC-2025-7f01777d,COMSOC,6,0,Mixed Voting Rules for Participatory Budgeting
-COMSOC-2023-707c1f5d,COMSOC,7,0,Refined Characterizations of Approval-Based Committee Scoring Rules
-COMSOC-2023-ad91d3c8,COMSOC,8,0,Strategy-Proof Participatory Budgeting via a VCG-Like Mechanism
-COMSOC-2025-b65c2dac,COMSOC,9,0,Quantile Agent Utility and Implications to Randomized Social Choice
-COMSOC-2025-889ed0d6,COMSOC,10,0,Frankenmandering: Repeated Social Graph Gerrymandering
-COMSOC-2021-039ef884,COMSOC,11,0,Perpetual Voting: The Axiomatic Lens
-COMSOC-2023-1bee1b8b,COMSOC,12,0,Near-Tight Algorithms for the Chamberlin-Courant and Thiele Voting Rules
-COMSOC-2025-555abc91,COMSOC,13,0,Multiwinner Voting with Interval Preferences under Incomplete Information
-COMSOC-2023-44771a33,COMSOC,14,0,"Forming a ranking from tied evaluations: a case of an online, interactive student peer assessment system"
-COMSOC-2023-de41cb58,COMSOC,15,0,Algorithmics of Egalitarian versus Equitable Sequences of Committees
-COMSOC-2021-3c02f718,COMSOC,16,0,Strategy-Proofness implies Minimal Participation if Voting is Costly
-COMSOC-2021-cdf3c939,COMSOC,17,0,Manipulation of Opinion Polls to Influence Iterative Elections
-COMSOC-2021-723d8b57,COMSOC,18,0,An Analysis of Approval-Based Committee Rules for 2D-Euclidean Elections
-COMSOC-2025-2a5a5e31,COMSOC,19,0,Diverse Committees with Incomplete or Inaccurate Approval Ballots
+COMSOC-2025-f7a8cdd7,COMSOC,4,1,On Condorcet’s Jury Theorem with Abstention
+COMSOC-2025-7f01777d,COMSOC,5,0,Mixed Voting Rules for Participatory Budgeting
+COMSOC-2023-707c1f5d,COMSOC,6,0,Refined Characterizations of Approval-Based Committee Scoring Rules
+COMSOC-2023-ad91d3c8,COMSOC,7,0,Strategy-Proof Participatory Budgeting via a VCG-Like Mechanism
+COMSOC-2025-b65c2dac,COMSOC,8,0,Quantile Agent Utility and Implications to Randomized Social Choice
+COMSOC-2025-889ed0d6,COMSOC,9,0,Frankenmandering: Repeated Social Graph Gerrymandering
+COMSOC-2021-039ef884,COMSOC,10,0,Perpetual Voting: The Axiomatic Lens
+COMSOC-2023-1bee1b8b,COMSOC,11,0,Near-Tight Algorithms for the Chamberlin-Courant and Thiele Voting Rules
+COMSOC-2025-555abc91,COMSOC,12,0,Multiwinner Voting with Interval Preferences under Incomplete Information
+COMSOC-2023-44771a33,COMSOC,13,0,"Forming a ranking from tied evaluations: a case of an online, interactive student peer assessment system"
+COMSOC-2023-de41cb58,COMSOC,14,0,Algorithmics of Egalitarian versus Equitable Sequences of Committees
+COMSOC-2021-3c02f718,COMSOC,15,0,Strategy-Proofness implies Minimal Participation if Voting is Costly
+COMSOC-2021-cdf3c939,COMSOC,16,0,Manipulation of Opinion Polls to Influence Iterative Elections
+COMSOC-2021-723d8b57,COMSOC,17,0,An Analysis of Approval-Based Committee Rules for 2D-Euclidean Elections
+COMSOC-2025-2a5a5e31,COMSOC,18,0,Diverse Committees with Incomplete or Inaccurate Approval Ballots
+COMSOC-2023-b8abf2c2,COMSOC,19,0,Ties in Multiwinner Approval Voting
 COMSOC-2021-cdf5e8b3,COMSOC,20,0,Relaxed Notions of Condorcet-Consistency and Efficiency for Strategyproof Social Decision Schemes
 COMSOC-2023-89b07d01,COMSOC,21,0,Nonparametric Methods for Detecting Gerrymandering in Multiparty Elections
 COMSOC-2025-e1a5a511,COMSOC,22,0,An Incentive-Compatible Utilitarian Voting Procedure for Permanent Citizens’ Assemblies

@@ -18,7 +18,8 @@ UA = "comsoc-rationality-review/0.1 (research; open-access retrieval)"
 def get(url, binary=False, timeout=90, tries=5):
     for k in range(tries):
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            safe_url = urllib.parse.quote(url, safe=":/?&=%#~+,;@!$'()*[]")  # non-ASCII paths
+            req = urllib.request.Request(safe_url, headers={"User-Agent": UA})
             with urllib.request.urlopen(req, timeout=timeout) as r:
                 data = r.read()
                 return (data, r.headers.get("Content-Type", "")) if binary else data.decode("utf-8", "replace")

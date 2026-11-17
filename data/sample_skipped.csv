@@ -1,7 +1,10 @@
 paper_id,stratum,venue,rank,original_in_sample,reason
 AAMAS-2021-fe56146f,AIconf-2021,AAMAS,1,1,"ineligible on full text: ranking players of bipartite tournaments; no voting (C0 INELIG, passes A and B)"
 IJCAI-2022-5653cd3e,AIconf-2022,IJCAI,4,1,"ineligible on full text: fixing knockout sports tournaments (C0 INELIG, passes A and B)"
+IJCAI-2022-09a7b277,AIconf-2022,IJCAI,10,1,ineligible on full text: recognition of structured preference domains; no aggregation rule (C0: A INELIG / B ELIG; adjudicated INELIG)
+AAMAS-2024-216391c9,AIconf-2024,AAMAS,1,1,ineligible on full text: ML rank aggregation of LLM answer rankings (C0: A INELIG / B ELIG; adjudicated INELIG)
 AAMAS-2025-ac21cba7,AIconf-2025,AAMAS,4,1,"ineligible on full text: sortition algorithm, no aggregation by voting (C0 INELIG, passes A and B)"
+COMSOC-2023-740c660f,COMSOC-2023,COMSOC,9,1,ineligible on full text: truth discovery for crowdsourced rank aggregation (C0: A ELIG / B INELIG; adjudicated INELIG)
 EC-2022-7579a9e9,EC-2022,EC,2,1,unavailable:  | tried: https://dl.acm.org/doi/pdf/10.1145/3490486.3538242: HTTP Error 403: Forbidden
 EC-2023-3323128f,EC-2023,EC,5,1,"ineligible on full text: auditability of allocation mechanisms (C0 INELIG, passes A and B)"
 MSS-2021-0fc64d85,Journal-2021,MSS,10,1,unavailable:  | tried: https://www.sciencedirect.com/science/article/pii/S016548962: HTTP Error 403: Forbidden

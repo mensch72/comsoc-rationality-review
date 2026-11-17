@@ -3,3 +3,6 @@ AAMAS-2021-fe56146f,"ranking players of bipartite tournaments; no voting (C0 INE
 AAMAS-2025-ac21cba7,"sortition algorithm, no aggregation by voting (C0 INELIG, passes A and B)"
 EC-2023-3323128f,"auditability of allocation mechanisms (C0 INELIG, passes A and B)"
 IJCAI-2022-5653cd3e,"fixing knockout sports tournaments (C0 INELIG, passes A and B)"
+AAMAS-2024-216391c9,ML rank aggregation of LLM answer rankings (C0: A INELIG / B ELIG; adjudicated INELIG)
+IJCAI-2022-09a7b277,recognition of structured preference domains; no aggregation rule (C0: A INELIG / B ELIG; adjudicated INELIG)
+COMSOC-2023-740c660f,truth discovery for crowdsourced rank aggregation (C0: A ELIG / B INELIG; adjudicated INELIG)
