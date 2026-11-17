@@ -48,8 +48,8 @@ def extract_json(text):
     try:
         return json.loads(text)
     except json.JSONDecodeError:
-        i, j = text.find("{"), text.rfind("}")
-        return json.loads(text[i:j + 1])
+        # first complete JSON object in the text; ignores any text after it
+        return json.JSONDecoder().raw_decode(text[text.find("{"):])[0]
 
 
 def code_body(pid, text, codebook, max_tokens):
