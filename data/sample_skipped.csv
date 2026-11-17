@@ -1,0 +1,19 @@
+paper_id,stratum,venue,rank,original_in_sample,reason
+EC-2022-7579a9e9,EC-2022,EC,2,1,unavailable:  | tried: https://dl.acm.org/doi/pdf/10.1145/3490486.3538242: HTTP Error 403: Forbidden
+MSS-2021-0fc64d85,Journal-2021,MSS,10,1,unavailable:  | tried: https://www.sciencedirect.com/science/article/pii/S016548962: HTTP Error 403: Forbidden
+SCW-2021-263e5d4e,Journal-2021,SCW,12,0,unavailable: no open version
+MSS-2021-a3837e65,Journal-2021,MSS,13,0,unavailable: no open version
+SCW-2022-2c77f930,Journal-2022,SCW,1,1,unavailable: arXiv search failed: HTTP Error 429: Unknown Error
+MSS-2022-84e44641,Journal-2022,MSS,2,1,unavailable: no open version
+MSS-2022-f187044f,Journal-2022,MSS,3,1,unavailable:  | tried: https://www.sciencedirect.com/science/article/pii/S016548962: HTTP Error 403: Forbidden
+SCW-2022-89908d4d,Journal-2022,SCW,5,1,unavailable:  | tried: https://philpapers.org/archive/MULOPI.pdf: HTTP Error 403: Forbidden
+JET-2022-30681898,Journal-2022,JET,8,1,unavailable: no open version
+SCW-2022-05743dd3,Journal-2022,SCW,11,1,unavailable: no open version
+MSS-2023-dfc0a5be,Journal-2023,MSS,3,1,unavailable: no open version
+MSS-2023-cf6c5fa0,Journal-2023,MSS,6,1,unavailable: no open version
+MSS-2024-e7efd430,Journal-2024,MSS,1,1,unavailable: no open version
+JET-2024-f5fd42b6,Journal-2024,JET,7,1,unavailable: no open version
+MSS-2024-790ff9aa,Journal-2024,MSS,10,1,unavailable: no open version
+MSS-2024-a480ecd8,Journal-2024,MSS,11,0,unavailable:  | tried: https://www.sciencedirect.com/science/article/am/pii/S016548: HTTP Error 403: Forbidden
+SCW-2024-988a04d2,Journal-2024,SCW,13,0,unavailable: no open version
+GEB-2025-f2ed0c80,Journal-2025,GEB,4,1,unavailable: no open version
