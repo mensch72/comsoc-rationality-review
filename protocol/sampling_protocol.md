@@ -52,7 +52,7 @@ The EC 2023 Crossref list (162) was checked against the conference's own accepte
 
 **Year assignment.** Conferences and the workshop: the edition year. Journals: the year of Crossref's `issued` date, which is the earliest of print and online publication.
 
-**Calibration paper.** Heitzig, Simmons and Constantino (2024), *Social Choice and Welfare*, [doi:10.1007/s00355-024-01524-3](https://doi.org/10.1007/s00355-024-01524-3), is in the frame, but it is removed from the frame because it serves as the calibration case.
+**Calibration paper.** Heitzig, Simmons and Constantino (2024), *Social Choice and Welfare*, [doi:10.1007/s00355-024-01524-3](https://doi.org/10.1007/s00355-024-01524-3), stays in the frame like any other paper, as decided at checkpoint 1. It is also coded separately as the calibration case. If it is drawn, the sample codes and the calibration codes come from the same procedure and are reported as such.
 
 ### 2.1 Unit and duplicates
 
@@ -91,6 +91,16 @@ Only legally open versions are used, in this order of preference:
 No paywall is circumvented: no shadow libraries, no institutional proxies, and no automated solving of bot challenges.
 
 For each paper we record the URL used, the version type (`venue`, `publisher-OA`, `arXiv vN (date)`, `author`, `SSRN`, …) and whether the title matches the published title. If an EC paper is abstract-only in the proceedings, the full working paper it links to is coded.
+
+**Probe of full-text availability (2023, 24 voting-related EC and journal titles).**
+
+- An exact-title arXiv search found a version for 12 of the 24.
+- Crossref lists a Creative Commons licence for 7 of the 24.
+- Springer open-access PDFs can be downloaded from this environment.
+- Elsevier open-access articles cannot: sciencedirect.com returns 403, and api.elsevier.com needs an API key.
+- Before web search, 13 of the 24 were obtainable: 6 of 9 EC papers and 7 of 15 journal papers.
+
+Step 4 (web search for author pages, SSRN and RePEc) is therefore essential for the journals. The replacement rate in the journal stratum is the main open-access risk.
 
 **Unavailable.** If none of steps 1–4 gives a full text, the paper is recorded as unavailable and replaced by the next paper of the same stratum in the seeded order. **Replacements are reported per venue, together with the reason.** This is a known source of bias: papers that are open may differ from papers that are not.
 

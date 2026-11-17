@@ -31,5 +31,5 @@ python3 scripts/build_frame.py --years 2021-2025 --out data/frame_raw.csv
 Screening adds a `screen` column, which gives `data/frame_screened.csv`. Then draw the sample:
 
 ```bash
-python3 scripts/draw_sample.py --exclude-ids <calibration paper id>
+python3 scripts/draw_sample.py
 ```
