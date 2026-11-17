@@ -1,0 +1,173 @@
+{
+ "paper_id": "COMSOC-2021-c2545a38",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "We model the problem as an approval-based multiwinner election",
+  "note": "Agents' approvals are aggregated by multiwinner voting rules into a committee of matchings."
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "AX"
+  ],
+  "primary": "AL",
+  "loc": "Section 4, p.8",
+  "quote": "we analyze the computational complexity of computing winning committees",
+  "note": "Sections 3.2 and 4 hold most results (algorithms, NP-hardness). Section 5 holds the axiomatic results (EJR, core)."
+ },
+ "C2.1": {
+  "value": "preference profile; approval set; approval preferences",
+  "loc": "Section 3, p.5",
+  "quote": "A = (Aa )a\u2208N a preference profile with Aa \u2286 N \\ {a}"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR",
+   "DICH"
+  ],
+  "loc": "Section 1, p.1",
+  "quote": "based on the agents\u2019 dichotomous (i.e., approval/disapproval) preferences over each other",
+  "note": "Approval sets over agents, lifted to approvals over matchings."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 1, p.1",
+  "quote": "approval sets of students could, for example, consist of all students they like",
+  "note": "The held attitude is the agents' preferences or liking. These are not defined separately from the input; the input itself is called preferences."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2.1, p.4",
+  "quote": "A = (Aa )a\u2208N a preference profile with Aa \u2286 C",
+  "note": "The rule is applied directly to the preference profile, with no statement about reporting or submission."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-5",
+  "quote": "none found",
+  "note": "No manipulation or strategic reporting is analysed."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 2, 3, 6 checked",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 2.1, p.4",
+  "quote": "we let the happiness score ha (W ) of a denote the number",
+  "note": "Satisfaction is defined as the number of approved candidates in the committee."
+ },
+ "C4.2": {
+  "code": "Y",
+  "loc": "Section 2.1, p.4",
+  "quote": "number of (copies of) candidates from W approved by a",
+  "note": "Doubt: the happiness score implies utility 1 per approved matching, but the paper never states what the two classes mean in utility terms. Y was chosen as the first-listed code."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 5, Theorem 5, p.10",
+  "quote": "Seq-w-Thiele satisfies EJR in all symmetric matching elections.",
+  "note": "Results use proportional representation axioms (PJR, EJR, core stability) and Pareto optimal matchings."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 2.3, p.5",
+  "quote": "three axioms capturing proportional representation",
+  "note": "Axioms are evaluated on approval sets, with no statement relating them to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 3, p.5",
+   "quote_behav": "A = (Aa )a\u2208N a preference profile",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Approval sets are exogenous inputs to the rule."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is strategic."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.1",
+    "quote": "finding k matchings fairly representing everyone\u2019s preferences"
+   },
+   {
+    "loc": "Section 1, p.1",
+    "quote": "should not be \u201cless happy\u201d than if this group"
+   },
+   {
+    "loc": "Section 1.1, p.3",
+    "quote": "An advantage of the latter is that we can represent the preferences"
+   }
+  ],
+  "note": "Claims concern fairness towards agents in applications such as student pairing and police shifts."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sections 1, 2, 3, 6 checked",
+  "quote": "none found",
+  "note": "The claims need the approval sets used as input to equal agents' actual preferences or likings (no misreporting). This is not stated. The link from happiness to approvals is defined."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 2, 6 checked",
+  "quote": "none found",
+  "note": ""
+ }
+}

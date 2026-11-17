@@ -1,0 +1,185 @@
+{
+ "paper_id": "GEB-2023-09388f97",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Section 2, p.5",
+  "quote": "We study two electoral systems, multi-seat plurality (MP), and cumulative voting",
+  "note": "Compares voting rules (MP vs CV) for multi-seat elections, including turnout incentives."
+ },
+ "C1": {
+  "types": [
+   "EQ",
+   "EM"
+  ],
+  "primary": "EM",
+  "loc": "Abstract, p.1; Section 3.2, p.9",
+  "quote": "A lab experiment based on a costly voting design strongly supports",
+  "note": "Theory gives equilibrium characterisations (Prop. 1, perfect Bayesian equilibrium thresholds). The main results are laboratory tests of these predictions."
+ },
+ "C2.1": {
+  "value": "votes; profiles of votes",
+  "loc": "Section 2, p.5",
+  "quote": "We call xp the profiles of votes cast by members of party p"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 2, p.5",
+  "quote": "each voter can distribute the K votes in any manner the voter desires",
+  "note": "Input is a cumulative-vote allocation of K (possibly fractional) votes across candidates, plus the decision to turn out or abstain."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.5",
+  "quote": "The utility derived from one's party winning k positions is u (k)",
+  "note": "Voters hold party affiliation, utility over seats won and private voting costs."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2, p.5",
+  "quote": "xkip is the number of votes cast by voter i \u2208 p",
+  "note": "Votes (x) and utility u(k)/costs are separate objects with separate notation. Votes are chosen strategically to maximize seats."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Section 3.2, p.9; Section 4, p.13",
+  "quote": "each party member's votes maximize the number of seats won by the party",
+  "note": "All theory is strategic. In the experiment subjects freely choose whether to vote."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL"
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 not STATED"
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C2.2 contains only OTH."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 3.3, p.12; Section 5, p.17",
+  "quote": "Under CV, the minority always achieves substantive representation",
+  "note": "Rules are evaluated by the expected and realized share of seats won by the minority group."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 2, p.4-5",
+  "quote": "The N voters are divided into two parties",
+  "note": "Representation is measured by seats won by the minority party. Party membership and seat-based utility are defined separately from votes submitted."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 3.2, p.9",
+   "quote_behav": "so as to maximize the expected number of positions won by p",
+   "loc_info": "Section 3, p.7",
+   "quote_info": "Realized costs are private information, but the distribution F (c)",
+   "note": "Voters choose turnout and vote allocation strategically. In the experiment the vote allocation is constrained to equal spreading."
+  },
+  "CAN": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "IMPLICIT",
+   "loc_behav": "Section 3.2, p.9; Section 4, p.13",
+   "quote_behav": "the two party leaders set g (G, xM , xm , cM , cm ) so as",
+   "loc_info": "Section 3.2, p.9",
+   "quote_info": "the two party leaders set g (G, xM , xm , cM , cm )",
+   "note": "Coded as party leaders proposing candidate lists (proponents of alternatives); OTH would also fit. They are strategic in theory, while in the experiment the number of candidates is fixed at its theoretically optimal value. Leaders know party sizes and the cost distribution but not realized costs."
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "Y",
+  "loc": "Section 1, p.4; Section 4, p.13",
+  "quote": "an exogenously given, theoretically optimal, number of candidates",
+  "note": "In the experiment, voters (VOT) choose turnout strategically while party leaders (CAN) are fixed exogenously."
+ },
+ "C7.2": {
+  "code": "REASON",
+  "loc": "Section 1, p.4",
+  "quote": "Historically, CV's coordination problem is deferred to the parties' leadership",
+  "note": "Historical practice and a focus on turnout are given as reasons, together with citations."
+ },
+ "C8.1": {
+  "codes": [
+   "NE",
+   "SPE",
+   "BNE"
+  ],
+  "loc": "Section 2, p.5; Section 3.2, p.9",
+  "quote": "We focus on a semi-symmetric perfect Bayesian equilibrium",
+  "note": "Costless case: equilibria in weakly undominated strategies of a two-stage game, using maximin. Costly case: perfect Bayesian equilibrium of a three-stage game."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 3.2, p.9",
+  "quote": "We focus on a semi-symmetric perfect Bayesian equilibrium"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 6, p.18",
+    "quote": "Voting rules like CV have the potential to help both."
+   },
+   {
+    "loc": "Section 1, p.3-4",
+    "quote": "The experiment confirms CV's potential to increase both the"
+   },
+   {
+    "loc": "Section 1, p.4",
+    "quote": "Such rules can do so without the rigidity and arbitrariness"
+   }
+  ],
+  "note": "Claims concern real institutions and minority representation."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 1, p.3-4; Section 2, p.5",
+  "quote": "Inspired by such experiences, we test CV by presenting",
+  "note": "Needed assumptions are stated: costly instrumental voting, linear seat utility, and party leaders choosing the optimal number of candidates with equal vote spreading. The last of these is justified historically."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 2, 3, 6",
+  "quote": "none found",
+  "note": ""
+ }
+}

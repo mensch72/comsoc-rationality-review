@@ -1,0 +1,172 @@
+{
+ "paper_id": "AAAI-2025-04d586ed",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.13805",
+  "quote": "at each round the voters report their preferences over the available",
+  "note": "Temporal approval voting; verification and computation of proportional outcomes."
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "AX"
+  ],
+  "primary": "AL",
+  "loc": "Abstract; Sections 3-7, pp.13805-13811",
+  "quote": "we focus on the complexity of verifying whether a given outcome",
+  "note": "Most results are complexity results. Axiomatic results: GCR provides EJR, and no rule satisfies EJR in the semi-online setting."
+ },
+ "C2.1": {
+  "value": "approval sets; approval ballots; temporal preference",
+  "loc": "Section 2, p.13806",
+  "quote": "We refer to si as i's temporal preference"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Section 2, p.13806",
+  "quote": "we consider temporal voting with approval ballots",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Abstract, p.13805; Section 1, p.13805",
+  "quote": "voters' preferences may evolve",
+  "note": "Preferences are attributed to voters, but they are identified with the approval sets."
+ },
+ "C2.4": {
+  "code": "IDS",
+  "loc": "Abstract, p.13805",
+  "quote": "at each round the voters report their preferences over the available",
+  "note": "Unsure between IDS and IDU. The abstract says that voters report their preferences, with no reason given; elsewhere the input is simply called preference."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-7",
+  "quote": "none found",
+  "note": "No strategic voting is analysed."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Abstract, p.13805",
+  "quote": "the voters report their preferences over the available candidates",
+  "note": "The statement is weak and appears in the abstract only."
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Abstract; Section 1; Section 2; Section 8",
+  "quote": "none found",
+  "note": ""
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 2, p.13806",
+  "quote": "A voter i's satisfaction from an outcome o is computed as",
+  "note": "Satisfaction is defined as the number of rounds in which the chosen candidate is approved."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2, p.13807; Corollary 7.3, p.13811",
+  "quote": "finds an outcome that maximizes the utilitarian social welfare",
+  "note": "JR/PJR/EJR proportional representation axioms and utilitarian welfare are used."
+ },
+ "C5.2": {
+  "code": "INPUT-STATED",
+  "loc": "Section 2, p.13806",
+  "quote": "sati (o) = |{t 2 [`] : ot 2 si,t }|",
+  "note": "Evaluation is on the approval sets, which the abstract describes as reported preferences."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Abstract, p.13805",
+   "quote_behav": "the voters report their preferences over the available candidates",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is strategic."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 1, p.13805",
+    "quote": "ensure that the selection is representative of what its customers"
+   },
+   {
+    "loc": "Section 1, p.13805",
+    "quote": "large cohesive groups of voters should be fairly represented"
+   },
+   {
+    "loc": "Section 1.1, p.13805",
+    "quote": "This task is important if, e.g., the outcome is fully"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Abstract, p.13805; Section 2, p.13806",
+  "quote": "the voters report their preferences over the available candidates",
+  "note": "The claims need approval sets to reflect what voters care about; this is stated, though without a reason. Satisfaction is defined from the approvals."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Abstract; Sections 1, 2, 8",
+  "quote": "none found",
+  "note": ""
+ }
+}

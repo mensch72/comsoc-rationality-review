@@ -1,0 +1,38 @@
+{
+ "paper_id": "IJCAI-2022-5653cd3e",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "INELIG",
+  "loc": "Section 1 Introduction, p. 412; Section 2 Preliminaries, p. 413",
+  "quote": "Knockout tournaments constitute a popular format for organizing sports competitions.",
+  "note": "The paper studies bracket fixing in knockout tournaments framed as sports competitions among players. Its input is a tournament graph of pairwise match outcomes (\"which player would win in any pairwise matchup\"), not inputs submitted by several agents and aggregated by voting. No voters appear in the model. Coding stopped per C0 rule."
+ },
+ "C1": {},
+ "C2.1": {},
+ "C2.2": {},
+ "C2.3": {},
+ "C2.4": {},
+ "C3.1": {},
+ "C3.2": {},
+ "C3.3": {},
+ "C4.1": {},
+ "C4.2": {},
+ "C5.1": {},
+ "C5.2": {},
+ "C6": {
+  "VOT": {},
+  "CAN": {},
+  "ORG": {},
+  "DIS": {},
+  "BRI": {},
+  "DES": {},
+  "OTH": {}
+ },
+ "C7.1": {},
+ "C7.2": {},
+ "C8.1": {},
+ "C8.2": {},
+ "C9.1": {},
+ "C9.2": {},
+ "C10.1": {}
+}

@@ -1,0 +1,172 @@
+{
+ "paper_id": "EC-2023-7c70f299",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Sec. 2 Model, p.5",
+  "quote": "voters decide on a binary issue for which there is a ground truth",
+  "note": "Liquid democracy: delegated votes are aggregated by weighted majority."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "WD"
+  ],
+  "primary": "AX",
+  "loc": "Sec. 4, Theorem 1, p.9",
+  "quote": "satisfies probabilistic do no harm and probabilistic positive gain",
+  "note": "The main theorems state which delegation models satisfy the DNH and PG properties. These properties measure accuracy against direct democracy, so WD also fits. AX was chosen as primary because it is listed first."
+ },
+ "C2.1": {
+  "value": "votes / binary vote Vi (weighted by delegations)",
+  "loc": "Sec. 2 Model, p.5",
+  "quote": "the n possible binary votes Vi , where"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Sec. 2 Model, p.5",
+  "quote": "Let Vi = 1 if voter i would vote correctly if i did vote",
+  "note": "Binary correct/incorrect votes, plus a delegation graph that determines the weights."
+ },
+ "C2.3": {
+  "code": "N",
+  "loc": "Sec. 2 Model, p.5",
+  "quote": "competence level pi \u2208 [0, 1] which is the probability that i votes correctly",
+  "note": "Competence is a probability of a correct vote, not a preference or opinion that is reported. It was not treated as a held attitude."
+ },
+ "C2.4": {
+  "code": "ONE",
+  "loc": "Sec. 2 Model, p.5",
+  "quote": "XnD be the number of correct votes under direct democracy",
+  "note": "Votes are random draws given competence; no preference or opinion is attributed to voters."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sec. 7 Discussion, p.20",
+  "quote": "our models do not take strategic considerations into account",
+  "note": ""
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C2.4 = ONE."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The input format is OTH and no utility-type notions are used for voters."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sec. 2 Model, p.5",
+  "quote": "the difference between the probability that liquid democracy is correct",
+  "note": "The evaluation criterion is epistemic accuracy (gain), which is none of the listed criteria."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sec. 1.1, p.2; Sec. 7, p.20",
+   "quote_behav": "our models do not take strategic considerations into account",
+   "loc_info": "Sec. 1.1, p.2",
+   "quote_info": "a voter does not need to \u201cknow\u201d the competence of another voter",
+   "note": "Voters vote, or delegate according to the exogenous stochastic model (q, \u03d5)."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.1",
+    "quote": "the concerns raised about liquid democracy can be overcome"
+   },
+   {
+    "loc": "Sec. 1.2 Related work, p.4",
+    "quote": "which supports the effectiveness of the current practice of liquid democracy"
+   },
+   {
+    "loc": "Sec. 7 Discussion, p.20",
+    "quote": "We believe that our results provide another such reason"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sec. 7 Discussion, pp.19-20",
+  "quote": "Our paper further relies on a set of assumptions and modeling choices",
+  "note": "The needed assumptions are stated in the Discussion: existence of a ground truth, independent voting, non-strategic delegation behaviour, and the stochastic delegation model."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sec. 1, Sec. 2, Sec. 7",
+  "quote": "none found",
+  "note": ""
+ }
+}

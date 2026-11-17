@@ -30,7 +30,7 @@ def main():
     cdir, tdir = sys.argv[1], sys.argv[2]
     verbose = "--verbose" in sys.argv
     tot = hit = 0
-    for p in sorted(glob.glob(os.path.join(cdir, "*.json"))):
+    for p in sorted(q for q in glob.glob(os.path.join(cdir, "*.json")) if not os.path.basename(q).startswith("_")):
         pid = os.path.basename(p)[:-5]
         text = norm(open(os.path.join(tdir, pid + ".txt"), errors="replace").read())
         d = json.load(open(p))

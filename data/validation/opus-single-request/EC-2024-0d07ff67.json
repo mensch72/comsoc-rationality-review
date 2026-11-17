@@ -1,0 +1,173 @@
+{
+ "paper_id": "EC-2024-0d07ff67",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Section 2, p.53",
+  "quote": "A multiwinner voting (MWV) instance is given by a tuple",
+  "note": "Approval-based multiwinner voting studied through budgeting games."
+ },
+ "C1": {
+  "types": [
+   "EQ",
+   "AX",
+   "AL"
+  ],
+  "primary": "EQ",
+  "loc": "Section 4, p.56",
+  "quote": "we characterize prominent proportionality axioms as equilibria of budgeting games",
+  "note": "Main results equate proportionality axioms with equilibrium notions (EQ/AX). The finiteness of improvement dynamics and strong-equilibrium existence are EQ. Tree-Sweep is an algorithm computing equilibria (AL)."
+ },
+ "C2.1": {
+  "value": "approval profile; approval ballots",
+  "loc": "Section 2, p.53",
+  "quote": "is an approval profile, i.e., a vector of approval ballots"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Section 2, p.53",
+  "quote": "indicating the subset of alternatives agent \ud835\udc56 \u2208 \ud835\udc41 approves of",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Introduction, p.52",
+  "quote": "voters whose preferences are expressed by granting, or withholding, approval",
+  "note": "Preferences of voters are referred to. Utility of players is also defined in the budgeting game (Section 3)."
+ },
+ "C2.4": {
+  "code": "IDS",
+  "loc": "Introduction, p.52",
+  "quote": "voters whose preferences are expressed by granting, or withholding, approval",
+  "note": "The paper states that approvals express preferences, without a reason. In the game, relevant resources are set equal to ballots (X_i = A_i). IDU was also considered."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Section 3, p.56",
+  "quote": "the associated budgeting game is \u0393\ud835\udc3c = \u27e8\ud835\udc41 , \ud835\udc40, \ud835\udc58/\ud835\udc5b, \ud835\udc7f \u27e9",
+  "note": "Players act strategically over budget allocations. Approval sets/relevant resources are fixed; no misreporting is analysed."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Introduction, p.52",
+  "quote": "voters whose preferences are expressed by granting, or withholding, approval",
+  "note": "Weak statement, coded for consistency with C2.4."
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Introduction, p.52",
+  "quote": "voters whose preferences are expressed by granting, or withholding, approval",
+  "note": ""
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 3, p.55",
+  "quote": "The utility of player \ud835\udc56 \u2208 \ud835\udc41 is the number of active resources",
+  "note": "Utility is the count of active relevant resources, with X_i = A_i in the associated game."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2, p.54",
+  "quote": "satisfies extended justified representation (EJR) if for all \u2113-cohesive groups",
+  "note": "EJR, core, priceability and EJR+ are used as proportionality/fairness criteria in the results."
+ },
+ "C5.2": {
+  "code": "INPUT-STATED",
+  "loc": "Section 2, p.54",
+  "quote": "there is a voter \ud835\udc56 \u2208 \ud835\udc46 such that |\ud835\udc34\ud835\udc56 \u2229 \ud835\udf0b | \u2265 \u2113",
+  "note": "Criteria are defined on the approval ballots."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "IMPLICIT",
+   "loc_behav": "Section 3, p.55",
+   "quote_behav": "The goal of each player \ud835\udc56 \u2208 \ud835\udc41 is to maximize their utility.",
+   "loc_info": "Section 3, p.55",
+   "quote_info": "budgeting games are infinite normal-form games with a finite set",
+   "note": "Players of the budgeting game are the voters. Information is not discussed; complete information is inferred from the normal-form game and equilibrium concepts."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [
+   "NE",
+   "COAL",
+   "ITER"
+  ],
+  "loc": "Section 3, p.56; Section 4.2, p.57; Section 5, p.62",
+  "quote": "1-strong equilibria are more familiarly known as Nash equilibria",
+  "note": "Strong equilibria, alpha-core and superset equilibria are coalitional concepts. Improving-move dynamics are studied in Section 5."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 4.2, p.57",
+  "quote": "A strategy profile \ud835\udf40 is in the \ud835\udefc-core of a budgeting game"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.51",
+    "quote": "These rules, which are guaranteed to satisfy desirable fairness axioms"
+   },
+   {
+    "loc": "Abstract, p.51",
+    "quote": "A fundamental aim is to ensure that the elected committee proportionately represents"
+   }
+  ],
+  "note": "Claims concern fairness/proportional representation towards voters."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Introduction, p.52",
+  "quote": "voters whose preferences are expressed by granting, or withholding, approval",
+  "note": "Needed assumption: approval ballots reflect voters' preferences. It is stated, though without justification."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 2, 3, 7",
+  "quote": "none found",
+  "note": ""
+ }
+}

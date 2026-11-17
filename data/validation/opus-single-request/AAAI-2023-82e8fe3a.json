@@ -1,0 +1,175 @@
+{
+ "paper_id": "AAAI-2023-82e8fe3a",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p. 5591",
+  "quote": "allocate the seats of a fixed-size committee to parties based on",
+  "note": "Party-approval multiwinner voting rules."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SB"
+  ],
+  "primary": "AX",
+  "loc": "Abstract, p. 5591",
+  "quote": "these two axioms are incompatible for anonymous party-approval multiwinner voting rules",
+  "note": "The results are impossibility theorems and characterisations of axioms. Strategyproofness is one of these axioms, so SB is also coded."
+ },
+ "C2.1": {
+  "value": "approval ballots; approval profile",
+  "loc": "Section 2 Preliminaries, p. 5592",
+  "quote": "An approval profile A \u2208 An is the collection of the approval"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR",
+   "DICH"
+  ],
+  "loc": "Section 2, p. 5592",
+  "quote": "assumed to have a dichotomous preference relation over the parties",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p. 5592",
+  "quote": "Each voter i \u2208 N is assumed to have a dichotomous preference",
+  "note": "Voters' true preferences are referred to in the strategyproofness discussion."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2.2, p. 5593",
+  "quote": "we cannot expect the voters to submit their true preferences",
+  "note": "The ballot is defined as the set of approved parties. The text nonetheless says that a submitted ballot may differ from the true preference, i.e. that voters may misreport."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Sections 3 and 4, pp. 5594-5597",
+  "quote": "no voter can benefit by misreporting her true preferences",
+  "note": "Every main theorem involves strategyproofness or strategyproofness for unrepresented voters."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The paper uses 'benefit' and representation but none of the listed utility-type terms for voters."
+ },
+ "C4.2": {
+  "code": "Y",
+  "loc": "Section 2 and Section 2.2, pp. 5592-5593",
+  "quote": "assumption that voters are indifferent between their approved parties",
+  "note": "The paper states that voters partition parties into approved and disapproved. It also states that only the number of seats given to approved parties matters to voters."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2.1, p. 5593",
+  "quote": "every sufficiently large group of voters with similar preferences is represented",
+  "note": "Weak (proportional) representation axioms appear in Theorems 1-3."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 2.1, Definition 1, p. 5593",
+  "quote": "group of voters G such that |G| \u2265 nk and Ai = {x}",
+  "note": "Representation is evaluated on the profile A. The ballot is defined as the approved set, but C2.4 = DIST, so INPUT-STATED is not available; INPUT-UNSTATED was chosen in doubt."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Section 2.2, p. 5593",
+   "quote_behav": "a voter cannot benefit by lying about her true preferences",
+   "loc_info": "Sections 2, 2.2, 5 checked",
+   "quote_info": "none found",
+   "note": "Voters are strategic only as captured by the strategyproofness property."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "DOM"
+  ],
+  "loc": "Section 2.2, Definition 3, p. 5593",
+  "quote": "A party-approval rule f is strategyproof if f (A, k, Ai )",
+  "note": ""
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 2.2, p. 5593",
+  "quote": "Definition 3 (Strategyproofness)."
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 1 Introduction, p. 5592",
+    "quote": "proving an attractive escape route to our impossibility results."
+   },
+   {
+    "loc": "Section 5 Conclusion, p. 5597",
+    "quote": "thus offering an attractive escape route to our previous impossibility theorem."
+   },
+   {
+    "loc": "Section 1 Introduction, p. 5591",
+    "quote": "this assumption has recently been criticized because of its lack of"
+   }
+  ],
+  "note": "The claims recommend CCAV as an attractive rule."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 2.2, p. 5593",
+  "quote": "voters without any representation in the committee are more prone to manipulate",
+  "note": "The claims need: dichotomous preferences, that only the number of approved seats matters, and that only unrepresented voters manipulate. The paper states and argues for all three. Remark 4 limits the claim to k < m."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 2, 5",
+  "quote": "none found",
+  "note": ""
+ }
+}

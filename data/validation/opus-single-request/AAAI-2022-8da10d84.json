@@ -1,0 +1,158 @@
+{
+ "paper_id": "AAAI-2022-8da10d84",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p. 5092",
+  "quote": "computing committees with a given proportionality degree",
+  "note": "Approval-based committee elections; complexity of proportionality degree."
+ },
+ "C1": {
+  "types": [
+   "AL"
+  ],
+  "primary": "AL",
+  "loc": "Sections 3-6, pp. 5094-5097",
+  "quote": "PD-C OMMITTEE is NP-hard and coNP-hard",
+  "note": "All main results are complexity results: hardness, membership, FPT, structured domains, ILP."
+ },
+ "C2.1": {
+  "value": "election E = (C, V); approval sets A(v)",
+  "loc": "Section 2, p. 5093",
+  "quote": "endowed with a set A(v) \u2286 C of candidates that he or she approves"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Section 2, p. 5093",
+  "quote": "Each voter v \u2208 V is endowed with a set A(v)",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 6.2, p. 5098",
+  "quote": "whose opinions are close enough to their own",
+  "note": "Opinions appear only in an illustrative example. Approval sets are also called 'preferences' (candidate interval preferences)."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2, p. 5093; Section 6.2, p. 5097",
+  "quote": "Each voter v \u2208 V is endowed with a set A(v)",
+  "note": "Approval sets are described as something voters are endowed with, and as preferences. The rules and properties are applied to them directly, with no statement about reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-6",
+  "quote": "none found",
+  "note": "No strategic analysis."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Introduction, Preliminaries, Section 6, Conclusions",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 2, p. 5093",
+  "quote": "We define v's satisfaction with S as |A(v)\u2229S|",
+  "note": "Satisfaction is defined as the number of approved committee members."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "'Dichotomous preferences' appears only in reference titles."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2, Definitions 1-2, p. 5093",
+  "quote": "the average satisfaction of the voters in X is at least f(`)",
+  "note": "Proportionality degree, JR and EJR are used throughout the results."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 2, p. 5093",
+  "quote": "i.e., the number of committee members that v approves",
+  "note": ""
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2, p. 5093",
+   "quote_behav": "Each voter v \u2208 V is endowed with a set A(v)",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Approval sets are fixed by the model."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no strategic type."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "N",
+  "claims": [],
+  "note": "The introduction motivates PD as a measure of proportionality, and the conclusion restates complexity results. No claims about real institutions, voter well-being or which rule to use were found."
+ },
+ "C9.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction, Preliminaries, Conclusions",
+  "quote": "none found",
+  "note": ""
+ }
+}

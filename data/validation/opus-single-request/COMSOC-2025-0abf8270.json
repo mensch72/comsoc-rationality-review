@@ -1,0 +1,172 @@
+{
+ "paper_id": "COMSOC-2025-0abf8270",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.0",
+  "quote": "citizens decide how to allocate public funds among proposed projects",
+  "note": "Participatory budgeting / committee selection aggregating voters' ordinal preferences."
+ },
+ "C1": {
+  "types": [
+   "AX"
+  ],
+  "primary": "AX",
+  "loc": "Section 4, Theorem 4.1, p.7",
+  "quote": "there exists a 6.24-approximate core solution",
+  "note": "Existence results for approximate core outcomes. The algorithms are constructive tools; the conclusion leaves computational aspects to future work."
+ },
+ "C2.1": {
+  "value": "preference profiles of voters; preference order; ranking preference; approval preference",
+  "loc": "Section 2, p.3",
+  "quote": "the outcome space and the preference profiles of voters"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK",
+   "APPR"
+  ],
+  "loc": "Section 2, p.3; Section 5, Def. 5.2, p.10",
+  "quote": "Each agent i has a preference order \u2ab0i over O",
+  "note": "The general model uses strict orders over outcomes (bundles). Section 5 uses ranking preferences over items and approval sets Mi. Ties in ranking and approval preferences are broken into strict orders."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.3",
+  "quote": "Each agent i has a preference order \u2ab0i over O",
+  "note": "Preferences are attributed to agents."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2, p.3; Abstract",
+  "quote": "participants typically submit ordinal preferences\u2014such as rankings or approvals",
+  "note": "The core is defined directly on preferences. The paper makes no statement that reported preferences equal true ones."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-5",
+  "quote": "none found",
+  "note": "No misreporting is analysed."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Introduction, Section 2, Section 6",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 5, Def. 5.2, p.10",
+  "quote": "has a utility ui (S) = |S \u2229 Mi |",
+  "note": "Utility is defined for approval preferences. Section 3.1 uses utilities only in the classical cardinal model."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2, Def. 2.1-2.2, p.3-4",
+  "quote": "the number of agents who prefer o to o\u2217 is less than",
+  "note": "The proportional core is presented as fairness to groups of voters."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 2, p.3",
+  "quote": "Each agent i has a preference order \u2ab0i over O",
+  "note": ""
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2, p.3",
+   "quote_behav": "Each agent i has a preference order \u2ab0i over O",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters' preferences are fixed inputs. The agents' choices under random incomes in LEO and the 'producer' belong to a relaxation used as a proof device, not to strategic behaviour in the voting model."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only one type is present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.1",
+    "quote": "it ensures fairness and representation in all subgroups"
+   },
+   {
+    "loc": "Introduction, p.1",
+    "quote": "Eliciting cardinal valuations can be impractical, as voters cannot easily"
+   },
+   {
+    "loc": "Introduction, p.1",
+    "quote": "such approaches fail to capture the core challenge of PB"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 2, p.3",
+  "quote": "none found",
+  "note": "The fairness and representation claims require that the preferences the rule receives equal voters' held preferences. This is not stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction, Section 2, Section 6",
+  "quote": "none found",
+  "note": ""
+ }
+}

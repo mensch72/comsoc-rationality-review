@@ -1,0 +1,173 @@
+{
+ "paper_id": "COMSOC-2023-e81b4148",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "the goal is to select a committee (a subset) of k alternatives",
+  "note": "Approval-based multiwinner voting rules."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "WD"
+  ],
+  "primary": "AX",
+  "loc": "Abstract, p.1; Appendix G",
+  "quote": "we employ quantitative techniques that allow to measure the extent",
+  "note": "Most results are proportionality-degree guarantees, a quantitative version of axiomatic proportionality. Coded AX as primary, though WD fits partly. Appendix G gives utilitarian efficiency bounds (WD). LPs are used to bound guarantees, not to compute outcomes."
+ },
+ "C2.1": {
+  "value": "approval-based profile; approval set; approval-based preferences",
+  "loc": "Section 2, p.2",
+  "quote": "A is an approval-based profile (or, in short, a profile)"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Section 2, p.2",
+  "quote": "a function A : N \u2192 S(C) that maps each voter to a subset",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Introduction, Example 1, p.1; Section 2, p.2",
+  "quote": "having the following approval-based preferences",
+  "note": "The input itself is described as voters' preferences, i.e. candidates they find acceptable. No separate held attitude is defined."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2, p.2",
+  "quote": "A(i) consists of candidates that voter i finds acceptable",
+  "note": "Approval sets are described as preferences or acceptability and the rule is applied to them directly. There is no statement about submission or reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-4, Appendices",
+  "quote": "none found",
+  "note": "No strategic voting is analysed."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Introduction, Section 2, Section 5 (Conclusion), Appendices",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Appendix G, Definition 4",
+  "quote": "the total number of approvals that the candidates from the winning committee",
+  "note": "Utility and satisfaction are defined as numbers of approved committee members. Satisfaction is defined as the average number of representatives (Section 2.2)."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2.2 Definition 1; Appendix G Definition 4",
+  "quote": "We define the utilitarian efficiency of a rule as a lower bound",
+  "note": "Proportionality guarantees (representation of cohesive groups) and utilitarian efficiency are used."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 2.2, p.4",
+  "quote": "The satisfaction of the group V from a committee W",
+  "note": "Evaluated on approval sets, with no statement relating them to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Abstract, p.1",
+   "quote_behav": "each voter approves a subset of alternatives",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Approval sets are exogenous inputs."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N",
+   "note": "The mechanism designer is mentioned only outside the formal model."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Fewer than two types are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.2",
+    "quote": "our results suggest that PAV should be preferred whenever proportionality is"
+   },
+   {
+    "loc": "Section 3.1, p.6",
+    "quote": "Our results suggest that there is no reason to choose Phragm\u00e9n\u2019s"
+   },
+   {
+    "loc": "Section 4.4, p.11",
+    "quote": "Sequential PAV should be preferred over PAV and over Phragm\u00e9n\u2019s Sequential"
+   }
+  ],
+  "note": "The introduction also frames proportionality as fairness to groups of voters. The second claim is in Section 3.1, not in the abstract, introduction or conclusion. The intro gives an equivalent recommendation."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Introduction; Section 2",
+  "quote": "none found",
+  "note": "Recommendations for real elections, framed as fairness to voters, need approval sets to reflect voters' actual attitudes (sincere approval). This is not stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction, Section 2, Conclusion",
+  "quote": "none found",
+  "note": ""
+ }
+}

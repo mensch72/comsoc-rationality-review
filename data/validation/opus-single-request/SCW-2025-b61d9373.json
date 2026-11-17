@@ -1,0 +1,192 @@
+{
+ "paper_id": "SCW-2025-b61d9373",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Sect. 3 Model, p. 33",
+  "quote": "Election of the challenger requires a majority of the votes",
+  "note": "Borderline. This is a lobbying/electoral-competition model with a two-candidate majority election, studying the strategic behaviour of a candidate under micro-targeting. Coded as strategic aspects of a voting procedure."
+ },
+ "C1": {
+  "types": [
+   "EQ",
+   "SB"
+  ],
+  "primary": "EQ",
+  "loc": "Abstract, p. 27",
+  "quote": "The analysis fully characterizes the set of influential MT equilibria.",
+  "note": "Main results characterise PBE in which the challenger accepts or rejects interest-group offers. SB is added because the challenger's incentives to deviate are central."
+ },
+ "C2.1": {
+  "value": "votes (voters vote for the challenger or the incumbent)",
+  "loc": "Sect. 3 Timing, p. 35",
+  "quote": "vote either for or against the challenger"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Sect. 3, p. 35",
+  "quote": "vote either for or against the challenger",
+  "note": "Binary choice between two candidates (challenger vs incumbent), aggregated by majority with ties going to the incumbent."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sect. 3 Model, p. 33",
+  "quote": "Given implemented policy p, the utility of the group j",
+  "note": "Voters have ideal policies, issue weights alpha and utilities W_j."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Sect. 3, pp. 33, 35 (eq. 2)",
+  "quote": "All voters vote sincerely.",
+  "note": "The vote is a separate object, derived from comparing expected utility under posterior beliefs (eq. 2). IDS could also fit because of the sincerity statement; DIST is the first listed."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sect. 3 Model, p. 33",
+  "quote": "All voters vote sincerely.",
+  "note": "Voters vote sincerely given Bayesian beliefs; no strategic voting is analysed."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Sect. 3 Model, p. 33",
+  "quote": "All voters vote sincerely.",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Sect. 3 Model, p. 33",
+  "quote": "All voters vote sincerely.",
+  "note": "No reason is given for sincere voting."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C2.2 is OTH only (binary candidate vote)."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sect. 1, p. 29; Sect. 3.1, p. 35",
+  "quote": "influence simply means an IG\u2019s ability to change the policy outcome",
+  "note": "Results concern changes in policy outcome (influence) and polarisation, not welfare, efficiency or representation. Welfare is mentioned only as future research in the conclusion."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sect. 3 Model, p. 33",
+   "quote_behav": "All voters vote sincerely.",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters form Bayesian posteriors about which IG got access, but their vote choice is sincere."
+  },
+  "CAN": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Sect. 3 Strategies and Equilibrium, p. 35",
+   "quote_behav": "each agent takes an action that maximises its expected payoff given",
+   "loc_info": "Sect. 3 Model, p. 33",
+   "quote_info": "The challenger only knows the distribution of the voters\u2019 preferences",
+   "note": "The challenger is strategic. The incumbent is passive with a fixed policy."
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sect. 3 Strategies and Equilibrium, p. 35",
+   "quote_behav": "In that sense, IGs do not take any decision.",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Interest groups (IGs) make fixed offers to the challenger and endorse her to their members."
+  }
+ },
+ "C7.1": {
+  "code": "Y",
+  "loc": "Sect. 3, pp. 33, 35",
+  "quote": "In that sense, IGs do not take any decision.",
+  "note": "The challenger is STRAT; voters and interest groups are NONSTRAT."
+ },
+ "C7.2": {
+  "code": "REASON",
+  "loc": "Sect. 3 Strategies and Equilibrium, p. 35",
+  "quote": "Since there is no lobbying cost involved, we assume that the IGs",
+  "note": "A reason is given for the IGs' fixed behaviour (no lobbying cost). No reason is given for sincere voters."
+ },
+ "C8.1": {
+  "codes": [
+   "BNE"
+  ],
+  "loc": "Sect. 3, p. 35",
+  "quote": "The equilibrium concept is Perfect Bayesian Equilibrium (PBE) in pure strategies.",
+  "note": "Perfect Bayesian Equilibrium is coded as BNE, the closest category."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Sect. 3, p. 35",
+  "quote": "The equilibrium concept is Perfect Bayesian Equilibrium (PBE) in pure strategies."
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Sect. 6 Conclusion, p. 50",
+    "quote": "Our results may offer valuable insights into the real-world elections."
+   },
+   {
+    "loc": "Sect. 6 Conclusion, p. 50",
+    "quote": "MT can be a decisive factor in close elections"
+   },
+   {
+    "loc": "Sect. 6 Conclusion, p. 50",
+    "quote": "MT can contribute to political polarization by reinforcing existing beliefs"
+   }
+  ],
+  "note": "Claims about real elections and institutions; no welfare or rule-choice claims."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sect. 3, pp. 33-35",
+  "quote": "All voters vote sincerely.",
+  "note": "Needed assumptions are stated: sincere voters, a strategic challenger, the challenger's information, random single-IG access and passive IGs. The 'reinforcing beliefs' mechanism is not modelled, but this is an extrapolation rather than an unstated modelling assumption."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sect. 1, Sect. 3, Sect. 6",
+  "quote": "none found",
+  "note": ""
+ }
+}

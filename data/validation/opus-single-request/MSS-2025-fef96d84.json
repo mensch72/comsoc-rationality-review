@@ -1,0 +1,173 @@
+{
+ "paper_id": "MSS-2025-fef96d84",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "how different electoral systems either promote political polarization",
+  "note": "Compares voting rules on a restricted domain of polarized preference profiles."
+ },
+ "C1": {
+  "types": [
+   "AX"
+  ],
+  "primary": "AX",
+  "loc": "Sec. 2.2, p.3; Sec. 4.5 Table 4, p.13",
+  "quote": "Property PPC holds if, for a given profile, a voting rule",
+  "note": "Main results establish which rules satisfy the property PPC on which profiles."
+ },
+ "C2.1": {
+  "value": "preference profiles",
+  "loc": "Sec. 2.2, p.3",
+  "quote": "maps preference profiles into an electoral outcome"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK",
+   "APPR"
+  ],
+  "loc": "Sec. 2, p.2; Sec. 4.4, p.12",
+  "quote": "voters' preferences are anti-symmetric (strict)",
+  "note": "Approval sets appear only in the Approval Voting subsection (Sec. 4.4)."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec. 2, p.2",
+  "quote": "voters' top (best) preference is always identical with their votes",
+  "note": "Voters hold preference orderings, distinguished from votes."
+ },
+ "C2.4": {
+  "code": "IDJ",
+  "loc": "Sec. 2, p.2",
+  "quote": "As in Dasgupta and Maskin (2008) and most of the other",
+  "note": "The reason given is convention or scope (strategic considerations neglected), so IDJ and IDS fit about equally well; the first listed was chosen."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sec. 2, p.2; Sec. 4.3, p.10; Sec. 4.4, p.12-13",
+  "quote": "we neglect strategic considerations of voters",
+  "note": "Sec. 4.4 remarks that honest voting may not be compelling but does not analyse strategic voting."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Sec. 4.3, p.10",
+  "quote": "vote according to their original preference rankings",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "CONV",
+  "loc": "Sec. 2, p.2",
+  "quote": "As in Dasgupta and Maskin (2008) and most of the other",
+  "note": "Sec. 4.3 also says that the model does not account for strategic deliberations."
+ },
+ "C4.1": {
+  "code": "PART",
+  "loc": "Sec. 5, p.14",
+  "quote": "consideration of preference intensities inferred from ordinal data",
+  "note": "Preference intensities are mentioned only in the conclusion and are not defined."
+ },
+ "C4.2": {
+  "code": "N",
+  "loc": "Sec. 4.4, p.12",
+  "quote": "Assuming voters exhibit dichotomous preferences, AV possesses",
+  "note": "Cut-off levels are discussed, but the two classes are not defined in terms of utility."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sec. 2.2, p.3; Sec. 4, pp.5-13",
+  "quote": "none found",
+  "note": "The evaluation criterion is PPC (no polarizing winner), not welfare or representation."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sec. 4.3, p.10",
+   "quote_behav": "vote according to their original preference rankings",
+   "loc_info": "Sec. 2, p.2",
+   "quote_info": "the voters are perfectly informed about candidates' policy choice",
+   "note": "info coded NA because behaviour is non-strategic."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates serve only as alternatives; their incentives are discussed but no candidate action is modelled."
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is NA."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is strategic."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Sec. 5, p.13",
+    "quote": "polarizing candidates benefit considerably from the plurality rule"
+   },
+   {
+    "loc": "Sec. 5, p.13",
+    "quote": "the Borda count strongly discourages polarizing campaigns and promotes centripetal outcomes"
+   },
+   {
+    "loc": "Sec. 1, p.1",
+    "quote": "the often-used plurality rule (PR) has a substantial incentive to polarize"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sec. 2, p.2; Sec. 5, p.13",
+  "quote": "none found",
+  "note": "The claims about candidates' incentives and campaigns need a model of candidates choosing to polarize, which is not stated or modelled. Sincere voting is stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sec. 1, 2, 4.3, 5",
+  "quote": "none found",
+  "note": ""
+ }
+}
