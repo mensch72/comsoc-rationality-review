@@ -1,0 +1,32 @@
+{
+"paper_id":"AAMAS-2020-a97d8031","codebook_version":"0.1",
+"C0":{"code":"ELIG","loc":"Sec 1, p.1306","quote":"we conceptualize these problems in a voting scenario","note":"Districting under plurality, margin of victory; borderline but computational social choice."},
+"C1":{"types":["AL","SI","EM"],"primary":"AL","loc":"Sec 1.1, Sec 4, Sec 5","quote":"We show that the Fair Regrouping problem is NP-complete","note":"Heuristics evaluated on synthetic and real data."},
+"C2.1":{"value":"preferences / votes","loc":"Sec 3, p.1307","quote":"a set V of n voters along with their corresponding preferences"},
+"C2.2":{"codes":["RANK"],"loc":"Sec 3, p.1307; Thm 4.4 proof p.1308","quote":"Vote of vu , u ∈ V : x ≻ y","note":"Only most preferred alternative matters under plurality; votes written as rankings in proofs."},
+"C2.3":{"code":"Y","loc":"Sec 3, p.1307","quote":"Each voter has a most preferred alternative whom the voter votes for.","note":""},
+"C2.4":{"code":"IDS","loc":"Sec 3, p.1307","quote":"Each voter has a most preferred alternative whom the voter votes for.","note":"Vote equals top preference, no reason given."},
+"C3.1":{"code":"NONE","loc":"Whole paper","quote":"none found","note":"Voters are only moved, never misreport."},
+"C3.2":{"code":"STATED","loc":"Sec 3, p.1307","quote":"most preferred alternative whom the voter votes for","note":"Also students only 'vote' for their reported race (Sec 5.2.3)."},
+"C3.3":{"code":"NONE","loc":"Sec 3","quote":"none found","note":""},
+"C4.1":{"code":"NA","loc":"Whole paper","quote":"","note":"No utility, welfare, satisfaction, cost or distortion notions used."},
+"C4.2":{"code":"NA","loc":"Whole paper","quote":"","note":"Term not used."},
+"C5.1":{"code":"Y","loc":"Sec 1, p.1306; Sec 6, p.1312","quote":"minimizing margin of victory leads to better representation of opposition parties","note":""},
+"C5.2":{"code":"INPUT-STATED","loc":"Sec 3 and Sec 6","quote":"Each voter has a most preferred alternative whom the voter votes for.","note":"Representation evaluated on votes, which are stated to be top preferences."},
+"C6":{
+"VOT":{"present":"Y","behav":"NONSTRAT","behav_stated":"IMPLICIT","info":"NA","info_stated":"NA","loc_behav":"Sec 3, p.1307","quote_behav":"Each voter has a most preferred alternative whom the voter votes for.","loc_info":"","quote_info":"","note":"Voters are moved subject to mobility constraints; fixed votes."},
+"CAN":{"present":"N","note":"Alternatives are parties or races, no agents."},
+"ORG":{"present":"N","note":""},
+"DIS":{"present":"Y","behav":"STRAT","behav_stated":"EXPLICIT","info":"COMPLETE","info_stated":"IMPLICIT","loc_behav":"Sec 1, p.1305","quote_behav":"the maximum margin of victory of any group is minimized","loc_info":"Sec 3, p.1307","quote_info":"none found","note":"Designer / policy-maker optimises margin of victory knowing all votes; information inferred from the formal model."},
+"BRI":{"present":"N","note":""},
+"DES":{"present":"N","note":""},
+"OTH":{"present":"N","note":""}
+},
+"C7.1":{"code":"Y","loc":"Sec 3","quote":"none found","note":"DIS STRAT (optimiser), VOT NONSTRAT."},
+"C7.2":{"code":"NONE","loc":"Sec 3, Sec 1","quote":"none found","note":""},
+"C8.1":{"codes":["OTH"],"loc":"Sec 3-5","quote":"none found","note":"Single-agent optimisation (NP-hardness, DP, greedy); no game-theoretic concept."},
+"C8.2":{"code":"N","loc":"Sec 3-5","quote":"none found"},
+"C9.1":{"code":"Y","claims":[{"loc":"Sec 1, p.1306","quote":"it would lead to higher accountability from the elected candidate"},{"loc":"Sec 1, p.1306","quote":"everyone's opinion is valued, since the consensus of the group can be changed"},{"loc":"Sec 6, p.1312","quote":"minimizing margin of victory leads to better representation of opposition parties"}],"note":""},
+"C9.2":{"code":"SOME-UNSTATED","loc":"Sec 1 and Sec 6","quote":"none found","note":"Link from low margin of victory to accountability, voter well-being and representation is not formally stated; sincerity is stated; designer information not stated."},
+"C10.1":{"code":"N","loc":"Whole paper","quote":"none found","note":""}
+}

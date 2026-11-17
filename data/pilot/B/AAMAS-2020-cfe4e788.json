@@ -1,0 +1,39 @@
+{
+  "paper_id": "AAMAS-2020-cfe4e788",
+  "codebook_version": "0.1",
+  "C0": {"code": "ELIG", "loc": "Abstract, p.366", "quote": "we are given an election and we ask how many votes need", "note": "Computational study of bribery in voting."},
+  "C1": {"types": ["AL", "SB"], "primary": "AL", "loc": "Abstract; Sec. 1, p.367", "quote": "we design polynomial-time algorithms for Swap Bribery under Plurality", "note": "Bribery is a strategic-behaviour problem; results are algorithms."},
+  "C2.1": {"value": "election; votes", "loc": "Sec. 2, p.367", "quote": "Votes are preference orders, ranking the candidates from the most"},
+  "C2.2": {"codes": ["RANK"], "loc": "Sec. 2, p.367", "quote": "Votes are preference orders, ranking the candidates from the most", "note": ""},
+  "C2.3": {"code": "Y", "loc": "Abstract; Sec. 2", "quote": "preferences are known to be single-peaked or single-crossing", "note": "Votes called preference orders; also 'genuinely change their minds'."},
+  "C2.4": {"code": "IDU", "loc": "Sec. 2, p.367", "quote": "Votes are preference orders, ranking the candidates from the most", "note": "Votes described as preferences and rule applied directly; no statement on reporting."},
+  "C3.1": {"code": "NONE", "loc": "Whole paper", "quote": "none found", "note": "Voters are bribed by an external briber; no voter misreporting is analysed."},
+  "C3.2": {"code": "NOT-STATED", "loc": "Sec. 1, 2, 6", "quote": "none found", "note": "No statement that voters submit their held attitude."},
+  "C3.3": {"code": "NA", "loc": "", "quote": "", "note": "C3.2 is not STATED"},
+  "C4.1": {"code": "NA", "loc": "Whole paper", "quote": "", "note": "Only 'cost' of bribery (price functions) appears; no voter utility, welfare or satisfaction is used, so treated as not applicable."},
+  "C4.2": {"code": "NA", "loc": "", "quote": "", "note": "Term dichotomous not used"},
+  "C5.1": {"code": "N", "loc": "Whole paper", "quote": "none found", "note": "Candidate success/performance is discussed, not voter welfare or efficiency."},
+  "C5.2": {"code": "NA", "loc": "", "quote": "", "note": "C5.1 = N"},
+  "C6": {
+    "VOT": {"present": "Y", "behav": "NONSTRAT", "behav_stated": "IMPLICIT", "info": "NA", "info_stated": "NA",
+            "loc_behav": "Sec. 3, p.368", "quote_behav": "we do not actually bribe voters, but only measure", "loc_info": "", "quote_info": "", "note": "Voters are passive: their votes are changed by the briber for a price."},
+    "CAN": {"present": "N", "note": "Preferred candidate p is not modelled as an agent taking actions; the briber acts."},
+    "ORG": {"present": "N"},
+    "DIS": {"present": "N"},
+    "BRI": {"present": "Y", "behav": "STRAT", "behav_stated": "EXPLICIT", "info": "COMPLETE", "info_stated": "IMPLICIT",
+            "loc_behav": "Sec. 1 and 3, p.367-368", "quote_behav": "we can pay the voters to shift p forward in their rankings", "loc_info": "Sec. 3, p.368", "quote_info": "we are given an election E = (C, V )", "note": "Briber minimises cost to make p win; knows the full election as input."},
+    "DES": {"present": "N"},
+    "OTH": {"present": "N"}
+  },
+  "C7.1": {"code": "Y", "loc": "Sec. 3, p.368", "quote": "we are given an election E = (C, V )", "note": "BRI strategic, VOT non-strategic."},
+  "C7.2": {"code": "NONE", "loc": "Sec. 1, 3", "quote": "none found", "note": ""},
+  "C8.1": {"codes": ["DEV"], "loc": "Sec. 3, p.368", "quote": "Our goal is to ensure that p is a winner", "note": "Minimum-cost bribery as an optimisation problem."},
+  "C8.2": {"code": "N", "loc": "Sec. 1, 3", "quote": "none found"},
+  "C9.1": {"code": "Y", "claims": [
+    {"loc": "Abstract, p.366", "quote": "These problems model various real-life scenarios"},
+    {"loc": "Sec. 1, p.366", "quote": "this measure enables us to check how well a given candidate"},
+    {"loc": "Sec. 1, p.367", "quote": "shift bribery costs sometimes fail to capture the candidates’ true performance"}
+  ], "note": "Claims about modelling real-life scenarios and measuring candidate success."},
+  "C9.2": {"code": "SOME-UNSTATED", "loc": "Sec. 1, p.366", "quote": "the cost of shifting a driver A by a given number", "note": "Link between price functions and real difficulty is only given by example; how votes relate to genuine preferences is not stated."},
+  "C10.1": {"code": "N", "loc": "Sec. 1, 2, 6", "quote": "none found", "note": ""}
+}

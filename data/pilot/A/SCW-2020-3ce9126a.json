@@ -1,0 +1,43 @@
+{
+  "paper_id": "SCW-2020-3ce9126a",
+  "codebook_version": "0.1",
+  "C0": {"code": "ELIG", "loc": "Abstract, p.1", "quote": "five-member committees make distributional decisions using the voting mechanism ‘voting by veto’", "note": "Laboratory experiment on group decisions under the voting-by-veto procedure (proposals plus sequential vetoes)."},
+  "C1": {"types": ["EM"], "primary": "EM", "loc": "Abstract, p.1; Sect. 5, pp.8-17", "quote": "I test my claim in a series of laboratory experiments", "note": "Sect. 4 gives illustrative examples of backward-induction and coalition reasoning drawn from prior work (Mueller 1978), but the paper's main results are experimental."},
+  "C2.1": {"value": "proposals (distributions of 100 points); vetoes (each voter eliminates one alternative)", "loc": "Sect. 1, p.2; Sect. 3, p.5", "quote": "in the first stage, every group member proposes a distribution"},
+  "C2.2": {"codes": ["OTH"], "loc": "Sect. 3, p.5", "quote": "Then voters sequentially eliminate one alternative each.", "note": "Two-stage input: each member submits a proposed allocation of 100 points (non-negative integers), then members veto one alternative each in a random sequence. Neither stage is a ranking, approval set or score vector."},
+  "C2.3": {"code": "Y", "loc": "Sect. 4, p.7", "quote": "Equal proposals rank relatively high in all group members’ preference rankings.", "note": "The paper also mentions material self-interest, social preferences, and prosocial preferences measured by a dictator game (Sect. 2, Sect. 5.2)."},
+  "C2.4": {"code": "DIST", "loc": "Sect. 3, footnote 2, p.5", "quote": "do not have an incentive to misrepresent their preferences", "note": "The text allows that submitted proposals and vetoes could misrepresent preferences, and Sect. 4 shows coordinated proposals that differ from sincere ones. IDJ also fits partly, since footnote 2 argues that the random voting order gives an incentive to be sincere, so DIST (listed first) was chosen."},
+  "C3.1": {"code": "ALL", "loc": "Sect. 4, pp.6-8; Sect. 5.1-5.3", "quote": "Voter 2 and Voter 3 coordinate their proposals and agree to split", "note": "Both theoretical tendencies use strategic reasoning: backward-induction vetoing when there is no coordination, and coalitional proposals when there is. The experimental analyses study coalition formation among freely acting subjects. SOME is possible if the descriptive classification analyses are counted separately; ALL (listed first) was chosen."},
+  "C3.2": {"code": "NA", "loc": "", "quote": "", "note": "C3.1 = ALL. Footnote 2 does say that members have an incentive to state proposals and rank sincerely (citing Felsenthal and Machover 1992)."},
+  "C3.3": {"code": "NA", "loc": "", "quote": "", "note": "C3.2 is not STATED."},
+  "C4.1": {"code": "NA", "loc": "", "quote": "", "note": "C2.2 contains only OTH (point allocations and vetoes), so the applicability condition is not met."},
+  "C4.2": {"code": "NA", "loc": "", "quote": "", "note": "The term 'dichotomous preferences' is not used."},
+  "C5.1": {"code": "Y", "loc": "Abstract, p.1", "quote": "exclude a minority of group members from the distribution of benefits", "note": "Claims concern distributional fairness and equality, and the exclusion of minorities from benefits (majority tyranny); footnote 1 refers to the minority's interests being reflected in decisions."},
+  "C5.2": {"code": "HELD", "loc": "Sect. 3, p.5", "quote": "receive the number of points assigned to them in the winning alternative", "note": "Outcomes are evaluated on the points (paid at €0.16 per point) that each member receives in the chosen alternative. These are induced payoffs defined by the design, separate from the submitted proposals and vetoes."},
+  "C6": {
+    "VOT": {"present": "Y", "behav": "STRAT", "behav_stated": "EXPLICIT", "info": "COMPLETE", "info_stated": "IMPLICIT",
+            "loc_behav": "Sect. 4, p.7", "quote_behav": "Rational voters will use backwards induction",
+            "loc_info": "Sect. 4, p.7", "quote_info": "it is the least preferred alternative of Voter 2",
+            "note": "The backward-induction illustration presupposes that voters know the others' preferences over the remaining alternatives, but this is never said. In the experiment, subjects are free human decision makers who can coordinate in the chat treatments."},
+    "CAN": {"present": "Y", "behav": "STRAT", "behav_stated": "EXPLICIT", "info": "NS", "info_stated": "NA",
+            "loc_behav": "Sect. 4, p.7", "quote_behav": "repetition induces competition among committee members to make more equally distributed proposals",
+            "loc_info": "Sect. 1; Sect. 3; Sect. 4; Sect. 6", "quote_info": "none found",
+            "note": "The proponents of alternatives are the voters themselves, each proposing a distribution in stage 1. Footnote 2 says only that they do not know the voting order when proposing, which is not information about others' attitudes or inputs."},
+    "ORG": {"present": "N", "note": "The computer randomly sets the voting order and adds the status quo; there is no organiser agent."},
+    "DIS": {"present": "N"},
+    "BRI": {"present": "N"},
+    "DES": {"present": "N", "note": "VBV's suitability is discussed normatively, but no designer choice or objective is modelled."},
+    "OTH": {"present": "N"}
+  },
+  "C7.1": {"code": "N", "loc": "Sect. 4, pp.6-8", "quote": "Rational voters will use backwards induction", "note": "Both present types (VOT, and CAN, who are the same agents) are STRAT."},
+  "C7.2": {"code": "NA", "loc": "", "quote": "", "note": "C7.1 is not Y."},
+  "C8.1": {"codes": ["SPE", "COAL"], "loc": "Sect. 4, pp.7-8", "quote": "Rational voters will use backwards induction", "note": "The no-coordination prediction uses backward induction. The coordination prediction uses an informal coalitional argument: 'when at least half of the group forms a coalition' it can guarantee its outcome. A Nash equilibrium is named only for the auxiliary guessing game (Sect. 5.2), not for the voting procedure."},
+  "C8.2": {"code": "Y", "loc": "Sect. 4, p.7", "quote": "Rational voters will use backwards induction"},
+  "C9.1": {"code": "Y", "claims": [
+    {"loc": "Sect. 6 Conclusion, p.17", "quote": "My findings have important implications for the real-world applicability of VBV."},
+    {"loc": "Sect. 6 Conclusion, p.17", "quote": "VBV’s liability to fall prey to the tyranny of the majority"},
+    {"loc": "Sect. 6 Conclusion, p.18", "quote": "public deliberation fosters prosociality in group decisions"}
+  ], "note": "Claims concern institutional applicability of VBV and fairness towards minorities."},
+  "C9.2": {"code": "ALL-STATED", "loc": "Sect. 3, p.5; Sect. 5, p.8; Sect. 6, pp.17-18", "quote": "generalizability of this finding, however, has to be evaluated", "note": "The needed assumptions are stated: that benefits are the induced point payoffs (Sect. 3); that subjects act freely, with or without coordination (Sect. 3-4); that the sample is students (Sect. 5); and that generalizing to real institutions is limited and needs further research (Sect. 6). The input-attitude relation is not needed because outcomes are evaluated on points."},
+  "C10.1": {"code": "N", "loc": "Abstract; Sect. 1; Sect. 3; Sect. 4; Sect. 6", "quote": "none found", "note": ""}
+}

@@ -1,0 +1,38 @@
+{
+  "paper_id": "IJCAI-2020-66ae0b81",
+  "codebook_version": "0.1",
+  "C0": {"code": "ELIG", "loc": "Abstract, p.189", "quote": "of committee selection in which the candidates are", "note": "Multiwinner committee selection (k-Borda, CC, Gehrlein stability) under candidate-graph constraints; computational aspects."},
+  "C1": {"types": ["AL"], "primary": "AL", "loc": "Section 2, p.191", "quote": "We study the complexity of finding connected committees.", "note": "All main results are NP-hardness, W-hardness, FPT and exact exponential-time algorithms (Table 1)."},
+  "C2.1": {"value": "ordinal votes; preference profile; voter preferences", "loc": "Section 1, Definition 1, p.190; Section 1, p.190", "quote": "of m candidates, C, a collection of n ordinal votes over C,"},
+  "C2.2": {"codes": ["RANK"], "loc": "Section 1, 'Voter Preferences and Multiwinner Rules', p.190", "quote": "n ordinal votes (i.e., rankings) of C, and a committee", "note": "For GS the algorithms work on the majority graph derived from the rankings (instance (M, H, k)); the rule's argument is still the profile of rankings, so PAIR not coded."},
+  "C2.3": {"code": "Y", "loc": "Section 1, p.189", "quote": "correspond to the voter opinions. The study of selecting", "note": "Voters are described as expressing preferences and having opinions; these are not defined separately from the votes."},
+  "C2.4": {"code": "IDU", "loc": "Section 1, p.189; Section 1, Definition 1 context, p.190", "quote": "is a preference profile over candidates C and voter set V, H", "note": "The input is called a 'preference profile' / 'voter preferences' and the rule is applied to it directly; no statement on submission or reporting. ONE also considered since inputs are also called 'votes', but the paper refers to voter preferences/opinions."},
+  "C3.1": {"code": "NONE", "loc": "checked: Abstract, Section 1 (incl. 1.1, 1.2), Sections 2-3, Section 4 Future Direction", "quote": "none found", "note": "Manipulation mentioned only as prior work ('complexity of related manipulative actions'); all analyses take votes as given."},
+  "C3.2": {"code": "NOT-STATED", "loc": "checked: Abstract, Section 1 'Voter Preferences and Multiwinner Rules', 'Voter Preferences and Candidate Networks', Definition 1, Sections 1.1-1.2, Section 4 Future Direction", "quote": "none found", "note": ""},
+  "C3.3": {"code": "NA", "loc": "", "quote": "", "note": "C3.2 = NOT-STATED."},
+  "C4.1": {"code": "NA", "loc": "", "quote": "", "note": "No utility, welfare, satisfaction, distortion or intensity notion applied to voters; 'cost' occurs only for terminal Steiner tree weights (footnote 2), and rules are defined via scores."},
+  "C4.2": {"code": "NA", "loc": "", "quote": "", "note": "Term 'dichotomous preferences' or equivalent not used."},
+  "C5.1": {"code": "Y", "loc": "Section 1, 'Voter Preferences and Multiwinner Rules', p.190", "quote": "CC is NP-hard and aims at identifying committees echoing", "note": "Borderline: representation claims appear only in motivating descriptions of the rules (CC echoing all views in society; committee corresponding to voter opinions); no formal welfare result. Y chosen as first listed under doubt."},
+  "C5.2": {"code": "INPUT-UNSTATED", "loc": "Section 1, p.190", "quote": "a committee out of which the candidate she ranks the", "note": "Representation is assessed via scores computed on the votes; no statement relating votes to held attitudes."},
+  "C6": {
+    "VOT": {"present": "Y", "behav": "NONSTRAT", "behav_stated": "IMPLICIT", "info": "NA", "info_stated": "NA",
+            "loc_behav": "Section 1, Definition 1, p.190", "quote_behav": "of m candidates, C, a collection of n ordinal votes over C,", "loc_info": "", "quote_info": "", "note": "Votes are given as part of the problem instance; voters never choose actions."},
+    "CAN": {"present": "N", "behav": "", "behav_stated": "", "info": "", "info_stated": "", "loc_behav": "", "quote_behav": "", "loc_info": "", "quote_info": "", "note": "Candidates are vertices of the candidate graph with compatibility relations; they take no actions and their interests are not discussed."},
+    "ORG": {"present": "N", "behav": "", "behav_stated": "", "info": "", "info_stated": "", "loc_behav": "", "quote_behav": "", "loc_info": "", "quote_info": "", "note": "No organiser/chair modelled; committee selection is a computational task."},
+    "DIS": {"present": "N", "behav": "", "behav_stated": "", "info": "", "info_stated": "", "loc_behav": "", "quote_behav": "", "loc_info": "", "quote_info": "", "note": ""},
+    "BRI": {"present": "N", "behav": "", "behav_stated": "", "info": "", "info_stated": "", "loc_behav": "", "quote_behav": "", "loc_info": "", "quote_info": "", "note": ""},
+    "DES": {"present": "N", "behav": "", "behav_stated": "", "info": "", "info_stated": "", "loc_behav": "", "quote_behav": "", "loc_info": "", "quote_info": "", "note": "Rule and graph property are chosen by the authors, not modelled as a designer's choice."},
+    "OTH": {"present": "N", "behav": "", "behav_stated": "", "info": "", "info_stated": "", "loc_behav": "", "quote_behav": "", "loc_info": "", "quote_info": "", "note": ""}
+  },
+  "C7.1": {"code": "NA", "loc": "", "quote": "", "note": "Only one type (VOT) present."},
+  "C7.2": {"code": "NA", "loc": "", "quote": "", "note": "C7.1 = NA."},
+  "C8.1": {"codes": [], "loc": "", "quote": "", "note": "NA: no type is STRAT or MIXED."},
+  "C8.2": {"code": "NA", "loc": "", "quote": ""},
+  "C9.1": {"code": "Y", "claims": [
+    {"loc": "Section 1, 'Candidate Networks and Graph Properties', p.190", "quote": "should also be considered in parliamentary elections, which"},
+    {"loc": "Section 1, 'Candidate Networks and Graph Properties', p.190", "quote": "it would be natural to select a committee that is"},
+    {"loc": "Section 1.2, p.191", "quote": "small in many real-life scenarios such as in shortlisting tasks,"}
+  ], "note": "Claims about real institutions (candidate compatibility in parliamentary elections), which committees should be selected (connected / independent), and practical relevance of parameterised results."},
+  "C9.2": {"code": "SOME-UNSTATED", "loc": "checked: Abstract, Section 1, Sections 1.1-1.2, Section 4", "quote": "none found", "note": "Claims that selected committees should be chosen while 'taking voter preferences into consideration' in real settings (e.g. parliamentary elections, router placement) require that submitted votes reflect voters' preferences and that voters do not act strategically; neither is stated."},
+  "C10.1": {"code": "N", "loc": "checked: Abstract, Section 1, Definition 1, Sections 1.1-1.2, Section 4", "quote": "none found", "note": ""}
+}

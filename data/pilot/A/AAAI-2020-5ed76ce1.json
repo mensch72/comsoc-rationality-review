@@ -1,0 +1,39 @@
+{
+  "paper_id": "AAAI-2020-5ed76ce1",
+  "codebook_version": "0.1",
+  "C0": {"code": "ELIG", "loc": "Abstract, p. 2103", "quote": "In this paper we introduce a new voting formalism to support", "note": "Approval-based voting rules for sequences of collective decisions (perpetual voting)."},
+  "C1": {"types": ["AX", "SI", "OT"], "primary": "AX", "loc": "Abstract, p. 2103; Sections 4 and 6, pp. 2106-2109", "quote": "voting rules via an axiomatic analysis as well as a quantitative", "note": "Main results are axiomatic (Props 1-5, Thms 1-4) and simulations on synthetic 2D Euclidean data. OT: the paper names the introduction of the perpetual voting formalism, axioms and metrics as its main contribution (modelling proposal). Polynomial-time computability is only a one-line remark, not coded AL."},
+  "C2.1": {"value": "approval profile / approval ballots (k-tuple of approval profiles = k-decision sequence)", "loc": "Section 1, p. 2103; Section 2, p. 2104", "quote": "based on approval ballots"},
+  "C2.2": {"codes": ["APPR"], "loc": "Section 2, p. 2104", "quote": "each voter v ∈ N approves some non-empty subset of C", "note": ""},
+  "C2.3": {"code": "Y", "loc": "Section 7, p. 2109", "quote": "voters to misrepresent their preferences (or abstain)", "note": "Preferences distinct from the submitted approval set are referred to in the Discussion; the simulations also give voters positions in the plane from which approval sets are generated (Section 6, p. 2108)."},
+  "C2.4": {"code": "DIST", "loc": "Section 7, p. 2109", "quote": "voters to misrepresent their preferences (or abstain)", "note": "Doubt with IDU: in the formal model (Sections 2-3) the approval profile itself is called 'the preferences in Ak+1' and the rule is applied to it with no reporting statement; only the Discussion says submitted inputs may differ from preferences. DIST listed first."},
+  "C3.1": {"code": "NONE", "loc": "Sections 4, 6, 7, pp. 2106-2110", "quote": "It requires further work to understand the impact of the", "note": "Strategic misreporting (freerider effect) is only mentioned as future work in Section 7; no analysis models it. The 'fake decisions' motivation of Definition 3 concerns agenda manipulation, not voter misreporting."},
+  "C3.2": {"code": "NOT-STATED", "loc": "Checked: Abstract and Section 1 (p. 2103-2104), Section 2 model (p. 2104), Section 3 (pp. 2105-2106), Section 6 (p. 2108), Section 7 conclusion (pp. 2109-2110)", "quote": "none found", "note": "Section 2 only says voters approve a subset; no statement that approvals are sincere."},
+  "C3.3": {"code": "NA", "loc": "", "quote": "", "note": "C3.2 is not STATED."},
+  "C4.1": {"code": "SPEC", "loc": "Section 3 (Perpetual Nash), p. 2106; Definition 1, p. 2105", "quote": "the voters’ utility is their satisfaction if their satisfaction is", "note": "Satisfaction is defined as the number of rounds in which the chosen alternative is approved; for Perpetual Nash utility is defined as this satisfaction (epsilon if 0). Simulations also generate approvals from a spatial model (Section 6)."},
+  "C4.2": {"code": "NA", "loc": "", "quote": "", "note": "The term 'dichotomous preferences' or an equivalent is not used."},
+  "C5.1": {"code": "Y", "loc": "Section 5, p. 2107", "quote": "degree voters receive at least a “fair share” of favorable", "note": "Claims about proportionality/fairness to voters and minorities, voter satisfaction, influence inequality (Gini) and Nash welfare."},
+  "C5.2": {"code": "INPUT-UNSTATED", "loc": "Definition 1, p. 2105; Definitions 5-7, p. 2107", "quote": "The satisfaction of voter v ∈ N in round j is", "note": "Satisfaction, quota, influence and Nash welfare are all computed from approval profiles; the paper does not state that approvals equal held preferences nor that the evaluation is with respect to reported inputs."},
+  "C6": {
+    "VOT": {"present": "Y", "behav": "NONSTRAT", "behav_stated": "IMPLICIT", "info": "NA", "info_stated": "NA",
+            "loc_behav": "Section 2, p. 2104", "quote_behav": "each voter v ∈ N approves some non-empty subset of C", "loc_info": "", "quote_info": "",
+            "note": "Approval profiles are exogenous in all analyses; in the simulations voters' approvals follow a fixed distance rule (Section 6, p. 2108). Strategic behaviour (freerider effect) is only discussed as an open issue in Section 7."},
+    "CAN": {"present": "N", "note": "Alternatives are objects, not agents; no candidate interests discussed."},
+    "ORG": {"present": "N", "note": "Definition 3 is motivated by someone 'putting fake decisions on the agenda' (Section 1, p. 2104; Section 4, p. 2106), but no such agent is modelled."},
+    "DIS": {"present": "N"},
+    "BRI": {"present": "N"},
+    "DES": {"present": "N", "note": "Rules are compared by the author; no designer choice or objective is modelled."},
+    "OTH": {"present": "N"}
+  },
+  "C7.1": {"code": "NA", "loc": "", "quote": "", "note": "Only one type (voters) present."},
+  "C7.2": {"code": "NA", "loc": "", "quote": "", "note": "C7.1 is not Y."},
+  "C8.1": {"codes": [], "loc": "", "quote": "", "note": "NA: no type is STRAT or MIXED."},
+  "C8.2": {"code": "NA", "loc": "", "quote": ""},
+  "C9.1": {"code": "Y", "claims": [
+    {"loc": "Abstract, p. 2103", "quote": "voting rules as particularly recommendable in long-term"},
+    {"loc": "Abstract, p. 2103", "quote": "such rules may enable minorities to have a fair (proportional)"},
+    {"loc": "Section 7, p. 2109", "quote": "cannot be recommended in the considered settings"}
+  ], "note": "Recommendation of Perpetual Consensus and Perpetual Quota; fairness to and participation of minorities; RSD not recommended for short decision sequences."},
+  "C9.2": {"code": "SOME-UNSTATED", "loc": "Section 7, pp. 2109-2110", "quote": "It requires further work to understand the impact of the", "note": "Stated: utility/satisfaction defined from approvals (Def. 1, Perpetual Nash). Unstated: that submitted approval sets equal voters' held preferences, and that voters do not act strategically (the freerider effect is acknowledged in Section 7 but its impact is left open); the claim that minorities are incentivized to participate also needs an unstated behavioural assumption."},
+  "C10.1": {"code": "N", "loc": "Checked: Abstract, Section 1, Section 2, Section 7", "quote": "none found", "note": ""}
+}

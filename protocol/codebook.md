@@ -117,7 +117,7 @@ In experiments with human participants who choose their inputs freely, code ALL 
 
 ## C4. Link to utilities
 
-**Applicability.** C4.1 applies if C2.2 includes RANK, WEAK, APPR, DICH or PAIR **and** the paper uses any of: utility, welfare, satisfaction, cost, distortion, intensity of preference. Otherwise NA.
+**Applicability.** C4.1 applies if C2.2 includes RANK, WEAK, APPR, DICH or PAIR **and** the paper uses, for voters, any of: utility, welfare, satisfaction, cost, distortion, intensity of preference. Costs or budgets of other agents (e.g. a briber's costs) do not count. Otherwise NA.
 
 **C4.1 Link specified.**
 

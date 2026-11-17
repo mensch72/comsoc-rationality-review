@@ -1,0 +1,39 @@
+{
+  "paper_id": "AAMAS-2020-8d22fd28",
+  "codebook_version": "0.1",
+  "C0": {"code": "ELIG", "loc": "Abstract; Sec 1, p.168", "quote": "justification for a given choice in the context of a given corpus", "note": "Justifying outcomes of voting rules via axioms; axiomatic/computational aspects of voting."},
+  "C1": {"types": ["AX", "AL", "OT"], "primary": "AL", "loc": "Sec 1 Contribution, p.169; Sec 4, p.174", "quote": "we develop a definition of the notion of justification", "note": "Main results: conceptual definition of justification (OT), Theorem 1 coherence (AX), encoding/MUS algorithm (AL), exhaustive computational experiment on 3 agents/3 alternatives (not real data nor sampled simulation, so not coded SI/EM). Primary AL by number of results; borderline with OT."},
+  "C2.1": {"value": "profile of preferences; declared preferences", "loc": "Sec 1 p.168; Sec 2 p.169", "quote": "Given such a profile of individual preferences"},
+  "C2.2": {"codes": ["RANK"], "loc": "Sec 2.1, p.170", "quote": "set of all strict linear orders on X", "note": ""},
+  "C2.3": {"code": "Y", "loc": "Sec 1, p.168", "quote": "They each have their own subjective preferences over the set", "note": ""},
+  "C2.4": {"code": "IDU", "loc": "Sec 2, p.169; Sec 5 p.175", "quote": "declared preferences of several agents", "note": "Preferences are the rule's input, described alternately as preferences, declared and reported preferences, with a single notation; no statement of sincerity or of a gap."},
+  "C3.1": {"code": "NONE", "loc": "Whole paper", "quote": "none found", "note": "No strategic misreporting analysed; strategyproofness only mentioned in passing as a hard axiom."},
+  "C3.2": {"code": "NOT-STATED", "loc": "Sec 2, Sec 5, Sec 1", "quote": "none found", "note": "No statement that voters submit their held preferences."},
+  "C3.3": {"code": "NA", "loc": "", "quote": "", "note": "C3.2 is not STATED."},
+  "C4.1": {"code": "NA", "loc": "Whole paper", "quote": "", "note": "No utility, welfare, satisfaction, cost or distortion notion used."},
+  "C4.2": {"code": "NA", "loc": "", "quote": "", "note": "Term not used."},
+  "C5.1": {"code": "N", "loc": "Sec 2.1, p.170; Sec 4", "quote": "none found", "note": "Pareto and Condorcet appear only as axioms used in explanations; no results about welfare or efficiency of outcomes."},
+  "C5.2": {"code": "NA", "loc": "", "quote": "", "note": "C5.1 = N."},
+  "C6": {
+    "VOT": {"present": "Y", "behav": "NONSTRAT", "behav_stated": "IMPLICIT", "info": "NA", "info_stated": "NA",
+            "loc_behav": "Sec 2.1, p.170", "quote_behav": "A profile for an electorate N declaring preferences is a function", "loc_info": "", "quote_info": "", "note": "Agents appear only as given preference inputs; fixed by the model."},
+    "CAN": {"present": "N"},
+    "ORG": {"present": "N", "note": "Committee in Example 1 is an illustration, not an agent of the model."},
+    "DIS": {"present": "N"},
+    "BRI": {"present": "N"},
+    "DES": {"present": "N"},
+    "OTH": {"present": "Y", "behav": "NS", "behav_stated": "NA", "info": "NS", "info_stated": "NA",
+            "loc_behav": "Sec 2.2, p.170", "quote_behav": "to a particular audience", "loc_info": "", "quote_info": "", "note": "Audience of the justification, whose interests/acceptance of axioms are discussed; behaviour not modelled."}
+  },
+  "C7.1": {"code": "N", "loc": "Sec 2", "quote": "none found", "note": "No type modelled as STRAT."},
+  "C7.2": {"code": "NA", "loc": "", "quote": "", "note": "C7.1 is not Y."},
+  "C8.1": {"codes": [], "loc": "", "quote": "", "note": "NA: no STRAT or MIXED type."},
+  "C8.2": {"code": "N", "loc": "", "quote": "", "note": "C8 not applicable."},
+  "C9.1": {"code": "Y", "claims": [
+    {"loc": "Sec 1, p.169", "quote": "we may use justifications to defend a decision already taken"},
+    {"loc": "Sec 1, p.169", "quote": "to serve as a stand-in when no specific voting rule seems acceptable"},
+    {"loc": "Sec 2.2, p.171", "quote": "we can use this approach in lieu of a voting rule"}
+  ], "note": "Claims about use in real decision settings and on which rule/approach to use."},
+  "C9.2": {"code": "SOME-UNSTATED", "loc": "Sec 1 Examples 1-3, p.168-169; Sec 5", "quote": "publish all ballots received (in anonymised form)", "note": "Examples involve real ballots/elections, but relation between ballots and held preferences, and that voters are non-strategic, is not stated; axioms-as-norms acceptable to audience is stated."},
+  "C10.1": {"code": "N", "loc": "Whole paper", "quote": "none found", "note": ""}
+}

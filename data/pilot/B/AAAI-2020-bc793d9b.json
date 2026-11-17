@@ -1,0 +1,29 @@
+{
+"paper_id":"AAAI-2020-bc793d9b","codebook_version":"0.1",
+"C0":{"code":"ELIG","loc":"Abstract, p.1846","quote":"We introduce successive committees elections.","note":"Multiwinner voting model (series of committees) studied computationally."},
+"C1":{"types":["AL"],"primary":"AL","loc":"Abstract, p.1846","quote":"sharp complexity dichotomy between computing series of committees","note":"Hardness, polynomial algorithms and approximation; no strategic or welfare-benchmark results."},
+"C2.1":{"value":"votes; preferences over candidates","loc":"Introduction, p.1846","quote":"The input is a set of preferences over candidates (the votes)"},
+"C2.2":{"codes":["RANK","APPR"],"loc":"Basic Definitions, p.1847","quote":"the approval model and the ordinal model","note":"Voters give approval sets or strict rankings."},
+"C2.3":{"code":"Y","loc":"Abstract, p.1846","quote":"given voter preferences over a set of candidates","note":"Inputs are called preferences; no separate held attitude is defined."},
+"C2.4":{"code":"IDU","loc":"Introduction, p.1846","quote":"The input is a set of preferences over candidates (the votes)","note":"Input described as preferences and used directly; no statement about reporting."},
+"C3.1":{"code":"NONE","loc":"whole paper","quote":"none found","note":"Purely computational; no misreporting analysed."},
+"C3.2":{"code":"NOT-STATED","loc":"Basic Definitions, Introduction, Conclusion","quote":"none found","note":"No statement that voters submit their held attitude."},
+"C3.3":{"code":"NA","loc":"","quote":"","note":"C3.2 is not STATED."},
+"C4.1":{"code":"NOTSPEC","loc":"Introduction p.1846; Basic Definitions p.1847","quote":"make sure that the customer satisfaction is maximized","note":"Satisfaction and utilitarian/egalitarian aggregation are used; committee quality is defined directly from votes, no utility-input relation stated."},
+"C4.2":{"code":"NA","loc":"whole paper","quote":"","note":"Term dichotomous preferences not used."},
+"C5.1":{"code":"Y","loc":"Abstract, p.1846","quote":"a \"best possible\" series of committees representing the electorate","note":"Committee quality functions (CC, approval) as representation/satisfaction objective."},
+"C5.2":{"code":"INPUT-UNSTATED","loc":"Basic Definitions, p.1847-1848","quote":"A function mapping a committee to a nonnegative integer","note":"Quality is evaluated on the votes with no statement relating them to held attitudes."},
+"C6":{
+"VOT":{"present":"Y","behav":"NONSTRAT","behav_stated":"IMPLICIT","info":"NA","info_stated":"NA","loc_behav":"Basic Definitions, p.1847","quote_behav":"each voter vi specifies a set A(i) of approved candidates","loc_info":"","quote_info":"","note":"Voters are only sources of the input; no actions modelled."},
+"CAN":{"present":"N","note":"Candidates are items to be selected; no actions or interests modelled."},
+"ORG":{"present":"N","note":"Computing agent is not modelled as a stakeholder."},
+"DIS":{"present":"N"},"BRI":{"present":"N"},"DES":{"present":"N"},"OTH":{"present":"N"}
+},
+"C7.1":{"code":"NA","loc":"","quote":"","note":"Fewer than two types present."},
+"C7.2":{"code":"NA","loc":"","quote":"","note":"C7.1 is not Y."},
+"C8.1":{"codes":[],"loc":"","quote":"","note":"NA: no STRAT or MIXED type."},
+"C8.2":{"code":"N","loc":"","quote":""},
+"C9.1":{"code":"Y","claims":[{"loc":"Introduction, p.1846","quote":"Our model can be applied when a selection of a \"best\" series"},{"loc":"Introduction, p.1847","quote":"classic multiwinner elections are not suitable to model tasks as described"},{"loc":"Introduction, p.1847","quote":"how to make sure that the customer satisfaction is maximized"}],"note":"Application claims for a service-company scenario."},
+"C9.2":{"code":"SOME-UNSTATED","loc":"Introduction, p.1846-1847","quote":"none found","note":"Customer satisfaction claim needs the relation between approvals/rankings and satisfaction; not stated (approval data come from customers and company files)."},
+"C10.1":{"code":"N","loc":"Basic Definitions, Conclusion","quote":"none found","note":"No procedural-reading statement."}
+}

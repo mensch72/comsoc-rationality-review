@@ -1,0 +1,40 @@
+{
+  "paper_id": "AAAI-2020-bc793d9b",
+  "codebook_version": "0.1",
+  "C0": {"code": "ELIG", "loc": "Abstract, p. 1846", "quote": "We introduce successive committees elections. The point is", "note": "Multiwinner (committee) elections over a time series; computational complexity of finding optimal committee series."},
+  "C1": {"types": ["AL"], "primary": "AL", "loc": "Abstract, p. 1846; Table 2, p. 1848", "quote": "We show a sharp complexity dichotomy between computing", "note": "All main results are polynomial-time algorithms, NP-hardness proofs and one approximation algorithm for computing outcomes."},
+  "C2.1": {"value": "preferences over candidates (the votes); approval-based preferences; ordinal-based preferences; election E = (C, V)", "loc": "Introduction, p. 1846; Basic Definitions and Problem, pp. 1847-1848", "quote": "The input is a set of preferences over candidates (the"},
+  "C2.2": {"codes": ["RANK", "APPR"], "loc": "Basic Definitions and Problem, p. 1847", "quote": "each voter vi gives a ranking (i.e., a strict order)", "note": "Approval model: 'voter vi speciﬁes a set A(i) ⊆ C of approved candidates'; ordinal model: strict rankings."},
+  "C2.3": {"code": "Y", "loc": "Abstract, p. 1846; Basic Definitions and Problem, p. 1847", "quote": "Thus, given voter preferences over a", "note": "The only held attitude referred to is 'preferences', which are themselves the input; coded Y because the input is described as preferences (a held attitude), not as something merely submitted."},
+  "C2.4": {"code": "IDU", "loc": "Introduction, p. 1846", "quote": "The input is a set of preferences over candidates (the", "note": "Input is called preferences (also 'the votes') and committee evaluation functions are applied directly; no statement about reporting or sincerity."},
+  "C3.1": {"code": "NONE", "loc": "whole paper", "quote": "none found", "note": "No analysis of voters submitting inputs different from their preferences; all results are computational."},
+  "C3.2": {"code": "NOT-STATED", "loc": "Abstract, Introduction (incl. Our Contributions, Related work), Basic Definitions and Problem, Conclusion, pp. 1846-1853", "quote": "none found", "note": "No statement that voters submit their true preferences."},
+  "C3.3": {"code": "NA", "loc": "", "quote": "", "note": "C3.2 = NOT-STATED."},
+  "C4.1": {"code": "NOTSPEC", "loc": "Introduction, p. 1847", "quote": "tomer satisfaction is maximized.", "note": "Utility-type notions used: 'customer satisfaction is maximized', 'social costs' (abstract), 'utilitarian' aggregation of committee qualities. Committee scores (Borda/approval) are defined from inputs but never related to voters' utilities or satisfaction."},
+  "C4.2": {"code": "NA", "loc": "", "quote": "", "note": "Term 'dichotomous preferences' or equivalent not used; paper speaks of 'approval-based preferences'."},
+  "C5.1": {"code": "Y", "loc": "Abstract, p. 1846; Basic Definitions and Problem, p. 1848", "quote": "to ﬁnd a “best possible” series of committees representing the", "note": "Results concern computing committee series maximizing Chamberlin-Courant-type representation scores and utilitarian/egalitarian quality; proofs argue every voter is represented."},
+  "C5.2": {"code": "INPUT-UNSTATED", "loc": "Basic Definitions and Problem, p. 1848", "quote": "with ordinal-based preferences, and a committee S =", "note": "Representation/quality computed on the input preferences; no statement relating input to held attitudes."},
+  "C6": {
+    "VOT": {"present": "Y", "behav": "NONSTRAT", "behav_stated": "IMPLICIT", "info": "NA", "info_stated": "NA",
+            "loc_behav": "Basic Definitions and Problem, p. 1847", "quote_behav": "voter vi speciﬁes a set A(i) ⊆ C of approved candidates", "loc_info": "", "quote_info": "", "note": "Voters' inputs are given data; no voter action modelled."},
+    "CAN": {"present": "Y", "behav": "NONSTRAT", "behav_stated": "IMPLICIT", "info": "NA", "info_stated": "NA",
+            "loc_behav": "Introduction, p. 1847", "quote_behav": "the number of committees candidates can be part of, indeed", "loc_info": "", "quote_info": "", "note": "Candidates (employees in the example) take no action; their interests are discussed (overloading, 'their employees’ travel friction', p. 1846)."},
+    "ORG": {"present": "Y", "behav": "NS", "behav_stated": "NA", "info": "NS", "info_stated": "NA",
+            "loc_behav": "Introduction, p. 1846", "quote_behav": "Imagine we are operating a big company providing a", "loc_info": "Introduction, Basic Definitions and Problem, Conclusion", "quote_info": "none found", "note": "Doubt: the company selecting service teams appears only in the motivating example, with its business outcomes discussed; it is not a formal agent. Coded present (first listed option) with behaviour not specified."},
+    "DIS": {"present": "N"},
+    "BRI": {"present": "N"},
+    "DES": {"present": "N"},
+    "OTH": {"present": "N"}
+  },
+  "C7.1": {"code": "N", "loc": "whole paper", "quote": "none found", "note": "No type is modelled as STRAT."},
+  "C7.2": {"code": "NA", "loc": "", "quote": "", "note": "C7.1 = N."},
+  "C8.1": {"codes": [], "loc": "", "quote": "", "note": "NA: no type is STRAT or MIXED."},
+  "C8.2": {"code": "NA", "loc": "", "quote": ""},
+  "C9.1": {"code": "Y", "claims": [
+    {"loc": "Abstract, p. 1846", "quote": "over a consecutive time period (e.g., to limit the inﬂuence"},
+    {"loc": "Introduction, p. 1846", "quote": "it may suffer from lack of diversity."},
+    {"loc": "Introduction, p. 1847", "quote": "which are likely to happen in real world."}
+  ], "note": "Claims that short successive terms limit elitist power cartels, that greedy selection gives worse service teams in a real company setting, and that hard instances are likely in the real world."},
+  "C9.2": {"code": "SOME-UNSTATED", "loc": "Abstract, Introduction, Basic Definitions and Problem, Conclusion", "quote": "none found", "note": "For the claim that the model yields better ('best possible') team/committee selections, the paper does not state how submitted approvals/rankings relate to held attitudes or how committee scores relate to voters'/customers' utility or satisfaction. The real-world infeasibility claim needs no such assumption."},
+  "C10.1": {"code": "N", "loc": "Introduction, Basic Definitions and Problem, Conclusion", "quote": "none found", "note": ""}
+}

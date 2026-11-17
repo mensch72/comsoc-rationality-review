@@ -1,0 +1,26 @@
+{
+"paper_id":"AAAI-2020-5ed76ce1","codebook_version":"0.1",
+"C0":{"code":"ELIG","loc":"Abstract, p.2103","quote":"we introduce a new voting formalism to support long-term collective decision making","note":"Voting rules aggregating approval ballots over repeated decisions."},
+"C1":{"types":["AX","SI","OT"],"primary":"AX","loc":"Abstract; Sections 4-6","quote":"axiomatic analysis as well as a quantitative evaluation by computer simulations","note":"OT: introduction of the perpetual voting formalism and new rules/metrics."},
+"C2.1":{"value":"approval profile; approval ballots","loc":"Section 2, p.2104; Introduction p.2103","quote":"perpetual voting formalism based on approval ballots"},
+"C2.2":{"codes":["APPR"],"loc":"Section 2, p.2104","quote":"each voter v ∈ N approves some non-empty subset of C","note":""},
+"C2.3":{"code":"Y","loc":"Introduction p.2103; Section 2 p.2104","quote":"Three of them prefer French food, two of them Indian food","note":"Also 'preferences in A_{k+1}' and 'misrepresent their preferences' in Section 7."},
+"C2.4":{"code":"DIST","loc":"Section 7, p.2109","quote":"beneficial for voters to misrepresent their preferences (or abstain)","note":"Formal model treats approval profile as the preferences (would be IDU), but Section 7 says submitted may differ from held; DIST listed first, so chosen."},
+"C3.1":{"code":"NONE","loc":"Sections 2-6; Section 7 p.2109","quote":"none found","note":"Strategic behaviour only discussed informally as future work (freerider effect); no analysis."},
+"C3.2":{"code":"NOT-STATED","loc":"Section 2, Section 7, Introduction","quote":"none found","note":"No statement that voters report truthfully."},
+"C3.3":{"code":"NA","loc":"","quote":"","note":"C3.2 is not STATED"},
+"C4.1":{"code":"SPEC","loc":"Section 2 Definition 1, p.2104; Section 3 Perpetual Nash; Section 6","quote":"the satisfaction of a voter is the number of past decisions","note":"Satisfaction defined by approval of winner; Nash utility defined as satisfaction; simulation generates approvals from distances in a Euclidean model."},
+"C4.2":{"code":"NA","loc":"whole paper","quote":"","note":"Term 'dichotomous preferences' not used."},
+"C5.1":{"code":"Y","loc":"Abstract; Section 5","quote":"enable minorities to have a fair (proportional) influence on the decision process","note":""},
+"C5.2":{"code":"INPUT-UNSTATED","loc":"Sections 4-5, p.2106-2107","quote":"voters receive at least a “fair share” of favorable choices","note":"Satisfaction, quota, influence defined on approval profile; no statement relating it to held attitudes."},
+"C6":{
+"VOT":{"present":"Y","behav":"NONSTRAT","behav_stated":"IMPLICIT","info":"NA","info_stated":"NA","loc_behav":"Section 2, p.2104","quote_behav":"each voter v ∈ N approves some non-empty subset of C","loc_info":"","quote_info":"","note":"Voters' approvals are exogenous inputs in all analyses; strategic behaviour only mentioned in Section 7 as open issue."},
+"CAN":{"present":"N"},"ORG":{"present":"N"},"DIS":{"present":"N"},"BRI":{"present":"N"},"DES":{"present":"N"},"OTH":{"present":"N"}},
+"C7.1":{"code":"NA","loc":"","quote":"","note":"Only one type present."},
+"C7.2":{"code":"NA","loc":"","quote":"","note":"C7.1 not Y"},
+"C8.1":{"codes":[],"loc":"","quote":"","note":"NA: no type is STRAT or MIXED."},
+"C8.2":{"code":"NA","loc":"","quote":""},
+"C9.1":{"code":"Y","claims":[{"loc":"Abstract","quote":"We identify two perpetual voting rules as particularly recommendable in long-term collective decision making"},{"loc":"Introduction p.2103","quote":"perpetual voting rules can be beneficial in all repeated collective decision making scenarios"},{"loc":"Introduction p.2103","quote":"we obtain a sustainable (stable) process of collective decision making"}],"note":""},
+"C9.2":{"code":"SOME-UNSTATED","loc":"Sections 2, 6, 7","quote":"none found","note":"Recommendation of rules for real settings needs: approvals reflect voters' held preferences / sincere reporting (not stated; Section 7 notes freerider misreporting), approvals as satisfaction (stated), agents' info/behaviour (unstated)."},
+"C10.1":{"code":"N","loc":"Sections 2, 7","quote":"none found","note":""}
+}

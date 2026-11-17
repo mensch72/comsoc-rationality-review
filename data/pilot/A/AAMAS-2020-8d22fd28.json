@@ -1,0 +1,176 @@
+{
+  "paper_id": "AAMAS-2020-8d22fd28",
+  "codebook_version": "0.1",
+  "C0": {
+    "code": "ELIG",
+    "loc": "Introduction, p. 168",
+    "quote": "properties of voting rules, i.e., of rules for selecting an outcome",
+    "note": "Main object is justifying the outcome of voting rules (irresolute rules on preference profiles) via axioms and computing such justifications."
+  },
+  "C1": {
+    "types": [
+      "AL",
+      "AX",
+      "SI",
+      "OT"
+    ],
+    "primary": "AL",
+    "loc": "Introduction (Contribution), p. 169; Sections 3-4, pp. 171-175",
+    "quote": "Second, we operationalise our definition as an algorithm",
+    "note": "Threefold contribution: (OT) conceptual definition of justification (Def. 1, Theorem 1); (AL) encoding as constraint network and MUS-based algorithm with correctness proof (Theorem 2) and implementation; (SI) exhaustive computational experiment over all 216 synthetic profiles with 3 agents/3 alternatives; AX for results on which axioms justify which outcomes and that Black's rule satisfies all seven axioms. Primary chosen as AL since the title and Section 3 centre on automated computation; OT is a close alternative."
+  },
+  "C2.1": {
+    "value": "profile; preferences; declared preferences; reported preferences; ballots (Example 1)",
+    "loc": "Section 2.1, p. 170; Section 2, p. 169; Section 5, p. 175",
+    "quote": "collective decision taken on the basis of the declared prefer-"
+  },
+  "C2.2": {
+    "codes": [
+      "RANK"
+    ],
+    "loc": "Section 2.1, p. 170",
+    "quote": "denote the set of all strict linear orders on X",
+    "note": ""
+  },
+  "C2.3": {
+    "code": "Y",
+    "loc": "Introduction, p. 168",
+    "quote": "They each have their own subjective preferences over the set of",
+    "note": "Agents are said to have subjective preferences; the same object is also called 'declared' and 'reported' preferences."
+  },
+  "C2.4": {
+    "code": "IDU",
+    "loc": "Section 2.1, p. 170; Introduction, p. 168",
+    "quote": "to model the preferences of individual agents",
+    "note": "The input is the preference profile ('elements of L(X) to model the preferences of individual agents') and the rule is applied to it directly; the paper uses the words 'declared', 'reported' and 'ballots' but never states whether what is declared equals or may differ from the held preferences, so no code fits exactly; IDU chosen as closest."
+  },
+  "C3.1": {
+    "code": "NONE",
+    "loc": "Section 2.1, p. 170",
+    "quote": "Some of them, such as strategyproofness, are known to be",
+    "note": "Strategyproofness is mentioned only in passing as a demanding axiom; no analysis models voters misreporting."
+  },
+  "C3.2": {
+    "code": "NOT-STATED",
+    "loc": "Checked: Abstract, Introduction, Section 2 (Justifying Collective Decisions / Voting Theory), Section 3, Section 4, Conclusion",
+    "quote": "none found",
+    "note": "No statement that voters submit/declare their true preferences."
+  },
+  "C3.3": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "C3.2 is not STATED."
+  },
+  "C4.1": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "Input is RANK but the paper does not use utility, welfare, satisfaction, cost, distortion or intensity of preference (only in reference titles)."
+  },
+  "C4.2": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "The term 'dichotomous preferences' (or equivalent) is not used."
+  },
+  "C5.1": {
+    "code": "Y",
+    "loc": "Section 2.1, p. 170; Section 4.1-4.2, pp. 174-175",
+    "quote": "Pareto Principle (par). If all agents voting agree that x ≻ y,",
+    "note": "Results concern the Pareto Principle (efficiency) as an axiom: justifications using par (Table 2), Black's rule satisfies all seven axioms including par, and pareto implies faithfulness."
+  },
+  "C5.2": {
+    "code": "INPUT-UNSTATED",
+    "loc": "Section 2.1, p. 170",
+    "quote": "Pareto Principle (par). If all agents voting agree that x ≻ y,",
+    "note": "Pareto is defined on the submitted profile, with no statement relating the profile to held preferences."
+  },
+  "C6": {
+    "VOT": {
+      "present": "Y",
+      "behav": "NONSTRAT",
+      "behav_stated": "IMPLICIT",
+      "info": "NA",
+      "info_stated": "NA",
+      "loc_behav": "Abstract, p. 168",
+      "quote_behav": "Given the preferences of several agents over a set of alternatives,",
+      "loc_info": "",
+      "quote_info": "",
+      "note": "The profile is taken as given (exogenous); agents' actions are not modelled. 'Declaring'/'reporting' language appears but no choice of report is modelled."
+    },
+    "CAN": {
+      "present": "N",
+      "note": "Alternatives are not modelled as agents."
+    },
+    "ORG": {
+      "present": "N",
+      "note": "An election committee appears only in motivating Example 1 (and its use of justifications is discussed in Section 2.2) but is not part of the formal model."
+    },
+    "DIS": {
+      "present": "N",
+      "note": ""
+    },
+    "BRI": {
+      "present": "N",
+      "note": ""
+    },
+    "DES": {
+      "present": "N",
+      "note": "Example 3 describes faculty choosing a decision method, but the designer's choice or objective is not modelled."
+    },
+    "OTH": {
+      "present": "N",
+      "note": "The 'audience' whose norms the axioms reflect is referred to but takes no modelled action."
+    }
+  },
+  "C7.1": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "Only one type (VOT) present."
+  },
+  "C7.2": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "C7.1 is not Y."
+  },
+  "C8.1": {
+    "codes": [],
+    "loc": "",
+    "quote": "",
+    "note": "NA: no type is STRAT or MIXED."
+  },
+  "C8.2": {
+    "code": "NA",
+    "loc": "",
+    "quote": ""
+  },
+  "C9.1": {
+    "code": "Y",
+    "claims": [
+      {
+        "loc": "Introduction, p. 169",
+        "quote": "Thus, we may use justifications to defend a decision already taken"
+      },
+      {
+        "loc": "Introduction, p. 169",
+        "quote": "through deliberation (Example 2), or to serve as a stand-in when"
+      }
+    ],
+    "note": "Claims that justifications can be used in real decision settings (defending election outcomes to members, supporting deliberation, replacing a voting rule when none is acceptable; cf. Examples 1-3 in the Introduction)."
+  },
+  "C9.2": {
+    "code": "SOME-UNSTATED",
+    "loc": "Section 2.2, p. 171",
+    "quote": "as reflecting the norms that (we might expect that) our",
+    "note": "Stated: the axioms reflect norms the audience accepts. Unstated: how declared/reported preferences or ballots relate to agents' held preferences (needed for preference-based axioms such as Pareto and Condorcet to justify a decision to the agents), and that agents do not misreport."
+  },
+  "C10.1": {
+    "code": "N",
+    "loc": "Checked: Abstract, Introduction, Section 2, Section 5 Conclusion",
+    "quote": "none found",
+    "note": ""
+  }
+}

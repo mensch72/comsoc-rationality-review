@@ -147,7 +147,7 @@ If a stratum has fewer eligible papers than allocated, all of them are taken and
 
 ## 5. Coding procedure
 
-- **Codebook.** `protocol/codebook.md`. Version 0.1 is a draft. It is revised after the pilot and then frozen as v1.0, with a hash recorded in this file. No changes are made after freezing. Any later clarification is logged and does not alter codes already assigned.
+- **Codebook.** `protocol/codebook.md`. Version 0.1 was the draft. It was revised after the pilot and frozen as **v1.0 on 2026-11-17; the SHA-256 begins `a630a2333e399c67`**. See `protocol/pilot_report.md`. No changes are made after freezing. Any later clarification is logged and does not alter codes already assigned.
 - **Blinding.** Coders receive only the codebook and the paper text. They do not receive the research questions, this protocol, the commissioning researcher's background or prior, or other coders' outputs.
 - **Pass A and Pass B.** Two independent LLM coding runs per paper, each in a fresh context, each returning the JSON template of the codebook. Pass A uses the larger model and pass B a different, smaller model, to reduce correlated errors.
 - **Pass C (adjudication).** A third run sees the paper, the codebook and both codings for items where A and B disagree only. It chooses one of the two codes, or a third code with a reason, and records the evidence.

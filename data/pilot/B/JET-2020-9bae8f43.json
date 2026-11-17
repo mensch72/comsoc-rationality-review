@@ -1,0 +1,164 @@
+{
+ "paper_id": "JET-2020-9bae8f43",
+ "codebook_version": "0.1",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "social choice functions on the domain of single-peaked preferences",
+  "note": "Strategyproof voting-type rules (generalized median voter schemes), obvious strategy-proofness."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SB"
+  ],
+  "primary": "AX",
+  "loc": "Section 4, Theorem 1",
+  "quote": "obviously strategy-proof and onto if and only if f is a generalized median voter scheme",
+  "note": "Characterisation (AX) of a strategic-incentive property (SB). The algorithm constructs game forms, not computing outcomes, so AL not coded."
+ },
+ "C2.1": {
+  "value": "preference profile",
+  "loc": "Section 2, p.6",
+  "quote": "an ordered list of n preferences, one for each agent",
+  "note": ""
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2, p.6",
+  "quote": "Each agent i 2 N has a strict preference Pi (a linear order) over X",
+  "note": "Single-peaked strict preferences."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.6",
+  "quote": "Each agent i 2 N has a strict preference Pi (a linear order) over X",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2-3, pp.7-9",
+  "quote": "realize that truth-telling is indeed weakly dominant",
+  "note": "Preference P_i and reported/strategy P_i' are separate notation; truth-telling is a strategy, not assumed."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Section 3, p.8",
+  "quote": "truth-telling is a weakly dominant strategy",
+  "note": "All analysis concerns incentives to deviate from truth-telling."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL"
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 not STATED"
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No utility, welfare or similar notions used."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Introduction, Section 2, Section 7",
+  "quote": "none found",
+  "note": "Only unanimity/ontoness; no welfare, efficiency or representation claims."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NONE",
+   "info_stated": "IMPLICIT",
+   "loc_behav": "Introduction, p.2",
+   "quote_behav": "agents are absolutely pessimistic when assessing the consequence of truth-telling",
+   "loc_info": "Section 3, p.9",
+   "quote_info": "worse possible outcome, among all outcomes that may occur",
+   "note": "Agents choose among actions in extensive game forms; dominant-strategy reasoning with worst/best case over others' later actions, so no information on others' preferences is assumed (inferred)."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only one type present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 not Y"
+ },
+ "C8.1": {
+  "codes": [
+   "DOM",
+   "OTH"
+  ],
+  "loc": "Section 3, Definition 2",
+  "quote": "truth-telling is a weakly dominant strategy",
+  "note": "OTH: obviously dominant strategies / obvious strategy-proofness (Li 2017)."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Abstract, p.1",
+  "quote": "implements it in obviously dominant strategies",
+  "note": ""
+ },
+ "C9.1": {
+  "code": "N",
+  "claims": [],
+  "note": "Conclusion only comments on restrictiveness of the property and the formal setting; no claims about real institutions, voter wellbeing or which rule to use."
+ },
+ "C9.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C9.1 = N"
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1-7",
+  "quote": "none found",
+  "note": ""
+ }
+}

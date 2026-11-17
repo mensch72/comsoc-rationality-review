@@ -1,0 +1,41 @@
+{
+  "paper_id": "AAAI-2020-429f79e2",
+  "codebook_version": "0.1",
+  "C0":  {"code": "ELIG", "loc": "Abstract, p. 1878", "quote": "can alter the outcome of the election by adding or removing", "note": "Control of a plurality election by a manipulator who adds or removes social-network edges; complexity of the control problems."},
+  "C1":  {"types": ["AL", "SB"], "primary": "AL", "loc": "Abstract, p. 1878; Results with Edge Removal/Addition, pp. 1881-1884", "quote": "the optimization problem being hard even if", "note": "Main results are inapproximability/hardness of election-control (manipulation by edge changes) problems plus reoptimization hardness; AL and SB fit the main results about equally, AL listed first."},
+  "C2.1": {"value": "vote (each voter casts a single vote under plurality voting; held 'scores'/'preference ordering' determine it)", "loc": "Model, Election Model, p. 1879", "quote": "where every voter casts a single vote for a"},
+  "C2.2": {"codes": ["OTH"], "loc": "Model, Election Model, p. 1879", "quote": "where every voter casts a single vote for a", "note": "Plurality ballot: a single candidate per voter. The held scores pi_v are injective and induce strict rankings, but the rule's argument is the single vote."},
+  "C2.3": {"code": "Y", "loc": "Model, Election Model, p. 1879", "quote": "The score πv (i) models how much voter v likes", "note": "Scores pi_v and the induced preference ordering are held attitudes, revised by received messages."},
+  "C2.4": {"code": "IDS", "loc": "Model, Election Model, p. 1879", "quote": "myopic, thus casting a vote for the candidate with highest", "note": "Paper states voters vote for their top-scored candidate; 'myopic' is an assumption label rather than a justification, so coded IDS rather than IDJ."},
+  "C3.1": {"code": "NONE", "loc": "Model, Election Model, p. 1879", "quote": "myopic, thus casting a vote for the candidate with highest", "note": "Voters always vote for their (post-diffusion) top candidate; only the external manipulator is strategic."},
+  "C3.2": {"code": "STATED", "loc": "Model, Election Model, p. 1879", "quote": "myopic, thus casting a vote for the candidate with highest", "note": ""},
+  "C3.3": {"code": "NONE", "loc": "Introduction, pp. 1878-1879; Model, pp. 1879-1880; Hardness of Reoptimization, p. 1885", "quote": "none found", "note": "Sincere voting is introduced as an assumption ('We assume voters to be myopic') with no argument or citation supporting it."},
+  "C4.1": {"code": "NA", "loc": "", "quote": "", "note": "C2.2 is OTH only (single plurality vote), so applicability condition is not met; the paper also does not use utility/welfare/distortion terms."},
+  "C4.2": {"code": "NA", "loc": "", "quote": "", "note": "The term 'dichotomous preferences' is not used."},
+  "C5.1": {"code": "N", "loc": "Abstract, p. 1878; Introduction, pp. 1878-1879; Model, pp. 1879-1880; Results sections, pp. 1881-1884; Hardness of Reoptimization, p. 1885", "quote": "none found", "note": "Objective is margin of victory of the manipulator's desired candidate; no welfare, efficiency, representation or distortion claims."},
+  "C5.2": {"code": "NA", "loc": "", "quote": "", "note": "C5.1 = N."},
+  "C6": {
+    "VOT": {"present": "Y", "behav": "NONSTRAT", "behav_stated": "EXPLICIT", "info": "NA", "info_stated": "NA",
+            "loc_behav": "Model, Election Model, p. 1879", "quote_behav": "myopic, thus casting a vote for the candidate with highest", "loc_info": "", "quote_info": "",
+            "note": "Voters vote for top candidate and revise scores mechanically via the score-based ranking revision function; seeds (a subset of voters) send given messages, also exogenous."},
+    "CAN": {"present": "N", "note": "Candidates take no actions and their interests are not discussed; c0 is only the manipulator's desired candidate."},
+    "ORG": {"present": "Y", "behav": "STRAT", "behav_stated": "EXPLICIT", "info": "COMPLETE", "info_stated": "IMPLICIT",
+            "loc_behav": "Model, Diffusion Model / Election Control Problems, p. 1880", "quote_behav": "the manipulator wants c0 to win", "loc_info": "Model, Election Control Problems, Definition 1, p. 1880", "quote_info": "Given an election scenario (C, G, {πv }, S, M )",
+            "note": "The manipulator (e.g. the platform owner) choosing edges to add/remove is the controlling agent in the election-control problems; could also be read as BRI (external non-voter manipulator), ORG chosen as listed first. Knowledge of all voters' scores is only inferable from the problem input; in the reoptimization variant it also knows an optimal solution to a nearby instance."},
+    "DIS": {"present": "N"},
+    "BRI": {"present": "N", "note": "The external manipulator is coded under ORG (controlling agent in control problems) to avoid double coding."},
+    "DES": {"present": "N"},
+    "OTH": {"present": "N"}
+  },
+  "C7.1": {"code": "Y", "loc": "Model, Election Model, p. 1879; Model, p. 1880", "quote": "the manipulator wants c0 to win", "note": "ORG (manipulator) is STRAT while VOT (voters) are NONSTRAT (myopic) in the same analyses."},
+  "C7.2": {"code": "NONE", "loc": "Introduction, pp. 1878-1879; Model, pp. 1879-1880", "quote": "none found", "note": "No argument or citation is given for treating voters as myopic while the manipulator optimises."},
+  "C8.1": {"codes": ["DEV"], "loc": "Introduction, Original Contributions, p. 1879; Model, Election Control Problems, p. 1880", "quote": "a set of edges to add and/or remove in the network", "note": "Optimisation/decision problems of whether and how much the manipulator can profitably change the network (election control)."},
+  "C8.2": {"code": "Y", "loc": "Model, Election Control Problems, p. 1880", "quote": "Election Control Problems. We study the problem of"},
+  "C9.1": {"code": "Y", "claims": [
+      {"loc": "Introduction, p. 1879", "quote": "our results are positive, showing that manipulation is not"},
+      {"loc": "Introduction, p. 1879", "quote": "one must design interventions to reduce"},
+      {"loc": "Introduction, p. 1879", "quote": "is very common in the real world"}
+    ], "note": "Claims that worst-case hardness means manipulation of real elections via social platforms is not affordable, that the results inform interventions against misinformation, and that the reoptimization setting is realistic."},
+  "C9.2": {"code": "SOME-UNSTATED", "loc": "Model, Election Control Problems, Definition 1, p. 1880", "quote": "Given an election scenario (C, G, {πv }, S, M )", "note": "Stated: voters vote myopically for their top candidate; score-based preference revision; IC diffusion. Not stated in words: what the manipulator knows about voters' preferences and influence probabilities (only implicit in the problem input), and that worst-case computational hardness translates into real manipulators being unable to act."},
+  "C10.1": {"code": "N", "loc": "Introduction, pp. 1878-1879; Model, pp. 1879-1880; Hardness of Reoptimization, p. 1885", "quote": "none found", "note": ""}
+}

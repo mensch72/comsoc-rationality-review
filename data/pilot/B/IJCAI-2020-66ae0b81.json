@@ -1,0 +1,38 @@
+{
+  "paper_id": "IJCAI-2020-66ae0b81",
+  "codebook_version": "0.1",
+  "C0": {"code": "ELIG", "loc": "Abstract, p.189", "quote": "we study a generalization of committee selection", "note": "Multiwinner voting with candidate graph constraints; computational complexity."},
+  "C1": {"types": ["AL"], "primary": "AL", "loc": "Abstract, p.189; Table 1, p.192", "quote": "We study the parameterized complexity of the corresponding combinatorial problems", "note": ""},
+  "C2.1": {"value": "ordinal votes; preference profile", "loc": "Sec. 1, p.189-190", "quote": "a collection of n ordinal votes"},
+  "C2.2": {"codes": ["RANK"], "loc": "Sec. 1, p.190", "quote": "a collection of n ordinal votes (i.e., rankings) of C", "note": ""},
+  "C2.3": {"code": "Y", "loc": "Sec. 1, p.189", "quote": "each expressing her preferences over the candidates", "note": "Votes are described as voter preferences/opinions; no separate submitted-vs-held distinction."},
+  "C2.4": {"code": "IDU", "loc": "Sec. 1, p.190", "quote": "select a committee that best corresponds to the voter preferences", "note": "Rule applied directly to the ordinal votes described as preferences; no statement on submission."},
+  "C3.1": {"code": "NONE", "loc": "Whole paper", "quote": "none found", "note": "Only winner-determination style complexity; no strategic voting."},
+  "C3.2": {"code": "NOT-STATED", "loc": "Sec. 1, Sec. 1.1, Sec. 4 (Future Direction)", "quote": "none found", "note": ""},
+  "C3.3": {"code": "NA", "loc": "", "quote": "", "note": "C3.2 is not STATED"},
+  "C4.1": {"code": "NA", "loc": "Whole paper", "quote": "", "note": "No utility, welfare, satisfaction, cost or distortion notions used; only rule scores."},
+  "C4.2": {"code": "NA", "loc": "", "quote": "", "note": "Term not used."},
+  "C5.1": {"code": "N", "loc": "Sec. 1, p.190; Sec. 4", "quote": "none found", "note": "Rules are described (e.g. CC echoing views), but no results or claims on welfare or representation."},
+  "C5.2": {"code": "NA", "loc": "", "quote": "", "note": "C5.1 = N"},
+  "C6": {
+    "VOT": {"present": "Y", "behav": "NONSTRAT", "behav_stated": "IMPLICIT", "info": "NA", "info_stated": "NA",
+            "loc_behav": "Def. 1, p.190", "quote_behav": "a collection of n ordinal votes over C", "loc_info": "", "quote_info": "", "note": "Votes are fixed input to the rule."},
+    "CAN": {"present": "Y", "behav": "NS", "behav_stated": "NA", "info": "NS", "info_stated": "NA",
+            "loc_behav": "Sec. 1, p.189", "quote_behav": "some candidates might be incompatible to a certain extent", "loc_info": "", "quote_info": "", "note": "Candidates' interactions modelled via graph; no actions modelled."},
+    "ORG": {"present": "N"},
+    "DIS": {"present": "N"},
+    "BRI": {"present": "N"},
+    "DES": {"present": "N"},
+    "OTH": {"present": "N"}
+  },
+  "C7.1": {"code": "N", "loc": "Whole paper", "quote": "none found", "note": "Two types present (VOT, CAN) but neither modelled as STRAT."},
+  "C7.2": {"code": "NA", "loc": "", "quote": "", "note": "C7.1 is N"},
+  "C8.1": {"codes": [], "loc": "", "quote": "", "note": "NA: no STRAT or MIXED type."},
+  "C8.2": {"code": "NA", "loc": "", "quote": ""},
+  "C9.1": {"code": "Y", "claims": [
+    {"loc": "Sec. 1, p.189", "quote": "Such compatibility should also be considered in parliamentary elections"},
+    {"loc": "Sec. 1, p.190", "quote": "it would be natural to select a committee that is Connected"}
+  ], "note": "Motivational claims about real committee selection settings."},
+  "C9.2": {"code": "SOME-UNSTATED", "loc": "Sec. 1, p.189-190", "quote": "none found", "note": "Needed assumption that the ordinal votes reflect voters' actual preferences (sincerity) is not stated."},
+  "C10.1": {"code": "N", "loc": "Whole paper", "quote": "none found", "note": ""}
+}

@@ -1,0 +1,40 @@
+{
+  "paper_id": "AAMAS-2020-cfe4e788",
+  "codebook_version": "0.1",
+  "C0": {"code": "ELIG", "loc": "Abstract, p. 366 (p. 1)", "quote": "paying voters to shift the briber’s preferred candidate forward in", "note": "Computational complexity of shift and swap bribery in single-peaked and single-crossing elections."},
+  "C1": {"types": ["AL", "SB"], "primary": "AL", "loc": "Abstract, p. 366 (p. 1)", "quote": "We obtain polynomial-time algorithms for several variants of these problems", "note": "Main results are polynomial-time algorithms for bribery problems (strategic action of an external briber posed as a computational problem)."},
+  "C2.1": {"value": "election E = (C, V) given by a list of votes; votes are preference orders (also 'profile')", "loc": "Section 2 Preliminaries, p. 367 (p. 2)", "quote": "Votes are preference orders, ranking the candidates from the most"},
+  "C2.2": {"codes": ["RANK"], "loc": "Section 2 Preliminaries, p. 367 (p. 2)", "quote": "Votes are preference orders, ranking the candidates from the most", "note": "Strict orders; additionally restricted to single-peaked or single-crossing domains."},
+  "C2.3": {"code": "Y", "loc": "Section 2 Preliminaries, p. 367 (p. 2)", "quote": "to the least appealing one for a given voter", "note": "The paper refers to voters' preferences (what is appealing to a voter), but defines them as the vote itself; no separate object. Coded Y because preferences are attributed to voters, borderline with N."},
+  "C2.4": {"code": "IDU", "loc": "Section 4.2, p. 369 (p. 4)", "quote": "under the Borda rule when voters’ preferences are single-peaked", "note": "Votes are defined as voters' preference orders and the rule is applied to them directly; no statement about submission or reporting. Bribery is described as shifting p 'in their preferences'."},
+  "C3.1": {"code": "NONE", "loc": "Section 1 Introduction, p. 366 (p. 1)", "quote": "we can pay the voters to shift p forward in their rankings", "note": "Bribery changes voters' rankings (framed as changing preferences, campaign management, or a measure of success); no analysis models a voter submitting an input different from a held attitude. Doubt: under the 'actual bribery' reading, bribed votes might differ from held preferences, but the paper never distinguishes them."},
+  "C3.2": {"code": "NOT-STATED", "loc": "Checked: Abstract; Section 1 Introduction; Section 2 Preliminaries; Section 3 Shift and Swap Bribery Problems; Section 6 Conclusions", "quote": "none found", "note": ""},
+  "C3.3": {"code": "NA", "loc": "", "quote": "", "note": "C3.2 is not STATED."},
+  "C4.1": {"code": "SPEC", "loc": "Section 1 Introduction, p. 366 (p. 1); Section 3, p. 368 (p. 3)", "quote": "price of shifting the preferred candidate by s positions", "note": "Applicability triggered strictly by the term 'cost', which here denotes bribery prices paid by the briber, not a voter utility notion. Price functions are defined as functions of how far p is shifted in each vote. No utility, welfare or satisfaction notions appear. If 'cost' is meant only as voter cost, this should be NA."},
+  "C4.2": {"code": "NA", "loc": "", "quote": "", "note": "The term dichotomous preferences is not used."},
+  "C5.1": {"code": "N", "loc": "Checked: Abstract; Section 1 Introduction; Section 2 Preliminaries; Section 3; Section 6 Conclusions", "quote": "none found", "note": "Claims concern candidates' performance (measure of success) and complexity, not welfare or voters."},
+  "C5.2": {"code": "NA", "loc": "", "quote": "", "note": "C5.1 = N."},
+  "C6": {
+    "VOT": {"present": "Y", "behav": "NONSTRAT", "behav_stated": "IMPLICIT", "info": "NA", "info_stated": "NA",
+            "loc_behav": "Section 1 Introduction, p. 366 (p. 1)", "quote_behav": "a collection of votes that rank the candidates", "loc_info": "", "quote_info": "", "note": "Votes are given as input and changed only by the briber's paid shifts; voters do not choose actions."},
+    "CAN": {"present": "Y", "behav": "NONSTRAT", "behav_stated": "IMPLICIT", "info": "NA", "info_stated": "NA",
+            "loc_behav": "Section 3, p. 368 (p. 3)", "quote_behav": "a preferred candidate p ∈ C", "loc_info": "", "quote_info": "", "note": "Candidates take no action in the formal model. In the motivating example the candidate (Claire) reasons about improving her position, and the paper says bribery models her reasoning, so the briber may be read as the candidate in the measure-of-success interpretation."},
+    "ORG": {"present": "N"},
+    "DIS": {"present": "N"},
+    "BRI": {"present": "Y", "behav": "STRAT", "behav_stated": "EXPLICIT", "info": "COMPLETE", "info_stated": "IMPLICIT",
+            "loc_behav": "Section 1 Introduction, p. 366 (p. 1)", "quote_behav": "however, we would like to minimize the total expenditure", "loc_info": "Section 3, p. 368 (p. 3)", "quote_info": "In the R Shift Bribery problem we are given an election", "note": "Briber minimises cost subject to making p a winner; the full election, axis or voter order, and price functions are inputs to the problem. In the measure-of-success interpretation no actual bribery takes place."},
+    "DES": {"present": "N"},
+    "OTH": {"present": "N"}
+  },
+  "C7.1": {"code": "Y", "loc": "Section 3, p. 368 (p. 3)", "quote": "to ensure that p is a winner of this election", "note": "BRI is STRAT; VOT (and CAN) are NONSTRAT in the same analyses."},
+  "C7.2": {"code": "NONE", "loc": "Checked: Section 1 Introduction; Section 3; Section 6 Conclusions", "quote": "none found", "note": "The measure-of-success interpretation is mentioned with citations, but no argument is given for why voters are not modelled as strategic."},
+  "C8.1": {"codes": ["DEV"], "loc": "Section 3, p. 368 (p. 3)", "quote": "to ensure that p is a winner of this election", "note": "Minimum-cost shift/swap bribery problems."},
+  "C8.2": {"code": "Y", "loc": "Section 3, p. 368 (p. 3)", "quote": "In the R Shift Bribery problem we are given an election"},
+  "C9.1": {"code": "Y", "claims": [
+      {"loc": "Section 1 Introduction, p. 366 (p. 1)", "quote": "These problems model various real-life scenarios, ranging from actual bribery,"},
+      {"loc": "Section 1 Introduction, p. 367 (p. 2)", "quote": "shift bribery costs sometimes fail to capture the candidates’ true performance"},
+      {"loc": "Section 1 Introduction, p. 366 (p. 1)", "quote": "this measure enables us to check how well a given candidate"}
+    ], "note": "Claims about real-life bribery, campaign management and measuring candidate performance in structured real elections (politics, business)."},
+  "C9.2": {"code": "SOME-UNSTATED", "loc": "Section 3, p. 368 (p. 3)", "quote": "we assume that our elections are single-peaked or single-crossing due to", "note": "Stated: elections are structured with a known axis/voter order and must remain so. Not stated: how votes relate to voters' actual preferences (needed for real-life bribery and for 'true performance'), and what the briber knows about votes (complete information is only implicit in the problem input)."},
+  "C10.1": {"code": "N", "loc": "Checked: Abstract; Section 1 Introduction; Section 2 Preliminaries; Section 3; Section 6 Conclusions", "quote": "none found", "note": ""}
+}

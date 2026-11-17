@@ -1,0 +1,173 @@
+{
+ "paper_id": "SCW-2020-3ce9126a",
+ "codebook_version": "0.1",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Sec 3, p5",
+  "quote": "Groups decide democratically over the distribution of the 100 points",
+  "note": "Lab experiment on a voting rule (voting by veto) with chat communication."
+ },
+ "C1": {
+  "types": [
+   "EM"
+  ],
+  "primary": "EM",
+  "loc": "Abstract, p1; Sec 5",
+  "quote": "I test my claim in a series of laboratory experiments",
+  "note": "Sec 4 gives illustrative backward-induction examples, but main results are experimental."
+ },
+ "C2.1": {
+  "value": "veto (alternatives eliminated by vetoes); proposals",
+  "loc": "Sec 3, p5",
+  "quote": "voters sequentially eliminate one alternative each"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Sec 3, p5",
+  "quote": "voters sequentially eliminate one alternative each",
+  "note": "Input is a veto of one alternative in a sequence (proposals in stage one); footnote 2 also mentions ranking others' proposals."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Footnote 2, p5",
+  "quote": "do not have an incentive to misrepresent their preferences",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Footnote 2, p5; Sec 4, p7",
+  "quote": "do not have an incentive to misrepresent their preferences",
+  "note": "Preferences treated as separate from submitted proposals/vetoes. Footnote 2 also gives an incentive-based reason for sincerity (would fit IDJ); DIST listed first."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "Sec 4, p7",
+  "quote": "Rational voters will use backwards induction when deciding how",
+  "note": "Strategic veto and coalition analysis in Sec 4 examples; the experimental results are not analysed as strategic misreporting."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Footnote 2, p5",
+  "quote": "they have an incentive to state their proposals sincerely",
+  "note": "Stated for the proposal stage."
+ },
+ "C3.3": {
+  "code": "INC",
+  "loc": "Footnote 2, p5",
+  "quote": "do not know the order of voting when making their proposals",
+  "note": "Incentive argument via random voting order."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Sec 3",
+  "quote": "",
+  "note": "Input format coded OTH only; applicability condition not met."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "",
+  "note": "Term dichotomous preferences not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sec 1, p2; Sec 5",
+  "quote": "distributionally fair group choices",
+  "note": "Claims about equal distribution of benefits and fairness to group members."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Sec 3, p5",
+  "quote": "committee members receive the number of points assigned to them",
+  "note": "Evaluated on points payoffs (distribution of benefits), defined separately from the veto input."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "IMPLICIT",
+   "loc_behav": "Sec 4, p7",
+   "quote_behav": "Rational voters will use backwards induction when deciding how",
+   "loc_info": "Sec 3, p5",
+   "quote_info": "randomly determines the order of voting and announces it to the group",
+   "note": "Veto stage: order and all proposals known (implicit); in proposal stage order unknown. Experimental subjects also have social preferences."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Sec 3",
+  "quote": "",
+  "note": "Only one stakeholder type (voters) present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "SPE"
+  ],
+  "loc": "Sec 4, p7",
+  "quote": "Rational voters will use backwards induction when deciding how",
+  "note": "Applies to theoretical illustrations; coordination in coalitions also discussed."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Sec 4, p7",
+  "quote": "Rational voters will use backwards induction when deciding how"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Sec 6, p17",
+    "quote": "My findings have important implications for the real-world applicability of VBV."
+   },
+   {
+    "loc": "Sec 6, p17",
+    "quote": "Because of its potential egalitarian tendencies, VBV could provide a workable"
+   },
+   {
+    "loc": "Sec 6, p18",
+    "quote": "public deliberation fosters prosociality in group decisions whereas private discussion promotes"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sec 6, p17-18",
+  "quote": "generalizability of this finding, however, has to be evaluated",
+  "note": "Design, behaviour and information stated; limits on generalisability acknowledged and further research called for."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sec 3, 4, 6",
+  "quote": "none found",
+  "note": "No procedural-reading statement found."
+ }
+}

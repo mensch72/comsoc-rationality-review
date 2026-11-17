@@ -1,0 +1,180 @@
+{
+ "paper_id": "AAAI-2020-429f79e2",
+ "codebook_version": "0.1",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1878",
+  "quote": "whether a manipulator (e.g., the platform) can alter the outcome of the election",
+  "note": "Election control by changing a social network; plurality election."
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "SB"
+  ],
+  "primary": "AL",
+  "loc": "Original Contributions, p.1879",
+  "quote": "the problem of deciding whether a set of edges to add",
+  "note": "Hardness and inapproximability of control (a form of manipulation) problems; all results are hardness."
+ },
+ "C2.1": {
+  "value": "vote",
+  "loc": "Model, p.1879",
+  "quote": "every voter casts a single vote for a single candidate"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Model, p.1879",
+  "quote": "every voter casts a single vote for a single candidate",
+  "note": "Plurality: single vote for one candidate, derived from the top of the strict preference ordering."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Model, p.1879",
+  "quote": "models how much voter v likes",
+  "note": "Scores pi_v inducing strict orderings, revised by messages."
+ },
+ "C2.4": {
+  "code": "IDS",
+  "loc": "Model, p.1879",
+  "quote": "We assume voters to be myopic, thus casting a vote for the candidate",
+  "note": "Vote is the top-scored candidate after revision; stated as an assumption (myopic), no justification. Could be read as DIST."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Model, p.1879",
+  "quote": "We assume voters to be myopic",
+  "note": "Only the manipulator acts strategically; voters do not misreport."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Model, p.1879",
+  "quote": "We assume voters to be myopic, thus casting a vote for the candidate",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Model, p.1879",
+  "quote": "none found",
+  "note": "Sections checked: Introduction, Model, Conclusion-like closing remarks."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Input format is a single plurality vote (OTH); no utility-type notions linking to it; margin of victory is not utility."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Model, p.1880",
+  "quote": "none found",
+  "note": "Only margin of victory of the desired candidate; no welfare, efficiency, representation claims."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Model, p.1879",
+   "quote_behav": "We assume voters to be myopic",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters also update preferences via diffusion, mechanically."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Desired candidate is a target, not an acting agent."
+  },
+  "ORG": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "IMPLICIT",
+   "loc_behav": "Model, p.1880",
+   "quote_behav": "that the manipulator wants c0 to win",
+   "loc_info": "Definition 1, p.1880",
+   "quote_info": "Given an election scenario (C, G, {πv }, S, M )",
+   "note": "Manipulator (e.g. platform) adds or removes edges; coded ORG as controlling agent. Knows scores, network and edge probabilities, live graph random (expectation); knowledge not stated in words."
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "Y",
+  "loc": "Model, p.1879-1880",
+  "quote": "We assume voters to be myopic",
+  "note": "ORG strategic, VOT non-strategic."
+ },
+ "C7.2": {
+  "code": "NONE",
+  "loc": "Model",
+  "quote": "none found",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [
+   "DEV"
+  ],
+  "loc": "Original Contributions, p.1879",
+  "quote": "the problem of deciding whether a set of edges to add",
+  "note": "Optimisation of the manipulator's edge set; not an equilibrium."
+ },
+ "C8.2": {
+  "code": "N",
+  "loc": "Model",
+  "quote": "none found"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.1878",
+    "quote": "showing that, except for trivial cases, manipulation is not affordable"
+   },
+   {
+    "loc": "Introduction, p.1879",
+    "quote": "when and how one must design interventions to reduce the severe effects"
+   }
+  ],
+  "note": "Interpretation of hardness as protection against manipulation of real elections."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Model, p.1879-1880",
+  "quote": "none found",
+  "note": "Voter myopia stated; manipulator's full knowledge of voters' scores and network not stated in words; worst-case hardness vs real elections not discussed."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Model",
+  "quote": "none found",
+  "note": ""
+ }
+}

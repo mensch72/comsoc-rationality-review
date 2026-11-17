@@ -1,0 +1,200 @@
+{
+ "SCW-2020-3ce9126a": [
+  {
+   "item": "C3.1",
+   "A": "ALL",
+   "B": "SOME"
+  },
+  {
+   "item": "C3.2",
+   "A": "NA",
+   "B": "STATED"
+  },
+  {
+   "item": "C3.3",
+   "A": "NA",
+   "B": "INC"
+  },
+  {
+   "item": "C7.1",
+   "A": "N",
+   "B": "NA"
+  },
+  {
+   "item": "C8.1:COAL",
+   "A": "1",
+   "B": "0"
+  },
+  {
+   "item": "C6.CAN.present",
+   "A": "Y",
+   "B": "N"
+  }
+ ],
+ "AAMAS-2020-cfe4e788": [
+  {
+   "item": "C4.1",
+   "A": "SPEC",
+   "B": "NA"
+  },
+  {
+   "item": "C8.2",
+   "A": "Y",
+   "B": "N"
+  },
+  {
+   "item": "C6.CAN.present",
+   "A": "Y",
+   "B": "N"
+  }
+ ],
+ "AAMAS-2020-8d22fd28": [
+  {
+   "item": "C5.1",
+   "A": "Y",
+   "B": "N"
+  },
+  {
+   "item": "C5.2",
+   "A": "INPUT-UNSTATED",
+   "B": "NA"
+  },
+  {
+   "item": "C7.1",
+   "A": "NA",
+   "B": "N"
+  },
+  {
+   "item": "C8.2",
+   "A": "NA",
+   "B": "N"
+  },
+  {
+   "item": "C1.types:SI",
+   "A": "1",
+   "B": "0"
+  },
+  {
+   "item": "C6.OTH.present",
+   "A": "N",
+   "B": "Y"
+  }
+ ],
+ "IJCAI-2020-66ae0b81": [
+  {
+   "item": "C5.1",
+   "A": "Y",
+   "B": "N"
+  },
+  {
+   "item": "C5.2",
+   "A": "INPUT-UNSTATED",
+   "B": "NA"
+  },
+  {
+   "item": "C7.1",
+   "A": "NA",
+   "B": "N"
+  },
+  {
+   "item": "C6.CAN.present",
+   "A": "N",
+   "B": "Y"
+  }
+ ],
+ "SCW-2020-b8c44316": [
+  {
+   "item": "C5.1",
+   "A": "Y",
+   "B": "N"
+  },
+  {
+   "item": "C5.2",
+   "A": "INPUT-UNSTATED",
+   "B": "NA"
+  },
+  {
+   "item": "C8.1:NE",
+   "A": "1",
+   "B": "0"
+  }
+ ],
+ "AAAI-2020-bc793d9b": [
+  {
+   "item": "C7.1",
+   "A": "N",
+   "B": "NA"
+  },
+  {
+   "item": "C8.2",
+   "A": "NA",
+   "B": "N"
+  },
+  {
+   "item": "C6.CAN.present",
+   "A": "Y",
+   "B": "N"
+  },
+  {
+   "item": "C6.ORG.present",
+   "A": "Y",
+   "B": "N"
+  }
+ ],
+ "AAAI-2020-429f79e2": [
+  {
+   "item": "C8.2",
+   "A": "Y",
+   "B": "N"
+  }
+ ],
+ "AAMAS-2020-a97d8031": [
+  {
+   "item": "C2.2:OTH",
+   "A": "1",
+   "B": "0"
+  },
+  {
+   "item": "C8.1:DEV",
+   "A": "1",
+   "B": "0"
+  },
+  {
+   "item": "C8.1:OTH",
+   "A": "0",
+   "B": "1"
+  },
+  {
+   "item": "C6.VOT.behav_stated",
+   "A": "EXPLICIT",
+   "B": "IMPLICIT"
+  },
+  {
+   "item": "C6.CAN.present",
+   "A": "Y",
+   "B": "N"
+  },
+  {
+   "item": "C6.OTH.present",
+   "A": "Y",
+   "B": "N"
+  }
+ ],
+ "JET-2020-9bae8f43": [
+  {
+   "item": "C8.1:OTH",
+   "A": "0",
+   "B": "1"
+  },
+  {
+   "item": "C6.VOT.info",
+   "A": "PARTIAL",
+   "B": "NONE"
+  },
+  {
+   "item": "C6.VOT.info_stated",
+   "A": "EXPLICIT",
+   "B": "IMPLICIT"
+  }
+ ]
+}
