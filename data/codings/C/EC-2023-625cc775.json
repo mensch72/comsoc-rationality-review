@@ -1,0 +1,45 @@
+{
+ "paper_id": "EC-2023-625cc775",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "AX",
+     "WD"
+    ],
+    "primary": "AX",
+    "loc": "Abstract, p.1; Theorem 5, Sec 5.2, p.17",
+    "quote": "also satisfies resolvability, monotonicity, majority, majority loser, mutual majority and reversal symmetry",
+    "note": "Main results: characterization of the (p,q)-veto core via matchings and SerialVeto (Thms 1-3), tied-winner property of SimultaneousVeto (Thm 4), and axioms plus distortion-3 guarantee (Thm 5). Algorithms are presented but no complexity results, so AL not coded."
+   },
+   "chosen": "A",
+   "reason": "The main results are veto-core characterisations, rule properties and the distortion-3 guarantee; the algorithms come with no running-time or complexity results, so AL does not apply, and most theorems (Thms 1-4 and the axioms in Thm 5) are AX, so AX is primary."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "EXPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Sec 1 Introduction, p.2",
+    "quote_behav": "each voter ranks candidates from closest to furthest",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Voters submit rankings consistent with distances and veto per fixed algorithmic procedure."
+   },
+   "chosen": "A",
+   "reason": "The paper says in words how voters act non-strategically (each voter ranks candidates from closest to furthest, and vetoes her bottom choice), so behav_stated is EXPLICIT."
+  },
+  "C9.2": {
+   "value": {
+    "code": "ALL-STATED",
+    "loc": "Sec 2.1 Metric Distortion, p.7; Sec 1, p.2",
+    "quote": "is consistent with the ranking",
+    "note": "Claims rest on distortion guarantees for voters' costs, needing rankings consistent with voters' metric costs and metric costs; both are stated (consistency definition, voters rank closest to furthest). Non-strategic voting is covered by the stated consistency assumption, though no reason for it is given."
+   },
+   "chosen": "A",
+   "reason": "The needed assumptions are that rankings are consistent with voters' metric costs (which also covers non-strategic submission) and that costs are metric; both are stated in Sec 1 and Sec 2.1, which matches C3.2 = STATED, so nothing needed is left unstated."
+  }
+ }
+}

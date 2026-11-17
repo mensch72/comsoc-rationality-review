@@ -8,7 +8,7 @@ A small systematic coding study of recent papers on voting in social choice and 
 
 ## Status
 
-Checkpoint 1: protocol and codebook drafted, sample **not yet drawn**.
+**Checkpoint 2:** pilot done, codebook frozen (v1.0), sample drawn (150), hand-check set of 15 coded. See `protocol/checkpoint2.md`.
 
 ## Layout
 

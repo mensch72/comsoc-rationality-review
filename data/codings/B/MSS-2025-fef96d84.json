@@ -1,0 +1,27 @@
+{
+"paper_id":"MSS-2025-fef96d84","codebook_version":"1.0",
+"C0":{"code":"ELIG","loc":"Sec 1, p1","quote":"we investigate how voting systems rewards polarising strategies","note":""},
+"C1":{"types":["AX"],"primary":"AX","loc":"Sec 2.2, p3","quote":"Property PPC holds if, for a given profile, a voting rule","note":"Results state which rules satisfy property PPC on polarized profiles; no other type fits clearly."},
+"C2.1":{"value":"preference profiles","loc":"Sec 2.2, p3","quote":"maps preference profiles into an electoral outcome"},
+"C2.2":{"codes":["RANK","APPR"],"loc":"Sec 2 p2; Sec 4.4 p10","quote":"voters' preferences are anti-symmetric (strict)","note":"Approval sets only in the AV subsection."},
+"C2.3":{"code":"Y","loc":"Sec 2, p2","quote":"voters' top (best) preference is always identical with their votes","note":""},
+"C2.4":{"code":"IDS","loc":"Sec 4.3, p10","quote":"vote according to their original preference rankings","note":"Equality of votes and preferences is assumed in words; reasons are only citation of prior work."},
+"C3.1":{"code":"NONE","loc":"Sec 2, p2","quote":"we neglect strategic considerations of voters","note":""},
+"C3.2":{"code":"STATED","loc":"Sec 2, p2","quote":"voters' top (best) preference is always identical with their votes","note":""},
+"C3.3":{"code":"CONV","loc":"Sec 2, p2","quote":"As in Dasgupta and Maskin (2008) and most of the other","note":"Also says the model does not account for strategic deliberations."},
+"C4.1":{"code":"NA","loc":"whole paper","quote":"","note":"No voter utility, welfare or satisfaction notions used."},
+"C4.2":{"code":"N","loc":"Sec 4.4, p10","quote":"Assuming voters exhibit dichotomous preferences, AV possesses a variety","note":"Term used in passing; what the two classes represent is not stated."},
+"C5.1":{"code":"N","loc":"Secs 3-4","quote":"none found","note":"Results evaluate whether polarizing candidates win, not welfare or representation."},
+"C5.2":{"code":"NA","loc":"","quote":"","note":"C5.1 = N"},
+"C6":{
+"VOT":{"present":"Y","behav":"NONSTRAT","behav_stated":"EXPLICIT","info":"NA","info_stated":"NA","loc_behav":"Sec 4.3, p10","quote_behav":"we assume that all voters participate in all rounds and vote","loc_info":"","quote_info":"","note":"Info NA as behaviour is nonstrategic."},
+"CAN":{"present":"N","note":"Candidates are alternatives; their incentives to polarize are discussed outside the formal model."},
+"ORG":{"present":"N"},"DIS":{"present":"N"},"BRI":{"present":"N"},"DES":{"present":"N"},"OTH":{"present":"N"}},
+"C7.1":{"code":"NA","loc":"Sec 2","quote":"","note":"Only one type present."},
+"C7.2":{"code":"NA","loc":"","quote":"","note":"C7.1 = NA"},
+"C8.1":{"codes":[],"loc":"","quote":"","note":"NA: no STRAT or MIXED type"},
+"C8.2":{"code":"NA","loc":"","quote":""},
+"C9.1":{"code":"Y","claims":[{"loc":"Sec 5, p13","quote":"the Borda count strongly discourages polarizing campaigns and promotes centripetal outcomes"},{"loc":"Sec 4.2, p9","quote":"it does not appear universally advisable"},{"loc":"Abstract / Sec 1","quote":"how voting systems rewards polarising strategies"}],"note":"Claims about which rules deter polarization and rule advisability."},
+"C9.2":{"code":"SOME-UNSTATED","loc":"Sec 5, p13","quote":"Borda count strongly discourages polarizing campaigns","note":"Claims about candidates' incentives to polarize need an assumption that candidates strategically choose polarizing strategies and respond to the rule; the model has no candidate behaviour and this is not stated formally. Sincere voting is stated."},
+"C10.1":{"code":"N","loc":"Sec 2","quote":"none found","note":""}
+}

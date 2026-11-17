@@ -1,0 +1,35 @@
+{
+"paper_id":"AAAI-2023-82e8fe3a","codebook_version":"1.0",
+"C0":{"code":"ELIG","loc":"Abstract, p.5591","quote":"allocate the seats of a fixed-size committee to parties","note":"Party-approval multiwinner voting rules; strategyproofness and proportionality."},
+"C1":{"types":["AX","SB"],"primary":"AX","loc":"Sections 3-4, pp.5594-5597","quote":"No party-approval rule simultaneously satisfies anonymity, weak representation, and strategyproofness","note":"SAT solving is a proof technique, not an algorithmic result."},
+"C2.1":{"value":"approval ballots","loc":"Section 2, p.5592","quote":"The approval ballot Ai ⊆ P of a voter i"},
+"C2.2":{"codes":["APPR","DICH"],"loc":"Section 2, p.5592","quote":"she partitions the parties into approved and disapproved ones","note":"Dichotomous preference relation described alongside approval ballots."},
+"C2.3":{"code":"Y","loc":"Section 2, p.5592","quote":"Each voter i ∈ N is assumed to have a dichotomous preference relation","note":""},
+"C2.4":{"code":"DIST","loc":"Section 2.2, p.5593","quote":"a voter cannot benefit by lying about her true preferences","note":"Ballot Ai and preference relation are separate; misreporting is discussed."},
+"C3.1":{"code":"ALL","loc":"Sections 3-4, Defs 3-4","quote":"no voter can benefit by misreporting her preferences","note":"All main results involve strategyproofness or its weakening."},
+"C3.2":{"code":"NA","loc":"","quote":"","note":"C3.1 = ALL."},
+"C3.3":{"code":"NA","loc":"","quote":"","note":"C3.2 is not STATED."},
+"C4.1":{"code":"NA","loc":"Section 2.2, p.5593","quote":"voters are indifferent between their approved parties","note":"No utility, welfare, satisfaction or cost notion for voters is used by name; only 'benefit' in the strategyproofness definition."},
+"C4.2":{"code":"Y","loc":"Section 2.2, p.5593","quote":"voters are indifferent between their approved parties","note":"Approved class is an indifference class; disapproved class is the rest. No numeric utilities."},
+"C5.1":{"code":"Y","loc":"Section 2.3, Defs 1-2, p.5593","quote":"any group of voters G ⊆ N with |G| ≥ n k that agrees on a party should be represented","note":"Weak (proportional) representation axioms are proportionality as representation of voter groups."},
+"C5.2":{"code":"INPUT-UNSTATED","loc":"Defs 1-2, p.5593","quote":"Ai = {x} for all i ∈ G","note":"Defined on ballots; no statement relating ballots to held preferences for these axioms."},
+"C6":{
+"VOT":{"present":"Y","behav":"STRAT","behav_stated":"IMPLICIT","info":"NS","info_stated":"NA","loc_behav":"Section 2.2, Def 3, p.5593","quote_behav":"a voter cannot benefit by lying about her true preferences","loc_info":"none found: Section 2, Introduction, Conclusion","quote_info":"none found","note":"Strategyproofness quantifies over all possible deviations of one voter; no knowledge assumption stated."},
+"CAN":{"present":"N","note":"Parties are alternatives only."},
+"ORG":{"present":"N","note":""},
+"DIS":{"present":"N","note":""},
+"BRI":{"present":"N","note":""},
+"DES":{"present":"N","note":""},
+"OTH":{"present":"N","note":""}
+},
+"C7.1":{"code":"NA","loc":"Section 2","quote":"","note":"Only voters present."},
+"C7.2":{"code":"NA","loc":"","quote":"","note":"C7.1 is not Y."},
+"C8.1":{"codes":["DOM"],"loc":"Def 3, p.5593","quote":"A party-approval rule f is strategyproof if","note":"Strategyproofness and its weakening are dominant-strategy style properties."},
+"C8.2":{"code":"Y","loc":"Def 3, p.5593","quote":"A party-approval rule f is strategyproof if"},
+"C9.1":{"code":"Y","claims":[
+{"loc":"Section 2.2, p.5593","quote":"which may lead to socially undesirable outcomes"},
+{"loc":"Section 1, p.5592","quote":"proving an attractive escape route to our impossibility results"},
+{"loc":"Abstract, p.5591","quote":"the chosen committee should proportionally reflect the voters’ preferences"}],"note":""},
+"C9.2":{"code":"SOME-UNSTATED","loc":"Section 2.2, p.5593","quote":"voters without any representation in the committee are more prone to manipulate","note":"Claims about attractiveness of the weakened property rely on behavioural assumptions about which voters manipulate, asserted as belief rather than modelled; and welfare relation between ballots and preferences is only implicit."},
+"C10.1":{"code":"N","loc":"Sections 1-5","quote":"none found","note":""}
+}

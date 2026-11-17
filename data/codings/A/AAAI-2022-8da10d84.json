@@ -1,0 +1,38 @@
+{
+  "paper_id": "AAAI-2022-8da10d84",
+  "codebook_version": "1.0",
+  "C0": {"code": "ELIG", "loc": "Abstract, p. 5092", "quote": "We study the complexity of computing committees with a given proportionality degree", "note": "Computational complexity of proportionality notions in approval-based committee elections."},
+  "C1": {"types": ["AL"], "primary": "AL", "loc": "Sections 3-6, pp. 5094-5098", "quote": "PD-C OMMITTEE is NP-hard and coNP-hard", "note": "Main results are NP/coNP/#P hardness, membership, ILP, FPT and polynomial-time algorithms for structured domains. Example 1 (non-existence of perfect PD in CI/VI elections) is a minor existence observation."},
+  "C2.1": {"value": "election E = (C, V); approval sets A(v)", "loc": "Section 2 Preliminaries, p. 5093", "quote": "Each voter v ∈ V is endowed with a set A(v)"},
+  "C2.2": {"codes": ["APPR"], "loc": "Section 1 Introduction, p. 5092", "quote": "each of the n voters specifies which candidates", "note": ""},
+  "C2.3": {"code": "Y", "loc": "Section 6.2 Structured Preferences, p. 5098", "quote": "of candidates whose opinions are close enough to their own", "note": "Voters' opinions are mentioned in an illustration of CI preferences; approval sets are also called 'preferences' in Section 6.2."},
+  "C2.4": {"code": "IDU", "loc": "Section 6.2 Structured Preferences, p. 5097", "quote": "Next we consider two domains of structured preferences", "note": "Approval sets are referred to as preferences (CI/VI preferences) and rules/PD are applied directly to them; the introduction also says voters 'specify' approvals, but no statement relates submitted approvals to held attitudes (close to ONE, but C2.3 = Y)."},
+  "C3.1": {"code": "NONE", "loc": "Abstract; Section 1 Introduction; Section 2 Preliminaries; Sections 3-6; Section 7 Conclusions", "quote": "none found", "note": "No analysis considers voters submitting approvals different from what they hold; no strategic behaviour."},
+  "C3.2": {"code": "NOT-STATED", "loc": "Abstract; Section 1 Introduction; Section 2 Preliminaries; Section 6.2; Section 7 Conclusions", "quote": "none found", "note": "No statement that voters submit their true approvals/preferences."},
+  "C3.3": {"code": "NA", "loc": "", "quote": "", "note": "C3.2 is not STATED."},
+  "C4.1": {"code": "SPEC", "loc": "Section 2 Preliminaries (Proportionality Degree), p. 5093", "quote": "We define v’s satisfaction with S as |A(v)∩S|,", "note": "Voter satisfaction is defined as the number of approved committee members."},
+  "C4.2": {"code": "NA", "loc": "", "quote": "", "note": "The term 'dichotomous preferences' appears only in reference titles, not in the paper text."},
+  "C5.1": {"code": "Y", "loc": "Section 2 Preliminaries, Definition 2, p. 5093", "quote": "has proportionality degree f if for each `-cohesive group", "note": "Proportionality degree (average satisfaction of cohesive groups), JR and EJR are proportional representation criteria used in all results."},
+  "C5.2": {"code": "INPUT-UNSTATED", "loc": "Section 2 Preliminaries, p. 5093", "quote": "We define v’s satisfaction with S as |A(v)∩S|,", "note": "Satisfaction and cohesiveness are computed on approval sets; no statement relating them to held attitudes."},
+  "C6": {
+    "VOT": {"present": "Y", "behav": "NONSTRAT", "behav_stated": "IMPLICIT", "info": "NA", "info_stated": "NA",
+            "loc_behav": "Section 1 Introduction, p. 5092", "quote_behav": "each of the n voters specifies which candidates", "loc_info": "", "quote_info": "", "note": "Voters' approval sets are fixed inputs; no sincerity statement, behaviour only inferable from the model."},
+    "CAN": {"present": "N"},
+    "ORG": {"present": "N"},
+    "DIS": {"present": "N"},
+    "BRI": {"present": "N"},
+    "DES": {"present": "N"},
+    "OTH": {"present": "N"}
+  },
+  "C7.1": {"code": "NA", "loc": "", "quote": "", "note": "Only voters are present."},
+  "C7.2": {"code": "NA", "loc": "", "quote": "", "note": "C7.1 is not Y."},
+  "C8.1": {"codes": [], "loc": "", "quote": "", "note": "NA: no type is STRAT or MIXED."},
+  "C8.2": {"code": "NA", "loc": "", "quote": ""},
+  "C9.1": {"code": "Y", "claims": [
+    {"loc": "Section 1 Introduction, p. 5092", "quote": "Yet, JR and EJR are somewhat unsatisfying."},
+    {"loc": "Section 1 Introduction, p. 5092", "quote": "establishing the PD of a rule gives quantitative understanding of its proportionality"},
+    {"loc": "Section 1 Introduction, p. 5092", "quote": "establish an empirical hierarchy of proportionality among multiwinner voting rules"}
+  ], "note": "Claims concern fairness/representation of voters in cohesive groups and ranking multiwinner rules by proportionality."},
+  "C9.2": {"code": "SOME-UNSTATED", "loc": "Section 1 Introduction; Section 2 Preliminaries; Section 7 Conclusions", "quote": "none found", "note": "Claims about representing voters and ranking rules by proportionality need that submitted approval sets reflect voters' held attitudes; this is not stated. The satisfaction-approval link is stated (satisfaction = number of approved members)."},
+  "C10.1": {"code": "N", "loc": "Section 1 Introduction; Section 2 Preliminaries; Section 7 Conclusions", "quote": "none found", "note": ""}
+}

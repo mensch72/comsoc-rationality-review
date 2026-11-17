@@ -1,0 +1,203 @@
+{
+ "paper_id": "AAMAS-2024-216391c9",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "INELIG",
+  "loc": "Abstract, p. 1593; Sec. 1 Introduction; Sec. 4, pp. 1595-1596",
+  "quote": "we propose using ranking queries repeatedly and to aggregate the queries",
+  "note": "ML rank aggregation: the 'voters' are repeated answer rankings sampled from a single LLM (ChatGPT), merged with Partial Borda to make LLM query answers robust; not several agents' inputs to a collective decision. Codebook lists ML rank aggregation as INELIG."
+ },
+ "C1": {
+  "types": [],
+  "primary": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded: C0 = INELIG, coding stopped per codebook."
+ },
+ "C10.1": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded: C0 = INELIG, coding stopped per codebook."
+ },
+ "C2.2": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "Not coded: C0 = INELIG, coding stopped per codebook."
+ },
+ "C2.3": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded: C0 = INELIG, coding stopped per codebook."
+ },
+ "C2.4": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded: C0 = INELIG, coding stopped per codebook."
+ },
+ "C3.1": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded: C0 = INELIG, coding stopped per codebook."
+ },
+ "C3.2": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded: C0 = INELIG, coding stopped per codebook."
+ },
+ "C3.3": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded: C0 = INELIG, coding stopped per codebook."
+ },
+ "C4.1": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded: C0 = INELIG, coding stopped per codebook."
+ },
+ "C4.2": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded: C0 = INELIG, coding stopped per codebook."
+ },
+ "C5.1": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded: C0 = INELIG, coding stopped per codebook."
+ },
+ "C5.2": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded: C0 = INELIG, coding stopped per codebook."
+ },
+ "C6": {
+  "VOT": {
+   "present": "",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Not coded: C0 = INELIG, coding stopped per codebook."
+  }
+ },
+ "C7.1": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded: C0 = INELIG, coding stopped per codebook."
+ },
+ "C7.2": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded: C0 = INELIG, coding stopped per codebook."
+ },
+ "C8.2": {
+  "code": "",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "",
+  "claims": [],
+  "note": "Not coded: C0 = INELIG, coding stopped per codebook."
+ },
+ "C9.2": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded: C0 = INELIG, coding stopped per codebook."
+ },
+ "adjudication": {
+  "C0": {
+   "chosen": "A",
+   "reason": "The paper aggregates repeated outputs of one LLM to improve robustness, which is ML rank aggregation, explicitly INELIG, not a procedure aggregating several agents' inputs into a collective decision."
+  },
+  "C1": {
+   "chosen": "A",
+   "reason": "Coding stops after C0 = INELIG, so this item is not coded (A's treatment)."
+  },
+  "C10.1": {
+   "chosen": "A",
+   "reason": "Coding stops after C0 = INELIG, so this item is not coded (A's treatment)."
+  },
+  "C2.2": {
+   "chosen": "A",
+   "reason": "Coding stops after C0 = INELIG, so this item is not coded (A's treatment)."
+  },
+  "C2.3": {
+   "chosen": "A",
+   "reason": "Coding stops after C0 = INELIG, so this item is not coded (A's treatment)."
+  },
+  "C2.4": {
+   "chosen": "A",
+   "reason": "Coding stops after C0 = INELIG, so this item is not coded (A's treatment)."
+  },
+  "C3.1": {
+   "chosen": "A",
+   "reason": "Coding stops after C0 = INELIG, so this item is not coded (A's treatment)."
+  },
+  "C3.2": {
+   "chosen": "A",
+   "reason": "Coding stops after C0 = INELIG, so this item is not coded (A's treatment)."
+  },
+  "C3.3": {
+   "chosen": "A",
+   "reason": "Coding stops after C0 = INELIG, so this item is not coded (A's treatment)."
+  },
+  "C4.1": {
+   "chosen": "A",
+   "reason": "Coding stops after C0 = INELIG, so this item is not coded (A's treatment)."
+  },
+  "C4.2": {
+   "chosen": "A",
+   "reason": "Coding stops after C0 = INELIG, so this item is not coded (A's treatment)."
+  },
+  "C5.1": {
+   "chosen": "A",
+   "reason": "Coding stops after C0 = INELIG, so this item is not coded (A's treatment)."
+  },
+  "C5.2": {
+   "chosen": "A",
+   "reason": "Coding stops after C0 = INELIG, so this item is not coded (A's treatment)."
+  },
+  "C6.VOT": {
+   "chosen": "A",
+   "reason": "Coding stops after C0 = INELIG, so this item is not coded (A's treatment)."
+  },
+  "C7.1": {
+   "chosen": "A",
+   "reason": "Coding stops after C0 = INELIG, so this item is not coded (A's treatment)."
+  },
+  "C7.2": {
+   "chosen": "A",
+   "reason": "Coding stops after C0 = INELIG, so this item is not coded (A's treatment)."
+  },
+  "C8.2": {
+   "chosen": "A",
+   "reason": "Coding stops after C0 = INELIG, so this item is not coded (A's treatment)."
+  },
+  "C9.1": {
+   "chosen": "A",
+   "reason": "Coding stops after C0 = INELIG, so this item is not coded (A's treatment)."
+  },
+  "C9.2": {
+   "chosen": "A",
+   "reason": "Coding stops after C0 = INELIG, so this item is not coded (A's treatment)."
+  }
+ }
+}

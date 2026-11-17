@@ -1,0 +1,167 @@
+{
+ "paper_id": "EC-2023-7c70f299",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Intro p.1",
+  "quote": "Liquid democracy is a voting paradigm that allows voters",
+  "note": "Liquid democracy with delegations aggregated by weighted majority."
+ },
+ "C1": {
+  "types": [
+   "WD"
+  ],
+  "primary": "WD",
+  "loc": "Abstract; Sec 3-6",
+  "quote": "liquid democracy is less likely to identify the ground truth than direct voting",
+  "note": "Probabilistic accuracy (do no harm, positive gain) against ground truth; proofs are probabilistic analysis, closest to WD."
+ },
+ "C2.1": {
+  "value": "votes",
+  "loc": "Sec 2, p.5",
+  "quote": "the probability that i votes correctly"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Sec 2, p.5",
+  "quote": "voters making a decision on a binary issue",
+  "note": "Binary vote on a binary issue, plus delegation to another voter."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec 2, p.5",
+  "quote": "Each voter i has a competence level pi",
+  "note": "Competence is a held attribute (type)."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Sec 2, p.5",
+  "quote": "Vi = 1 if voter i would vote correctly if i did vote",
+  "note": "Votes Vi are separate notation, drawn from Bernoulli(pi) given competence pi."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sec 7 Discussion, p.20",
+  "quote": "our models do not take strategic considerations into account",
+  "note": ""
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sec 2, Intro, Discussion",
+  "quote": "none found",
+  "note": "No statement that voters submit their held attitude."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED"
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Input is a binary vote, not RANK/WEAK/APPR/DICH/PAIR."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sec 2-6",
+  "quote": "none found",
+  "note": "Evaluates probability of the correct outcome (accuracy), not a listed criterion."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sec 1.1, p.2",
+   "quote_behav": "they intend to capture independent voter behavior",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters delegate or vote according to fixed probabilistic model (q, phi)."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only one type present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no STRAT or MIXED type"
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract",
+    "quote": "the concerns raised about liquid democracy can be overcome"
+   },
+   {
+    "loc": "Sec 1.2, p.4",
+    "quote": "models are inherently self-regulatory, which supports the effectiveness"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sec 7 Discussion, p.19-20",
+  "quote": "the assumption that there exists a ground-truth alternative seems ill-suited",
+  "note": "Ground truth, independence and non-strategic voters are all stated in Discussion."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": ""
+ }
+}

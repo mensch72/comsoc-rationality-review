@@ -1,0 +1,191 @@
+{
+ "paper_id": "AAAI-2023-82e8fe3a",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.5591",
+  "quote": "In party-approval multiwinner elections the goal is to allocate",
+  "note": "Party-approval multiwinner voting rules; axiomatic and strategyproofness analysis."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SB"
+  ],
+  "primary": "AX",
+  "loc": "Abstract, p.5591; Sections 3-4, pp.5594-5597",
+  "quote": "show that these two axioms are incompatible for anonymous",
+  "note": "All main results (Theorems 1-4) are axiomatic results in which strategyproofness (or SP for unrepresented voters) is one of the properties; AX and SB fit equally, so the first listed (AX) is chosen as primary. SAT solving is a proof technique, not an algorithmic result."
+ },
+ "C2.1": {
+  "value": "approval ballots; approval profile",
+  "loc": "Section 2 Preliminaries, p.5592",
+  "quote": "The approval ballot Ai \u2286 P of a voter i is"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Section 2 Preliminaries, p.5592",
+  "quote": "The approval ballot Ai \u2286 P of a voter i is",
+  "note": "Dichotomous preferences are the held attitude; the rule's argument is described as approval ballots (sets of approved parties), so DICH is not coded."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2 Preliminaries, p.5592",
+  "quote": "is assumed to have a dichotomous preference relation over the",
+  "note": "Voters have dichotomous preferences / 'true preferences' distinct from what they report."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2.2 Strategyproofness, p.5593",
+  "quote": "we cannot expect the voters to submit their true preferences",
+  "note": "Text says reported ballots may differ from true preferences (misreporting); notation Ai is used both for ballot and true approval set in Definition 3, but the text separates them."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Abstract, p.5591; Sections 2.2, 3, 4",
+  "quote": "no voter can benefit by misreporting her true preferences",
+  "note": "Every main result (Theorems 1-4, Proposition 1) involves strategyproofness or strategyproofness for unrepresented voters, i.e., voters submitting a ballot different from their true approval set."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED (it is NA)."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Input is APPR, but the paper does not use utility, welfare, satisfaction, cost, distortion or intensity of preference for voters (it speaks of 'benefit' and seat counts only)."
+ },
+ "C4.2": {
+  "code": "Y",
+  "loc": "Section 2.2 Strategyproofness, p.5593",
+  "quote": "voters are indifferent between their approved parties",
+  "note": "Dichotomous preference partitions parties into approved/disapproved; the paper states voters are indifferent among approved parties and only the number of seats on approved parties matters to them, which gives the classes an outcome-preference meaning."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2.1 Proportional Representation, Definitions 1-2, p.5593",
+  "quote": "satisfies weak representation if f (A, k, x) \u2265 1",
+  "note": "Weak representation and weak proportional representation (representation of groups of voters) are axioms in Theorems 1-3; Pareto optimality is also used in a weakened version of Proposition 1."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 2.1, Definition 1, p.5593",
+  "quote": "and Ai = {x} for all i \u2208 G.",
+  "note": "Representation axioms are defined on approval ballots Ai; the text motivates them as representing 'the voters' preferences' but does not state that ballots equal preferences, and elsewhere says voters may misreport."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Section 2.2 Strategyproofness, p.5593",
+   "quote_behav": "we cannot expect the voters to submit their true preferences",
+   "loc_info": "none found: Abstract; Section 1 Introduction; Section 2 Preliminaries and 2.2; Section 5 Conclusion",
+   "quote_info": "none found",
+   "note": "Voters are described in words as potentially misreporting and as more or less prone to manipulate; strategyproofness is a dominant-strategy property that holds for every profile, and the paper makes no assumption about what a voter knows of others' ballots."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Parties are only alternatives receiving seats."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "Tie-breaking order is fixed; no organiser choice is modelled."
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N",
+   "note": "Rules are compared by axioms; no designer choice or objective is modelled."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present by the C6 definition."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "DOM"
+  ],
+  "loc": "Section 2.2, Definitions 3-4, p.5593",
+  "quote": "Definition 3 (Strategyproofness). A party-approval rule f is",
+  "note": "Strategyproofness (cardinality strategyproofness) and its weakening, strategyproofness for unrepresented voters."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 2.2, Definition 3, p.5593",
+  "quote": "Definition 3 (Strategyproofness). A party-approval rule f is"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 1 Introduction, p.5592",
+    "quote": "proving an attractive escape route to our impossibility results."
+   },
+   {
+    "loc": "Section 1 Introduction, p.5592",
+    "quote": "this is not the case in our initial example of parliamentary elections"
+   },
+   {
+    "loc": "Section 5 Conclusion, p.5597",
+    "quote": "thus offering an attractive escape route to our previous impossibility theorem"
+   }
+  ],
+  "note": "Claims recommend CCAV as an attractive rule and discuss applicability of the impossibilities to parliamentary elections."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 2.2 Strategyproofness, p.5593",
+  "quote": "voters without any representation in the committee are more prone to manipulate",
+  "note": "The recommendation of CCAV as an attractive escape route needs (a) that voters care only about the number of seats of approved parties (stated, p.5593) and (b) that represented voters are less likely to manipulate (stated with reasons, p.5593); the ballot is defined as the voter's set of approved parties (p.5592); the parliamentary-elections claim follows from the formal parameter conditions alone."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Abstract; Section 1 Introduction; Section 2 Preliminaries; Section 5 Conclusion",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C2.2": {
+   "chosen": "A",
+   "reason": "The submitted input is described as an approval ballot, while 'dichotomous preference relation' describes the held attitude from which the ballot is distinguished (C2.4 = DIST), so only APPR applies."
+  },
+  "C6.VOT": {
+   "chosen": "other",
+   "reason": "Voter strategic behaviour is said in words (A is right on EXPLICIT), but no knowledge assumption is stated and a per-profile strategyproofness condition does not imply complete information, so info is NS (B is right on info)."
+  },
+  "C9.2": {
+   "chosen": "A",
+   "reason": "The assumptions the claims need (voters only count seats of approved parties; represented voters are less prone to manipulate) are stated in words, even if hedged as a belief, so no needed assumption is unstated."
+  }
+ }
+}

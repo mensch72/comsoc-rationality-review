@@ -1,0 +1,169 @@
+{
+ "paper_id": "AAAI-2025-04d586ed",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "we focus on the complexity of verifying whether a given outcome offers proportional representation",
+  "note": "Temporal multiwinner voting with approval ballots; verification complexity of JR axioms."
+ },
+ "C1": {
+  "types": [
+   "AL"
+  ],
+  "primary": "AL",
+  "loc": "Abstract and Sections 3-7",
+  "quote": "verification is strictly harder than in multiwinner voting",
+  "note": "coNP-hardness, FPT, polynomial algorithm, ILP; one impossibility proposition (Prop 7.4) on rules satisfying EJR, arguably AX but minor."
+ },
+ "C2.1": {
+  "value": "temporal preference; approval set",
+  "loc": "Section 2, p.2",
+  "quote": "We refer to si as i\u2019s temporal preference"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Section 2, p.2",
+  "quote": "temporal voting with approval ballots",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Abstract and Section 2",
+  "quote": "the voters report their preferences over the available candidates",
+  "note": "Voters are said to have preferences; approval sets are called temporal preferences."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2, p.2",
+  "quote": "We refer to si as i\u2019s temporal preference",
+  "note": "Input described as preference and used directly; reporting mentioned only in abstract with no statement on sincerity."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "No strategic analysis."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 2, 8 (Conclusion)",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED"
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 2, p.2",
+  "quote": "sati (o) = |{t 2 [`] : ot 2 si,t }|",
+  "note": "Satisfaction defined as number of rounds with approved winner."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term not used"
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2, Definitions 2.3-2.5",
+  "quote": "justified representation (JR)",
+  "note": "JR/PJR/EJR representation axioms are the evaluation criteria."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 2, Definitions 2.3-2.5",
+  "quote": "there exists a voter i 2 N 0 with sati (o)",
+  "note": "Evaluated on approval sets; no statement relating them to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters have fixed approval sets; no action in the formal model."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates only alternatives"
+  },
+  "ORG": {
+   "present": "N",
+   "note": "No acting organiser"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Fewer than two types present"
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is NA"
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no STRAT or MIXED type"
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 1, p.1",
+    "quote": "it is important for the company to ensure that the selection is representative"
+   },
+   {
+    "loc": "Abstract, p.1",
+    "quote": "large cohesive groups of voters should be fairly represented in the final outcome"
+   }
+  ],
+  "note": "Motivating claims about fair representation of voters in real decisions."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 1 and 2",
+  "quote": "none found",
+  "note": "Fairness to voters needs submitted approval sets to equal voters' actual preferences (no strategic reporting); not stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 2, 8 (Conclusion)",
+  "quote": "none found",
+  "note": ""
+ }
+}

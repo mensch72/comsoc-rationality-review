@@ -1,0 +1,30 @@
+{
+"paper_id":"COMSOC-2023-e81b4148","codebook_version":"1.0",
+"C0":{"code":"ELIG","loc":"Abstract, p.1","quote":"select a committee (a subset) of k alternatives","note":"Approval-based multiwinner voting rules."},
+"C1":{"types":["AX","AL","WD"],"primary":"AX","loc":"Sections 2-4, Appendix G","quote":"we derive new almost tight bounds","note":"Proportionality guarantees (property bounds) for rules, an LP algorithm to compute bounds, and utilitarian efficiency (Appendix G). AX chosen as primary as most results are guarantees of proportionality properties; doubt with WD."},
+"C2.1":{"value":"approval-based profile; approval set","loc":"Section 2, p.2","quote":"approval-based profile (or, in short, a profile)"},
+"C2.2":{"codes":["APPR"],"loc":"Section 2, p.2","quote":"each voter to a subset of C","note":""},
+"C2.3":{"code":"Y","loc":"Section 2, p.2; Abstract","quote":"candidates that voter i finds acceptable","note":"Also refers to voters' preferences; approval sets described as what voters find acceptable."},
+"C2.4":{"code":"IDU","loc":"Section 2, p.2","quote":"approval-based preferences","note":"Approval set is described as preferences and the rule is applied directly; no statement about submission or reporting."},
+"C3.1":{"code":"NONE","loc":"Whole paper","quote":"none found","note":"No strategic behaviour analysed."},
+"C3.2":{"code":"NOT-STATED","loc":"Section 2, Introduction, Conclusion","quote":"none found","note":""},
+"C3.3":{"code":"NA","loc":"","quote":"","note":"C3.2 is not STATED"},
+"C4.1":{"code":"SPEC","loc":"Section 2.2, p.4; Appendix G","quote":"average number of representatives that a voter from V has","note":"Satisfaction defined as number of approved winners; utilitarian efficiency defined via total approvals."},
+"C4.2":{"code":"NA","loc":"Whole paper","quote":"","note":"Term dichotomous preferences not used."},
+"C5.1":{"code":"Y","loc":"Section 2.2 Definition 1; Appendix G Definition 4","quote":"proportionality guarantee for an ABC rule R","note":"Proportionality degree, group satisfaction and utilitarian efficiency are evaluated formally."},
+"C5.2":{"code":"INPUT-UNSTATED","loc":"Section 2.2, p.4","quote":"|V1 | i∈V |W ∩ A(i)|","note":"Evaluated on approval sets; no statement relating them to held attitudes beyond calling them preferences."},
+"C6":{
+"VOT":{"present":"Y","behav":"NONSTRAT","behav_stated":"IMPLICIT","info":"NA","info_stated":"NA","loc_behav":"Section 2, p.2","quote_behav":"a function A : N → S(C) that maps each voter","loc_info":"","quote_info":"","note":"Voters appear only via fixed approval sets; no strategic action modelled."},
+"CAN":{"present":"N"},"ORG":{"present":"N"},"DIS":{"present":"N"},"BRI":{"present":"N"},"DES":{"present":"N"},"OTH":{"present":"N"}
+},
+"C7.1":{"code":"NA","loc":"","quote":"","note":"Fewer than two types present."},
+"C7.2":{"code":"NA","loc":"","quote":"","note":"C7.1 is NA"},
+"C8.1":{"codes":[],"loc":"","quote":"","note":"NA: no type is STRAT or MIXED."},
+"C8.2":{"code":"NA","loc":"","quote":""},
+"C9.1":{"code":"Y","claims":[
+{"loc":"Introduction, p.2","quote":"our results suggest that PAV should be preferred whenever proportionality is the primary goal"},
+{"loc":"Introduction, p.1","quote":"it should be fair to (groups of) voters"},
+{"loc":"Section 3, p.6","quote":"Phragmén’s Sequential Rule as an appealing alternative for PAV"}],"note":"Rule recommendations and fairness-to-voters claims."},
+"C9.2":{"code":"SOME-UNSTATED","loc":"Introduction, Section 2","quote":"none found","note":"Claims about fairness to voters and rule choice need a statement that submitted approval sets equal voters' held attitudes, and how approvals relate to utility; neither is stated."},
+"C10.1":{"code":"N","loc":"Whole paper","quote":"none found","note":""}
+}

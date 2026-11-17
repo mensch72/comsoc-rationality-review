@@ -1,0 +1,38 @@
+{
+  "paper_id": "EC-2023-7c70f299",
+  "codebook_version": "1.0",
+  "C0": {"code": "ELIG", "loc": "Abstract, title page", "quote": "Liquid democracy is a voting paradigm that allows voters to choose", "note": "Liquid democracy: binary votes aggregated by weighted majority after transitive delegation."},
+  "C1": {"types": ["AX", "WD"], "primary": "WD", "loc": "Section 4, Theorem 1, p.9; Section 2, Definitions 1-2, p.6", "quote": "satisfies probabilistic do no harm and probabilistic positive gain with respect", "note": "Main results (Theorems 1-3) show delegation models satisfy probabilistic do no harm / positive gain, defined via gain in probability of selecting the ground truth; coded WD (performance against an epistemic accuracy objective) as primary, AX also listed since results are stated as models satisfying properties."},
+  "C2.1": {"value": "binary votes Vi (with delegations forming a delegation graph Gn)", "loc": "Section 2 Model, p.5", "quote": "over the n possible binary votes Vi"},
+  "C2.2": {"codes": ["OTH"], "loc": "Section 2 Model, p.5", "quote": "voters are making a decision on a binary issue", "note": "Input is a binary vote in {0,1} (correct/incorrect alternative), plus each voter's choice to vote directly or delegate to another voter."},
+  "C2.3": {"code": "Y", "loc": "Section 2 Model, p.5; Appendix A, p.24", "quote": "Each voter i has a competence level pi ∈ [0, 1]", "note": "Competence pi is attributed to voters independently of their vote and is explicitly treated as the voter's type in Appendix A ('we take a voter's type to be their competence'); no preferences or utilities appear."},
+  "C2.4": {"code": "DIST", "loc": "Section 2 Model, p.5-6", "quote": "Let Vi = 1 if voter i would vote correctly", "note": "Competence pi and vote Vi ~ Bern(pi) are separate objects with separate notation; the vote is a random draw given competence. Doubt: C2.3 could be read as N (competence is an ability rather than an attitude), which would give ONE."},
+  "C3.1": {"code": "NONE", "loc": "Section 7 Discussion, p.20", "quote": "our models do not take strategic considerations into account", "note": "Votes and delegations are stochastic according to fixed models; no strategic misreporting analysed."},
+  "C3.2": {"code": "NOT-STATED", "loc": "Checked: Abstract; Section 1 Introduction and 1.1, pp.1-4; Section 2 Model, pp.5-6; Section 7 Discussion, pp.19-20", "quote": "none found", "note": "The paper states voters are non-strategic and vote correctly with probability pi, but does not state that voters submit their held attitude."},
+  "C3.3": {"code": "NA", "loc": "", "quote": "", "note": "C3.2 is not STATED."},
+  "C4.1": {"code": "NA", "loc": "", "quote": "", "note": "C2.2 is OTH only and no utility/welfare/satisfaction/cost/distortion notions for voters are used."},
+  "C4.2": {"code": "NA", "loc": "", "quote": "", "note": "The term dichotomous preferences is not used."},
+  "C5.1": {"code": "N", "loc": "Section 2 Model, Gain of a delegation instance, p.5", "quote": "the difference between the probability that liquid democracy is correct", "note": "Outcomes are evaluated by epistemic accuracy (probability of selecting the ground truth) and concentration of power, none of the listed welfare/representation criteria."},
+  "C5.2": {"code": "NA", "loc": "", "quote": "", "note": "C5.1 = N."},
+  "C6": {
+    "VOT": {"present": "Y", "behav": "NONSTRAT", "behav_stated": "EXPLICIT", "info": "NA", "info_stated": "NA",
+            "loc_behav": "Section 7 Discussion, p.20", "quote_behav": "our models do not take strategic considerations into account", "loc_info": "", "quote_info": "", "note": "Voters vote (Vi ~ Bern(pi)) or delegate according to exogenous stochastic delegation models M = (q, phi), described as capturing 'independent voter behavior'. Info is NA because behaviour is non-strategic; the paper notes a voter 'does not need to know' others' competence (Section 1.1, p.2)."},
+    "CAN": {"present": "N", "note": "Alternatives are a correct and an incorrect option; no candidates act."},
+    "ORG": {"present": "N", "note": "Central planners appear only in related work, not in the model."},
+    "DIS": {"present": "N"},
+    "BRI": {"present": "N"},
+    "DES": {"present": "N", "note": "Delegation models are studied as descriptions of voter behaviour, not as a designer's choice."},
+    "OTH": {"present": "N"}
+  },
+  "C7.1": {"code": "NA", "loc": "", "quote": "", "note": "Only voters are present."},
+  "C7.2": {"code": "NA", "loc": "", "quote": "", "note": "C7.1 is not Y."},
+  "C8.1": {"codes": [], "loc": "", "quote": "", "note": "NA: no type is STRAT or MIXED."},
+  "C8.2": {"code": "NA", "loc": "", "quote": ""},
+  "C9.1": {"code": "Y", "claims": [
+    {"loc": "Abstract, title page", "quote": "the concerns raised about liquid democracy can be overcome, thereby bolstering the"},
+    {"loc": "Section 1.2 Related work, p.4", "quote": "which supports the effectiveness of the current practice of liquid democracy"},
+    {"loc": "Section 7 Discussion, p.20", "quote": "We believe that our results provide another such reason"}
+  ], "note": "Claims about what the results mean for the practice and adoption of liquid democracy."},
+  "C9.2": {"code": "ALL-STATED", "loc": "Section 7 Discussion, pp.19-20; Section 2 Model, pp.5-6", "quote": "our models do not take strategic considerations into account", "note": "Needed assumptions: existence of a ground truth (stated and discussed, p.19), votes independent Bernoulli draws from competence (stated, p.5; independence discussed p.20), voters non-strategic (stated, p.20), delegation behaviour following the (q, phi) models without a restricting social network (stated, Sections 1.1, 2, 7). All are stated as modelling assumptions."},
+  "C10.1": {"code": "N", "loc": "Checked: Abstract; Section 1 Introduction, pp.1-4; Section 2 Model, pp.5-6; Section 7 Discussion, pp.19-20", "quote": "none found", "note": ""}
+}

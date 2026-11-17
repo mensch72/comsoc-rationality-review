@@ -1,0 +1,193 @@
+{
+ "paper_id": "COMSOC-2025-0abf8270",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "1. Introduction, p.1",
+  "quote": "extensive research on the design of voting systems for participatory budgeting",
+  "note": "Approximate proportional core for participatory budgeting and committee selection (voting on outcomes from voters' preferences)."
+ },
+ "C1": {
+  "types": [
+   "AX"
+  ],
+  "primary": "AX",
+  "loc": "4. Main Result, Theorem 4.1, p.7; 5. Committee Selection, Theorem 5.1, p.10",
+  "quote": "under Assumption 1, there exists a 6.24-approximate core solution.",
+  "note": "Main results are existence of outcomes in the gamma-approximate (proportional) core, a fairness property; the approximation factor relaxes a property rather than approximating an optimum of a welfare objective, so WD is not coded. Algorithms are constructive proof devices and the conclusion puts computational aspects beyond scope, so AL is not coded."
+ },
+ "C2.1": {
+  "value": "preference profiles; preference order; ranking preferences; approval preferences",
+  "loc": "2. Notations and Preliminaries, p.3; 5. Committee Selection, p.10",
+  "quote": "the preference profiles of voters"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK",
+   "WEAK",
+   "APPR"
+  ],
+  "loc": "2. Notations and Preliminaries, p.3; 5. Committee Selection, Def. 5.1-5.2 and Sec. 5.1, p.10",
+  "quote": "Note that both ranking and approval preferences may allow ties.",
+  "note": "General model: strict preference orders over outcomes ('We assume that the order is strict'). Section 5: ranking preferences induced by an item ranking and approval preferences given by an approved set Mi; the induced preferences over committees may have ties (weak orders). No input format outside the listed codes, so OTH is not needed."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "1. Introduction, p.1",
+  "quote": "voters have ordinal preferences over combinations of projects",
+  "note": "Voters are attributed preferences (and, for approval preferences, utilities u_i(S))."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "2. Notations and Preliminaries, p.3",
+  "quote": "preference order \u2ab0i over O. We assume that the order is strict.",
+  "note": "The rule's argument is the agents' preference orders, applied directly; the abstract says participants 'submit ordinal preferences' but only to contrast the format with numerical utilities, not to state that submitted equals held preferences."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "checked: Abstract; 1. Introduction; 2. Notations and Preliminaries; 3; 4; 5. Committee Selection; 6. Conclusion; Appendices A-D",
+  "quote": "none found",
+  "note": "No analysis of voters misreporting preferences."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "checked: Abstract; 1. Introduction; 2. Notations and Preliminaries; 5. Committee Selection; 6. Conclusion; Appendices",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 = NOT-STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "5. Committee Selection, Definition 5.2, p.10",
+  "quote": "has a utility ui (S) = |S \u2229 Mi |",
+  "note": "For approval preferences, utility is the number of approved candidates in the committee and the preference is defined by it; the introduction also mentions utility gains in the (alpha,beta)-core."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' or an equivalent is not used; the paper speaks of approval preferences/ballots."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "2. Notations and Preliminaries, p.3 (Definitions 2.1-2.2, p.3-4)",
+  "quote": "Our main solution concepts are the core and the approximate core",
+  "note": "The proportional core is presented as a fairness concept for groups of voters and is the criterion in all main results."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "2. Notations and Preliminaries, Definition 2.2, p.4",
+  "quote": "a feasible outcome o\u2217 is in \u03b3-approximate core if for every outcome",
+  "note": "Core counts agents preferring o to o* according to the preference profile given to the rule; no statement relating it to submission or held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "2. Notations and Preliminaries, p.3",
+   "quote_behav": "preference order \u2ab0i over O. We assume that the order is strict.",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters' preferences are the exogenous, fixed input to the outcome selection, which C6 counts as a fixed action; the LEO demand choices (Sec. 3.2) are a proof device, not voting behaviour, so not STRAT."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates/projects are only alternatives."
+  },
+  "ORG": {
+   "present": "N",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "note": "A revenue-maximising 'centralized producer' appears only in the Lindahl/LEO analytical construction (Sec. 3), not as an actor in the voting model."
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only one type (VOT) present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 = NA."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, title page",
+    "quote": "A central fairness concept in this setting is the proportional core"
+   },
+   {
+    "loc": "1. Introduction, p.1",
+    "quote": "ensuring proportional fairness. Specifically, no group of voters should be able to"
+   },
+   {
+    "loc": "1. Introduction, p.1",
+    "quote": "Eliciting cardinal valuations can be impractical, as voters"
+   }
+  ],
+  "note": "Claims about fairness towards groups of voters and about practical elicitation in real PB."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "checked: Abstract; 1. Introduction; 2. Notations and Preliminaries; 6. Conclusion",
+  "quote": "none found",
+  "note": "Fairness claims towards voter groups follow from core results on the preference profile given to the rule; they need that submitted preferences equal voters' held preferences (sincere reporting), which is not stated. The elicitation claim is motivation and does not rely on the formal results."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "checked: Abstract; 1. Introduction; 2. Notations and Preliminaries; 6. Conclusion",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C1": {
+   "chosen": "A",
+   "reason": "The gamma-approximate core is a relaxed proportionality property, not performance against a welfare/distortion objective, so the results are axiomatic (AX) only."
+  },
+  "C2.2": {
+   "chosen": "A",
+   "reason": "The general model uses strict orders (RANK), Section 5 uses approval sets (APPR) and explicitly allows ties in the induced committee preferences (WEAK), while B's OTH describes strict orders already covered by RANK."
+  },
+  "C6.VOT": {
+   "chosen": "A",
+   "reason": "C6 counts types whose actions are fixed by the model, and voters supplying their exogenous preferences to the rule is such a fixed (non-strategic, implicitly sincere) action, consistent with C3.1 = NONE."
+  }
+ }
+}

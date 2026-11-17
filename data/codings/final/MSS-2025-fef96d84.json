@@ -1,0 +1,184 @@
+{
+ "paper_id": "MSS-2025-fef96d84",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Sec. 2.2 Voting schemes, p. 3",
+  "quote": "A voting rule is a collective choice rule that maps preference profiles",
+  "note": "Compares single-winner voting rules (Condorcet-consistent, scoring, sequential scoring, approval) on polarized preference domains."
+ },
+ "C1": {
+  "types": [
+   "AX"
+  ],
+  "primary": "AX",
+  "loc": "Sec. 2.2, p. 3; Theorem 1, Sec. 4.2, p. 9",
+  "quote": "Property PPC holds if, for a given profile, a voting rule",
+  "note": "Main results establish which rules satisfy property PPC on each polarized profile (Table 4, Theorem 1). Numerical Saari-triangle examples in Appendix B are illustrations, not simulations."
+ },
+ "C2.1": {
+  "value": "preference profiles; preference orderings / preference rankings; votes; approvals (AV)",
+  "loc": "Sec. 2.2, p. 3",
+  "quote": "A voting rule is a collective choice rule that maps preference profiles"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK",
+   "APPR"
+  ],
+  "loc": "Sec. 2, p. 2; Sec. 4.4, p. 12",
+  "quote": "voters\u2019 preferences are anti-symmetric (strict)",
+  "note": "Strict rankings throughout; approval voting analysed in Sec. 4.4 (\"It entails each voter being able to either approve (some) individual\"), with approvals derived from rankings via cut-off levels."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec. 2 The model, p. 2",
+  "quote": "voters\u2019 top (best) preference is always identical with their votes",
+  "note": "Voters' preferences are referred to as distinct from their votes / what they submit."
+ },
+ "C2.4": {
+  "code": "IDJ",
+  "loc": "Sec. 2 The model, p. 2; Sec. 4.3, p. 10",
+  "quote": "most of the other related papers, we neglect strategic considerations of voters",
+  "note": "The paper states that votes equal preferences (Sec. 2: top preference 'always identical with their votes'; Sec. 4.3: voters 'vote according to their original preference rankings') and justifies this by convention in prior work (Dasgupta and Maskin), which C3.3 codes as CONV, a reason; the remarks that voters may reconsider (Sec. 4.3) or that honest voting may not be compelling (Sec. 4.4) acknowledge a possibility that is then assumed away, not a model treating input and preference as separate objects."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sec. 4.3 Sequential Scoring Rules, p. 10",
+  "quote": "our model neither accounts for decisions to abstain from voting nor strategic",
+  "note": "All analyses assume voters vote according to their preference rankings; the remark on moderates in Sec. 4.4 is commentary, not a strategic analysis."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Sec. 4.3, p. 10; also Sec. 2, p. 2",
+  "quote": "we assume that all voters participate in all rounds and vote",
+  "note": "Sec. 2 also: 'we neglect strategic considerations of voters' and voters' top preference identical with their plurality votes."
+ },
+ "C3.3": {
+  "code": "CONV",
+  "loc": "Sec. 2 The model, p. 2",
+  "quote": "As in Dasgupta and Maskin (2008) and most of the other",
+  "note": "The sincere-voting assumption is justified by reference to prior work; Sec. 4.3 adds only that the model does not account for strategic deliberation, and the plurality-vote identity is tied to neglecting menu dependency."
+ },
+ "C4.1": {
+  "code": "PART",
+  "loc": "Sec. 5 Conclusion, p. 14; footnote 4",
+  "quote": "the consideration of preference intensities inferred from ordinal data.",
+  "note": "Applicability met: inputs are rankings (RANK) and the paper uses voters' 'preference intensities' (Borda/MIIA discussion); the relation to ordinal input is mentioned (intensities inferred from ordinal data) but not defined."
+ },
+ "C4.2": {
+  "code": "N",
+  "loc": "Sec. 4.4 Approval Voting, p. 12",
+  "quote": "Assuming voters exhibit dichotomous preferences, AV possesses a variety of desirable properties",
+  "note": "Term used when citing prior work; the two classes are not explained. The paper's own AV analysis uses cut-off levels on rankings instead."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sec. 2.2, p. 3; Sec. 4.5, p. 13",
+  "quote": "brings not forth a polarizing candidate as the electoral winner.",
+  "note": "Results evaluate rules by property PPC (non-election of polarizing candidates) and Condorcet consistency, not by welfare, efficiency, satisfaction, representation, proportionality or distortion."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sec. 4.3 Sequential Scoring Rules, p. 10",
+   "quote_behav": "we assume that all voters participate in all rounds and vote",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters submit their preference rankings sincerely; Sec. 2 also says 'we neglect strategic considerations of voters'. Info NA as behav = NONSTRAT (the paper says voters are perfectly informed about candidates' policy choice, Sec. 2, p. 2)."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates serve only as alternatives in the formal model; their incentives to polarize are discussed outside the model."
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N",
+   "note": "Rule comparison is not modelled as a designer's choice or objective."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present by the C6 definition."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Sec. 1 Introduction, p. 1",
+    "quote": "the often-used plurality rule (PR) has a substantial incentive to polarize."
+   },
+   {
+    "loc": "Sec. 5 Conclusion, p. 13",
+    "quote": "We find that polarizing candidates benefit considerably from the plurality rule."
+   },
+   {
+    "loc": "Sec. 5 Conclusion, p. 14",
+    "quote": "Despite subjective perceptions, the electorate is likely to reject a voting"
+   }
+  ],
+  "note": "Claims about incentives created by real electoral rules and which rules are suitable or acceptable."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sec. 2 The model, p. 2",
+  "quote": "voters\u2019 top (best) preference is always identical with their votes",
+  "note": "Sincere voting (inputs = preferences) is stated. Claims about candidates' incentives to polarize and their benefit from polarizing need an assumption that candidates choose positions strategically and that polarizing shifts the profile in their favour; candidates are not modelled as acting agents and this is not stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sec. 1 Introduction; Sec. 2 The model; Sec. 4.3; Sec. 4.4; Sec. 5 Conclusion",
+  "quote": "none found",
+  "note": "The paper assumes sincere voting rather than declaring a purely procedural reading."
+ },
+ "adjudication": {
+  "C2.4": {
+   "chosen": "other",
+   "reason": "The identity of votes and preferences is stated in words and supported by a citation of convention (both coders code C3.3 = CONV), so IDJ fits better than DIST (no separate objects in the model) or IDS (a reason is given)."
+  },
+  "C4.1": {
+   "chosen": "A",
+   "reason": "The paper refers to voters' preference intensities, which triggers C4.1, and only mentions without defining that they are inferred from ordinal rankings."
+  }
+ }
+}

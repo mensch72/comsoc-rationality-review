@@ -1,0 +1,27 @@
+{
+"paper_id":"COMSOC-2025-f7a8cdd7","codebook_version":"1.0",
+"C0":{"code":"ELIG","loc":"Sec 1, p1","quote":"Consider a population of N voters voting over two alternatives","note":"Strategic turnout (abstention) under majority rule, equilibrium analysis"},
+"C1":{"types":["EQ","WD","SI"],"primary":"EQ","loc":"Sec 4-6","quote":"Every election has at least one equilibrium.","note":"Jury-theorem results concern winning probability of the better candidate (WD-like); Example 5 is a numerical illustration"},
+"C2.1":{"value":"vote / action (vote for a candidate or abstain)","loc":"Sec 2.1, p3","quote":"The action of each voter is to vote for one of the two candidates"},
+"C2.2":{"codes":["OTH"],"loc":"Sec 2.1, p3","quote":"or abstain (⊥)","note":"Binary vote for one of two candidates or abstain"},
+"C2.3":{"code":"Y","loc":"Sec 2.1, p3","quote":"Each voter is either a supporter of A (prefers A","note":"Preferences, utility and cost types"},
+"C2.4":{"code":"DIST","loc":"Sec 2.1, p3","quote":"the effective cost of voting and the preference of voter i","note":"Type (c_i,T_i) is separate from action vote/abstain"},
+"C3.1":{"code":"ALL","loc":"Sec 2.1, p3","quote":"the only two actions for voter i are ⊤","note":"Abstention is strategic choice differing from the held preference; voting for less preferred candidate is dominated"},
+"C3.2":{"code":"NA","loc":"","quote":"","note":"C3.1 = ALL"},
+"C3.3":{"code":"NA","loc":"","quote":"","note":"C3.2 not STATED"},
+"C4.1":{"code":"NA","loc":"","quote":"","note":"Input format is OTH only"},
+"C4.2":{"code":"NA","loc":"","quote":"","note":"Term not used"},
+"C5.1":{"code":"N","loc":"Sec 5","quote":"the Winning Probability of A in profile c","note":"Evaluates whether the better/majority-preferred candidate wins (Jury theorem), not social welfare, representation or distortion as defined criteria; borderline"},
+"C5.2":{"code":"NA","loc":"","quote":"","note":"C5.1 = N"},
+"C6":{
+"VOT":{"present":"Y","behav":"STRAT","behav_stated":"EXPLICIT","info":"PARTIAL","info_stated":"EXPLICIT","loc_behav":"Sec 1.1, p2","quote_behav":"voters are rational in the sense of aiming to maximize their expected utility","loc_info":"Sec 2.1, p3","quote_info":"commonly known joint distribution D over [0, 1] × {A, B}","note":"Know own type and the type distribution; pivotality perceived via heuristic PPM"},
+"CAN":{"present":"N","note":"Candidates only alternatives"},
+"ORG":{"present":"N"},"DIS":{"present":"N"},"BRI":{"present":"N"},"DES":{"present":"N"},"OTH":{"present":"N"}},
+"C7.1":{"code":"NA","loc":"","quote":"","note":"Only one type present"},
+"C7.2":{"code":"NA","loc":"","quote":"","note":"C7.1 not Y"},
+"C8.1":{"codes":["BNE","BND"],"loc":"Sec 2.1 and 2.2","quote":"In a (pure) Bayes-Nash equilibrium, each player picks an action","note":"Election equilibrium with heuristic perceived pivotality"},
+"C8.2":{"code":"Y","loc":"Sec 2.1, p3","quote":"In a (pure) Bayes-Nash equilibrium, each player picks an action"},
+"C9.1":{"code":"Y","claims":[{"loc":"Sec 1, p1","quote":"in an attempt to reconcile the theoretical predictions with the moderate turnout rates"},{"loc":"Sec 7, p12","quote":"the (locally) more popular candidate wins with a probability approaching one"}],"note":"Claims about real elections and turnout"},
+"C9.2":{"code":"ALL-STATED","loc":"Sec 2.2, p4","quote":"we will maintain the utility maximization assumption but allow voters much more freedom","note":"Needed assumptions (strategic voters, heuristic pivotality beliefs, knowledge of type distribution) are stated in the model"},
+"C10.1":{"code":"N","loc":"Sec 1-7","quote":"none found","note":"No procedural reading statement; checked intro, model, discussion"}
+}

@@ -1,0 +1,52 @@
+{
+ "paper_id": "COMSOC-2025-f7a8cdd7",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "EQ",
+     "SI"
+    ],
+    "primary": "EQ",
+    "loc": "Sec. 4, p.8; Sec. 6.1, p.11",
+    "quote": "So we have a rather complete characterization of equilibria, or at least",
+    "note": "Main results: existence, limit points, stability of turnout equilibria and Jury/non-Jury theorems at equilibrium limits; Sec. 6.1 adds a numerical simulation on a synthetic example (Example 5). Winning probability of the better candidate is analysed as a property of equilibria, not as performance against a welfare/distortion objective (consistent with C5.1 = N)."
+   },
+   "chosen": "A",
+   "reason": "Types EQ and SI as A coded; WD is not warranted because the Jury results characterise equilibrium win probabilities rather than welfare or distortion, consistent with the agreed C5.1 = N."
+  },
+  "C8.1": {
+   "value": {
+    "codes": [
+     "BNE",
+     "BND",
+     "ITER"
+    ],
+    "loc": "Sec. 2.1, p.4; Sec. 2.2, p.5; Sec. 4.1, p.8 and App. D, p.21-22",
+    "quote": "In a (pure) Bayes-Nash equilibrium, each player picks an action",
+    "note": "Bayes-Nash equilibrium for the Calculus of Voting; 'election equilibrium' with heuristic perceived pivotality models (BND); stability of equilibria (Theorem 9) is defined via simultaneous best-response dynamics converging to the equilibrium (App. D, Def. 11) (ITER)."
+   },
+   "chosen": "A",
+   "reason": "Stability, a main result, is defined through best-response dynamics ('a best response by few agents will get closer to Q... until convergence'), so ITER applies in addition to BNE and BND."
+  },
+  "C9.1": {
+   "value": {
+    "code": "N",
+    "claims": [],
+    "note": "Checked abstract, Introduction (incl. 1.1), Discussion and Future directions. Statements restate formal results (winning probability of the better candidate) or motivate the model (reconciling with observed turnout); no claims about real institutions, voters' well-being or fairness, or which rule to use."
+   },
+   "chosen": "A",
+   "reason": "B's cited passages are a modelling motivation and a restatement of the formal Jury result, not claims about real decisions/institutions, voter well-being, or which rule to use (and B's first quote exceeds 12 words)."
+  },
+  "C9.2": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "C9.1 = N."
+   },
+   "chosen": "A",
+   "reason": "Follows from C9.1 = N."
+  }
+ }
+}

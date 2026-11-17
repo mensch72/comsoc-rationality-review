@@ -1,0 +1,10 @@
+{
+  "paper_id": "AAMAS-2024-216391c9",
+  "codebook_version": "1.0",
+  "C0": {
+    "code": "INELIG",
+    "loc": "Abstract, p. 1593; Sec. 4 (Improving the robustness of LLM queries with PBW), pp. 1595-1596",
+    "quote": "we propose using ranking queries repeatedly and to aggregate the queries",
+    "note": "The main object is ML rank aggregation: repeated answer rankings sampled from one LLM (ChatGPT) are merged with the Partial Borda Choice function to make LLM answers more robust in diagnostic query answering. The 'voters' are repeated outputs of a single model, not several agents' inputs to a collective decision; the codebook lists ML rank aggregation as INELIG. Coding stopped per C0."
+  }
+}

@@ -1,0 +1,179 @@
+{
+ "paper_id": "EC-2023-625cc775",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract",
+  "quote": "We revisit the recent breakthrough result of Gkatzelis et al. on (single-winner) metric voting",
+  "note": ""
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "AL",
+   "WD"
+  ],
+  "primary": "WD",
+  "loc": "Sections 3-5; Abstract",
+  "quote": "in addition to still guaranteeing metric distortion 3",
+  "note": "Distortion-3 guarantee, veto-core characterisation via matchings/algorithms, and axiom satisfaction; WD chosen as primary because the distortion guarantee is the main motivation."
+ },
+ "C2.1": {
+  "value": "ranked-choice profile",
+  "loc": "Section 2, p.6",
+  "quote": "is referred to as an election"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2, p.6",
+  "quote": "a ranking (i.e., total order) over 𝐶",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 1, p.2; Section 2.1, p.7",
+  "quote": "the voting rule does not have access to the actual distances",
+  "note": "Voters are embedded in a metric space; distances are held attitudes."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2.1, p.7",
+  "quote": "is consistent with the ranking ≻𝑣 of voter 𝑣",
+  "note": "Rankings (input) and metric d (held) have separate notation; the rule sees only rankings."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "No analysis of misreporting; strategic issues only in related work and in a future-work remark on veto order."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Section 1, p.2",
+  "quote": "each voter ranks candidates from closest to furthest",
+  "note": "Model-level statement that rankings reflect distances; no explicit sincerity statement as such."
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Sections 1, 2, 6",
+  "quote": "none found",
+  "note": ""
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 2.1, p.7",
+  "quote": "𝑑 (𝑣, 𝑎) ≤ 𝑑 (𝑣, 𝑏) for all 𝑎, 𝑏 ∈ 𝐶 such that 𝑎 ≻𝑣 𝑏",
+  "note": "Metric consistent with ranking; social cost and distortion defined."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Dichotomous preferences not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2.1, p.7",
+  "quote": "The distortion of a candidate 𝑐 in an election E",
+  "note": "Distortion-3 results (Lemma 2, main rule)."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 2.1, p.7",
+  "quote": "cost(𝑐, 𝑑) = 𝑣 ∈𝑉 𝑑 (𝑣, 𝑐)",
+  "note": "Distortion evaluated against metric costs, defined separately from rankings."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2, p.6",
+   "quote_behav": "A voting rule 𝑓 is an algorithm that returns a candidate",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters supply rankings and 'veto' only as steps of the algorithm; no strategic choice modelled."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "No such agent acts in the model"
+  },
+  "ORG": {
+   "present": "N",
+   "note": "No such agent acts in the model"
+  },
+  "DIS": {
+   "present": "N",
+   "note": "No such agent acts in the model"
+  },
+  "BRI": {
+   "present": "N",
+   "note": "No such agent acts in the model"
+  },
+  "DES": {
+   "present": "N",
+   "note": "No such agent acts in the model"
+  },
+  "OTH": {
+   "present": "N",
+   "note": "No such agent acts in the model"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Fewer than two types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no STRAT or MIXED type."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract",
+    "quote": "obtain a highly practical voting rule with optimal distortion 3"
+   },
+   {
+    "loc": "Section 6, p.21",
+    "quote": "this makes it well suited for practical adoption"
+   },
+   {
+    "loc": "Section 1, p.5",
+    "quote": "Thus, we believe that the rule is indeed practical."
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 6, p.21",
+  "quote": "this makes it well suited for practical adoption",
+  "note": "Practical adoption needs voters to submit rankings equal to their true preferences (or no incentive to misreport); strategic behaviour is not analysed and sincerity is not discussed as an assumption."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 2",
+  "quote": "none found",
+  "note": ""
+ }
+}

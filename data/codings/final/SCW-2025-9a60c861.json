@@ -1,0 +1,219 @@
+{
+ "paper_id": "SCW-2025-9a60c861",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Sect. 3.3, p. 111",
+  "quote": "a sequence of proposal-making rounds followed by a voting round",
+  "note": "Democratic procedures in which agenda-setters make proposals and citizens choose between them by majority/plurality vote; analysis of strategic agenda-setting and efficiency of the procedure."
+ },
+ "C1": {
+  "types": [
+   "EQ",
+   "WD"
+  ],
+  "primary": "EQ",
+  "loc": "Sect. 3.4, p. 111; Sect. 4, Props 1-5, pp. 112-119",
+  "quote": "we look for subgame-perfect Nash equilibria",
+  "note": "Main results characterise subgame-perfect equilibrium outcomes of procedures and evaluate them against utilitarian efficiency; agenda-setters' strategic proposal-making is analysed only through equilibrium, not as a separate incentive/manipulation result, so SB is not coded."
+ },
+ "C2.1": {
+  "value": "votes / voting decision on proposals (proposal vs counter-proposal, or proposal vs status quo)",
+  "loc": "Sect. 4.2, p. 115",
+  "quote": "a voting decision for each pair of proposals"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Sect. 3.3, p. 111; Sect. 6, p. 121",
+  "quote": "all citizens vote for one of the two proposals using majority",
+  "note": "Input is a single vote for one proposal (plurality rule, reducing to majority between two proposals); not a profile of pairwise comparisons or a majority relation, so OTH (single-choice vote)."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sect. 1, p. 103; Sect. 3.1, p. 110",
+  "quote": "differ with regard to the utility they obtain from the public project",
+  "note": "Benefits v_j in {Vw, Vl} and net utility u_j(pi) are held attitudes."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Sect. 3.4, p. 111; Sect. 5.1, p. 120; Appendix A, p. 123",
+  "quote": "citizens vote truthfully and non-strategically",
+  "note": "Voting decisions are a separate component of the equilibrium strategy profile, distinct from the utilities u_j; Appendix A derives voting behaviour from utility comparisons, and 'truthfully' presupposes that votes could differ from utilities."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sect. 3.4, p. 111; Sect. 5.1, p. 119",
+  "quote": "by a majority of (non-strategic) losers",
+  "note": "Voters always vote according to their utility between the two options; only agenda-setters' proposals are strategic."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Sect. 3.4, p. 111",
+  "quote": "as is standard, citizens vote as if they were pivotal",
+  "note": "Also Sect. 5.1, p. 120: 'citizens vote truthfully and non-strategically'."
+ },
+ "C3.3": {
+  "code": "CONV",
+  "loc": "Sect. 3.4, p. 111",
+  "quote": "as is standard, citizens vote as if they were pivotal",
+  "note": "Only appeal to standard practice; no specific citation or argument."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C2.2 = OTH only; none of RANK/WEAK/APPR/DICH/PAIR, so the applicability condition is not met."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sect. 3.1, p. 110; Sect. 3.2, Definition 1, p. 111",
+  "quote": "the utilitarian welfare measure associated with",
+  "note": "Efficiency/social optimality defined via utilitarian welfare and used in all propositions (types 1-3 inefficiencies)."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Sect. 3.1, p. 110",
+  "quote": "obtains a net utility change",
+  "note": "Welfare is computed from benefits v_j, subsidies and taxes, i.e. held utilities, not from votes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sect. 3.4, p. 111",
+   "quote_behav": "citizens vote as if they were pivotal",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Citizens' votes are fixed by utility comparison between the two options; Sect. 5.1, p. 120 also says 'citizens vote truthfully and non-strategically'. Agenda-setters are citizens too but are coded under CAN."
+  },
+  "CAN": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Sect. 3.4, p. 112",
+   "quote_behav": "Agenda-setters are selfish and make proposals to maximize their utility",
+   "loc_info": "Sect. 3.1, p. 109",
+   "quote_info": "identities of winners and losers and the public project\u2019s parameters are common",
+   "note": "Agenda-setters (ASw, ASl) who make proposals are coded as proponents of alternatives; the paper itself reinterprets them as policy-motivated candidates (Sect. 2, p. 108)."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "Procedure rules are fixed; no organiser acts within the game."
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Sect. 3.2, p. 111",
+   "quote_behav": "planner should choose if s/he aims to maximize the utilitarian welfare",
+   "loc_info": "Sect. 5.2, p. 121",
+   "quote_info": "might also be unknown when the decision-making procedure needs to be chosen",
+   "note": "The benevolent planner's objective (utilitarian welfare) is stated explicitly (Definition 1), and Sect. 5.2 formalises the choice of procedure behind a veil of ignorance (Proposition 6), with parameters known only via distributions."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "Y",
+  "loc": "Sect. 3.4, pp. 111-112",
+  "quote": "citizens vote as if they were pivotal",
+  "note": "CAN (agenda-setters) STRAT while VOT (citizens) NONSTRAT in the same equilibrium analyses."
+ },
+ "C7.2": {
+  "code": "CITE",
+  "loc": "Sect. 3.4, p. 111",
+  "quote": "as is standard, citizens vote as if they were pivotal",
+  "note": "Only an appeal to standard practice in prior work, with no argument for treating voters and agenda-setters differently; consistent with C3.3 = CONV."
+ },
+ "C8.1": {
+  "codes": [
+   "SPE"
+  ],
+  "loc": "Sect. 3.4, p. 111; Appendix B.2, p. 127",
+  "quote": "we look for subgame-perfect Nash equilibria",
+  "note": "Games solved by backward induction; an informal cheap-talk announcement refinement is discussed in Sect. 4.3."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Sect. 3.4, p. 111",
+  "quote": "we look for subgame-perfect Nash equilibria"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p. 101",
+    "quote": "according to which minorities should have the first say"
+   },
+   {
+    "loc": "Sect. 1, p. 105",
+    "quote": "this result can help justify the use of procedures in democracy"
+   },
+   {
+    "loc": "Sect. 6, p. 122",
+    "quote": "provides novel theoretical support for the application of rules in democracies"
+   }
+  ],
+  "note": "Claims about which procedure democracies should use (minority proposes first)."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sect. 3.1, p. 109; Sect. 3.4, pp. 111-112",
+  "quote": "Agenda-setters are selfish and make proposals to maximize their utility",
+  "note": "Needed: agenda-setters strategic and selfish (stated p. 112); voters vote by their utilities (stated p. 111, 'vote as if they were pivotal'); complete information/common knowledge of valuations (stated p. 109); agenda-setters recognised by group membership (stated, discussed as caveat Sect. 4.1); welfare defined on held utilities (stated p. 110)."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sect. 1; Sect. 3 (Model); Sect. 5; Sect. 6 (Conclusion); Appendix A",
+  "quote": "none found",
+  "note": "No statement that the procedure is studied only as a function of submitted inputs."
+ },
+ "adjudication": {
+  "C1": {
+   "chosen": "B",
+   "reason": "The agenda-setters' incentives are analysed only within equilibrium characterisations (EQ), with no separate result on manipulation or strategyproofness that would warrant SB."
+  },
+  "C2.2": {
+   "chosen": "B",
+   "reason": "Each citizen casts a single plurality/majority vote for one proposal, which is not a pairwise-comparison profile or majority relation as PAIR denotes."
+  },
+  "C2.4": {
+   "chosen": "A",
+   "reason": "Votes are modelled as equilibrium actions distinct from utilities u_j (separate objects, behaviour derived in Appendix A), so the paper treats input and held attitude as separate rather than equating them."
+  },
+  "C4.1": {
+   "chosen": "B",
+   "reason": "With C2.2 coded OTH the applicability condition for C4.1 fails."
+  },
+  "C6.DES": {
+   "chosen": "A",
+   "reason": "The paper explicitly states the planner's welfare objective and formally models the choice of procedure in Sect. 5.2 and Proposition 6, meeting the DES condition."
+  },
+  "C7.2": {
+   "chosen": "A",
+   "reason": "The only justification is the appeal 'as is standard' to prior practice, which is a convention/citation-type reference rather than an argument, matching CITE (consistent with C3.3 = CONV)."
+  }
+ }
+}

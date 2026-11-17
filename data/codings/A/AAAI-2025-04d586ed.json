@@ -1,0 +1,38 @@
+{
+  "paper_id": "AAAI-2025-04d586ed",
+  "codebook_version": "1.0",
+  "C0": {"code": "ELIG", "loc": "Abstract, p. 13805", "quote": "We study a model of temporal voting where there is", "note": "Temporal approval voting; complexity of verifying proportional representation of outcomes."},
+  "C1": {"types": ["AL", "AX"], "primary": "AL", "loc": "Abstract, p. 13805; Sections 3-7", "quote": "we focus on the complexity of verifying whether a given outcome", "note": "Most results are coNP-hardness, FPT/XP, W[1]-hardness and polynomial-time algorithms (AL); AX for GCR providing EJR (Thm 7.1) and impossibility of EJR in the semi-online setting (Prop 7.4)."},
+  "C2.1": {"value": "approval sets; temporal preference; approval ballots", "loc": "Section 2 Preliminaries, p. 13806", "quote": "We refer to si as i’s temporal preference"},
+  "C2.2": {"codes": ["APPR"], "loc": "Section 2 Preliminaries, p. 13806", "quote": "is the approval set of voter i in round t", "note": ""},
+  "C2.3": {"code": "Y", "loc": "Introduction, p. 13805", "quote": "voters’ preferences may evolve", "note": "Preferences are referred to as something voters have and report; they are not given separate notation from the approval sets."},
+  "C2.4": {"code": "IDS", "loc": "Abstract, p. 13805", "quote": "at each round the voters report their preferences over the available candidates", "note": "Doubt between IDS and IDU: the paper says voters report their preferences (a statement about reporting) without any reason; IDS chosen as listed first."},
+  "C3.1": {"code": "NONE", "loc": "Sections 2-7, pp. 13806-13811", "quote": "none found", "note": "No analysis considers voters submitting inputs differing from preferences; approval sets are taken as given."},
+  "C3.2": {"code": "STATED", "loc": "Abstract, p. 13805", "quote": "at each round the voters report their preferences over the available candidates", "note": "Weak statement in the model description; see C2.4."},
+  "C3.3": {"code": "NONE", "loc": "Abstract, p. 13805; Introduction, p. 13805; Section 2, p. 13806; Conclusion, p. 13811", "quote": "none found", "note": "No reason is given for voters reporting their preferences."},
+  "C4.1": {"code": "SPEC", "loc": "Section 2 Preliminaries, p. 13806", "quote": "A voter i’s satisfaction from an outcome o is computed as", "note": "Satisfaction is the number of rounds in which the chosen candidate is in the voter's approval set; utilitarian social welfare (Cor. 7.3) and voters' welfare/utilities refer to this satisfaction."},
+  "C4.2": {"code": "NA", "loc": "", "quote": "", "note": "The term dichotomous preferences or an equivalent is not used."},
+  "C5.1": {"code": "Y", "loc": "Section 2, Definition 2.3, p. 13807; Section 7.2, Corollary 7.3, p. 13811", "quote": "provides justified representation (JR) for a temporal election", "note": "Results concern JR/PJR/EJR (proportional representation of voter groups) and an ILP maximizing utilitarian social welfare."},
+  "C5.2": {"code": "INPUT-STATED", "loc": "Section 2 Preliminaries, p. 13806", "quote": "A voter i’s satisfaction from an outcome o is computed as", "note": "Representation and satisfaction are computed on the approval sets, which the paper describes as the voters' reported preferences (C2.4 = IDS)."},
+  "C6": {
+    "VOT": {"present": "Y", "behav": "NONSTRAT", "behav_stated": "EXPLICIT", "info": "NA", "info_stated": "NA",
+            "loc_behav": "Abstract, p. 13805", "quote_behav": "at each round the voters report their preferences over the available candidates", "loc_info": "", "quote_info": "", "note": "Voters' only action is submitting approval sets, which are fixed inputs; info NA because behav = NONSTRAT."},
+    "CAN": {"present": "N", "note": "Candidates serve only as alternatives."},
+    "ORG": {"present": "N", "note": "The corporation in the motivating example and the outcome-selecting rule are not modelled as acting agents."},
+    "DIS": {"present": "N"},
+    "BRI": {"present": "N"},
+    "DES": {"present": "N"},
+    "OTH": {"present": "N"}
+  },
+  "C7.1": {"code": "NA", "loc": "", "quote": "", "note": "Only voters are present."},
+  "C7.2": {"code": "NA", "loc": "", "quote": "", "note": "C7.1 is not Y."},
+  "C8.1": {"codes": [], "loc": "", "quote": "", "note": "NA: no type is STRAT or MIXED."},
+  "C8.2": {"code": "NA", "loc": "", "quote": ""},
+  "C9.1": {"code": "Y", "claims": [
+    {"loc": "Introduction, p. 13805", "quote": "large cohesive groups of voters should be fairly represented"},
+    {"loc": "Introduction, p. 13805", "quote": "ensure that the selection is representative of what its customers"},
+    {"loc": "Section 1.1 Our Contributions, p. 13805", "quote": "This task is important if, e.g., the outcome is fully or"}
+  ], "note": "Claims concern fairness towards voter groups and the practical importance of verifying representation in real selection decisions (e.g., corporate charity selection)."},
+  "C9.2": {"code": "ALL-STATED", "loc": "Abstract, p. 13805; Section 2, p. 13806", "quote": "at each round the voters report their preferences over the available candidates", "note": "Needed: approval sets reflect what voters care about (stated, without reason, via voters reporting their preferences) and satisfaction defined from approvals (stated in Section 2). No strategic or information assumptions are needed since no strategic analysis is drawn on."},
+  "C10.1": {"code": "N", "loc": "Abstract, Introduction, Section 2, Conclusion, pp. 13805-13811", "quote": "none found", "note": ""}
+}

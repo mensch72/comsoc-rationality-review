@@ -1,0 +1,185 @@
+{
+ "paper_id": "SCW-2025-9a60c861",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Sect. 3.3, p.111",
+  "quote": "proposal-making rounds followed by a voting round (with the plurality rule)",
+  "note": "Agenda-setting procedures with majority voting; equilibrium analysis"
+ },
+ "C1": {
+  "types": [
+   "EQ",
+   "WD"
+  ],
+  "primary": "EQ",
+  "loc": "Sect. 4, Props 1-5, pp.112-119",
+  "quote": "we look for subgame-perfect Nash equilibria",
+  "note": "Propositions characterise equilibrium outcomes and test them against utilitarian efficiency"
+ },
+ "C2.1": {
+  "value": "voting decision",
+  "loc": "Sect. 4.2, p.115",
+  "quote": "a voting decision for each pair of proposals"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Sect. 4.2, p.115",
+  "quote": "a voting decision for each pair of proposals",
+  "note": "Binary vote between proposals (project, subsidy scheme, tax schedule); not one of the listed formats"
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sect. 3.1, p.110",
+  "quote": "obtains a net utility change u j",
+  "note": "Utilities from the project"
+ },
+ "C2.4": {
+  "code": "IDS",
+  "loc": "Sect. 3.4 p.111; Sect. 5.1 p.120",
+  "quote": "citizens vote as if they were pivotal",
+  "note": "Votes follow utility comparisons; Sect. 5.1 says citizens vote truthfully and non-strategically; no reason beyond 'as is standard'. Votes are not separately notated."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sect. 3.4, Appendix A",
+  "quote": "citizens vote as if they were pivotal",
+  "note": "Only agenda-setters act strategically; voters vote by utility"
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Sect. 3.4 p.111; Sect. 5.1 p.120",
+  "quote": "citizens vote truthfully and non-strategically",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "CONV",
+  "loc": "Sect. 3.4, p.111",
+  "quote": "in which, as is standard, citizens vote as if they were pivotal",
+  "note": ""
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C2.2 contains no RANK/WEAK/APPR/DICH/PAIR"
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term not used"
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sect. 3.2-3.3, p.111",
+  "quote": "Efficiency: A procedure is efficient if and only if it implements",
+  "note": "Utilitarian welfare W and efficiency used in results"
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Sect. 3.1, p.110",
+  "quote": "the utilitarian welfare measure associated with π",
+  "note": "Welfare computed from utilities u_j, defined separately from votes"
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sect. 5.1, p.120",
+   "quote_behav": "citizens vote truthfully and non-strategically",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters vote as if pivotal"
+  },
+  "CAN": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Sect. 3.4, p.112",
+   "quote_behav": "Agenda-setters are selfish and make proposals",
+   "loc_info": "Sect. 3.1, p.109",
+   "quote_info": "The identities of winners and losers and the public project’s parameters are common knowledge",
+   "note": "Agenda-setters (proposers)"
+  },
+  "ORG": {
+   "present": "N",
+   "note": "No organiser choices; agenda-setter order fixed by procedure"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N",
+   "note": "Benevolent planner appears only as benchmark and in Sect. 5.2 informally"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "Y",
+  "loc": "Sect. 3.4, p.111-112",
+  "quote": "Agenda-setters are selfish and make proposals",
+  "note": "CAN strategic, VOT non-strategic"
+ },
+ "C7.2": {
+  "code": "NONE",
+  "loc": "Sect. 3.4",
+  "quote": "none found",
+  "note": "Only 'as is standard'; no argument or citation"
+ },
+ "C8.1": {
+  "codes": [
+   "SPE"
+  ],
+  "loc": "Sect. 3.4, p.111",
+  "quote": "we look for subgame-perfect Nash equilibria",
+  "note": ""
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Sect. 3.4, p.111",
+  "quote": "we look for subgame-perfect Nash equilibria"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.101",
+    "quote": "minorities should have the first say in proposal-making"
+   },
+   {
+    "loc": "Introduction, p.105",
+    "quote": "this result can help justify the use of procedures in democracy"
+   },
+   {
+    "loc": "Conclusion, p.122",
+    "quote": "provides novel theoretical support for the application of rules in democracies"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sect. 3.1 p.109; Sect. 3.4 p.111",
+  "quote": "are common knowledge, but the latter are not contractible",
+  "note": "Needed: voters vote sincerely (stated), agenda-setters selfish and know parameters (stated), utility/welfare measure (stated). Applicability to real legislatures flagged as stylised/caveated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": ""
+ }
+}

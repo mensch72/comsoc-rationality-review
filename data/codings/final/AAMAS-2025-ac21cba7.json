@@ -1,0 +1,31 @@
+{
+ "paper_id": "AAMAS-2025-ac21cba7",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "INELIG",
+  "loc": "Abstract, p. 667; Section 2 Preliminaries, p. 669",
+  "quote": "Sortition is based on the idea of choosing randomly selected representatives",
+  "note": "Main object is sortition: a random selection algorithm that 'takes as input the metric d and outputs a distribution over all panels' built from demographic features; individuals submit no ballots or votes and nothing is aggregated by voting. The paper notes panel selection 'can be framed as a committee election problem' (Section 1.3), but the studied procedure is random sampling for representation, not voting. Coding stopped per C0."
+ },
+ "C1": {},
+ "C2.1": {},
+ "C2.2": {},
+ "C2.3": {},
+ "C2.4": {},
+ "C3.1": {},
+ "C3.2": {},
+ "C3.3": {},
+ "C4.1": {},
+ "C4.2": {},
+ "C5.1": {},
+ "C5.2": {},
+ "C6": {},
+ "C7.1": {},
+ "C7.2": {},
+ "C8.1": {},
+ "C8.2": {},
+ "C9.1": {},
+ "C9.2": {},
+ "C10.1": {},
+ "adjudication": {}
+}

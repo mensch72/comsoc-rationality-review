@@ -1,0 +1,203 @@
+{
+ "paper_id": "GEB-2023-09388f97",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Section 1 Introduction, p. 2",
+  "quote": "each voter has as many votes as there are open seats",
+  "note": "Compares multi-seat plurality and cumulative voting as election procedures, with theory and a lab experiment on turnout and minority seats."
+ },
+ "C1": {
+  "types": [
+   "EQ",
+   "EM"
+  ],
+  "primary": "EM",
+  "loc": "Abstract, p. 1; Sections 2-3 (equilibrium analysis), Sections 4-5 (experiment)",
+  "quote": "A lab experiment based on a costly voting design strongly supports both",
+  "note": "Proposition 1 and the costly-voting equilibria are equilibrium analysis (EQ); the numerical equilibrium computations in Section 3.3 are treated as part of EQ, not as SI. The main results tested and reported are experimental (EM)."
+ },
+ "C2.1": {
+  "value": "votes; profiles of votes (x_p); ballots not named as such",
+  "loc": "Section 2 Base Model, p. 5",
+  "quote": "We call xp the profiles of votes cast by members of party"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 2 Base Model, p. 5",
+  "quote": "Under MP, each voter is constrained to one vote for each candidate:",
+  "note": "Under CV the input is an allocation of a budget of K (possibly fractional) votes over candidates; under MP one vote for each of the K party candidates; voters may also abstain. CARD was considered but the input is a vote allocation with a budget constraint, not a score or utility report."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2 Base Model, p. 5",
+  "quote": "Party leaders and voters share the same objective: to maximize the number",
+  "note": "Voters have utility u(k) = (k/K)V from their party winning k seats, a party affiliation, and a private voting cost."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2 Base Model, p. 5",
+  "quote": "each party member\u2019s votes maximize the number of seats won by",
+  "note": "Votes (x_ip) and utilities u(k) / voting costs c_i have separate notation; votes and turnout are chosen to maximize the party's seats net of costs."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Section 3.2, p. 9; Section 4, p. 13",
+  "quote": "each voter decides whether or not to vote",
+  "note": "In every analysis voters choose turnout and (in theory) vote distribution strategically; in the experiment participants freely choose whether to vote (vote distribution fixed by design). Voters never vote for the other party, so 'differs from held attitude' here means abstention and strategic allocation of votes."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C2.2 includes none of RANK, WEAK, APPR, DICH, PAIR (coded OTH), although utilities u(k) are used."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term dichotomous preferences or an equivalent is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2.1, p. 6; Section 3.3, p. 12; Section 5, p. 17",
+  "quote": "Under CV, the minority always achieves substantive representation",
+  "note": "Proposition 1, the equilibrium predictions and the experimental results evaluate rules by the number/share of seats won by the minority party (group representation)."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 2.1, p. 6",
+  "quote": "We denote by z the number of seats won by party m",
+  "note": "Representation is measured by seats won by the minority party, defined by party affiliation (a held attribute of voters including abstainers), not by the submitted votes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 3.2 Cumulative voting, p. 9",
+   "quote_behav": "each voter decides whether or not to vote",
+   "loc_info": "Section 3 Voting costs, p. 7",
+   "quote_info": "Realized costs are private information, but the distribution F (c) is common",
+   "note": "Voters choose turnout (cost-threshold strategies) and, in theory, vote distribution to maximize expected seats; in the experiment, participants choose turnout only. Party sizes and cost distribution known; others' realized costs unknown. Without costs (Prop. 1) information is not stated separately."
+  },
+  "CAN": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 2 Base Model, p. 5; Section 4 The Experiment, p. 13",
+   "quote_behav": "each party list maximizes the number of seats won by the party",
+   "loc_info": "Section 3 Voting costs, p. 7",
+   "quote_info": "Realized costs are private information, but the distribution F (c) is common",
+   "note": "Party leaders, who propose the party's list of candidates (proponents of alternatives; CAN chosen over OTH as listed first). Strategic in the theory (choose number of candidates to maximize expected seats); number of candidates fixed exogenously at the theoretical optimum in the experiment. Leaders choose before costs are realized and know only the common-knowledge cost distribution F; common knowledge is stated in words for all players, so EXPLICIT (listed first under the doubt rule)."
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "Y",
+  "loc": "Section 1 Introduction, p. 4; Section 4 The Experiment, p. 13",
+  "quote": "The number of candidates fielded by each party under CV was set",
+  "note": "In the experimental analysis, voters (VOT) choose turnout freely/strategically while party leaders (CAN) have the number of candidates fixed exogenously (NONSTRAT), consistent with both coders' MIXED coding of CAN."
+ },
+ "C7.2": {
+  "code": "REASON",
+  "loc": "Section 1 Introduction, p. 4",
+  "quote": "Historically, CV\u2019s coordination problem is deferred to the parties\u2019 leadership",
+  "note": "Fixing the number of candidates is justified by historical practice (leaders solve coordination, equal spreading is an easy default) and by the paper's focus on turnout; footnotes add citations."
+ },
+ "C8.1": {
+  "codes": [
+   "NE",
+   "SPE",
+   "BNE"
+  ],
+  "loc": "Section 2, p. 5; Section 2.1, p. 7; Section 3.2, p. 9; Appendix",
+  "quote": "We focus on a semi-symmetric perfect Bayesian equilibrium such that within",
+  "note": "Without costs: equilibria in weakly undominated strategies of a two-stage game, solved as a two-player constant-sum game where neither party has a profitable deviation (NE, with stage structure SPE). With costs: semi-symmetric perfect Bayesian equilibrium of a three-stage game with private costs (SPE and BNE)."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 3.2, p. 9",
+  "quote": "We focus on a semi-symmetric perfect Bayesian equilibrium such that within"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 1 Introduction, p. 3",
+    "quote": "The experiment confirms CV\u2019s potential to increase both the"
+   },
+   {
+    "loc": "Section 1 Introduction, p. 4",
+    "quote": "have the potential to afford representation to groups that often do share"
+   },
+   {
+    "loc": "Section 6 Conclusions, p. 18",
+    "quote": "Voting rules like CV have the potential to help both."
+   }
+  ],
+  "note": "Claims about CV as a remedy for minority turnout and representation in real institutions."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 1 Introduction, p. 4; Section 2, p. 5",
+  "quote": "we test CV by presenting the experimental subjects with an",
+  "note": "Needed assumptions (cohesive parties with a common seat-maximizing objective, linear utility, leaders choosing the optimal number of candidates with equal vote spreading, strategic turnout with private costs) are all stated. The conclusion's mention of robustness to gerrymandering is not addressed by the formal results at all, rather than resting on an unstated assumption."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Checked: Section 1 Introduction, Section 2 Base Model, Section 3 Voting costs, Section 6 Conclusions, Appendix",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C6.CAN": {
+   "chosen": "other",
+   "reason": "Both agree on present/MIXED/PARTIAL, but the paper states in words that F is common knowledge (covering leaders), so info_stated is EXPLICIT, supported by A's quote rather than B's voter-only quote."
+  },
+  "C7.1": {
+   "chosen": "A",
+   "reason": "In the experiment voters choose turnout freely while leaders' candidate numbers are fixed exogenously, so one present type is STRAT and another NONSTRAT in the same analysis."
+  },
+  "C7.2": {
+   "chosen": "A",
+   "reason": "The introduction gives an argument (historical practice and focus on turnout) for fixing the leaders' choice while letting voters choose turnout."
+  },
+  "C8.1": {
+   "chosen": "A",
+   "reason": "The costless analysis (Proposition 1) rests on Nash equilibrium of the reduced constant-sum game, so NE applies in addition to the SPE and BNE components of the perfect Bayesian equilibrium."
+  }
+ }
+}

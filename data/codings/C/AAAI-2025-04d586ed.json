@@ -1,0 +1,85 @@
+{
+ "paper_id": "AAAI-2025-04d586ed",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "AL",
+     "AX"
+    ],
+    "primary": "AL",
+    "loc": "Abstract, p. 13805; Sections 3-7",
+    "quote": "we focus on the complexity of verifying whether a given outcome",
+    "note": "Most results are coNP-hardness, FPT/XP, W[1]-hardness and polynomial-time algorithms (AL); AX for GCR providing EJR (Thm 7.1) and impossibility of EJR in the semi-online setting (Prop 7.4)."
+   },
+   "chosen": "A",
+   "reason": "Besides the complexity results (AL), Theorem 7.1 (GCR provides EJR) and Proposition 7.4 (no rule satisfies EJR semi-online) are main results on which rules satisfy which properties, so AX also applies; AL remains primary."
+  },
+  "C2.4": {
+   "value": {
+    "code": "IDS",
+    "loc": "Abstract, p. 13805",
+    "quote": "at each round the voters report their preferences over the available candidates",
+    "note": "Doubt between IDS and IDU: the paper says voters report their preferences (a statement about reporting) without any reason; IDS chosen as listed first."
+   },
+   "chosen": "A",
+   "reason": "The abstract states that voters report their preferences, a statement that the submitted approval sets equal held preferences with no reason given, which excludes IDU (no statement about reporting) and fits IDS."
+  },
+  "C3.2": {
+   "value": {
+    "code": "STATED",
+    "loc": "Abstract, p. 13805",
+    "quote": "at each round the voters report their preferences over the available candidates",
+    "note": "Weak statement in the model description; see C2.4."
+   },
+   "chosen": "A",
+   "reason": "Consistent with C2.4 = IDS, the paper says in words that voters report their preferences, so the non-strategic analysis has a stated sincerity assumption."
+  },
+  "C3.3": {
+   "value": {
+    "code": "NONE",
+    "loc": "Abstract, p. 13805; Introduction, p. 13805; Section 2, p. 13806; Conclusion, p. 13811",
+    "quote": "none found",
+    "note": "No reason is given for voters reporting their preferences."
+   },
+   "chosen": "A",
+   "reason": "C3.2 = STATED and no reason (strategyproofness, incentives, convention) is given for voters reporting their preferences."
+  },
+  "C5.2": {
+   "value": {
+    "code": "INPUT-STATED",
+    "loc": "Section 2 Preliminaries, p. 13806",
+    "quote": "A voter i’s satisfaction from an outcome o is computed as",
+    "note": "Representation and satisfaction are computed on the approval sets, which the paper describes as the voters' reported preferences (C2.4 = IDS)."
+   },
+   "chosen": "A",
+   "reason": "JR/PJR/EJR and satisfaction are evaluated on the approval sets, which the paper states are the voters' reported preferences (C2.4 = IDS), giving INPUT-STATED."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "EXPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Abstract, p. 13805",
+    "quote_behav": "at each round the voters report their preferences over the available candidates",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Voters' only action is submitting approval sets, which are fixed inputs; info NA because behav = NONSTRAT."
+   },
+   "chosen": "A",
+   "reason": "Voters take a fixed action in the model (reporting approval sets each round), which the codebook counts as present with NONSTRAT behaviour stated in words."
+  },
+  "C9.2": {
+   "value": {
+    "code": "ALL-STATED",
+    "loc": "Abstract, p. 13805; Section 2, p. 13806",
+    "quote": "at each round the voters report their preferences over the available candidates",
+    "note": "Needed: approval sets reflect what voters care about (stated, without reason, via voters reporting their preferences) and satisfaction defined from approvals (stated in Section 2). No strategic or information assumptions are needed since no strategic analysis is drawn on."
+   },
+   "chosen": "A",
+   "reason": "The needed assumptions (approval sets reflect voters' preferences; satisfaction defined from approvals) are stated via voters reporting their preferences and the satisfaction definition, so ALL-STATED is consistent with C2.4 = IDS."
+  }
+ }
+}

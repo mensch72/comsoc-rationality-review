@@ -1,0 +1,61 @@
+item,n,agree,kappa,ci_lo,ci_hi,modal_code,modal_prev,label
+C0,15,1.0,1.0,1.0,1.0,ELIG,1.0,no variation
+C1.primary,15,0.933,0.91,0.702,1.0,AX,0.367,substantial
+C2.3,15,0.933,0.0,0.0,1.0,Y,0.967,unreliable
+C2.4,15,0.6,0.388,0.111,0.677,DIST,0.467,unreliable
+C3.1,15,1.0,1.0,1.0,1.0,NONE,0.8,substantial
+C3.2,15,0.867,0.792,0.444,1.0,NOT-STATED,0.467,substantial
+C3.3,15,0.933,0.857,0.444,1.0,NA,0.7,substantial
+C4.1,15,0.867,0.752,0.444,1.0,SPEC,0.5,substantial
+C4.2,15,0.933,0.805,0.464,1.0,NA,0.8,substantial
+C5.1,15,1.0,1.0,1.0,1.0,Y,0.667,substantial
+C5.2,15,0.933,0.899,0.674,1.0,INPUT-UNSTATED,0.433,substantial
+C7.1,15,0.933,0.8,0.464,1.0,NA,0.8,substantial
+C7.2,15,0.8,0.348,0.0,1.0,NA,0.833,unreliable
+C8.2,15,1.0,1.0,1.0,1.0,NA,0.6,substantial
+C9.1,15,0.867,-0.071,-0.154,1.0,Y,0.933,unreliable
+C9.2,15,0.533,0.205,-0.1,0.545,SOME-UNSTATED,0.533,unreliable
+C10.1,15,1.0,1.0,1.0,1.0,N,1.0,no variation
+C1.types:AX,15,0.867,0.727,0.359,1.0,1,0.6,substantial
+C1.types:AL,15,0.8,0.571,0.062,1.0,0,0.633,moderate
+C1.types:SB,15,0.933,0.634,0.0,1.0,0,0.9,substantial
+C1.types:EQ,15,1.0,1.0,1.0,1.0,0,0.667,substantial
+C1.types:WD,15,0.867,0.706,0.286,1.0,0,0.667,substantial
+C1.types:SI,15,1.0,1.0,1.0,1.0,0,0.867,substantial
+C1.types:EM,15,1.0,1.0,1.0,1.0,0,0.867,substantial
+C1.types:OT,15,1.0,1.0,1.0,1.0,0,1.0,no variation
+C2.2:RANK,15,1.0,1.0,1.0,1.0,0,0.8,substantial
+C2.2:WEAK,15,0.933,0.0,0.0,1.0,0,0.967,unreliable
+C2.2:APPR,15,1.0,1.0,1.0,1.0,1,0.6,substantial
+C2.2:DICH,15,0.933,0.634,0.0,1.0,0,0.9,substantial
+C2.2:CARD,15,1.0,1.0,1.0,1.0,0,1.0,no variation
+C2.2:PAIR,15,0.933,0.0,0.0,1.0,0,0.967,unreliable
+C2.2:OTH,15,0.867,0.706,0.25,1.0,0,0.667,substantial
+C8.1:DOM,15,1.0,1.0,1.0,1.0,0,0.933,substantial
+C8.1:NE,15,0.933,0.634,0.0,1.0,0,0.9,substantial
+C8.1:SPE,15,1.0,1.0,1.0,1.0,0,0.867,substantial
+C8.1:BNE,15,1.0,1.0,1.0,1.0,0,0.8,substantial
+C8.1:ITER,15,0.933,0.634,0.0,1.0,0,0.9,substantial
+C8.1:DEV,15,1.0,1.0,1.0,1.0,0,1.0,no variation
+C8.1:BND,15,1.0,1.0,1.0,1.0,0,0.933,substantial
+C8.1:COAL,15,1.0,1.0,1.0,1.0,0,0.933,substantial
+C8.1:OTH,15,0.933,0.0,0.0,1.0,0,0.967,unreliable
+C6.VOT.present,15,0.867,0.0,0.0,1.0,Y,0.933,unreliable
+C6.VOT.behav,13,1.0,1.0,1.0,1.0,NONSTRAT,0.692,substantial
+C6.VOT.behav_stated,13,0.769,0.519,0.0,1.0,EXPLICIT,0.654,moderate
+C6.VOT.info,13,0.923,0.841,0.48,1.0,NA,0.692,substantial
+C6.VOT.info_stated,13,0.923,0.822,0.0,1.0,NA,0.731,substantial
+C6.CAN.present,15,1.0,1.0,1.0,1.0,N,0.8,substantial
+C6.CAN.behav,3,1.0,1.0,1.0,1.0,STRAT,0.667,substantial
+C6.CAN.behav_stated,3,1.0,1.0,1.0,1.0,EXPLICIT,1.0,no variation
+C6.CAN.info,3,1.0,1.0,1.0,1.0,PARTIAL,0.667,substantial
+C6.CAN.info_stated,3,0.667,0.0,0.0,1.0,EXPLICIT,0.833,unreliable
+C6.ORG.present,15,1.0,1.0,1.0,1.0,N,1.0,no variation
+C6.DIS.present,15,1.0,1.0,1.0,1.0,N,1.0,no variation
+C6.BRI.present,15,1.0,1.0,1.0,1.0,N,1.0,no variation
+C6.DES.present,15,0.933,0.0,0.0,1.0,N,0.967,unreliable
+C6.OTH.present,15,1.0,1.0,1.0,1.0,N,0.933,substantial
+C6.OTH.behav,1,1.0,1.0,1.0,1.0,NONSTRAT,1.0,no variation
+C6.OTH.behav_stated,1,1.0,1.0,1.0,1.0,EXPLICIT,1.0,no variation
+C6.OTH.info,1,1.0,1.0,1.0,1.0,NA,1.0,no variation
+C6.OTH.info_stated,1,1.0,1.0,1.0,1.0,NA,1.0,no variation

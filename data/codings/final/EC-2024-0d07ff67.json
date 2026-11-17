@@ -1,0 +1,189 @@
+{
+ "paper_id": "EC-2024-0d07ff67",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p. 51",
+  "quote": "\ud835\udc5b voters select a committee of \ud835\udc58 candidates",
+  "note": "Approval-based multiwinner voting; proportionality axioms and rules (MES) reinterpreted as equilibria of budgeting games."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "EQ",
+   "AL"
+  ],
+  "primary": "EQ",
+  "loc": "Sec. 4, p. 56; Sec. 5, pp. 62-66; Sec. 6, pp. 67-69",
+  "quote": "we characterize prominent proportionality axioms as equilibria of budgeting games",
+  "note": "Main results are correspondences between budgeting-game equilibria and proportionality axioms (EQ/AX), finite improvement of deviation dynamics (EQ), and existence of strong equilibria via the Tree-Sweep algorithm (EQ/AL)."
+ },
+ "C2.1": {
+  "value": "approval profile; approval ballots (in the associated budgeting game: relevant resources X_i)",
+  "loc": "Sec. 2, p. 53",
+  "quote": "is an approval profile, i.e., a vector of approval ballots"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Sec. 2, p. 53",
+  "quote": "is an approval profile, i.e., a vector of approval ballots",
+  "note": "In the budgeting game players choose budget allocations, but the voting rules studied (MES, new deviation-based rules) take the approval profile as argument."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Introduction, p. 52",
+  "quote": "\ud835\udc5b voters whose preferences are expressed by granting, or withholding,",
+  "note": "Voters' preferences, and in the game players' utilities over relevant resources, are referred to."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Sec. 2, p. 53; Sec. 3, p. 56",
+  "quote": "indicating the subset of alternatives agent \ud835\udc56 \u2208 \ud835\udc41 approves of",
+  "note": "Approval ballots are described as what agents approve of and are set equal to the players' relevant resources (X_i = A_i); no statement about submission or reporting. In the game, allocations (lambda_i) are separate from X_i, but these are not the ballot input of the voting rule; DIST considered but judged a worse fit."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sec. 3, p. 56",
+  "quote": "where \ud835\udc40 = \ud835\udc34 and \ud835\udc4b\ud835\udc56 = \ud835\udc34\ud835\udc56",
+  "note": "Players act strategically in allocating budgets, but no analysis considers approval ballots differing from the relevant/approved sets."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Introduction p. 52; Sec. 2 Preliminaries pp. 53-55; Sec. 3 pp. 55-56; Sec. 7 Conclusion p. 69",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Sec. 3, p. 55",
+  "quote": "the number of active resources relevant to \ud835\udc56",
+  "note": "Utility of player i is |X_i \u2229 out(lambda)|, and in the associated game X_i = A_i, so utility = number of approved elected candidates."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sec. 2, p. 53; Sec. 4, pp. 56-61",
+  "quote": "find committees that satisfy desirable fairness requirements, chief among them being proportionality",
+  "note": "Results characterise the core, EJR, EJR+ and priceability (proportional representation of voter groups)."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Sec. 2, pp. 53-54",
+  "quote": "for all \u2113-cohesive groups \ud835\udc46 there is a voter \ud835\udc56 \u2208 \ud835\udc46",
+  "note": "Axioms are defined on the approval profile A; game utilities use X_i = A_i; no statement relating ballots to held preferences beyond describing approvals as expressing preferences."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "IMPLICIT",
+   "loc_behav": "Sec. 3, p. 55",
+   "quote_behav": "each player \ud835\udc56 \u2208 \ud835\udc41 is to maximize their utility",
+   "loc_info": "Sec. 3, p. 55",
+   "quote_info": "budgeting games are infinite normal-form games with a finite set of players",
+   "note": "Players of the associated budgeting game are the voters; they strategically allocate budgets (equilibria, coalitional deviations, improving-move dynamics). Their approval ballots are exogenous. Information is never discussed; complete information is only inferable from the normal-form game with no uncertainty."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates are resources/alternatives only."
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N",
+   "note": "New rules are defined via dynamics, but no designer's choice or objective is modelled."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "NE",
+   "COAL",
+   "ITER"
+  ],
+  "loc": "Sec. 3, pp. 55-56; Sec. 4, pp. 56-61; Sec. 5, pp. 62-66; Sec. 6, pp. 67-69",
+  "quote": "1-strong equilibria are more familiarly known as Nash equilibria",
+  "note": "Nash equilibrium (Th. 3.1, 6.1); strong equilibrium, alpha-core, cohesive alpha-core, superset equilibrium (coalitional); sequences of improving deviations / finite improvement property (Th. 5.1, 5.3)."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Sec. 3, p. 55",
+  "quote": "a strategy profile \ud835\udf40 is a \ud835\udc58-strong equilibrium if for every coalition"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p. 51",
+    "quote": "the elected committee proportionately represents the preferences of the electorate"
+   },
+   {
+    "loc": "Abstract, p. 51",
+    "quote": "These rules, which are guaranteed to satisfy desirable fairness axioms"
+   },
+   {
+    "loc": "Introduction, p. 52",
+    "quote": "the chosen committee represents the electorate\u2019s preferences in a proportional manner"
+   }
+  ],
+  "note": "Claims about fair, proportional representation of voters' preferences by committees chosen by the rules."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Introduction p. 52; Sec. 2 pp. 53-55; Sec. 7 p. 69",
+  "quote": "none found",
+  "note": "Fairness to voters' preferences follows from results on approval ballots only if submitted ballots equal voters' held preferences; this is not stated (ballots are merely described as expressing preferences). Utility link (number of approved winners) is stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction p. 52; Sec. 2 pp. 53-55; Sec. 3 pp. 55-56; Sec. 7 Conclusion p. 69",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C1": {
+   "chosen": "A",
+   "reason": "Theorems 6.1 and 6.2 are results about the Tree-Sweep algorithm computing (strong) equilibria, so AL applies to at least one main result alongside EQ and AX, with EQ primary."
+  },
+  "C8.1": {
+   "chosen": "A",
+   "reason": "Alpha-core, cohesive alpha-core and superset equilibrium are all coalitional-deviation concepts covered by COAL, so B's additional OTH is redundant."
+  }
+ }
+}

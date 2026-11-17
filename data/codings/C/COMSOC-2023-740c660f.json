@@ -1,0 +1,200 @@
+{
+ "paper_id": "COMSOC-2023-740c660f",
+ "decisions": {
+  "C0": {
+   "value": {
+    "code": "INELIG",
+    "loc": "Abstract; Sec. 1 Introduction; Sec. 4 Rank aggregation",
+    "quote": "extract the correct answers to questions, based on multiple answers",
+    "note": "Main object is a truth-discovery heuristic for estimating crowdsourcing workers' competence from noisy labels in general domains; voting rules appear only as interchangeable aggregation functions estimating a ground truth (ML/statistical rank aggregation), not as a procedure producing a collective decision."
+   },
+   "chosen": "B",
+   "reason": "The paper is crowdsourcing truth discovery (competence estimation against a ground truth), matching the codebook's ML rank aggregation exclusion rather than collective decision-making by voting; B's quote trimmed to 12 words."
+  },
+  "C1": {
+   "value": {
+    "types": [],
+    "primary": "",
+    "loc": "",
+    "quote": "",
+    "note": "Not coded: C0 = INELIG, so coding stops per the codebook."
+   },
+   "chosen": "B",
+   "reason": "C0 is INELIG, so per the codebook coding stops and this item is left uncoded as B did."
+  },
+  "C10.1": {
+   "value": {
+    "code": "",
+    "loc": "",
+    "quote": "",
+    "note": "Not coded: C0 = INELIG, so coding stops per the codebook."
+   },
+   "chosen": "B",
+   "reason": "C0 is INELIG, so per the codebook coding stops and this item is left uncoded as B did."
+  },
+  "C2.2": {
+   "value": {
+    "codes": [],
+    "loc": "",
+    "quote": "",
+    "note": "Not coded: C0 = INELIG, so coding stops per the codebook."
+   },
+   "chosen": "B",
+   "reason": "C0 is INELIG, so per the codebook coding stops and this item is left uncoded as B did."
+  },
+  "C2.3": {
+   "value": {
+    "code": "",
+    "loc": "",
+    "quote": "",
+    "note": "Not coded: C0 = INELIG, so coding stops per the codebook."
+   },
+   "chosen": "B",
+   "reason": "C0 is INELIG, so per the codebook coding stops and this item is left uncoded as B did."
+  },
+  "C2.4": {
+   "value": {
+    "code": "",
+    "loc": "",
+    "quote": "",
+    "note": "Not coded: C0 = INELIG, so coding stops per the codebook."
+   },
+   "chosen": "B",
+   "reason": "C0 is INELIG, so per the codebook coding stops and this item is left uncoded as B did."
+  },
+  "C3.1": {
+   "value": {
+    "code": "",
+    "loc": "",
+    "quote": "",
+    "note": "Not coded: C0 = INELIG, so coding stops per the codebook."
+   },
+   "chosen": "B",
+   "reason": "C0 is INELIG, so per the codebook coding stops and this item is left uncoded as B did."
+  },
+  "C3.2": {
+   "value": {
+    "code": "",
+    "loc": "",
+    "quote": "",
+    "note": "Not coded: C0 = INELIG, so coding stops per the codebook."
+   },
+   "chosen": "B",
+   "reason": "C0 is INELIG, so per the codebook coding stops and this item is left uncoded as B did."
+  },
+  "C3.3": {
+   "value": {
+    "code": "",
+    "loc": "",
+    "quote": "",
+    "note": "Not coded: C0 = INELIG, so coding stops per the codebook."
+   },
+   "chosen": "B",
+   "reason": "C0 is INELIG, so per the codebook coding stops and this item is left uncoded as B did."
+  },
+  "C4.1": {
+   "value": {
+    "code": "",
+    "loc": "",
+    "quote": "",
+    "note": "Not coded: C0 = INELIG, so coding stops per the codebook."
+   },
+   "chosen": "B",
+   "reason": "C0 is INELIG, so per the codebook coding stops and this item is left uncoded as B did."
+  },
+  "C4.2": {
+   "value": {
+    "code": "",
+    "loc": "",
+    "quote": "",
+    "note": "Not coded: C0 = INELIG, so coding stops per the codebook."
+   },
+   "chosen": "B",
+   "reason": "C0 is INELIG, so per the codebook coding stops and this item is left uncoded as B did."
+  },
+  "C5.1": {
+   "value": {
+    "code": "",
+    "loc": "",
+    "quote": "",
+    "note": "Not coded: C0 = INELIG, so coding stops per the codebook."
+   },
+   "chosen": "B",
+   "reason": "C0 is INELIG, so per the codebook coding stops and this item is left uncoded as B did."
+  },
+  "C5.2": {
+   "value": {
+    "code": "",
+    "loc": "",
+    "quote": "",
+    "note": "Not coded: C0 = INELIG, so coding stops per the codebook."
+   },
+   "chosen": "B",
+   "reason": "C0 is INELIG, so per the codebook coding stops and this item is left uncoded as B did."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "",
+    "behav": "",
+    "behav_stated": "",
+    "info": "",
+    "info_stated": "",
+    "loc_behav": "",
+    "quote_behav": "",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Not coded: C0 = INELIG, so coding stops per the codebook."
+   },
+   "chosen": "B",
+   "reason": "C0 is INELIG, so per the codebook coding stops and this item is left uncoded as B did."
+  },
+  "C7.1": {
+   "value": {
+    "code": "",
+    "loc": "",
+    "quote": "",
+    "note": "Not coded: C0 = INELIG, so coding stops per the codebook."
+   },
+   "chosen": "B",
+   "reason": "C0 is INELIG, so per the codebook coding stops and this item is left uncoded as B did."
+  },
+  "C7.2": {
+   "value": {
+    "code": "",
+    "loc": "",
+    "quote": "",
+    "note": "Not coded: C0 = INELIG, so coding stops per the codebook."
+   },
+   "chosen": "B",
+   "reason": "C0 is INELIG, so per the codebook coding stops and this item is left uncoded as B did."
+  },
+  "C8.2": {
+   "value": {
+    "code": "",
+    "loc": "",
+    "quote": ""
+   },
+   "chosen": "B",
+   "reason": "C0 is INELIG, so per the codebook coding stops and this item is left uncoded as B did."
+  },
+  "C9.1": {
+   "value": {
+    "code": "",
+    "claims": [],
+    "note": "Not coded: C0 = INELIG, so coding stops per the codebook."
+   },
+   "chosen": "B",
+   "reason": "C0 is INELIG, so per the codebook coding stops and this item is left uncoded as B did."
+  },
+  "C9.2": {
+   "value": {
+    "code": "",
+    "loc": "",
+    "quote": "",
+    "note": "Not coded: C0 = INELIG, so coding stops per the codebook."
+   },
+   "chosen": "B",
+   "reason": "C0 is INELIG, so per the codebook coding stops and this item is left uncoded as B did."
+  }
+ }
+}

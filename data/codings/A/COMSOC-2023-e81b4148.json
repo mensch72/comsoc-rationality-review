@@ -1,0 +1,39 @@
+{
+  "paper_id": "COMSOC-2023-e81b4148",
+  "codebook_version": "1.0",
+  "C0": {"code": "ELIG", "loc": "Abstract, p. not visible", "quote": "An instance of an approval-based multiwinner election consists of a set", "note": "Approval-based committee (multiwinner) voting rules and their proportionality."},
+  "C1": {"types": ["AX", "WD"], "primary": "AX", "loc": "Section 1 Introduction; Appendix G, p. not visible", "quote": "In our study we employ a quantitative approach.", "note": "Main results are quantitative proportionality guarantees/degrees (property satisfaction, treated as AX). Appendix G gives utilitarian efficiency guarantees (WD): 'Here, our goal is estimate the utilitarian efficiency of the considered'. LP computations are used to compute bounds, not outcomes, so not coded AL."},
+  "C2.1": {"value": "approval-based profile (profile); approval set", "loc": "Section 2 The Model, p. not visible", "quote": "A is an approval-based profile"},
+  "C2.2": {"codes": ["APPR"], "loc": "Section 2 The Model, p. not visible", "quote": "that maps each voter to a subset of C", "note": ""},
+  "C2.3": {"code": "Y", "loc": "Section 2 The Model, p. not visible", "quote": "A(i) consists of candidates that voter i finds acceptable", "note": "The profile is interpreted as voters' preferences (also 'according to the preferences of the voters', Abstract); no separate submitted object."},
+  "C2.4": {"code": "IDU", "loc": "Section 2 The Model; Abstract, p. not visible", "quote": "A(i) consists of candidates that voter i finds acceptable", "note": "The approval profile is described as what voters find acceptable / their preferences and the rule is applied to it directly; no statement about submission or reporting."},
+  "C3.1": {"code": "NONE", "loc": "Abstract; Sections 1-5; Appendices A-G", "quote": "none found", "note": "No analysis considers voters submitting approval sets different from their preferences."},
+  "C3.2": {"code": "NOT-STATED", "loc": "Abstract; Section 1 Introduction; Section 2 The Model; Section 5 Conclusion; Appendices A-G", "quote": "none found", "note": ""},
+  "C3.3": {"code": "NA", "loc": "", "quote": "", "note": "C3.2 is not STATED."},
+  "C4.1": {"code": "SPEC", "loc": "Section 2.2 Proportionality Degree of ABC Rules; Appendix G, p. not visible", "quote": "defined as the average number of representatives that a voter from", "note": "Satisfaction defined as number of approved committee members; utilitarian efficiency defined via total number of approvals, and the optimum is called the committee 'maximizing the total utility of the voters'."},
+  "C4.2": {"code": "NA", "loc": "", "quote": "", "note": "The term 'dichotomous preferences' or an equivalent is not used."},
+  "C5.1": {"code": "Y", "loc": "Section 2.2 Definition 1; Appendix G Definition 4, p. not visible", "quote": "is guaranteed g(`, k) representatives in the size-k committee elected by", "note": "Proportional representation of cohesive groups (proportionality degree) and utilitarian efficiency (Definition 4 (Utilitarian Efficiency))."},
+  "C5.2": {"code": "INPUT-UNSTATED", "loc": "Appendix G Definition 4; Section 2.2, p. not visible", "quote": "total number of approvals that the candidates from the winning committee get", "note": "Evaluated on the approval profile A; no statement relating it to a separately held attitude (input described directly as preferences, C2.4 = IDU)."},
+  "C6": {
+    "VOT": {"present": "Y", "behav": "NONSTRAT", "behav_stated": "IMPLICIT", "info": "NA", "info_stated": "NA",
+            "loc_behav": "Abstract; Section 2 The Model, p. not visible", "quote_behav": "each voter approves a subset of alternatives",
+            "loc_info": "", "quote_info": "", "note": "Voters' approval sets are fixed inputs; never said in words that they are sincere or truthful."},
+    "CAN": {"present": "N"},
+    "ORG": {"present": "N"},
+    "DIS": {"present": "N"},
+    "BRI": {"present": "N"},
+    "DES": {"present": "N", "note": "The mechanism designer/decision maker is mentioned only in discussion (e.g. 'The mechanism designer must decide'), not modelled."},
+    "OTH": {"present": "N"}
+  },
+  "C7.1": {"code": "NA", "loc": "", "quote": "", "note": "Only voters are present."},
+  "C7.2": {"code": "NA", "loc": "", "quote": "", "note": "C7.1 is not Y."},
+  "C8.1": {"codes": [], "loc": "", "quote": "", "note": "NA: no type is STRAT or MIXED."},
+  "C8.2": {"code": "NA", "loc": "", "quote": ""},
+  "C9.1": {"code": "Y", "claims": [
+    {"loc": "Section 1 Introduction, p. not visible", "quote": "our results suggest that PAV should be preferred whenever"},
+    {"loc": "Section 1 Introduction, p. not visible", "quote": "using these rules can be justified in cases when the decision maker"},
+    {"loc": "Section 5 Conclusion, p. not visible", "quote": "offer a significantly better utilitarian efficiency than PAV, at the cost"}
+  ], "note": "Claims about which rule should be used (PAV vs sequential rules) and about voters' utilitarian efficiency."},
+  "C9.2": {"code": "SOME-UNSTATED", "loc": "Section 1 Introduction; Section 2 The Model; Section 5 Conclusion; Appendix G", "quote": "none found", "note": "Recommending rules for real decisions on the basis of proportionality/efficiency computed on the approval profile needs that voters' approval sets equal their actual preferences (no strategic misreporting); this is not stated. The link between utility and approvals (utility = number of approved members) is defined in Appendix G."},
+  "C10.1": {"code": "N", "loc": "Abstract; Section 1 Introduction; Section 2 The Model; Section 5 Conclusion; Appendices", "quote": "none found", "note": ""}
+}

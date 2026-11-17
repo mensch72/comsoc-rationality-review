@@ -1,0 +1,27 @@
+{
+"paper_id":"IJCAI-2022-09a7b277","codebook_version":"1.0",
+"C0":{"code":"ELIG","loc":"Abstract, p.370","quote":"we study the complexity of deciding whether voters' preferences can be explained","note":"Borderline: computational problem on preference profiles (structured domains) motivated by voting; no rule defined. Coded ELIG as computational aspects of voting."},
+"C1":{"types":["AL"],"primary":"AL","loc":"Abstract; Sections 3-5","quote":"polynomial-time algorithm for several domains","note":"Polynomial algorithms and NP-hardness for partitioning profiles."},
+"C2.1":{"value":"preference profile; votes","loc":"Section 2, p.371","quote":"A preference profile P over a candidate set C is a list of votes"},
+"C2.2":{"codes":["RANK"],"loc":"Section 2, p.371","quote":"A vote over C is a linear order over C.","note":""},
+"C2.3":{"code":"Y","loc":"Abstract, p.370","quote":"each voter has a preferred value for each attribute","note":"Paper speaks of voters' preferences, favorite points and decision-making."},
+"C2.4":{"code":"IDU","loc":"Section 2, p.371; Introduction","quote":"voters' preferences are highly structured","note":"Preferences described as votes/profiles; no statement on submission or reporting."},
+"C3.1":{"code":"NONE","loc":"Whole paper","quote":"none found","note":"No strategic voters analysed."},
+"C3.2":{"code":"NOT-STATED","loc":"Section 2 (Preliminaries), Introduction, Section 6 (Conclusion)","quote":"none found","note":""},
+"C3.3":{"code":"NA","loc":"","quote":"","note":"C3.2 is not STATED."},
+"C4.1":{"code":"NA","loc":"","quote":"","note":"No utility-type notions used for voters."},
+"C4.2":{"code":"NA","loc":"","quote":"","note":"Term not used."},
+"C5.1":{"code":"N","loc":"Sections 3-6","quote":"none found","note":""},
+"C5.2":{"code":"NA","loc":"","quote":"","note":"C5.1 = N."},
+"C6":{
+"VOT":{"present":"N","behav":"","behav_stated":"","info":"","info_stated":"","loc_behav":"","quote_behav":"","loc_info":"","quote_info":"","note":"No agent takes an action in the formal model; the profile is an input to a decision problem."},
+"CAN":{"present":"N","note":"Candidates only alternatives."},
+"ORG":{"present":"N"},"DIS":{"present":"N"},"BRI":{"present":"N"},"DES":{"present":"N"},"OTH":{"present":"N"}},
+"C7.1":{"code":"NA","loc":"","quote":"","note":"Fewer than two types present."},
+"C7.2":{"code":"NA","loc":"","quote":"","note":""},
+"C8.1":{"codes":[],"loc":"","quote":"","note":"NA: no STRAT or MIXED type."},
+"C8.2":{"code":"NA","loc":"","quote":""},
+"C9.1":{"code":"N","claims":[],"note":"Intro mentions algorithms for structured preferences in general terms; no claims about institutions, voter well-being or rule choice."},
+"C9.2":{"code":"NA","loc":"","quote":"","note":"C9.1 = N."},
+"C10.1":{"code":"N","loc":"Whole paper","quote":"none found","note":""}
+}

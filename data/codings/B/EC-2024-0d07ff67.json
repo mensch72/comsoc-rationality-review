@@ -1,0 +1,177 @@
+{
+ "paper_id": "EC-2024-0d07ff67",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.51",
+  "quote": "Approval-based multiwinner voting, one of the central topics in computational social choice",
+  "note": "Approval-based committee voting studied via equilibria of budgeting games."
+ },
+ "C1": {
+  "types": [
+   "EQ",
+   "AX"
+  ],
+  "primary": "EQ",
+  "loc": "Intro, Sec. 4-6",
+  "quote": "establishing equivalences between solution concepts for budgeting games and fair outcomes",
+  "note": "Equilibrium characterisations of proportionality axioms (EJR, core, priceability), new rules from dynamics, strong equilibrium existence."
+ },
+ "C2.1": {
+  "value": "approval profile; approval ballots",
+  "loc": "Sec. 2, p.53",
+  "quote": "a vector of approval ballots"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Sec. 2, p.53",
+  "quote": "a vector of approval ballots",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec. 1, p.52",
+  "quote": "whose preferences are expressed by granting, or withholding, approval",
+  "note": "Preferences mentioned only as expressed by approval; no separate notation."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Sec. 1-2",
+  "quote": "whose preferences are expressed by granting, or withholding, approval",
+  "note": "Approval ballots described as expressing preferences; rule/axioms applied directly, no statement on submission vs holding."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sec. 3-6",
+  "quote": "is to maximize their utility.",
+  "note": "Budgeting-game players choose budget allocations, not misreported ballots; approval sets X_i = A_i are fixed."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sec. 2, Sec. 1, Sec. 7",
+  "quote": "none found",
+  "note": "No statement that voters submit their held attitude."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED"
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Sec. 3, p.55",
+  "quote": "the number of active resources",
+  "note": "Utility = number of active resources in approval set."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term dichotomous preferences not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sec. 2, Sec. 4",
+  "quote": "proportionately represents the preferences of the electorate",
+  "note": "Core, EJR, EJR+, priceability as proportionality/representation axioms in results; utility gains in deviations."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Sec. 2, p.53",
+  "quote": "none found",
+  "note": "Core/EJR defined on approval sets directly; no statement relating to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "IMPLICIT",
+   "loc_behav": "Sec. 3, p.55",
+   "quote_behav": "is to maximize their utility.",
+   "loc_info": "Sec. 3 (normal-form games, equilibria)",
+   "quote_info": "normal-form games",
+   "note": "Players of budgeting games are the voters; complete information inferred from normal-form game equilibrium analysis."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only one type present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is NA"
+ },
+ "C8.1": {
+  "codes": [
+   "NE",
+   "COAL",
+   "ITER",
+   "OTH"
+  ],
+  "loc": "Sec. 3-6",
+  "quote": "every strong equilibrium of a budgeting game is also in the",
+  "note": "OTH: alpha-core, superset equilibrium, cohesive alpha-core; ITER: improving-move dynamics yielding rules."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Sec. 3, p.55",
+  "quote": "1-strong equilibria are more familiarly known as Nash equilibria"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.51",
+    "quote": "are guaranteed to satisfy desirable fairness axioms"
+   },
+   {
+    "loc": "Sec. 5, p.66",
+    "quote": "one can argue that it selects a committee that would be"
+   },
+   {
+    "loc": "Sec. 7, p.69",
+    "quote": "first systematic game-theoretic treatment of fairness notions in multiwinner voting"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sec. 5, Sec. 7",
+  "quote": "none found",
+  "note": "Fairness/rationality claims for voters need a statement that approval ballots equal held preferences and that voters act as strategic budget allocators; neither is stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sec. 1-7",
+  "quote": "none found",
+  "note": ""
+ }
+}

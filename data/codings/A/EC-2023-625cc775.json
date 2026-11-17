@@ -1,0 +1,38 @@
+{
+  "paper_id": "EC-2023-625cc775",
+  "codebook_version": "1.0",
+  "C0": {"code": "ELIG", "loc": "Abstract, p.1", "quote": "we define a general notion of the veto core", "note": "Single-winner ranked voting rules electing from a generalized veto core with metric distortion 3."},
+  "C1": {"types": ["AX", "WD"], "primary": "AX", "loc": "Abstract, p.1; Theorem 5, Sec 5.2, p.17", "quote": "also satisfies resolvability, monotonicity, majority, majority loser, mutual majority and reversal symmetry", "note": "Main results: characterization of the (p,q)-veto core via matchings and SerialVeto (Thms 1-3), tied-winner property of SimultaneousVeto (Thm 4), and axioms plus distortion-3 guarantee (Thm 5). Algorithms are presented but no complexity results, so AL not coded."},
+  "C2.1": {"value": "ranked-choice profile; rankings; election", "loc": "Sec 2 Preliminaries, p.6", "quote": "The vector of all rankings"},
+  "C2.2": {"codes": ["RANK"], "loc": "Sec 2 Preliminaries, p.6", "quote": "a ranking (i.e., total order) over 𝐶", "note": ""},
+  "C2.3": {"code": "Y", "loc": "Sec 1 Introduction, p.2", "quote": "captures how much the voter dislikes the candidate", "note": "Voters have positions in a metric space (distances to candidates), defined separately from rankings."},
+  "C2.4": {"code": "DIST", "loc": "Sec 4.1, Proof of Prop. 2, p.10; Sec 2.1, p.7", "quote": "distance-based ranking which are resolved arbitrarily in the reported rankings", "note": "Metric d has separate notation from rankings and the text speaks of reported rankings; but rankings are required to be consistent with d, so IDS would also fit; DIST chosen as listed first."},
+  "C3.1": {"code": "NONE", "loc": "Checked Sec 1 Introduction, Sec 2 Preliminaries, Secs 3-5, Sec 6 Conclusion", "quote": "none found", "note": "No analysis models voters submitting rankings different from their metric preferences; strategic behaviour mentioned only for prior work."},
+  "C3.2": {"code": "STATED", "loc": "Sec 1 Introduction, p.2", "quote": "each voter ranks candidates from closest to furthest", "note": "Stated in words that rankings follow distances; formalized as consistency of the metric with the rankings (Sec 2.1)."},
+  "C3.3": {"code": "NONE", "loc": "Sec 1 Introduction, p.2", "quote": "each voter ranks candidates from closest to furthest", "note": "No reason given why voters rank according to distances; footnote 2 justifies ordinal elicitation, not sincerity."},
+  "C4.1": {"code": "SPEC", "loc": "Sec 2.1 Metric Distortion, p.7", "quote": "is consistent with the ranking", "note": "Costs are metric distances; a metric is consistent with a ranking if d(v,a) <= d(v,b) whenever a is ranked above b."},
+  "C4.2": {"code": "NA", "loc": "", "quote": "", "note": "Term dichotomous preferences not used."},
+  "C5.1": {"code": "Y", "loc": "Lemma 2, Sec 2.2, p.8; Theorem 5, Sec 5.2, p.17", "quote": "the distortion of every plurality dominant candidate is at most 3", "note": "Distortion (social cost) in results; Pareto property also discussed in Sec 5.3."},
+  "C5.2": {"code": "HELD", "loc": "Sec 2.1 Metric Distortion, p.7", "quote": "The (utilitarian) social cost of a candidate 𝑐 under a metric 𝑑", "note": "Distortion is evaluated on metric distances; the Pareto property discussion (Sec 5.3) is on rankings, but distortion is the main welfare criterion."},
+  "C6": {
+    "VOT": {"present": "Y", "behav": "NONSTRAT", "behav_stated": "EXPLICIT", "info": "NA", "info_stated": "NA",
+            "loc_behav": "Sec 1 Introduction, p.2", "quote_behav": "each voter ranks candidates from closest to furthest", "loc_info": "", "quote_info": "", "note": "Voters submit rankings consistent with distances and veto per fixed algorithmic procedure."},
+    "CAN": {"present": "N", "note": "Candidates only alternatives."},
+    "ORG": {"present": "N", "note": ""},
+    "DIS": {"present": "N", "note": ""},
+    "BRI": {"present": "N", "note": ""},
+    "DES": {"present": "N", "note": "Designer's choice not modelled."},
+    "OTH": {"present": "N", "note": ""}
+  },
+  "C7.1": {"code": "NA", "loc": "", "quote": "", "note": "Only voters present."},
+  "C7.2": {"code": "NA", "loc": "", "quote": "", "note": "C7.1 not Y."},
+  "C8.1": {"codes": [], "loc": "", "quote": "", "note": "NA: no type is STRAT or MIXED."},
+  "C8.2": {"code": "NA", "loc": "", "quote": ""},
+  "C9.1": {"code": "Y", "claims": [
+    {"loc": "Sec 1 Introduction, p.5", "quote": "Thus, we believe that the rule is indeed practical."},
+    {"loc": "Sec 6 Conclusion, p.21", "quote": "combined with its simplicity, this makes it well suited for practical adoption."},
+    {"loc": "Sec 1 Introduction, p.5", "quote": "optimizing metric distortion clearly aims for the protection of the majority"}
+  ], "note": ""},
+  "C9.2": {"code": "ALL-STATED", "loc": "Sec 2.1 Metric Distortion, p.7; Sec 1, p.2", "quote": "is consistent with the ranking", "note": "Claims rest on distortion guarantees for voters' costs, needing rankings consistent with voters' metric costs and metric costs; both are stated (consistency definition, voters rank closest to furthest). Non-strategic voting is covered by the stated consistency assumption, though no reason for it is given."},
+  "C10.1": {"code": "N", "loc": "Checked Sec 1 Introduction pp.1-6, Sec 2 Preliminaries pp.6-8, Sec 6 Conclusion pp.21-22", "quote": "none found", "note": ""}
+}

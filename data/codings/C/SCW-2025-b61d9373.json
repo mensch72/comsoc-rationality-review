@@ -1,0 +1,11 @@
+{"paper_id": "SCW-2025-b61d9373", "decisions": {
+  "C2.4": {"value": {"code": "IDS", "loc": "Sect. 3 Model, p.33", "quote": "All voters vote sincerely.", "note": "The vote has no separate notation and the paper never says it may differ from preferences; it asserts sincere voting (eq. 2 is the sincere expected-payoff rule) without giving a reason. This matches the codebook's IDS example and C3.2 = STATED, C3.3 = NONE."},
+           "chosen": "B",
+           "reason": "The paper states sincere voting with no reason and has no separate vote notation or text saying votes may differ from preferences, so IDS fits and DIST does not."},
+  "C7.2": {"value": {"code": "REASON", "loc": "Sect. 3 Model, Strategies and Equilibrium, p.35", "quote": "Since there is no lobbying cost involved, we assume that the", "note": "An argument (no lobbying cost) is given for fixing the IGs' behaviour while the challenger is strategic. No reason is given for treating voters as sincere rather than strategic, so the reason covers only part of the asymmetry. REASON chosen as the first-listed code that fits."},
+           "chosen": "A",
+           "reason": "The paper gives an explicit argument (no lobbying cost) for making IGs non-strategic while the challenger is strategic, though not for voters."},
+  "C9.2": {"value": {"code": "ALL-STATED", "loc": "Sect. 3 Model, p.33-35; Sect. 6 Conclusion, p.49-50", "quote": "All voters vote sincerely.", "note": "Needed assumptions: voters vote sincerely on expected payoffs (stated p.33, eq. 2); voters know the access distribution (stated p.34); challenger strategic with only distributional knowledge (stated p.33, p.35); IGs passive, only one IG gets access (stated and argued p.34-35); no office rents (argued in Sect. 6). Mapping the model onto real elections is a general model-to-reality assumption the codebook excludes."},
+           "chosen": "A",
+           "reason": "Every model-specific assumption the conclusion's claims rely on is stated in the paper, and B's unstated assumption (that real elections fit the model) is the general model-approximates-reality kind the codebook excludes."}
+}}

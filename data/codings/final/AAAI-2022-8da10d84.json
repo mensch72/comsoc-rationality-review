@@ -1,0 +1,193 @@
+{
+ "paper_id": "AAAI-2022-8da10d84",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p. 5092",
+  "quote": "We study the complexity of computing committees with a given proportionality degree",
+  "note": "Computational complexity of proportionality notions in approval-based committee elections."
+ },
+ "C1": {
+  "types": [
+   "AL"
+  ],
+  "primary": "AL",
+  "loc": "Sections 3-6, pp. 5094-5098",
+  "quote": "PD-C OMMITTEE is NP-hard and coNP-hard",
+  "note": "Main results are NP/coNP/#P hardness, membership, ILP, FPT and polynomial-time algorithms for structured domains. Example 1 (non-existence of perfect PD in CI/VI elections) is a minor existence observation."
+ },
+ "C2.1": {
+  "value": "election E = (C, V); approval sets A(v)",
+  "loc": "Section 2 Preliminaries, p. 5093",
+  "quote": "Each voter v \u2208 V is endowed with a set A(v)"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Section 1 Introduction, p. 5092",
+  "quote": "each of the n voters specifies which candidates",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 6.2 Structured Preferences, p. 5098",
+  "quote": "of candidates whose opinions are close enough to their own",
+  "note": "Voters' own opinions are referred to as the basis of their approvals in the CI illustration; this is a held attitude not defined as the submitted approval set."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 6.2 Structured Preferences, p. 5097",
+  "quote": "Next we consider two domains of structured preferences",
+  "note": "Approval sets are called preferences (CI/VI preferences) and proportionality notions are applied to them directly, with no statement relating submitted approvals to held attitudes; ONE is excluded because C2.3 = Y."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Abstract; Section 1 Introduction; Section 2 Preliminaries; Sections 3-6; Section 7 Conclusions",
+  "quote": "none found",
+  "note": "No analysis considers voters submitting approvals different from what they hold; no strategic behaviour."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Abstract; Section 1 Introduction; Section 2 Preliminaries; Section 6.2; Section 7 Conclusions",
+  "quote": "none found",
+  "note": "No statement that voters submit their true approvals or preferences."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 2 Preliminaries (Proportionality Degree), p. 5093",
+  "quote": "We define v\u2019s satisfaction with S as |A(v)\u2229S|,",
+  "note": "Voter satisfaction is defined as the number of approved committee members."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' appears only in reference titles, not in the paper text."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2 Preliminaries, Definition 2, p. 5093",
+  "quote": "has proportionality degree f if for each `-cohesive group",
+  "note": "Proportionality degree (average satisfaction of cohesive groups), JR and EJR are proportional representation criteria used in all results."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 2 Preliminaries, p. 5093",
+  "quote": "We define v\u2019s satisfaction with S as |A(v)\u2229S|,",
+  "note": "Satisfaction and cohesiveness are computed on approval sets; no statement relating them to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 1 Introduction, p. 5092",
+   "quote_behav": "each of the n voters specifies which candidates",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters' approval sets are fixed inputs; no sincerity statement, behaviour only inferable from the model."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 1 Introduction, p. 5092",
+    "quote": "Yet, JR and EJR are somewhat unsatisfying."
+   },
+   {
+    "loc": "Section 1 Introduction, p. 5092",
+    "quote": "the committee is supposed to represent the voters proportionally"
+   },
+   {
+    "loc": "Section 1 Introduction, p. 5093",
+    "quote": "establish an empirical hierarchy of proportionality among multiwinner voting rules"
+   }
+  ],
+  "note": "The introduction judges JR/EJR inadequate because they ignore other voters' satisfaction (fairness towards voters) and suggests the results allow ranking rules by proportionality."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 1 Introduction; Section 2 Preliminaries; Section 7 Conclusions",
+  "quote": "none found",
+  "note": "Claims about fair representation of voters and ranking rules by proportionality need that submitted approval sets reflect voters' held attitudes; this is not stated. The satisfaction-approval link is stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Section 1 Introduction; Section 2 Preliminaries; Section 7 Conclusions",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C2.3": {
+   "chosen": "A",
+   "reason": "The paper refers to voters' own opinions as distinct from the approval sets, which meets the codebook's 'refers to any held attitude' test even if only in an illustration."
+  },
+  "C2.4": {
+   "chosen": "A",
+   "reason": "With C2.3 = Y, ONE is unavailable, and the approval sets are described as preferences and used directly without any statement about reporting."
+  },
+  "C3.2": {
+   "chosen": "A",
+   "reason": "Since C2.4 is not ONE and C3.1 = NONE, NA does not apply, and no sincerity statement exists in the text."
+  },
+  "C9.1": {
+   "chosen": "other",
+   "reason": "The introduction makes claims about fairness towards voters and about ranking rules, so Y is correct, but A's 'quantitative understanding' quote is not such a claim and is replaced by a representation claim."
+  },
+  "C9.2": {
+   "chosen": "A",
+   "reason": "Claims about fairness towards voters are drawn from results on approval sets and need an unstated assumption that approvals reflect voters' held attitudes."
+  }
+ }
+}

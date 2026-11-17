@@ -1,0 +1,34 @@
+{
+ "paper_id": "EC-2024-0d07ff67",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "AX",
+     "EQ",
+     "AL"
+    ],
+    "primary": "EQ",
+    "loc": "Sec. 4, p. 56; Sec. 5, pp. 62-66; Sec. 6, pp. 67-69",
+    "quote": "we characterize prominent proportionality axioms as equilibria of budgeting games",
+    "note": "Main results are correspondences between budgeting-game equilibria and proportionality axioms (EQ/AX), finite improvement of deviation dynamics (EQ), and existence of strong equilibria via the Tree-Sweep algorithm (EQ/AL)."
+   },
+   "chosen": "A",
+   "reason": "Theorems 6.1 and 6.2 are results about the Tree-Sweep algorithm computing (strong) equilibria, so AL applies to at least one main result alongside EQ and AX, with EQ primary."
+  },
+  "C8.1": {
+   "value": {
+    "codes": [
+     "NE",
+     "COAL",
+     "ITER"
+    ],
+    "loc": "Sec. 3, pp. 55-56; Sec. 4, pp. 56-61; Sec. 5, pp. 62-66; Sec. 6, pp. 67-69",
+    "quote": "1-strong equilibria are more familiarly known as Nash equilibria",
+    "note": "Nash equilibrium (Th. 3.1, 6.1); strong equilibrium, alpha-core, cohesive alpha-core, superset equilibrium (coalitional); sequences of improving deviations / finite improvement property (Th. 5.1, 5.3)."
+   },
+   "chosen": "A",
+   "reason": "Alpha-core, cohesive alpha-core and superset equilibrium are all coalitional-deviation concepts covered by COAL, so B's additional OTH is redundant."
+  }
+ }
+}

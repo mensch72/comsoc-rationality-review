@@ -1,0 +1,229 @@
+{
+ "paper_id": "COMSOC-2021-c2545a38",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Sec 1",
+  "quote": "approval-based multiwinner election where the set of candidates consists of matchings",
+  "note": "Multiwinner voting rules on a matching-based candidate space"
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "AX"
+  ],
+  "primary": "AL",
+  "loc": "Abstract; Sec 4-5",
+  "quote": "computational tractability of these rules can be regained",
+  "note": "Theorems 1-4 algorithmic/hardness; Theorem 5 and propositions axiomatic"
+ },
+ "C2.1": {
+  "value": "preference profile",
+  "loc": "Sec 2.1, p.3",
+  "quote": "A = (Aa )a∈N a preference profile with Aa ⊆ C denoting the approval set"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR",
+   "DICH"
+  ],
+  "loc": "Sec 1, p.1",
+  "quote": "agents’ dichotomous (i.e., approval/disapproval) preferences over each other",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Abstract",
+  "quote": "Given a set of agents with approval preferences over each other",
+  "note": "Preferences are the agents' attitudes; approval sets are described as preferences"
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Sec 2.1, p.3",
+  "quote": "A = (Aa )a∈N a preference profile with Aa ⊆ C denoting the approval set",
+  "note": "Approval sets are called preferences and the rule is applied directly; no statement on reporting"
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "No strategic behaviour analysed"
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sec 1, 2, 3, 6",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED"
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Sec 2.1, p.3",
+  "quote": "happiness score ha (W ) of a denote the number",
+  "note": "Happiness defined as number of approved committee members; also approves matching iff matched to approved agent"
+ },
+ "C4.2": {
+  "code": "N",
+  "loc": "Sec 1, p.1",
+  "quote": "dichotomous (i.e., approval/disapproval) preferences over each other",
+  "note": "Classes described only as approval/disapproval, no utility meaning"
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sec 2.3, Sec 5",
+  "quote": "We consider three axioms capturing proportional representation",
+  "note": "PJR, EJR, core stability results"
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Sec 2.3",
+  "quote": "ha (W ) < ` for all a ∈ S",
+  "note": "Evaluated on approval sets, no statement relating to held attitudes"
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sec 2.1",
+   "quote_behav": "A = (Aa )a∈N a preference profile with Aa ⊆ C denoting the approval set",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Agents' approvals are fixed input; no strategic action modelled"
+  },
+  "CAN": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "ORG": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Fewer than two types present"
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y"
+ },
+ "C8.1": {
+  "codes": [
+   "NA"
+  ],
+  "loc": "",
+  "quote": "",
+  "note": "No STRAT or MIXED type"
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract",
+    "quote": "finding k matchings fairly representing everyone’s preferences"
+   },
+   {
+    "loc": "Sec 1, p.2",
+    "quote": "we can represent the preferences of all agents"
+   },
+   {
+    "loc": "Sec 1, p.1",
+    "quote": "teachers often divide students into pairs for partner work"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sec 1",
+  "quote": "none found",
+  "note": "Fairness to agents needs input equals held preference; not stated"
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": ""
+ }
+}

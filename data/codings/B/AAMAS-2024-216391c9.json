@@ -1,0 +1,178 @@
+{
+ "paper_id": "AAMAS-2024-216391c9",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Sec 4, p.1595",
+  "quote": "to improve the robustness of LLM ranking queries",
+  "note": "Applies Partial Borda voting to aggregate repeated LLM rankings (LLM answers play the role of voters); borderline but a voting rule is the main tool."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SI"
+  ],
+  "primary": "SI",
+  "loc": "Sec 4.3, Sec 5",
+  "quote": "Our experiments show that our approach significantly improves the robustness",
+  "note": "Experiments use ChatGPT-generated queries and answers, treated as synthetic; AX from Prop 4.4 and reinterpreted properties."
+ },
+ "C2.1": {
+  "value": "profile",
+  "loc": "Sec 3, p.1594",
+  "quote": "A profile"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Sec 3, p.1595",
+  "quote": "We will therefore focus on preferences expressed by partial orderings.",
+  "note": "Partial orders over outcomes (top-ranked answers preferred to non-mentioned, which are incomparable)."
+ },
+ "C2.3": {
+  "code": "N",
+  "loc": "Secs 3-4",
+  "quote": "captures the preferences expressed by them.",
+  "note": "Preferences are described as expressed; in the application the inputs are LLM answers, no separate held attitude."
+ },
+ "C2.4": {
+  "code": "ONE",
+  "loc": "Sec 3, p.1594",
+  "quote": "captures the preferences expressed by them.",
+  "note": "Input described as expressed rankings only."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Secs 3-5",
+  "quote": "none found",
+  "note": "No strategic voters analysed."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C2.4 = ONE"
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 not STATED"
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No voter utility notions used."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Secs 4-5",
+  "quote": "none found",
+  "note": "Evaluation is by robustness (Kendall, Spearman correlations), not welfare-type criteria."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sec 1, p.1594; Sec 4.1",
+   "quote_behav": "instead of asking a query once, we ask it repeatedly",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters are repeated LLM answers, fixed by the sampling procedure; no strategic behaviour."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Outcomes are diagnoses only."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "Authors' pipeline, not an agent in the model."
+  },
+  "DIS": {
+   "present": "N",
+   "note": "Not applicable."
+  },
+  "BRI": {
+   "present": "N",
+   "note": "Not applicable."
+  },
+  "DES": {
+   "present": "N",
+   "note": "No explicit designer objective modelled."
+  },
+  "OTH": {
+   "present": "N",
+   "note": "None."
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Fewer than two types present"
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 not Y"
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no STRAT or MIXED type"
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Sec 4.3, p.1597",
+    "quote": "Since all properties seem desirable in our setting"
+   },
+   {
+    "loc": "Sec 6, Conclusions p.1600",
+    "quote": "Our experiments show that our approach significantly improves the robustness"
+   },
+   {
+    "loc": "Abstract",
+    "quote": "they are ill-suited for query answering in high-stake domains like medicine"
+   }
+  ],
+  "note": "Rule choice and application claims."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sec 4.3",
+  "quote": "Since all properties seem desirable in our setting",
+  "note": "Claims rest on stated characterisation and empirical robustness measures; no voter-attitude or strategic assumptions needed."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 3, 4, 7 (Conclusions)",
+  "quote": "none found",
+  "note": ""
+ }
+}

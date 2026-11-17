@@ -1,0 +1,11 @@
+{
+ "paper_id": "AAMAS-2021-fe56146f",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "INELIG",
+  "loc": "Section 2.1 Bipartite Tournaments, p. 1237; also Abstract and Section 1, p. 1236",
+  "quote": "Given a tournament K, our goal is to place a ranking",
+  "note": "The paper ranks the players of bipartite tournaments (e.g. students vs exam questions, golfers vs courses) from binary match results via chain editing. The input is a matrix of match outcomes between players, not inputs of several agents aggregated by voting; voting is mentioned only as an application area of ordinary tournaments and in related work. This is tournament ranking / paired comparisons analysis, so coding stops at C0."
+ },
+ "adjudication": {}
+}

@@ -1,0 +1,28 @@
+{
+"paper_id":"GEB-2023-09388f97","codebook_version":"1.0",
+"C0":{"code":"ELIG","loc":"Abstract, p.1; Sec 2","quote":"each voter has as many votes as open positions","note":"Cumulative voting vs multi-seat plurality, game-theoretic model and lab experiment."},
+"C1":{"types":["EQ","EM"],"primary":"EM","loc":"Abstract p.1; Sec 3-5","quote":"A lab experiment based on a costly voting design","note":"Equilibrium analysis (Prop 1, costly-voting thresholds) plus experiment testing its predictions; experiment and results section dominate."},
+"C2.1":{"value":"votes","loc":"Sec 2, p.5","quote":"We call xp the profiles of votes cast by members"},
+"C2.2":{"codes":["OTH"],"loc":"Sec 2, p.5","quote":"each voter can distribute the K votes in any manner","note":"Vote vectors over candidates summing to K (cumulative votes, fractional allowed); not rankings or approvals."},
+"C2.3":{"code":"Y","loc":"Sec 2, p.5","quote":"The utility derived from one's party winning k positions is","note":"Utility over number of party seats won, and private voting cost."},
+"C2.4":{"code":"DIST","loc":"Sec 2-3, pp.5,7","quote":"Ui (k), given by","note":"Votes x and utilities u/U are separate objects; votes are best-response actions."},
+"C3.1":{"code":"ALL","loc":"Sec 2-3, p.5,9","quote":"voter i in party p sets xip","note":"Voters choose vote profiles and turnout to maximise utility; in experiment turnout is free, vote spreading constrained equal (not a sincerity assumption)."},
+"C3.2":{"code":"NA","loc":"","quote":"","note":"C3.1 = ALL"},
+"C3.3":{"code":"NA","loc":"","quote":"","note":"C3.2 not STATED"},
+"C4.1":{"code":"NA","loc":"","quote":"","note":"Input format is OTH only; applicability condition not met."},
+"C4.2":{"code":"NA","loc":"","quote":"","note":"Term dichotomous preferences not used."},
+"C5.1":{"code":"Y","loc":"Sec 3.3-5, pp.11-17","quote":"the expected fraction of seats won by the minority","note":"Minority seat share (group representation) is a main outcome in results and experiment."},
+"C5.2":{"code":"HELD","loc":"Sec 2, p.5","quote":"to maximize the number of positions won by their party","note":"Seats won by party membership, defined separately from the votes; coded HELD as closest; party affiliation is exogenous."},
+"C6":{
+"VOT":{"present":"Y","behav":"STRAT","behav_stated":"EXPLICIT","info":"PARTIAL","info_stated":"EXPLICIT","loc_behav":"Sec 3.2, p.9","quote_behav":"so as to maximize the expected number of positions won by p","loc_info":"Sec 3, p.7","quote_info":"Realized costs are private information, but the distribution F (c) is common","note":"Voters decide turnout strategically; vote spreading fixed in experiment."},
+"CAN":{"present":"Y","behav":"MIXED","behav_stated":"EXPLICIT","info":"PARTIAL","info_stated":"EXPLICIT","loc_behav":"Sec 2-4, pp.5,13","quote_behav":"each party list maximizes the number of seats won by the party","loc_info":"Sec 3.2, p.9","quote_info":"after observing privately the realization of the voting cost","note":"Party leaders (proponents of candidate lists) choose number of candidates strategically in theory; exogenously fixed at theoretical optimum in experiment. Information inferred: leaders know cost distribution not realised costs."},
+"ORG":{},"DIS":{},"BRI":{},"DES":{},"OTH":{}
+},
+"C7.1":{"code":"N","loc":"Sec 3.2, p.9","quote":"none found","note":"Voters and leaders both strategic in the theory; leaders fixed only in experiment where no voter is strategic-vs-nonstrategic contrast."},
+"C7.2":{"code":"NA","loc":"","quote":"","note":"C7.1 = N"},
+"C8.1":{"codes":["BNE","SPE"],"loc":"Sec 3.2, p.9","quote":"semi-symmetric perfect Bayesian equilibrium such that within","note":"Three-stage game with perfect Bayesian equilibrium; costless case uses equilibria in weakly undominated strategies of constant-sum game."},
+"C8.2":{"code":"Y","loc":"Sec 3.2, p.9","quote":"We focus on a semi-symmetric perfect Bayesian equilibrium"},
+"C9.1":{"code":"Y","claims":[{"loc":"Introduction, p.3","quote":"The experiment confirms CV's potential to increase both the"},{"loc":"Conclusions, p.18","quote":"Voting rules like CV have the potential to help both."},{"loc":"Introduction, p.4","quote":"Such rules can do so without the rigidity and arbitrariness"}],"note":"Claims about institutions and minority representation."},
+"C9.2":{"code":"ALL-STATED","loc":"Sec 2, p.5","quote":"Party leaders and voters share the same objective","note":"Voter objective, strategic behaviour, information and cost structure are all stated in the model; lab-to-field generalisation is a generic model-approximates-reality assumption."},
+"C10.1":{"code":"N","loc":"Sec 2-5","quote":"none found","note":""}
+}

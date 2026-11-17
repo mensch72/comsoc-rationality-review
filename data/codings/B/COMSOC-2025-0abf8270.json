@@ -1,0 +1,26 @@
+{
+"paper_id":"COMSOC-2025-0abf8270","codebook_version":"1.0",
+"C0":{"code":"ELIG","loc":"Abstract, p1","quote":"citizens decide how to allocate public funds among proposed projects","note":"Participatory budgeting / committee selection aggregating voters' ordinal preferences; proportional core."},
+"C1":{"types":["AX","WD"],"primary":"AX","loc":"Sec 4-5, Thm 4.1, 5.1","quote":"there exists a 6.24-approximate core solution","note":"Existence results for approximate core (a fairness/stability property); no strategic analysis. WD secondary only as approximation of core; could be AX alone."},
+"C2.1":{"value":"ordinal preferences","loc":"Abstract, p1; Sec 2, p3","quote":"participants typically submit ordinal preferences"},
+"C2.2":{"codes":["RANK","APPR","OTH"],"loc":"Sec 2 p3; Sec 5 Defs 5.1-5.2 p10","quote":"Each agent i has a preference order","note":"Strict orders over outcomes (bundles of projects); special cases ranking and approval preferences over committees."},
+"C2.3":{"code":"Y","loc":"Sec 2, p3","quote":"Each agent i has a preference order","note":"Preferences of voters; no separate submission."},
+"C2.4":{"code":"IDU","loc":"Sec 2, p3","quote":"We assume that the order is strict.","note":"Rule applied directly to preferences; abstract mentions 'submit' but no statement on reporting in the model."},
+"C3.1":{"code":"NONE","loc":"whole paper","quote":"none found","note":"No strategic misreporting analysed."},
+"C3.2":{"code":"NOT-STATED","loc":"Sec 1, 2, 6","quote":"none found","note":"No statement that voters submit their held preferences."},
+"C3.3":{"code":"NA","loc":"","quote":"","note":"C3.2 is NOT-STATED."},
+"C4.1":{"code":"SPEC","loc":"Sec 5, Def 5.2, p10","quote":"has a utility ui(S) = |S ∩ Mi|","note":"Approval case defines utility from approval set; applies since APPR input and utility used."},
+"C4.2":{"code":"NA","loc":"whole paper","quote":"","note":"Term dichotomous preferences not used."},
+"C5.1":{"code":"Y","loc":"Sec 2 Def 2.1-2.2; Thm 4.1","quote":"it ensures fairness and representation in all subgroups","note":"Proportional core / approximate core is a proportionality-fairness criterion to groups of voters."},
+"C5.2":{"code":"INPUT-UNSTATED","loc":"Sec 2, Def 2.2, p4","quote":"is in γ-approximate core if for every outcome o","note":"Evaluated on the preference orders that are the rule's input; no statement relating to held attitudes."},
+"C6":{
+"VOT":{"present":"N","behav":"","behav_stated":"","info":"","info_stated":"","loc_behav":"","quote_behav":"","loc_info":"","quote_info":"","note":"Voters only have preferences; the demand choices in LEO are an auxiliary proof construct, not actions in the voting model."},
+"CAN":{"present":"N"},"ORG":{"present":"N"},"DIS":{"present":"N"},"BRI":{"present":"N"},"DES":{"present":"N"},"OTH":{"present":"N"}},
+"C7.1":{"code":"NA","loc":"","quote":"","note":"Fewer than two types present."},
+"C7.2":{"code":"NA","loc":"","quote":"","note":"C7.1 is NA."},
+"C8.1":{"codes":[],"loc":"","quote":"","note":"NA: no strategic or mixed type."},
+"C8.2":{"code":"NA","loc":"","quote":""},
+"C9.1":{"code":"Y","claims":[{"loc":"Abstract, p1","quote":"A central fairness concept in this setting is the proportional core"},{"loc":"Sec 1, p1","quote":"it ensures fairness and representation in all subgroups"},{"loc":"Sec 1, p1","quote":"fairly reflecting the voter’s preferences"}],"note":"Claims about fairness towards voters/groups in PB practice."},
+"C9.2":{"code":"SOME-UNSTATED","loc":"Abstract, p1; Sec 2","quote":"participants typically submit ordinal preferences","note":"Fairness/representation claims about participants need that submitted preferences equal held preferences; the model uses preferences as the input and never states this."},
+"C10.1":{"code":"N","loc":"whole paper","quote":"none found","note":"No procedural reading stated."}
+}

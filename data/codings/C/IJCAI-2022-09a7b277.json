@@ -1,0 +1,184 @@
+{
+ "paper_id": "IJCAI-2022-09a7b277",
+ "decisions": {
+  "C0": {
+   "value": {
+    "code": "INELIG",
+    "loc": "Abstract, p. 370; Section 2 and Section 6 (Conclusion)",
+    "quote": "we study the complexity of deciding whether voters’ preferences can be explained",
+    "note": "The main object is recognising profiles partitionable into k structured subprofiles (single-peaked, group-separable, value-restricted); no aggregation procedure or voting rule is studied, voting rules appear only as motivation in the Introduction."
+   },
+   "chosen": "A",
+   "reason": "The paper studies domain recognition (partitioning a profile into structured subprofiles) and never defines or analyses an aggregation procedure, so it does not meet the ELIG definition."
+  },
+  "C1": {
+   "value": {
+    "types": [],
+    "primary": "",
+    "loc": "",
+    "quote": "",
+    "note": "Not coded: C0 = INELIG, so coding stops per codebook."
+   },
+   "chosen": "A",
+   "reason": "Paper is INELIG under C0, so this item is not coded (A's position)."
+  },
+  "C10.1": {
+   "value": {
+    "code": "",
+    "loc": "",
+    "quote": "",
+    "note": "Not coded: C0 = INELIG, so coding stops per codebook."
+   },
+   "chosen": "A",
+   "reason": "Paper is INELIG under C0, so this item is not coded (A's position)."
+  },
+  "C2.2": {
+   "value": {
+    "codes": [],
+    "loc": "",
+    "quote": "",
+    "note": "Not coded: C0 = INELIG, so coding stops per codebook."
+   },
+   "chosen": "A",
+   "reason": "Paper is INELIG under C0, so this item is not coded (A's position)."
+  },
+  "C2.3": {
+   "value": {
+    "code": "",
+    "loc": "",
+    "quote": "",
+    "note": "Not coded: C0 = INELIG, so coding stops per codebook."
+   },
+   "chosen": "A",
+   "reason": "Paper is INELIG under C0, so this item is not coded (A's position)."
+  },
+  "C2.4": {
+   "value": {
+    "code": "",
+    "loc": "",
+    "quote": "",
+    "note": "Not coded: C0 = INELIG, so coding stops per codebook."
+   },
+   "chosen": "A",
+   "reason": "Paper is INELIG under C0, so this item is not coded (A's position)."
+  },
+  "C3.1": {
+   "value": {
+    "code": "",
+    "loc": "",
+    "quote": "",
+    "note": "Not coded: C0 = INELIG, so coding stops per codebook."
+   },
+   "chosen": "A",
+   "reason": "Paper is INELIG under C0, so this item is not coded (A's position)."
+  },
+  "C3.2": {
+   "value": {
+    "code": "",
+    "loc": "",
+    "quote": "",
+    "note": "Not coded: C0 = INELIG, so coding stops per codebook."
+   },
+   "chosen": "A",
+   "reason": "Paper is INELIG under C0, so this item is not coded (A's position)."
+  },
+  "C3.3": {
+   "value": {
+    "code": "",
+    "loc": "",
+    "quote": "",
+    "note": "Not coded: C0 = INELIG, so coding stops per codebook."
+   },
+   "chosen": "A",
+   "reason": "Paper is INELIG under C0, so this item is not coded (A's position)."
+  },
+  "C4.1": {
+   "value": {
+    "code": "",
+    "loc": "",
+    "quote": "",
+    "note": "Not coded: C0 = INELIG, so coding stops per codebook."
+   },
+   "chosen": "A",
+   "reason": "Paper is INELIG under C0, so this item is not coded (A's position)."
+  },
+  "C4.2": {
+   "value": {
+    "code": "",
+    "loc": "",
+    "quote": "",
+    "note": "Not coded: C0 = INELIG, so coding stops per codebook."
+   },
+   "chosen": "A",
+   "reason": "Paper is INELIG under C0, so this item is not coded (A's position)."
+  },
+  "C5.1": {
+   "value": {
+    "code": "",
+    "loc": "",
+    "quote": "",
+    "note": "Not coded: C0 = INELIG, so coding stops per codebook."
+   },
+   "chosen": "A",
+   "reason": "Paper is INELIG under C0, so this item is not coded (A's position)."
+  },
+  "C5.2": {
+   "value": {
+    "code": "",
+    "loc": "",
+    "quote": "",
+    "note": "Not coded: C0 = INELIG, so coding stops per codebook."
+   },
+   "chosen": "A",
+   "reason": "Paper is INELIG under C0, so this item is not coded (A's position)."
+  },
+  "C7.1": {
+   "value": {
+    "code": "",
+    "loc": "",
+    "quote": "",
+    "note": "Not coded: C0 = INELIG, so coding stops per codebook."
+   },
+   "chosen": "A",
+   "reason": "Paper is INELIG under C0, so this item is not coded (A's position)."
+  },
+  "C7.2": {
+   "value": {
+    "code": "",
+    "loc": "",
+    "quote": "",
+    "note": "Not coded: C0 = INELIG, so coding stops per codebook."
+   },
+   "chosen": "A",
+   "reason": "Paper is INELIG under C0, so this item is not coded (A's position)."
+  },
+  "C8.2": {
+   "value": {
+    "code": "",
+    "loc": "",
+    "quote": ""
+   },
+   "chosen": "A",
+   "reason": "Paper is INELIG under C0, so this item is not coded (A's position)."
+  },
+  "C9.1": {
+   "value": {
+    "code": "",
+    "claims": [],
+    "note": "Not coded: C0 = INELIG, so coding stops per codebook."
+   },
+   "chosen": "A",
+   "reason": "Paper is INELIG under C0, so this item is not coded (A's position)."
+  },
+  "C9.2": {
+   "value": {
+    "code": "",
+    "loc": "",
+    "quote": "",
+    "note": "Not coded: C0 = INELIG, so coding stops per codebook."
+   },
+   "chosen": "A",
+   "reason": "Paper is INELIG under C0, so this item is not coded (A's position)."
+  }
+ }
+}

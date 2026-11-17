@@ -1,0 +1,5 @@
+{
+  "paper_id": "IJCAI-2022-09a7b277",
+  "codebook_version": "1.0",
+  "C0": {"code": "INELIG", "loc": "Abstract, p. 370; also Sections 2-4, pp. 371-374", "quote": "we study the complexity of deciding whether voters’ preferences can be explained", "note": "The main object is the recognition of structured preference domains (partitioning a preference profile into k single-peaked/group-separable/value-restricted subprofiles), not a procedure aggregating inputs into a collective decision or strategic/computational aspects of such a procedure; no voting rule is studied (voting rules such as Chamberlin-Courant are mentioned only as motivation in the Introduction). Coding stopped per codebook."}
+}

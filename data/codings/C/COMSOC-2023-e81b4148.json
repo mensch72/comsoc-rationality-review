@@ -1,0 +1,19 @@
+{
+ "paper_id": "COMSOC-2023-e81b4148",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "AX",
+     "WD"
+    ],
+    "primary": "AX",
+    "loc": "Section 1 Introduction; Appendix G, p. not visible",
+    "quote": "In our study we employ a quantitative approach.",
+    "note": "Main results are quantitative proportionality guarantees/degrees (property satisfaction, treated as AX). Appendix G gives utilitarian efficiency guarantees (WD): 'Here, our goal is estimate the utilitarian efficiency of the considered'. LP computations are used to compute bounds, not outcomes, so not coded AL."
+   },
+   "chosen": "A",
+   "reason": "The Section 4 LPs (including the polynomial-time relaxed LP) are a technique for bounding the proportionality degree, a property of rules, not algorithms or complexity results for computing outcomes, so AL does not apply; the main results are proportionality guarantees (AX) with utilitarian efficiency in Appendix G (WD)."
+  }
+ }
+}
