@@ -1,0 +1,5 @@
+# PDFs and full texts are never committed (no redistribution)
+*.pdf
+cache/
+fulltext/
+__pycache__/
