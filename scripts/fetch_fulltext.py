@@ -2,7 +2,8 @@
 """Retrieve legally open full texts for sampled papers (protocol section 3).
 
 Order: venue open version (AAMAS, IJCAI, AAAI, COMSOC) -> publisher OA (Crossref CC licence;
-Springer PDFs only, since sciencedirect.com and dl.acm.org refuse this environment) -> arXiv
+Springer PDFs only, since sciencedirect.com and dl.acm.org refuse this environment) -> open
+locations listed by OpenAlex for the DOI (repositories, arXiv, publisher OA) -> arXiv title search
 (title similarity >= 0.9 and a shared author surname) -> manual URL found by web search
 (column `manual_url` in the input, with `manual_version`). Otherwise status = needs_search.
 
@@ -61,11 +62,29 @@ def publisher_oa(r):
     return None
 
 
+def openalex(r):
+    """Open-access PDF locations for the DOI, as listed by OpenAlex (Unpaywall data)."""
+    if not r.get("doi"):
+        return []
+    try:
+        w = json.loads(get("https://api.openalex.org/works/doi:" + urllib.parse.quote(r["doi"]), tries=3))
+    except Exception:
+        return []
+    out = []
+    for loc in w.get("locations", []):
+        if loc.get("is_oa") and loc.get("pdf_url"):
+            src = (loc.get("source") or {}).get("display_name") or ""
+            kind = ("arXiv" if "arxiv" in loc["pdf_url"] else
+                    "publisher-OA" if loc.get("version") == "publishedVersion" else "repository")
+            out.append((loc["pdf_url"], kind, f"OpenAlex location: {src}; version={loc.get('version')}"))
+    return out
+
+
 def arxiv(r):
     t = re.sub(r"[^\w ]", " ", r["title"])
     q = urllib.parse.quote(" AND ".join(f"ti:{w}" for w in t.split() if len(w) > 3)[:900])
     time.sleep(3)  # arXiv API etiquette
-    feed = get(f"https://export.arxiv.org/api/query?search_query={q}&max_results=10")
+    feed = get(f"https://export.arxiv.org/api/query?search_query={q}&max_results=10", tries=1)  # API often rate-limited; OpenAlex covers most arXiv versions
     best = None
     for e in re.findall(r"<entry>(.*?)</entry>", feed, re.S):
         title = re.sub(r"\s+", " ", re.search(r"<title>(.*?)</title>", e, re.S).group(1))
@@ -97,25 +116,40 @@ def main():
         res = dict(paper_id=r["paper_id"], status="needs_search", version_type="", fulltext_url="",
                    version_note="", text_path="", pdf_pages="", text_bytes="")
         try:
-            cand = None
+            cands = []
             if r.get("manual_url"):
-                cand = (r["manual_url"], r.get("manual_version", "manual"), r.get("manual_note", ""))
-            elif (u := venue_pdf(r)):
-                cand = (u, "venue", "published version")
-            elif (u := publisher_oa(r)):
-                cand = (u, "publisher-OA", "published version, CC licence")
-            elif (b := arxiv(r)):
-                cand = (f"https://arxiv.org/pdf/{b[1]}", f"arXiv {b[1]}", f"updated {b[2]}; title sim {b[0]:.2f}")
-            if cand:
-                data, ctype = get(cand[0], binary=True)
-                if not data.startswith(b"%PDF"):
-                    raise RuntimeError(f"not a PDF ({ctype})")
+                cands.append((r["manual_url"], r.get("manual_version", "manual"), r.get("manual_note", "")))
+            else:
+                if (u := venue_pdf(r)):
+                    cands.append((u, "venue", "published version"))
+                if not cands and (u := publisher_oa(r)):
+                    cands.append((u, "publisher-OA", "published version, CC licence"))
+                if not cands:
+                    cands += openalex(r)
+                if not cands:
+                    try:
+                        if (b := arxiv(r)):
+                            cands.append((f"https://arxiv.org/pdf/{b[1]}", f"arXiv {b[1]}", f"updated {b[2]}; title sim {b[0]:.2f}"))
+                    except Exception as e:
+                        res["version_note"] = f"arXiv search failed: {str(e)[:80]}"
+            errs = []
+            for cand in cands:
+                try:
+                    data, ctype = get(cand[0], binary=True, tries=2)
+                    if not data.startswith(b"%PDF"):
+                        raise RuntimeError(f"not a PDF ({ctype})")
+                except Exception as e:
+                    errs.append(f"{cand[0][:60]}: {str(e)[:60]}")
+                    continue
                 pdf = os.path.join(a.cache, r["paper_id"] + ".pdf")
                 txt = os.path.join(a.cache, r["paper_id"] + ".txt")
                 open(pdf, "wb").write(data)
                 pages, nbytes = extract(pdf, txt)
                 res.update(status="ok", version_type=cand[1], fulltext_url=cand[0], version_note=cand[2],
                            text_path=txt, pdf_pages=pages, text_bytes=nbytes)
+                break
+            if res["status"] != "ok" and errs:
+                res["version_note"] = (res["version_note"] + " | tried: " + " ; ".join(errs))[:400]
         except Exception as e:
             res.update(status="error", version_note=str(e)[:200])
         print(r["paper_id"], res["status"], res["version_type"], file=sys.stderr)
