@@ -34,6 +34,22 @@ For recent papers on collective decisions by voting:
 
 dblp is behind a bot challenge, and OpenAlex and Semantic Scholar rate-limit this environment (HTTP 429), so none of them is used. Crossref is the DOI registration agency's record of what the publisher registered. It is a different access route to the same listing, not a different listing. **This substitution needs approval at checkpoint 1.**
 
+**Smoke test (2023, raw items before screening).**
+
+| Venue | Items |
+|---|---|
+| AAMAS | 528 |
+| IJCAI | 851 |
+| AAAI | 2,021 |
+| EC | 162 |
+| COMSOC | 72 |
+| SCW | 50 |
+| GEB | 170 |
+| JET | 140 |
+| MSS | 60 |
+
+The EC 2023 Crossref list (162) was checked against the conference's own accepted-papers page (ec23.sigecom.org), which also lists 162. The 16 titles that are not identical differ only in wording between the accepted and the final version. Journal counts are lower than issue counts because articles are assigned by first publication date.
+
 **Year assignment.** Conferences and the workshop: the edition year. Journals: the year of Crossref's `issued` date, which is the earliest of print and online publication.
 
 **Calibration paper.** Heitzig, Simmons and Constantino (2024), *Social Choice and Welfare*, [doi:10.1007/s00355-024-01524-3](https://doi.org/10.1007/s00355-024-01524-3), is in the frame, but it is removed from the frame because it serves as the calibration case.
