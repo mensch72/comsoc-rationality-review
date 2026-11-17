@@ -1,0 +1,230 @@
+{
+ "paper_id": "AAAI-2023-82e8fe3a",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p. 5591",
+  "quote": "In party-approval multiwinner elections the goal is to allocate the seats",
+  "note": ""
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SB"
+  ],
+  "primary": "AX",
+  "loc": "Introduction, p. 5592",
+  "quote": "we show that these axioms are jointly incompatible for ABC voting rules",
+  "note": "Main results are impossibility theorems (AX) and a characterization involving strategyproofness (SB)."
+ },
+ "C2.1": {
+  "value": "approval profile, approval ballot",
+  "loc": "Preliminaries, p. 5592",
+  "quote": "An approval profile A \u2208 An is the collection of the approval ballots of all voters."
+ },
+ "C2.2": {
+  "codes": [
+   "APPR",
+   "DICH"
+  ],
+  "loc": "Preliminaries, p. 5592",
+  "quote": "Each voter i \u2208 N is assumed to have a dichotomous preference relation",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Preliminaries, p. 5592",
+  "quote": "Each voter i \u2208 N is assumed to have a dichotomous preference relation",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Strategyproofness, p. 5593",
+  "quote": "strategyproofness requires that a voter cannot benefit by lying about her true preferences",
+  "note": "The paper distinguishes true preferences from reported ballots in strategyproofness analysis."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "Abstract, p. 5591",
+  "quote": "we show that these two axioms are incompatible",
+  "note": "Strategyproofness analyses consider strategic misreporting; other analyses treat submitted inputs as fixed."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Preliminaries; Conclusion",
+  "quote": "none found",
+  "note": "No explicit statement that voters submit true preferences in non-strategic analyses."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is NOT-STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Strategyproofness, p. 5593",
+  "quote": "voters are indifferent between their approved parties. Then, only the number of seats assigned",
+  "note": "Utility relation specified as indifference between approved parties."
+ },
+ "C4.2": {
+  "code": "Y",
+  "loc": "Preliminaries, p. 5592",
+  "quote": "she partitions the parties into approved and disapproved ones",
+  "note": "Dichotomous preferences defined as approved vs disapproved classes."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Preliminaries; Section 3; Section 4",
+  "quote": "none found",
+  "note": "No formal results evaluate welfare, utility, satisfaction, or distortion. Proportional representation is not presented as utility-based."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Strategyproofness, p. 5593",
+   "quote_behav": "a voter cannot benefit by lying about her true preferences",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters are strategic in strategyproofness analyses; not strategic in other analyses."
+  },
+  "CAN": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Parties are alternatives, not acting agents."
+  },
+  "ORG": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "No organizer choosing actions in the model."
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "N",
+  "loc": "",
+  "quote": "",
+  "note": "Only one type present (voters)."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 = N."
+ },
+ "C8.1": {
+  "codes": [
+   "DOM"
+  ],
+  "loc": "Strategyproofness, p. 5593",
+  "quote": "A party-approval rule f is strategyproof if",
+  "note": "Strategyproofness is the dominant-strategy notion."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Strategyproofness, p. 5593",
+  "quote": "A party-approval rule f is strategyproof if",
+  "note": "The solution concept is named."
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p. 5591",
+    "quote": "the incompatibility of strategyproofness and proportional representation first observed for ABC elections also prevails"
+   },
+   {
+    "loc": "Abstract, p. 5591",
+    "quote": "we demonstrate how to circumvent this impossibility by considering a weakening"
+   },
+   {
+    "loc": "Conclusion, p. 5597",
+    "quote": "offering an attractive escape route to our previous impossibility theorem"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Strategyproofness, p. 5593",
+  "quote": "voters are indifferent between their approved parties",
+  "note": "The needed assumption that approved parties are equivalent/indifferent is stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Preliminaries; Conclusion",
+  "quote": "none found",
+  "note": "The paper analyzes axioms like strategyproofness relative to true preferences, not purely as a function of submitted inputs."
+ }
+}

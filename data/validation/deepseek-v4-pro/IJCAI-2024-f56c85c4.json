@@ -1,0 +1,228 @@
+{
+ "paper_id": "IJCAI-2024-f56c85c4",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract",
+  "quote": "we take a social choice approach and compare 5 different axis selection rules",
+  "note": ""
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SI",
+   "EM"
+  ],
+  "primary": "AX",
+  "loc": "Abstract",
+  "quote": "compare 5 different axis selection rules axiomatically",
+  "note": ""
+ },
+ "C2.1": {
+  "value": "approval ballot / approval profile",
+  "loc": "Section 3, p. 2758",
+  "quote": "An approval ballot is a non-empty subset of candidates A \u2286 C."
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Section 3, p. 2758",
+  "quote": "An approval ballot is a non-empty subset of candidates",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "N",
+  "loc": "Sections 1-7",
+  "quote": "none found",
+  "note": "The paper describes ballots as inputs; it does not define held attitudes separate from the submitted approvals."
+ },
+ "C2.4": {
+  "code": "ONE",
+  "loc": "Section 3, p. 2758",
+  "quote": "An approval profile P is a collection of n approval ballots",
+  "note": ""
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 3-7",
+  "quote": "none found",
+  "note": "The paper treats inputs as given; no strategic voting analysis appears."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "Sections 3-7",
+  "quote": "none found",
+  "note": "C2.4 = ONE"
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is NA"
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No utility, welfare, satisfaction, cost, or distortion notions for voters are used."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used in the paper."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 4, 5, 6",
+  "quote": "none found",
+  "note": "No welfare, efficiency, satisfaction, representation, or distortion criteria appear in the definitions or results."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 3, p. 2758",
+   "quote_behav": "An approval profile P is a collection of n approval ballots",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters submit fixed approval ballots; no strategic behavior is modeled."
+  },
+  "CAN": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Candidates are alternatives to be ordered, not agents taking actions."
+  },
+  "ORG": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "N",
+  "loc": "Section 6",
+  "quote": "none found",
+  "note": "Only voters are present and they are modeled as non-strategic."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 = N"
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "No type is STRAT or MIXED; solution concept is NA."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C8.1 is NA"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p. 2757",
+    "quote": "an axis could correspond to an ideological ordering of the candidates from left-wing to right-wing"
+   },
+   {
+    "loc": "Experiments, p. 2763",
+    "quote": "All rules agreed with MQ on who was the median justice in more than half of the years"
+   },
+   {
+    "loc": "Abstract, p. 2757",
+    "quote": "the rule that chooses the axes that maximize the number of votes that form intervals"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Introduction, p. 2758",
+  "quote": "which is the 'best' objective function",
+  "note": "Claims about ideological ordering and which rule should be used rely on the assumption that submitted approvals reflect ideological similarity; the paper does not state a formal relation between submitted inputs and held attitudes."
+ },
+ "C10.1": {
+  "code": "Y",
+  "loc": "Introduction, p. 2758",
+  "quote": "We interpret objective functions as rules that take an approval profile as input and decide on an axis.",
+  "note": ""
+ }
+}

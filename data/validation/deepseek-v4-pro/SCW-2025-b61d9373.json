@@ -1,0 +1,228 @@
+{
+ "paper_id": "SCW-2025-b61d9373",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.27",
+  "quote": "The analysis fully characterizes the set of influential MT equilibria.",
+  "note": "The paper models micro-targeting/lobbying influence on election outcomes and characterizes equilibria."
+ },
+ "C1": {
+  "types": [
+   "EQ",
+   "SB"
+  ],
+  "primary": "EQ",
+  "loc": "Abstract, p.27",
+  "quote": "The analysis fully characterizes the set of influential MT equilibria.",
+  "note": "Main results are PBE characterizations; strategic incentives of challenger/IGs are central but the primary results are equilibrium analysis."
+ },
+ "C2.1": {
+  "value": "votes (binary for/against challenger)",
+  "loc": "Section 3 Model, p.35",
+  "quote": "vote either for or against the challenger"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 3 Model, p.35",
+  "quote": "vote either for or against the challenger",
+  "note": "The submitted input is a binary vote, not rankings, approvals, cardinal scores, or pairwise comparisons."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 3 Model, p.33",
+  "quote": "the utility of the group j = j1 j2 voters is",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 3 Model, p.33",
+  "quote": "All voters vote sincerely.",
+  "note": "Votes are submitted binary choices; preferences/utilities are separate held attitudes, and voters vote sincerely based on expected utility."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Section 3 Model, p.33",
+  "quote": "All voters vote sincerely.",
+  "note": "No analysis considers voters submitting votes different from their held attitudes."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Section 3 Model, p.33",
+  "quote": "All voters vote sincerely.",
+  "note": "Sincere voting is stated for voters."
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Section 3 Model, p.33",
+  "quote": "none found",
+  "note": "No reason given for sincere voting."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Section 3 Model, pp.33-35; Introduction, p.27; Conclusion, p.50",
+  "quote": "none found",
+  "note": "Input format is OTH/binary votes, so C4.1 applicability condition is not met."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "Section 3 Model, p.33",
+  "quote": "none found",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Section 3 Model, p.33; Section 4 Results, pp.36-46; Conclusion, p.50",
+  "quote": "none found",
+  "note": "No definition or formal result evaluates outcomes/rules by social welfare, efficiency, voter satisfaction, representation, proportionality, or distortion."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 3 Model, p.33",
+   "quote_behav": "All voters vote sincerely.",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters act sincerely/non-strategically; info NA because behav is NONSTRAT."
+  },
+  "CAN": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 3 Model, p.35",
+   "quote_behav": "The challenger decides whether to accept or reject the offered deal",
+   "loc_info": "Section 3 Model, p.33",
+   "quote_info": "The challenger only knows the distribution of the voters\u2019 preferences",
+   "note": "The challenger is a strategic candidate; knows the distribution but not individual voter preferences."
+  },
+  "ORG": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "BRI": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 3 Model, p.35",
+   "quote_behav": "IGs do not take any decision.",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "IGs are external lobbyists/manipulators who make offers automatically; info NA because behav is NONSTRAT."
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "Y",
+  "loc": "Section 3 Model, pp.33-35",
+  "quote": "All voters vote sincerely.",
+  "note": "Challenger is STRAT; voters and IGs are NONSTRAT in the same analysis."
+ },
+ "C7.2": {
+  "code": "NONE",
+  "loc": "Section 3 Model, pp.33-35",
+  "quote": "none found",
+  "note": "No explicit reason for modelling types differently."
+ },
+ "C8.1": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 3 Model, p.35",
+  "quote": "The equilibrium concept is Perfect Bayesian Equilibrium (PBE)",
+  "note": "Perfect Bayesian Equilibrium in pure strategies."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 3 Model, p.35",
+  "quote": "The equilibrium concept is Perfect Bayesian Equilibrium (PBE)"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Conclusion, p.50",
+    "quote": "MT can be a decisive factor in close elections"
+   },
+   {
+    "loc": "Conclusion, p.50",
+    "quote": "MT can contribute to political polarization by reinforcing existing beliefs"
+   },
+   {
+    "loc": "Conclusion, p.50",
+    "quote": "our results explain the mechanism through which like-minded IGs indirectly exert influence"
+   }
+  ],
+  "note": "Conclusion makes real-world claims about close elections, polarization, and indirect IG influence."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 3 Model, pp.33-35",
+  "quote": "All voters vote sincerely.",
+  "note": "Needed assumptions such as sincere voters, strategic challenger, Bayesian updating, and random single IG access are stated in the model."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Section 3 Model, pp.33-35; Introduction, p.27; Conclusion, p.50",
+  "quote": "none found",
+  "note": "The paper does not state that it studies the rule only as a function of submitted inputs; it explicitly models sincere voting and held policy preferences."
+ }
+}

@@ -1,0 +1,226 @@
+{
+ "paper_id": "EC-2024-0d07ff67",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Introduction, p. 52",
+  "quote": "approval-based multiwinner voting, where \ud835\udc5b voters whose preferences are expressed by granting",
+  "note": ""
+ },
+ "C1": {
+  "types": [
+   "EQ"
+  ],
+  "primary": "EQ",
+  "loc": "Abstract, p. 51",
+  "quote": "can be thought of as equilibria of budgeting games",
+  "note": ""
+ },
+ "C2.1": {
+  "value": "approval profile / approval ballots; strategy profile / allocation function",
+  "loc": "Section 2, p. 53",
+  "quote": "approval profile, i.e., a vector of approval ballots"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR",
+   "OTH"
+  ],
+  "loc": "Section 2, p. 53",
+  "quote": "approval profile, i.e., a vector of approval ballots",
+  "note": "OTH: budgeting games use continuous allocation strategies."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 3, p. 55",
+  "quote": "a set \ud835\udc4b\ud835\udc56 \u2286 \ud835\udc40 of relevant resources",
+  "note": "Relevant resources serve as a held attitude separate from submitted allocations."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 3, p. 55",
+  "quote": "is free to contribute to resources that are irrelevant to them",
+  "note": "Submitted allocations may differ from held relevant resources; utilities depend on relevant resources."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Section 3, p. 55",
+  "quote": "is to maximize their utility",
+  "note": "Main analyses use equilibrium and deviation notions with utility-maximizing players."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "Sections 3-7 checked",
+  "quote": "none found",
+  "note": "C3.1 = ALL."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "Sections 3-7 checked",
+  "quote": "none found",
+  "note": "C3.2 \u2260 STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 3, p. 55",
+  "quote": "the number of active resources relevant to \ud835\udc56",
+  "note": "Utility is defined directly from active relevant resources."
+ },
+ "C4.2": {
+  "code": "Y",
+  "loc": "Section 3, p. 55",
+  "quote": "the number of active resources relevant to \ud835\udc56",
+  "note": "Approval-like relevant resources are dichotomous; each active relevant resource contributes one utility."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2, p. 54",
+  "quote": "satisfies extended justified representation (EJR) if for all \u2113-cohesive groups",
+  "note": "Formal results use proportionality/representation criteria."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 2, p. 54",
+  "quote": "|\ud835\udc34\ud835\udc56 \u2229 \ud835\udc47 | > |\ud835\udc34\ud835\udc56 \u2229 \ud835\udf0b |",
+  "note": "Fairness criteria are evaluated on approval sets/relevant resources, separate from submitted allocation."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Section 3, p. 55",
+   "quote_behav": "is to maximize their utility",
+   "loc_info": "Sections 3-4 checked",
+   "quote_info": "none found",
+   "note": "Voters/players choose budget allocations."
+  },
+  "CAN": {
+   "present": "N",
+   "behav": "NA",
+   "behav_stated": "NA",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Candidates/resources are alternatives only."
+  },
+  "ORG": {
+   "present": "N",
+   "behav": "NA",
+   "behav_stated": "NA",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "No organizer/chair acting in the model."
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "NA",
+   "behav_stated": "NA",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "No district designer."
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "NA",
+   "behav_stated": "NA",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "No separate briber."
+  },
+  "DES": {
+   "present": "N",
+   "behav": "NA",
+   "behav_stated": "NA",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Rule designer is not an explicitly modeled agent."
+  },
+  "OTH": {
+   "present": "N",
+   "behav": "NA",
+   "behav_stated": "NA",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Section 3, p. 55",
+  "quote": "none found",
+  "note": "Fewer than two acting agent types are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "Section 3, p. 55",
+  "quote": "none found",
+  "note": "C7.1 \u2260 Y."
+ },
+ "C8.1": {
+  "codes": [
+   "NE",
+   "COAL",
+   "ITER"
+  ],
+  "loc": "Section 3, p. 56",
+  "quote": "admits a Nash equilibrium",
+  "note": "Also strong/coalitional equilibria and improving move dynamics."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 3, p. 55",
+  "quote": "called a strong equilibrium simply if it is an \ud835\udc5b-strong equilibrium"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p. 51",
+    "quote": "the elected committee proportionately represents the preferences of the electorate"
+   },
+   {
+    "loc": "Introduction, p. 52",
+    "quote": "the chosen committee represents the electorate\u2019s preferences in a proportional manner"
+   }
+  ],
+  "note": "Claims concern fairness/proportional representation."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Introduction, p. 52",
+  "quote": "preferences are expressed by granting, or withholding, approval on each candidate",
+  "note": "Needed assumption that approval input expresses voter preferences is stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 3, 7 checked",
+  "quote": "none found",
+  "note": "Paper does not adopt a purely procedural reading; it models strategic players."
+ }
+}

@@ -1,0 +1,214 @@
+{
+ "paper_id": "IJCAI-2022-09a7b277",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.370",
+  "quote": "we study the complexity of deciding whether voters\u2019 preferences can be explained",
+  "note": "Computational social choice paper on recognizing and partitioning structured preference profiles."
+ },
+ "C1": {
+  "types": [
+   "AL"
+  ],
+  "primary": "AL",
+  "loc": "Abstract, p.370",
+  "quote": "For k \u2265 3, the problem is known to be hard",
+  "note": "Complexity and algorithm results for voter-partition problems."
+ },
+ "C2.1": {
+  "value": "vote; preference profile",
+  "loc": "Section 2, p.371",
+  "quote": "A vote over C is a linear order over C."
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2, p.371",
+  "quote": "A vote over C is a linear order over C.",
+  "note": "Inputs are strict linear orders over candidates."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Abstract, p.370",
+  "quote": "voters\u2019 preferences are highly structured",
+  "note": "Voters' preferences are the held attitudes in the paper."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2, p.371",
+  "quote": "A preference profile P over a candidate set C",
+  "note": "Input profile is described as preferences and used directly; no reporting or submission statement."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Introduction p.370; Section 2 p.371; Section 3 p.372; Section 4 p.373; Section 5 p.374; Conclusion p.375",
+  "quote": "none found",
+  "note": "No strategic voter analysis."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Section 2 p.371; Section 3 p.372",
+  "quote": "none found",
+  "note": "No explicit statement that voters submit their held preferences."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "none found",
+  "note": "C3.2 is NOT-STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Sections 2-5, pp.371-374",
+  "quote": "none found",
+  "note": "No utility or welfare notions tied to the ordinal inputs."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "Sections 2-5, pp.371-374",
+  "quote": "none found",
+  "note": "Dichotomous preferences term not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 2-5, pp.371-374",
+  "quote": "none found",
+  "note": "No welfare, efficiency, satisfaction, representation, proportionality or distortion criterion used."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "none found",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2, p.371",
+   "quote_behav": "A preference profile P over a candidate set C is a list",
+   "loc_info": "NA",
+   "quote_info": "none found",
+   "note": "Voters appear only as fixed votes/preferences in the input profile."
+  },
+  "CAN": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "Section 2, p.371",
+   "quote_behav": "Let C be a finite set of candidates.",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Candidates serve only as alternatives; no candidate actions."
+  },
+  "ORG": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "No organiser or election authority acting in the model."
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "No district designer."
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "No briber or external manipulator."
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "No rule or mechanism designer modelled explicitly."
+  },
+  "OTH": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "No other acting agent."
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "C6",
+  "quote": "none found",
+  "note": "Only voters are present and they are non-strategic."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "none found",
+  "note": "C7.1 is NA."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "C6",
+  "quote": "none found",
+  "note": "No strategic or mixed types, so solution concepts do not apply."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "none found"
+ },
+ "C9.1": {
+  "code": "N",
+  "claims": [],
+  "loc": "Abstract p.370; Introduction p.370; Conclusion p.375",
+  "quote": "none found",
+  "note": "No claims about real decisions, voter welfare or which rule should be used."
+ },
+ "C9.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "none found",
+  "note": "C9.1 = N."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 2-5, pp.371-374",
+  "quote": "none found",
+  "note": "No explicit procedural reading statement."
+ }
+}

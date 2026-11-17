@@ -1,0 +1,174 @@
+{
+ "paper_id": "AAAI-2025-04d586ed",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Preliminaries, p13806",
+  "quote": "we consider temporal voting with approval ballots",
+  "note": ""
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "AX"
+  ],
+  "primary": "AL",
+  "loc": "Abstract, p13805; Section 7.1, p13810",
+  "quote": "complexity of verifying whether a given outcome offers proportional representation",
+  "note": "Most main results are complexity/algorithmic; some results concern which rules satisfy representation axioms."
+ },
+ "C2.1": {
+  "value": "approval ballots / approval sets",
+  "loc": "Preliminaries, p13806",
+  "quote": "temporal voting with approval ballots"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Preliminaries, p13806",
+  "quote": "a list of approval sets",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Abstract, p13805",
+  "quote": "voters\u2019 preferences may evolve",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Preliminaries, p13806",
+  "quote": "We refer to si as i\u2019s temporal preference",
+  "note": "Approval sets are used directly as preferences; no separate notation for reports versus held attitudes."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Abstract, p13805",
+  "quote": "In our work, we focus on the complexity of verifying",
+  "note": "No manipulation or strategic misreporting by voters is analysed."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Abstract p13805; Preliminaries p13806; Conclusion p13811",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Preliminaries, p13806",
+  "quote": "A voter i\u2019s satisfaction from an outcome o is computed as",
+  "note": "Satisfaction is defined as the number of selected rounds in which the voter approves the chosen candidate."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "Preliminaries p13806; Introduction p13805",
+  "quote": "none found",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Preliminaries, p13806",
+  "quote": "An outcome o provides proportional justified representation (PJR) for a temporal election",
+  "note": ""
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Preliminaries, p13806",
+  "quote": "An outcome o provides justified representation (JR) for a temporal election",
+  "note": "Axioms are evaluated using approval sets/satisfaction from the input; no separate held attitudes are defined."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Preliminaries, p13806",
+   "quote_behav": "approval set of voter i in round t",
+   "loc_info": "Preliminaries, p13806",
+   "quote_info": "none found",
+   "note": "Voters only supply approval sets; no strategic objectives or information assumptions."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates are alternatives to be chosen, not acting agents."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "No organiser or chair chooses actions in the formal model."
+  },
+  "DIS": {
+   "present": "N",
+   "note": "No district designer."
+  },
+  "BRI": {
+   "present": "N",
+   "note": "No briber or external manipulator."
+  },
+  "DES": {
+   "present": "N",
+   "note": "Rule design is not modelled as an explicit agent choice."
+  },
+  "OTH": {
+   "present": "N",
+   "note": "No other acting agent."
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "C6, p13806",
+  "quote": "none found",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "C6, p13806",
+  "quote": "none found",
+  "note": "No type is modelled as strategic or mixed."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p13805",
+    "quote": "selection is representative of what its customers, staff, and shareholders care"
+   },
+   {
+    "loc": "Introduction, p13806",
+    "quote": "representation remains an important concern"
+   }
+  ],
+  "note": "Motivational and interpretive claims about real decisions and fairness."
+ },
+ "C9.2": {
+  "code": "UNCLEAR",
+  "loc": "Introduction, p13806",
+  "quote": "representation remains an important concern",
+  "note": "The listed claims are motivational/interpretive; the paper does not spell out modelling assumptions connecting them to the formal results."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction p13805; Preliminaries p13806; Conclusion p13811",
+  "quote": "none found",
+  "note": "No such procedural reading is stated."
+ }
+}

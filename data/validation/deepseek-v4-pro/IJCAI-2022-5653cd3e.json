@@ -1,0 +1,215 @@
+{
+ "paper_id": "IJCAI-2022-5653cd3e",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Introduction, p.412",
+  "quote": "when it is possible for the organizers to fix a bracket",
+  "note": ""
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "SB"
+  ],
+  "primary": "SB",
+  "loc": "Abstract, p.412",
+  "quote": "complexity of deciding whether a manipulation is possible",
+  "note": "Primary is tournament fixing/manipulation; algorithmic complexity also main results."
+ },
+ "C2.1": {
+  "value": "tournament graph",
+  "loc": "Preliminaries, p.413",
+  "quote": "We are given a tournament graph T = (V, E)"
+ },
+ "C2.2": {
+  "codes": [
+   "PAIR"
+  ],
+  "loc": "Preliminaries, p.413",
+  "quote": "indicates the winner of any pairwise matchup",
+  "note": "Input is pairwise match outcomes; bracket is organizer-chosen."
+ },
+ "C2.3": {
+  "code": "N",
+  "loc": "Preliminaries, Introduction, Conclusion",
+  "quote": "none found",
+  "note": "No voters or held attitudes are modelled; players are alternatives with fixed pairwise outcomes."
+ },
+ "C2.4": {
+  "code": "ONE",
+  "loc": "Preliminaries, p.413",
+  "quote": "We are given a tournament graph T = (V, E)",
+  "note": "No held attitude is referred to; the input is the given tournament graph."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Preliminaries, Introduction, Conclusion",
+  "quote": "none found",
+  "note": "No voters are modelled, so no voter strategic misreporting is analysed."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C2.4 = ONE"
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 not STATED"
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Preliminaries, Introduction, Conclusion",
+  "quote": "none found",
+  "note": "C2.2 includes PAIR but no utility/welfare/satisfaction/cost/distortion notions for voters are used."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Preliminaries, Introduction, Conclusion",
+  "quote": "none found",
+  "note": "No welfare, efficiency, satisfaction, representation, proportionality, or distortion criterion is used."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Not present: no voters."
+  },
+  "CAN": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Not present: players are alternatives, not acting candidates."
+  },
+  "ORG": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Introduction, p.412",
+   "quote_behav": "the organizers to fix a bracket to help their preferred player win",
+   "loc_info": "Introduction, p.412",
+   "quote_info": "given the knowledge of which player would win in any pairwise matchup",
+   "note": "Organizer chooses bracket to make preferred player win."
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Not present."
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Not present; organizer is not an external briber."
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Not present."
+  },
+  "OTH": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Not present."
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "C6",
+  "quote": "none found",
+  "note": "Only one present type (ORG)."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 not Y"
+ },
+ "C8.1": {
+  "codes": [
+   "DEV"
+  ],
+  "loc": "Preliminaries, p.413",
+  "quote": "there exists a valid bracket that makes our desired winner x win",
+  "note": "Tournament fixing is a manipulation/control decision problem."
+ },
+ "C8.2": {
+  "code": "N",
+  "loc": "Preliminaries",
+  "quote": "none found"
+ },
+ "C9.1": {
+  "code": "N",
+  "claims": [],
+  "note": "No normative/institutional claims about real decisions or voter welfare found in abstract, introduction, or conclusion."
+ },
+ "C9.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C9.1 = N"
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Preliminaries",
+  "quote": "none found",
+  "note": "No procedural reading statement found."
+ }
+}

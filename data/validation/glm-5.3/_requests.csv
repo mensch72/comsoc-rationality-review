@@ -1,0 +1,23 @@
+paper_id,model,mode,prompt_tokens,completion_tokens,reasoning_tokens,cost,status
+AAMAS-2025-ac21cba7,z-ai/glm-5.3,sync,20937,764,148,0.004817323,ok
+AAAI-2022-8da10d84,z-ai/glm-5.3,sync,15957,1926,516,0.0038117943,ok
+AAMAS-2024-216391c9,z-ai/glm-5.3,sync,18657,2154,610,0.006355203,ok
+COMSOC-2023-e81b4148,z-ai/glm-5.3,sync,29511,7399,6157,0.034514059,ok
+AAAI-2025-04d586ed,z-ai/glm-5.3,sync,18738,24000,23048,0.0712428,"parse error: Expecting ',' delimiter: line 15 column 261 (char 3230)"
+AAAI-2023-82e8fe3a,z-ai/glm-5.3,sync,17034,24000,24000,0.05273904,parse error: 'NoneType' object has no attribute 'strip'
+AAMAS-2021-fe56146f,z-ai/glm-5.3,sync,19419,24000,24000,0.05224936,parse error: 'NoneType' object has no attribute 'strip'
+COMSOC-2021-c2545a38,z-ai/glm-5.3,sync,16811,24000,26457,0.10879409,parse error: 'NoneType' object has no attribute 'strip'
+COMSOC-2023-740c660f,z-ai/glm-5.3,sync,15022,24000,24000,0.04978704,parse error: 'NoneType' object has no attribute 'strip'
+COMSOC-2025-f7a8cdd7,z-ai/glm-5.3,sync,24440,24000,26306,0.139816,parse error: 'NoneType' object has no attribute 'strip'
+EC-2023-3323128f,z-ai/glm-5.3,sync,54840,11146,10442,0.066431,ok
+COMSOC-2025-0abf8270,z-ai/glm-5.3,sync,29700,24000,24003,0.0888948,parse error: 'NoneType' object has no attribute 'strip'
+EC-2024-0d07ff67,z-ai/glm-5.3,sync,30003,24000,24000,0.09594273,parse error: 'NoneType' object has no attribute 'strip'
+IJCAI-2024-f56c85c4,z-ai/glm-5.3,sync,16970,3855,2455,0.006583203,ok
+GEB-2023-09388f97,z-ai/glm-5.3,sync,25893,24000,24000,0.089262342,parse error: 'NoneType' object has no attribute 'strip'
+EC-2023-7c70f299,z-ai/glm-5.3,sync,31668,24000,23996,0.07781325,parse error: 'NoneType' object has no attribute 'strip'
+IJCAI-2022-09a7b277,z-ai/glm-5.3,sync,15345,24000,24000,0.08260395,parse error: 'NoneType' object has no attribute 'strip'
+IJCAI-2022-5653cd3e,z-ai/glm-5.3,sync,13873,24000,24000,0.08240475,parse error: 'NoneType' object has no attribute 'strip'
+EC-2023-625cc775,z-ai/glm-5.3,sync,33898,24000,24003,0.089247432,parse error: 'NoneType' object has no attribute 'strip'
+SCW-2025-b61d9373,z-ai/glm-5.3,sync,38460,24000,24000,0.09865876,parse error: 'NoneType' object has no attribute 'strip'
+MSS-2025-fef96d84,z-ai/glm-5.3,sync,17608,24000,24000,0.104008,parse error: 'NoneType' object has no attribute 'strip'
+SCW-2025-9a60c861,z-ai/glm-5.3,sync,34772,24000,24003,0.089301008,parse error: 'NoneType' object has no attribute 'strip'

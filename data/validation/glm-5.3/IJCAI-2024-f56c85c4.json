@@ -1,0 +1,167 @@
+{
+ "paper_id": "IJCAI-2024-f56c85c4",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p. 2757",
+  "quote": "we take a social choice approach and compare 5 different axis selection rules",
+  "note": "Rules aggregating voters' approval ballots into a collective ordering (axis)."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "AL",
+   "SI",
+   "EM"
+  ],
+  "primary": "AX",
+  "loc": "Abstract and Section 5, p. 2757; Theorem 1, p. 2760; Section 6, pp. 2762\u20132763",
+  "quote": "compare 5 different axis selection rules axiomatically, by studying the properties they satisfy",
+  "note": "Axiomatic analysis (Sections 4\u20135), NP-completeness (Theorem 1), synthetic simulations (Section 6.1), real datasets (Sections 6.2\u20136.3)."
+ },
+ "C2.1": {
+  "value": "approval ballots; approval profile",
+  "loc": "Section 3, p. 2759",
+  "quote": "An approval ballot is a non-empty subset of candidates"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Section 3, p. 2759",
+  "quote": "An approval ballot is a non-empty subset of candidates",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 6.1, p. 2763",
+  "quote": "Each candidate and voter x \u2208 C \u222a V is associated with a position",
+  "note": "In the synthetic noisy observation model, voters hold positions/ideal points; main model has only ballots."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 6.1, p. 2763",
+  "quote": "Voters approve (resp. rank) candidates based on their estimations",
+  "note": "Only in the synthetic experiment: ballots are noisy observations of position-based approvals, modelled separately from held positions. Main analyses treat ballots as given data with no held attitude."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 1, 3, 4, 5, 7",
+  "quote": "none found",
+  "note": "No analysis considers voters submitting ballots differing from any held attitude; ballots are taken as exogenous data."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 3, 4, 5, 7",
+  "quote": "none found",
+  "note": "No statement of sincere voting or that ballots equal held attitudes."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 \u2260 STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 6.1, p. 2763",
+  "quote": "approval set of voter v contains all candidates such that",
+  "note": "Noisy observation model defines approvals (and rankings) from voter/candidate positions; also MLE interpretation in Section 3. Applicable since APPR input and utility notions ('random utility models') are used."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term 'dichotomous preferences' appears only in cited reference titles, not used in the text."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 4, 5, 6",
+  "quote": "none found",
+  "note": "Axioms concern axis structure (stability, monotonicity, clones), not voter welfare, efficiency, representation or distortion."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 3, p. 2759",
+   "quote_behav": "An approval profile P is a collection of n approval ballots",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters' ballots are fixed exogenous inputs; no strategic choice modelled."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates are only alternatives being ordered."
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only one type (VOT) present, and non-strategic."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 \u2260 Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "No type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 1, p. 2758",
+    "quote": "Our rules will find an axis in a principled way."
+   }
+  ],
+  "note": "Also framed against pollsters who 'construct ad hoc' axes for real French elections."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sections 1, 3, 5, 6",
+  "quote": "none found",
+  "note": "Claim that the rules yield principled ideological axes for real elections needs the assumption that submitted approval ballots correspond to voters' ideological positions/preferences; no such relation is stated (the paper even notes ballots may be shaped by incomplete knowledge, Section 4, p. 2760)."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Abstract, Sections 1, 3, 7",
+  "quote": "none found",
+  "note": "No explicit procedural statement; rules are applied to approval profiles as given data throughout."
+ }
+}

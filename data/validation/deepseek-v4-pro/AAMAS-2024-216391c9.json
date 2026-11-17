@@ -1,0 +1,179 @@
+{
+ "paper_id": "AAMAS-2024-216391c9",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Section 3",
+  "quote": "aggregating individual preferences of different agents towards a collective choice",
+  "note": ""
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "EM"
+  ],
+  "primary": "EM",
+  "loc": "Abstract",
+  "quote": "evaluate the robustness of our approach empirically",
+  "note": "Axiomatic properties in Section 4.3; empirical evaluation in Section 5."
+ },
+ "C2.1": {
+  "value": "profile of partial orders (rankings)",
+  "loc": "Section 3",
+  "quote": "contains one partial order for every voter",
+  "note": ""
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 3",
+  "quote": "We do not assume that it is complete",
+  "note": "Partial orders with incomparability, not weak orders."
+ },
+ "C2.3": {
+  "code": "N",
+  "loc": "Section 3",
+  "quote": "captures the preferences expressed by them",
+  "note": "No separate held attitude defined; inputs are expressed preferences."
+ },
+ "C2.4": {
+  "code": "ONE",
+  "loc": "Section 3",
+  "quote": "captures the preferences expressed by them",
+  "note": "Input described as submitted rankings; no held attitude."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Section 4.1",
+  "quote": "we run the prompt 5 times",
+  "note": "No strategic voter analysis; repeated sampling."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C2.4 = ONE."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C2.2 is OTH, not in applicability list; no utility notions used."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term dichotomous preferences not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Section 5.3.2",
+  "quote": "evaluate the robustness of the aggregated ranks",
+  "note": "No welfare, efficiency, satisfaction, representation, proportionality, or distortion criteria."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 4.1",
+   "quote_behav": "prompts it \ud835\udc41 times and produces a profile",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters are repeated LLM answers; non-strategic."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Outcomes are alternatives, not acting agents."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "No organiser choosing actions in the model."
+  },
+  "DIS": {
+   "present": "N",
+   "note": "No district designer."
+  },
+  "BRI": {
+   "present": "N",
+   "note": "No briber or external manipulator."
+  },
+  "DES": {
+   "present": "N",
+   "note": "Rule designer not modelled with explicit objective."
+  },
+  "OTH": {
+   "present": "N",
+   "note": "No other acting agent."
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only one present type (VOT)."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 not Y."
+ },
+ "C8.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No strategic or mixed types."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract",
+    "quote": "ill-suited for query answering in high-stake domains like medicine"
+   },
+   {
+    "loc": "Conclusion",
+    "quote": "significantly improves the robustness against both query and syntax uncertainty"
+   },
+   {
+    "loc": "Introduction",
+    "quote": "applied to LLMs that were trained on reliable literature"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Introduction",
+  "quote": "if the LLM picked up the answer during training",
+  "note": "Unstated assumption: improved rank correlation implies improved real-world reliability in high-stake domains; ChatGPT-turbo proof-of-concept transfers to reliable LLMs."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 3-4",
+  "quote": "none found",
+  "note": "No explicit statement that rule is studied only as function of submitted inputs."
+ }
+}

@@ -1,0 +1,179 @@
+{
+ "paper_id": "COMSOC-2023-e81b4148",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract",
+  "quote": "select a committee (a subset) of k alternatives according to the preferences",
+  "note": ""
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "WD"
+  ],
+  "primary": "AX",
+  "loc": "Sec. 1 Introduction; Sec. 5 Conclusion",
+  "quote": "measure the extent to which the considered rules are proportional",
+  "note": "Main results are quantitative proportionality guarantees for voting rules (AX); Appendix G also studies utilitarian efficiency/welfare (WD)."
+ },
+ "C2.1": {
+  "value": "approval-based profile",
+  "loc": "Sec. 2 The Model",
+  "quote": "A is an approval-based profile (or, in short, a profile)",
+  "note": ""
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Sec. 2 The Model",
+  "quote": "A(i) consists of candidates that voter i finds acceptable",
+  "note": "Inputs are approval sets; no other formats used."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec. 1 Introduction",
+  "quote": "100 voters having the following approval-based preferences",
+  "note": "Approval sets are described as voter preferences/acceptability."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Sec. 2 The Model",
+  "quote": "A(i) consists of candidates that voter i finds acceptable",
+  "note": "The input is described as a held attitude and rules are applied to it directly; no separate reporting/submission language."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sec. 2 The Model; Sec. 2.1",
+  "quote": "The \u03bb-Thiele rule returns the committees with the highest \u03bb-score.",
+  "note": "No strategic or manipulative voting analysis found."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sec. 1 Introduction; Sec. 2 The Model; Sec. 5 Conclusion",
+  "quote": "none found",
+  "note": "Paper applies rules to approval profiles without explicitly saying voters submit their held attitudes."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is NOT-STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Sec. 2.2",
+  "quote": "average number of representatives that a voter from V has",
+  "note": "Satisfaction is defined as the average number of representatives from the approval set; utilitarian efficiency is defined via approval counts."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "full text",
+  "quote": "none found",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sec. 2.2; Appendix G",
+  "quote": "estimating the utilitarian efficiency of the considered rules",
+  "note": "Also studies proportionality guarantees and voter satisfaction."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Sec. 2.2; Appendix G",
+  "quote": "average number of representatives that a voter from V has",
+  "note": "Evaluation uses approval sets as given; no separate held attitudes and no explicit input-equals-held-attitude statement."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sec. 2 The Model",
+   "quote_behav": "A(i) consists of candidates that voter i finds acceptable",
+   "loc_info": "Sec. 2 The Model",
+   "quote_info": "none found",
+   "note": "Voters have fixed approval sets; no information assumptions."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates are alternatives only, not acting agents."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "No organiser or chair choosing actions in the formal model."
+  },
+  "DIS": {
+   "present": "N",
+   "note": "No district designer."
+  },
+  "BRI": {
+   "present": "N",
+   "note": "No briber or external manipulator."
+  },
+  "DES": {
+   "present": "N",
+   "note": "Mechanism designer is mentioned but not modelled as choosing an objective/action."
+  },
+  "OTH": {
+   "present": "N",
+   "note": "No other acting agents."
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Sec. 2 The Model",
+  "quote": "A is an approval-based profile",
+  "note": "Only voters are present, and they are non-strategic."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is NA."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "Sec. 2 The Model",
+  "quote": "The \u03bb-Thiele rule returns the committees with the highest \u03bb-score.",
+  "note": "NA: no types are STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "Sec. 2 The Model",
+  "quote": "none found"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract",
+    "quote": "the loss of proportionality for the two sequential rules is moderate"
+   },
+   {
+    "loc": "Sec. 1 Introduction",
+    "quote": "PAV should be preferred whenever proportionality is the primary goal"
+   },
+   {
+    "loc": "Sec. 5 Conclusion",
+    "quote": "Phragm\u00e9n\u2019s Sequential Rule is roughly half as proportional as PAV."
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sec. 2.2",
+  "quote": "The satisfaction of the group V from a committee W is defined",
+  "note": "Needed assumptions are stated as model definitions: approvals are acceptable candidates, satisfaction is representative count, and recommendations are conditional on proportionality being the primary goal."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sec. 1 Introduction; Sec. 2 The Model; Sec. 5 Conclusion",
+  "quote": "none found",
+  "note": "Paper treats approvals as voter preferences and evaluates proportionality; no explicit procedural-only or no-position statement found."
+ }
+}

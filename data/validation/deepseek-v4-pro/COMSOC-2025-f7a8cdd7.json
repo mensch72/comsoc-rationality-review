@@ -1,0 +1,214 @@
+{
+ "paper_id": "COMSOC-2025-f7a8cdd7",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Introduction p1",
+  "quote": "voting over two alternatives A and B",
+  "note": ""
+ },
+ "C1": {
+  "types": [
+   "EQ"
+  ],
+  "primary": "EQ",
+  "loc": "Abstract p1",
+  "quote": "multiple stable equilibria in which elections are nearly tied",
+  "note": "Main results are equilibrium limit characterization and jury theorem."
+ },
+ "C2.1": {
+  "value": "vote / action (vote for a candidate or abstain)",
+  "loc": "Sec 2.1 p3",
+  "quote": "action of each voter is to vote for one of the two candidates"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Sec 2.1 p3",
+  "quote": "vote for one of the two candidates {A, B}, or abstain",
+  "note": "Input is a vote for one of two alternatives or abstention."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec 2.1 p3",
+  "quote": "Each voter is either a supporter of A (prefers A",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Sec 2.1 p3",
+  "quote": "voting for the less preferred candidate is strictly dominated",
+  "note": "Preferences/types are held attitudes; actions are vote for preferred candidate or abstain."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Sec 2.1 p4",
+  "quote": "each player picks an action that maximizes her expected utility",
+  "note": "All main analyses are equilibrium analyses with utility-maximizing voters."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C2.2 = OTH, so the applicability condition for C4.1 is not met."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sec 2, Sec 4, Sec 5, Sec 7",
+  "quote": "none found",
+  "note": "Results concern CJT accuracy and winning probability, not welfare or voter-utility criteria."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Sec 2.1 p4",
+   "quote_behav": "each player picks an action that maximizes her expected utility",
+   "loc_info": "Sec 2.1 p3",
+   "quote_info": "commonly known joint distribution D over [0, 1] \u00d7 {A, B}",
+   "note": "Voters know own type and common distribution/prior over others' types."
+  },
+  "CAN": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Candidates are only alternatives, not acting agents."
+  },
+  "ORG": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "No organizer or election authority acts in the model."
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "No district designer present."
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "No briber or external manipulator present."
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "No rule/mechanism designer is modelled as an acting agent."
+  },
+  "OTH": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "No other acting agent type present."
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Fewer than two types present by the C6 definition; only VOT is present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "BNE"
+  ],
+  "loc": "Sec 2.1 p4",
+  "quote": "In a (pure) Bayes-Nash equilibrium",
+  "note": "The solution concept is Bayes-Nash equilibrium."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Sec 2.1 p4",
+  "quote": "Bayes-Nash equilibrium"
+ },
+ "C9.1": {
+  "code": "N",
+  "claims": [],
+  "note": "No abstract/intro/conclusion claims about real institutions, voter well-being, or which rule should be used."
+ },
+ "C9.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C9.1 = N."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sec 2, Sec 7",
+  "quote": "none found",
+  "note": "No explicit procedural reading or statement that inputs are studied only as submitted inputs."
+ }
+}

@@ -1,0 +1,229 @@
+{
+ "paper_id": "EC-2023-3323128f",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Section 1",
+  "quote": "designer collects participants\u2019 type reports and chooses an allocation through some publicly announced mechanism",
+  "note": "The paper studies allocation mechanisms and also voting in Appendix A.3."
+ },
+ "C1": {
+  "types": [
+   "AX"
+  ],
+  "primary": "AX",
+  "loc": "Section 1",
+  "quote": "We provide a tight characterization of maximally auditable DA-representable mechanisms (Theorem 1).",
+  "note": "The paper's main results are axiomatic characterizations of mechanisms by auditability properties."
+ },
+ "C2.1": {
+  "value": "type report",
+  "loc": "Section 3.1",
+  "quote": "Each individual i has a type report \u03b8i \u2208 \u0398i",
+  "note": ""
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 3.1; Section 4; Section 5",
+  "quote": "an individual\u2019s type report is represented by a pair of a preference ranking and a vector of priority scores",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 4",
+  "quote": "Each individual i \u2208 I has a strict preference ranking Pi over objects O",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 3.1",
+  "quote": "An allocation is a bijection \u03c9 : I \u2192 O",
+  "note": "The paper studies allocation mechanisms where agents report types; the relation between reported types and held attitudes is not discussed explicitly. The input is treated as the held type report."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 3-6",
+  "quote": "participants do not fully observe each others\u2019 type reports",
+  "note": "The paper studies auditability, which is not about strategic voters. Voters are not modeled as strategic in the analyses."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 3-6",
+  "quote": "none found",
+  "note": "No statement that voters submit their held attitudes."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 = NOT-STATED"
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Sections 3-6",
+  "quote": "none found",
+  "note": "No utility, welfare, satisfaction, cost, distortion, or intensity of preference notions used for voters."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "Sections 3-6",
+  "quote": "none found",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Appendix B.3",
+  "quote": "we say a mechanism \u03d5 weakly Pareto dominates a mechanism \u03c8",
+  "note": ""
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Appendix B.3",
+  "quote": "if for any problem \u03b8 = (P, r), and any i \u2208 I, either \u03d5c (\u03b8)(i)Pi \u03c8(\u03b8)(i) or \u03d5c (\u03b8)(i) = \u03c8(\u03b8)(i)",
+  "note": "Evaluation uses the reported preferences as the basis for Pareto domination, with no statement relating them to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NONE",
+   "info_stated": "IMPLICIT",
+   "loc_behav": "Section 3.1",
+   "quote_behav": "participants do not fully observe each others\u2019 type reports",
+   "loc_info": "Section 3.1",
+   "quote_info": "participants know and observe their own type reports and outcomes, but not necessarily those of others",
+   "note": "Voters do not take strategic actions in the model; their type reports are given."
+  },
+  "CAN": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Candidates serve only as alternatives."
+  },
+  "ORG": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "No organiser takes actions in the model."
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "No district designer in the formal model."
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "No briber present."
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "No mechanism designer modeled with choices or objectives."
+  },
+  "OTH": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "N",
+  "loc": "Sections 3-6",
+  "quote": "participants do not fully observe each others\u2019 type reports",
+  "note": "Only one type present (voters), non-strategic."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 = N"
+ },
+ "C8.1": {
+  "code": "NA",
+  "loc": "Sections 3-6",
+  "quote": "none found",
+  "note": "No strategic or mixed types present."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "loc": "Section 7; Introduction",
+  "quote": "our findings may contribute to discussions on choosing a mechanism for real-life problems",
+  "claims": [
+   {
+    "loc": "Section 7",
+    "quote": "our findings may contribute to discussions on choosing a mechanism for real-life problems"
+   },
+   {
+    "loc": "Section 1",
+    "quote": "Our findings potentially highlight the importance of addressing trust and transparency considerations for real-life assignment problems."
+   },
+   {
+    "loc": "Section 1",
+    "quote": "the need for transparency and auditability in school choice has been highlighted"
+   }
+  ],
+  "note": "The paper makes real-world claims about school choice and other allocation mechanisms."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 7",
+  "quote": "our findings may contribute to discussions on choosing a mechanism for real-life problems",
+  "note": "Needed assumption not stated: that the type reports and outcomes observable in the model correspond to what participants can observe in real settings."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 3-6",
+  "quote": "none found",
+  "note": "No explicit statement that the paper studies the rule only as a function of submitted inputs, nor that it takes no position on the relation between inputs and held attitudes."
+ }
+}

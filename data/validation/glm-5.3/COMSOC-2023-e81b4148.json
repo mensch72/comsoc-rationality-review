@@ -1,0 +1,178 @@
+{
+ "paper_id": "COMSOC-2023-e81b4148",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract",
+  "quote": "the goal is to select a committee (a subset) of k alternatives",
+  "note": "The paper studies proportionality guarantees of approval-based multiwinner (committee) voting rules."
+ },
+ "C1": {
+  "types": [
+   "WD",
+   "AL"
+  ],
+  "primary": "WD",
+  "loc": "Section 1",
+  "quote": "we will assess the extent to which they satisfy proportionality",
+  "note": "Main results are quantitative performance guarantees (proportionality degree, utilitarian efficiency) of voting rules (WD). Secondary: linear programs and algorithms computing these bounds for Seq-PAV (Sections 4.3-4.4, Appendix D) count as AL."
+ },
+ "C2.1": {
+  "value": "approval-based profile (profile); approval set",
+  "loc": "Section 2",
+  "quote": "an approval-based profile (or, in short, a profile)"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Section 2",
+  "quote": "maps each voter to a subset of C",
+  "note": "The input consists of approval sets; no other input format is used."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2",
+  "quote": "A(i) consists of candidates that voter i finds acceptable",
+  "note": "Approval sets are described as voters' approval-based preferences/acceptability (e.g. 'approval-based preferences' in Example 1); no separate notion of submission exists."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 1, Example 1",
+  "quote": "voters having the following approval-based preferences",
+  "note": "The approval profile is described as the voters' preferences and the rules are applied to it directly; the paper makes no statement about submission or reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 1, 2, 3, 4, 5, Appendices A-G",
+  "quote": "none found",
+  "note": "No analysis considers voters submitting an input that differs from a held attitude; no strategic behaviour of voters is studied anywhere."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1 (Introduction), 2 (Model), 5 (Conclusion)",
+  "quote": "none found",
+  "note": "There is no statement that voters submit their held attitude; the notions of submission and reporting never arise."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 2.2",
+  "quote": "the average number of representatives that a voter from V has",
+  "note": "Satisfaction is defined as the average count of approved committee members (equivalently, utility 1 per approved winner); utilitarian efficiency (Appendix G, Definition 4) is likewise defined as a count of approvals, so the utility-type notions are defined on the input."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The paper uses approval sets but never uses the term 'dichotomous preferences' or an equivalent."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2.2 (Definition 1); Section 3; Section 4; Appendix G",
+  "quote": "an `-large group of voters is guaranteed g(`, k) representatives",
+  "note": "Definitions and results evaluate rules by representation of groups of voters (proportionality degree, satisfaction of cohesive groups) and by utilitarian efficiency (Appendix G)."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 2.2",
+  "quote": "The satisfaction of the group V from a committee",
+  "note": "Satisfaction and utilitarian efficiency are computed on the approval profile itself; C2.4 = IDU (not IDJ/IDS), and the paper makes no explicit statement relating the evaluated inputs to separately held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters' approval sets are fixed exogenous inputs; no voter takes an action in the model, so VOT is not present by the C6 definition."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates serve only as alternatives to be chosen; they take no action."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "No organiser or election authority chooses anything in the model."
+  },
+  "DIS": {
+   "present": "N",
+   "note": "No district designer in the model."
+  },
+  "BRI": {
+   "present": "N",
+   "note": "No briber or external manipulator in the model."
+  },
+  "DES": {
+   "present": "N",
+   "note": "A 'mechanism designer' and 'decision maker' are mentioned in informal discussion (Sections 1, 3, 4), but the designer's choice or objective is never modelled formally."
+  },
+  "OTH": {
+   "present": "N",
+   "note": "No other acting agent appears."
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Fewer than two types are present (none are)."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "No type is modelled as STRAT or MIXED; the item is not applicable."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 1",
+    "quote": "PAV should be preferred whenever proportionality is the primary goal"
+   },
+   {
+    "loc": "Section 5 (Conclusion)",
+    "quote": "Phragme\u0301n\u2019s Sequential Rule is roughly half as proportional as PAV"
+   },
+   {
+    "loc": "Abstract",
+    "quote": "the loss of proportionality for the two sequential rules is moderate"
+   }
+  ],
+  "note": "The abstract, introduction and conclusion make claims about which rules should be used in real collective decision making and about fairness (proportionality) to groups of voters."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sections 1, 2, 5",
+  "quote": "none found",
+  "note": "The claims about which rule should be used in real elections require that approval ballots correspond to voters' genuine approval preferences (sincerity) and that average satisfaction of cohesive groups captures voters' well-being; the paper defines satisfaction on the profile but never states that real submitted approvals equal held preferences, and never discusses submission at all."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 2, 5",
+  "quote": "none found",
+  "note": "The paper neither states that it studies rules only as functions of submitted inputs nor takes an explicit position on how inputs relate to held attitudes; it simply treats approval profiles as given."
+ }
+}

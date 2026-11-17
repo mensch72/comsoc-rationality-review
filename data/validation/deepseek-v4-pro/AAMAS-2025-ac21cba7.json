@@ -1,0 +1,10 @@
+{
+ "paper_id": "AAMAS-2025-ac21cba7",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "INELIG",
+  "loc": "Abstract, p. 667",
+  "quote": "Sortition is based on the idea of choosing randomly selected representatives",
+  "note": "The main object is selection algorithms for sortition/representative panels based on a representation metric, not a procedure aggregating submitted inputs or votes into a collective decision by voting."
+ }
+}

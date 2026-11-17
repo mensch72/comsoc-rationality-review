@@ -1,0 +1,225 @@
+{
+ "paper_id": "MSS-2025-fef96d84",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract",
+  "quote": "how different electoral systems either promote political polarization or render it unattractive",
+  "note": ""
+ },
+ "C1": {
+  "types": [
+   "AX"
+  ],
+  "primary": "AX",
+  "loc": "Section 2.2",
+  "quote": "Property PPC holds if, for a given profile, a voting rule",
+  "note": "Candidate-incentive language appears but formal results are rule properties such as PPC."
+ },
+ "C2.1": {
+  "value": "preference orderings / preference profiles",
+  "loc": "Section 2",
+  "quote": "voters\u2019 preference orderings"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2",
+  "quote": "voters\u2019 preferences are anti-symmetric (strict)",
+  "note": "Only strict rankings are used."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2",
+  "quote": "voters\u2019 preferences are anti-symmetric (strict)",
+  "note": "Preferences are held attitudes."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2.2",
+  "quote": "maps preference profiles into an electoral outcome",
+  "note": "The rule is applied directly to preferences; no separate submission/reporting distinction."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Section 2",
+  "quote": "we neglect strategic considerations of voters",
+  "note": ""
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Section 4.3",
+  "quote": "vote according to their original preference rankings",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "CONV",
+  "loc": "Section 2",
+  "quote": "As in Dasgupta and Maskin (2008)",
+  "note": "Cites prior related papers as the basis for neglecting voter strategy."
+ },
+ "C4.1": {
+  "code": "NOTSPEC",
+  "loc": "Section 5",
+  "quote": "The consideration of preference intensities, which often attracts scrutiny",
+  "note": "Intensity of preference is mentioned, but no utility-to-ranking relation is defined."
+ },
+ "C4.2": {
+  "code": "N",
+  "loc": "Section 4.4",
+  "quote": "Assuming voters exhibit dichotomous preferences, AV possesses a variety of desirable properties",
+  "note": "The term is used without stating what the two classes represent."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Section 2.2",
+  "quote": "Property PPC holds if, for a given profile, a voting rule",
+  "note": "Results evaluate whether polarizing candidates win, not voter welfare or efficiency."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2",
+   "quote_behav": "we neglect strategic considerations of voters",
+   "loc_info": "Section 2",
+   "quote_info": "none found",
+   "note": "Voters are nonstrategic; info is NA under C6 because behaviour is NONSTRAT."
+  },
+  "CAN": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Candidates are alternatives only; no formal candidate actions."
+  },
+  "ORG": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "No organiser or chair acts in the model."
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "No district designer."
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "No briber or external manipulator."
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Rule comparison is present, but no designer's objective is modelled."
+  },
+  "OTH": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Section 2; Section 4.3",
+  "quote": "none found",
+  "note": "Only voters are present by the C6 definition."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 = NA"
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "No strategic or mixed types, so solution concepts do not apply."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 1",
+    "quote": "the often-used plurality rule (PR) has a substantial incentive to polarize"
+   },
+   {
+    "loc": "Section 5",
+    "quote": "polarizing candidates benefit considerably from the plurality rule"
+   },
+   {
+    "loc": "Section 5",
+    "quote": "the anti-plurality rule, which significantly emphasizes the middle position, is particularly effective"
+   }
+  ],
+  "note": "Claims appear in the introduction and conclusion."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 5",
+  "quote": "polarizing candidates benefit considerably from the plurality rule",
+  "note": "Needed but unstated assumption: candidates can choose polarizing/centrist strategies and are office-seeking. Stated assumptions include sincere voters and the polarized-electorate domain."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Section 2; Section 4.3; Section 5",
+  "quote": "none found",
+  "note": "No explicit procedural reading saying the rule is studied only as a function of submitted inputs."
+ }
+}

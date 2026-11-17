@@ -1,0 +1,167 @@
+{
+ "paper_id": "AAMAS-2024-216391c9",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Section 3, p.1594",
+  "quote": "aggregate the queries using methods from social choice theory",
+  "note": "Core object is the Partial Borda choice function aggregating a profile of (partial) preference orders into a collective choice."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "EM",
+   "OT"
+  ],
+  "primary": "EM",
+  "loc": "Sections 4.3 and 5, pp.1597-1599",
+  "quote": "We now discuss some analytical guarantees of our approach",
+  "note": "AX: characterising properties of PBW (Theorem 3.3, Proposition 4.4); EM: experiments with ChatGPT on manufacturing, finance, medical queries; OT: modelling proposal for aggregating LLM answers. Largest share of main results is experimental."
+ },
+ "C2.1": {
+  "value": "partial preference orderings collected in a profile (answers to ranking queries)",
+  "loc": "Section 3, p.1594",
+  "quote": "A profile \ud835\udc5d = [\u2ab01 , . . . , \u2ab0\ud835\udc5b ] contains one partial order"
+ },
+ "C2.2": {
+  "codes": [
+   "WEAK"
+  ],
+  "loc": "Sections 3 and 4.1, pp.1594-1595",
+  "quote": "We will therefore focus on preferences expressed by partial orderings.",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "N",
+  "loc": "Sections 1, 3, 4",
+  "quote": "none found",
+  "note": "Checked introduction, Sections 3 and 4: voters are repeated LLM answer samples; no held attitude of voters is referred to. The LLM's 'belief' is mentioned but the paper says probabilities should not be confused with what the LLM believes."
+ },
+ "C2.4": {
+  "code": "ONE",
+  "loc": "Sections 3 and 4.1, pp.1594-1595",
+  "quote": "captures the preferences expressed by them",
+  "note": "Inputs (answers to ranking queries, i.e. partial orders) are described only as submitted answers; no held attitude of voters is present."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 1, 3, 4",
+  "quote": "none found",
+  "note": "No analysis considers voters submitting something other than what they hold; no held attitude exists."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C2.4 = ONE."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 \u2260 STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C2.2 includes WEAK but the paper uses no utility, welfare, satisfaction, cost or distortion notion for voters (only 'plausibility'/'confidence' of answers, and similarity/robustness metrics)."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No dichotomous preferences used; indifference classes of partial orders are not called dichotomous."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 4.3, 5",
+  "quote": "none found",
+  "note": "Checked model/results sections: evaluation is via Kendall and Spearman rank correlations measuring robustness, not welfare, efficiency, representation or distortion."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NONE",
+   "info_stated": "NA",
+   "loc_behav": "Sections 3 and 4.1, pp.1594-1596",
+   "quote_behav": "prompt it \ud835\udc41 times and produces a profile [\u2ab01, . . . , \u2ab0\ud835\udc41 ] from the answer rankings",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters are the repeated LLM answer samples; their partial orders are fixed by the sampling process, non-strategic by construction. No knowledge about others is modelled."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Outcomes (diagnoses) are alternatives only."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "No organiser choosing anything in the model."
+  },
+  "DIS": {},
+  "BRI": {},
+  "DES": {},
+  "OTH": {}
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only one acting type (VOT, non-strategic) present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 \u2260 Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "No type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 5.5, p.1599",
+    "quote": "Our approach consistently outperforms both baselines"
+   },
+   {
+    "loc": "Section 6, p.1600",
+    "quote": "our approach significantly improves the robustness against both query and syntax uncertainty"
+   },
+   {
+    "loc": "Section 1, p.1593",
+    "quote": "improve the robustness of LLM queries, we propose using ranking queries repeatedly"
+   }
+  ],
+  "note": "Claims about usefulness of the aggregation procedure for LLM query answering in diagnostic domains (medical, fault, finance)."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 1, p.1593",
+  "quote": "if the LLM picked up the answer during training, then this answer should occur in the majority",
+  "note": "Needed assumption: repeated LLM answers reflect information picked up during training (stated in the introduction), plus interpretive caveats also stated (subjective probabilities, training on reliable literature). Robustness claims follow from the experiments on these repeated answers."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 3, 4",
+  "quote": "none found",
+  "note": "The paper does not state that it studies the rule only as a function of submitted inputs or take an explicit no-position stance; checked introduction, model and conclusion sections."
+ }
+}

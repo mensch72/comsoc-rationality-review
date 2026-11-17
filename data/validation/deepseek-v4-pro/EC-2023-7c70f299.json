@@ -1,0 +1,172 @@
+{
+ "paper_id": "EC-2023-7c70f299",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "1 Introduction, p.1",
+  "quote": "Liquid democracy is a voting paradigm",
+  "note": "The paper studies liquid democracy, a procedure aggregating delegated votes into a collective decision, including probabilistic performance properties."
+ },
+ "C1": {
+  "types": [
+   "WD",
+   "OT"
+  ],
+  "primary": "WD",
+  "loc": "1.1 Our Contributions and Techniques, p.3",
+  "quote": "all shown to satisfy do no harm and positive gain",
+  "note": "Main results are probabilistic performance guarantees for selecting the ground-truth outcome; the paper also proposes new delegation models."
+ },
+ "C2.1": {
+  "value": "binary votes Vi and delegation-induced weights weighti(Gn)",
+  "loc": "1 Introduction, p.1",
+  "quote": "The binary vote Vi of each voter i is drawn independently"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "2 Model, p.5",
+  "quote": "Vi = 1 if voter i would vote correctly",
+  "note": "Inputs are binary {0,1} votes and delegation-graph weights, not rankings/approval/cardinal preference scores."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "2 Model, p.5",
+  "quote": "Each voter i has a competence level pi",
+  "note": "Competence pi is a held attribute separate from the submitted vote/delegation input."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "2 Model, p.5",
+  "quote": "Fixed competencies p~n induce a probability measure Pp~n",
+  "note": "Competencies are separate objects that generate votes probabilistically."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "7 Discussion, p.19",
+  "quote": "our models do not take strategic considerations into account",
+  "note": "No analysis models voters choosing inputs to improve an objective."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "2 Model p.5; 1 Introduction p.1; 7 Discussion p.19",
+  "quote": "none found",
+  "note": "The paper does not state that voters submit their competence or held attitude; votes are random Bernoulli draws."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "2 Model, p.5",
+  "quote": "none found",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "2 Model p.5; 1 Introduction p.1; 7 Discussion p.19",
+  "quote": "none found",
+  "note": "C2.2 does not include RANK/WEAK/APPR/DICH/PAIR, and the paper does not use utility/welfare/satisfaction/cost/distortion notions for voters."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "2 Model p.5; 7 Discussion p.19",
+  "quote": "none found",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "1 Introduction, p.1",
+  "quote": "more than half vote for the correct outcome",
+  "note": "Results evaluate probability of selecting the ground truth, not welfare, efficiency, voter utility, representation, proportionality, or distortion."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "1 Introduction, p.1",
+  "quote": "none found",
+  "note": "C5.1 is N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "2 Model, p.5",
+   "quote_behav": "With probability 1 \u2212 q(pi ) they do not delegate",
+   "loc_info": "2 Model, p.5",
+   "quote_info": "none found",
+   "note": "Voter actions are fixed by probabilistic model, not optimizing. Info is NA because behav is NONSTRAT."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "2 Model, p.5",
+  "quote": "There is a set of n voters",
+  "note": "Only voters are present as formal acting agents."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "2 Model, p.5",
+  "quote": "none found",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "7 Discussion, p.19",
+  "quote": "our models do not take strategic considerations into account",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "7 Discussion, p.19",
+  "quote": "none found"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.1",
+    "quote": "concerns raised about liquid democracy can be overcome, thereby bolstering the case"
+   },
+   {
+    "loc": "1.2 Related work, p.4",
+    "quote": "decentralized delegation models are inherently self-regulatory, which supports the effectiveness"
+   },
+   {
+    "loc": "7 Discussion, p.20",
+    "quote": "many reasons to be excited about the potential of liquid democracy"
+   }
+  ],
+  "note": "Abstract, introduction, and conclusion make claims supporting liquid democracy in practice."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "7 Discussion, p.19",
+  "quote": "Our paper further relies on a set of assumptions",
+  "note": "Needed assumptions for the broad claims include ground truth, independent votes, continuous competence distribution, and no strategic behaviour; these are stated in Section 7."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "2 Model p.5; 7 Discussion p.19",
+  "quote": "none found",
+  "note": "No explicit procedural reading found; the paper relates delegated votes and votes to competences."
+ }
+}

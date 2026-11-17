@@ -1,0 +1,228 @@
+{
+ "paper_id": "EC-2023-625cc775",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "We revisit the recent breakthrough result of Gkatzelis et al. on (single-winner) metric voting",
+  "note": ""
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "WD"
+  ],
+  "primary": "AX",
+  "loc": "Abstract, p.1",
+  "quote": "The canonical voting rule we propose for electing from the (plurality) veto core also satisfies resolvability, monotonicity, majority, majority loser, mutual majority and reversal symmetry, in addition to still guaranteeing metric distortion 3.",
+  "note": "Primary type is axiomatic because the main results characterize the veto core and establish axioms; distortion (WD) is also central."
+ },
+ "C2.1": {
+  "value": "ranked-choice profile",
+  "loc": "Preliminaries, p.6",
+  "quote": "The vector of all rankings is referred to as a ranked-choice profile",
+  "quote_loc": "Preliminaries, p.6"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Preliminaries, p.6",
+  "quote": "let \u227bv be a ranking (i.e., total order) over C",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Preliminaries, p.6",
+  "quote": "For each voter v, let \u227bv be a ranking",
+  "note": "The paper refers to voters' rankings as held preferences."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Introduction, p.2",
+  "quote": "the rankings provide ordinal information about the distances",
+  "note": "The rule is applied directly to the ranked-choice profile, which is treated as a held attitude; no separate submission object or statement that submitted input equals held attitude is given."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Conclusion, p.21",
+  "quote": "we currently do not know whether a stronger version holds",
+  "note": "No analysis models voters submitting an input that differs from their held attitude; the paper studies rules axiomatically and via distortion."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Introduction, p.1-2; Preliminaries, p.6-7; Conclusion, p.21-22",
+  "quote": "none found",
+  "note": "No statement that voters submit their held attitude is found in the main text."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 \u2260 STATED"
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Introduction, p.2",
+  "quote": "the distance between a voter and a candidate captures how much the voter dislikes the candidate",
+  "note": "Utilities/cost are linked to distances, which are consistent with rankings; social cost under a metric is defined."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Preliminaries, p.7",
+  "quote": "The (utilitarian) social cost of a candidate c under a metric d is defined as the total distance of voters to c",
+  "note": "Social welfare and distortion are used in results."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Preliminaries, p.7",
+  "quote": "The distortion of a candidate c in an election E... is the largest possible ratio... with respect to a metric d",
+  "note": "The metric space serves as the held attitude, and outcomes are evaluated against it."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Preliminaries, p.6",
+   "quote_behav": "let \u227bv be a ranking",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters are modelled as having fixed rankings; no strategic behaviour is analysed."
+  },
+  "CAN": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Candidates serve only as alternatives."
+  },
+  "ORG": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Fewer than two types present by the C6 definition."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 \u2260 Y"
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "No type is STRAT or MIXED; C8.1 is NA."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C8.1 is NA"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.1",
+    "quote": "the canonical voting rule we propose... satisfies... resolvability, monotonicity, majority, majority loser, mutual majority and reversal symmetry, in addition to still guaranteeing metric distortion 3"
+   },
+   {
+    "loc": "Conclusion, p.21",
+    "quote": "this makes it well suited for practical adoption"
+   },
+   {
+    "loc": "Abstract, p.1",
+    "quote": "a highly practical voting rule with optimal distortion 3"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "",
+  "quote": "",
+  "note": "Claims about distortion-3 performance require the metric to be consistent with rankings (stated), but claims about practicality (e.g., 'well suited for practical adoption') implicitly require that voters report rankings truthfully; the paper does not state this."
+ },
+ "C10.1": {
+  "code": "Y",
+  "loc": "Introduction, p.2",
+  "quote": "the voting rule does not have access to the actual distances; instead, the rankings provide ordinal information",
+  "note": "The paper explicitly states it studies the rule as a function of submitted rankings, not of cardinal distances."
+ }
+}

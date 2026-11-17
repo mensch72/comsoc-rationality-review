@@ -1,0 +1,168 @@
+{
+ "paper_id": "AAAI-2022-8da10d84",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract and Introduction, pp. 5092",
+  "quote": "the complexity of computing committees with a given proportionality degree",
+  "note": "computational aspects of approval-based multiwinner voting rules"
+ },
+ "C1": {
+  "types": [
+   "AL"
+  ],
+  "primary": "AL",
+  "loc": "Introduction, p. 5092",
+  "quote": "We study the complexity of computing committees with a given proportionality degree",
+  "note": "main results are NP-hardness, membership, FPT and polynomial-time algorithms"
+ },
+ "C2.1": {
+  "value": "approval sets (election E = (C,V) with A(v) \u2286 C)",
+  "loc": "Preliminaries, p. 5093",
+  "quote": "Each voter v \u2208 V is endowed with a set A(v) \u2286 C of candidates"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Preliminaries, p. 5093",
+  "quote": "a set A(v) \u2286 C of candidates that he or she approves",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "N",
+  "loc": "Preliminaries and Sections 3-7, pp. 5093-5098",
+  "quote": "none found",
+  "note": "no held attitude of voters beyond approval sets is mentioned"
+ },
+ "C2.4": {
+  "code": "ONE",
+  "loc": "Preliminaries, p. 5093",
+  "quote": "Each voter v \u2208 V is endowed with a set A(v) \u2286 C",
+  "note": "input described only as approval sets; no held attitude referenced"
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 3-7, pp. 5094-5098",
+  "quote": "none found",
+  "note": "no analysis considers voters submitting input differing from a held attitude"
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C2.4 = ONE"
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 \u2260 STATED"
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Proportionality Degree, p. 5093",
+  "quote": "define v's satisfaction with S as |A(v)\u2229S|",
+  "note": "satisfaction defined directly as number of approved committee members"
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "References, p. 5099",
+  "quote": "dichotomous preferences",
+  "note": "term appears only in titles of cited works, not used in the paper's own text"
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Proportionality Degree and Theorem 6, pp. 5093-5096",
+  "quote": "the average satisfaction of the voters in X is at least f(`)",
+  "note": "proportionality degree and (E)JR axioms are evaluated in definitions, theorems and examples"
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Definition 2, p. 5093",
+  "quote": "We define v's satisfaction with S as |A(v)\u2229S|",
+  "note": "satisfaction computed on submitted approval sets; no statement relating them to held attitudes"
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Preliminaries, p. 5093",
+   "quote_behav": "Each voter v \u2208 V is endowed with a set A(v) \u2286 C",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "voters' approval sets are fixed exogenous inputs; no strategic behaviour modelled"
+  },
+  "CAN": {
+   "present": "N",
+   "note": "candidates are only alternatives"
+  },
+  "ORG": {
+   "present": "N",
+   "note": "no organiser acting in the model"
+  },
+  "DIS": {},
+  "BRI": {},
+  "DES": {},
+  "OTH": {
+   "present": "N",
+   "note": "none"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "only one acting type (voters, nonstrategic) present"
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 \u2260 Y"
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "no type is STRAT or MIXED"
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p. 5092",
+    "quote": "establishing the PD of a rule gives quantitative understanding of its proportionality"
+   },
+   {
+    "loc": "Introduction, p. 5092",
+    "quote": "one could use them to establish an empirical hierarchy of proportionality among multiwinner voting rules"
+   },
+   {
+    "loc": "Conclusions, p. 5098",
+    "quote": "experimentally analyze PDs of committees provided by various voting rules"
+   }
+  ],
+  "note": "claims about proportionality guarantees and comparing rules"
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Preliminaries, p. 5093",
+  "quote": "Each voter v \u2208 V is endowed with a set A(v) \u2286 C",
+  "note": "claims about proportionality/fairness to voter groups implicitly need approval sets to reflect voters' true preferences; this relation is not stated"
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Preliminaries, Introduction, Conclusions, pp. 5092-5098",
+  "quote": "none found",
+  "note": "the paper takes no explicit position on inputs versus held attitudes"
+ }
+}

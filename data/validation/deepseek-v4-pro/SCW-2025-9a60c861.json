@@ -1,0 +1,229 @@
+{
+ "paper_id": "SCW-2025-9a60c861",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Section 3.3, page 111",
+  "quote": "a (democratic) procedure is any set of rules whose application yields a sequence of proposal-making rounds followed by a voting round",
+  "note": ""
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "EQ",
+   "WD"
+  ],
+  "primary": "EQ",
+  "loc": "Abstract, page 101; Section 3.4, page 111",
+  "quote": "locally necessary, and together sufficient, for optimality",
+  "note": "Main propositions are equilibrium analyses of efficiency; the paper also makes property-based necessity/sufficiency claims."
+ },
+ "C2.1": {
+  "value": "proposal and voting decision",
+  "loc": "Section 3.1, page 109",
+  "quote": "A proposal, which we denote by \u03c0 , consists of"
+ },
+ "C2.2": {
+  "codes": [
+   "PAIR"
+  ],
+  "loc": "Section 3.3, page 111",
+  "quote": "where the plurality rule applies",
+  "note": "Binary votes over proposals, not submitted rankings or approvals."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 1, page 103",
+  "quote": "Citizens are heterogeneous in that they differ with regard to the utility",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Appendix A, page 123",
+  "quote": "individual i will vote in favor of \u03c0'' if and only if",
+  "note": "Votes are actions chosen on the basis of utilities/valuations, which are held attitudes."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Section 3.4, page 111",
+  "quote": "citizens vote as if they were pivotal",
+  "note": "Voters are not modeled as submitting preferences different from their held attitudes."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Appendix A, page 123",
+  "quote": "individual i will vote in favor of \u03c0'' if and only if",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "CONV",
+  "loc": "Section 3.4, page 111",
+  "quote": "as is standard, citizens vote as if they were pivotal",
+  "note": ""
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Appendix A, page 123",
+  "quote": "individual i will vote in favor of \u03c0'' if and only if",
+  "note": "Votes are specified via utility comparison between proposals."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Dichotomous preferences term is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 3.2, page 111",
+  "quote": "socially efficient solution that a benevolent planner should choose",
+  "note": ""
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 3.2, page 111",
+  "quote": "pVw + (1 \u2212 p)Vl \u2265 k",
+  "note": "Evaluation is against utilitarian welfare from citizens' valuations, separate from submitted votes/proposals."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 3.4, page 111",
+   "quote_behav": "citizens vote as if they were pivotal",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "CAN": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 3.4, page 111",
+   "quote_behav": "Agenda-setters are selfish and make proposals to maximize their utility",
+   "loc_info": "Section 3.1, page 109",
+   "quote_info": "public project's parameters are common knowledge",
+   "note": "Agenda-setters are proponents of proposals/projects."
+  },
+  "ORG": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "Y",
+  "loc": "Section 3.4, page 111",
+  "quote": "Agenda-setters are selfish and make proposals to maximize their utility",
+  "note": "CAN is strategic; VOT is non-strategic."
+ },
+ "C7.2": {
+  "code": "NONE",
+  "loc": "Sections 3.4 and 4",
+  "quote": "none found",
+  "note": "No explicit reason given for modeling agenda-setters strategically but voters non-strategically."
+ },
+ "C8.1": {
+  "codes": [
+   "SPE"
+  ],
+  "loc": "Section 3.4, page 111",
+  "quote": "we look for subgame-perfect Nash equilibria",
+  "note": ""
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 3.4, page 111",
+  "quote": "subgame-perfect Nash equilibria"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, page 101",
+    "quote": "minorities should have the first say in proposal-making"
+   },
+   {
+    "loc": "Introduction, page 104",
+    "quote": "grant the right to initiate proposal-making to minorities instead of the majority"
+   },
+   {
+    "loc": "Conclusion, page 121",
+    "quote": "provides novel theoretical support for the application of rules in democracies"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 3.1, page 109",
+  "quote": "but the latter are not contractible",
+  "note": "Needed assumptions such as selfish agenda-setters, common knowledge, non-contractibility, and non-strategic voters are explicit in Sections 3.1-3.4."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 3, 4, 5",
+  "quote": "none found",
+  "note": "The paper does not state that it studies the procedure only as a function of submitted inputs."
+ }
+}

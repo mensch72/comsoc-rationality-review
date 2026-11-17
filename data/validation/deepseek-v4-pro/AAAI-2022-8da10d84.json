@@ -1,0 +1,166 @@
+{
+ "paper_id": "AAAI-2022-8da10d84",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p. 5092",
+  "quote": "We study the complexity of computing committees with a given proportionality degree",
+  "note": ""
+ },
+ "C1": {
+  "types": [
+   "AL"
+  ],
+  "primary": "AL",
+  "loc": "Abstract, p. 5092",
+  "quote": "We study the complexity of computing committees with a given proportionality degree",
+  "note": ""
+ },
+ "C2.1": {
+  "value": "approval set",
+  "loc": "Preliminaries, p. 5093",
+  "quote": "set A(v) \u2286 C of candidates that he or she approves"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Preliminaries, p. 5093",
+  "quote": "set A(v) \u2286 C of candidates that he or she approves",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Preliminaries, p. 5093",
+  "quote": "voter v \u2208 V is endowed with a set A(v)",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Preliminaries, p. 5093",
+  "quote": "endowed with a set A(v) \u2286 C of candidates",
+  "note": "Approval set is described as a held attitude and used directly as input; no submission/reporting statement."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Abstract, p. 5092",
+  "quote": "We study the complexity of computing committees with a given proportionality degree",
+  "note": "No strategic voter analysis."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Introduction, p. 5092; Preliminaries, p. 5093; Conclusions, p. 5098",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "none found",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Preliminaries, p. 5093",
+  "quote": "We define v\u2019s satisfaction with S as |A(v)\u2229S|",
+  "note": ""
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "References, p. 5099",
+  "quote": "none found",
+  "note": "Term dichotomous preferences is not used in the body."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Preliminaries, p. 5093",
+  "quote": "average satisfaction of the voters in X is at least f (`)",
+  "note": ""
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Preliminaries, p. 5093",
+  "quote": "We define v\u2019s satisfaction with S as |A(v)\u2229S|",
+  "note": "Satisfaction is defined on approval sets, with no separate held attitude."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Preliminaries, p. 5093",
+   "quote_behav": "Each voter v \u2208 V is endowed with a set A(v)",
+   "loc_info": "Preliminaries, p. 5093",
+   "quote_info": "none found",
+   "note": "Voters' approval sets are fixed inputs; no strategic action."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates are alternatives only."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "No organiser or chair modelled."
+  },
+  "DIS": {
+   "present": "N",
+   "note": "No district designer modelled."
+  },
+  "BRI": {
+   "present": "N",
+   "note": "No briber or external manipulator modelled."
+  },
+  "DES": {
+   "present": "N",
+   "note": "No rule designer objective modelled."
+  },
+  "OTH": {
+   "present": "N",
+   "note": "No other acting agent modelled."
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Preliminaries, p. 5093",
+  "quote": "Each voter v \u2208 V is endowed with a set A(v)",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "none found",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "Preliminaries, p. 5093",
+  "quote": "none found",
+  "note": "No strategic or mixed types."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "none found"
+ },
+ "C9.1": {
+  "code": "N",
+  "claims": [],
+  "loc": "Abstract, p. 5092; Introduction, p. 5092; Conclusions, p. 5098",
+  "quote": "none found",
+  "note": "No real-world, welfare, or rule-choice claims beyond formal results."
+ },
+ "C9.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "none found",
+  "note": "C9.1 is N."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Preliminaries, p. 5093; Introduction, p. 5092; Conclusions, p. 5098",
+  "quote": "none found",
+  "note": "No explicit procedural reading statement."
+ }
+}

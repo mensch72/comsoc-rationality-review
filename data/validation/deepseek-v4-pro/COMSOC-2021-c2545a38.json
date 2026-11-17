@@ -1,0 +1,227 @@
+{
+ "paper_id": "COMSOC-2021-c2545a38",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract",
+  "quote": "we study the task of finding k matchings fairly representing everyone\u2019s preferences",
+  "note": "Main object is approval-based multiwinner voting over matchings."
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "AX"
+  ],
+  "primary": "AL",
+  "loc": "Section 1.2",
+  "quote": "initiate their computational and axiomatic study",
+  "note": "Most main results concern winner determination/complexity; Section 5 gives axiomatic results."
+ },
+ "C2.1": {
+  "value": "preference profile; approval set",
+  "loc": "Section 2.1",
+  "quote": "a preference profile with Aa \u2286 C denoting the approval set"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR",
+   "DICH"
+  ],
+  "loc": "Section 1",
+  "quote": "agents\u2019 dichotomous (i.e., approval/disapproval) preferences",
+  "note": "Inputs are approval sets A_a; these are described as dichotomous preferences."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Abstract",
+  "quote": "Given a set of agents with approval preferences over each other",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2.1",
+  "quote": "a preference profile with Aa \u2286 C denoting the approval set",
+  "note": "Input is directly described as a held attitude; no submission or reporting statement."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Section 4",
+  "quote": "we analyze the computational complexity of computing winning committees",
+  "note": "No strategic voter analysis found."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Abstract; Section 2; Section 6",
+  "quote": "none found",
+  "note": "No statement that voters submit their held attitude; input is treated directly as preferences."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "none found",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 2.1",
+  "quote": "happiness score ha (W ) of a denote the number",
+  "note": "Happiness/satisfaction is defined explicitly from the approval input."
+ },
+ "C4.2": {
+  "code": "N",
+  "loc": "Section 1",
+  "quote": "agents\u2019 dichotomous (i.e., approval/disapproval) preferences",
+  "note": "Dichotomous preferences are used, but no utility or richer preference characterization is stated."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2.3",
+  "quote": "We consider three axioms capturing proportional representation",
+  "note": "PJR, EJR, and core stability are formal representation criteria."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 2.3",
+  "quote": "A committee W provides extended justified representation (EJR) if",
+  "note": "Axioms evaluate committees via input approval sets; C2.4 is IDU, so there is no separate input/held-attitude statement."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2.1",
+   "quote_behav": "a preference profile with Aa \u2286 C denoting the approval set",
+   "loc_info": "",
+   "quote_info": "none found",
+   "note": "Voters are agents with fixed approval preferences; no strategic action or information assumptions."
+  },
+  "CAN": {
+   "present": "N",
+   "behav": "NA",
+   "behav_stated": "NA",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Candidates are matchings, i.e., alternatives, not acting agents."
+  },
+  "ORG": {
+   "present": "N",
+   "behav": "NA",
+   "behav_stated": "NA",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "No organizer or election authority acts in the model."
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "NA",
+   "behav_stated": "NA",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "No district designer is present."
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "NA",
+   "behav_stated": "NA",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "No briber or external manipulator is present."
+  },
+  "DES": {
+   "present": "N",
+   "behav": "NA",
+   "behav_stated": "NA",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "No explicit designer choice or objective is modelled."
+  },
+  "OTH": {
+   "present": "N",
+   "behav": "NA",
+   "behav_stated": "NA",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Section 2.1",
+  "quote": "N is a set of agents",
+  "note": "Only voters are present as acting agents."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "none found",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "Section 2; Section 4; Section 6",
+  "quote": "none found",
+  "note": "No type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "none found"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract",
+    "quote": "finding k matchings fairly representing everyone\u2019s preferences"
+   },
+   {
+    "loc": "Section 1",
+    "quote": "agents need to be matched multiple times"
+   },
+   {
+    "loc": "Section 1",
+    "quote": "strive for the ideal of proportional representation"
+   }
+  ],
+  "note": "Abstract and introduction make fairness/real-application claims."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 2.1",
+  "quote": "a preference profile with Aa \u2286 C denoting the approval set",
+  "note": "The fairness claims rely on approval preferences being the input; this is stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Abstract; Section 2; Section 6",
+  "quote": "none found",
+  "note": "No explicit procedural-reading statement found."
+ }
+}

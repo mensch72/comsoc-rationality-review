@@ -1,0 +1,227 @@
+{
+ "paper_id": "AAMAS-2021-fe56146f",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p. 1236",
+  "quote": "Ranking the participants of a tournament has applications in voting",
+  "note": "Eligible: tournament ranking is studied as a social choice procedure; the input tournament can arise from majority voting."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "AL",
+   "OT"
+  ],
+  "primary": "AX",
+  "loc": "Abstract, p. 1236; Section 3, p. 1238; Section 6, p. 1241",
+  "quote": "through the axiomatic method of social choice theory",
+  "note": "AX is the largest share of main results. AL applies to NP-hardness/tractability and the interleaving algorithm; OT applies to the probabilistic MLE model."
+ },
+ "C2.1": {
+  "value": "tournament K",
+  "loc": "Definition 2.2, p. 1237",
+  "quote": "An operator \u03c6 assigns each tournament K a pair"
+ },
+ "C2.2": {
+  "codes": [
+   "PAIR"
+  ],
+  "loc": "Definition 2.1, p. 1237",
+  "quote": "K is an m \u00d7 n matrix with Kab \u2208 {0, 1}",
+  "note": "The input is a matrix of pairwise match results between the two sides."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 1, p. 1236",
+  "quote": "x beats y if a majority of voters prefer x over y",
+  "note": "The paper refers to voters' preferences when explaining the voting interpretation of tournaments, though these preferences are not modelled individually."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 1, p. 1236",
+  "quote": "x beats y if a majority of voters prefer x over y",
+  "note": "The input tournament K is distinct from the voters' preferences that may generate it."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-6, pp. 1237-1243",
+  "quote": "none found",
+  "note": "No analysis models voters submitting inputs that differ from their held attitudes."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 2-6, pp. 1237-1243",
+  "quote": "none found",
+  "note": "No statement found that voters submit their held preferences."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is NOT-STATED, so C3.3 does not apply."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Sections 2-6, pp. 1237-1243",
+  "quote": "",
+  "note": "Although C2.2 includes PAIR, the paper does not use utility, welfare, satisfaction, cost, distortion, or intensity of preference for voters."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 2-6, pp. 1237-1243",
+  "quote": "none found",
+  "note": "No result evaluates outcomes by welfare, efficiency, voter satisfaction, representation, proportionality, or distortion."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 is N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "NA",
+   "behav_stated": "NA",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "No voters modelled as agents taking actions; voters' preferences are mentioned only in the introductory interpretation."
+  },
+  "CAN": {
+   "present": "N",
+   "behav": "NA",
+   "behav_stated": "NA",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Players A and B are ranked alternatives/participants but take no actions in the formal model."
+  },
+  "ORG": {
+   "present": "N",
+   "behav": "NA",
+   "behav_stated": "NA",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "No organiser, chair, or election authority acts in the model."
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "NA",
+   "behav_stated": "NA",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "No district designer."
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "NA",
+   "behav_stated": "NA",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "No briber or external manipulator."
+  },
+  "DES": {
+   "present": "N",
+   "behav": "NA",
+   "behav_stated": "NA",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "No rule/mechanism designer whose choice or objective is modelled explicitly."
+  },
+  "OTH": {
+   "present": "N",
+   "behav": "NA",
+   "behav_stated": "NA",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "No other acting agent type."
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Sections 2-6, pp. 1237-1243",
+  "quote": "",
+  "note": "Fewer than two stakeholder types are present by the C6 definition."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is NA."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "Sections 2-6, pp. 1237-1243",
+  "quote": "none found",
+  "note": "No present type is STRAT or MIXED, so no solution concept applies."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p. 1236",
+    "quote": "This may prove particularly useful in the context of crowdsourced questions"
+   },
+   {
+    "loc": "Abstract, p. 1236",
+    "quote": "may therefore facilitate development of difficulty-aware truth discovery algorithms"
+   },
+   {
+    "loc": "Section 8, p. 1243",
+    "quote": "chain editing may prove to be a useful, albeit simplified, model"
+   }
+  ],
+  "note": "These are application-oriented or usefulness claims in the abstract/conclusion."
+ },
+ "C9.2": {
+  "code": "UNCLEAR",
+  "loc": "Abstract, p. 1236; Section 8, p. 1243",
+  "quote": "This may prove particularly useful in the context of crowdsourced questions",
+  "note": "The listed claims are speculative application statements; the modelling assumptions needed to derive them from the formal results cannot be determined clearly."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 2-6, pp. 1237-1243",
+  "quote": "none found",
+  "note": "No explicit statement that the paper takes no position on how tournament inputs relate to held attitudes."
+ }
+}
