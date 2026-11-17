@@ -35,7 +35,7 @@ KEYWORDS = re.compile(r"""\b(vot|elect|ballot|approv|committee|multi-?winner|sin
   kemeny|copeland|schulze|\bstv\b|runoff|run-off|instant-runoff|quorum|jury|single-peaked|single-crossing|
   distortion|metric\ (voting|social)|peer\ (selection|review)|sortition|deliberat)""", re.I | re.X)
 
-EXCL_TRACK = re.compile(r"extended abstract|blue sky|demo|doctoral|jaamas|keynote|survey|journal track|"
+EXCL_TRACK = re.compile(r"extended abstract|\[short|blue sky|demo|doctoral|jaamas|keynote|survey|journal track|"
                         r"sister conference|early career|student abstract|senior member|new faculty|eaai|"
                         r"best papers|invited|tutorial|competition", re.I)
 EXCL_TITLE = re.compile(r"^(correction|erratum|corrigendum|retraction|editorial|introduction to|"
@@ -72,7 +72,17 @@ def aamas(year):
         pid, title, rest = m.group(2), clean(m.group(3)), m.group(4)
         authors = "; ".join(clean(a) for a in re.split(r"<br>", re.sub(r"<i>.*?</i>", "", rest, flags=re.S))[1:] if clean(a))
         rows.append(dict(venue="AAMAS", year=year, track=track, title=title, authors=authors,
-                         url=base + f"pdfs/{pid}.pdf", doi="", abstract=""))
+                         url=base + f"pdfs/{pid}.pdf", doi="", abstract="", start=int(pid[1:])))
+    # The PDF file name gives the start page; length = next start - start. Session headings do not
+    # separate full papers from extended abstracts in every year (2023: posters; 2025: no headings),
+    # so papers shorter than 6 pages are marked as extended abstracts.
+    starts = sorted({r["start"] for r in rows})
+    nxt = dict(zip(starts, starts[1:] + [None]))
+    for r in rows:
+        n = nxt[r.pop("start")]
+        r["pages"] = "" if n is None else n - int(re.search(r"p(\d+)\.pdf", r["url"]).group(1))
+        if r["pages"] != "" and r["pages"] < 6:
+            r["track"] = (r["track"] + " [short: extended abstract]").strip()
     return rows
 
 
@@ -200,10 +210,10 @@ def main():
         r["excluded_format"] = int(bool(EXCL_TRACK.search(r["track"]) or EXCL_TITLE.search(r["title"])
                                         or "(extended abstract)" in r["title"].lower()))
         r["kw_pass"] = int(r["venue_type"] not in ("AIconf", "EC") or bool(KEYWORDS.search(r["title"])))
-    cols = ["paper_id", "venue", "venue_type", "year", "track", "title", "authors", "url", "doi",
+    cols = ["paper_id", "venue", "venue_type", "year", "track", "pages", "title", "authors", "url", "doi",
             "excluded_format", "kw_pass", "abstract"]
     with open(a.out, "w", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=cols); w.writeheader(); w.writerows(rows)
+        w = csv.DictWriter(f, fieldnames=cols, restval=""); w.writeheader(); w.writerows(rows)
     print(f"wrote {len(rows)} rows to {a.out}", file=sys.stderr)
 
 
