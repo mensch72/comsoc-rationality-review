@@ -1,0 +1,186 @@
+{
+ "paper_id": "CALIB-HSC2024",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Sect. 3 Formal analysis, p. 354",
+  "quote": "Formally, we study (probabilistic voting) methods",
+  "note": "Probabilistic voting methods aggregating ballots into lotteries over options."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SB",
+   "EQ",
+   "WD",
+   "SI",
+   "EM"
+  ],
+  "primary": "AX",
+  "loc": "Sect. 3.1 Proposition 1, p. 356; Sect. 3.2, p. 357; Sect. 4, p. 359; Sect. 5, p. 362",
+  "quote": "allocate power proportionally. MNL and MMaxParC are Pareto-efficient",
+  "note": "Mixed-methods paper. AX (Prop. 1) and EQ (Props. 2-3 and Supplement 3.1.5) carry similar weight. AX chosen as the first listed."
+ },
+ "C2.1": {
+  "value": "ballots; (ballot) profiles; filled-in ballots; ratings",
+  "loc": "Sect. 3, p. 354",
+  "quote": "B(C) E is the set of (ballot) profiles"
+ },
+ "C2.2": {
+  "codes": [
+   "CARD",
+   "APPR",
+   "RANK",
+   "WEAK",
+   "OTH"
+  ],
+  "loc": "Sect. 3, p. 354; Supplement 2.2",
+  "quote": "If B(C) = [0, 1]C , so that b \u2208 B(C) assigns",
+  "note": "Focal methods (NL, MaxParC, RV) use ratings. Other methods use approval ballots, truncated rankings (IRV), weak rankings (SC) and single-option plurality ballots (OTH). FC/RFC use combined ballots."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Supplement 2.1.1",
+  "quote": "we assume each voters possesses some form of preferences regarding",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Supplement 2.2.1",
+  "quote": "such stated preferences may or may not be related in any way",
+  "note": "Separate notation is used: ballots \u03b2 and utilities u_i."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "Sect. 1 Example, p. 350; Supplement 3.1.5",
+  "quote": "if all voters vote \u201csincerely\u201d (i.e., honestly according to their true preferences)",
+  "note": "Sincere-voter outcomes and strategic equilibria are both analysed. Simulations mix sincere, lazy and strategic types."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Supplement 2.3.2.2",
+  "quote": "A sincere voter fills in her ballot b in a certain way",
+  "note": "The sentence continues 'that represents her \u201ctrue\u201d preferences'."
+ },
+ "C3.3": {
+  "code": "EMP",
+  "loc": "Supplement 2.3.2.1, footnote 3",
+  "quote": "57 per cent of those with an incentive to vote strategically",
+  "note": "The share of sincere/non-strategic types is motivated by empirical election data. No reason is given for sincerity in the sincere-voter-only analyses."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Supplement 2.3.2.2",
+  "quote": "she marks all x with at-least-average utility",
+  "note": "Sincere ballots are defined as functions of the utilities, e.g. ratings proportional to utility."
+ },
+ "C4.2": {
+  "code": "N",
+  "loc": "Supplement 1 and 3.1.4",
+  "quote": "for the special case of \u2018dichotomous preferences\u2019 under the name",
+  "note": "The term is used only when referring to prior work and is not explained."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sect. 4 Results, p. 360; Sect. 3.1, p. 355",
+  "quote": "we computed measures of the social welfare, randomness, and voter satisfaction",
+  "note": ""
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Supplement 2.3.4",
+  "quote": "All these measures are aggregating the voters\u2019 individual utility ui (\u2113)",
+  "note": "Pareto efficiency in Prop. 1 is explicitly w.r.t. stated preferences (INPUT-REPORTED). Welfare and satisfaction are evaluated on held utilities."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Sect. 4, p. 360",
+   "quote_behav": "lazy voting, sincere voting, individual heuristics, trial and error, and",
+   "loc_info": "Supplement 2.3.2.4",
+   "quote_info": "since their information is restricted to polling scores",
+   "note": "Factions in the simulations are assumed to know others' current ballots: 'possess enough information and computing capabilities'. Information assumptions in the equilibrium analyses are only implicit."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters (including factions and bot players) are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "DOM",
+   "NE",
+   "COAL",
+   "ITER",
+   "BND"
+  ],
+  "loc": "Sect. 3.2 Prop. 2, p. 358; Supplement 2.3.2, 3.1.5.6",
+  "quote": "the factional game has a strong Nash equilibrium \u03b2",
+  "note": "Also dominant strategies in RB, coalition-proof equilibrium, best-response dynamics and heuristic voters."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Supplement 1",
+  "quote": "using pure-strategy Nash equilibrium between individual voters or between factions"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Sect. 6, p. 368",
+    "quote": "show MaxParC to be a desirable group decision mechanism"
+   },
+   {
+    "loc": "Abstract",
+    "quote": "the welfare costs of fairness and consensus are small compared"
+   },
+   {
+    "loc": "Sect. 6, p. 369",
+    "quote": "communities may be able and willing to avoid methods"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Supplement 2.3.1, 2.3.2",
+  "quote": "We simulate voter preferences by using one of several different",
+  "note": "Utility models, the ballot-utility relation and the behavioural types needed for the welfare claims are all stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sect. 3; Supplement 2.1.1, 2.2.1",
+  "quote": "none found",
+  "note": "The paper distinguishes stated and true preferences but does not adopt a purely procedural reading."
+ }
+}

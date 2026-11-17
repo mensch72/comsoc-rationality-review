@@ -1,0 +1,191 @@
+{
+ "paper_id": "CALIB-HSC2024",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Sect. 3 Formal analysis, p.354",
+  "quote": "we study (probabilistic voting) methods",
+  "note": "Probabilistic voting methods are analysed for properties, strategic equilibria, welfare and behaviour in an experiment."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "EQ",
+   "SB",
+   "WD",
+   "SI",
+   "EM"
+  ],
+  "primary": "EQ",
+  "loc": "Abstract; Sects. 3-5",
+  "quote": "Using theoretical analysis, agent-based simulations and a behavioral experiment",
+  "note": "Prop. 1 is axiomatic. Props. 2-3 are strong-equilibrium results. Sect. 4 is a simulation with welfare metrics and Sect. 5 is a human experiment. Primary is a judgement call because the main results are spread across types; the equilibrium and axiomatic results together are the formal core."
+ },
+ "C2.1": {
+  "value": "ballots (ballot profiles); ratings",
+  "loc": "Sect. 3, p.354",
+  "quote": "voters supply ballots"
+ },
+ "C2.2": {
+  "codes": [
+   "CARD",
+   "APPR",
+   "RANK",
+   "WEAK",
+   "OTH"
+  ],
+  "loc": "Sect. 2 p.350; Supp. 2.2",
+  "quote": "it asks each voter, i, to give a rating",
+  "note": "The focal methods use ratings (CARD). The compared methods use approval, ranking and weak-ranking ballots. Plurality ballots and MaxParC 'willingness to approve' ballots are coded OTH."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sect. 1, p.350",
+  "quote": "honestly according to their true preferences",
+  "note": "Utilities and preferences are used throughout."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Supp. 3.1.1",
+  "quote": "since we distinguish between stated and true preferences",
+  "note": "Separate notation (ballots vs utilities u_i) and text that stated preferences may differ from true ones."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "Sect. 1 p.350; Sect. 3.2; Sect. 4",
+  "quote": "if some or all voters vote strategically",
+  "note": "Equilibrium analysis and parts of the simulations are strategic. Prop. 1 and the sincere or lazy voter types are not."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Sect. 1 p.350; Supp. 2.3.2.2",
+  "quote": "honestly according to their true preferences",
+  "note": "Stated for sincere voters. Prop. 1 properties are about ballots and carry no such statement."
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Sect. 1 p.350; Supp. 2.3.2.2",
+  "quote": "none found",
+  "note": "Sincere behaviour is defined as a behavioural type with no incentive or other justification."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Supp. 2.3.2.2",
+  "quote": "stated preferences Pb are compatible with her true preferences",
+  "note": "Sincere ballots are compatible with utilities. Approval is above-average utility, and ratings are proportional to utility."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "Sect. 2; Supp. 2.2.2.9",
+  "quote": "none found",
+  "note": "'Dichotomous preferences' is mentioned only when describing prior work (Aziz et al.), not as the paper's own model."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sect. 4, p.360",
+  "quote": "we computed measures of the social welfare, randomness, and voter satisfaction",
+  "note": "Also proportionality as fairness, and Pareto efficiency in Prop. 1."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Sect. 4, p.360",
+  "quote": "utility depends on a voter\u2019s distance from an option",
+  "note": "Welfare is computed on simulated utilities defined separately from the ballots. Pareto efficiency in Prop. 1 is on stated preferences, but the main evaluation uses utilities."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Sect. 4, p.360",
+   "quote_behav": "We assumed various mixtures of behavioural types among our simulated voters",
+   "loc_info": "Supp. 2.3.2.4",
+   "quote_info": "their information is restricted to polling scores",
+   "note": "Strategic in the equilibrium analysis (complete information implicit, Nash and strong equilibrium between factions) and in the simulations (polls, partial information). Sincere or lazy in other analyses. Info is coded PARTIAL from the simulations. Bot players in the experiment are simulated voters."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Options are only alternatives."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "No organiser choice is modelled."
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "note": "The designer's choice is not modelled."
+  },
+  "OTH": {
+   "present": "N",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Sect. 3.2",
+  "quote": "none found",
+  "note": "Only the voter type is present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is NA."
+ },
+ "C8.1": {
+  "codes": [
+   "NE",
+   "COAL",
+   "ITER",
+   "BND"
+  ],
+  "loc": "Sect. 3.2; Supp. 2.3.2",
+  "quote": "the game has strong equilibria in which full or partial consensus is realized",
+  "note": "Strong Nash equilibrium (COAL, with NE), best-response dynamics in the interactive phase (ITER), and heuristic voters (BND)."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Sect. 3.2, Prop. 2",
+  "quote": "has a strong Nash equilibrium"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract",
+    "quote": "these methods prevent majorities from consistently suppressing minorities"
+   },
+   {
+    "loc": "Abstract",
+    "quote": "welfare costs of fairness and consensus are small compared to the inequality"
+   },
+   {
+    "loc": "Sect. 6 Discussion, p.369",
+    "quote": "communities may be able and willing to avoid methods"
+   }
+  ],
+  "note": "Claims about fairness to voters, welfare, and which methods communities should adopt."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sect. 4 and Sect. 6",
+  "quote": "none found",
+  "note": "The welfare and fairness claims need assumptions that the simulated utility models and behaviour mixes (e.g. about half strategic voters) represent real voters' held preferences and behaviour, and that ratings relate to real utilities. These are partly set in the simulation but not justified or stated as needed for the real-world claims."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sects. 1-6; Supp. 2.1",
+  "quote": "none found",
+  "note": "The paper separates stated and true preferences but does not say it studies rules only as functions of submitted inputs."
+ }
+}
