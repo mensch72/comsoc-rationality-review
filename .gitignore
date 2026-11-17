@@ -3,3 +3,4 @@
 cache/
 fulltext/
 __pycache__/
+data/*.log
