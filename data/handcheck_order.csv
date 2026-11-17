@@ -1,43 +1,43 @@
 paper_id,venue_type,hc_rank,in_handcheck,title
-IJCAI-2022-5653cd3e,AIconf,1,1,Fixing Knockout Tournaments With Seeds
-AAAI-2023-82e8fe3a,AIconf,2,1,Strategyproofness and Proportionality in Party-Approval Multiwinner Elections
-AAMAS-2025-ac21cba7,AIconf,3,1,Boosting Sortition via Proportional Representation
-AAMAS-2021-fe56146f,AIconf,4,1,Rankings for Bipartite Tournaments via Chain Editing
-AAMAS-2024-216391c9,AIconf,5,0,Robust Knowledge Extraction from Large Language Models using Social Choice Theory
-IJCAI-2022-09a7b277,AIconf,6,0,Explaining Preferences by Multiple Patterns in Voters’ Behavior
-AAAI-2022-8da10d84,AIconf,7,0,The Complexity of Proportionality Degree in Committee Elections
-IJCAI-2024-f56c85c4,AIconf,8,0,Comparing Ways of Obtaining Candidate Orderings from Approval Ballots
-AAMAS-2021-91bcdfa2,AIconf,9,0,Worst-case Bounds for Spending a Common Budget
-IJCAI-2023-59c4763a,AIconf,10,0,Deliberation and Voting in Approval-Based Multi-Winner Elections
-IJCAI-2021-155ad31e,AIconf,11,0,Winner Determination and Strategic Control in Conditional Approval Voting
-AAMAS-2023-3ebf1401,AIconf,12,0,Revisiting the Distortion of Distributed Voting
-AAAI-2023-119744b9,AIconf,13,0,Differentially Private Condorcet Voting
-IJCAI-2022-5e7bc3ad,AIconf,14,0,Multiwinner Elections under Minimax Chamberlin-Courant Rule in Euclidean Space
-IJCAI-2022-25f008e9,AIconf,15,0,Manipulating Elections by Changing Voter Perceptions
-AAMAS-2024-aa390e86,AIconf,16,0,Multi-user Norm Consensus
-AAMAS-2025-4af64bcc,AIconf,17,0,The Degree of (Extended) Justified Representation and Its Optimization
-AAMAS-2024-629cc4bd,AIconf,18,0,Single-Winner Voting with Alliances: Avoiding the Spoiler Effect
-AAAI-2023-f6a8c13d,AIconf,19,0,Now We’re Talking: Better Deliberation Groups through Submodular Optimization
-AAAI-2021-434fe260,AIconf,20,0,Power in Liquid Democracy
-AAAI-2025-401e133f,AIconf,21,0,Adaptive Manipulation for Coalitions in Knockout Tournaments
-AAAI-2021-37c64d33,AIconf,22,0,Computing the Proportional Veto Core
-IJCAI-2021-43528f67,AIconf,23,0,Fairness in Long-Term Participatory Budgeting
-IJCAI-2022-724fc628,AIconf,24,0,Near-Tight Algorithms for the Chamberlin-Courant and Thiele Voting Rules
-IJCAI-2025-fe32a5c8,AIconf,25,0,Recommender Systems for Democracy: Toward Adversarial Robustness in Voting Advice Applications
-AAMAS-2024-b87545dd,AIconf,26,0,On the Potential and Limitations of Proxy Voting: Delegation with Incomplete Votes
-IJCAI-2025-767a08ba,AIconf,27,0,Improved Rank Aggregation Under Fairness Constraint
-IJCAI-2022-0b527f93,AIconf,28,0,Local Differential Privacy Meets Computational Social Choice - Resilience under Voter Deletion
-IJCAI-2021-2a15c54a,AIconf,29,0,Dynamic Proportional Rankings
-AAMAS-2021-0cf9d56a,AIconf,30,0,Probabilistic Inference of Winners in Elections by Independent Random Voters
-AAMAS-2023-ab1e7cc5,AIconf,31,0,The Distortion of Approval Voting with Runoff
-IJCAI-2022-d9445a57,AIconf,32,0,Approval with Runoff
-IJCAI-2023-a0a9f446,AIconf,33,0,Algorithmics of Egalitarian versus Equitable Sequences of Committees
-AAMAS-2024-3b0ee8e7,AIconf,34,0,Evaluating District-based Election Surveys with Synthetic Dirichlet Likelihood
-AAMAS-2025-d4c20165,AIconf,35,0,The Metric Distortion of Randomized Social Choice Functions: C1 Maximal Lottery Rules and Simulations
-IJCAI-2021-e589063d,AIconf,36,0,Diversity in Kemeny Rank Aggregation: A Parameterized Approach
-AAMAS-2022-6fc4c96a,AIconf,37,0,How Hard is Safe Bribery?
-AAAI-2024-33b09f7b,AIconf,38,0,Eliciting Kemeny Rankings
-AAAI-2022-1a58e106,AIconf,39,0,Iterative Calculus of Voting under Plurality
+AAAI-2023-82e8fe3a,AIconf,1,1,Strategyproofness and Proportionality in Party-Approval Multiwinner Elections
+AAMAS-2024-216391c9,AIconf,2,1,Robust Knowledge Extraction from Large Language Models using Social Choice Theory
+IJCAI-2022-09a7b277,AIconf,3,1,Explaining Preferences by Multiple Patterns in Voters’ Behavior
+AAAI-2022-8da10d84,AIconf,4,1,The Complexity of Proportionality Degree in Committee Elections
+AAAI-2025-04d586ed,AIconf,5,0,Verifying Proportionality in Temporal Voting
+IJCAI-2024-f56c85c4,AIconf,6,0,Comparing Ways of Obtaining Candidate Orderings from Approval Ballots
+AAMAS-2021-91bcdfa2,AIconf,7,0,Worst-case Bounds for Spending a Common Budget
+IJCAI-2023-59c4763a,AIconf,8,0,Deliberation and Voting in Approval-Based Multi-Winner Elections
+IJCAI-2021-155ad31e,AIconf,9,0,Winner Determination and Strategic Control in Conditional Approval Voting
+AAMAS-2023-3ebf1401,AIconf,10,0,Revisiting the Distortion of Distributed Voting
+AAAI-2023-119744b9,AIconf,11,0,Differentially Private Condorcet Voting
+IJCAI-2022-5e7bc3ad,AIconf,12,0,Multiwinner Elections under Minimax Chamberlin-Courant Rule in Euclidean Space
+IJCAI-2022-25f008e9,AIconf,13,0,Manipulating Elections by Changing Voter Perceptions
+AAMAS-2024-aa390e86,AIconf,14,0,Multi-user Norm Consensus
+AAMAS-2025-4af64bcc,AIconf,15,0,The Degree of (Extended) Justified Representation and Its Optimization
+AAMAS-2024-629cc4bd,AIconf,16,0,Single-Winner Voting with Alliances: Avoiding the Spoiler Effect
+AAAI-2023-f6a8c13d,AIconf,17,0,Now We’re Talking: Better Deliberation Groups through Submodular Optimization
+AAAI-2021-65f952a0,AIconf,18,0,Margin of Victory in Tournaments: Structural and Experimental Results
+AAAI-2021-434fe260,AIconf,19,0,Power in Liquid Democracy
+AAAI-2025-401e133f,AIconf,20,0,Adaptive Manipulation for Coalitions in Knockout Tournaments
+AAAI-2021-37c64d33,AIconf,21,0,Computing the Proportional Veto Core
+IJCAI-2021-43528f67,AIconf,22,0,Fairness in Long-Term Participatory Budgeting
+IJCAI-2022-724fc628,AIconf,23,0,Near-Tight Algorithms for the Chamberlin-Courant and Thiele Voting Rules
+IJCAI-2025-fe32a5c8,AIconf,24,0,Recommender Systems for Democracy: Toward Adversarial Robustness in Voting Advice Applications
+AAMAS-2024-b87545dd,AIconf,25,0,On the Potential and Limitations of Proxy Voting: Delegation with Incomplete Votes
+IJCAI-2025-767a08ba,AIconf,26,0,Improved Rank Aggregation Under Fairness Constraint
+IJCAI-2022-0b527f93,AIconf,27,0,Local Differential Privacy Meets Computational Social Choice - Resilience under Voter Deletion
+IJCAI-2021-2a15c54a,AIconf,28,0,Dynamic Proportional Rankings
+AAMAS-2021-0cf9d56a,AIconf,29,0,Probabilistic Inference of Winners in Elections by Independent Random Voters
+AAMAS-2023-ab1e7cc5,AIconf,30,0,The Distortion of Approval Voting with Runoff
+IJCAI-2022-d9445a57,AIconf,31,0,Approval with Runoff
+IJCAI-2023-a0a9f446,AIconf,32,0,Algorithmics of Egalitarian versus Equitable Sequences of Committees
+AAMAS-2024-3b0ee8e7,AIconf,33,0,Evaluating District-based Election Surveys with Synthetic Dirichlet Likelihood
+AAMAS-2025-d4c20165,AIconf,34,0,The Metric Distortion of Randomized Social Choice Functions: C1 Maximal Lottery Rules and Simulations
+IJCAI-2021-e589063d,AIconf,35,0,Diversity in Kemeny Rank Aggregation: A Parameterized Approach
+AAMAS-2022-6fc4c96a,AIconf,36,0,How Hard is Safe Bribery?
+AAAI-2024-33b09f7b,AIconf,37,0,Eliciting Kemeny Rankings
+AAAI-2022-1a58e106,AIconf,38,0,Iterative Calculus of Voting under Plurality
+AAMAS-2022-dda2388a,AIconf,39,0,Welfare vs. Representation in Participatory Budgeting
 AAAI-2023-ba7a9cf2,AIconf,40,0,Voting with Preference Intensities
 AAAI-2024-a9530fd7,AIconf,41,0,Proportional Representation in Metric Spaces and Low-Distortion Committee Selection
 AAMAS-2025-4a1fc041,AIconf,42,0,The Price of Anarchy in Spatial Social Choice
@@ -76,8 +76,8 @@ COMSOC-2021-cafb3c9e,COMSOC,31,0,Evaluating Committees for Representative Democr
 COMSOC-2021-347f9e9f,COMSOC,32,0,United for Change: Deliberative Coalition Formation to Change the Status Quo
 COMSOC-2025-986b3900,COMSOC,33,0,On Iterative Voting Outcomes in Plurality Elections
 EC-2024-0d07ff67,EC,1,1,Committees and Equilibria: Multiwinner Approval Voting Through the Lens of Budgeting Games
-EC-2023-7c70f299,EC,2,1,In Defense of Liquid Democracy
-EC-2023-3323128f,EC,3,1,A Theory of Auditability for Allocation and Social Choice Mechanisms
+EC-2023-625cc775,EC,2,1,Generalized Veto Core and a Practical Voting Rule with Optimal Metric Distortion
+EC-2023-7c70f299,EC,3,1,In Defense of Liquid Democracy
 EC-2022-58e1fe41,EC,4,0,A System-Level Analysis of Conference Peer Review
 EC-2023-d244aafc,EC,5,0,Fair Multiwinner Elections with Allocation Constraints
 EC-2023-f9e49b69,EC,6,0,The Wisdom of Strategic Voting

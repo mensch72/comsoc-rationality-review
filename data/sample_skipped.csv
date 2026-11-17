@@ -1,5 +1,9 @@
 paper_id,stratum,venue,rank,original_in_sample,reason
+AAMAS-2021-fe56146f,AIconf-2021,AAMAS,1,1,"ineligible on full text: ranking players of bipartite tournaments; no voting (C0 INELIG, passes A and B)"
+IJCAI-2022-5653cd3e,AIconf-2022,IJCAI,4,1,"ineligible on full text: fixing knockout sports tournaments (C0 INELIG, passes A and B)"
+AAMAS-2025-ac21cba7,AIconf-2025,AAMAS,4,1,"ineligible on full text: sortition algorithm, no aggregation by voting (C0 INELIG, passes A and B)"
 EC-2022-7579a9e9,EC-2022,EC,2,1,unavailable:  | tried: https://dl.acm.org/doi/pdf/10.1145/3490486.3538242: HTTP Error 403: Forbidden
+EC-2023-3323128f,EC-2023,EC,5,1,"ineligible on full text: auditability of allocation mechanisms (C0 INELIG, passes A and B)"
 MSS-2021-0fc64d85,Journal-2021,MSS,10,1,unavailable:  | tried: https://www.sciencedirect.com/science/article/pii/S016548962: HTTP Error 403: Forbidden
 SCW-2021-263e5d4e,Journal-2021,SCW,12,0,unavailable: no open version
 MSS-2021-a3837e65,Journal-2021,MSS,13,0,unavailable: no open version
