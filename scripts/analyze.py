@@ -64,6 +64,8 @@ def O5_dich(d): return None if g(d, "C4.2") in ("NA", "") else int(g(d, "C4.2") 
 def O2b(d): return None if g(d, "C7.1") in ("NA", "") else int(g(d, "C7.1") == "Y")
 def O2b_reason(d): return None if g(d, "C7.1") != "Y" else int(g(d, "C7.2") == "REASON")
 def procedural_explicit(d): return int(g(d, "C10.1") == "Y")
+# post hoc (added after the results, at the researcher's request): non-strategic voters without a stated reason, of all papers
+def O4_unjust_all(d): return 0 if g(d, "C3.2") in ("NA", "") else 1 - O4_reason(d)
 
 MEASURES = [
     ("O0", "Purely procedural: no welfare-type criteria in results and no claims beyond results", O0),
@@ -76,6 +78,7 @@ MEASURES = [
     ("O3i", "Some assumption needed for claims beyond results unstated, among papers making such claims", O3_claims),
     ("O4", "Sincerity stated, among papers with non-strategic analyses and held preferences", O4),
     ("O4r", "Sincerity stated with a reason (same denominator)", O4_reason),
+    ("O4u", "Post hoc: voters non-strategic in some analysis, without a stated reason (all eligible papers)", O4_unjust_all),
     ("O5", "Link between ordinal/approval inputs and utilities specified, where utility-type notions are used", O5),
     ("O5d", "Meaning of dichotomous preferences stated, where the term is used", O5_dich),
     ("O2b", "Some stakeholder strategic while another is not, among papers with two or more acting types", O2b),

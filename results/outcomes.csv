@@ -9,8 +9,9 @@ O3w,"Welfare-type criteria evaluated on inputs without stated relation to prefer
 O3i,"Some assumption needed for claims beyond results unstated, among papers making such claims",133,61,0.459,0.452,0.374,0.531
 O4,"Sincerity stated, among papers with non-strategic analyses and held preferences",111,43,0.387,0.389,0.304,0.473
 O4r,Sincerity stated with a reason (same denominator),111,18,0.162,0.171,0.106,0.242
-O5,"Link between ordinal/approval inputs and utilities specified, where utility-type notions are used",62,53,0.855,0.833,0.732,0.92
-O5d,"Meaning of dichotomous preferences stated, where the term is used",12,6,0.5,0.444,0.159,0.767
-O2b,"Some stakeholder strategic while another is not, among papers with two or more acting types",33,19,0.576,0.564,0.4,0.719
-O2br,Reason given for that difference,19,8,0.421,0.456,0.233,0.68
+O4u,"Post hoc: voters non-strategic in some analysis, without a stated reason (all eligible papers)",150,93,0.62,0.59,0.516,0.66
+O5,"Link between ordinal/approval inputs and utilities specified, where utility-type notions are used",62,53,0.855,0.833,0.731,0.928
+O5d,"Meaning of dichotomous preferences stated, where the term is used",12,6,0.5,0.444,0.172,0.762
+O2b,"Some stakeholder strategic while another is not, among papers with two or more acting types",33,19,0.576,0.564,0.397,0.712
+O2br,Reason given for that difference,19,8,0.421,0.456,0.227,0.696
 P,Paper states an explicitly procedural reading (C10.1),150,1,0.007,0.009,0.0,0.026
