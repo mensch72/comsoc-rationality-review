@@ -1,0 +1,190 @@
+{
+ "paper_id": "GEB-2021-19e28871",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Section 2.1, p.5",
+  "quote": "each proposal k is decided through simple majority voting.",
+  "note": "The paper studies vote trading before majority voting on binary proposals, i.e. strategic aspects of a voting procedure."
+ },
+ "C1": {
+  "types": [
+   "EM",
+   "EQ",
+   "SI"
+  ],
+  "primary": "EM",
+  "loc": "Abstract, p.1; Section 2.3, p.7-8; Section 3.1.1, p.14-15",
+  "quote": "We explore this subject with a laboratory experiment.",
+  "note": "EQ: stability and convergence of Pivot algorithms (theorem from CP), which the conclusion calls an 'equilibrium concept based on stability'. SI: random-trading simulations used as a benchmark. Primary is the laboratory experiment."
+ },
+ "C2.1": {
+  "value": "votes; vote allocation (vote holdings per proposal)",
+  "loc": "Section 2.1, p.5",
+  "quote": "the pro\u2026le of vote holdings over all voters and proposals"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 2.1, p.6",
+  "quote": "cast all votes in his possession over each proposal",
+  "note": "Input is a number of votes held per binary proposal, cast for or against under simple majority (a vote allocation)."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2.1, p.5",
+  "quote": "the value attached by member i to the approval of proposal k",
+  "note": "Voters have values z_ik (cardinal) and preferences over outcomes."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2.1, p.5",
+  "quote": "We denote by vik the votes held by voter i over proposal k",
+  "note": "Vote holdings v and values Z have separate notation. Trading makes the votes a voter casts differ from the one-vote-per-proposal sincere baseline. Only the direction of casting is stated to be sincere."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Abstract; Sections 2.2, 3, 4",
+  "quote": "pairs of voters exchange votes whenever doing so is mutually advantageous",
+  "note": "Every analysis concerns vote trading, in which voters give up support on some issues to others, so the cast votes differ from the sincere baseline. Lab subjects trade freely. Only the casting direction is sincere."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C2.2 contains only OTH."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term 'dichotomous preferences' not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 2, 4",
+  "quote": "none found",
+  "note": "Payoff-based classifications (Pivot trades, farsighted gains) test trader behaviour and stability. They do not evaluate outcomes or rules by welfare, efficiency or representation, and efficiency appears only in the introduction."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 2.2, p.7",
+   "quote_behav": "Pivot Algorithms are de\u2026ned as sequences of trades yielding myopic strict gains",
+   "loc_info": "Section 3, p.9",
+   "quote_info": "The vote table conveys to all voters complete information about voters\u2019preferences",
+   "note": "Voters are myopically strategic traders in the theory, and lab subjects choose freely. The random-trading null benchmark is a comparison model, not the main behavioural model. Vote casting itself is sincere and automatic."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "DOM",
+   "ITER",
+   "COAL"
+  ],
+  "loc": "Section 2.1, p.6; Section 2.2, p.7; Section 4.2.5, p.32",
+  "quote": "each voter\u2019s dominant strategy is to cast all votes in his possession",
+  "note": "DOM: sincere voting is a dominant strategy. ITER: Pivot algorithm of sequential myopic improving trades. COAL: pairwise stability and the farsighted core / F-dominance."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 2.1, Definition 3, p.6",
+  "quote": "An allocation v 2 V is stable if, for every pair of voters"
+ },
+ "C9.1": {
+  "code": "N",
+  "claims": [],
+  "note": "The introduction motivates the study with legislatures, and the conclusion reports experimental findings and possible extensions. No claims found about what the results imply for institutions, voter welfare or which rule to use."
+ },
+ "C9.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C9.1 = N."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction; Section 2; Conclusions",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C2.4": {
+   "chosen": "A",
+   "reason": "The submitted vote allocation and the held values Z are formally separate objects, and trading makes them diverge, which fits DIST better than IDJ."
+  },
+  "C3.1": {
+   "chosen": "A",
+   "reason": "All main analyses (theory and experiment) model voters strategically altering their submitted votes through trading, and lab subjects choose trades freely."
+  },
+  "C3.2": {
+   "chosen": "A",
+   "reason": "C3.2 is NA when C3.1 = ALL."
+  },
+  "C3.3": {
+   "chosen": "A",
+   "reason": "C3.3 is NA when C3.2 is not STATED."
+  },
+  "C5.1": {
+   "chosen": "B",
+   "reason": "Payoff gains are used to classify and test trading behaviour against the stability theory, not to evaluate outcomes or rules by a welfare criterion."
+  },
+  "C5.2": {
+   "chosen": "B",
+   "reason": "C5.2 is NA when C5.1 = N."
+  }
+ }
+}

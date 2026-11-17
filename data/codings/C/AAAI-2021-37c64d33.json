@@ -1,0 +1,35 @@
+{
+ "paper_id": "AAAI-2021-37c64d33",
+ "decisions": {
+  "C2.4": {
+   "value": {
+    "code": "DIST",
+    "loc": "Manipulating the Veto Core, p. 5494",
+    "quote": "blocking a candidate they would not sincerely, or refusing to block",
+    "note": "In the manipulation section the manipulator's sincere order P1 and the submitted strategic vote P1' have separate notation, and the text says the submitted ballot may differ from sincere preferences. Elsewhere 'preferences' and 'ballots' are used as synonyms."
+   },
+   "chosen": "A",
+   "reason": "The paper uses separate notation for the sincere order and the strategic vote, and states that a voter can submit something other than what they would sincerely, which meets the DIST condition."
+  },
+  "C5.1": {
+   "value": {
+    "code": "Y",
+    "loc": "Preliminaries, p. 5490; Selecting from the Veto Core, p. 5493",
+    "quote": "Other desirable properties it satisfies include Pareto efficiency, strongly monotonicity, homogeneity",
+    "note": "Pareto efficiency is asserted as a formal property of the veto core and of veto by consumption, in the body of the paper."
+   },
+   "chosen": "A",
+   "reason": "Pareto efficiency is an efficiency criterion asserted as a property of the rules in the body of the paper, not only in the introduction, so C5.1 = Y."
+  },
+  "C5.2": {
+   "value": {
+    "code": "INPUT-UNSTATED",
+    "loc": "Preliminaries, p. 5490",
+    "quote": "A voting rule is a function that maps a profile",
+    "note": "Pareto efficiency is evaluated on the profile of submitted orders, with no statement relating that profile to held attitudes in the non-strategic analyses."
+   },
+   "chosen": "A",
+   "reason": "Pareto efficiency is evaluated on the input profile, and the paper never states that the input equals held preferences in these analyses."
+  }
+ }
+}

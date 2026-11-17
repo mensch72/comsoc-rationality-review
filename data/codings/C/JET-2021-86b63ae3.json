@@ -1,0 +1,21 @@
+{
+ "paper_id": "JET-2021-86b63ae3",
+ "decisions": {
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Section 2, p.8",
+    "quote_behav": "denote the subset of candidates approved by voter v",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Voters act by approving candidates. Their ballots are exogenous inputs, so behaviour is fixed but not described in words."
+   },
+   "chosen": "A",
+   "reason": "The codebook counts an agent as present if it takes an action, whether strategic or fixed, and voters casting approval ballots is such an action, fixed by the model and only inferable from it."
+  }
+ }
+}

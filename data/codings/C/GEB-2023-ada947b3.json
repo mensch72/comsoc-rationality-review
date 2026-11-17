@@ -1,0 +1,78 @@
+{
+ "paper_id": "GEB-2023-ada947b3",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "SB",
+     "EQ",
+     "EM"
+    ],
+    "primary": "EQ",
+    "loc": "Sections 3, 5-6",
+    "quote": "each trimmed mechanism leads, essentially, to a unique equilibrium",
+    "note": "Main results are a strong Nash equilibrium characterisation and comparative statics, plus a lab experiment. Incentives to misreport (polarisation, weak dominance of sincerity under the median) are also analysed, so SB applies."
+   },
+   "chosen": "B",
+   "reason": "The paper explicitly analyses incentives for strategic misreporting and the weak dominance of sincere voting under the median, which falls under SB alongside EQ and EM."
+  },
+  "C2.2": {
+   "value": {
+    "codes": [
+     "OTH"
+    ],
+    "loc": "Section 2, p.6",
+    "quote": "the strategy space for each player equals S = [0, 1]",
+    "note": "Each input is a single point (location) in the unit interval, integers 1-100 in the experiment, not a cardinal score or utility over alternatives."
+   },
+   "chosen": "A",
+   "reason": "A report is a location in the policy interval, not a cardinal score, utility or valuation, so OTH fits better than CARD."
+  },
+  "C3.1": {
+   "value": {
+    "code": "SOME",
+    "loc": "Section 4; Sections 3, 5",
+    "quote": "Sincere voting outcome of trimming",
+    "note": "The equilibrium and experimental analyses are strategic. Section 4 (Examples 1-2, Tables 1-3) also analyses outcomes under sincere voting as a benchmark."
+   },
+   "chosen": "B",
+   "reason": "Section 4 explicitly analyses sincere-voting outcomes in worked examples, so not every analysis models strategic voters."
+  },
+  "C3.2": {
+   "value": {
+    "code": "STATED",
+    "loc": "Section 4, Table 1",
+    "quote": "Note that when voting is sincere si = pi .",
+    "note": "The sincere analyses are explicitly defined by si = pi."
+   },
+   "chosen": "B",
+   "reason": "For the sincere benchmark analyses the paper states in words that reports equal peaks."
+  },
+  "C3.3": {
+   "value": {
+    "code": "NONE",
+    "loc": "Section 4",
+    "quote": "Under sincere voting, si = pi",
+    "note": "Sincere voting serves only as a comparison benchmark, and no reason is given for voters being sincere."
+   },
+   "chosen": "B",
+   "reason": "No justification is offered for sincere behaviour in the benchmark, so NONE applies."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "MIXED",
+    "behav_stated": "EXPLICIT",
+    "info": "COMPLETE",
+    "info_stated": "EXPLICIT",
+    "loc_behav": "Section 4",
+    "quote_behav": "Under sincere voting, si = pi , and under strategic voting",
+    "loc_info": "Section 7",
+    "quote_info": "Our results were derived in a context of complete information",
+    "note": "Strategic in the equilibrium analysis and the experiment; sincere in the Section 4 benchmark. Starting points are common knowledge in the experiment."
+   },
+   "chosen": "B",
+   "reason": "Consistent with C3.1 = SOME, voters are strategic in the main analyses and sincere in the benchmark analysis."
+  }
+ }
+}

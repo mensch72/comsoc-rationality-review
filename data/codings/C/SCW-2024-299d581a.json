@@ -1,0 +1,31 @@
+{
+ "paper_id": "SCW-2024-299d581a",
+ "decisions": {
+  "C4.2": {
+   "value": {
+    "code": "Y",
+    "loc": "Sect. 2, p. 646",
+    "quote": "The utility of agent i for a bundle R is given by",
+    "note": "The paper uses 'dichotomous' for approval preferences and defines utility as the size of the approved part of the bundle, so approved resource counts by size and unapproved resource counts 0."
+   },
+   "chosen": "A",
+   "reason": "The paper states the utility meaning of the two classes: utility is the size of the intersection with the approved bundle, matching the codebook's 'utility 1 for approved, 0 otherwise' example."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Sect. 2, p. 646",
+    "quote_behav": "each agent i \u2208 N approves a bundle Ri",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Agents' approvals are fixed inputs to the rule, with no strategic choice modelled."
+   },
+   "chosen": "A",
+   "reason": "Agents approving bundles is an action in the model; the codebook counts actions that are fixed, so voters are present and NONSTRAT."
+  }
+ }
+}

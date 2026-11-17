@@ -1,0 +1,65 @@
+{
+ "paper_id": "IJCAI-2021-43528f67",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "AX",
+     "AL"
+    ],
+    "primary": "AX",
+    "loc": "Abstract, p. 299; Table 1, p. 302",
+    "quote": "investigate under which conditions these criteria can be satisfied, and analyze",
+    "note": "Most results are existence or impossibility guarantees for fairness criteria (Props 4, 5, Thm 7, Examples 5-8). Complexity results are Props 1-3."
+   },
+   "chosen": "A",
+   "reason": "The results are existence guarantees for fairness criteria (AX) and complexity results (AL); no result measures rule performance against a welfare optimum or distortion, so WD does not apply."
+  },
+  "C2.4": {
+   "value": {
+    "code": "DIST",
+    "loc": "Sec. 4.2, p. 301",
+    "quote": "We thus need to approximate the satisfaction of an agent.",
+    "note": "Private personal utility functions are described in words as separate from the approval ballots, and satisfaction computed from ballots is only an approximation of them."
+   },
+   "chosen": "A",
+   "reason": "The input is called approval ballots rather than preferences, so IDU does not fit, and the text separates the private utility functions from what is observed."
+  },
+  "C4.1": {
+   "value": {
+    "code": "SPEC",
+    "loc": "Sec. 4.2 Def. 6, p. 301",
+    "quote": "sat m j (I, \u03c0j , i) = c(\u03c0j \u2229 Aj (i)).",
+    "note": "Satisfaction is formally defined from approval ballots, analogous to utility for approved projects."
+   },
+   "chosen": "A",
+   "reason": "The paper formally defines voter satisfaction as a function of the approval input, which matches the SPEC examples."
+  },
+  "C5.2": {
+   "value": {
+    "code": "INPUT-REPORTED",
+    "loc": "Sec. 4.2, pp. 301-302",
+    "quote": "neither agent 1 or 2 can be made happier (subject to the available information)",
+    "note": "Welfare is computed on ballots. The paper says it approximates private satisfaction from the available information."
+   },
+   "chosen": "A",
+   "reason": "The paper does relate the ballot-based welfare to held attitudes, saying it approximates private utility using the available information, so INPUT-UNSTATED does not fit."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Sec. 3 Def. 1, p. 300",
+    "quote_behav": "is the approval function giving for every",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Ballots are exogenous inputs."
+   },
+   "chosen": "A",
+   "reason": "Voters submit approval ballots, which counts as an action even when fixed, so voters are present and non-strategic by implication from the formal model."
+  }
+ }
+}

@@ -1,0 +1,195 @@
+{
+ "paper_id": "GEB-2021-b542eb9a",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Section 3, p.6-8",
+  "quote": "The winning candidate is determined by simple majority rule",
+  "note": "Two-candidate majority election game with strategic voting and turnout under media endorsements."
+ },
+ "C1": {
+  "types": [
+   "EQ",
+   "EM"
+  ],
+  "primary": "EM",
+  "loc": "Abstract; Sections 4, 6",
+  "quote": "We test these predictions in a laboratory experiment",
+  "note": "BNE and QRE derivations, then a laboratory experiment with human subjects. Most results are experimental."
+ },
+ "C2.1": {
+  "value": "votes; action from {A, B, O}",
+  "loc": "Section 3, p.6",
+  "quote": "Each voter can choose an action from {A, B, O}"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 3, p.6",
+  "quote": "representing voting for candidate A, candidate B, and abstaining",
+  "note": "Single vote for one of two candidates, or abstention."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 3, p.6-7",
+  "quote": "vi represents voter i's ideological preference",
+  "note": "Also utility function u(k, vi, ci, ai, \u03c9)."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 3, p.7",
+  "quote": "ai \u2208 {A, B, O} indicates voter i's action",
+  "note": "Action ai is notationally separate from type (vi, ci) and utility."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Sections 4, 5",
+  "quote": "voters simultaneously decide on their votes (or abstain)",
+  "note": "Voters best-respond in BNE/QRE; experimental subjects choose votes freely."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Input format is OTH only."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 4, 6",
+  "quote": "none found",
+  "note": "Results concern vote shares, winning probabilities and turnout. Welfare is mentioned only in the introduction."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 4.1, p.8",
+   "quote_behav": "the voter has to weigh the expected benefits against the costs",
+   "loc_info": "Section 3, p.6",
+   "quote_info": "k is assumed to be unobservable to voters but precisely observable",
+   "note": "Voters observe media messages and know media biases. Other voters' types are private information."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 3, p.7",
+   "quote_behav": "sends public endorsement using the following cutoff strategy",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Media outlets (robots in the experiment) follow a fixed cutoff endorsement strategy."
+  }
+ },
+ "C7.1": {
+  "code": "Y",
+  "loc": "Section 3, p.7",
+  "quote": "sends public endorsement using the following cutoff strategy",
+  "note": "Voters are STRAT; media outlets are NONSTRAT."
+ },
+ "C7.2": {
+  "code": "REASON",
+  "loc": "Section 3, footnote 9, p.7",
+  "quote": "the cutoff strategy (2) endogenously arises in equilibrium",
+  "note": "The footnote argues that the media's fixed cutoff strategy is equilibrium behaviour under a stated utility and cheap talk, with details in the companion paper SSS18."
+ },
+ "C8.1": {
+  "codes": [
+   "BNE",
+   "BND",
+   "OTH"
+  ],
+  "loc": "Sections 4.1, 4.2, 7",
+  "quote": "derive both Bayesian Nash equilibria (BNE) and quantal response equilibrium",
+  "note": "OTH = quantal response equilibrium. BND = competition neglect and non-Bayesian updating models."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 4.1, p.8",
+  "quote": "we first derive the Bayesian Nash Equilibrium (BNE)"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 1, p.1",
+    "quote": "Mass media would be efficiency enhancing if they provide unbiased information"
+   },
+   {
+    "loc": "Section 8, p.40",
+    "quote": "provides a possible rationale for the mixed empirical evidence"
+   },
+   {
+    "loc": "Section 8, p.40",
+    "quote": "provide clear implications for understanding the world outside the laboratory"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sections 1, 3",
+  "quote": "Throughout the analysis, we assume that voters know exactly each media's bias",
+  "note": "Needed assumptions are stated: media cutoff strategy, voters' knowledge of biases, and utility structure."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 3, 8",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C7.2": {
+   "chosen": "A",
+   "reason": "Footnote 9 gives a substantive argument, specifying the media utility and cheap-talk setting under which the cutoff strategy is equilibrium behaviour, so it is more than a bare citation."
+  },
+  "C8.1": {
+   "chosen": "A",
+   "reason": "Section 7 explicitly analyses bounded-rationality models (competition neglect, non-Bayesian updating), so BND belongs alongside BNE and QRE."
+  }
+ }
+}

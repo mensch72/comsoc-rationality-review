@@ -1,0 +1,67 @@
+{
+ "paper_id": "COMSOC-2025-2a5a5e31",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "AL",
+     "WD",
+     "SI",
+     "EM"
+    ],
+    "primary": "AL",
+    "loc": "Abstract; Sections 4-6",
+    "quote": "requires \u03a9(m2 ) non-adaptive queries, where m is the number of candidates",
+    "note": "Query-complexity bounds and approximation algorithms (AL) dominate. The experiments compare greedy and local search against approval voting on Max Cover (CC) score, which is a rule-performance-against-objective result (WD). Experiments use Polis data (EM) and synthetic data (SI)."
+   },
+   "chosen": "B",
+   "reason": "The experiments evaluate rules against the Chamberlin-Courant representation objective, comparing them with approval voting, so WD applies to a main result."
+  },
+  "C3.2": {
+   "value": {
+    "code": "STATED",
+    "loc": "App. D, p.20; Sec. 5, p.8",
+    "quote": "for accurate information, we write A(i, j) to query the opinion",
+    "note": "In the accurate settings a query is said to return the voter's opinion, i.e. their true approval, in contrast to inaccurate reporting."
+   },
+   "chosen": "A",
+   "reason": "The paper says in words that accurate queries return the voter's opinion, as opposed to inaccurately reporting their true approvals."
+  },
+  "C3.3": {
+   "value": {
+    "code": "NONE",
+    "loc": "Sec. 4, p.4; App. D, p.20",
+    "quote": "which equals 1 in case voter vi approves candidate cj",
+    "note": "No reason is given for accurate answers."
+   },
+   "chosen": "A",
+   "reason": "Since C3.2 is STATED and no justification for accurate reporting is offered, NONE applies."
+  },
+  "C5.2": {
+   "value": {
+    "code": "HELD",
+    "loc": "Sec. 5, p.8; Definition 1",
+    "quote": "voters are inaccurate in reporting their true approvals",
+    "note": "The CC score is computed on the true approvals A, which are notationally separate from the noisy reports Ap."
+   },
+   "chosen": "A",
+   "reason": "The objective is defined on the true approval profile A, which the paper distinguishes from the submitted responses Ap."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "EXPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Sec. 5, p.8",
+    "quote_behav": "we assume each query A(i, j) is incorrect with a probability p",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Voters answer queries truthfully or with random noise."
+   },
+   "chosen": "A",
+   "reason": "The voters' response behaviour, accurate or randomly corrupted, is stated in words as an assumption."
+  }
+ }
+}

@@ -1,0 +1,199 @@
+{
+ "paper_id": "AAMAS-2023-ab1e7cc5",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1752",
+  "quote": "voters cast approval ballots, two finalists are selected, and a runoff",
+  "note": ""
+ },
+ "C1": {
+  "types": [
+   "WD",
+   "SI",
+   "EM"
+  ],
+  "primary": "WD",
+  "loc": "Abstract p.1752; Sec 7.2 p.1759",
+  "quote": "performance of every voting system is quantitatively measured by its worst-case",
+  "note": "Most results are distortion bounds. Section 7 adds simulations on synthetic data and on PrefLib real-world rankings, with synthetic utilities."
+ },
+ "C2.1": {
+  "value": "approval ballots / approval profile; ranking profile (runoff)",
+  "loc": "Sec 3.1-3.2, p.1754",
+  "quote": "maps an approval profile to a distribution over the candidates"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR",
+   "RANK"
+  ],
+  "loc": "Sec 3.2, p.1754",
+  "quote": "takes as input the distribution over pairs of candidates from the first stage",
+  "note": "The first stage uses approval sets. The runoff uses the ranking profile \u03c3."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec 3, p.1754",
+  "quote": "each voter \ud835\udc56 \u2208 \ud835\udc41 has a utility function \ud835\udc62\ud835\udc56 : \ud835\udc36 \u2192 R\u2a7e0",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Sec 3.3, p.1754",
+  "quote": "\ud835\udf0b\u00ae is the approval profile induced by utility profile \ud835\udc62\u00ae",
+  "note": "Approvals (\u03c0) and utilities (u) have separate notation. Approvals are derived from utilities via the threshold \u03c4."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sec 3.1, p.1754",
+  "quote": "each voter approves all the candidates for which she has utility",
+  "note": ""
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Sec 1, p.1752",
+  "quote": "it is assumed that each voter only approves the candidates for",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "CONV",
+  "loc": "Sec 1, p.1752",
+  "quote": "we use the implicit utilitarian framework introduced by Procaccia and Rosenschein",
+  "note": "The assumption is presented as part of the adopted framework from prior work."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Sec 3.1, p.1754",
+  "quote": "each voter approves all the candidates for which she has utility",
+  "note": "Rankings are also defined as consistent with utilities (Sec 3.2)."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sec 3.3, p.1754",
+  "quote": "we use the notion of distortion proposed by Procaccia and Rosenschein",
+  "note": ""
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Sec 3.3, p.1754",
+  "quote": "Define the distortion of a distribution over candidates \ud835\udc65 \u2208 \u0394(\ud835\udc36)",
+  "note": "Distortion is evaluated against cardinal utilities, which are defined separately from ballots."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sec 3.2, p.1754",
+   "quote_behav": "each voter \ud835\udc56 votes for the one who is higher up",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Sec 3, p.1754",
+   "quote_behav": "the election designer designs a voting system",
+   "loc_info": "Sec 3, p.1754",
+   "quote_info": "The challenge is that we do not have access to the",
+   "note": "The designer chooses the rule and threshold \u03c4 to minimise worst-case distortion. The designer sees only the ballots, not the utilities. Coding the designer as present is borderline."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "Y",
+  "loc": "Sec 3, p.1754",
+  "quote": "Hence, the election designer designs a voting system",
+  "note": "The designer (DES) optimises worst-case distortion (STRAT), while voters (VOT) follow fixed threshold behaviour (NONSTRAT) in the same analysis."
+ },
+ "C7.2": {
+  "code": "NONE",
+  "loc": "Sec 1, 3, 8",
+  "quote": "none found",
+  "note": "No argument is given for modelling the designer as optimising while voters follow a fixed threshold."
+ },
+ "C8.1": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Sec 3.3, p.1754",
+  "quote": "The (overall) distortion of \ud835\udc53 with respect to \ud835\udf0f is",
+  "note": "The designer's choice is analysed by worst-case (minimax) optimisation of distortion."
+ },
+ "C8.2": {
+  "code": "N",
+  "loc": "Sec 3.3, p.1754",
+  "quote": "none found"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.1752",
+    "quote": "We pinpoint the use of majority runoff in the second stage"
+   },
+   {
+    "loc": "Sec 1, p.1752",
+    "quote": "Having a runoff round is beneficial for several reasons."
+   },
+   {
+    "loc": "Sec 8, p.1759",
+    "quote": "distortion increases substantially when a majority runoff is used"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sec 1, p.1752-1753; Sec 3, p.1754",
+  "quote": "Our assumption is that all the voters use the same threshold",
+  "note": "The needed assumptions are stated: sincere threshold approval, a common threshold, ranking consistent with utilities, and unit-sum utilities."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sec 1, 3, 8",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C1": {
+   "chosen": "A",
+   "reason": "Section 7.2 runs experiments on real-world PrefLib datasets, which meets the EM definition of real-world data, alongside WD and SI."
+  },
+  "C7.1": {
+   "chosen": "A",
+   "reason": "Both coders code DES as present and STRAT and VOT as NONSTRAT in the same distortion analysis, so C7.1 must be Y."
+  },
+  "C7.2": {
+   "chosen": "A",
+   "reason": "C7.1 is Y and no argument or citation for the difference in modelled behaviour between designer and voters was found."
+  }
+ }
+}

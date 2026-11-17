@@ -1,0 +1,209 @@
+{
+ "paper_id": "AAAI-2025-b174e3f4",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Introduction, p. 13915",
+  "quote": "measuring resistance to manipulation by whether neural networks of various sizes",
+  "note": "Studies strategic manipulation of preferential voting methods."
+ },
+ "C1": {
+  "types": [
+   "SB",
+   "SI"
+  ],
+  "primary": "SB",
+  "loc": "Introduction, p. 13915; Learning to Manipulate, p. 13917",
+  "quote": "In this paper, we take a different approach than previous work",
+  "note": "All main results are simulations, on synthetic data, of single-voter manipulation, so SB and SI fit equally well; SB is chosen because it is listed first."
+ },
+ "C2.1": {
+  "value": "preference profile; rankings",
+  "loc": "Preliminaries, p. 13916",
+  "quote": "a preference profile for (V, X) is a function P assigning"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Preliminaries, p. 13916",
+  "quote": "assigning to each i \u2208 V a linear order Pi of X",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Preliminaries, p. 13916",
+  "quote": "A utility profile for (V, X) is a function U assigning",
+  "note": "Utilities are held attitudes; the submitted rankings may differ from the induced sincere preferences."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Preliminaries, p. 13916",
+  "quote": "a linear order P0i of X is a profitable manipulation",
+  "note": "The submitted ranking P'_i is notated separately from the utility U_i and from the induced sincere order P(U)."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Introduction, p. 13915",
+  "quote": "we focus on the case of a single manipulating voter",
+  "note": "Every analysis has one strategic manipulator; the other voters submit sincere rankings."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Preliminaries, p. 13916",
+  "quote": "its induced preference profile P(U) assigns to each i \u2208 V",
+  "note": "Rankings are induced from utilities by x \u227b y iff U(x) > U(y); for the Mallows model, utilities consistent with the ballot are sampled."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Evaluation, p. 13919",
+  "quote": "We call this the profitability of P0i with respect to F",
+  "note": "Results evaluate the manipulator's normalised expected-utility gain, i.e. voter utility. Coded Y with some doubt, since this is the manipulator's own utility rather than an evaluation of the collective outcome."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Evaluation, p. 13919",
+  "quote": "the greatest possible utility difference according to Ui",
+  "note": "Profitability is computed on utilities that are defined separately from the submitted rankings."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Preliminaries, p. 13916",
+   "quote_behav": "our manipulating agent aims to maximize expected utility",
+   "loc_info": "Introduction, p. 13915",
+   "quote_info": "given different types of limited information about how other voters will vote",
+   "note": "Within each analysis, one voter (the manipulator) is strategic and the remaining voters are sincere. The baseline ideal manipulator has full information about the profile."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present as a type."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "DEV",
+   "BND"
+  ],
+  "loc": "Preliminaries, p. 13916; Learning to Manipulate, p. 13917",
+  "quote": "How difficult is it for a computationally bounded agent to learn",
+  "note": "The manipulator seeks an optimal or profitable ranking. The learned MLP policies represent computationally bounded behaviour."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Preliminaries, p. 13916",
+  "quote": "aims to submit an optimal ranking"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p. 13915",
+    "quote": "overall least manipulable of the 8 methods we study are Condorcet methods"
+   },
+   {
+    "loc": "Introduction, p. 13915",
+    "quote": "rational manipulation by a single voter is most relevant for small elections"
+   },
+   {
+    "loc": "Introduction, p. 13915",
+    "quote": "Such resistance to manipulation has been considered an important criterion for comparing"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Introduction, p. 13915; Implementation Details, p. 13917",
+  "quote": "we focus on the case of a single manipulating voter",
+  "note": "The needed assumptions are stated: a single strategic voter with the other voters sincere, the information available to the manipulator, and the probability models generating utilities. The conclusion flags the case where all agents strategize as open."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction, Preliminaries, Conclusion",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C1": {
+   "chosen": "A",
+   "reason": "Every main result is both a simulation and a manipulation analysis, so the doubt rule applies and SB, listed first, is the primary type."
+  },
+  "C3.1": {
+   "chosen": "A",
+   "reason": "Every main analysis, including the ideal-manipulator baseline, considers a voter submitting a ranking that differs from their utilities."
+  },
+  "C3.2": {
+   "chosen": "A",
+   "reason": "C3.1 is ALL, so C3.2 is NA by the codebook."
+  },
+  "C7.1": {
+   "chosen": "A",
+   "reason": "C7.1 compares stakeholder types, and only one type (VOT) is present, so the code is NA."
+  },
+  "C7.2": {
+   "chosen": "A",
+   "reason": "C7.1 is not Y, so C7.2 is NA."
+  },
+  "C8.1": {
+   "chosen": "A",
+   "reason": "Optimal or profitable manipulation is a DEV-type problem, and the learned MLP manipulators are explicitly computationally bounded agents, which fits BND."
+  },
+  "C8.2": {
+   "chosen": "A",
+   "reason": "The paper explicitly names and defines its concepts of profitable and optimal manipulation."
+  },
+  "C9.2": {
+   "chosen": "A",
+   "reason": "The claims are qualified by the stated single-manipulator setting, the explicit P = P(U) definition and the named probability models, so the needed assumptions are stated."
+  }
+ }
+}

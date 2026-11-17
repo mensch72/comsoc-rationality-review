@@ -1,0 +1,65 @@
+{
+ "paper_id": "GEB-2021-19e28871",
+ "decisions": {
+  "C2.4": {
+   "value": {
+    "code": "DIST",
+    "loc": "Section 2.1, p.5",
+    "quote": "We denote by vik the votes held by voter i over proposal k",
+    "note": "Vote holdings v and values Z have separate notation. Trading makes the votes a voter casts differ from the one-vote-per-proposal sincere baseline. Only the direction of casting is stated to be sincere."
+   },
+   "chosen": "A",
+   "reason": "The submitted vote allocation and the held values Z are formally separate objects, and trading makes them diverge, which fits DIST better than IDJ."
+  },
+  "C3.1": {
+   "value": {
+    "code": "ALL",
+    "loc": "Abstract; Sections 2.2, 3, 4",
+    "quote": "pairs of voters exchange votes whenever doing so is mutually advantageous",
+    "note": "Every analysis concerns vote trading, in which voters give up support on some issues to others, so the cast votes differ from the sincere baseline. Lab subjects trade freely. Only the casting direction is sincere."
+   },
+   "chosen": "A",
+   "reason": "All main analyses (theory and experiment) model voters strategically altering their submitted votes through trading, and lab subjects choose trades freely."
+  },
+  "C3.2": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "C3.1 = ALL."
+   },
+   "chosen": "A",
+   "reason": "C3.2 is NA when C3.1 = ALL."
+  },
+  "C3.3": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "C3.2 not STATED."
+   },
+   "chosen": "A",
+   "reason": "C3.3 is NA when C3.2 is not STATED."
+  },
+  "C5.1": {
+   "value": {
+    "code": "N",
+    "loc": "Sections 2, 4",
+    "quote": "none found",
+    "note": "Payoff-based classifications (Pivot trades, farsighted gains) test trader behaviour and stability. They do not evaluate outcomes or rules by welfare, efficiency or representation, and efficiency appears only in the introduction."
+   },
+   "chosen": "B",
+   "reason": "Payoff gains are used to classify and test trading behaviour against the stability theory, not to evaluate outcomes or rules by a welfare criterion."
+  },
+  "C5.2": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "C5.1 = N"
+   },
+   "chosen": "B",
+   "reason": "C5.2 is NA when C5.1 = N."
+  }
+ }
+}

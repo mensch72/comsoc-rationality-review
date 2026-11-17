@@ -1,0 +1,59 @@
+{
+ "paper_id": "EC-2024-1dad3c35",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "AX",
+     "AL",
+     "SB",
+     "WD",
+     "SI",
+     "EM"
+    ],
+    "primary": "AX",
+    "loc": "Abstract, p.0; Sections 3-6",
+    "quote": "we give an axiomatic characterization of the Squared Kemeny rule",
+    "note": "AX: characterization (Thm 3.2). AL: NP-completeness and approximation (Sec 5). SB: strategyproofness is violated (Prop 3.4). WD: proportionality and distance guarantees (Sec 4). SI: synthetic samples (Sec 6.2-6.3). EM: city data and Preflib data (Sec 6.1-6.2)."
+   },
+   "chosen": "A",
+   "reason": "Section 6.1 uses real-world city data and Section 6.2 uses Preflib real-world datasets, so EM applies in addition to B's types."
+  },
+  "C2.4": {
+   "value": {
+    "code": "DIST",
+    "loc": "Section 3.3, p.11",
+    "quote": "agents should never be better off by lying than by voting truthfully",
+    "note": "The text says that the submitted ranking may differ from the held one. There is no separate notation outside the strategyproofness definition."
+   },
+   "chosen": "A",
+   "reason": "The codebook assigns DIST when the text says the submitted input may differ from the held attitude, and the strategyproofness passage says exactly that."
+  },
+  "C4.1": {
+   "value": {
+    "code": "SPEC",
+    "loc": "Section 3.2, p.8; Section 3.3, p.10",
+    "quote": "we use the swap distance between the input ranking and the output rankings",
+    "note": "Disutility and satisfaction are defined through the swap distance between the voter's ranking and the output ranking."
+   },
+   "chosen": "A",
+   "reason": "The paper defines disutility and preferences over outcomes explicitly through the swap distance to the input ranking, so the link is specified rather than partial."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "MIXED",
+    "behav_stated": "EXPLICIT",
+    "info": "NS",
+    "info_stated": "NA",
+    "loc_behav": "Section 3.3, p.11",
+    "quote_behav": "agents should never be better off by lying than by voting truthfully",
+    "loc_info": "Introduction, Section 2, Section 3.3",
+    "quote_info": "none found",
+    "note": "Voters are strategic only in the strategyproofness analysis. In all other analyses, inputs are taken as given."
+   },
+   "chosen": "A",
+   "reason": "Voters are treated as strategic only in the strategyproofness analysis and as fixed inputs elsewhere, which matches MIXED."
+  }
+ }
+}

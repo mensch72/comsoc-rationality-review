@@ -1,0 +1,194 @@
+{
+ "paper_id": "COMSOC-2025-555abc91",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "We present an algorithm for computing committees that provide Proportional",
+  "note": "Multiwinner approval voting with preference elicitation via queries."
+ },
+ "C1": {
+  "types": [
+   "AL"
+  ],
+  "primary": "AL",
+  "loc": "Section 6, Theorem 4, p.7",
+  "quote": "Algorithm 2 finds a PJR+ committee with O(log(\u03c3k)) queries per voter",
+  "note": "Main results are query-complexity bounds for algorithms that output committees satisfying proportionality axioms."
+ },
+ "C2.1": {
+  "value": "approval set / approval ballot / approval interval (A(v)); voters' preferences",
+  "loc": "Section 3, Definition 1, p.3; Section 4, Definition 5, p.4",
+  "quote": "the voter's approval ballot is defined as A\u2217 (v) = [av , bv ]"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Section 3, Definition 1, p.3",
+  "quote": "maps each voter to the set of candidates she approves",
+  "note": "The paper also says CI preferences can be interpreted as single-peaked preferences in the dichotomous setting, but the inputs are defined as approval sets."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Abstract, p.1",
+  "quote": "voters may struggle to determine their preferences over the entire slate",
+  "note": "Voters hold approval intervals, which are elicited through queries."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 4.1, p.5",
+  "quote": "asks voter v whether they approve candidate position x",
+  "note": "Query answers are taken to be the voter's approval set; there is no statement about truthful reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 4-6",
+  "quote": "none found",
+  "note": "No strategic answering of queries is considered."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 3, 4, 4.1, 5, 7",
+  "quote": "none found",
+  "note": "Truthful answering of queries is assumed implicitly but never stated."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No utility, welfare, satisfaction, cost, distortion or intensity notion is used for voters (social welfare appears only in describing related work)."
+ },
+ "C4.2": {
+  "code": "N",
+  "loc": "Section 3, after Definition 4, p.4",
+  "quote": "CI preferences as single-peaked preferences in the dichotomous setting",
+  "note": "The term is used, so NA does not apply, but the two classes are not explained in terms of utility or a richer preference."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 3, Definition 2, p.3",
+  "quote": "All these axioms aim to capture the idea that large groups",
+  "note": "PJR+ and the core are used as proportionality/fairness criteria in the main results."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 3, Definitions 2-3, p.3",
+  "quote": "A committee W satisfies PJR+",
+  "note": "Axioms are evaluated on A(v), with no statement relating answers to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 4.1, p.5",
+   "quote_behav": "An interval query Int(x, y, v) communicates two candidate",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters answer queries according to their approval interval, as fixed by the model."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "The querying algorithm is the procedure under study, not an organiser agent in the formal model; no chair or authority chooses control actions, agenda or rule."
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present as a type under the C6 definition."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is strategic."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.2",
+    "quote": "RIV sufficient depth to be a nuanced model of how agents"
+   },
+   {
+    "loc": "Section 7, p.12",
+    "quote": "O(log \u03c3k) is a reasonable measure of what a voter can evaluate"
+   },
+   {
+    "loc": "Introduction, p.1",
+    "quote": "still provide guarantees on the social desirability of the outcome"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sections 4.1, 7",
+  "quote": "none found",
+  "note": "The fairness and social-desirability claims need voters to answer queries truthfully, i.e. answers equal held approvals; this is not stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 3, 4, 7",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C4.2": {
+   "chosen": "A",
+   "reason": "The paper does use the equivalent term 'dichotomous setting', so NA (term not used) does not apply, and the paper never says what the two classes represent."
+  },
+  "C6.ORG": {
+   "chosen": "A",
+   "reason": "The elicitation algorithm is the mechanism itself rather than an acting organiser agent, so under the codebook's narrow definition ORG is not present."
+  },
+  "C7.1": {
+   "chosen": "A",
+   "reason": "With ORG not present, fewer than two types are present, so C7.1 is NA."
+  }
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "paper_id": "SCW-2022-305481fc",
+ "decisions": {
+  "C3.1": {
+   "value": {
+    "code": "ALL",
+    "loc": "Sect. 3.1, p. 216-217",
+    "quote": "This is not the case when voters are conformists.",
+    "note": "In every analysis the independent voter chooses his vote to maximise utility including the conformity bonus. His vote can therefore depart from the candidate he judges more able. Partisans are passive in all analyses."
+   },
+   "chosen": "A",
+   "reason": "The independent voter's vote is a best response that, with conformism, can differ from his ability-based preference over candidates, and this holds in every main analysis, so ALL fits better than NONE."
+  },
+  "C3.2": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "C3.1 = ALL."
+   },
+   "chosen": "A",
+   "reason": "Because C3.1 = ALL, the codebook requires NA."
+  },
+  "C3.3": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "C3.2 is not STATED."
+   },
+   "chosen": "A",
+   "reason": "C3.2 is NA, so C3.3 is NA."
+  },
+  "C8.1": {
+   "value": {
+    "codes": [
+     "OTH"
+    ],
+    "loc": "Introduction p. 210; Sect. 3.3 p. 218",
+    "quote": "We apply the Intuitive Criterion to refine the pooling equilibria",
+    "note": "Perfect Bayesian Equilibrium of a signalling game, refined by the Intuitive Criterion."
+   },
+   "chosen": "A",
+   "reason": "PBE with the Intuitive Criterion is not a listed concept, so it belongs under OTH with a note; adding BNE double-codes the same concept."
+  }
+ }
+}

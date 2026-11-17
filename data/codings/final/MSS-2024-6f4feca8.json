@@ -1,0 +1,164 @@
+{
+ "paper_id": "MSS-2024-6f4feca8",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Section 1, p.1",
+  "quote": "the aggregation of individual preferences into a collective choice",
+  "note": "Studies symmetry groups (anonymity/neutrality) of social preference functions aggregating individual linear orders into a collective linear order."
+ },
+ "C1": {
+  "types": [
+   "AX"
+  ],
+  "primary": "AX",
+  "loc": "Abstract, p.1",
+  "quote": "which permutation groups may arise as anonymity, neutrality and symmetry group",
+  "note": "Group-theoretic characterisation of attainable anonymity/neutrality/symmetry levels of spfs."
+ },
+ "C2.1": {
+  "value": "preference profile",
+  "loc": "Section 2.1, p.4",
+  "quote": "The corresponding preference profile is given by p = (pi )hi=1"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2.1, p.4",
+  "quote": "each individual i \u2208 H expresses her preferences through some pi \u2208 Sn",
+  "note": "Linear orders identified with permutations in Sn."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2.1, p.4",
+  "quote": "each individual i \u2208 H expresses her preferences through some pi \u2208 Sn",
+  "note": "Input is described as the individuals' preferences, a held attitude, although no separate object is defined."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2.2, p.4",
+  "quote": "A social preference function spf on n alternatives and h individuals",
+  "note": "The rule is applied directly to preferences, with no statement about submission or reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-11",
+  "quote": "none found",
+  "note": "Strategy-proofness is mentioned only in the introduction as an example of a property; no strategic analysis."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 2, 11",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No utility, welfare, satisfaction or distortion notions are used for voters."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 2-11",
+  "quote": "none found",
+  "note": "Efficiency appears only in the introduction, when citing Moulin's theorem."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2.1, p.4",
+   "quote_behav": "each individual i \u2208 H expresses her preferences through some pi \u2208 Sn",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Individuals take a fixed action, expressing a linear order that forms the profile; profiles are exogenous arguments of the spf."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only one type is present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no strategic type."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "N",
+  "claims": [],
+  "note": "The introduction calls anonymity and neutrality requirements 'very hard to renounce' and notes that tie-breaking destroys them. These are statements about properties, not claims about institutions, voter welfare or which rule to use."
+ },
+ "C9.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C9.1 = N."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 2, 11",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C6.VOT": {
+   "chosen": "A",
+   "reason": "The model has individuals who express their preferences, a fixed action that forms the profile, so voters are present as NONSTRAT agents whose fixed behaviour is only inferable from the formal model."
+  }
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "paper_id": "EC-2021-7f3cb7e8",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "AL",
+     "AX"
+    ],
+    "primary": "AL",
+    "loc": "Abstract; Sections 3-7",
+    "quote": "no polynomial-time algorithm can distinguish between instances with Opt",
+    "note": "AL covers the approximation guarantees, hardness results and LP rounding. AX covers the committee-monotonicity impossibility (Section 5) and the core versus 1-Borda results (Section 6). Approximating the rule's own Borda objective is algorithmic computation of outcomes, not WD."
+   },
+   "chosen": "other",
+   "reason": "A's types are correct, since committee-monotonicity and core results are properties of rules and approximation of the rule's own objective is AL rather than WD, but A's quote was not verbatim and is replaced."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Section 2, p.6",
+    "quote_behav": "A set V of n voters express their preferences",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Voters' rankings are fixed inputs; expressing a ranking is a fixed action."
+   },
+   "chosen": "A",
+   "reason": "Voters take an action in the model by expressing their rankings, which are fixed rather than strategic, so the voter type is present as NONSTRAT under the codebook's 'whether chosen strategically or fixed' clause."
+  }
+ }
+}

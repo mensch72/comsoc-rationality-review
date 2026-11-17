@@ -1,0 +1,29 @@
+{
+ "paper_id": "GEB-2021-b542eb9a",
+ "decisions": {
+  "C7.2": {
+   "value": {
+    "code": "REASON",
+    "loc": "Section 3, footnote 9, p.7",
+    "quote": "the cutoff strategy (2) endogenously arises in equilibrium",
+    "note": "The footnote argues that the media's fixed cutoff strategy is equilibrium behaviour under a stated utility and cheap talk, with details in the companion paper SSS18."
+   },
+   "chosen": "A",
+   "reason": "Footnote 9 gives a substantive argument, specifying the media utility and cheap-talk setting under which the cutoff strategy is equilibrium behaviour, so it is more than a bare citation."
+  },
+  "C8.1": {
+   "value": {
+    "codes": [
+     "BNE",
+     "BND",
+     "OTH"
+    ],
+    "loc": "Sections 4.1, 4.2, 7",
+    "quote": "derive both Bayesian Nash equilibria (BNE) and quantal response equilibrium",
+    "note": "OTH = quantal response equilibrium. BND = competition neglect and non-Bayesian updating models."
+   },
+   "chosen": "A",
+   "reason": "Section 7 explicitly analyses bounded-rationality models (competition neglect, non-Bayesian updating), so BND belongs alongside BNE and QRE."
+  }
+ }
+}

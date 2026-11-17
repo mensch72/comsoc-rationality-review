@@ -1,0 +1,91 @@
+{
+ "paper_id": "COMSOC-2023-707c1f5d",
+ "decisions": {
+  "C2.4": {
+   "value": {
+    "code": "IDS",
+    "loc": "Section 2, p.3",
+    "quote": "we assume that each voter i \u2208 N reports her preferences",
+    "note": "The paper assumes the ballot is the report of the voter's preferences and gives no justification. IDU does not fit because there is an explicit statement about reporting."
+   },
+   "chosen": "A",
+   "reason": "The paper explicitly assumes voters report their preferences as ballots, which states that input equals held attitude, and it gives no reason."
+  },
+  "C3.2": {
+   "value": {
+    "code": "STATED",
+    "loc": "Section 2, p.3",
+    "quote": "each voter i \u2208 N reports her preferences over the candidates",
+    "note": ""
+   },
+   "chosen": "A",
+   "reason": "The assumption that voters report their preferences is a statement in words that they submit their held attitude."
+  },
+  "C3.3": {
+   "value": {
+    "code": "NONE",
+    "loc": "Introduction; Section 2 Preliminaries; Conclusion",
+    "quote": "none found",
+    "note": "No reason is given for the reporting assumption."
+   },
+   "chosen": "A",
+   "reason": "C3.2 is STATED and the paper gives no reason for the assumption."
+  },
+  "C4.1": {
+   "value": {
+    "code": "SPEC",
+    "loc": "Section 2.1, p.3",
+    "quote": "the voter should have some benefit s(x) from the committee",
+    "note": "The voter's benefit is defined as a function of the number of approved candidates in the committee. NA would also be plausible if 'benefit' is not counted as a utility-type term."
+   },
+   "chosen": "A",
+   "reason": "The paper attributes a utility-type benefit to voters and defines it via the number of approved committee members, which is a specified link."
+  },
+  "C5.1": {
+   "value": {
+    "code": "Y",
+    "loc": "Section 2.2, p.4",
+    "quote": "we say an ABC S voting rule f is weakly efficient if",
+    "note": "Weak efficiency is used in Theorem 2 and Proposition 1."
+   },
+   "chosen": "A",
+   "reason": "Weak efficiency is an efficiency criterion used in formal results, which C5.1 explicitly covers."
+  },
+  "C5.2": {
+   "value": {
+    "code": "INPUT-STATED",
+    "loc": "Section 2.2, p.4",
+    "quote": "unanimously unapproved candidates can never be \u201cbetter\u201d than approved ones",
+    "note": "Evaluated on approval ballots; C2.4 = IDS."
+   },
+   "chosen": "A",
+   "reason": "Efficiency is evaluated on ballots, and the paper states that ballots are the voters' preferences."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "EXPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Section 2, p.3",
+    "quote_behav": "reports her preferences over the candidates as approval ballot",
+    "loc_info": "",
+    "quote_info": "",
+    "note": ""
+   },
+   "chosen": "A",
+   "reason": "Voters take a fixed action (reporting ballots) in the model, which counts as presence, and this behaviour is stated in words."
+  },
+  "C9.2": {
+   "value": {
+    "code": "UNCLEAR",
+    "loc": "Introduction, p.2",
+    "quote": "We believe that this axiom is reasonable",
+    "note": "The claims are normative arguments for axioms rather than conclusions drawn from the formal results, so the needed assumptions cannot be determined."
+   },
+   "chosen": "A",
+   "reason": "The listed claims are normative judgements about axioms rather than consequences of the formal results, so the needed assumptions cannot be determined; B's claim of an unstated sincerity assumption is wrong because the paper does state one."
+  }
+ }
+}

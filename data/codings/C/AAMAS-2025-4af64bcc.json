@@ -1,0 +1,31 @@
+{
+ "paper_id": "AAMAS-2025-4af64bcc",
+ "decisions": {
+  "C4.1": {
+   "value": {
+    "code": "SPEC",
+    "loc": "Section 2.1, p.2027",
+    "quote": "each voter\u2019s \u201cutility\u201d is defined by the harmonic progression",
+    "note": "Satisfaction is defined as the number of approved winners. The PAV utility is the harmonic number of approved winners. Both are defined directly from the approval input."
+   },
+   "chosen": "A",
+   "reason": "The format is APPR and voter utility or satisfaction is used, so C4.1 applies, and the paper defines utility as a function of approved winners, which is SPEC (B's NA contradicts its own note)."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Section 1, p.2024",
+    "quote_behav": "who each approve a subset \ud835\udc34\ud835\udc56 of \ud835\udc36",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Approval sets are given exogenously."
+   },
+   "chosen": "A",
+   "reason": "Voters take the action of approving subsets, which is fixed by the model, so under the codebook they are present (actions may be fixed) and NONSTRAT, implicitly."
+  }
+ }
+}

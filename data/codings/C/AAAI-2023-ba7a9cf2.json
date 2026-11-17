@@ -1,0 +1,51 @@
+{
+ "paper_id": "AAAI-2023-ba7a9cf2",
+ "decisions": {
+  "C3.2": {
+   "value": {
+    "code": "STATED",
+    "loc": "Preliminaries, p.5699; Mandatory Reporting, p.5702",
+    "quote": "We assume that the ordinal preferences of the agents stem from",
+    "note": "Mandatory section: agents' utility functions are strictly \u03b1-consistent with the preference ordering they submit."
+   },
+   "chosen": "A",
+   "reason": "The paper says in words that reported orderings stem from, and are consistent with, the underlying utilities, which is a statement that inputs reflect held attitudes."
+  },
+  "C3.3": {
+   "value": {
+    "code": "CONV",
+    "loc": "Introduction, p.5697",
+    "quote": "the distortion framework posits that ordinal preferences reported by the agents",
+    "note": "The only grounding offered is that this is what the distortion framework of Procaccia and Rosenschein (2006) posits."
+   },
+   "chosen": "A",
+   "reason": "The sincerity-consistency assumption is justified only by appeal to the established distortion framework from prior work."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "EXPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Mandatory Reporting of Intensities, p.5702",
+    "quote_behav": "strictly \u03b1-consistent with the preference ordering they submit",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Reports are assumed to be consistent with utilities. Under voluntary reporting, omission of intensities is treated as exogenous and analysed in the worst case."
+   },
+   "chosen": "A",
+   "reason": "Non-strategic, utility-consistent reporting is stated in words ('we assume that agents' utility functions are strictly \u03b1-consistent...'), so it is EXPLICIT."
+  },
+  "C9.2": {
+   "value": {
+    "code": "ALL-STATED",
+    "loc": "Preliminaries, p.5699",
+    "quote": "We assume that the ordinal preferences of the agents stem from",
+    "note": "The welfare-loss claims need two assumptions: that reports are consistent with utilities, and how utilities relate to rankings (\u03b1-consistency, unit-sum). Both are stated."
+   },
+   "chosen": "A",
+   "reason": "The assumptions the welfare-loss claims need are all stated in the paper: report-utility consistency, \u03b1-consistency and unit-sum utilities."
+  }
+ }
+}

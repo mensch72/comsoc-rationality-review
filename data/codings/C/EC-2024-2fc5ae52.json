@@ -1,0 +1,111 @@
+{
+ "paper_id": "EC-2024-2fc5ae52",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "AX",
+     "AL",
+     "EM",
+     "OT"
+    ],
+    "primary": "AX",
+    "loc": "Section 1.2, p.2; Sections 2-5",
+    "quote": "We propose a framework for generative social choice",
+    "note": "AX for the BJR axiom, its satisfaction and impossibilities (largest share); AL for query and time complexity; EM for the LLM validation on survey data and the human pilot; OT for the generative social choice framework, a modelling proposal presented as a main contribution."
+   },
+   "chosen": "B",
+   "reason": "The two-component framework is presented as a main contribution and is a conceptual modelling proposal, so OT applies alongside AX, AL and EM."
+  },
+  "C2.2": {
+   "value": {
+    "codes": [
+     "CARD",
+     "APPR",
+     "OTH"
+    ],
+    "loc": "Section 2, p.5; Section 1.3, p.3",
+    "quote": "approval utilities, where utilities are 0 or 1",
+    "note": "General real-valued utilities; the impossibilities use 0/1 approval utilities. OTH: in the implementation the process takes free-text survey responses, which an LLM translates into utilities."
+   },
+   "chosen": "A",
+   "reason": "Besides cardinal utilities, the paper uses approval utilities for its impossibilities and describes free-text interactions as the process input."
+  },
+  "C2.4": {
+   "value": {
+    "code": "IDS",
+    "loc": "Section 4, p.11",
+    "quote": "We equate ratings with utilities",
+    "note": "The formal oracle returns u_i directly; the empirical part explicitly equates submitted ratings with utilities and gives no reason about sincerity."
+   },
+   "chosen": "A",
+   "reason": "The paper explicitly equates submitted ratings with utilities without a sincerity rationale, which fits IDS better than IDU."
+  },
+  "C3.2": {
+   "value": {
+    "code": "STATED",
+    "loc": "Section 4, p.11",
+    "quote": "We equate ratings with utilities; e.g., an agent i rating",
+    "note": ""
+   },
+   "chosen": "A",
+   "reason": "The statement equating ratings with utilities says in words that the input equals the held attitude."
+  },
+  "C3.3": {
+   "value": {
+    "code": "NONE",
+    "loc": "Section 4, p.11",
+    "quote": "We equate ratings with utilities",
+    "note": "The remark that the numerical values are inconsequential concerns the scale, not sincerity."
+   },
+   "chosen": "A",
+   "reason": "No reason for sincere reporting accompanies the equation of ratings with utilities."
+  },
+  "C4.1": {
+   "value": {
+    "code": "SPEC",
+    "loc": "Section 2, p.5",
+    "quote": "approval utilities, where utilities are 0 or 1",
+    "note": ""
+   },
+   "chosen": "A",
+   "reason": "With APPR included, C4.1 applies, and approval utilities are defined explicitly as 0/1 utilities."
+  },
+  "C4.2": {
+   "value": {
+    "code": "Y",
+    "loc": "Section 2, p.5",
+    "quote": "approval utilities, where utilities are 0 or 1",
+    "note": "'Approval utilities' is treated as equivalent to dichotomous preferences and is defined in utility terms."
+   },
+   "chosen": "A",
+   "reason": "The dichotomous approval term is defined as utility 1 or 0."
+  },
+  "C5.2": {
+   "value": {
+    "code": "INPUT-STATED",
+    "loc": "Section 4, p.11; Section 5.2, p.18",
+    "quote": "We equate ratings with utilities",
+    "note": "BJR is defined on u_i, and the empirical evaluation uses ratings that the paper equates with utilities."
+   },
+   "chosen": "A",
+   "reason": "The evaluation is on inputs that the paper states equal utilities, which is consistent with C2.4 = IDS."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "N",
+    "behav": "",
+    "behav_stated": "",
+    "info": "",
+    "info_stated": "",
+    "loc_behav": "",
+    "quote_behav": "",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "In the formal model agents only have utilities, which the process accesses through oracle queries; no agent takes an action."
+   },
+   "chosen": "B",
+   "reason": "Presence requires an acting agent in the formal model, and the formal model only queries agents' utilities through an oracle."
+  }
+ }
+}

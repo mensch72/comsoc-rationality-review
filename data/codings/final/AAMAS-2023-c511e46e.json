@@ -1,0 +1,195 @@
+{
+ "paper_id": "AAMAS-2023-c511e46e",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.2067",
+  "quote": "individual agents report their preferences into a collective decision",
+  "note": "Proposes a procedure (voting by axioms) for aggregating reported preference profiles into collective outcomes."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "AL"
+  ],
+  "primary": "AX",
+  "loc": "Roadmap, Section 1, p.2068",
+  "quote": "Section 4 is devoted to algorithmic and Section 5 to axiomatic results",
+  "note": "Section 3 structural properties and Section 5 axiomatic results outnumber the complexity/SAT results of Section 4."
+ },
+ "C2.1": {
+  "value": "profile (or scenario); (reported) preference",
+  "loc": "Section 2.2, p.2068",
+  "quote": "assigns to each agent i \u2208 N a (reported) preference"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2.2, p.2068",
+  "quote": "a (reported) preference Ri \u2208 L(X )",
+  "note": "L(X) is the set of strict linear orders."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Abstract, p.2067",
+  "quote": "individual agents report their preferences",
+  "note": "Preferences are referred to as something agents have and report, though not given separate notation."
+ },
+ "C2.4": {
+  "code": "IDS",
+  "loc": "Abstract, p.2067; Section 2.2, p.2068",
+  "quote": "individual agents report their preferences",
+  "note": "IDS and IDU fit about equally: the text says agents report their preferences, with no reason and no separate notation; the first-listed code was chosen."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-5",
+  "quote": "none found",
+  "note": "No strategic misreporting is analysed."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Abstract, p.2067",
+  "quote": "individual agents report their preferences",
+  "note": "Weak statement, consistent with C2.4 = IDS."
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Abstract; Section 1; Section 2.2; Section 6",
+  "quote": "none found",
+  "note": ""
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No utility, welfare, satisfaction, cost, distortion or intensity notions are used for voters."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Section 2.3, p.2068; Sections 3-5",
+  "quote": "Pareto: If profile R is such that all agents prefer",
+  "note": "The Pareto axiom is defined and used only in illustrative examples; no formal result evaluates rules or outcomes by efficiency or welfare."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2.2, p.2068",
+   "quote_behav": "agents expressing a preference in a given situation",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters only supply a fixed profile."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N",
+   "note": "Choice of the axiom corpus is discussed informally but no designer objective is modelled."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no strategic type."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 1, p.2067",
+    "quote": "it is most suited to high-stakes situations"
+   },
+   {
+    "loc": "Section 1, p.2067",
+    "quote": "we require any decision taken to stand on sound normative grounds"
+   },
+   {
+    "loc": "Section 6, p.2074",
+    "quote": "The decisions taken will be appropriate only if the axioms are."
+   }
+  ],
+  "note": "Claims concern the suitability of the approach for real decisions."
+ },
+ "C9.2": {
+  "code": "UNCLEAR",
+  "loc": "Section 1; Section 6",
+  "quote": "none found",
+  "note": "The claims concern the procedure's normative grounding; it is unclear whether they require assumptions relating reported profiles to held preferences."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Section 2.2; footnote 2; Section 6",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C2.4": {
+   "chosen": "A",
+   "reason": "The paper says agents 'report their preferences', which weakly states that the input equals their preferences without giving a reason; under the doubt rule IDS (listed before IDU) applies."
+  },
+  "C3.2": {
+   "chosen": "A",
+   "reason": "This is consistent with C2.4 = IDS: the abstract's wording states in words that agents submit their own preferences."
+  },
+  "C3.3": {
+   "chosen": "A",
+   "reason": "C3.2 is STATED and no reason for sincere reporting is given anywhere in the paper."
+  },
+  "C6.VOT": {
+   "chosen": "A",
+   "reason": "Voters express (report) preferences in the model, which is a fixed action, so they are present and non-strategic."
+  },
+  "C9.2": {
+   "chosen": "A",
+   "reason": "The claims concern the axiomatic grounding of decisions rather than voter welfare, so it cannot be determined which input-attitude assumptions they need."
+  }
+ }
+}

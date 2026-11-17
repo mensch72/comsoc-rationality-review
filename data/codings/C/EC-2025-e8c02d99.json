@@ -1,0 +1,48 @@
+{
+ "paper_id": "EC-2025-e8c02d99",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "WD"
+    ],
+    "primary": "WD",
+    "loc": "Abstract, p.1; Section 1.1, p.2",
+    "quote": "We show tight tradeo\ufb00s between the consistency and robustness of ordinal mechanisms",
+    "note": "All main results are consistency and robustness bounds on distortion, i.e. welfare ratios. The polynomial-time remark in Lemma 4.1 is auxiliary and not a main algorithmic result."
+   },
+   "chosen": "A",
+   "reason": "The main results are distortion (welfare-ratio) bounds and computation is not studied as a main result, so AL does not apply."
+  },
+  "C2.2": {
+   "value": {
+    "codes": [
+     "RANK",
+     "CARD",
+     "OTH"
+    ],
+    "loc": "Section 2.1\u20132.2, p.5",
+    "quote": "some (partial) valuation pro\ufb01le v\u0302 which also induces the same ordinal pro\ufb01le",
+    "note": "The mechanism's argument is the ordinal ranking profile plus a prediction p. In most results p is a (partial) cardinal valuation profile (CARD). In Theorem 3.1, p is a predicted optimal candidate (OTH: predicted outcome)."
+   },
+   "chosen": "other",
+   "reason": "The rule's argument includes the predicted valuations, as A codes, and in the main Theorem 3.1 also a predicted optimal candidate, which needs OTH."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "EXPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Section 2.1, p.5",
+    "quote_behav": "each voter i reports an ordering (or, ranking) \u227bvi of the candidates",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Voters take a fixed action in the model by reporting rankings consistent with their valuations. Agents in one-sided matching are treated the same way."
+   },
+   "chosen": "A",
+   "reason": "Under C6, an agent taking a fixed action counts as present, and voters are explicitly said to report rankings, so they are present and non-strategic."
+  }
+ }
+}

@@ -1,0 +1,115 @@
+{
+ "paper_id": "EC-2025-1e143359",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "AX"
+    ],
+    "primary": "AX",
+    "loc": "Theorem 4.2, Section 4, p.17",
+    "quote": "MP satisfies the following properties: (1) Monotonicity.",
+    "note": "Approximation ratios to AFS/core are treated as quantitative fairness axioms rather than approximation of an optimum. Efficiency and strategyproofness appear only in remarks, so WD and SB are not coded."
+   },
+   "chosen": "A",
+   "reason": "The main results are axiomatic, and approximate AFS/core are relaxations of fairness axioms rather than a welfare or distortion objective, so WD is not warranted."
+  },
+  "C2.4": {
+   "value": {
+    "code": "IDS",
+    "loc": "Section 2, p.6",
+    "quote": "each voter i \u2208 N reports his preferences in the form of an approval ballot",
+    "note": "The model states that the ballot is the voter's reported preference, with a single notation A_i and no reason given. Remark 4 (p.21) briefly considers misreporting."
+   },
+   "chosen": "A",
+   "reason": "The paper explicitly says voters report their preferences as ballots, which is a statement of equality without a reason, not an unaddressed direct application (IDU)."
+  },
+  "C3.1": {
+   "value": {
+    "code": "SOME",
+    "loc": "Remark 4, Section 4, p.21",
+    "quote": "if the first voter reports {b, c} instead of { a, b, c}",
+    "note": "Only Remark 4 considers a strategic misreport; all other analyses use the reported ballots."
+   },
+   "chosen": "A",
+   "reason": "Remark 4 analyses a voter misreporting to gain utility, so at least one analysis considers strategic voters while the others do not."
+  },
+  "C3.2": {
+   "value": {
+    "code": "STATED",
+    "loc": "Section 2, p.6",
+    "quote": "each voter i \u2208 N reports his preferences in the form of an approval ballot",
+    "note": ""
+   },
+   "chosen": "A",
+   "reason": "The model section states in words that voters report their preferences as ballots."
+  },
+  "C3.3": {
+   "value": {
+    "code": "NONE",
+    "loc": "Section 2, p.6",
+    "quote": "each voter i \u2208 N reports his preferences in the form of an approval ballot",
+    "note": "No reason is given for sincere reporting."
+   },
+   "chosen": "A",
+   "reason": "The statement of sincere reporting comes without any justification."
+  },
+  "C5.2": {
+   "value": {
+    "code": "INPUT-STATED",
+    "loc": "Section 2, p.6",
+    "quote": "the utility function of voter i is given by ui ( p) =",
+    "note": "Utilities are computed from the reported ballots A_i, which the paper states are the voters' preferences."
+   },
+   "chosen": "A",
+   "reason": "Fairness is evaluated on ballot-based utilities, and the paper states that ballots are the reported preferences (consistent with IDS)."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "MIXED",
+    "behav_stated": "EXPLICIT",
+    "info": "NS",
+    "info_stated": "NA",
+    "loc_behav": "Remark 4, p.21",
+    "quote_behav": "Since this voter has a utility of 57 when voting honestly",
+    "loc_info": "Sections 1, 2, 4 (Remark 4), 6 checked",
+    "quote_info": "none found",
+    "note": "Voters are sincere in the main analyses and strategic in Remark 4."
+   },
+   "chosen": "A",
+   "reason": "Voters report sincerely in most analyses but deviate profitably in Remark 4, and no information assumption is stated."
+  },
+  "C8.1": {
+   "value": {
+    "codes": [
+     "DOM"
+    ],
+    "loc": "Remark 4, p.21",
+    "quote": "it fails the more demanding property of strategyproofness",
+    "note": ""
+   },
+   "chosen": "A",
+   "reason": "Because voters are MIXED, C8 applies, and the strategic analysis concerns strategyproofness."
+  },
+  "C8.2": {
+   "value": {
+    "code": "Y",
+    "loc": "Remark 4, p.21",
+    "quote": "it fails the more demanding property of strategyproofness"
+   },
+   "chosen": "A",
+   "reason": "The paper names strategyproofness explicitly."
+  },
+  "C9.2": {
+   "value": {
+    "code": "ALL-STATED",
+    "loc": "Section 2, p.6",
+    "quote": "we assume that the utility of a voter i for a distribution p",
+    "note": "The fairness and desirability claims need that ballots equal preferences (stated in Section 2) and that utility is linked to approvals (stated in Section 2)."
+   },
+   "chosen": "A",
+   "reason": "Both needed assumptions are stated in the model section: sincere reporting of preferences and the approval-based utility definition."
+  }
+ }
+}

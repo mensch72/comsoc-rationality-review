@@ -1,0 +1,189 @@
+{
+ "paper_id": "COMSOC-2025-889ed0d6",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Section 2, p.1-2; Section 3.1, p.4",
+  "quote": "Local elections are run, producing district representatives",
+  "note": "Repeated gerrymandering of district elections combined with opinion dynamics."
+ },
+ "C1": {
+  "types": [
+   "OT",
+   "SB"
+  ],
+  "primary": "OT",
+  "loc": "Abstract, p.1; Section 4, p.6",
+  "quote": "we offer the first model of such a simultaneous process",
+  "note": "Mainly a modelling proposal with hand-crafted feasibility examples. SB is included because the examples show that a district designer can achieve a target opinion shift."
+ },
+ "C2.1": {
+  "value": "opinions (opinion vector c|D); in Section 3.1 also 'plurality ballot projection'",
+  "loc": "Section 2, p.1-2; Section 3.1, p.5",
+  "quote": "denote the sub-vector of opinions within the subset by"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 2, p.1",
+  "quote": "each characterised by a position in some \"physical\" space",
+  "note": "Inputs are opinion vectors in R^m (spatial positions). In Section 3.1 they are mapped to one-hot plurality ballots."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.1",
+  "quote": "each characterised by a position in some \"physical\" space",
+  "note": "Voters hold opinions c_v that evolve over time."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2.2, p.3",
+  "quote": "we assume a \"median\" representative is elected",
+  "note": "The rule F is applied directly to the held opinions, with no statement about reporting. The ballot projection beta(c_v) is a deterministic function of opinions."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-4",
+  "quote": "none found",
+  "note": "Voters never misreport. Only the opinion dynamics are modelled."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Introduction p.1; Section 2 pp.1-4; Section 3 pp.4-6; Section 5 p.8",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C2.2 has no ordinal or approval format, and no utility notions are used for voters."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Section 3.2, p.5",
+  "quote": "minimising the total distance from actual voter opinions",
+  "note": "The objective is the manipulator's target-opinion distance, not voter welfare or representation."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2.2, p.3; Section 2.3, p.3",
+   "quote_behav": "we assume a \"median\" representative is elected",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Votes and opinion updates are fixed by the rule and the dynamics."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "IMPLICIT",
+   "loc_behav": "Section 3.2, p.5",
+   "quote_behav": "within a given number, T , of strategic re-districtings",
+   "loc_info": "Section 3.2, p.5",
+   "quote_info": "Formally, it is captured by the following optimisation problem",
+   "note": "The optimisation problem is defined over the full opinion vector and the known dynamics, so it presumes complete knowledge. Partial information is mentioned only as a possibility in Section 2.1."
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "Y",
+  "loc": "Section 3.2, p.5",
+  "quote": "strategic re-districtings",
+  "note": "DIS is strategic; VOT is non-strategic."
+ },
+ "C7.2": {
+  "code": "NONE",
+  "loc": "Sections 2-3",
+  "quote": "none found",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [
+   "DEV"
+  ],
+  "loc": "Section 3.2, p.5",
+  "quote": "Frankenmandering is a control problem",
+  "note": ""
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 3.2, p.5",
+  "quote": "Frankenmandering is a control problem"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.1",
+    "quote": "gerrymandering can be effectively used as an opinion formation tool"
+   },
+   {
+    "loc": "Abstract, p.1",
+    "quote": "in real life, both of these manipulations"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 3.2, p.5",
+  "quote": "none found",
+  "note": "The claim that real gerrymandering can form opinions needs the designer's knowledge of opinions and dynamics. That knowledge is not stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction p.1; Section 2 pp.1-4; Section 5 p.8",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C6.DIS": {
+   "chosen": "A",
+   "reason": "The formal optimisation problem is stated over all voters' opinions c^t and the known dynamics, so complete information follows unambiguously from the formal model, which is IMPLICIT rather than NS."
+  },
+  "C8.2": {
+   "chosen": "A",
+   "reason": "The paper explicitly names the concept as a control problem and an optimisation problem, which is the DEV concept named in words."
+  }
+ }
+}

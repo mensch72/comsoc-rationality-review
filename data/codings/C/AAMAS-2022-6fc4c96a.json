@@ -1,0 +1,63 @@
+{
+ "paper_id": "AAMAS-2022-6fc4c96a",
+ "decisions": {
+  "C3.1": {
+   "value": {
+    "code": "ALL",
+    "loc": "Section 2.2, p.716",
+    "quote": "does not follow the briber\u2019s suggestion but casts their original votes",
+    "note": "Every main analysis concerns bribed profiles Q in which bribed voters may submit votes different from their preference order P. The deviation is induced by the briber, not by voters' own strategising."
+   },
+   "chosen": "A",
+   "reason": "Read literally, C3.1 asks whether any analysis has voters submitting inputs that differ from their held preference P, and every problem in the paper involves bribed voters casting Q different from P."
+  },
+  "C3.2": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "C3.1 = ALL."
+   },
+   "chosen": "A",
+   "reason": "Since C3.1 = ALL, the codebook requires NA for C3.2."
+  },
+  "C7.2": {
+   "value": {
+    "code": "NONE",
+    "loc": "Sections 1, 2, 5",
+    "quote": "none found",
+    "note": "The campaigning argument motivates uncertain compliance and the worst-case safety notion. It does not argue why voters are modelled as non-optimising while the briber optimises."
+   },
+   "chosen": "B",
+   "reason": "The paper's argument justifies robustness to non-compliance, not the difference between a strategic briber and non-strategic voters, so no reason is given."
+  },
+  "C8.2": {
+   "value": {
+    "code": "Y",
+    "loc": "Section 2.2, p.716",
+    "quote": "compute if there exists a set Vb \u2286 V of voters"
+   },
+   "chosen": "A",
+   "reason": "The solution concept, a decision problem asking whether a goal-achieving bribery exists, is explicitly named and formally defined as Safe $Bribery and Safe Shift Bribery."
+  },
+  "C9.1": {
+   "value": {
+    "code": "N",
+    "claims": [],
+    "note": "The conclusion's claims concern computational overhead for the briber, and the campaigning remark is motivation. There are no claims about institutions, voter welfare or rule choice."
+   },
+   "chosen": "A",
+   "reason": "The conclusion's statement about the briber's computational overhead is not a claim about real institutions, voters' well-being or which rule to use."
+  },
+  "C9.2": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "C9.1 = N."
+   },
+   "chosen": "A",
+   "reason": "Since C9.1 = N, C9.2 is NA."
+  }
+ }
+}

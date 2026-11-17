@@ -1,0 +1,82 @@
+{
+ "paper_id": "IJCAI-2022-0b527f93",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "SB",
+     "AL",
+     "SI"
+    ],
+    "primary": "SB",
+    "loc": "Introduction, p.3941; Section 5, p.3944",
+    "quote": "the effect brought by local differential privacy in a voting system",
+    "note": "Most main results quantify the attacker's control cost under voter deletion (SB), obtained through ILP/LP bounds (AL); Section 5 runs numeric experiments on generated voting systems (SI)."
+   },
+   "chosen": "A",
+   "reason": "The codebook counts control as a computational problem under SB, and the bulk of the results (PoLDP, APoLDP) measure the attacker's control cost, so SB is the primary type and the ILP/LP machinery is secondary."
+  },
+  "C2.4": {
+   "value": {
+    "code": "IDS",
+    "loc": "Section 2 Preliminary, p.3942",
+    "quote": "Voters will vote according to their true types in the election.",
+    "note": "The reported type is used only in polls and is not the input to the rule; the vote is stated to equal the true type, and no reason is given."
+   },
+   "chosen": "A",
+   "reason": "The rule's input is the election vote, which the paper states equals the true type without justification; the separately notated reported type is a poll response, not the rule's argument."
+  },
+  "C3.3": {
+   "value": {
+    "code": "NONE",
+    "loc": "Section 1, p.3941; Section 2, p.3942",
+    "quote": "Voters will vote according to their true types in the election.",
+    "note": ""
+   },
+   "chosen": "A",
+   "reason": "The sentence about pre-election polls explains why LDP does not change the result; it gives no reason why voters vote sincerely, and the paper does not claim to study the rule only as a function of submitted inputs, so PROC does not apply."
+  },
+  "C6.BRI": {
+   "value": {
+    "present": "N"
+   },
+   "chosen": "A",
+   "reason": "The codebook explicitly places the controlling agent in control problems under ORG, so the voter-deleting attacker is not coded as BRI."
+  },
+  "C6.ORG": {
+   "value": {
+    "present": "Y",
+    "behav": "STRAT",
+    "behav_stated": "EXPLICIT",
+    "info": "PARTIAL",
+    "info_stated": "EXPLICIT",
+    "loc_behav": "Section 3, p.3942",
+    "quote_behav": "can thus strategically delete voters",
+    "loc_info": "Section 3, p.3942",
+    "quote_info": "the attacker needs to delete voters according to reported types",
+    "note": "The attacker is the controlling agent (control by deleting voters). In the main LDP analysis it knows lambda and the reported types only; in the classical scenario it has complete information."
+   },
+   "chosen": "A",
+   "reason": "The attacker performs control by voter deletion, which the codebook assigns to ORG, and it is explicitly strategic with partial information (reported types and lambda)."
+  },
+  "C8.2": {
+   "value": {
+    "code": "Y",
+    "loc": "Section 3, Definition 2, p.3943",
+    "quote": "The manipulation cost of a voting system"
+   },
+   "chosen": "A",
+   "reason": "The DEV-type concept is named and formally defined: electoral control by deleting voters, with manipulation cost as the minimal number of deletions."
+  },
+  "C9.2": {
+   "value": {
+    "code": "ALL-STATED",
+    "loc": "Sections 1, 2, 3, 6",
+    "quote": "We also assume the attacker knows the parameter",
+    "note": "Needed assumptions are all stated: sincere voting in the election, the attacker knowing only reported types and lambda (discussed in Section 6), and voters running LDP once for all polls."
+   },
+   "chosen": "A",
+   "reason": "Every assumption needed for the resilience and guidance claims is stated in the paper; the codebook asks only whether assumptions are stated, not argued, and plurality-only scope is not a missing modelling assumption."
+  }
+ }
+}

@@ -1,0 +1,201 @@
+{
+ "paper_id": "SCW-2022-305481fc",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Sect. 2, p. 212",
+  "quote": "We model an election in which voters can reelect an incumbent",
+  "note": "The object is a two-candidate election (partisans plus a representative independent voter) and the strategic signalling of the incumbent before it. This is a strategic aspect of a voting procedure."
+ },
+ "C1": {
+  "types": [
+   "EQ",
+   "WD"
+  ],
+  "primary": "EQ",
+  "loc": "Introduction p. 210; Sect. 5 p. 225",
+  "quote": "two polar pure strategy Perfect Bayesian Equilibria (PBE) exist",
+  "note": "The main results are existence conditions for separating, pooling and mixed PBE (EQ). The social welfare comparisons in Sect. 5 are WD."
+ },
+ "C2.1": {
+  "value": "votes / independent vote (voting for the incumbent or the opponent)",
+  "loc": "Sect. 3.1, p. 216",
+  "quote": "An independent voter thus votes for the incumbent (v(d) = 1)"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Sect. 2.3, p. 214",
+  "quote": "the independent voter\u2019s strategy (probability of voting for the incumbent)",
+  "note": "Binary vote between incumbent and opponent; partisans always vote for their preferred candidate."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sect. 2.2, p. 214",
+  "quote": "The utility of the independent voter is the expected welfare generated",
+  "note": "Voters hold utilities, beliefs about ability and a conformity bonus W; partisans have a preferred candidate."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Sect. 3.1, p. 217",
+  "quote": "This is not the case when voters are conformists.",
+  "note": "The vote v(d) is a choice, separate from utility and beliefs. With conformism the vote can depart from the candidate with the highest expected ability."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Sect. 3.1, p. 216-217",
+  "quote": "This is not the case when voters are conformists.",
+  "note": "In every analysis the independent voter chooses his vote to maximise utility including the conformity bonus. His vote can therefore depart from the candidate he judges more able. Partisans are passive in all analyses."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The input format is OTH (binary vote), not one of the listed formats."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sect. 5, p. 226; Proposition 4",
+  "quote": "social welfare is the sum of the expected benefits created",
+  "note": ""
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Sect. 5, p. 226",
+  "quote": "social welfare is the sum of the expected benefits created by the elected politician",
+  "note": "Welfare is evaluated on policy benefits and abilities, not on votes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Sect. 2.2, p. 214; Sect. 3.1, p. 216",
+   "quote_behav": "An independent voter thus votes for the incumbent (v(d) = 1)",
+   "loc_info": "Sect. 2.3, p. 214",
+   "quote_info": "he does not know the size of the incumbent\u2019s partisan support",
+   "note": "The representative independent voter is strategic. Partisans are passive: 'partisans who always vote for their preferred candidate'. The independent voter observes d and \u03bco."
+  },
+  "CAN": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Sect. 2, p. 212; Sect. 4.1, p. 219",
+   "quote_behav": "she may want to distort her choice before running",
+   "loc_info": "Sect. 2.1, p. 213",
+   "quote_info": "It is unknown to the incumbent at the time she takes decision d.",
+   "note": "The incumbent chooses policy d strategically. She knows the voters' strategy rule but not \u03bco. The opponent takes no action."
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "N",
+  "loc": "Introduction, p. 209",
+  "quote": "While partisans are passive players by definition",
+  "note": "The present types VOT and CAN are both strategic. The strategic/passive split (independent voter vs. partisans) lies within the VOT type."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 = N."
+ },
+ "C8.1": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Introduction p. 210; Sect. 3.3 p. 218",
+  "quote": "We apply the Intuitive Criterion to refine the pooling equilibria",
+  "note": "Perfect Bayesian Equilibrium of a signalling game, refined by the Intuitive Criterion."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Sect. 2.1, p. 214",
+  "quote": "In a Perfect Bayesian Equilibrium (PBE), updated beliefs are coherent"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p. 209",
+    "quote": "the desire to vote for the winner can have a beneficial impact"
+   },
+   {
+    "loc": "Introduction, p. 208",
+    "quote": "Herd behavior is a problem for democracies"
+   },
+   {
+    "loc": "Conclusion, p. 231",
+    "quote": "media coverage, opinion polls and political advertising may all modify"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sect. 2.2 p. 214; Sect. 5 p. 226",
+  "quote": "We assume that they are represented by a single representative independent voter.",
+  "note": "The needed assumptions are stated: the welfare definition, the voter utility with conformity bonus, the representative voter, incumbent strategic behaviour, and the information structure."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sects. 1, 2, 7 checked",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C3.1": {
+   "chosen": "A",
+   "reason": "The independent voter's vote is a best response that, with conformism, can differ from his ability-based preference over candidates, and this holds in every main analysis, so ALL fits better than NONE."
+  },
+  "C3.2": {
+   "chosen": "A",
+   "reason": "Because C3.1 = ALL, the codebook requires NA."
+  },
+  "C3.3": {
+   "chosen": "A",
+   "reason": "C3.2 is NA, so C3.3 is NA."
+  },
+  "C8.1": {
+   "chosen": "A",
+   "reason": "PBE with the Intuitive Criterion is not a listed concept, so it belongs under OTH with a note; adding BNE double-codes the same concept."
+  }
+ }
+}

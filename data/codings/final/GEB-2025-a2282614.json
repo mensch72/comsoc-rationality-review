@@ -1,0 +1,186 @@
+{
+ "paper_id": "GEB-2025-a2282614",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "we investigate the susceptibility of Condorcet extensions to these paradoxes",
+  "note": "Studies voting rules (Condorcet extensions) for three candidates."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SB"
+  ],
+  "primary": "AX",
+  "loc": "Abstract, p.1; Section 5, p.12",
+  "quote": "provide axiomatic characterizations of maximin and two of its refinements",
+  "note": "SB because participation (no-show paradox) is a property about voters' incentives to abstain, central to Theorem 5 and the characterizations. Figure 4 is a minor computational complement."
+ },
+ "C2.1": {
+  "value": "(preference) profile; preference profiles",
+  "loc": "Section 2, p.2",
+  "quote": "is a collection of linear orders, with \u227bi denoting the preference"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2, p.2",
+  "quote": "is a collection of linear orders, with \u227bi denoting the preference",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.2",
+  "quote": "then voter i prefers a the most, followed by b",
+  "note": "The input itself is described as voters' preferences. There is no separate held object."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2, p.2-3",
+  "quote": "A social choice function f maps each profile P",
+  "note": "The rule is applied directly to preferences, with no statement about reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Section 5, p.12",
+  "quote": "The participation axiom demands that voters are never better off by abstaining",
+  "note": "Participation considers abstention, not submission of an input different from preferences. Abstention is not treated as misreporting."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "none found; checked Introduction, Section 2 Preliminaries, Section 5, Conclusion",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No utility, welfare, satisfaction, cost, distortion or intensity notions are used for voters. Outcomes are compared only via preference orders."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used, except in a reference title."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 6, footnote 15, p.21",
+  "quote": "never selects Pareto-dominated candidates",
+  "note": "Borderline. The only instance is a footnoted formal observation that restricts the class of rules by Pareto efficiency; footnotes count."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 6, footnote 15, p.21",
+  "quote": "never selects Pareto-dominated candidates",
+  "note": "Pareto dominance is evaluated on the preference profile, i.e., the input, with no statement relating it to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2, p.2",
+   "quote_behav": "is a collection of linear orders, with \u227bi denoting the preference",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters' preferences enter the rule as given. Participation is analysed as an axiom, not as strategic choice."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Conclusion, p.20",
+    "quote": "These conclusions could motivate advocating for their adoption in real-world elections."
+   },
+   {
+    "loc": "Conclusion, p.21",
+    "quote": "are compelling choices for adoption in real-world applications"
+   },
+   {
+    "loc": "Abstract, p.1",
+    "quote": "highlighting their suitability for threecandidate elections"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 2, p.2; Conclusion, p.20-21",
+  "quote": "none found",
+  "note": "Recommending these rules for real elections on the basis of participation and monotonicity axioms needs submitted rankings to equal voters' actual preferences. The paper never states this; preferences are simply taken as the rule's input."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction; Section 2; Conclusion",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C1": {
+   "chosen": "A",
+   "reason": "The participation axiom, which demands 'voters are never better off by abstaining', is an incentive property, and the codebook counts such properties as SB; it underlies the main results of Section 5."
+  },
+  "C5.1": {
+   "chosen": "A",
+   "reason": "Footnote 15 states a formal claim whose condition on rules is Pareto efficiency; footnotes count under the codebook, so efficiency enters a formal result."
+  },
+  "C5.2": {
+   "chosen": "A",
+   "reason": "Given C5.1 = Y, Pareto dominance is evaluated on the profile, and the paper makes no statement relating the input to held attitudes (C2.4 = IDU)."
+  }
+ }
+}

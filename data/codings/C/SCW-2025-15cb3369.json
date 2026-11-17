@@ -1,0 +1,51 @@
+{
+ "paper_id": "SCW-2025-15cb3369",
+ "decisions": {
+  "C5.1": {
+   "value": {
+    "code": "Y",
+    "loc": "Section 3.1, p.17",
+    "quote": "The next property is in the same spirit as the Pareto principle.",
+    "note": "Pareto consistency is a Pareto-type dominance axiom used in Lemma 3. The codebook counts efficiency, including Pareto efficiency, in definitions used in results."
+   },
+   "chosen": "A",
+   "reason": "Pareto consistency is defined and used in a formal result (Lemma 3), and the paper explicitly links it to the Pareto principle, so it falls under the efficiency criterion."
+  },
+  "C5.2": {
+   "value": {
+    "code": "INPUT-UNSTATED",
+    "loc": "Section 3.1, p.17",
+    "quote": "We say that y weakly dominates x via",
+    "note": "Dominance is defined on evaluation profiles, with no statement relating evaluations to held attitudes."
+   },
+   "chosen": "A",
+   "reason": "Given C5.1 = Y, the dominance criterion is evaluated on the submitted evaluation profile without any statement relating it to held attitudes."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Section 1.1, p.7",
+    "quote_behav": "The value bxi = 1 means that i approves of x",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Agents' evaluations are given exogenously as the profile."
+   },
+   "chosen": "A",
+   "reason": "The codebook counts a type as present when its actions are fixed, and voters' approve/disapprove evaluations are such fixed actions, so VOT is present and NONSTRAT (implicit)."
+  },
+  "C9.2": {
+   "value": {
+    "code": "ALL-STATED",
+    "loc": "Introduction, p.2; Concluding remarks, p.24",
+    "quote": "as such, suit different situations",
+    "note": "The suitability claims (certification vs competitive selection) follow from structural properties of the rules, such as independence and consistency. They need no assumption about how inputs relate to held attitudes, about strategic behaviour, or about information, so no needed assumption is unstated."
+   },
+   "chosen": "other",
+   "reason": "The claims are about which rule suits which kind of problem and rest only on structural axioms, so no unstated modelling assumption is needed; B's own note concedes this, which contradicts its SOME-UNSTATED code, and A's UNCLEAR is unnecessary."
+  }
+ }
+}

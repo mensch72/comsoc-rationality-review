@@ -1,0 +1,79 @@
+{
+ "paper_id": "SCW-2025-28e37733",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "EQ",
+     "SB",
+     "WD",
+     "EM"
+    ],
+    "primary": "EQ",
+    "loc": "Abstract, p.197; Sect. 2.1\u20132.2, pp.201\u2013206; Sect. 3, pp.207\u2013208",
+    "quote": "We compute the Nash equilibria for this game",
+    "note": "SB: voters' incentives to trade votes. EM: equilibria and welfare computed on utility distributions estimated from ANES survey data. The synthetic-distribution examples are analytical or numerical computations, not simulations."
+   },
+   "chosen": "A",
+   "reason": "The paper analyses voters' incentives to trade votes (SB) and applies the model to real survey data (EM), while its synthetic examples are numerical computations rather than simulations, so SI does not apply."
+  },
+  "C2.2": {
+   "value": {
+    "codes": [
+     "OTH"
+    ],
+    "loc": "Sect. 2, p.200",
+    "quote": "Finally, all voters cast their votes on both issues.",
+    "note": "Inputs are binary yes/no votes on each of two issues under majority rule, with traded votes cast by the partner. Cardinal utilities are held attitudes, not inputs."
+   },
+   "chosen": "A",
+   "reason": "The rule's argument is binary votes, and the cardinal utilities are held attitudes, so CARD should not be coded as an input format."
+  },
+  "C3.1": {
+   "value": {
+    "code": "ALL",
+    "loc": "Sect. 2, p.200; Sect. 4, p.208",
+    "quote": "two voters can offer to trade away their vote on t1",
+    "note": "Every main analysis models trades, in which a trader's vote on the traded issue is cast by the partner and may differ from the trader's utility. Non-trading voters vote sincerely."
+   },
+   "chosen": "A",
+   "reason": "Every main analysis, both the single-trade and the group-wide model, involves strategic vote trading in which submitted votes can differ from held utilities."
+  },
+  "C3.2": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "C3.1 = ALL."
+   },
+   "chosen": "A",
+   "reason": "C3.1 is ALL, so the codebook requires NA."
+  },
+  "C3.3": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "C3.2 is not STATED."
+   },
+   "chosen": "A",
+   "reason": "C3.2 is not STATED, so C3.3 is NA."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "STRAT",
+    "behav_stated": "EXPLICIT",
+    "info": "PARTIAL",
+    "info_stated": "EXPLICIT",
+    "loc_behav": "Sect. 1, p.199",
+    "quote_behav": "we study this system via Nash equilibria in which no participants",
+    "loc_info": "Sect. 1, p.199",
+    "quote_info": "All voters operate with the same knowledge about the distribution",
+    "note": "Trading voters are strategic in every analysis, and in the main model the other n\u22122 voters vote sincerely and myopically. Voters know the distribution f but not their partners' utilities."
+   },
+   "chosen": "A",
+   "reason": "MIXED requires strategic behaviour in some analyses and not in others, but voters choose trades strategically in every analysis, so STRAT fits."
+  }
+ }
+}

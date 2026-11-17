@@ -1,0 +1,181 @@
+{
+ "paper_id": "COMSOC-2023-de41cb58",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "We study the election of sequences of committees",
+  "note": "Committees are selected from agents' nominations over several levels."
+ },
+ "C1": {
+  "types": [
+   "AL"
+  ],
+  "primary": "AL",
+  "loc": "Abstract, p.1",
+  "quote": "We analyze the parameterized complexity of finding such committees",
+  "note": "All main results are NP-hardness, FPT and kernelization results."
+ },
+ "C2.1": {
+  "value": "nomination profiles",
+  "loc": "Sec. 1, problem definition GCSE, p.2",
+  "quote": "a sequence of nomination profiles U = (u1 , . . . , u\u03c4 )"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Sec. 1, problem definition GCSE, p.2",
+  "quote": "with ut \u2236 A \u2192 C \u222a {\u2205}",
+  "note": "Each agent nominates at most one candidate per level, a function from agents to candidates or empty. This resembles a singleton approval set; coded OTH."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Abstract, p.1; Fig. 1 caption, p.2",
+  "quote": "Preferences indicating the favorite activity of each agent for each day",
+  "note": "Agents are also described as satisfied by selection of their nominated candidate."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Sec. 1, Example 1, p.1",
+  "quote": "The agents\u2019 preferences are given in Fig. 1.",
+  "note": "Nominations are described as preferences/favorites, and satisfaction is defined directly on them, with no statement about reporting. IDS was considered because of 'nominate one candidate whose selection would satisfy her', but that reads as definitional."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Secs. 1-5",
+  "quote": "none found",
+  "note": "No strategic nominations are considered."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sec. 1 Prologue, Sec. 2 Preliminaries, Sec. 5 Epilogue",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C2.2 is OTH only, so the applicability condition is not met."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sec. 1, problem definition, p.2",
+  "quote": "We also refer to the left-hand side of (1) and of (2) as committee and agent score",
+  "note": "The problem requires each agent to be satisfied in at least or exactly y levels (egalitarian/equitable satisfaction). Quote corrected for extraction artifacts '(11)' and '(22)'."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Sec. 1, p.2",
+  "quote": "\u2211 \u03c4 t=1 \u2223ut (a) \u2229 Ct \u2223 \u2265 y?",
+  "note": "Satisfaction is computed on the nominations."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sec. 1, problem definition GCSE, p.2",
+   "quote_behav": "a sequence of nomination profiles U = (u1 , . . . , u\u03c4 )",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Agents nominate candidates, an action fixed by the model as given input; no strategic nomination is modelled."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Sec. 5 Epilogue, p.11-12",
+    "quote": "short trips with few per-day activities like in our introductory example"
+   },
+   {
+    "loc": "Sec. 5 Epilogue, p.12",
+    "quote": "egalitarian or even equitable solutions appear particularly relevant, can be solved efficiently"
+   },
+   {
+    "loc": "Sec. 1 Example 1, p.1",
+    "quote": "the agents might not find this fair, because some are satisfied"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 5, Epilogue, p.12",
+  "quote": "where egalitarian or even equitable solutions appear particularly relevant",
+  "note": "The claims about fairness and the relevance of egalitarian or equitable solutions for agents need nominations to reflect agents' actual satisfaction, i.e. no misreporting. This is not stated (C3.2 = NOT-STATED, C2.4 = IDU). The tractability claim follows from the formal results."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Secs. 1, 2, 5",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C6.VOT": {
+   "chosen": "A",
+   "reason": "Under the codebook, a type is present when its agents take an action in the model even if that action is fixed; nominating is such an action, so voters are present and NONSTRAT."
+  },
+  "C9.2": {
+   "chosen": "other",
+   "reason": "B's code is correct because the fairness claims need an unstated input-equals-held-attitude assumption; the abstract's 'would satisfy her' is definitional and says nothing about reporting, but B's quote exceeds 12 words, so the quote was replaced."
+  }
+ }
+}

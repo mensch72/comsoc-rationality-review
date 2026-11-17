@@ -1,0 +1,53 @@
+{
+ "paper_id": "AAMAS-2024-629cc4bd",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "AX",
+     "SI",
+     "WD"
+    ],
+    "primary": "AX",
+    "loc": "Sections 3-5, pp.1569-1574",
+    "quote": "show that they have good axiomatic properties",
+    "note": "Most results are axioms, propositions and theorems on axioms. Section 5 simulates on synthetic data (IC, Euclidean) and compares social welfare (Borda score) across rules."
+   },
+   "chosen": "A",
+   "reason": "The Section 5.2 simulation evaluates rules against social welfare, so it is a WD result as well as an SI one, and AX remains primary."
+  },
+  "C2.2": {
+   "value": {
+    "codes": [
+     "RANK",
+     "OTH"
+    ],
+    "loc": "Section 2, p.1568",
+    "quote": "is associated with a strict linear order (ranking)",
+    "note": "OTH: the rule also takes the set of alliances A between candidates as input. Approval-type ballots appear only as an implementation discussion in Section 6.1."
+   },
+   "chosen": "A",
+   "reason": "The rule's argument is (C, V, A), and the paper says the rules take as input alliance information besides rankings, which fits OTH."
+  },
+  "C2.3": {
+   "value": {
+    "code": "Y",
+    "loc": "Section 1, p.1567; Section 5, p.1573",
+    "quote": "The voters\u2019 preferences are as follows:",
+    "note": "Rankings are called preferences. In the Euclidean simulations, voter ideal points generate the rankings."
+   },
+   "chosen": "A",
+   "reason": "The paper attributes preferences and Euclidean ideal points to voters, and both coders' C2.4 = IDU already presupposes that a held attitude is present."
+  },
+  "C4.1": {
+   "value": {
+    "code": "SPEC",
+    "loc": "Section 5.2, p.1573",
+    "quote": "social welfare of a given candidate is equal to his or her Borda score",
+    "note": "Welfare is defined from the positions in the rankings."
+   },
+   "chosen": "A",
+   "reason": "The paper explicitly defines voter welfare as a function of the ranking positions (Borda), which is a defined link between welfare and the input."
+  }
+ }
+}

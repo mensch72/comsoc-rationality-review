@@ -1,0 +1,53 @@
+{
+ "paper_id": "EC-2024-97e2ef87",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "WD"
+    ],
+    "primary": "WD",
+    "loc": "2 Model and Preliminaries, p.6",
+    "quote": "The distortion of ALG is the worst-case multiplicative approximation it achieves",
+    "note": "All main results are distortion, consistency or robustness bounds. No running-time, complexity or computational results are given, so AL does not apply."
+   },
+   "chosen": "A",
+   "reason": "The paper's 'algorithms' are voting rules assessed only by distortion (WD), with no computational analysis that would justify AL."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "2 Model and Preliminaries, p.6",
+    "quote_behav": "a preference profile \u03c3 which is induced by some (V, C, d)",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Voters' rankings, which are the rule's input, are fixed by the metric. Their behaviour is not discussed in words."
+   },
+   "chosen": "A",
+   "reason": "Voters supply the rankings the rule takes as input, an action fixed by the model, so they are present as non-strategic agents."
+  },
+  "C9.1": {
+   "value": {
+    "code": "N",
+    "claims": [],
+    "note": "Abstract, introduction and conclusion restate formal results (e.g. the consistency/robustness example) and motivate the prediction model. No claims are made about real institutions, voter well-being, or which rule should be used."
+   },
+   "chosen": "A",
+   "reason": "B's quotes are a restated formal trade-off, a modelling motivation and a summary of contributions, none of which is a claim about real decisions, voter welfare or rule choice."
+  },
+  "C9.2": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "C9.1 is N."
+   },
+   "chosen": "A",
+   "reason": "C9.2 is NA because C9.1 is N."
+  }
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "paper_id": "COMSOC-2021-cafb3c9e",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "WD",
+     "SI"
+    ],
+    "primary": "SI",
+    "loc": "Introduction, p.2",
+    "quote": "the major (and the main) part of our study aims",
+    "note": "Worst-case distortion results (Sec. 4) plus simulations (Sec. 5); the paper calls the simulations the main part."
+   },
+   "chosen": "A",
+   "reason": "The paper explicitly identifies the simulation study of average behaviour as the main part, so SI is primary."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "EXPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Sec. 3, p.4",
+    "quote_behav": "a voter v ranks the candidates according to the number of issues",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Voters act by ranking candidates. The ranking is fixed by issue agreement, and the text says this in words."
+   },
+   "chosen": "other",
+   "reason": "Voters take a fixed action (ranking candidates), so they are present, and the fixed ranking behaviour is stated in words, not only in the formal model."
+  },
+  "C6.CAN": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Introduction, p.1",
+    "quote_behav": "we assume that the elected committee uses the majority rule",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Elected candidates vote on issues according to their preference vectors."
+   },
+   "chosen": "A",
+   "reason": "Elected candidates act in the model by voting on issues according to their fixed positions, so they are present and non-strategic."
+  },
+  "C7.1": {
+   "value": {
+    "code": "N",
+    "loc": "Sec. 3",
+    "quote": "none found",
+    "note": "Both present types (VOT, CAN) are non-strategic."
+   },
+   "chosen": "A",
+   "reason": "Two types are present and both are non-strategic, so N applies rather than NA."
+  }
+ }
+}

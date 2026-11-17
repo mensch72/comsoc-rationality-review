@@ -1,0 +1,204 @@
+{
+ "paper_id": "GEB-2023-ada947b3",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Section 2, p.6",
+  "quote": "trimming mechanisms that (i) request each player to announce one alternative",
+  "note": "Aggregation of players' reports into a collective decision via trimmed mean voting mechanisms."
+ },
+ "C1": {
+  "types": [
+   "SB",
+   "EQ",
+   "EM"
+  ],
+  "primary": "EQ",
+  "loc": "Sections 3, 5-6",
+  "quote": "each trimmed mechanism leads, essentially, to a unique equilibrium",
+  "note": "Main results are a strong Nash equilibrium characterisation and comparative statics, plus a lab experiment. Incentives to misreport (polarisation, weak dominance of sincerity under the median) are also analysed, so SB applies."
+ },
+ "C2.1": {
+  "value": "reports; votes; strategy profile",
+  "loc": "Section 2, p.6; Section 4, p.10",
+  "quote": "each player i submits a report si \u2208 [0, 1]"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 2, p.6",
+  "quote": "the strategy space for each player equals S = [0, 1]",
+  "note": "Each input is a single point (location) in the unit interval, integers 1-100 in the experiment, not a cardinal score or utility over alternatives."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.5",
+  "quote": "Each player i has utility function ui in U",
+  "note": "Single-peaked utilities with peaks pi."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 4, p.10",
+  "quote": "Under sincere voting, si = pi, and under strategic voting",
+  "note": "Reports si and peaks pi have separate notation."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "Section 4; Sections 3, 5",
+  "quote": "Sincere voting outcome of trimming",
+  "note": "The equilibrium and experimental analyses are strategic. Section 4 (Examples 1-2, Tables 1-3) also analyses outcomes under sincere voting as a benchmark."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Section 4, Table 1",
+  "quote": "Note that when voting is sincere si = pi .",
+  "note": "The sincere analyses are explicitly defined by si = pi."
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Section 4",
+  "quote": "Under sincere voting, si = pi",
+  "note": "Sincere voting serves only as a comparison benchmark, and no reason is given for voters being sincere."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Input format is OTH (points on the interval), so the applicability condition is not met."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 3, 6",
+  "quote": "none found",
+  "note": "Outcomes are evaluated by distance to the centre and to the median peak, not by welfare, efficiency or representation."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 4",
+   "quote_behav": "Under sincere voting, si = pi , and under strategic voting",
+   "loc_info": "Section 7",
+   "quote_info": "Our results were derived in a context of complete information",
+   "note": "Strategic in the equilibrium analysis and the experiment; sincere in the Section 4 benchmark. Starting points are common knowledge in the experiment."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N",
+   "note": "Mechanism designer is mentioned only outside the formal model."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 \u2260 Y."
+ },
+ "C8.1": {
+  "codes": [
+   "COAL",
+   "NE",
+   "DOM"
+  ],
+  "loc": "Section 3, pp.6-8",
+  "quote": "based on the concept of strong (Nash) equilibrium (Aumann, 1959)",
+  "note": "Nash equilibrium is used in Lemma 1; a weakly dominant strategy is used for the median mechanism."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 3, p.6",
+  "quote": "based on the concept of strong (Nash) equilibrium"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.5",
+    "quote": "call for caution when it comes to deciding whether a trimmed"
+   },
+   {
+    "loc": "Introduction, p.5",
+    "quote": "might be by not trimming extreme reports at all"
+   },
+   {
+    "loc": "Abstract, p.1",
+    "quote": "and call for caution\u2013 regarding its implementation"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sections 2, 3, 7",
+  "quote": "Our results were derived in a context of complete information",
+  "note": "Needed assumptions are strategic voters, single-peaked held utilities distinct from reports, and complete information; all are stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 2, 7",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C1": {
+   "chosen": "B",
+   "reason": "The paper explicitly analyses incentives for strategic misreporting and the weak dominance of sincere voting under the median, which falls under SB alongside EQ and EM."
+  },
+  "C2.2": {
+   "chosen": "A",
+   "reason": "A report is a location in the policy interval, not a cardinal score, utility or valuation, so OTH fits better than CARD."
+  },
+  "C3.1": {
+   "chosen": "B",
+   "reason": "Section 4 explicitly analyses sincere-voting outcomes in worked examples, so not every analysis models strategic voters."
+  },
+  "C3.2": {
+   "chosen": "B",
+   "reason": "For the sincere benchmark analyses the paper states in words that reports equal peaks."
+  },
+  "C3.3": {
+   "chosen": "B",
+   "reason": "No justification is offered for sincere behaviour in the benchmark, so NONE applies."
+  },
+  "C6.VOT": {
+   "chosen": "B",
+   "reason": "Consistent with C3.1 = SOME, voters are strategic in the main analyses and sincere in the benchmark analysis."
+  }
+ }
+}

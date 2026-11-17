@@ -1,0 +1,55 @@
+{
+ "paper_id": "EC-2025-f4279bd5",
+ "decisions": {
+  "C2.2": {
+   "value": {
+    "codes": [
+     "RANK",
+     "WEAK",
+     "OTH"
+    ],
+    "loc": "Sec. 3, p.6; Sec. 6, p.15",
+    "quote": "reports a (weak) preference relation \u227f\ud835\udc56 over the candidates",
+    "note": "OTH: truncated strict preferences in Sec. 6. Approval votes are mentioned only as a special case of weak orders, not as a separate input format."
+   },
+   "chosen": "A",
+   "reason": "The formal inputs are strict rankings, weak orders and truncated rankings (OTH); approval appears only as a special case of weak orders, so APPR is not a separate format."
+  },
+  "C4.1": {
+   "value": {
+    "code": "SPEC",
+    "loc": "Sec. 3.2, p.8",
+    "quote": "count the candidate as contributing to the satisfaction of \ud835\udc41 \u2032",
+    "note": "Satisfaction of voter coalitions is defined via periphery membership in the input. No utilities are used otherwise."
+   },
+   "chosen": "A",
+   "reason": "The paper uses 'satisfaction' for voter coalitions, which meets the applicability condition, and defines it directly in terms of the submitted preferences."
+  },
+  "C4.2": {
+   "value": {
+    "code": "N",
+    "loc": "Sec. 1, p.4",
+    "quote": "on the domain of approval votes (dichotomous preferences)",
+    "note": ""
+   },
+   "chosen": "A",
+   "reason": "The term 'dichotomous preferences' is used, so NA does not apply, and the paper does not say what the two classes represent."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Sec. 3, p.6",
+    "quote_behav": "every voter \ud835\udc56 \u2208 \ud835\udc41 reports a (weak) preference relation",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Voter inputs are exogenous profiles."
+   },
+   "chosen": "A",
+   "reason": "Voters take a fixed action in the model (they report preferences), so they are present under the codebook's 'strategically or fixed' rule, and they are non-strategic."
+  }
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "paper_id": "COMSOC-2023-c6750bee",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "EQ",
+     "SB"
+    ],
+    "primary": "EQ",
+    "loc": "Section 3.1, Proposition 1",
+    "quote": "Majority voting with Random checks subgame perfect implements the majority rule",
+    "note": "Main results are implementation results, i.e. characterisations of the equilibrium outcomes of designed mechanisms (SPE, Nash, sequential). SB is included because the analysis turns on incentives to vote truthfully."
+   },
+   "chosen": "A",
+   "reason": "The paper contains no axiomatic characterisation, so AX does not apply, and B's own note concedes this; the results are equilibrium implementation results that turn on incentives."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "STRAT",
+    "behav_stated": "EXPLICIT",
+    "info": "COMPLETE",
+    "info_stated": "EXPLICIT",
+    "loc_behav": "Section 3.1, Example 1",
+    "quote_behav": "by SD, agent 1 prefers to deviate",
+    "loc_info": "Section 3.2",
+    "quote_info": "when we relax the assumption of complete information",
+    "note": "Information is complete in Props 1, 3, 4 and 5. Under incomplete information (Props 2 and 6) agents have i.i.d. priors over types and observe votes, which would be PARTIAL. COMPLETE is chosen as the first listed code under the doubt rule."
+   },
+   "chosen": "A",
+   "reason": "MIXED is not a valid info code, so the doubt rule gives COMPLETE (listed first); strategic deviation is described in words, so behav_stated is EXPLICIT."
+  },
+  "C8.1": {
+   "value": {
+    "codes": [
+     "SPE",
+     "NE",
+     "OTH"
+    ],
+    "loc": "Section 2; footnote 9",
+    "quote": "We focus on implementation in sequential equilibria",
+    "note": "OTH = sequential equilibrium under incomplete information. Also uses full implementation as a solution concept and SD preferences over lotteries."
+   },
+   "chosen": "A",
+   "reason": "Sequential equilibrium is neither Bayes\u2013Nash nor ex-post equilibrium, so it belongs under OTH rather than BNE."
+  }
+ }
+}

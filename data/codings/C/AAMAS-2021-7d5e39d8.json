@@ -1,0 +1,41 @@
+{
+ "paper_id": "AAMAS-2021-7d5e39d8",
+ "decisions": {
+  "C2.4": {
+   "value": {
+    "code": "IDU",
+    "loc": "Sec. 3, Example 2, p.685; Sec. 3, p.684",
+    "quote": "Voters approve desired attribute-values from each attribute\u2019s domain.",
+    "note": "The model has a single object, the attribute approvals, which the paper also calls voters' preferences, and the rules apply to it directly. Footnote 1 is only a general definition of manipulation and is not used in the model."
+   },
+   "chosen": "B",
+   "reason": "The formal model never separates submitted approvals from held preferences, and the footnote is a generic definition rather than part of the model, so IDU fits better than DIST."
+  },
+  "C4.1": {
+   "value": {
+    "code": "SPEC",
+    "loc": "Sec. 4.1, p.685",
+    "quote": "maximize the sum of voters\u2019 utilities, where the utility of",
+    "note": "PAV utility and the SAV satisfaction score are defined explicitly as functions of the approved attributes contained in W."
+   },
+   "chosen": "A",
+   "reason": "Voter utility is defined as an explicit function of the approval input, like the codebook's 'utility 1 for approved' example, which is SPEC."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Sec. 4.1, p.685",
+    "quote_behav": "When voters submit their approvals on the attributes",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Voters submit approval sets that are fixed exogenously."
+   },
+   "chosen": "A",
+   "reason": "Voters submitting approvals is an action, and the codebook counts actions whether strategic or fixed, so voters are present as NONSTRAT."
+  }
+ }
+}

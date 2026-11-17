@@ -1,0 +1,43 @@
+{
+ "paper_id": "GEB-2024-719b6233",
+ "decisions": {
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "STRAT",
+    "behav_stated": "EXPLICIT",
+    "info": "NONE",
+    "info_stated": "EXPLICIT",
+    "loc_behav": "Section 2.2, p.6",
+    "quote_behav": "They try to describe those manipulations that are easily identifiable",
+    "loc_info": "Section 2.2, p.6",
+    "quote_info": "each agent has complete ignorance in this respect",
+    "note": "The ignorance assumption is attributed to Troyan and Morrill (2020) and adopted through the option-set definition."
+   },
+   "chosen": "A",
+   "reason": "The paper describes agents' strategic manipulation in words (e.g. strategic behavior, manipulations identifiable by the agents), so behaviour is EXPLICIT rather than only inferable from the formal model."
+  },
+  "C8.1": {
+   "value": {
+    "codes": [
+     "DOM",
+     "OTH"
+    ],
+    "loc": "Section 2.1-2.2, p.6-7",
+    "quote": "The rule f is not obviously manipulable (NOM) if it",
+    "note": "OTH = obvious manipulability (Troyan and Morrill), based on best and worst outcomes in option sets. Strategy-proofness is also defined and used."
+   },
+   "chosen": "A",
+   "reason": "The paper studies strategy-proofness and non-obvious manipulability as properties of rules; this is not a decision or optimisation problem, so DEV does not apply."
+  },
+  "C8.2": {
+   "value": {
+    "code": "Y",
+    "loc": "Section 2.2, Definition 1, p.7",
+    "quote": "The rule f is not obviously manipulable (NOM)"
+   },
+   "chosen": "A",
+   "reason": "The solution concepts (not obviously manipulable, strategy-proof) are named and formally defined in the paper."
+  }
+ }
+}

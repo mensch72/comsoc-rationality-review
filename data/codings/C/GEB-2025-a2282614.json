@@ -1,0 +1,39 @@
+{
+ "paper_id": "GEB-2025-a2282614",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "AX",
+     "SB"
+    ],
+    "primary": "AX",
+    "loc": "Abstract, p.1; Section 5, p.12",
+    "quote": "provide axiomatic characterizations of maximin and two of its refinements",
+    "note": "SB because participation (no-show paradox) is a property about voters' incentives to abstain, central to Theorem 5 and the characterizations. Figure 4 is a minor computational complement."
+   },
+   "chosen": "A",
+   "reason": "The participation axiom, which demands 'voters are never better off by abstaining', is an incentive property, and the codebook counts such properties as SB; it underlies the main results of Section 5."
+  },
+  "C5.1": {
+   "value": {
+    "code": "Y",
+    "loc": "Section 6, footnote 15, p.21",
+    "quote": "never selects Pareto-dominated candidates",
+    "note": "Borderline. The only instance is a footnoted formal observation that restricts the class of rules by Pareto efficiency; footnotes count."
+   },
+   "chosen": "A",
+   "reason": "Footnote 15 states a formal claim whose condition on rules is Pareto efficiency; footnotes count under the codebook, so efficiency enters a formal result."
+  },
+  "C5.2": {
+   "value": {
+    "code": "INPUT-UNSTATED",
+    "loc": "Section 6, footnote 15, p.21",
+    "quote": "never selects Pareto-dominated candidates",
+    "note": "Pareto dominance is evaluated on the preference profile, i.e., the input, with no statement relating it to held attitudes."
+   },
+   "chosen": "A",
+   "reason": "Given C5.1 = Y, Pareto dominance is evaluated on the profile, and the paper makes no statement relating the input to held attitudes (C2.4 = IDU)."
+  }
+ }
+}

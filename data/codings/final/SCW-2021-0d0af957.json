@@ -1,0 +1,192 @@
+{
+ "paper_id": "SCW-2021-0d0af957",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "1 Introduction, p.711",
+  "quote": "compare voting behavior under simultaneous versus sequential voting",
+  "note": "Binary yes/no voting on a proposal under a threshold rule; equilibrium and experimental analysis of voting behaviour."
+ },
+ "C1": {
+  "types": [
+   "EQ",
+   "EM"
+  ],
+  "primary": "EM",
+  "loc": "1 Introduction, p.714",
+  "quote": "We report the results of an experimental voting game",
+  "note": "Section 2 derives equilibria (NE, SPE). Section 4 and the appendices report laboratory experiments, which make up most of the results."
+ },
+ "C2.1": {
+  "value": "votes (\"Yes\" and \"No\"); actions",
+  "loc": "2, Definition 1, p.714",
+  "quote": "players have two possible actions, called \u201cYes\u201d and \u201cNo.\u201d"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "2, Definition 1, p.714",
+  "quote": "players have two possible actions, called \u201cYes\u201d and \u201cNo.\u201d",
+  "note": "Binary Yes/No vote on a single proposal with a threshold k."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "2, Definition 2 (iii), p.715",
+  "quote": "We define the true preference of N + as voting Yes",
+  "note": "Voters also have costs ci and benefits Gi as cardinal utilities."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "1 Introduction, p.713",
+  "quote": "The preferred outcome is not necessarily connected with the own confirmatory vote.",
+  "note": "True preferences (how a voter would vote if decisive) are defined separately from actual votes."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "2.1, p.716; 4, p.720ff",
+  "quote": "all players vote contrary to their true preferences",
+  "note": "Theory models votes as equilibrium strategies that may differ from true preferences. In the experiments, subjects choose their votes freely."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL"
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 not STATED"
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Input format is OTH (binary votes), so the applicability condition is not met."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "4.3, p.723; 4.1 Table 2, p.721",
+  "quote": "The second is striving for efficiency (maximizing the sum of incomes)",
+  "note": "Outcomes are evaluated by the frequency of true majority results and by efficiency (sum of incomes)."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "1 Introduction, p.713",
+  "quote": "the result is the same as if all voters had voted",
+  "note": "True majorities are defined on true preferences derived from costs and benefits, not on submitted votes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "2, Definition 1, p.714",
+   "quote_behav": "Players maximize their expected revenues",
+   "loc_info": "2.1, Assumption 2, p.716; 2.2, Assumption 3, p.717",
+   "quote_info": "All players\u2019 signs and cost/benefit ratios are common knowledge.",
+   "note": "In the experiment, the strategy method left some uncertainty about predecessors' identities (footnote 11)."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N",
+   "note": "Outside pressure from party whips is represented only as voters' costs; whips do not act in the model."
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 not Y"
+ },
+ "C8.1": {
+  "codes": [
+   "DOM",
+   "NE",
+   "SPE",
+   "BND"
+  ],
+  "loc": "Abstract p.711; 2 p.715; 2.1 p.716; 4.2 p.722",
+  "quote": "sequential voting has a unique subgame perfect equilibrium",
+  "note": "Dominant strategies are applied to non-critical voters. Pure and mixed Nash equilibria are used for simultaneous voting. A bounded-rationality approach is used to explain deviations."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Abstract, p.711",
+  "quote": "sequential voting has a unique subgame perfect equilibrium"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.711",
+    "quote": "is theoretically preferable to simultaneous voting (as in recorded ballots)"
+   },
+   {
+    "loc": "1 Introduction, p.713",
+    "quote": "theory, sequential voting seems to be clearly advantageous over simultaneous voting"
+   },
+   {
+    "loc": "5 Conclusion, p.730",
+    "quote": "be aware of structural differences but do not base your evaluations"
+   }
+  ],
+  "note": "Claims about which voting procedure institutions should prefer."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "1 Introduction p.713; 2 Definition 2; Assumptions 1-3; 5 Conclusion p.729",
+  "quote": "Our model is based on complete information about ordinal preferences",
+  "note": "Needed assumptions are stated: the definition of true preferences relative to votes, strategic voters, and complete information."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "1 Introduction; 2 Voting games; 5 Conclusion",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C1": {
+   "chosen": "A",
+   "reason": "The strategic voting here is analysed only through equilibrium (EQ) and experiments (EM); there is no separate manipulation or strategyproofness analysis that would justify adding SB."
+  },
+  "C6.VOT": {
+   "chosen": "A",
+   "reason": "No analysis fixes voters' actions by the model, since experimental subjects choose freely and heuristics are only used to explain deviations, so STRAT fits better than MIXED."
+  },
+  "C8.1": {
+   "chosen": "A",
+   "reason": "The model explicitly uses dominant strategies to remove non-critical voters ('i has the dominant strategy to vote Yes'), so DOM belongs alongside NE, SPE and BND."
+  }
+ }
+}

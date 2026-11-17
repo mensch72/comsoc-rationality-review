@@ -1,0 +1,196 @@
+{
+ "paper_id": "COMSOC-2021-cdf5e8b3",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "Social decision schemes (SDSs) map the preferences of a group of voters",
+  "note": "Studies probabilistic voting rules (SDSs) under strategyproofness."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SB"
+  ],
+  "primary": "AX",
+  "loc": "Abstract, p.1",
+  "quote": "the only anonymous, neutral, and strategyproof SDS that achieves this bound",
+  "note": "The results are characterisations and impossibilities. Strategyproofness enters as an axiom/property."
+ },
+ "C2.1": {
+  "value": "preference profile",
+  "loc": "Section 2 The model",
+  "quote": "We therefore analyze social decision schemes (SDSs), which map each preference profile"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2 The model",
+  "quote": "which is an anti-symmetric, complete, and transitive binary relation on A",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2 The model",
+  "quote": "Every voter i has a (strict) preference relation",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2.1 Stochastic Dominance and Strategyproofness",
+  "quote": "voters cannot benefit by misrepresenting their preferences",
+  "note": "Strategyproofness compares truthful profile R with misreported R\u2032. The text says reports may differ from preferences."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Section 2.1",
+  "quote": "every voter prefers the lottery obtained by voting truthfully to any lottery",
+  "note": "Every main result is restricted to strategyproof SDSs, and strategyproofness quantifies over deviations from truthful reports."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL"
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 not STATED"
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 2.1",
+  "quote": "vNM utility function that is ordinally consistent with voter i\u2019s preferences",
+  "note": "Utilities are defined as any vNM representation consistent with the strict ranking."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2.2 Relaxing Classic Axioms",
+  "quote": "An alternative x Pareto-dominates another alternative y in a preference profile",
+  "note": "beta-ex post efficiency is used in Theorem 6 and Corollary 1."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 2.2",
+  "quote": "An alternative x Pareto-dominates another alternative y in a preference profile R",
+  "note": "Pareto dominance and ex post efficiency are evaluated on the profile R that is the argument of f. Held attitudes are not defined separately from it, and no statement links this evaluation to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Section 2.1",
+   "quote_behav": "voters cannot benefit by misrepresenting their preferences",
+   "loc_info": "Section 2, Section 2.1, Introduction, Section 3 checked",
+   "quote_info": "none found",
+   "note": "Voters are potential manipulators. Strategyproofness is required for all profiles, and no information assumption is stated."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [
+   "DOM"
+  ],
+  "loc": "Section 2.1",
+  "quote": "Based on stochastic dominance, we can now formalize strategyproofness.",
+  "note": "SD-strategyproofness."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 2.1",
+  "quote": "An SDS f is strategyproof if"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.1",
+    "quote": "when a voting rule is manipulable, all of its desirable properties are in doubt"
+   },
+   {
+    "loc": "Introduction, p.1",
+    "quote": "are therefore unacceptable for most applications"
+   },
+   {
+    "loc": "Introduction, p.2",
+    "quote": "enjoys a high degree of fairness"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Introduction, p.1",
+  "quote": "voters may be better off by lying about their preferences",
+  "note": "The needed assumptions are that reports may differ from held preferences and that voters manipulate when it is beneficial. Both are stated, together with the statement that under strategyproofness no voter can manipulate."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction; Section 2; Section 3",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C3.1": {
+   "chosen": "A",
+   "reason": "Every theorem imposes strategyproofness, which explicitly considers voters voting dishonestly; this is consistent with both coders treating voters as STRAT in C6."
+  },
+  "C3.2": {
+   "chosen": "A",
+   "reason": "Since C3.1 = ALL, the codebook requires NA."
+  },
+  "C4.1": {
+   "chosen": "A",
+   "reason": "The paper defines utilities as consistent with the ranking, which is the codebook's own example of SPEC."
+  },
+  "C5.2": {
+   "chosen": "B",
+   "reason": "Efficiency is evaluated on the SDS's argument R, with no separately defined held attitude, so HELD does not apply and no relating statement is made."
+  },
+  "C9.2": {
+   "chosen": "A",
+   "reason": "The needed assumptions behind the listed claims (possible misreporting and the incentive to manipulate) are stated explicitly in the introduction and Section 2.1."
+  }
+ }
+}

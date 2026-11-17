@@ -1,0 +1,61 @@
+{
+ "paper_id": "AAMAS-2023-c511e46e",
+ "decisions": {
+  "C2.4": {
+   "value": {
+    "code": "IDS",
+    "loc": "Abstract, p.2067; Section 2.2, p.2068",
+    "quote": "individual agents report their preferences",
+    "note": "IDS and IDU fit about equally: the text says agents report their preferences, with no reason and no separate notation; the first-listed code was chosen."
+   },
+   "chosen": "A",
+   "reason": "The paper says agents 'report their preferences', which weakly states that the input equals their preferences without giving a reason; under the doubt rule IDS (listed before IDU) applies."
+  },
+  "C3.2": {
+   "value": {
+    "code": "STATED",
+    "loc": "Abstract, p.2067",
+    "quote": "individual agents report their preferences",
+    "note": "Weak statement, consistent with C2.4 = IDS."
+   },
+   "chosen": "A",
+   "reason": "This is consistent with C2.4 = IDS: the abstract's wording states in words that agents submit their own preferences."
+  },
+  "C3.3": {
+   "value": {
+    "code": "NONE",
+    "loc": "Abstract; Section 1; Section 2.2; Section 6",
+    "quote": "none found",
+    "note": ""
+   },
+   "chosen": "A",
+   "reason": "C3.2 is STATED and no reason for sincere reporting is given anywhere in the paper."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Section 2.2, p.2068",
+    "quote_behav": "agents expressing a preference in a given situation",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Voters only supply a fixed profile."
+   },
+   "chosen": "A",
+   "reason": "Voters express (report) preferences in the model, which is a fixed action, so they are present and non-strategic."
+  },
+  "C9.2": {
+   "value": {
+    "code": "UNCLEAR",
+    "loc": "Section 1; Section 6",
+    "quote": "none found",
+    "note": "The claims concern the procedure's normative grounding; it is unclear whether they require assumptions relating reported profiles to held preferences."
+   },
+   "chosen": "A",
+   "reason": "The claims concern the axiomatic grounding of decisions rather than voter welfare, so it cannot be determined which input-attitude assumptions they need."
+  }
+ }
+}

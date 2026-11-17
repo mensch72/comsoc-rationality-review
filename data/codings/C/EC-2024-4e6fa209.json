@@ -1,0 +1,15 @@
+{
+ "paper_id": "EC-2024-4e6fa209",
+ "decisions": {
+  "C2.4": {
+   "value": {
+    "code": "DIST",
+    "loc": "Section 2, Def. 2.2-2.3, p.5",
+    "quote": "no voter has an incentive to misreport if she cannot benefit",
+    "note": "The strategyproofness definitions and the proof of Theorem 5.7 separate the true approval set A_i from a misreported A_i', and the text says voters may misreport their true preferences. In the main model the preference is represented by the approval set."
+   },
+   "chosen": "A",
+   "reason": "The paper uses separate notation for the true approval set A_i and the reported A_i', and says voters may misreport their true preferences, which meets the DIST criterion even though the main model identifies preference with the approval set."
+  }
+ }
+}

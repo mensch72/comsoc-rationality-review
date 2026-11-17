@@ -1,0 +1,98 @@
+{
+ "paper_id": "GEB-2024-b62ae4ec",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "AX",
+     "SB",
+     "WD"
+    ],
+    "primary": "WD",
+    "loc": "Abstract, p.1; 1.1, p.2-3",
+    "quote": "a deterministic mechanism with an additive performance guarantee",
+    "note": "Main results are additive guarantees (upper and lower bounds) for impartial mechanisms. The lower bounds come from an axiomatic impossibility result. Impartiality is an incentive (strategyproofness-type) property, so it is SB. There are no complexity or running-time results, so AL does not apply."
+   },
+   "chosen": "A",
+   "reason": "Impartiality is a strategyproofness-type property studied as a property (SB), while the paper has no algorithmic or complexity results that would warrant AL."
+  },
+  "C2.2": {
+   "value": {
+    "codes": [
+     "APPR"
+    ],
+    "loc": "1 Introduction, p.2",
+    "quote": "the more general approval setting, where outdegrees can be arbitrary",
+    "note": "Input is a directed graph in which each vertex's out-neighbourhood is its nomination (approval) set. The paper itself calls this the approval setting, and plurality is the special case of outdegree one."
+   },
+   "chosen": "A",
+   "reason": "The paper explicitly frames the nomination input as the approval setting, so APPR fits better than OTH."
+  },
+  "C3.1": {
+   "value": {
+    "code": "SOME",
+    "loc": "2 Preliminaries, p.4; 3, p.10",
+    "quote": "the outgoing edges of a vertex have no influence on its selection",
+    "note": "The impartiality analyses consider a voter changing its outgoing edges, i.e. possible misreports. The additive-guarantee analyses evaluate the submitted graph as given."
+   },
+   "chosen": "A",
+   "reason": "The impartiality proofs explicitly consider a voter deviating in its nominations, while the guarantee analyses take the input as given."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "MIXED",
+    "behav_stated": "EXPLICIT",
+    "info": "NS",
+    "info_stated": "NA",
+    "loc_behav": "1 Introduction, p.1",
+    "quote_behav": "motivated not to reveal their true opinion on who should win",
+    "loc_info": "1 Introduction; 2 Preliminaries; 3; 4",
+    "quote_info": "none found",
+    "note": "Voters' possible profitable deviations motivate and define impartiality, which is strategic. In the additive-guarantee analyses, nominations are taken as exogenous inputs. Voters' knowledge of others is never specified."
+   },
+   "chosen": "other",
+   "reason": "Voters are treated as potential deviators in the impartiality analyses but as given inputs in the guarantee analyses, so MIXED fits better than either NS or STRAT."
+  },
+  "C8.1": {
+   "value": {
+    "codes": [
+     "DOM"
+    ],
+    "loc": "1 Introduction, p.1",
+    "quote": "a change of the outgoing edges of some vertex v does not change",
+    "note": "Impartiality is a strategyproofness-type property: a vertex's own selection is independent of its own nominations."
+   },
+   "chosen": "B",
+   "reason": "Since voters are coded MIXED, C8 applies, and impartiality is a strategyproofness-type concept (DOM)."
+  },
+  "C8.2": {
+   "value": {
+    "code": "N",
+    "loc": "1 Introduction; 2 Preliminaries",
+    "quote": "none found"
+   },
+   "chosen": "B",
+   "reason": "The paper names the property impartiality but never calls it strategyproofness or dominant strategies."
+  },
+  "C9.1": {
+   "value": {
+    "code": "N",
+    "claims": [],
+    "note": "Real-world settings (papal conclave, FIFA awards) appear only as motivation. The abstract and introduction state formal results only, and there is no conclusion section."
+   },
+   "chosen": "A",
+   "reason": "The quotes B lists are motivation or restatements of formal tightness results, not claims about institutions, voter well-being, or which rule to use."
+  },
+  "C9.2": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "C9.1 = N."
+   },
+   "chosen": "A",
+   "reason": "C9.1 is N, so C9.2 is NA."
+  }
+ }
+}

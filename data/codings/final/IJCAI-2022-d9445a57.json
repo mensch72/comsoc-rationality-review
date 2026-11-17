@@ -1,0 +1,197 @@
+{
+ "paper_id": "IJCAI-2022-d9445a57",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.230",
+  "quote": "We define a family of runoff rules that work as follows",
+  "note": "Single-winner voting rules combining approval first round and majority runoff."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SB",
+   "SI",
+   "EM"
+  ],
+  "primary": "AX",
+  "loc": "Abstract p.230; Sec. 4 p.233; Sec. 5.2 p.235; Sec. 6 p.235",
+  "quote": "study the obtained runoff rules from an axiomatic point of view",
+  "note": "SB from weak strategyproofness (Theorem 1), since the codebook counts strategyproofness as a property under SB; SI from Gaussian simulations; EM from French election and poster datasets."
+ },
+ "C2.1": {
+  "value": "approval-preference (AP) profile; approval ballots; ordinal preference profile",
+  "loc": "Sec. 1 p.231; Sec. 3.1 p.231",
+  "quote": "This data structure is called an approval-preference (AP) profile"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR",
+   "RANK"
+  ],
+  "loc": "Sec. 3.1, p.231",
+  "quote": "collection of pairs P = h(A1 , 1 ), . . . (An , n )i",
+  "note": "Input is pairs of an approval set and a strict ranking, with ballot consistency."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec. 1, p.230",
+  "quote": "evaluated with respect to this (mostly private) information",
+  "note": "Rankings are called the voter's preference ranking and described as mostly private information."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Sec. 3.1 footnote 4, p.231; Sec. 1 p.231",
+  "quote": "voters are strategic and cast insincere approval ballots",
+  "note": "Footnote 4 and the deviation analysis treat submitted ballots as possibly differing from held preferences. The main text also assumes sincere ballots, citing convention, so IDJ could fit; DIST is listed first."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "Sec. 4, Definition 3 and Theorem 1, p.233",
+  "quote": "We define weak strategyproofness as the impossibility for a voter to deviate",
+  "note": "Strategic deviations are analysed only for weak strategyproofness; other analyses use sincere ballots."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Sec. 1, p.231",
+  "quote": "we concentrate on the counting of sincere ballots cast by a fixed electorate",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "CONV",
+  "loc": "Sec. 1, p.231",
+  "quote": "as it is often the case in social choice theory",
+  "note": "The paper also notes that evolution between rounds is left to further research."
+ },
+ "C4.1": {
+  "code": "PART",
+  "loc": "Sec. 3.2, p.232",
+  "quote": "discount the satisfaction of voters who are already satisfied",
+  "note": "Satisfaction is tied informally to approved finalists; no utility notion is defined."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sec. 4, Definition 2 and Theorems 1-2, p.232-234",
+  "quote": "An AVR rule F R is Pareto-efficient if for all",
+  "note": ""
+ },
+ "C5.2": {
+  "code": "INPUT-STATED",
+  "loc": "Sec. 1, p.231",
+  "quote": "we concentrate on the counting of sincere ballots cast by a fixed electorate",
+  "note": "Pareto-efficiency is evaluated on the approval-preference profile, and the paper states that ballots are sincere. C2.4 was coded DIST only by the doubt rule."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Sec. 1 p.231; Sec. 4 p.232",
+   "quote_behav": "impossibility for a voter to deviate from a profile",
+   "loc_info": "Sec. 3.1, Sec. 4, Sec. 1",
+   "quote_info": "none found",
+   "note": "Sincere in most analyses; deviating in the weak strategyproofness analysis. No information assumption stated."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates serve only as alternatives; their negotiation between rounds is mentioned outside the model."
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N",
+   "note": "The choice of rule is discussed but no designer objective is modelled."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [
+   "DOM"
+  ],
+  "loc": "Sec. 4, Definition 3, p.233",
+  "quote": "An AVR rule F R is weakly strategy-proof if",
+  "note": ""
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Sec. 4, p.233",
+  "quote": "No AVR rule is weakly strategy-proof and Paretoefficient."
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Sec. 7, p.235",
+    "quote": "If such rules have to be used in political elections"
+   },
+   {
+    "loc": "Sec. 7, p.235",
+    "quote": "the choice of the ABC rule will be crucial"
+   },
+   {
+    "loc": "Sec. 1, p.230",
+    "quote": "Approval ballots have several advantages; to start with, they are simple"
+   }
+  ],
+  "note": "Claims concern using approval with runoff in political elections and choosing the first-round rule."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sec. 1, p.231",
+  "quote": "we concentrate on the counting of sincere ballots cast by a fixed electorate",
+  "note": "The needed assumption is that ballots reflect held preferences and that the electorate is fixed; the paper states it in Section 1, including the exclusion of between-round dynamics."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sec. 1, Sec. 3.1, Sec. 7",
+  "quote": "none found",
+  "note": "The paper assumes sincerity rather than taking no position on how inputs relate to preferences."
+ },
+ "adjudication": {
+  "C1": {
+   "chosen": "A",
+   "reason": "Theorem 1 is a main result on strategyproofness, which the SB definition explicitly includes as a property."
+  },
+  "C2.4": {
+   "chosen": "A",
+   "reason": "Footnote 4 says submitted ballots may differ from held preferences, which meets DIST, and IDS is wrong because a convention-type reason is given."
+  },
+  "C4.1": {
+   "chosen": "A",
+   "reason": "The paper's own Section 3.2 uses voter satisfaction, so C4.1 applies, and its relation to approvals is only mentioned informally, not defined."
+  },
+  "C9.2": {
+   "chosen": "A",
+   "reason": "The needed sincerity and fixed-electorate assumptions are stated in Section 1, and the codebook does not require them to be restated in the conclusion."
+  }
+ }
+}

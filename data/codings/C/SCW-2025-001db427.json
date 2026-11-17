@@ -1,0 +1,115 @@
+{
+ "paper_id": "SCW-2025-001db427",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "AX",
+     "WD",
+     "SB"
+    ],
+    "primary": "AX",
+    "loc": "Sect. 4.1, p. 10",
+    "quote": "a deterministic voting rule is robust if and only if it is a WMR",
+    "note": "Main results characterise robust rules. WD covers the efficiency/responsiveness results (Sect. 5, App. D). SB covers the strategyproofness result in Online Appendix Lemma B, which is part of the supplied file."
+   },
+   "chosen": "A",
+   "reason": "The online appendix is in scope, and Lemma B is a formal strategyproofness result, so SB applies to at least one result."
+  },
+  "C2.2": {
+   "value": {
+    "codes": [
+     "RANK"
+    ],
+    "loc": "Sect. 1.1, p. 5",
+    "quote": "individuals report their ordinal ranking of two alternatives",
+    "note": "Inputs are binary choices in {-1,1}, which the paper describes as an ordinal ranking of two alternatives. OTH would also fit; RANK is listed first."
+   },
+   "chosen": "A",
+   "reason": "The paper itself describes the input as an ordinal ranking of two alternatives, and the doubt rule favours the first-listed code."
+  },
+  "C2.4": {
+   "value": {
+    "code": "DIST",
+    "loc": "Online Appendix A, p. 1",
+    "quote": "a voting mechanism, where individuals can vote insincerely",
+    "note": "Utilities u_i and votes sigma_i(u_i) have separate notation. The main text assumes sincerity and justifies it."
+   },
+   "chosen": "A",
+   "reason": "The online appendix gives separate notation for utilities and votes and says that votes may be insincere, which meets DIST."
+  },
+  "C3.1": {
+   "value": {
+    "code": "SOME",
+    "loc": "Online Appendix A, p. 2",
+    "quote": "the sincere voting strategy \ud835\udeff\ud835\udc56 is a best response to any strategy",
+    "note": "Main-text analyses assume sincere voting; the online appendix analyses arbitrary voting strategies."
+   },
+   "chosen": "A",
+   "reason": "The online appendix analysis explicitly allows voters to submit votes differing from their preferences, while the main analyses do not."
+  },
+  "C6.DES": {
+   "value": {
+    "present": "N",
+    "behav": "",
+    "behav_stated": "",
+    "info": "",
+    "info_stated": "",
+    "loc_behav": "",
+    "quote_behav": "",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "The social planner frames a normative robustness criterion; no choice or optimisation by the planner is modelled."
+   },
+   "chosen": "B",
+   "reason": "The planner takes no modelled action, so the type is not present by the C6 definition; A's own coding of behav NS reflects this."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "MIXED",
+    "behav_stated": "EXPLICIT",
+    "info": "NS",
+    "info_stated": "NA",
+    "loc_behav": "Sect. 3, p. 8; Online Appendix A, p. 1",
+    "quote_behav": "An individual is assumed to vote sincerely",
+    "loc_info": "Sect. 2-3; Online Appendix A",
+    "quote_info": "none found",
+    "note": "Sincere in the main text; strategies analysed in the online appendix via weak dominance, with no information assumption about others."
+   },
+   "chosen": "A",
+   "reason": "Voters are sincere in the main text but strategic in the Online Appendix A analysis, so MIXED applies."
+  },
+  "C7.1": {
+   "value": {
+    "code": "NA",
+    "loc": "Sect. 3",
+    "quote": "none found",
+    "note": "Only voters are present by the C6 definition."
+   },
+   "chosen": "B",
+   "reason": "With DES not present, fewer than two types are present, so the code is NA."
+  },
+  "C8.1": {
+   "value": {
+    "codes": [
+     "DOM"
+    ],
+    "loc": "Online Appendix A, p. 2",
+    "quote": "a sincere voting strategy is weakly dominant under \ud835\udf19",
+    "note": ""
+   },
+   "chosen": "A",
+   "reason": "Voters are MIXED, so C8 applies, and the concept used is weak dominance (strategyproofness)."
+  },
+  "C8.2": {
+   "value": {
+    "code": "Y",
+    "loc": "Online Appendix A, p. 2",
+    "quote": "that is, \ud835\udf19 satisfies strategy-proofness"
+   },
+   "chosen": "A",
+   "reason": "The paper names strategy-proofness and weak dominance explicitly."
+  }
+ }
+}

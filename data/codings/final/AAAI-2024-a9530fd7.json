@@ -1,0 +1,195 @@
+{
+ "paper_id": "AAAI-2024-a9530fd7",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Section 3, p. 9818",
+  "quote": "An ordinal committee selection rule f receives as input",
+  "note": "Committee selection from voters' rankings; the paper also mentions document and facility applications."
+ },
+ "C1": {
+  "types": [
+   "WD",
+   "AL",
+   "AX"
+  ],
+  "primary": "WD",
+  "loc": "Section 4, p. 9818",
+  "quote": "selects an (\u03b1, \u03b3)proportionally representative committee R of size k",
+  "note": "Main results are approximation and distortion guarantees for proportional representation and core of an algorithm, plus impossibility bounds."
+ },
+ "C2.1": {
+  "value": "ranked-choice profile; rankings of candidates",
+  "loc": "Section 3, p. 9818",
+  "quote": "refer to it as the rankedchoice profile"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 3, p. 9818",
+  "quote": "The algorithm learns, for each voter v \u2208 V , a ranking",
+  "note": "Rankings are by non-decreasing distance, so ties are possible, but the input is treated as a ranking with positions \u03c0v."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 3, p. 9817",
+  "quote": "the voters are assumed to rank the candidates by non-decreasing distance",
+  "note": "Distances in a metric space are held attitudes, separate from the rankings."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 3, p. 9818",
+  "quote": "We say that a pseudo-metric d is consistent with the rankedchoice",
+  "note": "Rankings and distances use separate notation. Rankings are assumed consistent with distances, without a reason; DIST is listed first."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-4, pp. 9816-9820",
+  "quote": "Voters rank candidates by non-decreasing distances",
+  "note": "No strategic voting is analysed."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Section 3, p. 9817",
+  "quote": "the voters are assumed to rank the candidates by non-decreasing distance",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Section 3, pp. 9817-9818",
+  "quote": "the voters are assumed to rank the candidates by non-decreasing distance",
+  "note": "Stated as an assumption without justification."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 3, p. 9818",
+  "quote": "We say that a pseudo-metric d is consistent with the rankedchoice",
+  "note": "Metric costs generate the rankings."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 3, p. 9818; Corollary 4.5, p. 9819",
+  "quote": "This voting rule has metric distortion at most 44",
+  "note": "Proportional representation, core fairness and distortion are evaluated against distances."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 3, p. 9818",
+  "quote": "and all metrics consistent with the election",
+  "note": "Evaluation is on the metric distances, not on the rankings."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 3, p. 9818",
+   "quote_behav": "Voters rank candidates by non-decreasing distances",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no strategic type."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 6, p. 9821",
+    "quote": "a potentially useful rule to be used in practice"
+   },
+   {
+    "loc": "Section 1, p. 9815",
+    "quote": "large like-minded groups of the population should be suitably represented"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 3, p. 9817",
+  "quote": "the voters are assumed to rank the candidates by non-decreasing distance",
+  "note": "The claims need rankings to reflect metric costs and distances to reflect voter preferences; both are stated (Section 3 and the introduction), though without justification."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 2, 3, 6",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C2.2": {
+   "chosen": "A",
+   "reason": "The rule's argument is the ranked-choice profile of rankings; the cardinal (known-metric) model is not an input to the studied rule, so OTH does not apply."
+  },
+  "C2.4": {
+   "chosen": "A",
+   "reason": "The paper uses separate notation for rankings and distances, and many metrics may be consistent with the rankings, which meets the DIST criterion of separate notation."
+  },
+  "C3.2": {
+   "chosen": "A",
+   "reason": "The paper states in words that voters rank candidates according to their distances, which is a statement that inputs reflect held attitudes."
+  },
+  "C3.3": {
+   "chosen": "A",
+   "reason": "The assumption is stated without any justification for sincere ranking; the justification given concerns ordinal information, not incentives."
+  },
+  "C6.VOT": {
+   "chosen": "A",
+   "reason": "Voters take a fixed action (ranking candidates) in the model, so they are present under the codebook's 'strategically or fixed' rule, and that action is NONSTRAT and explicitly stated."
+  },
+  "C9.2": {
+   "chosen": "A",
+   "reason": "The needed assumption that rankings reflect distances, and hence that voters are non-strategic, is explicitly stated, and the introduction states that preferences reflect distances."
+  }
+ }
+}

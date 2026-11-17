@@ -1,0 +1,74 @@
+{
+ "paper_id": "SCW-2025-0d48b8b0",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "WD",
+     "EQ"
+    ],
+    "primary": "WD",
+    "loc": "Section 2, p.4; Appendix B, p.27",
+    "quote": "the planner seeks to maximise its expected value",
+    "note": "Most results characterise welfare-maximising franchises. Appendix B (Propositions 12-13, discussed in the main text) characterises equilibrium franchises."
+   },
+   "chosen": "A",
+   "reason": "Appendix B characterises equilibrium franchises (Propositions 12-13), the appendix is in scope, and the main text discusses these results, so EQ applies alongside the primary WD."
+  },
+  "C5.2": {
+   "value": {
+    "code": "INPUT-UNSTATED",
+    "loc": "Section 2, p.4",
+    "quote": "p(i, C) = P [Xi = YC ]",
+    "note": "Welfare depends on whether opinion Xi, which is also the majority-vote input, matches the outcome. No statement relates the input to a held attitude."
+   },
+   "chosen": "B",
+   "reason": "Welfare is evaluated through success defined as agreement of Xi with the outcome, Xi is itself the argument of the majority rule, and no submission or sincerity statement is given, so the evaluation is on the input with no stated relation."
+  },
+  "C6.DES": {
+   "value": {
+    "present": "Y",
+    "behav": "STRAT",
+    "behav_stated": "EXPLICIT",
+    "info": "PARTIAL",
+    "info_stated": "EXPLICIT",
+    "loc_behav": "Introduction, p.2",
+    "quote_behav": "who should be allowed to vote in order to maximise ex ante",
+    "loc_info": "Introduction, p.2",
+    "quote_info": "The constitutional planner (he) does not know each person\u2019s (her)",
+    "note": "The constitutional planner designs the electorate of the rule, and the paper models his objective (expected aggregate welfare) explicitly. He knows the distribution of opinions but not the realised opinions."
+   },
+   "chosen": "A",
+   "reason": "The planner chooses the franchise, i.e. part of the voting rule itself, with an explicitly modelled objective, which matches the DES type."
+  },
+  "C6.ORG": {
+   "value": {
+    "present": "N"
+   },
+   "chosen": "A",
+   "reason": "The only choosing authority is the constitutional planner, already coded as DES, so no separate organiser acts in the model."
+  },
+  "C8.1": {
+   "value": {
+    "codes": [
+     "DEV",
+     "OTH"
+    ],
+    "loc": "Section 2, p.4; Appendix B, p.27",
+    "quote": "the planner\u2019s problem is to find the corresponding optimal franchise",
+    "note": "DEV: the planner's optimisation over franchises. OTH: Appendix B defines the equilibrium franchise as a weak Condorcet winner among franchises."
+   },
+   "chosen": "A",
+   "reason": "Beyond the planner's optimisation problem, Appendix B uses a distinct stability concept (weak Condorcet winner among franchises), which fits OTH."
+  },
+  "C8.2": {
+   "value": {
+    "code": "Y",
+    "loc": "Section 2, p.4",
+    "quote": "franchise C will be said to be optimal"
+   },
+   "chosen": "A",
+   "reason": "The paper explicitly defines and names its concepts, both optimal franchise and, in Definitions 5-6, equilibrium franchise."
+  }
+ }
+}

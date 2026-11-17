@@ -1,0 +1,186 @@
+{
+ "paper_id": "EC-2024-2e0ddfe8",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "voting rules that are computable by querying voters about",
+  "note": "Studies whether single-winner voting rules can be computed from restricted subset queries of an underlying preference profile."
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "AX"
+  ],
+  "primary": "AL",
+  "loc": "Abstract, p.1; Sections 4-5",
+  "quote": "no randomized t-query algorithm can always output a plurality winner",
+  "note": "The characterisation and impossibility theorems (Thms 1-3) are stated as limits on what t-query algorithms can compute, and Thms 4-5 are query-complexity bounds. So AL covers the largest share of results; AX is included for the characterisation of computable scoring rules."
+ },
+ "C2.1": {
+  "value": "preference profile / profile (distribution over rankings)",
+  "loc": "Section 2.2, p.5",
+  "quote": "A voting rule f maps preference profiles to a set"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2.1, p.4",
+  "quote": "A ranking or preference over a set C of m candidates",
+  "note": "Profiles are distributions over strict rankings; queries return restrictions to subsets."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Introduction, p.2",
+  "quote": "rankings of the m candidates representing the underlying voter preferences",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2.1, p.4",
+  "quote": "is a distribution \u03c3 over preferences L(C), representing the proportion",
+  "note": "The rule and the queries are applied directly to the preference distribution. No statement is made about truthful reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-5",
+  "quote": "none found",
+  "note": "No strategic misreporting is analysed."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Introduction; Section 2 (Preliminaries, incl. 2.3 Query model); Section 6 Discussion",
+  "quote": "none found",
+  "note": "Query responses are defined as restrictions of the held rankings, but there is no sentence saying voters answer sincerely."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Section 1.2, p.3",
+  "quote": "",
+  "note": "Distortion is mentioned only as related work. The paper itself uses no utility, welfare or distortion notion for voters."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 3-5",
+  "quote": "none found",
+  "note": "Results concern computability and query complexity, not welfare or representation."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2.3, p.5",
+   "quote_behav": "a voter \u03c3 \u223c \u03c3 arrives, and the algorithm learns \u03c3|Q",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters answer queries; the answer is fixed as the restriction of their ranking, and no sincerity statement is made in words."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only one type (voters) is present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is strategic."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 6 Discussion, p.23",
+    "quote": "these results demonstrate the pitfalls of common rules like Plurality and STV"
+   },
+   {
+    "loc": "Section 6 Discussion, p.23",
+    "quote": "point to the space of alternative rules"
+   },
+   {
+    "loc": "Introduction, p.2",
+    "quote": "Conceptually, this question asks about the axiomatic implications of cognitive barriers"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 2.3, p.5",
+  "quote": "a voter \u03c3 \u223c \u03c3 arrives, and the algorithm learns \u03c3|Q",
+  "note": "The claims concern computability of rules from limited queries. The needed assumption is that query responses are restrictions of the underlying preference rankings, and the query model states this. The claims need no welfare or strategic assumptions."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction; Section 2; Section 6",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C1": {
+   "chosen": "A",
+   "reason": "Every main theorem, including the impossibility ones, is phrased as a statement about what t-query algorithms can compute, so AL is the primary type."
+  },
+  "C6.VOT": {
+   "chosen": "A",
+   "reason": "Voters supply query responses in the model, and those responses are fixed as restrictions of their rankings, so voters are present and non-strategic, which is only inferable from the formal model."
+  },
+  "C9.2": {
+   "chosen": "A",
+   "reason": "The claims about pitfalls of Plurality and STV concern information-theoretic computability, and the only needed assumption (responses are restrictions of held rankings) is stated in the query model."
+  }
+ }
+}

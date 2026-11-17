@@ -1,0 +1,202 @@
+{
+ "paper_id": "SCW-2024-d5de6cb1",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Sect. 2.2, p. 509",
+  "quote": "an early criticism of Plurality rule and, in search of",
+  "note": "Historical/textual study of ancient texts discussing voting procedures (plurality, pairwise comparisons). Coded ELIG because voting procedures are the object of analysis, though there is no formal model."
+ },
+ "C1": {
+  "types": [
+   "OT"
+  ],
+  "primary": "OT",
+  "loc": "Sect. 1, p. 506",
+  "quote": "we present two texts that add two more early appearances",
+  "note": "Historical and philological analysis of Roman texts in the history of social choice; no formal results."
+ },
+ "C2.1": {
+  "value": "votes; categoric vote; sentences/verdicts",
+  "loc": "Sect. 2.1, p. 507",
+  "quote": "assume a categoric vote by each judge"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Sect. 2.2, p. 509",
+  "quote": "each voter votes for one candidate",
+  "note": "Single categorical (plurality) votes."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sect. 2.2, p. 509",
+  "quote": "the pulse of the actual preferences of the voters",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Sect. 2.2, p. 510",
+  "quote": "such preferences have not been accurately captured in the sentences",
+  "note": "Preferences are distinguished from the parts formed by the votes."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sect. 2.1, p. 508",
+  "quote": "the supporters of \"death\" strategically voted in favor of the \"exile\"",
+  "note": "Strategic voting appears only in the historical retelling of Pliny's episode (following Riker). The paper's own analyses of the Declamation and Gellius cases do not consider it."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sect. 2.2, Sect. 3, Sect. 4",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Input format is OTH (single votes), so the applicability condition is not met."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sect. 2.2, Sect. 3.1",
+  "quote": "none found",
+  "note": "There are no formal results or definitions used in results. The talk of representing the judges' will is an informal interpretation of the texts."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "note": "No formal model."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N",
+   "note": "Pliny's agenda change is narrated historically, not modelled."
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type present as STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p. 505",
+    "quote": "reveal the flaws of a system that, despite its intuitive"
+   },
+   {
+    "loc": "Sect. 4, p. 513",
+    "quote": "the desire to find more robust and fair alternatives"
+   },
+   {
+    "loc": "Sect. 4, p. 513",
+    "quote": "this intuition conceals the numerous flaws inherent in Plurality"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "UNCLEAR",
+  "loc": "Sect. 2.2, p. 510",
+  "quote": "Only when we assume voters\u2019 preferences and assume",
+  "note": "There are no formal results from which the claims could follow, so the needed assumptions cannot be determined. The paper does state that criticising plurality presupposes preferences distinct from votes."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sect. 1, 2, 3, 4",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C3.1": {
+   "chosen": "B",
+   "reason": "Pliny's strategic voting is narrated as historical background, not analysed by the paper, so no analysis in the paper models strategic voters."
+  },
+  "C5.1": {
+   "chosen": "A",
+   "reason": "C5.1 requires a definition used in a result, a formal result or a simulation, and this historical paper has none."
+  },
+  "C5.2": {
+   "chosen": "A",
+   "reason": "Follows from C5.1 = N."
+  },
+  "C6.ORG": {
+   "chosen": "A",
+   "reason": "A type is present only if the formal model contains an acting agent of that type, and the paper has no formal model."
+  },
+  "C6.VOT": {
+   "chosen": "A",
+   "reason": "Presence requires an acting agent in the formal model, and the paper has no formal model."
+  },
+  "C7.1": {
+   "chosen": "A",
+   "reason": "Under the C6 definition fewer than two types are present."
+  },
+  "C8.1": {
+   "chosen": "A",
+   "reason": "C8 applies only if some present type is STRAT or MIXED, and no type is present."
+  },
+  "C8.2": {
+   "chosen": "A",
+   "reason": "Follows from C8.1 being NA."
+  },
+  "C9.2": {
+   "chosen": "A",
+   "reason": "Without formal results the needed assumptions cannot be identified, and the paper does state the preference-vote gap that B calls unstated."
+  }
+ }
+}

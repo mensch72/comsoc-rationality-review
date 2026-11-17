@@ -1,0 +1,185 @@
+{
+ "paper_id": "SCW-2025-22af23b5",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "some voting rule intended for ranked ballots is applied",
+  "note": "Compares approval voting with ranking-based single-winner voting rules."
+ },
+ "C1": {
+  "types": [
+   "AX"
+  ],
+  "primary": "AX",
+  "loc": "Abstract, p.1",
+  "quote": "These questions give rise to three notions of approval compatibility",
+  "note": "All main results state which rules satisfy which compatibility properties."
+ },
+ "C2.1": {
+  "value": "approval ballots / approval profile; ranking ballots / ranking profile",
+  "loc": "Sect. 2.1, p.4-5",
+  "quote": "An approval profile is a vector A = A1 , . . . An"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK",
+   "APPR"
+  ],
+  "loc": "Sect. 2.1, p.4-5",
+  "quote": "an approval ballot of a voter i \u2208 N is a subset",
+  "note": "Ranking ballots are strict rankings over X."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Introduction, p.3",
+  "quote": "the preferences that lie behind voters\u2019 choices of approval and ranking",
+  "note": "Preferences are referred to, but they are not formalised."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Introduction, p.3",
+  "quote": "unlikely to be fully plumbed by using any known ballot form",
+  "note": "The paper says ballots may not fully capture the preferences behind them, so the two are treated as distinct. Formally, only ballots are modelled."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sect. 2.1, p.5",
+  "quote": "a ranking ballot that a sincere voter with approval ballot",
+  "note": "Voters are assumed sincere throughout."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Introduction, p.3",
+  "quote": "Given sincere voters for whom we only know their approval ballots",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Introduction, p.3",
+  "quote": "none found",
+  "note": "The justification given concerns ballot compatibility being consistent with any reasonable view of preferences, not why voters are sincere."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No utility, welfare, satisfaction or distortion notions are used for voters."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sect. 3.3, Definition 6, p.18",
+  "quote": "x Pareto dominates y at V",
+  "note": "Pareto dominance on ranking profiles enters the OWL property used in Lemma 4 and Proposition 5. This is a borderline case."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Sect. 3.3, p.18",
+  "quote": "x Pareto dominates y at V",
+  "note": "Pareto dominance is evaluated on ranking ballots. No statement links it to held preferences."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Abstract, p.1",
+   "quote_behav": "If voters are sincere, can an approval winner possibly win",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is strategic."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "N",
+  "claims": [],
+  "note": "The abstract, introduction and conclusion contain no claims about real institutions, voter welfare or which rule should be used. The normative remark about NAC/PAC appears in Sect. 2.2."
+ },
+ "C9.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C10.1": {
+  "code": "Y",
+  "loc": "Introduction, p.3",
+  "quote": "it is enough to take an agnostic or neutral position",
+  "note": "The paper takes no position on what preferences consist of."
+ },
+ "adjudication": {
+  "C2.4": {
+   "chosen": "A",
+   "reason": "The paper states that preferences may not be fully captured by any ballot, which is text saying the submitted input may differ from the held attitude; it never states that ballots equal preferences."
+  },
+  "C5.1": {
+   "chosen": "A",
+   "reason": "Pareto dominance appears in a definition (OWL) used in formal results, and the codebook counts Pareto efficiency under C5.1."
+  },
+  "C5.2": {
+   "chosen": "A",
+   "reason": "Pareto dominance is defined on ranking profiles, and no statement relates it to held preferences."
+  },
+  "C6.VOT": {
+   "chosen": "A",
+   "reason": "Voters submit approval ballots and report compatible rankings, which is a fixed action in the model, and their sincerity is stated explicitly."
+  },
+  "C9.1": {
+   "chosen": "A",
+   "reason": "B's first claim is from Sect. 2.2, outside the abstract, introduction and conclusion, and its second concerns the interpretation of compatibility rather than institutions, welfare or rule choice."
+  },
+  "C9.2": {
+   "chosen": "A",
+   "reason": "C9.1 is N, so C9.2 is NA."
+  }
+ }
+}

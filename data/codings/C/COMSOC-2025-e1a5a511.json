@@ -1,0 +1,20 @@
+{
+ "paper_id": "COMSOC-2025-e1a5a511",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "SB",
+     "EQ",
+     "WD"
+    ],
+    "primary": "SB",
+    "loc": "Section 4.1, Theorem 1, p.10",
+    "quote": "VCG Sortition Mechanisms are Bayesian incentive-compatible and utilitarian-optimal.",
+    "note": "The main results establish Bayesian incentive compatibility (a truthful Bayesian Nash equilibrium) and utilitarian efficiency. SB and EQ fit the main result about equally, so SB, listed first, is chosen as primary."
+   },
+   "chosen": "A",
+   "reason": "The properties shown are incentive compatibility (SB), equilibrium (EQ) and welfare (WD), none of which needs AX; SB is primary because it ties with EQ and the doubt rule picks the code listed first."
+  }
+ }
+}

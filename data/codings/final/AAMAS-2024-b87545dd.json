@@ -1,0 +1,212 @@
+{
+ "paper_id": "AAMAS-2024-b87545dd",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Sec. 1.1, p.50",
+  "quote": "The outcome of the election is the proposal with the",
+  "note": "Proxy voting under single-winner approval voting with incomplete votes."
+ },
+ "C1": {
+  "types": [
+   "WD",
+   "AL",
+   "EM"
+  ],
+  "primary": "WD",
+  "loc": "Sec. 2 Def. 2.1, p.52; Thm 3.7, p.53; Sec. 4, p.55",
+  "quote": "We say that a set of dReps \ud835\udc37 achieves",
+  "note": "Main results are approximation bounds against the optimal intrinsic approval score. There is one NP-hardness result. Experiments use preferences derived from the MovieLens real dataset."
+ },
+ "C2.1": {
+  "value": "revealed preference profile (revealed preferences of voters plus advertised types/ballots of dReps); also 'ballots', 'votes'",
+  "loc": "Sec. 2 Preference Profiles, p.51",
+  "quote": "revealed preference profile \ud835\udc43b = (\ud835\udc41 , \ud835\udc36, \ud835\udc49b)"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR",
+   "OTH"
+  ],
+  "loc": "Sec. 2, p.51",
+  "quote": "each voter \ud835\udc56 has revealed preferences b \ud835\udc63\ud835\udc56 \u2208 {0, 1, \u22a5}\ud835\udc5a",
+  "note": "Approval vectors with a third value \u22a5 for proposals on which the voter has no opinion. These are incomplete approval inputs."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec. 2, p.51",
+  "quote": "we refer those as true or intrinsic preferences",
+  "note": "Intrinsic approval preferences are held but only partially known to the voters themselves."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Sec. 2, p.51",
+  "quote": "voters do not actually know their entire intrinsic preference vector",
+  "note": "The intrinsic profile P and the revealed profile P\u0302 have separate notation."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sec. 2, p.51",
+  "quote": "we will assume that voter \ud835\udc56 delegates their vote",
+  "note": "Revealed preferences differ from intrinsic ones only through missing knowledge. Voters never misreport strategically, and their delegation follows a fixed threshold rule."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Sec. 4, p.55",
+  "quote": "since voters only submit the first of the two",
+  "note": "The paper states that voters submit their revealed preferences. Revealed preferences agree with intrinsic ones where they are defined."
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Sec. 4, p.55",
+  "quote": "since voters only submit the first of the two",
+  "note": "The statement is given as part of the model, without justification."
+ },
+ "C4.1": {
+  "code": "NOTSPEC",
+  "loc": "Abstract, p.49; Sec. 2, p.51-52",
+  "quote": "outcomes with higher legitimacy and enhanced voters\u2019 satisfaction",
+  "note": "Voters' satisfaction is mentioned but not formally related to the approval inputs. The formal objective is the intrinsic approval score."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is used only in the reference list."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sec. 2 Def. 2.1, p.52",
+  "quote": "how well the intrinsic score of the winning proposal under",
+  "note": "Rules are evaluated by approximation of the optimal intrinsic approval score. This is a utilitarian welfare/optimum criterion of the distortion type."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Sec. 2, p.52",
+  "quote": "approximates the highest intrinsic approval score",
+  "note": "Evaluation uses intrinsic preferences, which are separate from the revealed inputs."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sec. 2, p.51",
+   "quote_behav": "devoid of personal preferences over the proposals",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "VOT includes the dReps (proxies). Ordinary voters follow a fixed threshold delegation rule. dReps have no objective of their own: their types are chosen in the analyst's proxy selection problem to serve an assigned social goal, so they are coded non-strategic."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Sec. 2, p.51",
+  "quote": "A delegation representative (dRep) is a \u201cspecial\u201d voter",
+  "note": "Only VOT is present, since proxies count as voters."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is NA."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "No type is STRAT or MIXED, so C8 does not apply."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.49",
+    "quote": "Our results enhance the understanding of the power of delegation"
+   },
+   {
+    "loc": "Sec. 1, p.49",
+    "quote": "the \u201cdirect voting\u201d outcome, even under the best intentions, is likely"
+   },
+   {
+    "loc": "Sec. 1.1, p.50",
+    "quote": "one should expect a slightly larger number of dReps to"
+   }
+  ],
+  "note": "The claims concern improving election outcomes and voters' satisfaction in real systems such as Project Catalyst."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sec. 1.1, p.50; Sec. 5, p.56",
+  "quote": "One should not of course expect all of these assumptions",
+  "note": "The dRep information and rationality assumptions are explicitly stated as a best case. Unstated: how the intrinsic approval score relates to voters' satisfaction or well-being."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sec. 1, 2, 5",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C2.2": {
+   "chosen": "A",
+   "reason": "The submitted revealed vectors are three-valued (accept, reject, no opinion), so they go beyond plain approval sets and OTH is warranted alongside APPR."
+  },
+  "C3.2": {
+   "chosen": "A",
+   "reason": "The paper says in words that voters submit their (revealed) preferences, which are held attitudes agreeing with intrinsic ones where defined."
+  },
+  "C3.3": {
+   "chosen": "A",
+   "reason": "No justification is offered for voters submitting their revealed preferences."
+  },
+  "C4.1": {
+   "chosen": "A",
+   "reason": "The inputs are approvals and the paper uses 'voters' satisfaction', so C4.1 applies, and no relation between satisfaction and the inputs is defined."
+  },
+  "C6.OTH": {
+   "chosen": "A",
+   "reason": "dReps are explicitly 'special' voters acting as proxies, which the codebook assigns to VOT, so no other acting type is present."
+  },
+  "C6.VOT": {
+   "chosen": "other",
+   "reason": "Proxies belong to VOT, but MIXED is defined across analyses, not sub-types; neither voters nor dReps pursue their own objective, so the type is NONSTRAT with info NA."
+  },
+  "C7.1": {
+   "chosen": "A",
+   "reason": "Only one type (VOT) is present under the C6 definition."
+  },
+  "C8.1": {
+   "chosen": "B",
+   "reason": "With VOT coded NONSTRAT and no other type present, no type is strategic and C8 is NA."
+  },
+  "C8.2": {
+   "chosen": "B",
+   "reason": "C8.1 is not applicable, so C8.2 is NA."
+  }
+ }
+}

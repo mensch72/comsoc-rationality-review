@@ -1,0 +1,60 @@
+{
+ "paper_id": "COMSOC-2021-cb7d9155",
+ "decisions": {
+  "C2.4": {
+   "value": {
+    "code": "DIST",
+    "loc": "Introduction, p.1",
+    "quote": "would have ranked two candidates differently if he or she had",
+    "note": "DIST and IDU fit about equally well, so DIST is chosen as listed first. The text says cast votes may differ from how voters would rank, but the formal model uses one object (preference order = vote)."
+   },
+   "chosen": "A",
+   "reason": "The introduction says in words that cast votes may differ from what voters would rank, which meets the DIST text criterion; under the doubt rule the first-listed code is chosen."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Section 2 Preliminaries, p.3",
+    "quote_behav": "Each voter vi has a preference order",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Voters cast votes that are given as exogenous input, so their action is fixed by the model."
+   },
+   "chosen": "A",
+   "reason": "Voters cast votes in the model, and the codebook counts fixed actions as presence, so voters are present and non-strategic."
+  },
+  "C7.1": {
+   "value": {
+    "code": "Y",
+    "loc": "Section 2, p.4",
+    "quote": "We ask if there is an election E 0 where p",
+    "note": "The briber (BRI) is goal-directed while voters (VOT) are fixed."
+   },
+   "chosen": "A",
+   "reason": "With VOT present as NONSTRAT and BRI coded STRAT in the same analysis, C7.1 is Y."
+  },
+  "C7.2": {
+   "value": {
+    "code": "NONE",
+    "loc": "Introduction; Section 2",
+    "quote": "none found",
+    "note": ""
+   },
+   "chosen": "A",
+   "reason": "No argument is given for modelling the briber as goal-directed and the voters as fixed."
+  },
+  "C8.2": {
+   "value": {
+    "code": "Y",
+    "loc": "Section 2, p.4",
+    "quote": "In the decision variant of the R SwapBribery problem"
+   },
+   "chosen": "A",
+   "reason": "The DEV concept is named explicitly as the Swap-Bribery decision problem."
+  }
+ }
+}

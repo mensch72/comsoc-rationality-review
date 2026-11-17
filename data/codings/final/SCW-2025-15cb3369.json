@@ -1,0 +1,189 @@
+{
+ "paper_id": "SCW-2025-15cb3369",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.2",
+  "quote": "first axiomatic characterization of a class of certification methods",
+  "note": "Aggregation of binary approval evaluations into a collective selection."
+ },
+ "C1": {
+  "types": [
+   "AX"
+  ],
+  "primary": "AX",
+  "loc": "Introduction, p.3",
+  "quote": "To formally assess the fundamental differences and similarities",
+  "note": "Both main results (Theorems 1, 2) are axiomatic characterizations."
+ },
+ "C2.1": {
+  "value": "evaluation profile; evaluations; binary opinions; opinion profile",
+  "loc": "Section 1.1, p.7",
+  "quote": "an evaluation profile on (N, X) collects the evaluations of the electorate"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Section 1.1, p.7",
+  "quote": "Each agent i \u2208 N can either approve of an option",
+  "note": "Binary 0/1 evaluation for each option, equivalent to an approval set."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Introduction, p.2; Section 2.2, p.14",
+  "quote": "agents who are indifferent to all the options",
+  "note": "Attitude language (opinions, indifference) is used, but it is not defined separately from the evaluations."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Introduction, p.2",
+  "quote": "members of a group express binary (i.e., yes-no, approval-disapproval) opinions",
+  "note": "Evaluations and opinions are treated as one object, and nothing is said about reporting. ONE would fit if 'evaluations' were read purely as ballots."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 1-3",
+  "quote": "none found",
+  "note": "No strategic analysis."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Introduction; Section 1.1; Section 2; Concluding remarks",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No utility, welfare or satisfaction notions are used for voters."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term appears only in reference titles."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 3.1, p.17",
+  "quote": "The next property is in the same spirit as the Pareto principle.",
+  "note": "Pareto consistency is a Pareto-type dominance axiom used in Lemma 3. The codebook counts efficiency, including Pareto efficiency, in definitions used in results."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 3.1, p.17",
+  "quote": "We say that y weakly dominates x via",
+  "note": "Dominance is defined on evaluation profiles, with no statement relating evaluations to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 1.1, p.7",
+   "quote_behav": "The value bxi = 1 means that i approves of x",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Agents' evaluations are given exogenously as the profile."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no strategic type."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.2",
+    "quote": "serve substantially different purposes and, as such, suit different situations"
+   },
+   {
+    "loc": "Introduction, p.2",
+    "quote": "proportional threshold methods are appropriate in the case of certification problems"
+   },
+   {
+    "loc": "Concluding remarks, p.24",
+    "quote": "rules offering acceptable outcomes and those offering the best outcomes"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Introduction, p.2; Concluding remarks, p.24",
+  "quote": "as such, suit different situations",
+  "note": "The suitability claims (certification vs competitive selection) follow from structural properties of the rules, such as independence and consistency. They need no assumption about how inputs relate to held attitudes, about strategic behaviour, or about information, so no needed assumption is unstated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction; Section 1.1; Concluding remarks",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C5.1": {
+   "chosen": "A",
+   "reason": "Pareto consistency is defined and used in a formal result (Lemma 3), and the paper explicitly links it to the Pareto principle, so it falls under the efficiency criterion."
+  },
+  "C5.2": {
+   "chosen": "A",
+   "reason": "Given C5.1 = Y, the dominance criterion is evaluated on the submitted evaluation profile without any statement relating it to held attitudes."
+  },
+  "C6.VOT": {
+   "chosen": "A",
+   "reason": "The codebook counts a type as present when its actions are fixed, and voters' approve/disapprove evaluations are such fixed actions, so VOT is present and NONSTRAT (implicit)."
+  },
+  "C9.2": {
+   "chosen": "other",
+   "reason": "The claims are about which rule suits which kind of problem and rest only on structural axioms, so no unstated modelling assumption is needed; B's own note concedes this, which contradicts its SOME-UNSTATED code, and A's UNCLEAR is unnecessary."
+  }
+ }
+}

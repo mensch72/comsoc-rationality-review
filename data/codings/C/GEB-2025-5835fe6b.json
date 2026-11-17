@@ -1,0 +1,44 @@
+{
+ "paper_id": "GEB-2025-5835fe6b",
+ "decisions": {
+  "C6.CAN": {
+   "value": {
+    "present": "Y",
+    "behav": "STRAT",
+    "behav_stated": "EXPLICIT",
+    "info": "PARTIAL",
+    "info_stated": "EXPLICIT",
+    "loc_behav": "Section 2, p.9",
+    "quote_behav": "Candidates are office motivated, thus they maximize their probability",
+    "loc_info": "Section 2, p.9",
+    "quote_info": "They have beliefs about the ideal point of the median voter",
+    "note": "Candidates know each other's reference policies and valence. About voters' held attitudes, they hold only a common prior F over the median voter's ideal point."
+   },
+   "chosen": "A",
+   "reason": "Candidates know voters' ideal points only through a common prior F, which is PARTIAL information about others' held attitudes; the common information concerns candidates, not voters."
+  },
+  "C8.1": {
+   "value": {
+    "codes": [
+     "NE",
+     "SPE"
+    ],
+    "loc": "Section 2, p.9; Section 3.4.1, p.26",
+    "quote": "The solution concept we consider is Nash equilibrium.",
+    "note": "Subgame perfect equilibrium is used for the sequential-timing variant in Section 3.4.1, where an equilibrium is characterised."
+   },
+   "chosen": "A",
+   "reason": "The paper characterises an essentially unique Subgame Perfect Equilibrium of the sequential variant, so SPE is a solution concept used in an analysis, not just a passing mention."
+  },
+  "C9.2": {
+   "value": {
+    "code": "ALL-STATED",
+    "loc": "Section 2, pp.8-9; Introduction, p.5",
+    "quote": "the degree at which party elites care about winning vs.",
+    "note": "The needed assumptions are stated: voter utility with consistency and valence, sincere and dominant voting, office-motivated candidates, a common prior, and party elites caring about policy. The paper explicitly says the nomination game is not modelled and hedges its claims."
+   },
+   "chosen": "A",
+   "reason": "The assumptions needed for the nomination claims (policy-motivated elites, voter utilities, candidate motives and information) are all stated, and the unmodelled nomination stage is explicitly acknowledged rather than assumed silently."
+  }
+ }
+}

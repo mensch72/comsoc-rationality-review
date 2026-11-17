@@ -1,0 +1,20 @@
+{
+ "paper_id": "EC-2021-450e2267",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "AL",
+     "AX",
+     "EM"
+    ],
+    "primary": "AL",
+    "loc": "Main text, p.2",
+    "quote": "proportional apportionment in the multidimensional setting (dimension 3 and higher) is NPcomplete",
+    "note": "AX covers two results: proportional apportionments may fail to exist, and they exist once small violations of the marginals are allowed. Both concern whether proportionality is compatible with the marginal constraints. EM covers the test on the 2021 Chilean Constitutional Convention election."
+   },
+   "chosen": "A",
+   "reason": "The results on whether proportionality can be met under the marginals, exactly or with bounded violations, concern (in)compatibility of properties and so fit AX alongside AL and EM, with AL primary."
+  }
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "paper_id": "EC-2023-52ac2aae",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "WD"
+    ],
+    "primary": "WD",
+    "loc": "Abstract, p.1",
+    "quote": "simultaneously achieve near-optimal distortion guarantees in both distortion worlds",
+    "note": "All main results are upper and lower bounds on metric and utilitarian distortion."
+   },
+   "chosen": "A",
+   "reason": "The paper designs rules and proves distortion bounds but gives no running-time, hardness or complexity results, so AL does not apply."
+  },
+  "C2.2": {
+   "value": {
+    "codes": [
+     "RANK",
+     "OTH"
+    ],
+    "loc": "Sec. 2, p.4; Sec. 5, p.13",
+    "quote": "we only have each agent\u2019s ranking for their top-t preferences",
+    "note": "OTH: top-t prefixes of rankings (partial rankings)."
+   },
+   "chosen": "A",
+   "reason": "Section 5's main results take top-t partial rankings as input, which is a format beyond strict full rankings and so needs OTH."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Sec. 2, p.5",
+    "quote_behav": "takes as input a preference profile ~\u03c3 and outputs",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Rankings are treated as exogenous inputs."
+   },
+   "chosen": "A",
+   "reason": "The codebook counts agents whose actions are fixed as present, and agents supply rankings to the rule (described as reporting in the introduction), so voters are present as non-strategic agents with implicit behaviour."
+  }
+ }
+}

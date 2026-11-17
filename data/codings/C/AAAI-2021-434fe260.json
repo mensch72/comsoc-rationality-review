@@ -1,0 +1,31 @@
+{
+ "paper_id": "AAAI-2021-434fe260",
+ "decisions": {
+  "C2.4": {
+   "value": {
+    "code": "DIST",
+    "loc": "Definition 8, p. 5827",
+    "quote": "\u03a3i = E(i) \u222a {i} is i\u2019s delegation strategy space",
+    "note": "Delegations are strategies with their own notation, separate from the accuracies q_i and the utilities u_i that agents hold."
+   },
+   "chosen": "A",
+   "reason": "The submitted delegation profile has its own notation as a strategy, separate from the held accuracies and utilities, so the input is not described as a held attitude and IDU does not fit."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "MIXED",
+    "behav_stated": "EXPLICIT",
+    "info": "COMPLETE",
+    "info_stated": "IMPLICIT",
+    "loc_behav": "Delegation Games, p. 5827",
+    "quote_behav": "our agents choose their delegations by aiming at maximizing the trade-off",
+    "loc_info": "Experiments, Setup, p. 5827",
+    "quote_info": "each agent selects her neighbor (including herself) which maximises her utility",
+    "note": "Delegations are fixed inputs in the power-index part and strategic in the game part. Pure Nash equilibrium and utility-maximising choices require knowing others' accuracies and delegations, which is never stated in words."
+   },
+   "chosen": "A",
+   "reason": "Pure-strategy Nash analysis and utility-maximising delegation choices are only possible if agents know others' accuracies and delegations, so this is complete information inferable from the formal model (IMPLICIT) rather than not specified."
+  }
+ }
+}

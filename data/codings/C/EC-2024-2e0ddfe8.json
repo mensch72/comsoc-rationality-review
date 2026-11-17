@@ -1,0 +1,45 @@
+{
+ "paper_id": "EC-2024-2e0ddfe8",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "AL",
+     "AX"
+    ],
+    "primary": "AL",
+    "loc": "Abstract, p.1; Sections 4-5",
+    "quote": "no randomized t-query algorithm can always output a plurality winner",
+    "note": "The characterisation and impossibility theorems (Thms 1-3) are stated as limits on what t-query algorithms can compute, and Thms 4-5 are query-complexity bounds. So AL covers the largest share of results; AX is included for the characterisation of computable scoring rules."
+   },
+   "chosen": "A",
+   "reason": "Every main theorem, including the impossibility ones, is phrased as a statement about what t-query algorithms can compute, so AL is the primary type."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Section 2.3, p.5",
+    "quote_behav": "a voter \u03c3 \u223c \u03c3 arrives, and the algorithm learns \u03c3|Q",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Voters answer queries; the answer is fixed as the restriction of their ranking, and no sincerity statement is made in words."
+   },
+   "chosen": "A",
+   "reason": "Voters supply query responses in the model, and those responses are fixed as restrictions of their rankings, so voters are present and non-strategic, which is only inferable from the formal model."
+  },
+  "C9.2": {
+   "value": {
+    "code": "ALL-STATED",
+    "loc": "Section 2.3, p.5",
+    "quote": "a voter \u03c3 \u223c \u03c3 arrives, and the algorithm learns \u03c3|Q",
+    "note": "The claims concern computability of rules from limited queries. The needed assumption is that query responses are restrictions of the underlying preference rankings, and the query model states this. The claims need no welfare or strategic assumptions."
+   },
+   "chosen": "A",
+   "reason": "The claims about pitfalls of Plurality and STV concern information-theoretic computability, and the only needed assumption (responses are restrictions of held rankings) is stated in the query model."
+  }
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "paper_id": "COMSOC-2025-7f01777d",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "AX",
+     "EM",
+     "WD"
+    ],
+    "primary": "AX",
+    "loc": "Introduction (Our Contribution), p.2; Section 6, p.10",
+    "quote": "establish proportionality guarantees for these methods using parametrized variants of EJR+",
+    "note": "EM: evaluation on 313 real Pabulib instances. WD: utilitarian ratio evaluated empirically. Polynomial-time computability is mentioned only in passing and is not coded as AL."
+   },
+   "chosen": "A",
+   "reason": "The experiments use real Pabulib data, so they are EM rather than SI, and they evaluate rules by utilitarian ratio, which counts as WD; the main results are the axiomatic proportionality guarantees, so AX is primary."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Section 2, p.3",
+    "quote_behav": "denote the set of projects approved by voter i",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Voters' approval sets are exogenous inputs."
+   },
+   "chosen": "A",
+   "reason": "Voters take an action in the model (approving projects), and an action counts even when it is fixed, so they are present as NONSTRAT with behaviour only inferable from the formal model."
+  }
+ }
+}

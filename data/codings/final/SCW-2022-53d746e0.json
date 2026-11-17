@@ -1,0 +1,205 @@
+{
+ "paper_id": "SCW-2022-53d746e0",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Introduction, p.1-2; Section 2.1, p.4",
+  "quote": "a set of strategic agents have private preferences over the facility location",
+  "note": "Facility location aggregates agents' reported ideal points into a collective location. This is a strategyproof voting scheme in the generalised median voter tradition (Kim and Roush; Peters et al. 'voting schemes'), so coded ELIG. The case is borderline."
+ },
+ "C1": {
+  "types": [
+   "WD",
+   "SB"
+  ],
+  "primary": "WD",
+  "loc": "Abstract, p.1; Theorems 1-3, pp.6-14",
+  "quote": "has the lowest worst-case approximation ratio in the class of deterministic",
+  "note": "Results bound the approximation ratio of social cost within the class of strategyproof mechanisms. Strategyproofness enters as a constraint, and characterisations from prior work are used only as tools. No algorithmic results."
+ },
+ "C2.1": {
+  "value": "profile of ideal points; reports",
+  "loc": "Section 2, p.3",
+  "quote": "Let x be the profile of ideal points: x = (x1 , . . . , xn )"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 2, p.3",
+  "quote": "A mechanism is a function f : X n \u2192 X.",
+  "note": "Inputs are points (ideal points) in R^2 / a metric space."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.3",
+  "quote": "each agent has an ideal point xi \u2208 X",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Introduction, p.1; Definition 2.1, p.3",
+  "quote": "agents may lie about their ideal points if it benefits them",
+  "note": "The strategyproofness definition distinguishes the true point xi from the report x'i."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "Definition 2.1, p.3; Sections 4-5",
+  "quote": "no agent can benefit by misreporting her ideal point",
+  "note": "Misreporting enters through strategyproofness (Theorem 1). The approximation ratio computations in Theorems 2-3 apply the mechanism to true ideal points."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Introduction, p.1; Section 2, p.3; Conclusion, p.15",
+  "quote": "none found",
+  "note": "Truthful reporting is implied by strategyproofness but is not stated in words."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Input format is OTH (points), not ordinal."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Definition 2.3, p.3",
+  "quote": "approximation ratio of a mechanism f at a profile x",
+  "note": "Social cost (p-norm of agents' distance costs) and worst-case approximation ratio."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 2, p.3",
+  "quote": "The cost of locating the facility at y \u2208 X for agent i is d(y, xi )",
+  "note": "Social cost is defined on agents' true ideal points (held attitudes), which are separate from reports given C2.4 = DIST."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Introduction, p.1",
+   "quote_behav": "agents may lie about their ideal points if it benefits them",
+   "loc_info": "Definition 2.1, p.3; Introduction, p.1",
+   "quote_info": "regardless of the reports of the other agents",
+   "note": "Information is irrelevant under dominant strategies. Preferences are called private, but agents' knowledge of others is not specified."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NONE",
+   "info_stated": "IMPLICIT",
+   "loc_behav": "Introduction, p.1",
+   "quote_behav": "A central planner wishes to locate the facility to minimize",
+   "loc_info": "Introduction, p.1",
+   "quote_info": "a set of strategic agents have private preferences",
+   "note": "The planner chooses a strategyproof mechanism to minimise the worst-case approximation ratio. Since ideal points are private to the agents, the planner does not know them."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "N",
+  "loc": "Introduction, p.1",
+  "quote": "the planner is constrained to choose a mechanism that is strategyproof",
+  "note": "Both voters and designer are modelled as strategic."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "DOM"
+  ],
+  "loc": "Definition 2.1, p.3",
+  "quote": "A mechanism f is strategyproof if for all i \u2208 N",
+  "note": ""
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Definition 2.1, p.3",
+  "quote": "It is said to be strategyproof if no agent can benefit"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Conclusion, p.15",
+    "quote": "the coordinate-wise median mechanism is the optimal deterministic, anonymous, and strategyproof"
+   },
+   {
+    "loc": "Conclusion, p.15",
+    "quote": "the utilitarian cost of the coordinate-wise median is always within"
+   },
+   {
+    "loc": "Introduction, p.3",
+    "quote": "by demonstrating its quantitative optimality"
+   }
+  ],
+  "note": "Claims about which mechanism is best with respect to agents' costs. These largely restate the formal results."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 1, p.1; Section 2, p.3",
+  "quote": "Each agent\u2019s preference is defined by its ideal point",
+  "note": "Needed assumptions are stated: costs are Euclidean distances from ideal points, and agents may lie, which motivates the strategyproofness constraint. The claims restate the formal results within this model."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction, p.1; Section 2, p.3; Conclusion, p.15",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C1": {
+   "chosen": "A",
+   "reason": "The main results are approximation-ratio bounds under a strategyproofness constraint; the characterisations are cited lemmas, not new axiomatic results, and nothing is algorithmic, so AX and AL do not apply."
+  },
+  "C2.4": {
+   "chosen": "A",
+   "reason": "The paper says in words that reports may differ from ideal points, and Definition 2.1 uses separate notation (xi vs x'i), which meets the DIST condition."
+  },
+  "C5.2": {
+   "chosen": "A",
+   "reason": "Costs and social cost are defined on agents' ideal points, a held attitude the paper distinguishes from reports, so the evaluation is on held attitudes."
+  },
+  "C6.DES": {
+   "chosen": "A",
+   "reason": "Calling agents' preferences private and noting that they may lie implies, though it is not said directly, that the planner does not know the ideal points."
+  },
+  "C9.2": {
+   "chosen": "A",
+   "reason": "The claims are optimality statements within the model, and the paper states the needed assumptions (cost definition and agents' incentive to lie, hence strategyproofness)."
+  }
+ }
+}

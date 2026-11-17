@@ -1,0 +1,171 @@
+{
+ "paper_id": "SCW-2024-299d581a",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p. 643",
+  "quote": "We consider a voting scenario in which the resource",
+  "note": "Aggregation of agents' approval votes into a collectively shared bundle of mixed goods."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "AL",
+   "WD"
+  ],
+  "primary": "AX",
+  "loc": "Sect. 1.1, p. 645; Sect. 4, p. 658",
+  "quote": "we introduce two variants of EJR suitable for the mixed-goods setting",
+  "note": "AL: polynomial-time implementation of Generalized MES (Thm 3.13). WD: proportionality degree, i.e. average satisfaction guarantees for cohesive groups (Sect. 4)."
+ },
+ "C2.1": {
+  "value": "approval votes; approved bundles; approval preferences",
+  "loc": "Sect. 2, p. 646",
+  "quote": "We assume that the agents have approval preferences"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR",
+   "DICH"
+  ],
+  "loc": "Sect. 2, p. 646",
+  "quote": "approval preferences (also known as dichotomous or binary)",
+  "note": "Approval sets are bundles of divisible cake and indivisible goods."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sect. 2, p. 646",
+  "quote": "We assume that the agents have approval preferences",
+  "note": "The held attitude is preferences, with utilities derived from them. These are what the rule takes as input."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Sect. 2, p. 646",
+  "quote": "Approval preferences can be given explicitly as part of the input",
+  "note": "The rule is applied directly to preferences. There is no statement about submission or reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sects. 2-4",
+  "quote": "none found",
+  "note": "No strategic analysis."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sect. 1, Sect. 2, Sect. 5",
+  "quote": "none found",
+  "note": "No statement that agents submit their true preferences."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Sect. 2, p. 646",
+  "quote": "The utility of agent i for a bundle R is given by",
+  "note": "Utility is the size of the intersection of the approved bundle with the allocation."
+ },
+ "C4.2": {
+  "code": "Y",
+  "loc": "Sect. 2, p. 646",
+  "quote": "The utility of agent i for a bundle R is given by",
+  "note": "The paper uses 'dichotomous' for approval preferences and defines utility as the size of the approved part of the bundle, so approved resource counts by size and unapproved resource counts 0."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Def. 3.3, p. 648; Def. 4.1, p. 658",
+  "quote": "the average satisfaction of a group of agents",
+  "note": "Extended justified representation and proportionality degree (average satisfaction)."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Sect. 2, p. 646",
+  "quote": "none found",
+  "note": "Evaluated on utilities derived from the input preferences, with no statement relating them to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sect. 2, p. 646",
+   "quote_behav": "each agent i \u2208 N approves a bundle Ri",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Agents' approvals are fixed inputs to the rule, with no strategic choice modelled."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only one type is present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no strategic type."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "N",
+  "claims": [],
+  "note": "The conclusion's statement that 'each of the three rules is superior in a certain way' only restates the formal properties. No claims about real institutions or voter well-being."
+ },
+ "C9.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C9.1 is N."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sect. 1, Sect. 2, Sect. 5",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C4.2": {
+   "chosen": "A",
+   "reason": "The paper states the utility meaning of the two classes: utility is the size of the intersection with the approved bundle, matching the codebook's 'utility 1 for approved, 0 otherwise' example."
+  },
+  "C6.VOT": {
+   "chosen": "A",
+   "reason": "Agents approving bundles is an action in the model; the codebook counts actions that are fixed, so voters are present and NONSTRAT."
+  }
+ }
+}

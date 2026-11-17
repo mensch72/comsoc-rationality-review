@@ -1,0 +1,194 @@
+{
+ "paper_id": "JET-2023-b7389af1",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Section 3 Model, p.10; Introduction, p.3",
+  "quote": "proposed allocation requires the approval of at least",
+  "note": "Borderline. The legislature decides by an M-approval vote on the agenda setter's proposal. The paper studies an interest group's strategic information provision to influence this voting procedure."
+ },
+ "C1": {
+  "types": [
+   "EQ",
+   "WD"
+  ],
+  "primary": "EQ",
+  "loc": "Section 3, p.12; Section 6.1, p.24-27",
+  "quote": "The solution concept is (pure-strategy) Perfect Bayesian equilibrium",
+  "note": "Most results characterise equilibrium search strategies. Section 6.1 compares legislators' expected payoffs with and without lobbying."
+ },
+ "C2.1": {
+  "value": "votes (legislators voting for or against the proposal); voting strategy",
+  "loc": "Section 3, p.10",
+  "quote": "the legislators voting for or against the proposal"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 3, p.10-11",
+  "quote": "the legislators voting for or against the proposal",
+  "note": "Binary yes/no vote on a single proposed allocation."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 3, p.10",
+  "quote": "Each district n has a valuation for the good rn",
+  "note": "Legislators also have payoffs un(g) defined from district valuations."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 3, p.11; Section 4, p.12",
+  "quote": "A legislator votes in favor of the proposal if she is better",
+  "note": "The vote \u03c3n and the payoff un(g) are separate notation. The vote is derived from the payoff comparison."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Section 4, p.12",
+  "quote": "A legislator votes in favor of the proposal if she is better",
+  "note": "Legislators are players in the game, but their votes always follow their payoff comparison. No analysis has votes differing from preferences."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Section 4, p.12",
+  "quote": "A legislator votes in favor of the proposal if she is better",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "OTH",
+  "loc": "Section 3, p.12",
+  "quote": "weakly undominated voting strategies for the legislators",
+  "note": "Justified by the equilibrium refinement to weakly undominated voting strategies. This is close to a dominance argument but is not stated as strategyproofness."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C2.2 contains only OTH."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 6.1, Example 5, p.26-27",
+  "quote": "all three legislators in N are ex ante strictly better",
+  "note": "Legislators' expected payoffs (welfare) with versus without lobbying."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 3, p.10; Section 6.1, p.25",
+  "quote": "Each district n has a valuation for the good rn",
+  "note": "Evaluated on payoffs un(g), defined separately from votes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 3, p.12",
+   "quote_behav": "weakly undominated voting strategies for the legislators",
+   "loc_info": "Section 3, p.10",
+   "quote_info": "with commonly-known probability",
+   "note": "Legislators know the common prior and observe public signals. Valuations are ex ante unknown to all."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 4, p.12",
+   "quote_behav": "AS proposes an allocation g that maximizes his expected utility",
+   "loc_info": "Section 3, p.10",
+   "quote_info": "Districts valuations are drawn independently and are ex ante unknown",
+   "note": "The agenda setter (AS) chooses the proposal."
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Introduction, p.5",
+   "quote_behav": "The interest group engages in selective persuasion, choosing strategically the",
+   "loc_info": "Section 3, p.10-11",
+   "quote_info": "Districts valuations are drawn independently and are ex ante unknown",
+   "note": "Interest group that searches for and provides verifiable information (informational lobbying). Coded OTH rather than BRI because it persuades rather than bribes. It knows the prior and the signals it observes."
+  }
+ },
+ "C7.1": {
+  "code": "N",
+  "loc": "Section 3, p.11-12",
+  "quote": "The solution concept is (pure-strategy) Perfect Bayesian equilibrium",
+  "note": "All present types are strategic."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 = N."
+ },
+ "C8.1": {
+  "codes": [
+   "SPE",
+   "BNE"
+  ],
+  "loc": "Section 3, p.12; Section 4, p.12",
+  "quote": "The solution concept is (pure-strategy) Perfect Bayesian equilibrium",
+  "note": "Perfect Bayesian equilibrium solved by backward induction, with a weakly-undominated refinement for voting."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 3, p.12",
+  "quote": "The solution concept is (pure-strategy) Perfect Bayesian equilibrium"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.1",
+    "quote": "identifying circumstances in which legislators would unanimously prefer to ban informational lobbying"
+   },
+   {
+    "loc": "Conclusion, p.33",
+    "quote": "my analysis suggests that legislators may want to adopt simple- or super-majority"
+   },
+   {
+    "loc": "Conclusion, p.32",
+    "quote": "may unanimously prefer to ban informational lobbying since they may all"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 3, p.10-12; Section 6.2, p.29",
+  "quote": "the legislator from district n gets a payo\u00a4 un (g) = rn gn",
+  "note": "Needed assumptions are stated in the model: legislators' payoffs, strategic agents, common prior and public signals. The majority-requirement claim is explicitly conditional on legislators seeking to maximize the information they receive."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 3, 7",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {}
+}

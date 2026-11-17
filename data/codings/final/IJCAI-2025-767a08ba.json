@@ -1,0 +1,182 @@
+{
+ "paper_id": "IJCAI-2025-767a08ba",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Section 1 Introduction, p.330",
+  "quote": "When multiple voters provide preference orders or rankings on candidates",
+  "note": "Kemeny-style aggregation of voters' rankings with a fairness constraint. It is borderline with ML/IR rank aggregation (applications include web search; datasets are expert and movie rankings), but it is framed as aggregating voters' rankings into a consensus, so coded ELIG."
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "EM"
+  ],
+  "primary": "AL",
+  "loc": "Abstract p.330; Section 6 p.335",
+  "quote": "we first provide a novel algorithm that achieves (2 + \u03b5)-approximation",
+  "note": "EM: experiments on real-world ranking datasets (football experts, Movielens)."
+ },
+ "C2.1": {
+  "value": "input rankings; preference orders or rankings; set S of rankings",
+  "loc": "Section 1 p.330; Definition 3, Section 2 p.332",
+  "quote": "Given a set S of rankings over d candidates"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2 p.332",
+  "quote": "We refer to the set of all rankings (or permutations) over [d]",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 1 p.331",
+  "quote": "it is essentially influenced by the preference order of a single voter",
+  "note": "Only the term 'preference order' is used. It is not defined separately from the submitted rankings."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 1 p.330",
+  "quote": "voters provide preference orders or rankings on candidates",
+  "note": "IDU and ONE fit about equally well (the input is described both as provided rankings and as preference orders), so the first-listed code was chosen."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-6",
+  "quote": "none found",
+  "note": "No strategic voting is considered."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 2, 7 checked",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No utility, welfare or satisfaction notions are used for voters."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Definition 1, Section 1 p.330; Definition 3, p.332",
+  "quote": "contain at least \u230a\u03b1i \u00b7 k\u230b candidates from Gi",
+  "note": "Fairness concerns the representation of candidate groups, not voters. The objective is the sum of Kendall tau distances."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Definition 3, Section 2 p.332",
+   "quote_behav": "Given a set S of rankings over d candidates",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Rankings are given exogenously."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 1 p.330",
+    "quote": "it is essential for any ranking algorithm to produce a fair ranking"
+   },
+   {
+    "loc": "Section 1 p.331",
+    "quote": "it is essentially influenced by the preference order of a single voter"
+   },
+   {
+    "loc": "Abstract p.330",
+    "quote": "optimal consensus ranking might be biased against individual candidates or groups"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Intro, p.330",
+  "quote": "to ensure equitable selection and to avoid the risk of reinforcing",
+  "note": "Claims about real applications need an unstated link between input rankings and held preferences, and that the Kendall tau objective and group quotas capture fairness."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 2, 7 checked",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C6.VOT": {
+   "chosen": "A",
+   "reason": "The codebook counts fixed actions as actions, and voters providing rankings that the rule aggregates is such a fixed action, so voters are present and NONSTRAT (implicit)."
+  },
+  "C9.2": {
+   "chosen": "B",
+   "reason": "The listed claim that the baseline output reflects 'the preference order of a single voter' needs the unstated assumption that input rankings equal voters' held preferences, so not every needed assumption is stated."
+  }
+ }
+}

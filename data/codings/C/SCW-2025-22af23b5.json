@@ -1,0 +1,70 @@
+{
+ "paper_id": "SCW-2025-22af23b5",
+ "decisions": {
+  "C2.4": {
+   "value": {
+    "code": "DIST",
+    "loc": "Introduction, p.3",
+    "quote": "unlikely to be fully plumbed by using any known ballot form",
+    "note": "The paper says ballots may not fully capture the preferences behind them, so the two are treated as distinct. Formally, only ballots are modelled."
+   },
+   "chosen": "A",
+   "reason": "The paper states that preferences may not be fully captured by any ballot, which is text saying the submitted input may differ from the held attitude; it never states that ballots equal preferences."
+  },
+  "C5.1": {
+   "value": {
+    "code": "Y",
+    "loc": "Sect. 3.3, Definition 6, p.18",
+    "quote": "x Pareto dominates y at V",
+    "note": "Pareto dominance on ranking profiles enters the OWL property used in Lemma 4 and Proposition 5. This is a borderline case."
+   },
+   "chosen": "A",
+   "reason": "Pareto dominance appears in a definition (OWL) used in formal results, and the codebook counts Pareto efficiency under C5.1."
+  },
+  "C5.2": {
+   "value": {
+    "code": "INPUT-UNSTATED",
+    "loc": "Sect. 3.3, p.18",
+    "quote": "x Pareto dominates y at V",
+    "note": "Pareto dominance is evaluated on ranking ballots. No statement links it to held preferences."
+   },
+   "chosen": "A",
+   "reason": "Pareto dominance is defined on ranking profiles, and no statement relates it to held preferences."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "EXPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Abstract, p.1",
+    "quote_behav": "If voters are sincere, can an approval winner possibly win",
+    "loc_info": "",
+    "quote_info": "",
+    "note": ""
+   },
+   "chosen": "A",
+   "reason": "Voters submit approval ballots and report compatible rankings, which is a fixed action in the model, and their sincerity is stated explicitly."
+  },
+  "C9.1": {
+   "value": {
+    "code": "N",
+    "claims": [],
+    "note": "The abstract, introduction and conclusion contain no claims about real institutions, voter welfare or which rule should be used. The normative remark about NAC/PAC appears in Sect. 2.2."
+   },
+   "chosen": "A",
+   "reason": "B's first claim is from Sect. 2.2, outside the abstract, introduction and conclusion, and its second concerns the interpretation of compatibility rather than institutions, welfare or rule choice."
+  },
+  "C9.2": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": ""
+   },
+   "chosen": "A",
+   "reason": "C9.1 is N, so C9.2 is NA."
+  }
+ }
+}

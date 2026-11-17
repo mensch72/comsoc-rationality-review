@@ -1,0 +1,21 @@
+{
+ "paper_id": "COMSOC-2023-1bee1b8b",
+ "decisions": {
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Section 2 Preliminaries",
+    "quote_behav": "a voter v gives an approval ballot as a vote",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Ballots are fixed inputs."
+   },
+   "chosen": "A",
+   "reason": "The paper describes voters as giving ballots or votes, which is a fixed action in the model, so voters are present as NONSTRAT; that their behaviour is fixed can only be inferred from the formal model, and info is NA."
+  }
+ }
+}

@@ -1,0 +1,188 @@
+{
+ "paper_id": "AAMAS-2021-7d5e39d8",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Sec. 1, p.683",
+  "quote": "We consider the problem of committee selection from a fixed set",
+  "note": "Multiwinner approval voting with approvals over candidate attributes."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "AL"
+  ],
+  "primary": "AX",
+  "loc": "Abstract, p.683",
+  "quote": "We present a detailed study of axioms, rules, algorithms, and computational complexity",
+  "note": "Most lemmas concern which rules satisfy unanimity and JR variants (Table 3). The remaining results are NP-completeness proofs, algorithms and an approximation ratio."
+ },
+ "C2.1": {
+  "value": "approval ballots; voters' approvals over attributes / attribute approvals",
+  "loc": "Sec. 1, p.683; Sec. 3, p.684",
+  "quote": "Given the approval ballots of the voters"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Sec. 3, Example 1, p.684",
+  "quote": "Voters approve desired attribute-values from each attribute\u2019s domain.",
+  "note": "Approval sets over attribute values, one set per dimension."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Abstract, p.683; Sec. 3 Example 2, p.685; footnote 1, p.683",
+  "quote": "allow voters to express more specific opinions",
+  "note": "The paper refers to voters' opinions, interests and preferences, and to 'true preferences' in footnote 1."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Sec. 3, Example 2, p.685; Sec. 3, p.684",
+  "quote": "Voters approve desired attribute-values from each attribute\u2019s domain.",
+  "note": "The model has a single object, the attribute approvals, which the paper also calls voters' preferences, and the rules apply to it directly. Footnote 1 is only a general definition of manipulation and is not used in the model."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Secs. 3-7",
+  "quote": "When voters submit their approvals on the attributes",
+  "note": "No analysis models misreporting."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Checked Sec. 1 Introduction, Sec. 3 model, Sec. 4, Sec. 8 Conclusions",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Sec. 4.1, p.685",
+  "quote": "maximize the sum of voters\u2019 utilities, where the utility of",
+  "note": "PAV utility and the SAV satisfaction score are defined explicitly as functions of the approved attributes contained in W."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sec. 5, p.686",
+  "quote": "if there exists a sizeable group of voters with common preferences",
+  "note": "JR and PJR variants (representation of voter groups) are used in formal results."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Sec. 5, Def. 5.1, p.686",
+  "quote": "A committee \ud835\udc4a satisfies simple justified repre",
+  "note": "The JR variants are defined on the approval sets, with no statement relating them to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sec. 4.1, p.685",
+   "quote_behav": "When voters submit their approvals on the attributes",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters submit approval sets that are fixed exogenously."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N",
+   "note": "A centralized authority setting attribute weights is mentioned only as a possible extension, not modelled."
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N",
+   "note": "Bribery is mentioned only in the abstract."
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.683",
+    "quote": "the committees formed over attribute preferences are less vulnerable to the practices"
+   },
+   {
+    "loc": "Abstract, p.683",
+    "quote": "select a committee that is more accurate than the committee selected"
+   },
+   {
+    "loc": "Sec. 8 Conclusions, p.690",
+    "quote": "standard representation axioms that reflect how fairly the outcome represents the voters"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Checked Abstract, Sec. 1, Sec. 3, Sec. 8",
+  "quote": "none found",
+  "note": "The accuracy and fairness claims need the assumption that submitted attribute approvals equal voters' held preferences, which is not stated. The vulnerability claim needs a model of strategic voters or bribers and their information, which is absent."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Checked Sec. 1, Sec. 3, Sec. 4, Sec. 8",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C2.4": {
+   "chosen": "B",
+   "reason": "The formal model never separates submitted approvals from held preferences, and the footnote is a generic definition rather than part of the model, so IDU fits better than DIST."
+  },
+  "C4.1": {
+   "chosen": "A",
+   "reason": "Voter utility is defined as an explicit function of the approval input, like the codebook's 'utility 1 for approved' example, which is SPEC."
+  },
+  "C6.VOT": {
+   "chosen": "A",
+   "reason": "Voters submitting approvals is an action, and the codebook counts actions whether strategic or fixed, so voters are present as NONSTRAT."
+  }
+ }
+}

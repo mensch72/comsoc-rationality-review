@@ -1,0 +1,15 @@
+{
+ "paper_id": "GEB-2022-98a37ffc",
+ "decisions": {
+  "C9.2": {
+   "value": {
+    "code": "ALL-STATED",
+    "loc": "Section 3, p. 152-153",
+    "quote": "voters and candidates all prefer policies as close as possible to z",
+    "note": "The claims need several assumptions, and the model states each one: common interest, quadratic utility on which welfare is defined, strategic voters and candidates, the information structure, and that salaries raise office motivation (Section 1). That real voters are common-interest is a general fit-to-reality assumption, which the codebook excludes."
+   },
+   "chosen": "A",
+   "reason": "The welfare and salary claims follow from the formal results under assumptions the paper states explicitly in its model and introduction; B's extra requirement is only the general model-approximates-reality assumption, which the codebook says not to count."
+  }
+ }
+}

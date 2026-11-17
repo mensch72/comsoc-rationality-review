@@ -1,0 +1,198 @@
+{
+ "paper_id": "GEB-2024-b62ae4ec",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "1 Introduction, p.1",
+  "quote": "select one member of the group based on nominations from within",
+  "note": "Selection of a group member by aggregating nominations; impartial selection mechanisms."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SB",
+   "WD"
+  ],
+  "primary": "WD",
+  "loc": "Abstract, p.1; 1.1, p.2-3",
+  "quote": "a deterministic mechanism with an additive performance guarantee",
+  "note": "Main results are additive guarantees (upper and lower bounds) for impartial mechanisms. The lower bounds come from an axiomatic impossibility result. Impartiality is an incentive (strategyproofness-type) property, so it is SB. There are no complexity or running-time results, so AL does not apply."
+ },
+ "C2.1": {
+  "value": "nomination graph; nominations",
+  "loc": "1 Introduction, p.1",
+  "quote": "takes such a nomination graph as input"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "1 Introduction, p.2",
+  "quote": "the more general approval setting, where outdegrees can be arbitrary",
+  "note": "Input is a directed graph in which each vertex's out-neighbourhood is its nomination (approval) set. The paper itself calls this the approval setting, and plurality is the special case of outdegree one."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "1 Introduction, p.1",
+  "quote": "motivated not to reveal their true opinion on who should win",
+  "note": "Held attitude ('true opinion') mentioned informally."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "1 Introduction, p.1",
+  "quote": "motivated not to reveal their true opinion on who should win",
+  "note": "Text says submitted nominations may differ from true opinions. The formal model has no separate notation for held attitudes."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "2 Preliminaries, p.4; 3, p.10",
+  "quote": "the outgoing edges of a vertex have no influence on its selection",
+  "note": "The impartiality analyses consider a voter changing its outgoing edges, i.e. possible misreports. The additive-guarantee analyses evaluate the submitted graph as given."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "1 Introduction; 2 Preliminaries; 3; 4 (end), pp.1-28",
+  "quote": "none found",
+  "note": "The intro motivates impartiality as allowing voters to express true opinions. It never states that voters submit them."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No utility, welfare, satisfaction, cost or distortion for voters is used."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "2 Preliminaries, p.4",
+  "quote": "the indegree of the choice of f differs from the maximum indegree",
+  "note": "Outcomes are evaluated by additive approximation of the maximum indegree. This is not framed as welfare, satisfaction, efficiency, representation or distortion."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "1 Introduction, p.1",
+   "quote_behav": "motivated not to reveal their true opinion on who should win",
+   "loc_info": "1 Introduction; 2 Preliminaries; 3; 4",
+   "quote_info": "none found",
+   "note": "Voters' possible profitable deviations motivate and define impartiality, which is strategic. In the additive-guarantee analyses, nominations are taken as exogenous inputs. Voters' knowledge of others is never specified."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates coincide with voters; no separate candidate actions."
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N",
+   "note": "Mechanisms are designed by the authors; no designer choice or objective is modelled within the model."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "DOM"
+  ],
+  "loc": "1 Introduction, p.1",
+  "quote": "a change of the outgoing edges of some vertex v does not change",
+  "note": "Impartiality is a strategyproofness-type property: a vertex's own selection is independent of its own nominations."
+ },
+ "C8.2": {
+  "code": "N",
+  "loc": "1 Introduction; 2 Preliminaries",
+  "quote": "none found"
+ },
+ "C9.1": {
+  "code": "N",
+  "claims": [],
+  "note": "Real-world settings (papal conclave, FIFA awards) appear only as motivation. The abstract and introduction state formal results only, and there is no conclusion section."
+ },
+ "C9.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C9.1 = N."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "1 Introduction; 2 Preliminaries; 4, pp.1-28",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C1": {
+   "chosen": "A",
+   "reason": "Impartiality is a strategyproofness-type property studied as a property (SB), while the paper has no algorithmic or complexity results that would warrant AL."
+  },
+  "C2.2": {
+   "chosen": "A",
+   "reason": "The paper explicitly frames the nomination input as the approval setting, so APPR fits better than OTH."
+  },
+  "C3.1": {
+   "chosen": "A",
+   "reason": "The impartiality proofs explicitly consider a voter deviating in its nominations, while the guarantee analyses take the input as given."
+  },
+  "C6.VOT": {
+   "chosen": "other",
+   "reason": "Voters are treated as potential deviators in the impartiality analyses but as given inputs in the guarantee analyses, so MIXED fits better than either NS or STRAT."
+  },
+  "C8.1": {
+   "chosen": "B",
+   "reason": "Since voters are coded MIXED, C8 applies, and impartiality is a strategyproofness-type concept (DOM)."
+  },
+  "C8.2": {
+   "chosen": "B",
+   "reason": "The paper names the property impartiality but never calls it strategyproofness or dominant strategies."
+  },
+  "C9.1": {
+   "chosen": "A",
+   "reason": "The quotes B lists are motivation or restatements of formal tightness results, not claims about institutions, voter well-being, or which rule to use."
+  },
+  "C9.2": {
+   "chosen": "A",
+   "reason": "C9.1 is N, so C9.2 is NA."
+  }
+ }
+}

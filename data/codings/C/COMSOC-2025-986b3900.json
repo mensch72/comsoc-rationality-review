@@ -1,0 +1,90 @@
+{
+ "paper_id": "COMSOC-2025-986b3900",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "EQ",
+     "SB",
+     "AL",
+     "WD",
+     "SI"
+    ],
+    "primary": "EQ",
+    "loc": "Abstract, p.1; Sections 4-6",
+    "quote": "we introduce the notions of possible and necessary iterative winners",
+    "note": "Most main results characterise the outcomes (equilibria) of best-response dynamics: diversity of possible winners, the probability that the truthful profile is an equilibrium, and Condorcet winners as iterative winners. Complexity results are only two theorems."
+   },
+   "chosen": "A",
+   "reason": "The largest share of main results concerns equilibria reached by iterative dynamics, so EQ rather than AL is primary."
+  },
+  "C2.2": {
+   "value": {
+    "codes": [
+     "OTH"
+    ],
+    "loc": "Section 3, p.3",
+    "quote": "Let bi \u2208 M denote the ballot submitted by voter i",
+    "note": "Plurality ballots consist of a single candidate. Held preferences are strict rankings."
+   },
+   "chosen": "A",
+   "reason": "C2.2 codes the format of the submitted input, which is a single candidate, not the held linear order."
+  },
+  "C3.1": {
+   "value": {
+    "code": "ALL",
+    "loc": "Section 3, p.3",
+    "quote": "Then they change their ballot strategically following a best response strategy",
+    "note": "All main analyses concern iterative strategic deviations. Truthful plurality appears only as the initial state and as a comparison baseline within the strategic analysis."
+   },
+   "chosen": "A",
+   "reason": "Every main result is about strategic best-response deviations; the truthful profile is only the starting point or baseline of those analyses."
+  },
+  "C3.2": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "C3.1 = ALL"
+   },
+   "chosen": "A",
+   "reason": "C3.1 = ALL, so C3.2 is NA."
+  },
+  "C3.3": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "C3.2 not STATED"
+   },
+   "chosen": "A",
+   "reason": "C3.2 is NA, so C3.3 is NA."
+  },
+  "C5.2": {
+   "value": {
+    "code": "HELD",
+    "loc": "Section 3, p.3",
+    "quote": "A candidate x is the Condorcet winner if she beats all",
+    "note": "The Condorcet winner is defined on the preferences \u227b, which are separate from the ballots."
+   },
+   "chosen": "A",
+   "reason": "Condorcet efficiency is evaluated against a Condorcet winner defined on held preferences, which are separate from the ballots, so HELD applies."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "STRAT",
+    "behav_stated": "EXPLICIT",
+    "info": "PARTIAL",
+    "info_stated": "IMPLICIT",
+    "loc_behav": "Section 3, p.3",
+    "quote_behav": "Then they change their ballot strategically following a best response strategy",
+    "loc_info": "Section 3, p.3",
+    "quote_info": "if i believes that voting for y will make candidate y",
+    "note": "Voters respond only to the current aggregate score vector, not to others' preferences or individual ballots."
+   },
+   "chosen": "A",
+   "reason": "Voters know only the current aggregate scores, not others' held preferences, which fits PARTIAL better than COMPLETE."
+  }
+ }
+}

@@ -1,0 +1,194 @@
+{
+ "paper_id": "COMSOC-2023-3315757c",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Section 1 Introduction; Section 2 Related Works",
+  "quote": "friends choosing a restaurant may utilize a voting procedure",
+  "note": "Public decision-making / perpetual voting: mechanisms aggregate agents' valuations into a sequence of collective decisions."
+ },
+ "C1": {
+  "types": [
+   "AX"
+  ],
+  "primary": "AX",
+  "loc": "Section 1 Introduction; Tables 1-2; Sections 7-8",
+  "quote": "we analyze the fairness of three known mechanisms",
+  "note": "Results concern which mechanisms satisfy which fairness or efficiency properties, plus impossibility results. Intractability remarks rely on prior work and are not main results."
+ },
+ "C2.1": {
+  "value": "valuations; ordinal preference orders (translated to Borda valuations)",
+  "loc": "Section 3 Definitions",
+  "quote": "every agent i reports her valuation"
+ },
+ "C2.2": {
+  "codes": [
+   "CARD",
+   "RANK"
+  ],
+  "loc": "Section 3 Definitions",
+  "quote": "each agent reports for every round a total order over C",
+  "note": "Cardinal valuations in general; strict rankings translated via Borda in the restricted setting."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 3 Definitions",
+  "quote": "We assume that the agents have additive utility functions.",
+  "note": "Utilities and preferences are attributed to agents."
+ },
+ "C2.4": {
+  "code": "IDS",
+  "loc": "Section 3 Definitions",
+  "quote": "every agent i reports her valuation",
+  "note": "The paper says each agent reports her own valuation and uses it directly as her utility, with no reason given. IDU is excluded because the paper does speak of reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 3-8",
+  "quote": "every agent i reports her valuation",
+  "note": "No analysis of misreporting."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Section 3 Definitions",
+  "quote": "every agent i reports her valuation",
+  "note": "Weak statement: the agent reports her own valuation."
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Section 3 Definitions; Section 1; Section 9",
+  "quote": "none found",
+  "note": ""
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 3 Definitions",
+  "quote": "the valuation of a candidate c is the number of candidates ranked below",
+  "note": "Borda translation defines utilities from rankings."
+ },
+ "C4.2": {
+  "code": "Y",
+  "loc": "Appendix D",
+  "quote": "they assign either 1 or 0 to each candidate",
+  "note": "Term 'dichotomous' is used for valuations."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 4 Efficiency and Fairness",
+  "quote": "An outcome o is Pareto Optimal (PO) if there does not",
+  "note": "Pareto optimality and proportionality (fairness to agents) are used in the results."
+ },
+ "C5.2": {
+  "code": "INPUT-STATED",
+  "loc": "Section 3 Definitions; Section 4",
+  "quote": "the accumulated utility of an agent i from outcome o",
+  "note": "Utilities are sums of reported valuations, which the paper says are the agents' own valuations."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 3 Definitions",
+   "quote_behav": "every agent i reports her valuation",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Reports are fixed inputs. In round robin, an agent's choice of a round is part of the mechanism definition and is not strategic."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no strategic type."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract",
+    "quote": "a decision-making mechanism must consider fairness notions"
+   },
+   {
+    "loc": "Section 9 Conclusions",
+    "quote": "has a significant advantage over the other known mechanisms"
+   },
+   {
+    "loc": "Section 9 Conclusions",
+    "quote": "our results are also applicable when the preferences of the agents are ordinal"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 3 Definitions",
+  "quote": "In these settings, we translate the ordinal preference orders",
+  "note": "Two assumptions are needed: that reports equal valuations, and that Borda valuations stand for utility when preferences are ordinal. Both are stated, the first only weakly ('reports her valuation')."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 3, 9",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C2.4": {
+   "chosen": "A",
+   "reason": "The phrase 'reports her valuation' is a statement that the submitted input equals the agent's own valuation, given without a reason, so IDS applies; IDU requires that there be no statement about reporting."
+  },
+  "C3.2": {
+   "chosen": "A",
+   "reason": "Consistent with C2.4 = IDS, the paper says in words that agents report their own valuations."
+  },
+  "C3.3": {
+   "chosen": "A",
+   "reason": "C3.2 is STATED and the paper gives no reason for truthful reporting."
+  },
+  "C5.2": {
+   "chosen": "A",
+   "reason": "Fairness and efficiency are evaluated on the reported valuations, and the paper states (C2.4 = IDS) that these are the agents' valuations."
+  },
+  "C9.2": {
+   "chosen": "A",
+   "reason": "Given that the paper states truthful reporting (weakly) and the Borda translation, every needed assumption is stated."
+  }
+ }
+}

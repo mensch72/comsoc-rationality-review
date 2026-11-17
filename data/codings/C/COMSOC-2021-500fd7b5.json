@@ -1,0 +1,31 @@
+{
+ "paper_id": "COMSOC-2021-500fd7b5",
+ "decisions": {
+  "C4.1": {
+   "value": {
+    "code": "SPEC",
+    "loc": "Sec. 2 Preliminaries, p.2",
+    "quote": "we say that \u03c1 is consistent with P if",
+    "note": "The disutility (misrepresentation) function \u03c1 must be consistent with the voter's ranking: preferred candidates get weakly lower values."
+   },
+   "chosen": "A",
+   "reason": "The paper formally defines consistency of \u03c1 with the rankings, which matches the codebook's SPEC example 'utilities consistent with the ranking'; that \u03c1 is a separate given input does not make the defined link partial."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Sec. 2 Preliminaries, p.2",
+    "quote_behav": "Voters rank candidates from best to worst, so that the preferences",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Voters' rankings are fixed data in the model and no choice is modelled; ranking candidates is a fixed action, so voters are present as non-strategic."
+   },
+   "chosen": "A",
+   "reason": "The codebook counts fixed actions, and voters ranking candidates supply the rule's input, so voters are present with behaviour fixed only implicitly by the formal model."
+  }
+ }
+}

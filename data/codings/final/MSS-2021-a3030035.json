@@ -1,0 +1,191 @@
+{
+ "paper_id": "MSS-2021-a3030035",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "study coalitional manipulability within the class of scoring voting rules",
+  "note": ""
+ },
+ "C1": {
+  "types": [
+   "SB",
+   "SI"
+  ],
+  "primary": "SB",
+  "loc": "Abstract, p.1; Section 4, p.15",
+  "quote": "characterize all the outcomes that can be manipulable by a coalition",
+  "note": "Section 4 estimates shares of manipulable outcomes by Monte Carlo simulation under IAC; exact values are also given for m=3."
+ },
+ "C2.1": {
+  "value": "anonymous preference profile / profile",
+  "loc": "Section 2, p.3",
+  "quote": "An anonymous preference profile, hereafter simply called a profile"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2, p.3",
+  "quote": "The voters' preferences are assumed to be linear orders",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Abstract, p.1",
+  "quote": "secure an outcome they all prefer to the first outcome",
+  "note": "Voters hold preferences over outcomes, distinct from the votes they cast."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2, Example 2.3, p.4",
+  "quote": "voters having the preference (A2 , A3 , A1 ) chose to vote",
+  "note": "The abstract also says voters may 'misrepresent their vote'."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Section 3, p.5; Section 4, p.14",
+  "quote": "the set of all the profiles that are manipulable by it",
+  "note": "All main results concern coalitional misreporting. The sincere profile is used only as the starting point."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL"
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 not STATED"
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No utility, welfare, satisfaction, cost or distortion notions are used for voters. The informal phrase 'happy about the change' is not a defined notion."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 3-4, pp.5-16",
+  "quote": "none found",
+  "note": "Rules are evaluated only by their manipulability."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "IMPLICIT",
+   "loc_behav": "Section 2, Definition 2.2, p.4",
+   "quote_behav": "can change their preferences in such a way that this alternative wins",
+   "loc_info": "Section 3, proof of Theorem 3.1, pp.7-8",
+   "quote_info": "Notice that it is clearly reasonable for all the members",
+   "note": "Coalition members are strategic in every analysis; non-coalition voters vote sincerely within the same analyses. MIXED (strategic in some analyses, not others) does not fit. Complete knowledge of the profile is only implicit in the coalition coordinating on the exact profile."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only one type (voters) is present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 not Y"
+ },
+ "C8.1": {
+  "codes": [
+   "DEV"
+  ],
+  "loc": "Section 2, Definition 2.2, p.4",
+  "quote": "is said to be coalitionally manipulable if there exists an alternative",
+  "note": "Existence of a coalitional deviation that achieves the coalition's goal."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 2, Definition 2.2, p.4",
+  "quote": "The outcome of an election is said to be coalitionally manipulable"
+ },
+ "C9.1": {
+  "code": "N",
+  "claims": [],
+  "note": "The introduction only reports that Antiplurality is less manipulable. The 'most performing' statement is in Section 4, not in the abstract, introduction or conclusion. The conclusion lists extensions only."
+ },
+ "C9.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C9.1 = N"
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction pp.1-3; Section 2 pp.3-5; Conclusion p.16",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C1": {
+   "chosen": "A",
+   "reason": "Characterising manipulable profiles is about the strategic property, not an axiomatic analysis of rules, so AX does not apply and SB plus SI is correct."
+  },
+  "C3.1": {
+   "chosen": "A",
+   "reason": "Every main analysis, including the simulations, concerns profiles at which a coalition misreports, so the code is ALL even though non-coalition voters are sincere within each analysis."
+  },
+  "C3.2": {
+   "chosen": "A",
+   "reason": "Under the codebook, C3.2 is NA when C3.1 = ALL."
+  },
+  "C3.3": {
+   "chosen": "A",
+   "reason": "C3.3 applies only when C3.2 = STATED, which is not the case here."
+  },
+  "C6.VOT": {
+   "chosen": "A",
+   "reason": "Voters are strategic in every analysis, with sincere non-members in the same analyses, which is not MIXED as the codebook defines it (strategic in some analyses and not others)."
+  },
+  "C9.1": {
+   "chosen": "A",
+   "reason": "The abstract, introduction and conclusion only restate the manipulability results and make no claims about institutions, voters' well-being or which rule should be used."
+  },
+  "C9.2": {
+   "chosen": "A",
+   "reason": "C9.2 is NA because C9.1 = N."
+  }
+ }
+}

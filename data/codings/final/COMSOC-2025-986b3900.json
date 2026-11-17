@@ -1,0 +1,203 @@
+{
+ "paper_id": "COMSOC-2025-986b3900",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "This article deals with iterative voting under the plurality rule",
+  "note": ""
+ },
+ "C1": {
+  "types": [
+   "EQ",
+   "SB",
+   "AL",
+   "WD",
+   "SI"
+  ],
+  "primary": "EQ",
+  "loc": "Abstract, p.1; Sections 4-6",
+  "quote": "we introduce the notions of possible and necessary iterative winners",
+  "note": "Most main results characterise the outcomes (equilibria) of best-response dynamics: diversity of possible winners, the probability that the truthful profile is an equilibrium, and Condorcet winners as iterative winners. Complexity results are only two theorems."
+ },
+ "C2.1": {
+  "value": "ballot profile; ballot submitted by voter i (preferences: preference profile)",
+  "loc": "Section 3, p.3",
+  "quote": "Let bi \u2208 M denote the ballot submitted by voter i"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 3, p.3",
+  "quote": "Let bi \u2208 M denote the ballot submitted by voter i",
+  "note": "Plurality ballots consist of a single candidate. Held preferences are strict rankings."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 3, p.3",
+  "quote": "Each voter i \u2208 N has preferences over candidates represented by",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 3, p.3",
+  "quote": "truthful ballot profile where all voters submit their sincere preferences",
+  "note": "Ballots b_i and preferences \u227b_i have separate notation, and ballots change strategically."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Section 3, p.3",
+  "quote": "Then they change their ballot strategically following a best response strategy",
+  "note": "All main analyses concern iterative strategic deviations. Truthful plurality appears only as the initial state and as a comparison baseline within the strategic analysis."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL"
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 not STATED"
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Input format is OTH (single-candidate ballot), and no utility-type notions are used for voters."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term not used"
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 6.2, p.11",
+  "quote": "we define the Condorcet efficiency as the probability to elect",
+  "note": "Condorcet efficiency is counted as an efficiency criterion. This is a judgement call."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 3, p.3",
+  "quote": "A candidate x is the Condorcet winner if she beats all",
+  "note": "The Condorcet winner is defined on the preferences \u227b, which are separate from the ballots."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "IMPLICIT",
+   "loc_behav": "Section 3, p.3",
+   "quote_behav": "Then they change their ballot strategically following a best response strategy",
+   "loc_info": "Section 3, p.3",
+   "quote_info": "if i believes that voting for y will make candidate y",
+   "note": "Voters respond only to the current aggregate score vector, not to others' preferences or individual ballots."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present"
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 not Y"
+ },
+ "C8.1": {
+  "codes": [
+   "ITER"
+  ],
+  "loc": "Section 3, p.3",
+  "quote": "We then consider a best response dynamics which is defined via",
+  "note": "Convergence is to an equilibrium in which no voter has an interest to change her ballot."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 3, p.3",
+  "quote": "We then consider a best response dynamics"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Conclusion, p.12",
+    "quote": "provide theoretical insights on how beneficial manipulation can be"
+   },
+   {
+    "loc": "Abstract, p.1",
+    "quote": "the Condorcet efficiency of plurality is increased by considering its iterative"
+   }
+  ],
+  "note": "These are claims about the benefit of manipulation and the quality of rule outcomes."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 2, p.3; Section 6.2, p.11",
+  "quote": "Any branch has the same weight whatever its length.",
+  "note": "The claims need several assumptions: best-response behaviour, equal weighting of deviation sequences, and IC/IAC cultures. All of these are stated. The Condorcet winner is defined on held preferences."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 3, 7",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C1": {
+   "chosen": "A",
+   "reason": "The largest share of main results concerns equilibria reached by iterative dynamics, so EQ rather than AL is primary."
+  },
+  "C2.2": {
+   "chosen": "A",
+   "reason": "C2.2 codes the format of the submitted input, which is a single candidate, not the held linear order."
+  },
+  "C3.1": {
+   "chosen": "A",
+   "reason": "Every main result is about strategic best-response deviations; the truthful profile is only the starting point or baseline of those analyses."
+  },
+  "C3.2": {
+   "chosen": "A",
+   "reason": "C3.1 = ALL, so C3.2 is NA."
+  },
+  "C3.3": {
+   "chosen": "A",
+   "reason": "C3.2 is NA, so C3.3 is NA."
+  },
+  "C5.2": {
+   "chosen": "A",
+   "reason": "Condorcet efficiency is evaluated against a Condorcet winner defined on held preferences, which are separate from the ballots, so HELD applies."
+  },
+  "C6.VOT": {
+   "chosen": "A",
+   "reason": "Voters know only the current aggregate scores, not others' held preferences, which fits PARTIAL better than COMPLETE."
+  }
+ }
+}

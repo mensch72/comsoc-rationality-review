@@ -1,0 +1,39 @@
+{
+ "paper_id": "AAAI-2022-1a58e106",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "EQ",
+     "SI",
+     "AL"
+    ],
+    "primary": "EQ",
+    "loc": "Convergence Properties; Pivotal Probabilities; Simulations, pp.5211-5215",
+    "quote": "We define the general form of those pivotal probabilities, then derive efficient exact and approximated calculations",
+    "note": "Main results: convergence/equilibrium proofs (EQ), simulations on synthetic data (SI), and algorithms for efficient pivotal probability computation with runtime analysis (AL: Algorithms 1-2, Proposition 9)."
+   },
+   "chosen": "B",
+   "reason": "Algorithms 1 and 2, Proposition 9 and the runtime comparisons are algorithmic main results, so AL applies alongside EQ and SI."
+  },
+  "C9.1": {
+   "value": {
+    "code": "N",
+    "claims": [],
+    "note": "The abstract, introduction and discussion make claims about the model's scope, convergence and passing the Duverger's Law test, not about institutions, voter welfare or which rule to use."
+   },
+   "chosen": "A",
+   "reason": "B's quoted claims concern the model's limitations and its validity as a model, which fall under none of the three C9.1 categories."
+  },
+  "C9.2": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "C9.1 = N."
+   },
+   "chosen": "A",
+   "reason": "C9.2 is NA because C9.1 = N."
+  }
+ }
+}

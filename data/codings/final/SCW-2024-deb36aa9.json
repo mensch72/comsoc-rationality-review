@@ -1,0 +1,212 @@
+{
+ "paper_id": "SCW-2024-deb36aa9",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.263",
+  "quote": "a novel hybrid of Representative Democracy and Direct Democracy",
+  "note": "Voting systems (elections of representatives plus weighted issue voting with delegation)."
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "WD",
+   "SI",
+   "OT"
+  ],
+  "primary": "SI",
+  "loc": "Abstract, p.263; Sects. 4-8",
+  "quote": "We provide NP-Hardness results for electing an ideal set of representatives",
+  "note": "AL: NP-hardness results. WD: rules evaluated against the majority-agreement objective. SI: simulations, which make up most results. OT: proposal of the FRD model, a main contribution of the paper."
+ },
+ "C2.1": {
+  "value": "preferences / electoral preferences P_VC (approvals, complete rankings, weights); representatives' votes P_D; delegations P_VD",
+  "loc": "Sect. 3.1, p.268",
+  "quote": "The voters express preferences over the candidates, collectively denoted by"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR",
+   "RANK",
+   "CARD",
+   "OTH"
+  ],
+  "loc": "Sect. 4.2, p.273; Sect. 5, p.276",
+  "quote": "electoral preferences PV C as either approvals or complete rankings",
+  "note": "CARD: normalized weights for the Max Agreement rule. OTH: binary issue votes of representatives, and fractional delegation weights."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sect. 3.2, p.270",
+  "quote": "each voter v j has a preference v ij \u2208 {0, 1}",
+  "note": "Voters' issue preferences are held attitudes; in RD they are not submitted."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Sect. 4.2, p.273; Sect. 10, p.303",
+  "quote": "voters\u2019 preferences over candidates are derived exactly from their agreement",
+  "note": "Issue preferences (v_j, P_V) and electoral inputs (P_VC) are separate objects with separate notation. The paper notes that the derivation assumption should be relaxed, so the two may differ."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sect. 10 Future work, p.303",
+  "quote": "Our analysis also did not examine strategic behavior by the voters",
+  "note": ""
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Sect. 4.2, p.273",
+  "quote": "we assume that v approves of c if and only if",
+  "note": "Reported approvals and rankings are stated in words to follow exactly from voters' issue agreement."
+ },
+ "C3.3": {
+  "code": "OTH",
+  "loc": "Sect. 4.2, p.273; Sect. 5, p.276",
+  "quote": "We give the election rules the best chances we can",
+  "note": "The reason given is that this is a best-case assumption for the election rules."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Sect. 8, p.293",
+  "quote": "each voter v j is assigned a preference intensity parameter",
+  "note": "Intensity for voters is used, so C4.1 applies. Intensity defines the Bernoulli parameter of issue preferences and the delegation probability. Rankings and approvals are defined from agreement L(v,c)."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sect. 3.2, Definition 2, p.270",
+  "quote": "the majority of representatives agrees with the voter majority",
+  "note": "Majority agreement and coverage are representation-type criteria for voters."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Sect. 3.2, p.270",
+  "quote": "We hold Direct Democracy with majority voting and full participation",
+  "note": "Majority agreement is evaluated against voters' issue preferences, which are separate from the submitted electoral inputs."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sect. 4.2, p.273; Sect. 6.3, p.286",
+   "quote_behav": "we assume that v prefers c to \u0109 if they agree",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters elect representatives and delegate according to fixed rules (incisive, Best Rep, Approve) or with fixed probabilities."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N",
+   "note": "Elected representatives act as proxies receiving delegations; the codebook places delegates and proxies under VOT."
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only one type (VOT, including representatives as proxies) is present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 = N"
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is strategic."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.263",
+    "quote": "reveal the potential for Flexible Representative Democracy to improve outcomes"
+   },
+   {
+    "loc": "Sect. 1 Contributions, p.265",
+    "quote": "the choice of election rule appears less important than the quality"
+   },
+   {
+    "loc": "Sect. 10, p.297",
+    "quote": "taking the best of both worlds from Direct Democracy"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sect. 9.1, p.295; Sect. 10, p.303",
+  "quote": "Our analysis makes use of a toy model of agent preferences",
+  "note": "Stated: incisive delegation, impartial culture, and electoral preferences derived from issue agreement. Not stated in words: that representatives cast votes equal to their preferences; it is only implicit in the notation, with strategic behaviour acknowledged as not examined."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sects. 1, 3, 9.1, 10",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C1": {
+   "chosen": "A",
+   "reason": "The paper's introduction of FRD as a new voting-system model is a main contribution, so OT applies alongside AL, WD and SI."
+  },
+  "C2.4": {
+   "chosen": "A",
+   "reason": "Held issue preferences and submitted electoral inputs have separate notation, and the link between them is an explicit assumption the paper says could be relaxed."
+  },
+  "C3.2": {
+   "chosen": "A",
+   "reason": "The paper explicitly states that reported approvals and rankings follow exactly from held issue preferences."
+  },
+  "C3.3": {
+   "chosen": "A",
+   "reason": "The stated justification is a best-case assumption for the rules, which fits none of the listed reason categories."
+  },
+  "C4.1": {
+   "chosen": "A",
+   "reason": "Voter preference intensity is used, so the item applies, and its relation to the inputs is formally defined."
+  },
+  "C5.2": {
+   "chosen": "A",
+   "reason": "Outcomes are evaluated against voters' issue preferences, which are defined separately from the electoral inputs submitted to the rule."
+  },
+  "C6.OTH": {
+   "chosen": "B",
+   "reason": "Representatives in FRD function as proxies, which the codebook assigns to VOT rather than OTH."
+  },
+  "C7.1": {
+   "chosen": "B",
+   "reason": "With representatives coded under VOT, fewer than two types are present."
+  }
+ }
+}

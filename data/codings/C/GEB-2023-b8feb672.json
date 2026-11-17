@@ -1,0 +1,41 @@
+{
+ "paper_id": "GEB-2023-b8feb672",
+ "decisions": {
+  "C4.1": {
+   "value": {
+    "code": "SPEC",
+    "loc": "Introduction, p.2; Section 2.2, p.5",
+    "quote": "every utility representation consistent with his preferences over the alternatives",
+    "note": "Voter utility is used. SD comparisons are defined through all expected-utility representations consistent with the ranking, and PC lifts rankings to preferences over lotteries. 'Better off' and 'maximum happiness' are defined through these extensions."
+   },
+   "chosen": "other",
+   "reason": "The applicability condition is met because the paper speaks of voters' expected utility and of voters being better off, and it defines the link through utility representations consistent with the ranking, so SPEC is correct; A's code is kept but the quote is replaced with one that states the utility link directly."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "MIXED",
+    "behav_stated": "EXPLICIT",
+    "info": "NS",
+    "info_stated": "NA",
+    "loc_behav": "Section 2.4, p.7-8; Appendix A.1, p.20",
+    "quote_behav": "voters should not be able to benefit by abstaining from the election",
+    "loc_info": "Section 2, Section 2.4, Introduction, Conclusion",
+    "quote_info": "none found",
+    "note": "Voters are strategic in the strategyproofness and participation analyses and non-strategic in the efficiency analysis (Proposition 5). The strategyproofness axioms are ex post, dominant-strategy properties, so no information assumption follows unambiguously from the model."
+   },
+   "chosen": "A",
+   "reason": "The efficiency-path result does not model voters as strategic, so MIXED fits; a dominant-strategy requirement does not depend on what voters know, so complete information does not follow unambiguously and the information assumption is not specified."
+  },
+  "C9.2": {
+   "value": {
+    "code": "SOME-UNSTATED",
+    "loc": "Section 5, p.17",
+    "quote": "In light of the shown tradeoff between incentive-compatibility and efficiency",
+    "note": "The recommendation that RD and ML stand out rests partly on PC-efficiency, which is evaluated on the profile. It needs the profile to reflect voters' held preferences, which the paper does not state (especially for ML, which is manipulable). The PC lottery extension needed for the claim is stated."
+   },
+   "chosen": "B",
+   "reason": "The rule-choice claim relies on efficiency judged on the submitted profile, so it needs an unstated assumption that this profile reflects held preferences."
+  }
+ }
+}

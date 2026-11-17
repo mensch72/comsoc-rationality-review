@@ -1,0 +1,40 @@
+{
+ "paper_id": "SCW-2023-e7335446",
+ "decisions": {
+  "C2.2": {
+   "value": {
+    "codes": [
+     "WEAK",
+     "APPR"
+    ],
+    "loc": "Sect. 2, pp. 239-240; Sect. 3.2, p. 244",
+    "quote": "we assume preferences to be reflexive [i.e., (x, x) belongs",
+    "note": "Expressed preferences are reflexive, transitive, possibly incomplete relations. Experimental ballots are plurality, approval and A-Borda point ballots; the points are mapped to ordinal preferences, not treated as cardinal utilities."
+   },
+   "chosen": "A",
+   "reason": "The input is modelled as weak preference relations plus approval-type ballots, and the A-Borda points are only an ordinal encoding, so CARD and a separate RANK code are not warranted."
+  },
+  "C4.1": {
+   "value": {
+    "code": "SPEC",
+    "loc": "Sect. 2, p. 241, Expression (2)",
+    "quote": "Ei (Rei ) = max(Ei\u2217 \u2212 K(Rei , Rai ), 0)",
+    "note": "Expressive utility is defined through the Kemeny distance between expressed and actual preference."
+   },
+   "chosen": "A",
+   "reason": "The paper formally defines voters' expressive utility as a function of the submitted expressed preference, which is a specified link."
+  },
+  "C8.1": {
+   "value": {
+    "codes": [
+     "OTH"
+    ],
+    "loc": "Sect. 2, p. 239",
+    "quote": "P1i (ui ) represent the probability that individual i casts a vote",
+    "note": "Turnout is a non-decreasing probability of utility (calculus-of-voting style). No equilibrium concept is used."
+   },
+   "chosen": "A",
+   "reason": "C8 applies because VOT is MIXED, and the only behavioural concept is a probabilistic turnout function of utility, which fits OTH rather than an empty list."
+  }
+ }
+}

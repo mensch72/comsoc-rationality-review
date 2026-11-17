@@ -1,0 +1,33 @@
+{
+ "paper_id": "IJCAI-2023-59c4763a",
+ "decisions": {
+  "C2.4": {
+   "value": {
+    "code": "DIST",
+    "loc": "Section 3.1, p. 2855",
+    "quote": "The rankings are then converted to an approval ballot",
+    "note": "Ballots Ai, rankings Pi and utilities Ui are separate objects with separate notation. The ballot is derived from the ranking as its top bi candidates, so it is not identical to the held attitude."
+   },
+   "chosen": "A",
+   "reason": "The paper gives the approval ballot, the ranking and the utilities separate notation, and the ballot is a derived object, not stated to equal the held attitude; DIST is also the first-listed code, so B's appeal to the doubt rule does not support IDJ."
+  },
+  "C6.ORG": {
+   "value": {
+    "present": "N",
+    "note": "Group-formation strategies are experimental conditions set by the researchers; no organiser agent is modelled as choosing them."
+   },
+   "chosen": "A",
+   "reason": "The groupings are exogenous conditions that the authors compare, and the formal model contains no organiser agent who takes an action."
+  },
+  "C7.1": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "Only voters are present."
+   },
+   "chosen": "A",
+   "reason": "With ORG not present, fewer than two types are present, so C7.1 is NA."
+  }
+ }
+}

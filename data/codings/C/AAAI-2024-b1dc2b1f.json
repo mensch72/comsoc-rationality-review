@@ -1,0 +1,34 @@
+{
+ "paper_id": "AAAI-2024-b1dc2b1f",
+ "decisions": {
+  "C2.2": {
+   "value": {
+    "codes": [
+     "RANK",
+     "APPR"
+    ],
+    "loc": "Section 2, p.9791; Section 6, p.9795",
+    "quote": "A voting rule is a function that maps each ranking profile",
+    "note": "The rules take ranking profiles (positional scoring rules) or approval profiles (k-approval, AV) as their argument. The partial spatial profile is the input to the PW/NW computational problem, not to the voting rule."
+   },
+   "chosen": "B",
+   "reason": "C2.2 codes the argument of the rule, which is ranking or approval profiles, so the partial spatial profile does not warrant OTH."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "EXPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Section 2, p.9791",
+    "quote_behav": "each voter vj ranks candidates in C according to their Euclidean",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Voters' rankings and approvals are fixed by distance from their position, which the text states in words. No strategic choice is modelled."
+   },
+   "chosen": "other",
+   "reason": "Voters take an action (ranking or approving) that the model fixes, so they are present and NONSTRAT as A coded, but the paper describes this behaviour in words, so behav_stated is EXPLICIT."
+  }
+ }
+}

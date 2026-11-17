@@ -1,0 +1,50 @@
+{
+ "paper_id": "SCW-2021-0d0af957",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "EQ",
+     "EM"
+    ],
+    "primary": "EM",
+    "loc": "1 Introduction, p.714",
+    "quote": "We report the results of an experimental voting game",
+    "note": "Section 2 derives equilibria (NE, SPE). Section 4 and the appendices report laboratory experiments, which make up most of the results."
+   },
+   "chosen": "A",
+   "reason": "The strategic voting here is analysed only through equilibrium (EQ) and experiments (EM); there is no separate manipulation or strategyproofness analysis that would justify adding SB."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "STRAT",
+    "behav_stated": "EXPLICIT",
+    "info": "COMPLETE",
+    "info_stated": "EXPLICIT",
+    "loc_behav": "2, Definition 1, p.714",
+    "quote_behav": "Players maximize their expected revenues",
+    "loc_info": "2.1, Assumption 2, p.716; 2.2, Assumption 3, p.717",
+    "quote_info": "All players\u2019 signs and cost/benefit ratios are common knowledge.",
+    "note": "In the experiment, the strategy method left some uncertainty about predecessors' identities (footnote 11)."
+   },
+   "chosen": "A",
+   "reason": "No analysis fixes voters' actions by the model, since experimental subjects choose freely and heuristics are only used to explain deviations, so STRAT fits better than MIXED."
+  },
+  "C8.1": {
+   "value": {
+    "codes": [
+     "DOM",
+     "NE",
+     "SPE",
+     "BND"
+    ],
+    "loc": "Abstract p.711; 2 p.715; 2.1 p.716; 4.2 p.722",
+    "quote": "sequential voting has a unique subgame perfect equilibrium",
+    "note": "Dominant strategies are applied to non-critical voters. Pure and mixed Nash equilibria are used for simultaneous voting. A bounded-rationality approach is used to explain deviations."
+   },
+   "chosen": "A",
+   "reason": "The model explicitly uses dominant strategies to remove non-critical voters ('i has the dominant strategy to vote Yes'), so DOM belongs alongside NE, SPE and BND."
+  }
+ }
+}

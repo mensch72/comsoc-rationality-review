@@ -1,0 +1,25 @@
+{
+ "paper_id": "EC-2023-457d9225",
+ "decisions": {
+  "C3.3": {
+   "value": {
+    "code": "EMP",
+    "loc": "Sec. 1, footnote 1, p.2",
+    "quote": "Public-spirited behavior among voters has been demonstrated empirically",
+    "note": "The stated behavioural model (voters rank by PS-values) is justified by citing empirical evidence of public-spirited voting. No reason is given for the absence of strategic misreporting."
+   },
+   "chosen": "A",
+   "reason": "The paper justifies its stated sincere PS-value ranking model by citing empirical demonstrations of public-spirited voting (footnote 1), which fits EMP rather than NONE."
+  },
+  "C9.2": {
+   "value": {
+    "code": "ALL-STATED",
+    "loc": "Sec. 2.1, p.5; Sec. 5.2, p.16; Sec. 6, p.18",
+    "quote": "Of course, these results arise from a theoretical model, so their practical",
+    "note": "Needed assumptions are all stated. The PS-value link from utilities to rankings is defined, welfare is measured on held utilities, and voters are non-strategic (stated, with strategy left to future work). Voters' knowledge of welfares is stated in Sec. 5.2, and the claim that deliberation raises public spirit is supported by cited empirical work. The 'can only help' claim is hedged with 'in many senses'."
+   },
+   "chosen": "A",
+   "reason": "Each assumption needed for the welfare and deliberation claims is explicitly stated in the paper, and the monotonicity caveat is acknowledged and hedged, so ALL-STATED applies."
+  }
+ }
+}

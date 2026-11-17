@@ -1,0 +1,188 @@
+{
+ "paper_id": "EC-2023-d244aafc",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Section 1, p.2",
+  "quote": "a committee of k candidates needs to be chosen",
+  "note": "Multiwinner election rules (Nash Welfare, PAV) aggregating voters' utilities into a committee."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "AL"
+  ],
+  "primary": "AX",
+  "loc": "Section 1.3, p.7",
+  "quote": "an e\u03b2 -approximate restrained core is always non-empty",
+  "note": "The main results concern existence and approximation of core and EJR properties. The polynomial-time Local results (Table 1, Sections 2.3 and 3) are secondary algorithmic content. Approximate-core bounds are relaxations of an axiom, not a welfare or distortion objective, so WD is not coded."
+ },
+ "C2.1": {
+  "value": "cardinal utility functions; utility functions of the voters; approval set",
+  "loc": "Section 1, p.2",
+  "quote": "these are specified via cardinal utility functions {ui , i \u2208 V }"
+ },
+ "C2.2": {
+  "codes": [
+   "CARD",
+   "APPR"
+  ],
+  "loc": "Section 1.1, p.2",
+  "quote": "Approval. Each voter i has an approval set Ai \u2286 C.",
+  "note": "General set-function utilities (additive, submodular, XOS, \u03b2-self bounding). Approval sets appear as a special case."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 1.1, p.2",
+  "quote": "ui (T ) captures their utility for committee T \u2286 C",
+  "note": "Utilities are attributed to voters."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 1, p.2",
+  "quote": "Voters express preferences over subsets of candidates.",
+  "note": "Rules (snw, pav, gpav) are applied directly to utilities. There is no statement about reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 1-5",
+  "quote": "none found",
+  "note": "Coalition deviations in core definitions are not misreports of inputs."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 1.1, 2, 6",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 1.1, p.2",
+  "quote": "Their utility for T is ui (T ) = |T \u2229 Ai |.",
+  "note": ""
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term 'dichotomous preferences' not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Definition 1.1, p.3",
+  "quote": "such that ui (T ) \u2265 \u03b3 \u00b7 (ui (W ) + 1) \u2200 i \u2208 S",
+  "note": "Core and EJR presented as proportional fairness to voters. Weak Pareto-optimality is also discussed."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Definition 1.1, p.3",
+  "quote": "such that ui (T ) \u2265 \u03b3 \u00b7 (ui (W ) + 1) \u2200 i \u2208 S",
+  "note": "Evaluated on the utilities that the rule takes as input. There is no statement relating these to anything submitted."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 1, p.2",
+   "quote_behav": "Voters express preferences over subsets of candidates.",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "The voters' only action is expressing utilities, which are fixed inputs to the rule. Deviating coalitions are part of the core definition, not modelled actions."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N",
+   "note": "The 'social planner' choosing \u0174 is a device inside the restrained core definition, not an acting agent in the model."
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 1.1, p.3",
+    "quote": "no subset of voters have a justified complaint in terms of"
+   },
+   {
+    "loc": "Section 1.3, p.9",
+    "quote": "which shows the desirability of gpav as a scoring rule"
+   },
+   {
+    "loc": "Section 6, p.29",
+    "quote": "showing fairness properties for the Nash Welfare allocation in multiwinner elections"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sections 1, 1.1, 6",
+  "quote": "none found",
+  "note": "Claims about fairness to voters and the desirability of rules need the utilities used by the rule to equal voters' actual utilities, i.e. truthful reporting or knowledge of utilities. This is not stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 1.1, 6",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C1": {
+   "chosen": "A",
+   "reason": "The approximate restrained core and EJR are proportionality axioms rather than performance against a welfare objective, so WD does not apply and AX/AL with AX primary is correct."
+  },
+  "C4.1": {
+   "chosen": "A",
+   "reason": "C2.2 includes APPR and voter utilities are used, so C4.1 applies, and the paper defines approval utility explicitly as |T \u2229 Ai|."
+  },
+  "C6.VOT": {
+   "chosen": "A",
+   "reason": "Voters are described as expressing preferences, an action fixed by the model, so they are present and non-strategic, which is only inferable from the model."
+  }
+ }
+}

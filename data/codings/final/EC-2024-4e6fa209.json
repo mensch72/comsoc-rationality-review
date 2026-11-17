@@ -1,0 +1,183 @@
+{
+ "paper_id": "EC-2024-4e6fa209",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "In the committee voting setting, a subset of k alternatives is selected",
+  "note": "Probabilistic approval-based committee voting."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "AL",
+   "SB",
+   "WD"
+  ],
+  "primary": "AX",
+  "loc": "Abstract; Sections 3-6",
+  "quote": "We characterize our fairness axiom by a correspondence with max flows",
+  "note": "AX: GRP characterisation and implications. AL: polynomial-time rules. SB: (excludable) strategyproofness. WD: efficiency and social welfare maximisation subject to GRP."
+ },
+ "C2.1": {
+  "value": "approval profile; approval set; approval ballots",
+  "loc": "Section 2, p.4",
+  "quote": "a set of approved candidates, called an approval set"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR",
+   "DICH"
+  ],
+  "loc": "Section 2, p.4",
+  "quote": "We assume that the voters have dichotomous preferences over candidates.",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.5",
+  "quote": "no voter ever has an incentive to misreport her true preferences",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2, Def. 2.2-2.3, p.5",
+  "quote": "no voter has an incentive to misreport if she cannot benefit",
+  "note": "The strategyproofness definitions and the proof of Theorem 5.7 separate the true approval set A_i from a misreported A_i', and the text says voters may misreport their true preferences. In the main model the preference is represented by the approval set."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "Section 5, p.18; Sections 3-4",
+  "quote": "voter j misreports her preferences by dropping c0",
+  "note": "Fairness and efficiency analyses (Sections 3, 4, 6) do not consider misreports."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Introduction; Section 2; Sections 3-4; Discussion",
+  "quote": "none found",
+  "note": "The introduction says voters report approval sets but does not state they report truthfully."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 2, p.5",
+  "quote": "determined by the number of approved candidates on the committee",
+  "note": "u_i(W) = |A_i \u2229 W|."
+ },
+ "C4.2": {
+  "code": "Y",
+  "loc": "Introduction, p.1",
+  "quote": "derive utility equal to the number of approved candidates",
+  "note": ""
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Def. 2.1, p.5; Prop. 5.4, p.21",
+  "quote": "Generalized CUT maximizes utilitarian welfare subject to GRP.",
+  "note": "Efficiency, welfare and proportional representation (GRP) are used in results."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 2, p.5; Section 3",
+  "quote": "we define the utility of voter i from fractional committee",
+  "note": "Utility and GRP are computed from the approval profile given to the rule. Only the strategyproofness definitions distinguish true from reported sets; for fairness and efficiency no statement links input to held attitude."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Section 2, p.5",
+   "quote_behav": "no voter ever has an incentive to misreport her true preferences",
+   "loc_info": "Sections 2, 5",
+   "quote_info": "none found",
+   "note": "Strategic only in the strategyproofness analyses. Voters' knowledge of others is not discussed."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "DOM"
+  ],
+  "loc": "Section 2, Def. 2.2, p.5",
+  "quote": "A rule F is strategyproof if for all i \u2208 N",
+  "note": "Includes excludable strategyproofness."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 2, p.5",
+  "quote": "Definition 2.2 (Strategyproofness)."
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.1",
+    "quote": "significant obstacles in obtaining committees which are fair to all voters"
+   },
+   {
+    "loc": "Introduction, p.2",
+    "quote": "the voter group S could justifiably complain that they are underrepresented"
+   },
+   {
+    "loc": "Related Work, p.3",
+    "quote": "such as in parliamentary elections , and the selection of a board"
+   }
+  ],
+  "note": "The title 'Maximum Flow is Fair' and the abstract also present the rules as fair to voters."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Introduction; Sections 3-4",
+  "quote": "none found",
+  "note": "Fairness claims about voters rest on results for submitted approval profiles. They need an assumption that submitted approvals equal true approval sets, which is not stated for the non-strategyproof rule (RUT) or for the GRP analyses."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction; Section 2; Discussion",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C2.4": {
+   "chosen": "A",
+   "reason": "The paper uses separate notation for the true approval set A_i and the reported A_i', and says voters may misreport their true preferences, which meets the DIST criterion even though the main model identifies preference with the approval set."
+  }
+ }
+}

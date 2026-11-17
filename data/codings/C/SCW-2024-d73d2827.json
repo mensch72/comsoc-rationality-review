@@ -1,0 +1,79 @@
+{
+ "paper_id": "SCW-2024-d73d2827",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "SB",
+     "AX"
+    ],
+    "primary": "SB",
+    "loc": "Sect. 1, p. 104",
+    "quote": "The central question of the paper is how far we can",
+    "note": "The main results are (group) strategy-proofness possibility and impossibility results within an axiomatically defined class F. Some Pareto-optimality results are axiomatic."
+   },
+   "chosen": "A",
+   "reason": "The bulk of the main results concern whether rules are (group) strategy-proof, which the codebook places explicitly under SB, so SB is primary."
+  },
+  "C2.2": {
+   "value": {
+    "codes": [
+     "OTH"
+    ],
+    "loc": "Sect. 2, p. 107",
+    "quote": "the set of alternatives is A = {0, 1} M",
+    "note": "The input is a reported top alternative, a binary vector of opinions on issues. The paper mentions approval voting only as a formal resemblance."
+   },
+   "chosen": "B",
+   "reason": "Inputs are reported top alternatives (binary judgment vectors), and the approval reading is only an analogy, so OTH fits better than APPR."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "STRAT",
+    "behav_stated": "EXPLICIT",
+    "info": "NS",
+    "info_stated": "NA",
+    "loc_behav": "Sect. 2, Def. 2.3, p. 107",
+    "quote_behav": "A group S can strongly manipulate f at profile a N",
+    "loc_info": "Sects. 1, 2, 5 checked",
+    "quote_info": "none found",
+    "note": "Strategy-proofness is a dominant-strategy notion. Knowledge of others' tops is not discussed."
+   },
+   "chosen": "A",
+   "reason": "Strategy-proofness is a dominant-strategy property that does not depend on what agents know, so complete information does not follow unambiguously and the information assumption is not specified."
+  },
+  "C8.1": {
+   "value": {
+    "codes": [
+     "DOM",
+     "COAL"
+    ],
+    "loc": "Sect. 2, Defs. 2.2\u20132.4, pp. 107\u2013108",
+    "quote": "f is strongly group strategy-proof if at every profile there is",
+    "note": "Individual strategy-proofness plus weak and strong group strategy-proofness (coalitional)."
+   },
+   "chosen": "A",
+   "reason": "Weak and strong group strategy-proofness are coalitional concepts and are central to the results, so COAL belongs alongside DOM."
+  },
+  "C9.1": {
+   "value": {
+    "code": "N",
+    "claims": [],
+    "note": "The introduction says truthful reporting is 'desirable' as motivation. No claims are drawn from the results about institutions, voter welfare or which rule to use."
+   },
+   "chosen": "A",
+   "reason": "The committee application and the desirability of truthful reports are motivation, not claims drawn from the results, and the conclusion only restates the formal results."
+  },
+  "C9.2": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "C9.1 = N"
+   },
+   "chosen": "A",
+   "reason": "C9.1 = N, so C9.2 is NA."
+  }
+ }
+}

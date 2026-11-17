@@ -1,0 +1,17 @@
+{
+ "paper_id": "SCW-2023-f09d9e81",
+ "decisions": {
+  "C8.1": {
+   "value": {
+    "codes": [
+     "SPE"
+    ],
+    "loc": "Section 2, p.6",
+    "quote": "pure strategies that form a subgame perfect equilibrium (SPE)",
+    "note": "The paper defines equilibrium only as SPE. The second-stage vote-trading equilibria are solved by best responses as part of the SPE, and Nash equilibrium is never named as a separate concept."
+   },
+   "chosen": "B",
+   "reason": "The paper's only stated solution concept is SPE, and the subgame equilibria are components of that SPE rather than a separately named Nash concept, so adding NE goes beyond what the paper says."
+  }
+ }
+}

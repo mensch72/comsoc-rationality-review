@@ -1,0 +1,28 @@
+{
+ "paper_id": "AAMAS-2025-4a1fc041",
+ "decisions": {
+  "C8.1": {
+   "value": {
+    "codes": [
+     "NE",
+     "DOM"
+    ],
+    "loc": "Sec. 2.1, Sec. 3, Sec. 4, p.207-210",
+    "quote": "A set of submitted preferences \u03a0\u0304 forms a pure strategy Nash equilibrium",
+    "note": "The minimally dishonest Nash equilibrium is a refinement of NE, so it is covered by NE. DOM: strategy-proofness results such as Theorem 4.3 and Definition 3.3."
+   },
+   "chosen": "B",
+   "reason": "The minimally dishonest refinement is still a Nash equilibrium concept, so NE covers it and a separate OTH code is not needed."
+  },
+  "C9.2": {
+   "value": {
+    "code": "SOME-UNSTATED",
+    "loc": "Abstract p.205; Sec. 2.1, p.207",
+    "quote": "If a point's cost has an intrinsic correspondence to its quality",
+    "note": "Stated: the relation between inputs and held attitudes, strategic minimally dishonest behaviour, and the cost-quality link (conditionally). Unstated: the information assumption needed for agents to reach Nash play, i.e. that they know others' submissions; only the mechanism is stated as common knowledge."
+   },
+   "chosen": "A",
+   "reason": "The claims about real manipulation and rule assessment rely on agents reaching Nash equilibria, which needs an information assumption that the paper never states."
+  }
+ }
+}

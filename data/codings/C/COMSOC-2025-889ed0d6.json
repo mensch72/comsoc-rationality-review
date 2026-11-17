@@ -1,0 +1,30 @@
+{
+ "paper_id": "COMSOC-2025-889ed0d6",
+ "decisions": {
+  "C6.DIS": {
+   "value": {
+    "present": "Y",
+    "behav": "STRAT",
+    "behav_stated": "EXPLICIT",
+    "info": "COMPLETE",
+    "info_stated": "IMPLICIT",
+    "loc_behav": "Section 3.2, p.5",
+    "quote_behav": "within a given number, T , of strategic re-districtings",
+    "loc_info": "Section 3.2, p.5",
+    "quote_info": "Formally, it is captured by the following optimisation problem",
+    "note": "The optimisation problem is defined over the full opinion vector and the known dynamics, so it presumes complete knowledge. Partial information is mentioned only as a possibility in Section 2.1."
+   },
+   "chosen": "A",
+   "reason": "The formal optimisation problem is stated over all voters' opinions c^t and the known dynamics, so complete information follows unambiguously from the formal model, which is IMPLICIT rather than NS."
+  },
+  "C8.2": {
+   "value": {
+    "code": "Y",
+    "loc": "Section 3.2, p.5",
+    "quote": "Frankenmandering is a control problem"
+   },
+   "chosen": "A",
+   "reason": "The paper explicitly names the concept as a control problem and an optimisation problem, which is the DEV concept named in words."
+  }
+ }
+}

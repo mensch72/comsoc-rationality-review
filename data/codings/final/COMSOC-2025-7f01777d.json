@@ -1,0 +1,183 @@
+{
+ "paper_id": "COMSOC-2025-7f01777d",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Section 3, p.4",
+  "quote": "we introduce mixed voting rules for PB",
+  "note": ""
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "EM",
+   "WD"
+  ],
+  "primary": "AX",
+  "loc": "Introduction (Our Contribution), p.2; Section 6, p.10",
+  "quote": "establish proportionality guarantees for these methods using parametrized variants of EJR+",
+  "note": "EM: evaluation on 313 real Pabulib instances. WD: utilitarian ratio evaluated empirically. Polynomial-time computability is mentioned only in passing and is not coded as AL."
+ },
+ "C2.1": {
+  "value": "approval profile; approval preferences; PB instance",
+  "loc": "Section 2, p.3",
+  "quote": "(iii) an approval profile A = (A1 , . . . , An )"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Section 2, p.3",
+  "quote": "We assume approval preferences and let Ai \u2286 P denote the set",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.3",
+  "quote": "We assume that voters have cost satisfaction functions [8]",
+  "note": "Approval sets are called preferences, and satisfaction/utility is attributed to voters. Both are defined directly from Ai."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2, p.3",
+  "quote": "We assume approval preferences and let Ai \u2286 P denote the set",
+  "note": "The input is described as approval preferences and the rules are applied to it directly; there is no statement about reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-6",
+  "quote": "none found",
+  "note": "No strategic voting is analysed."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Introduction, Section 2 Preliminaries, Section 6, Section 7 Conclusion",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 2, p.3",
+  "quote": "voter i\u2019s satisfaction (or utility) from project p is \u00b5i (p)",
+  "note": "Utility is 0 if p is not in Ai and c(p) if p is in Ai."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 6, p.10; Section 5",
+  "quote": "To measure welfare, we use the utilitarian ratio [19]",
+  "note": "Criteria used: EJR+ proportionality, utilitarian welfare, and the fraction of represented voters."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 2, p.3; Section 6, p.10-11",
+  "quote": "fraction of represented voters (a.k.a. voters with non-zero satisfaction)",
+  "note": "Criteria are computed on the approval sets, with no statement relating them to held attitudes beyond calling them preferences."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2, p.3",
+   "quote_behav": "denote the set of projects approved by voter i",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters' approval sets are exogenous inputs."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no agent type is strategic."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 7 Conclusion, p.12",
+    "quote": "the Value-Based method is among the best, performing significantly better"
+   },
+   {
+    "loc": "Section 7 Conclusion, p.12",
+    "quote": "MES can enhance the proportionality of outcomes"
+   },
+   {
+    "loc": "Introduction, p.1",
+    "quote": "it may fail to represent minority interests"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 2, p.3",
+  "quote": "none found",
+  "note": "Unstated: that submitted approval sets equal voters' held preferences (sincere submission). This is needed for claims about representing voters' interests. The utility link (cost satisfaction) is stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction, Section 2, Section 7",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C1": {
+   "chosen": "A",
+   "reason": "The experiments use real Pabulib data, so they are EM rather than SI, and they evaluate rules by utilitarian ratio, which counts as WD; the main results are the axiomatic proportionality guarantees, so AX is primary."
+  },
+  "C6.VOT": {
+   "chosen": "A",
+   "reason": "Voters take an action in the model (approving projects), and an action counts even when it is fixed, so they are present as NONSTRAT with behaviour only inferable from the formal model."
+  }
+ }
+}

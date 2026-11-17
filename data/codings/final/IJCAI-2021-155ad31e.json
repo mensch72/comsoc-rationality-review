@@ -1,0 +1,234 @@
+{
+ "paper_id": "IJCAI-2021-155ad31e",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.342",
+  "quote": "Our work focuses on a generalization of the classic Minisum approval",
+  "note": "Studies winner determination and control of the Conditional Minisum approval voting rule."
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "SB"
+  ],
+  "primary": "AL",
+  "loc": "Introduction (Contribution), p.342",
+  "quote": "investigate algorithmic and complexity aspects of solving and controlling elections",
+  "note": "All results are complexity results. Section 4 studies control as a computational problem (SB). AL covers every main result."
+ },
+ "C2.1": {
+  "value": "conditional approval ballot(s); conditional ballots; profile",
+  "loc": "Section 2, p.343",
+  "quote": "A conditional approval ballot of a voter i over the issues"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR",
+   "OTH"
+  ],
+  "loc": "Section 2, Definition 1, p.343",
+  "quote": "Aj is a set of conditional approval statements",
+  "note": "Inputs are approval statements conditioned on other issues, together with a dependency graph per voter."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Introduction, p.342",
+  "quote": "The voters have conditional preferences, as the clicking probability",
+  "note": "Preferences and opinions of voters are referred to."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2, p.343",
+  "quote": "The rationale in Definition 1 is that the set Aj expresses",
+  "note": "The ballot is read as expressing what makes the voter satisfied. Satisfaction is then defined on the ballot, with no statement about reporting. ONE does not apply because preferences are mentioned."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-4, pp.343-347",
+  "quote": "none found",
+  "note": "Control is by an external agent. Voter manipulation is only mentioned as future work."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 2, 4, 5",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 2, Definition 3, p.343",
+  "quote": "we say that voter i is dissatisfied (or disagrees) with issue",
+  "note": "Dissatisfaction is defined directly from the ballot."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2, Definition 3, p.343",
+  "quote": "We denote as \u03b4i (s) the total number of issues",
+  "note": "Outcomes are evaluated by total voter dissatisfaction, which is the rule's objective and is used in all results."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 2, p.343",
+  "quote": "Output: An outcome that achieves",
+  "note": ""
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2, p.343",
+   "quote_behav": "we assume each voter i provides a directed graph",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Ballots are given as part of the instance."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "IMPLICIT",
+   "loc_behav": "Section 4, p.345",
+   "quote_behav": "Suppose that there is an external agent (called controller) who has",
+   "loc_info": "Section 4.1, p.345",
+   "quote_info": "A CMS election (I, D, V, B), where V is the set",
+   "note": "The controller adds or deletes voters or alternatives. Its information is inferable because all ballots are part of the problem instance."
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "Y",
+  "loc": "Section 4, p.345",
+  "quote": "enforcing a desirable value for the issue(s) the controller cares",
+  "note": "ORG is strategic; VOT is non-strategic."
+ },
+ "C7.2": {
+  "code": "NONE",
+  "loc": "Sections 4, 5",
+  "quote": "none found",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [
+   "DEV"
+  ],
+  "loc": "Section 4.1, p.345",
+  "quote": "Does there exist a set V 00 \u2286 V 0 (resp.",
+  "note": "Control problems (CAV, CDV, CAA, CDA) studied as decision problems."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 4, p.345",
+  "quote": "we say that a voting rule is vulnerable to a certain control type"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Conclusions, p.347",
+    "quote": "CMS provides a satisfactory tradeoff between expressiveness and efficiency under"
+   },
+   {
+    "loc": "Conclusions, p.347",
+    "quote": "exhibits sufficient resistance to control in the considered settings"
+   },
+   {
+    "loc": "Introduction, p.342",
+    "quote": "deciding independently for each issue would not be a wise choice"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sections 1, 2, 5",
+  "quote": "none found",
+  "note": "The value of expressiveness for voters presumes that ballots reflect voters' conditional preferences; this relation is not stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 2, 5",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C2.2": {
+   "chosen": "A",
+   "reason": "Conditional approval ballots include a dependency graph and conditional statements, so they are more than plain approval sets and OTH applies."
+  },
+  "C2.3": {
+   "chosen": "A",
+   "reason": "The paper attributes preferences and opinions to voters, and the codebook counts any such reference, formal or informal."
+  },
+  "C2.4": {
+   "chosen": "A",
+   "reason": "ONE requires C2.3 = N; the ballot is presented as expressing voters' satisfaction and is used directly, with no statement about reporting."
+  },
+  "C3.2": {
+   "chosen": "A",
+   "reason": "C2.4 is not ONE and C3.1 is NONE, and no sincerity statement is made."
+  },
+  "C4.1": {
+   "chosen": "A",
+   "reason": "C2.2 includes APPR and voter satisfaction/dissatisfaction is used, so the item applies, and dissatisfaction is formally defined from the ballot."
+  },
+  "C5.1": {
+   "chosen": "A",
+   "reason": "A definition used in all results evaluates outcomes by voter (dis)satisfaction."
+  },
+  "C5.2": {
+   "chosen": "A",
+   "reason": "Dissatisfaction is computed on the ballots, with no statement relating the ballots to held attitudes."
+  },
+  "C6.VOT": {
+   "chosen": "A",
+   "reason": "Voters take a fixed action (providing ballots), and the codebook counts fixed actions as presence."
+  },
+  "C7.1": {
+   "chosen": "A",
+   "reason": "In the control analyses, VOT is present as non-strategic and ORG is strategic."
+  },
+  "C7.2": {
+   "chosen": "A",
+   "reason": "No reason is given for modelling the controller and the voters differently."
+  },
+  "C8.2": {
+   "chosen": "A",
+   "reason": "The control problems are explicitly named and defined as decision problems, with resistance terminology."
+  },
+  "C9.2": {
+   "chosen": "A",
+   "reason": "The expressiveness-tradeoff claim needs ballots to reflect voters' preferences, and the paper never states this."
+  }
+ }
+}

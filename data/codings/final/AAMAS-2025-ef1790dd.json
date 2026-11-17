@@ -1,0 +1,178 @@
+{
+ "paper_id": "AAMAS-2025-ef1790dd",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1127",
+  "quote": "In the context of single-winner ranked-choice elections between \ud835\udc5a candidates",
+  "note": ""
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "WD"
+  ],
+  "primary": "WD",
+  "loc": "Introduction (Our Contributions), p.1128-1129; Sections 3-4",
+  "quote": "following both the axiomatic and welfarist approaches",
+  "note": "Section 3 is axiomatic (Droop minority protection, Theorem 3). Section 4 holds most results (Theorems 4-8) and is about metric distortion."
+ },
+ "C2.1": {
+  "value": "election / rankings (ranking of voter v); approval and veto votes",
+  "loc": "Section 2 Preliminaries, p.1130",
+  "quote": "\u227b\ud835\udc63 is the ranking of voter \ud835\udc63, i.e., a total order over \ud835\udc36"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2 Preliminaries, p.1130",
+  "quote": "a total order over \ud835\udc36 which represents the preferences of \ud835\udc63",
+  "note": "The approval and veto votes are derived from the strict rankings."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.1130; Section 4 Framework, p.1132; footnote 3, p.1128",
+  "quote": "the cost incurred by the voter if the candidate is elected",
+  "note": "Preferences and metric distances/costs are attributed to voters."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2 Preliminaries, p.1130",
+  "quote": "a total order over \ud835\udc36 which represents the preferences of \ud835\udc63",
+  "note": "The ranking is described as the voter's preferences, and the rule is applied to it with no statement about reporting. The metric is separate notation, but it is defined as consistent with the rankings, and the paper never says submitted rankings could differ. DIST could arguably apply; IDU was chosen."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-5",
+  "quote": "none found",
+  "note": "Strategic behaviour is mentioned only for prior work (Moulin)."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Introduction, Section 2 Preliminaries, Section 4 Framework, Section 5 Conclusion",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 4 Framework, p.1132",
+  "quote": "we say that a metric \ud835\udc51 over \ud835\udc49 \u222a\ud835\udc36 is consistent",
+  "note": "Costs are distances in a metric consistent with the rankings."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 4, Definition 8, p.1132; Definition 9, p.1134",
+  "quote": "the (metric) distortion of a candidate \ud835\udc50 in an election",
+  "note": "Criteria are distortion (utilitarian, percentile, egalitarian) and Pareto efficiency."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 4 Framework, p.1132",
+  "quote": "the utilitarian social cost of \ud835\udc64 is defined",
+  "note": "Distortion is evaluated on metric costs that are defined separately from the rankings."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Introduction, p.1127",
+   "quote_behav": "each voter approves (their most favorite) \ud835\udc58 candidates",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters' approvals and vetoes are fixed by their rankings."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 5 Conclusion, p.1134",
+    "quote": "this makes \ud835\udc58-ApprovalVeto potentially practical for settings where it is desirable"
+   },
+   {
+    "loc": "Section 5 Conclusion, p.1134",
+    "quote": "Our analysis shows that as \ud835\udc58 increases, \ud835\udc58-ApprovalVeto sacrifices welfare"
+   },
+   {
+    "loc": "Introduction, p.1128",
+    "quote": "it sacrifices minorities for the benefit of the majority"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 2, p.1130; Section 4 Framework, p.1132",
+  "quote": "none found",
+  "note": "The claims about real voters' welfare and minority protection need the submitted rankings to equal voters' true preferences (no strategic misreporting), and this is never stated. The link from costs to rankings (metric consistency) is stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction, Section 2, Section 4, Section 5",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C6.VOT": {
+   "chosen": "A",
+   "reason": "Voters act in the model by casting approval and veto votes determined by their rankings, and the codebook counts fixed actions, so voters are present and non-strategic, which is only implicit."
+  }
+ }
+}

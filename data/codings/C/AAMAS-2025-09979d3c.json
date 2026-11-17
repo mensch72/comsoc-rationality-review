@@ -1,0 +1,35 @@
+{
+ "paper_id": "AAMAS-2025-09979d3c",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "AL",
+     "AX"
+    ],
+    "primary": "AL",
+    "loc": "Abstract, p.179; Sections 3-4, pp.182-185",
+    "quote": "it is co-NP-hard to determine whether there exists a Condorcet-winning proposal",
+    "note": "Complexity and recognition algorithms (Thms 1, 7, 8, 10). Domain conditions and paradox-free or existence results (Thms 4, 9, 11-14) coded AX."
+   },
+   "chosen": "A",
+   "reason": "The Anscombe bounds measure distance to the issue-wise majority proposal under majority support, not welfare, distortion or an optimum, so WD does not apply; this is consistent with both coders' C5.1 = N."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "EXPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Section 1, p.179",
+    "quote_behav": "each voter votes for whichever of \ud835\udc5d and \ud835\udc5d \u2032 agrees with",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Voters vote by weighted Hamming agreement."
+   },
+   "chosen": "A",
+   "reason": "The introduction states in words how voters vote (for the proposal agreeing with their views on more topics), so the fixed behaviour is EXPLICIT rather than only inferable from the formal model."
+  }
+ }
+}

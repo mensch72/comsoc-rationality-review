@@ -1,0 +1,107 @@
+{
+ "paper_id": "EC-2022-e82727d2",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "EM",
+     "SI",
+     "SB",
+     "WD",
+     "AL"
+    ],
+    "primary": "EM",
+    "loc": "Abstract, p.1; Section 2.2, p.10; Section 2.3, p.12",
+    "quote": "We carry out large-scale empirical analyses for the U.S. House",
+    "note": "The main results are empirical analyses of real data (EM). Section 4 and Appendix B simulate synthetic rankings (SI). Partisan map optimisation is strategic districting (SB), and proportionality is the evaluation objective (WD). Proposition 1 and the dynamic and integer programs give efficient computation of outcomes and optimal maps (AL)."
+   },
+   "chosen": "other",
+   "reason": "Both the strategic gerrymandering optimisation (SB) and the efficient-computation results such as Proposition 1 (AL) are main results, so the union of both coders' types applies."
+  },
+  "C2.4": {
+   "value": {
+    "code": "DIST",
+    "loc": "Section 2.1, p.6; Section 4.1, p.22",
+    "quote": "Each voter submits a complete ranking of all candidates in their",
+    "note": "The held attitudes (party pv, utilities u(v,c)) have notation separate from the submitted approval sets Sv or rankings. The submitted inputs are derived from them by assumption."
+   },
+   "chosen": "A",
+   "reason": "The paper uses separate notation for party membership and utilities on one side and submitted approval sets and rankings on the other, which meets the DIST definition."
+  },
+  "C3.2": {
+   "value": {
+    "code": "STATED",
+    "loc": "Section 2.2, p.9; Section 4.1, p.22",
+    "quote": "ordered by decreasing realized utility",
+    "note": ""
+   },
+   "chosen": "A",
+   "reason": "The paper says in words that voters approve their party's candidates and submit rankings ordered by their realized utility."
+  },
+  "C3.3": {
+   "value": {
+    "code": "EMP",
+    "loc": "Section 2.2, p.9",
+    "quote": "party membership is a strong predictor of the party of the",
+    "note": "The paper appeals to an empirical regularity and also to redistricting-literature convention. EMP is chosen as listed first."
+   },
+   "chosen": "A",
+   "reason": "The stated justification is an empirical regularity about party-line voting."
+  },
+  "C5.2": {
+   "value": {
+    "code": "HELD",
+    "loc": "Section 2.1, p.7",
+    "quote": "the fraction of voters yp (vote share)",
+    "note": "yp is the fraction of voters belonging to each party (pv), a held attitude defined separately from the submitted ballots."
+   },
+   "chosen": "A",
+   "reason": "Proportionality compares seat share with the share of voters belonging to each party, which is a held attitude defined separately from the input."
+  },
+  "C6.DIS": {
+   "value": {
+    "present": "Y",
+    "behav": "STRAT",
+    "behav_stated": "EXPLICIT",
+    "info": "PARTIAL",
+    "info_stated": "EXPLICIT",
+    "loc_behav": "Section 2.1, p.7",
+    "quote_behav": "a party can gerrymander a map to maximize the seats won",
+    "loc_info": "Section 4.2, p.25",
+    "quote_info": "the optimizer draws maps assuming zero noise",
+    "note": "Partisan gerrymanderers maximise seats; independent commissions minimise the proportionality gap. Map drawers use historical vote shares and their variance; Figure 14 considers perfect knowledge only as a variant."
+   },
+   "chosen": "A",
+   "reason": "In the baseline, map drawers know only historical vote shares and their variance, not voters' realised rankings, so PARTIAL fits; perfect knowledge is only a robustness variant."
+  },
+  "C7.2": {
+   "value": {
+    "code": "REASON",
+    "loc": "Section 2.2, footnote 7, p.9",
+    "quote": "having more candidates than seats does not create such concerns",
+    "note": "Footnote 7 argues that the candidate setup removes strategic concerns for voters, which justifies treating them as non-strategic."
+   },
+   "chosen": "A",
+   "reason": "Footnote 7 gives an argument for why voters face no strategic concerns in the modelled setup."
+  },
+  "C8.2": {
+   "value": {
+    "code": "Y",
+    "loc": "Section 2.3, p.12",
+    "quote": "efficiently traversed with a dynamic program to select the most gerrymandered"
+   },
+   "chosen": "A",
+   "reason": "The map drawer's problem is named explicitly as an optimisation, selecting the most gerrymandered map, which is the DEV concept."
+  },
+  "C9.2": {
+   "value": {
+    "code": "ALL-STATED",
+    "loc": "Section 2.2, p.9",
+    "quote": "our additional assumption is that this behavior extends to partisan voting",
+    "note": "The needed assumptions are party-line (solid-coalition) voting, voters' fixed approval or ranking behaviour, and map drawers' knowledge of vote shares; all are stated explicitly."
+   },
+   "chosen": "A",
+   "reason": "The assumptions the claims rely on (party-line voting, the voter behaviour model, and optimiser information) are all stated in words."
+  }
+ }
+}

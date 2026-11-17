@@ -1,0 +1,73 @@
+{
+ "paper_id": "COMSOC-2025-4b395a50",
+ "decisions": {
+  "C2.2": {
+   "value": {
+    "codes": [
+     "OTH"
+    ],
+    "loc": "Section 2, p.2",
+    "quote": "We consider unweighted simple directed graphs.",
+    "note": "The rule R(G,k) takes a directed graph, with edges read as votes or support. The cardinal utilities \u00b5 are built from the graph by the method itself, not submitted."
+   },
+   "chosen": "B",
+   "reason": "The argument of the group selection rule is the graph, and the utilities are an internal construction of the method rather than a submitted input format."
+  },
+  "C2.3": {
+   "value": {
+    "code": "Y",
+    "loc": "Section 6.4, p.10",
+    "quote": "voters are more likely to prefer candidates closer to them",
+    "note": "In the Euclidean experiments, nodes have ideological positions and competence bias that generate the edges and are distinct from them."
+   },
+   "chosen": "A",
+   "reason": "The paper attributes positions and preferences to voters that are separate from the submitted edges."
+  },
+  "C2.4": {
+   "value": {
+    "code": "DIST",
+    "loc": "Section 6.4, p.10",
+    "quote": "Edges between nodes are introduced based on the distances between them",
+    "note": "Doubt between DIST and IDU. Positions and edges are separate objects in the Euclidean model. DIST is listed first."
+   },
+   "chosen": "A",
+   "reason": "Positions (held) and edges (votes) are treated as separate objects, with edges generated stochastically from positions."
+  },
+  "C3.2": {
+   "value": {
+    "code": "NOT-STATED",
+    "loc": "Introduction; Section 2; Section 3; Section 6.4; Conclusion",
+    "quote": "none found",
+    "note": ""
+   },
+   "chosen": "A",
+   "reason": "C2.4 is not ONE, and no statement that voters submit their held attitudes was found."
+  },
+  "C4.1": {
+   "value": {
+    "code": "NA",
+    "loc": "Section 2.2; Section 3.1",
+    "quote": "",
+    "note": "C2.2 is OTH only, so the applicability condition is not met."
+   },
+   "chosen": "B",
+   "reason": "Under the adopted C2.2 coding, the input format does not include RANK, WEAK, APPR, DICH or PAIR."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Section 2, p.2",
+    "quote_behav": "We will interpret nodes as voters and outgoing edges",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Voters cast votes (edges) as a fixed action, and no strategic choice is modelled."
+   },
+   "chosen": "A",
+   "reason": "Voters take an action in the model (casting edge votes), and fixed actions still count as present under C6."
+  }
+ }
+}

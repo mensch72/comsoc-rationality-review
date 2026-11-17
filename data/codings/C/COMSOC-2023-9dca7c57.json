@@ -1,0 +1,41 @@
+{
+ "paper_id": "COMSOC-2023-9dca7c57",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "SB",
+     "SI"
+    ],
+    "primary": "SB",
+    "loc": "Introduction, p2",
+    "quote": "We conduct computational experiments calculating exact manipulability indexes",
+    "note": "Propositions and Theorem 1 concern manipulation incentives (SB). Exhaustive computation of the share of manipulable profiles is coded SI."
+   },
+   "chosen": "A",
+   "reason": "The theoretical results are non-manipulability (strategyproofness-type) conditions, which SB already covers. A separate AX code is not warranted for results that are entirely about incentives to manipulate."
+  },
+  "C8.1": {
+   "value": {
+    "codes": [
+     "DOM",
+     "BND"
+    ],
+    "loc": "Section 2, p4",
+    "quote": "each manipulating agent thinks about others GS-manipulators as being level 1",
+    "note": "Manipulation is defined as weak dominance over sincere voting within the information set; Models 2 and 3 are level-k / cognitive-hierarchy style."
+   },
+   "chosen": "A",
+   "reason": "The incentive condition is weak dominance of a strategy over sincere voting, which fits DOM. It is not studied as a computational decision or optimisation problem, so DEV does not apply; Models 2 and 3 add level-k reasoning, which is BND."
+  },
+  "C8.2": {
+   "value": {
+    "code": "Y",
+    "loc": "Section 2, p4",
+    "quote": "each manipulating agent thinks about others GS-manipulators as being level 1"
+   },
+   "chosen": "A",
+   "reason": "The paper explicitly names the level-k and cognitive hierarchy concepts and describes manipulation as a strategy being dominant over truth-telling."
+  }
+ }
+}

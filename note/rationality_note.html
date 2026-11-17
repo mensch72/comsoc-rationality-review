@@ -1,0 +1,253 @@
+<title>Unstated Voters</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<style>
+/* Layout: a single reading column like a working paper, with a forest plot of estimates as the one graphic. */
+:root {
+  --paper: #fbfcfd;
+  --ink: #1b2430;
+  --muted: #5a6573;
+  --rule: #d5dbe2;
+  --accent: #1f5f8b;
+  --ci: #9cb9cf;
+  --flag: #a0522d;
+  --tint: #eef3f7;
+  --display: "IBM Plex Sans Condensed", "Arial Narrow", Arial, sans-serif;
+  --body: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --paper: #12171d; --ink: #e2e7ed; --muted: #9aa5b2; --rule: #2c3540; --accent: #7fb6dc; --ci: #3d5f78; --flag: #e09a6e; --tint: #1a222b; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --paper: #12171d; --ink: #e2e7ed; --muted: #9aa5b2; --rule: #2c3540; --accent: #7fb6dc; --ci: #3d5f78; --flag: #e09a6e; --tint: #1a222b; color-scheme: dark }
+body { background: var(--paper); color: var(--ink); font: 17px/1.55 var(--body); }
+main { max-width: 46rem; margin: 0 auto; padding-block: 2.5rem 4rem; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+h1, h2, h3 { font-family: var(--display); font-weight: 600; text-wrap: balance; line-height: 1.2; }
+h1 { font-size: 2rem; margin: 0 0 .4rem; }
+h2 { font-size: 1.3rem; margin: 2.2rem 0 .6rem; padding-top: .9rem; border-top: 1px solid var(--rule); }
+h3 { font-size: 1.05rem; margin: 1.4rem 0 .4rem; }
+p, li { max-width: 65ch; }
+p { margin: 0 0 .8rem; }
+.byline { font-family: var(--display); color: var(--muted); font-size: .95rem; margin-bottom: 1.6rem; }
+.lead { font-size: 1.08rem; }
+a { color: var(--accent); }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.small, figcaption, .src { font-size: .85rem; color: var(--muted); }
+.num { font-family: var(--mono); font-variant-numeric: tabular-nums; font-size: .82rem; white-space: nowrap; }
+.scroll { overflow-x: auto; margin: .8rem 0 1.2rem; }
+table { border-collapse: collapse; width: 100%; font-size: .9rem; line-height: 1.35; }
+th { font-family: var(--display); font-weight: 500; text-align: left; color: var(--muted); font-size: .8rem; letter-spacing: .03em; text-transform: uppercase; border-bottom: 1px solid var(--ink); padding: .35rem .5rem .35rem 0; vertical-align: bottom; }
+td { border-bottom: 1px solid var(--rule); padding: .4rem .5rem .4rem 0; vertical-align: top; }
+td.r, th.r { text-align: right; }
+tr.group td { font-family: var(--display); font-weight: 600; background: var(--tint); padding-left: .4rem; border-bottom: none; }
+.flag { color: var(--flag); font-family: var(--display); font-size: .78rem; letter-spacing: .03em; text-transform: uppercase; white-space: nowrap; }
+/* forest plot cell */
+.fp { position: relative; height: 14px; min-width: 9rem; margin-top: 3px; background: linear-gradient(to right, transparent calc(50% - .5px), var(--rule) calc(50% - .5px), var(--rule) calc(50% + .5px), transparent calc(50% + .5px)); }
+.fp::before { content: ""; position: absolute; left: 0; right: 0; top: 6px; height: 1px; background: var(--rule); }
+.fp .ci { position: absolute; top: 3px; height: 8px; left: calc(var(--lo) * 1%); width: calc((var(--hi) - var(--lo)) * 1%); background: var(--ci); border-radius: 2px; }
+.fp .est { position: absolute; top: 1px; width: 4px; height: 12px; margin-left: -2px; left: calc(var(--e) * 1%); background: var(--accent); border-radius: 1px; }
+.axis { display: flex; justify-content: space-between; font-family: var(--mono); font-size: .7rem; color: var(--muted); min-width: 9rem; }
+ol.check { padding-left: 1.3rem; }
+ol.check li { margin-bottom: .45rem; }
+.refs p { padding-left: 1.5rem; text-indent: -1.5rem; font-size: .9rem; }
+.box { background: var(--tint); padding: .9rem 1rem; border-radius: 4px; margin: 1rem 0; }
+.box p:last-child { margin-bottom: 0; }
+@media (max-width: 480px) { body { font-size: 16px; } h1 { font-size: 1.6rem; } }
+@media print { body { background: #fff; color: #000; font-size: 9.2pt; line-height: 1.38; } main { padding: 0; max-width: none; } p, li { max-width: none; } h1 { font-size: 17pt; } h2 { font-size: 12pt; margin: 1.1rem 0 .4rem; padding-top: .5rem; break-after: avoid; } h3 { font-size: 10.5pt; margin: .8rem 0 .3rem; } ul, ol { margin: .3rem 0 .6rem; } li { margin-bottom: .1rem; } table { font-size: 8.4pt; } td, th { padding-top: .2rem; padding-bottom: .2rem; } .fp, .axis { min-width: 7rem; } .refs p { font-size: 8.4pt; margin-bottom: .3rem; } tr { break-inside: avoid; } .box { padding: .5rem .8rem; } main { columns: 2; column-gap: 7mm; } ul, ol { padding-left: 1.05rem; } ul ul { padding-left: .9rem; } figure { margin: .4rem 0; } td:first-child { width: 40%; } .fp, .axis { min-width: 8rem; } .lead { font-size: 9.6pt; } h1, .byline, figure, .scroll { column-span: all; } }
+</style>
+
+<main>
+<h1>Unstated voters: how recent voting papers state their behavioural assumptions</h1>
+<p class="byline">[Author names and affiliations] · Draft note, November 2026</p>
+
+<p class="lead"><strong>The results support the impression only in part.</strong> We coded 150 papers on voting from 2021–2025 (AAMAS, IJCAI, AAAI, EC, the COMSOC workshop, <i>Social Choice and Welfare</i>, <i>GEB</i>, <i>JET</i>, <i>Mathematical Social Sciences</i>).</p>
+
+<p>Most papers say how submitted ballots relate to voters' preferences: 69 % [95 % CI 63–76]. Where utility-type notions appear alongside ordinal or approval ballots, 83 % [73–92] define the link. Treating preferences, ballots and utilities as one object is therefore a minority practice, concentrated in algorithmic and axiomatic papers.</p>
+
+<p>Other parts of the impression are supported:</p>
+<ul>
+<li>About half of papers (48 % [41–56]) make a welfare-type or interpretive claim that rests on an assumption they do not state.</li>
+<li>Sincere voting is stated in 39 % [30–47] of the papers that assume it, and justified in 17 % [11–24].</li>
+<li>Where one type of agent is strategic and another is not (56 % of papers with two or more acting types), fewer than half give a reason.</li>
+<li>"Dichotomous preferences" are explained in terms of utility in 6 of the 12 papers that use the term.</li>
+</ul>
+
+<p>Purely procedural papers, which need none of these assumptions, are rare (7 %). Only 1 paper of 150 says explicitly that it takes a procedural reading.</p>
+
+<p>All codes come from language models, and the choice of coder matters. With the second coder's codes alone, the 48 % becomes 66 % and the 69 % becomes 53 %.</p>
+
+<h2>1. Results</h2>
+
+<p>The codebook records <em>what papers say</em>, not whether their models are wrong. An unstated assumption may be standard in a subfield. Each measure is computed only over the papers to which it applies. A paper with no welfare criteria and no claims beyond its formal results counts as not at fault on the claim measures.</p>
+
+<figure>
+<div class="scroll">
+<table>
+<thead><tr><th>Measure</th><th class="r">n</th><th class="r">Estimate [95 % CI]</th><th><div class="axis"><span>0</span><span>50</span><span>100 %</span></div></th><th class="r">κ (A vs B)</th><th class="r">A only / B only</th></tr></thead>
+<tbody>
+<tr class="group"><td colspan="6">Preference–ballot relation (RQ1)</td></tr>
+<tr><td>Relation between ballot and held preference stated</td><td class="r num">147</td><td class="r num">69.4 [62.5, 76.0]</td><td><div class="fp" style="--lo:62.5;--hi:76.0;--e:69.4"><span class="ci"></span><span class="est"></span></div></td><td class="r num">0.54</td><td class="r num">70 / 53</td></tr>
+<tr><td>… treated as separate objects</td><td class="r num">147</td><td class="r num">58.8 [50.8, 66.1]</td><td><div class="fp" style="--lo:50.8;--hi:66.1;--e:58.8"><span class="ci"></span><span class="est"></span></div></td><td class="r num">0.55</td><td class="r num"></td></tr>
+<tr><td>Reason given, where ballot = preference is stated <span class="flag">unreliable</span></td><td class="r num">16</td><td class="r num">24.1 [0.0, 48.1]</td><td><div class="fp" style="--lo:0;--hi:48.1;--e:24.1"><span class="ci"></span><span class="est"></span></div></td><td class="r num">0.25</td><td class="r num"></td></tr>
+<tr><td>Link from ordinal/approval ballots to utilities defined, where utilities are used</td><td class="r num">62</td><td class="r num">83.3 [73.2, 92.0]</td><td><div class="fp" style="--lo:73.2;--hi:92.0;--e:83.3"><span class="ci"></span><span class="est"></span></div></td><td class="r num">0.62</td><td class="r num"></td></tr>
+<tr><td>Meaning of "dichotomous preferences" stated, where the term is used</td><td class="r num">12</td><td class="r num">44.4 [15.9, 76.7]</td><td><div class="fp" style="--lo:15.9;--hi:76.7;--e:44.4"><span class="ci"></span><span class="est"></span></div></td><td class="r num">0.75</td><td class="r num"></td></tr>
+<tr class="group"><td colspan="6">Strategic level and information (RQ2)</td></tr>
+<tr><td>Sincere voting stated, where non-strategic voters are analysed</td><td class="r num">111</td><td class="r num">38.9 [30.4, 47.3]</td><td><div class="fp" style="--lo:30.4;--hi:47.3;--e:38.9"><span class="ci"></span><span class="est"></span></div></td><td class="r num">0.54</td><td class="r num">41 / 31</td></tr>
+<tr><td>… with a reason</td><td class="r num">111</td><td class="r num">17.1 [10.6, 24.2]</td><td><div class="fp" style="--lo:10.6;--hi:24.2;--e:17.1"><span class="ci"></span><span class="est"></span></div></td><td class="r num">0.56</td><td class="r num">20 / 16</td></tr>
+<tr><td>One type strategic, another not (papers with ≥ 2 acting types)</td><td class="r num">33</td><td class="r num">56.4 [40.0, 71.9]</td><td><div class="fp" style="--lo:40.0;--hi:71.9;--e:56.4"><span class="ci"></span><span class="est"></span></div></td><td class="r num">0.62</td><td class="r num">54 / 43</td></tr>
+<tr><td>… reason given for the difference</td><td class="r num">19</td><td class="r num">45.6 [23.3, 68.0]</td><td><div class="fp" style="--lo:23.3;--hi:68.0;--e:45.6"><span class="ci"></span><span class="est"></span></div></td><td class="r num">0.57</td><td class="r num"></td></tr>
+<tr class="group"><td colspan="6">Claims resting on unstated assumptions (RQ3)</td></tr>
+<tr><td>Welfare-type criterion evaluated on ballots, relation to preferences unstated</td><td class="r num">101</td><td class="r num">40.4 [31.3, 49.8]</td><td><div class="fp" style="--lo:31.3;--hi:49.8;--e:40.4"><span class="ci"></span><span class="est"></span></div></td><td class="r num">0.72</td><td class="r num">39 / 47</td></tr>
+<tr><td>Claim beyond the formal results needs an unstated assumption <span class="flag">unreliable</span></td><td class="r num">133</td><td class="r num">45.2 [37.4, 53.1]</td><td><div class="fp" style="--lo:37.4;--hi:53.1;--e:45.2"><span class="ci"></span><span class="est"></span></div></td><td class="r num">0.39</td><td class="r num">41 / 66</td></tr>
+<tr><td><strong>Either of the two (all papers)</strong></td><td class="r num">150</td><td class="r num"><strong>48.1</strong> [40.9, 55.5]</td><td><div class="fp" style="--lo:40.9;--hi:55.5;--e:48.1"><span class="ci"></span><span class="est"></span></div></td><td class="r num">0.43</td><td class="r num">45 / 66</td></tr>
+<tr><td>Purely procedural (no welfare criteria, no claims beyond results)</td><td class="r num">150</td><td class="r num">7.1 [3.2, 11.7]</td><td><div class="fp" style="--lo:3.2;--hi:11.7;--e:7.1"><span class="ci"></span><span class="est"></span></div></td><td class="r num">0.40</td><td class="r num"></td></tr>
+<tr><td>Procedural reading stated explicitly</td><td class="r num">150</td><td class="r num">0.9 [0.0, 2.6]</td><td><div class="fp" style="--lo:0;--hi:2.6;--e:0.9"><span class="ci"></span><span class="est"></span></div></td><td class="r num">1.00</td><td class="r num"></td></tr>
+</tbody>
+</table>
+</div>
+<figcaption>Table 1. Population estimates, design-weighted. The CIs come from a stratified bootstrap (2,000 resamples). κ is Cohen's κ (Cohen, 1960) between the two coders before adjudication; κ &lt; 0.40 is labelled unreliable. "A only / B only" gives the weighted estimate (%) if one coder's codes alone were used.</figcaption>
+</figure>
+
+<p><strong>Stakeholders.</strong> These figures are unweighted.</p>
+<ul>
+<li>Voters act in 144 of the 150 papers. Their behaviour is stated in words in 93 of the 144 (65 %).</li>
+<li>Voters are strategic in at least some analyses in 57 papers. What they know is stated in words in 29 of those (51 %) and not specified at all in 20 (35 %).</li>
+<li>Candidates, organisers, bribers and designers act in few papers (4–11 each). When they do, their behaviour is nearly always stated.</li>
+</ul>
+<p>The gap is in how voters are described.</p>
+
+<h3>By venue type and paper type</h3>
+
+<div class="scroll">
+<table>
+<thead><tr><th>Group</th><th class="r">n</th><th class="r">Relation stated</th><th class="r">Claim on unstated assumption</th><th class="r">Sincerity stated</th><th class="r">… with reason</th></tr></thead>
+<tbody>
+<tr class="group"><td colspan="6">Venue type</td></tr>
+<tr><td>AI conferences</td><td class="r num">43</td><td class="r num">55 % (23/42)</td><td class="r num">65 % (28/43)</td><td class="r num">30 % (11/37)</td><td class="r num">11 % (4/37)</td></tr>
+<tr><td>COMSOC workshop</td><td class="r num">33</td><td class="r num">59 % (19/32)</td><td class="r num">61 % (20/33)</td><td class="r num">29 % (7/24)</td><td class="r num">8 % (2/24)</td></tr>
+<tr><td>EC</td><td class="r num">24</td><td class="r num">61 % (14/23)</td><td class="r num">42 % (10/24)</td><td class="r num">46 % (10/22)</td><td class="r num">18 % (4/22)</td></tr>
+<tr><td>Journals</td><td class="r num">50</td><td class="r num">86 % (43/50)</td><td class="r num">30 % (15/50)</td><td class="r num">54 % (15/28)</td><td class="r num">29 % (8/28)</td></tr>
+<tr class="group"><td colspan="6">Primary paper type</td></tr>
+<tr><td>Axiomatic</td><td class="r num">47</td><td class="r num">62 % (29/47)</td><td class="r num">66 % (31/47)</td><td class="r num">32 % (13/41)</td><td class="r num">10 % (4/41)</td></tr>
+<tr><td>Algorithmic / complexity</td><td class="r num">30</td><td class="r num">18 % (5/28)</td><td class="r num">77 % (23/30)</td><td class="r num">8 % (2/26)</td><td class="r num">0 % (0/26)</td></tr>
+<tr><td>Equilibrium</td><td class="r num">26</td><td class="r num">96 % (25/26)</td><td class="r num">12 % (3/26)</td><td class="r num">83 % (10/12)</td><td class="r num">50 % (6/12)</td></tr>
+<tr><td>Welfare / distortion</td><td class="r num">21</td><td class="r num">81 % (17/21)</td><td class="r num">38 % (8/21)</td><td class="r num">50 % (10/20)</td><td class="r num">20 % (4/20)</td></tr>
+<tr><td>Other types (strategic, empirical, simulation, other)</td><td class="r num">26</td><td class="r num">92 % (23/25)</td><td class="r num">31 % (8/26)</td><td class="r num">67 % (8/12)</td><td class="r num">33 % (4/12)</td></tr>
+</tbody>
+</table>
+</div>
+<p class="small">Table 2. Unweighted sample proportions. Per-group Wilson (1927) CIs are in <span class="num">results/by_venue_type.csv</span> and <span class="num">results/by_paper_type.csv</span>; for groups of 25–50 papers they are about ±12 to ±20 points.</p>
+
+<p>Paper type separates the papers more sharply than venue does:</p>
+<ul>
+<li>Papers whose object is strategic behaviour (equilibrium, strategic, empirical) almost always distinguish ballots from preferences.</li>
+<li>Algorithmic and axiomatic papers account for most of the gap.</li>
+</ul>
+<p>Journals publish more equilibrium papers than the AI conferences do, so part of the venue difference may reflect this mix. We did not test that.</p>
+
+<h3>Good practice</h3>
+
+<p>These examples are taken from the 17 papers where both coders and the adjudicator coded every relevant item as stated, chosen to cover different paper types:</p>
+<ul>
+<li><strong>Axiomatic.</strong> Narayanan (2022) gives agents' states and their messages separate notation, and says why no one has an incentive to misreport.</li>
+<li><strong>Algorithmic.</strong> Baumeister, Selker and Wilczynski (2021) separate ballots from preferences and state what voters and the polling agency know.</li>
+<li><strong>Truthful voting justified.</strong> Mueller and Puppe (2021) distinguish reported from true peaks. They justify truthful voting by dominant strategies and evaluate outcomes on the true peaks.</li>
+<li><strong>Strategic parties, sincere voters.</strong> Debowicz, Saporiti and Wang (2021) model parties as strategic and voters as sincere, and give the reason in a footnote: with a continuum of voters, no one is pivotal.</li>
+<li><strong>Experiment.</strong> Casella, Guo and Jiang (2023) explain why the number of candidates is fixed while voters choose freely.</li>
+<li><strong>Information and interpretation.</strong> Tsakas and Xefteris (2021) state the information structure and ask for "extreme caution in the interpretation of our findings".</li>
+</ul>
+
+<h2>2. Method</h2>
+
+<p><strong>Population and frame.</strong></p>
+<ul>
+<li><strong>Population.</strong> Papers on voting: single- and multi-winner rules, approval committees, participatory budgeting, liquid democracy, strategic candidacy, districting, and manipulation, control and bribery. Fair division, matching and sortition are excluded.</li>
+<li><strong>Frame.</strong> The 2021–2025 output of the nine venues, enumerated from the venues' proceedings listings and from Crossref (EC and journals): 22,012 items.</li>
+<li><strong>Screening.</strong> A keyword pre-filter and language-model screening of titles and abstracts left 710 candidate papers. A recall check found 0 eligible papers among 300 titles the filter had rejected.</li>
+</ul>
+
+<p><strong>Sample.</strong></p>
+<ul>
+<li>150 papers, stratified by venue type × year. Each venue type has a floor of 20; the remainder is allocated proportionally. The allocation was AI conferences 43, COMSOC 33, EC 24 and journals 50.</li>
+<li>The order within each stratum is fixed by SHA-256 hashes of a published seed.</li>
+<li>Only legal open versions were used: the venue's own version, publisher open access, arXiv, or author and repository versions.</li>
+<li>To reach 150 eligible papers we coded 194. We replaced, from the same stratum:
+  <ul>
+  <li>39 papers ineligible on full text;</li>
+  <li>27 papers with no open version (MSS 12, SCW 11, JET 2, GEB 1, EC 1);</li>
+  <li>1 duplicate.</li>
+  </ul>
+</li>
+<li>One EC year ran out of usable papers. Its surplus went to the next EC year, as the protocol prescribes.</li>
+<li>Weights are <i>N<sub>h</sub></i> · <i>e</i> / <i>n<sub>h</sub></i>, where <i>e</i> is the eligibility rate observed on full text in that venue type (0.76–0.90).</li>
+</ul>
+
+<p><strong>Coding.</strong></p>
+<ul>
+<li>The codebook has 10 item groups (C1–C10) plus an eligibility check (C0). It was revised once after a 10-paper pilot on 2020 papers and then frozen.</li>
+<li>Every code carries a location and a verbatim quote of at most 12 words. Of the 2,290 quotes in the final codes, 98.8 % were found verbatim in the texts; most of the rest differ only in mathematical symbols lost in extraction.</li>
+<li><strong>All screening, coding and adjudication was done by language models under the supervision of the author.</strong> The author wrote the research questions, approved the protocol and codebook at two checkpoints, and set the procedure. No code was changed by hand.</li>
+<li>Pass A used Claude Opus 5.5 and pass B Claude Sonnet 5.5. Each saw only the codebook and the paper, not the research questions.</li>
+<li>Where A and B disagreed (614 items), an adjudicating run of Claude Opus 5.5 chose A (85 %), B (11 %) or a third code (5 %).</li>
+</ul>
+<p>Data, protocol, codebook, scripts and per-paper evidence: [repository link].</p>
+
+<h2>3. Calibration case</h2>
+
+<div class="box">
+<p>We coded Heitzig, Simmons and Constantino (2024), with its supplement, in the same way. It belongs to the frame but was not drawn, so it does not enter the estimates.</p>
+<p><strong>Stated:</strong></p>
+<ul>
+<li>Ballots and utilities are treated as separate objects ("such stated preferences may or may not be related in any way").</li>
+<li>Sincere ballots are defined as functions of utilities.</li>
+<li>Welfare is evaluated on utilities; Pareto efficiency is stated to be with respect to stated preferences.</li>
+<li>Voters are modelled as sincere, lazy or strategic, with information limited to polling scores, both said explicitly.</li>
+</ul>
+<p><strong>Shortfalls:</strong></p>
+<ul>
+<li>The paper uses "dichotomous preferences" without saying what the two classes mean in utility terms. The term appears only when the paper refers to prior work.</li>
+<li>The share of non-strategic voters is motivated by election data. The analyses with only sincere voters give no separate reason (the second coder coded no reason at all).</li>
+<li>In the equilibrium analyses, the information assumptions are only implicit.</li>
+<li>The coders disagreed on whether the paper's claims beyond the formal results (e.g. that "the welfare costs of fairness and consensus are small") need an unstated assumption. The adjudicator, the same model as coder A, sided with A: all needed assumptions are stated. Given the reliability of this item (κ 0.39), the question stays open.</li>
+</ul>
+</div>
+
+<h2>4. Limitations</h2>
+<ul>
+<li><strong>Language-model coders.</strong> Both coders come from the same vendor, and the adjudicator is the same model as coder A, so the final codes are close to A's.
+  <ul>
+  <li>Coder B codes "not stated" more often. This is why the "A only / B only" column brackets the main estimates: a different, equally defensible adjudicator could move the headline 48 % towards 66 %.</li>
+  <li>κ measures agreement between two models, not validity.</li>
+  <li>A human hand-check of 15 randomly drawn papers is prepared but not yet included.</li>
+  </ul>
+</li>
+<li><strong>Unreliable items.</strong> Whether claims beyond the formal results need an unstated assumption has κ 0.39, and whether a reason accompanies a stated identity has κ 0.25. These estimates are reported but should not carry weight. Whether a paper refers to held preferences at all has κ 0.35 despite 93 % agreement, because 95 % of papers do (Feinstein and Cicchetti, 1990).</li>
+<li><strong>Open-access bias.</strong> 27 drawn papers had no legal open version, 23 of them in MSS and SCW. Papers with open versions may report differently.</li>
+<li><strong>Prior.</strong> The author held the impression tested here when the codebook was drafted. Neutral wording, blinding the coders, an NA code for procedural papers, and pre-specified measures reduce this influence but do not remove it.</li>
+<li><strong>What "not stated" means.</strong> The codes record the text, not the authors' understanding. An assumption that is obvious to specialists still counts as unstated if the text does not state it.</li>
+</ul>
+
+<h2>5. A short reporting checklist</h2>
+<ol class="check">
+<li>Name what voters submit and what they hold. Then say how the two relate: they may differ, or they are equal, and if equal, why (strategyproofness, the setting, a procedural reading).</li>
+<li>If welfare, efficiency, proportionality or distortion is evaluated on ballots, say whether it is meant with respect to the ballots or to the preferences.</li>
+<li>For each type of acting agent, say whether it is strategic and what it knows. If one type is strategic and another is not, give the reason.</li>
+<li>If utilities appear alongside ordinal or approval ballots, define the link. If you use "dichotomous preferences", say what the two classes mean in terms of utility.</li>
+<li>For claims about real institutions or voters' well-being, name the assumptions they need, or mark them as conjecture.</li>
+<li>If the paper is purely procedural, say so. One sentence suffices; 1 paper in 150 had it.</li>
+</ol>
+
+<h2>References</h2>
+<div class="refs">
+<p>Baumeister, D., Selker, A.-K. and Wilczynski, A. (2021) 'Manipulation of opinion polls to influence iterative elections', <i>COMSOC 2021 workshop</i>. Available at: <a href="https://comsoc-community.org/assets/proceedings/comsoc-2021/BaumeisterEtAl-2.pdf">comsoc-community.org/…/BaumeisterEtAl-2.pdf</a> (no DOI or arXiv version found).</p>
+<p>Casella, A., Guo, J.D.-R. and Jiang, M. (2023) 'Minority turnout and representation under cumulative voting. An experiment', <i>Games and Economic Behavior</i>, 141, pp. 133–155. <a href="https://doi.org/10.1016/j.geb.2023.05.012">doi:10.1016/j.geb.2023.05.012</a>.</p>
+<p>Cohen, J. (1960) 'A coefficient of agreement for nominal scales', <i>Educational and Psychological Measurement</i>, 20(1), pp. 37–46. <a href="https://doi.org/10.1177/001316446002000104">doi:10.1177/001316446002000104</a>.</p>
+<p>Debowicz, D., Saporiti, A. and Wang, Y. (2021) 'Redistribution, power sharing and inequality concern', <i>Social Choice and Welfare</i>, 57(2), pp. 197–228. <a href="https://doi.org/10.1007/s00355-021-01310-5">doi:10.1007/s00355-021-01310-5</a>.</p>
+<p>Feinstein, A.R. and Cicchetti, D.V. (1990) 'High agreement but low kappa: I. The problems of two paradoxes', <i>Journal of Clinical Epidemiology</i>, 43(6), pp. 543–549. <a href="https://doi.org/10.1016/0895-4356(90)90158-L">doi:10.1016/0895-4356(90)90158-L</a>.</p>
+<p>Heitzig, J., Simmons, F.W. and Constantino, S.M. (2024) 'Fair group decisions via non-deterministic proportional consensus', <i>Social Choice and Welfare</i>, 64(1–2), pp. 345–371. <a href="https://doi.org/10.1007/s00355-024-01524-3">doi:10.1007/s00355-024-01524-3</a>.</p>
+<p>Mueller, M. and Puppe, C. (2021) 'Strategy-proofness implies minimal participation if voting is costly', <i>COMSOC 2021 workshop</i>. Available at: <a href="https://comsoc-community.org/assets/proceedings/comsoc-2021/MuellerPuppe.pdf">comsoc-community.org/…/MuellerPuppe.pdf</a> (no DOI or arXiv version found).</p>
+<p>Narayanan, A. (2022) 'Single-peaked domains with designer uncertainty', <i>Social Choice and Welfare</i>, 60(4), pp. 561–578. <a href="https://doi.org/10.1007/s00355-022-01431-5">doi:10.1007/s00355-022-01431-5</a>.</p>
+<p>Tsakas, N. and Xefteris, D. (2021) 'Information aggregation with runoff voting', <i>Journal of Economic Theory</i>, 191, 105130. <a href="https://doi.org/10.1016/j.jet.2020.105130">doi:10.1016/j.jet.2020.105130</a>.</p>
+<p>Wilson, E.B. (1927) 'Probable inference, the law of succession, and statistical inference', <i>Journal of the American Statistical Association</i>, 22(158), pp. 209–212. <a href="https://doi.org/10.1080/01621459.1927.10502953">doi:10.1080/01621459.1927.10502953</a>.</p>
+</div>
+</main>

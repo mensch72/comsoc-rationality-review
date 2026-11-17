@@ -1,0 +1,46 @@
+{
+ "paper_id": "COMSOC-2021-3c02f718",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "AX",
+     "SB",
+     "EQ"
+    ],
+    "primary": "EQ",
+    "loc": "Section 3, Theorem 1; Section 2, Observation; Section 4, Corollary 1",
+    "quote": "There does not exist an anonymous and strategy-proof voting mechanism",
+    "note": "Main results are equilibrium characterisations. The Observation (which generalized medians satisfy responsiveness) and Corollary 1 (incompatibility of properties) are axiomatic."
+   },
+   "chosen": "B",
+   "reason": "The Observation and Corollary 1 are axiomatic results about which rules satisfy which properties, so AX belongs in the types alongside EQ and SB."
+  },
+  "C5.2": {
+   "value": {
+    "code": "HELD",
+    "loc": "Section 2 Observation; Section 4, Corollary 1 and discussion",
+    "quote": "yields the median peak for all distributions of individual peaks",
+    "note": "Evaluation is against true peaks, which the paper notates separately from reported peaks (C2.4 = DIST)."
+   },
+   "chosen": "B",
+   "reason": "INPUT-STATED requires C2.4 in {IDJ, IDS}, but here C2.4 is DIST and outcomes are judged against true peaks, so HELD fits."
+  },
+  "C8.1": {
+   "value": {
+    "codes": [
+     "DOM",
+     "NE",
+     "SPE",
+     "COAL",
+     "OTH"
+    ],
+    "loc": "Section 3, Theorem 1, p.6; Section 4, p.11",
+    "quote": "we assume that in the second stage a strong Nash equilibrium is played",
+    "note": "OTH: (trembling-hand) perfect equilibrium, used in Theorem 1a."
+   },
+   "chosen": "A",
+   "reason": "Theorem 1a uses perfect equilibrium, a distinct named concept not covered by the listed codes, so OTH should be included."
+  }
+ }
+}

@@ -1,0 +1,189 @@
+{
+ "paper_id": "COMSOC-2023-9dca7c57",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p1",
+  "quote": "We study individual manipulability of social choice rules under incomplete information",
+  "note": ""
+ },
+ "C1": {
+  "types": [
+   "SB",
+   "SI"
+  ],
+  "primary": "SB",
+  "loc": "Introduction, p2",
+  "quote": "We conduct computational experiments calculating exact manipulability indexes",
+  "note": "Propositions and Theorem 1 concern manipulation incentives (SB). Exhaustive computation of the share of manipulable profiles is coded SI."
+ },
+ "C2.1": {
+  "value": "preference profile",
+  "loc": "Section 3.1, p4",
+  "quote": "A preference profile of all voters is denoted by"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 3.1, p4",
+  "quote": "it is assumed to be a linear order",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Introduction, p1",
+  "quote": "voters can achieve a better voting result by misrepresenting their preferences",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 6, p10",
+  "quote": "voter i compares the result with using strategy P\u0303i and voting sincerely",
+  "note": "The submitted strategy P\u0303i is denoted separately from the preference Pi."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Abstract, p1",
+  "quote": "we compare manipulability for different assumptions about voters\u2019 behavior",
+  "note": "All analyses concern incentives to misreport."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL"
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 not STATED"
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No utility, welfare or similar notions are used for voters; only ordinal better or worse off."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 3-6",
+  "quote": "none found",
+  "note": "Rules are evaluated only by manipulability indexes."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 3.1, p5",
+   "quote_behav": "a voter will manipulate if for every possible profile",
+   "loc_info": "Introduction, p2",
+   "quote_info": "voters do not know exactly each others\u2019 preferences",
+   "note": "Voters know poll information (PIF); the Profile-PIF case gives complete information. Voters who are not manipulators are treated as sincere."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 not Y"
+ },
+ "C8.1": {
+  "codes": [
+   "DOM",
+   "BND"
+  ],
+  "loc": "Section 2, p4",
+  "quote": "each manipulating agent thinks about others GS-manipulators as being level 1",
+  "note": "Manipulation is defined as weak dominance over sincere voting within the information set; Models 2 and 3 are level-k / cognitive-hierarchy style."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 2, p4",
+  "quote": "each manipulating agent thinks about others GS-manipulators as being level 1"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Conclusion, p12",
+    "quote": "this adds to the immunity of rules to manipulation in reality"
+   },
+   {
+    "loc": "Conclusion, p12",
+    "quote": "to demonstrate that it does not make much sense"
+   },
+   {
+    "loc": "Conclusion, p12",
+    "quote": "it is impossible to find such strategy in a vast number"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 4, p6",
+  "quote": "the proportion of preference profiles where manipulation is possible",
+  "note": "The claims about reality rely on the share of profiles (each profile weighted equally) reflecting real profile distributions; this is not stated as an assumption. Assumptions about information (PIF) and behaviour are stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 3, 7",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C1": {
+   "chosen": "A",
+   "reason": "The theoretical results are non-manipulability (strategyproofness-type) conditions, which SB already covers. A separate AX code is not warranted for results that are entirely about incentives to manipulate."
+  },
+  "C8.1": {
+   "chosen": "A",
+   "reason": "The incentive condition is weak dominance of a strategy over sincere voting, which fits DOM. It is not studied as a computational decision or optimisation problem, so DEV does not apply; Models 2 and 3 add level-k reasoning, which is BND."
+  },
+  "C8.2": {
+   "chosen": "A",
+   "reason": "The paper explicitly names the level-k and cognitive hierarchy concepts and describes manipulation as a strategy being dominant over truth-telling."
+  }
+ }
+}

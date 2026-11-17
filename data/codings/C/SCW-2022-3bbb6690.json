@@ -1,0 +1,35 @@
+{
+ "paper_id": "SCW-2022-3bbb6690",
+ "decisions": {
+  "C3.1": {
+   "value": {
+    "code": "SOME",
+    "loc": "Sect. 2, p.373",
+    "quote": "He uses the STVO if \ud835\udd3c[Ui\u2217 \u2212 \u00db i |xi , IiP ] \u2264 ci",
+    "note": "With STVO, voters may submit a straight ticket that departs from per-race preferences. Without STVO (\u03bc=0), votes are sincere per race. This is cost-based, not manipulation."
+   },
+   "chosen": "A",
+   "reason": "The paper also analyses the no-STVO case (\u03bc=0, e.g. 'Absent STVO (\u03bc=0), Proposition 1 implies'), where every voter votes for the utility-maximising candidate, so only some analyses involve inputs that depart from held attitudes."
+  },
+  "C3.2": {
+   "value": {
+    "code": "STATED",
+    "loc": "Sect. 2, p.372",
+    "quote": "he votes by solving a sequence of K distinct maximisation problems",
+    "note": ""
+   },
+   "chosen": "A",
+   "reason": "For race-by-race voting the paper says in words that the voter chooses the candidate delivering greatest utility, which is a statement that the vote follows the held attitude."
+  },
+  "C3.3": {
+   "value": {
+    "code": "NONE",
+    "loc": "Sect. 2, p.372",
+    "quote": "he selects the candidate that maximises uik (j)",
+    "note": "Utility-maximising vote in two-candidate races assumed without explicit justification."
+   },
+   "chosen": "A",
+   "reason": "The paper gives no argument for why race-by-race voters vote for their utility-maximising candidate; it simply assumes it."
+  }
+ }
+}

@@ -1,0 +1,182 @@
+{
+ "paper_id": "COMSOC-2021-500fd7b5",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "determining a winning committee under the Chamberlin\u2013Courant voting rule",
+  "note": "Winner determination for a multiwinner voting rule."
+ },
+ "C1": {
+  "types": [
+   "AL"
+  ],
+  "primary": "AL",
+  "loc": "Abstract, p.1",
+  "quote": "We study the complexity of determining a winning committee under the Chamberlin\u2013Courant",
+  "note": "The small-instance experimental check of Conjecture 1 (Sec. 5) is verification of a conjecture, not a simulation evaluating rules."
+ },
+ "C2.1": {
+  "value": "preference profile (plus misrepresentation function)",
+  "loc": "Sec. 2 Preliminaries, p.2",
+  "quote": "the list P is referred to as a preference profile"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK",
+   "CARD"
+  ],
+  "loc": "Sec. 2 Preliminaries, p.2-3",
+  "quote": "Voters rank candidates from best to worst, so that the preferences",
+  "note": "The CC rule takes as input both a linear-order profile and a rational-valued misrepresentation function \u03c1."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec. 2 Preliminaries, p.2",
+  "quote": "we write i v j when v prefers i to j",
+  "note": "Preferences and disutilities are attributed to voters."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Sec. 2 Preliminaries, p.2-3",
+  "quote": "Voters rank candidates from best to worst, so that the preferences",
+  "note": "The input is described as voters' preferences and disutilities. No statement about submission or reporting was found."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sec. 2-5 and Appendices",
+  "quote": "none found",
+  "note": "Purely algorithmic; no strategic voting is analysed."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Introduction, Sec. 2 Preliminaries, Sec. 6 Conclusions",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Sec. 2 Preliminaries, p.2",
+  "quote": "we say that \u03c1 is consistent with P if",
+  "note": "The disutility (misrepresentation) function \u03c1 must be consistent with the voter's ranking: preferred candidates get weakly lower values."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sec. 2 Multiwinner Rules, p.3",
+  "quote": "measures to what extent the voters are dissatisfied with their representatives",
+  "note": "Results compute committees minimising total voter dissatisfaction. Corollary 1 compares committees by dissatisfaction."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Sec. 2, p.3",
+  "quote": "the total dissatisfaction of voters in V under a k-assignment",
+  "note": "Evaluated on the input \u03c1, which is described as voters' disutility, with no statement relating it to anything submitted."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sec. 2 Preliminaries, p.2",
+   "quote_behav": "Voters rank candidates from best to worst, so that the preferences",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters' rankings are fixed data in the model and no choice is modelled; ranking candidates is a fixed action, so voters are present as non-strategic."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only one type is present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Sec. 1 Introduction, p.1",
+    "quote": "It has been argued that this rule is well-suited for a variety"
+   },
+   {
+    "loc": "Sec. 1 Our Contribution, p.2",
+    "quote": "This improvement is significant, as in some of the applications we discussed"
+   },
+   {
+    "loc": "Sec. 6 Conclusions, p.12",
+    "quote": "the performance of our algorithms makes them suitable for a broad range"
+   }
+  ],
+  "note": "These are claims about practical use in real decisions such as movie selection and student assemblies."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sec. 1, Sec. 6",
+  "quote": "none found",
+  "note": "Practical suitability of the algorithms needs real-world profiles to be single-crossing; this is not stated. The rule-suitability claim needs the input rankings and disutilities to reflect voters' actual preferences; this is also not stated. The claim that \u03c1 values are small integers is stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction, Sec. 2, Sec. 6",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C4.1": {
+   "chosen": "A",
+   "reason": "The paper formally defines consistency of \u03c1 with the rankings, which matches the codebook's SPEC example 'utilities consistent with the ranking'; that \u03c1 is a separate given input does not make the defined link partial."
+  },
+  "C6.VOT": {
+   "chosen": "A",
+   "reason": "The codebook counts fixed actions, and voters ranking candidates supply the rule's input, so voters are present with behaviour fixed only implicitly by the formal model."
+  }
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "paper_id": "MSS-2024-6f4feca8",
+ "decisions": {
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Section 2.1, p.4",
+    "quote_behav": "each individual i \u2208 H expresses her preferences through some pi \u2208 Sn",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Individuals take a fixed action, expressing a linear order that forms the profile; profiles are exogenous arguments of the spf."
+   },
+   "chosen": "A",
+   "reason": "The model has individuals who express their preferences, a fixed action that forms the profile, so voters are present as NONSTRAT agents whose fixed behaviour is only inferable from the formal model."
+  }
+ }
+}

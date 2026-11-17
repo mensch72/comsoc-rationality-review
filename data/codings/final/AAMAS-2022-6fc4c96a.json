@@ -1,0 +1,196 @@
+{
+ "paper_id": "AAMAS-2022-6fc4c96a",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.714",
+  "quote": "Bribery in an election is one of the well-studied control problems",
+  "note": "Computational complexity of a bribery variant for single-winner voting rules."
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "SB"
+  ],
+  "primary": "AL",
+  "loc": "Abstract, p.714",
+  "quote": "We provide a comprehensive complexity theoretic landscape of the safe bribery",
+  "note": "Results are polynomial-time algorithms and hardness results for bribery problems."
+ },
+ "C2.1": {
+  "value": "preference order (vote); n-voter preference profile; bribed profile",
+  "loc": "Section 2 Preliminaries, p.715",
+  "quote": "We call a list of n preference orders"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2 Preliminaries, p.715",
+  "quote": "(vote) \u227bi , which is a linear order over C.",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2 Preliminaries, p.715",
+  "quote": "Each voter vi has a preference order",
+  "note": "Preferences are attributed to voters, but they are identified with the vote."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2 Preliminaries, p.715",
+  "quote": "Each voter vi has a preference order (vote) \u227bi",
+  "note": "The preference order is equated with the vote by notation, with no statement about reporting. The bribed profile Q is described as altered votes, not as a held attitude."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Section 2.2, p.716",
+  "quote": "does not follow the briber\u2019s suggestion but casts their original votes",
+  "note": "Every main analysis concerns bribed profiles Q in which bribed voters may submit votes different from their preference order P. The deviation is induced by the briber, not by voters' own strategising."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No utility, welfare or satisfaction notions are used for voters. Costs are the briber's payments."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "",
+  "quote": "",
+  "note": "Results concern safety and success for the briber only."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 1, p.714",
+   "quote_behav": "some subset of voters follows the briber\u2019s recommendation exactly",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Bribed voters follow, partially follow or ignore the briber. Safety must hold for every such subset, so voter behaviour is exogenous rather than optimising."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Abstract, p.714",
+   "quote_behav": "the goal of the briber is to ask the bribed voters",
+   "loc_info": "Section 2, p.715",
+   "quote_info": "we assume that the briber is aware of the votes cast",
+   "note": "The briber also lacks knowledge of which voters will comply (p.714)."
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "Y",
+  "loc": "Section 1, p.714",
+  "quote": "the briber can never be sure that the voters will eventually",
+  "note": "The briber (BRI) is STRAT; voters (VOT) are NONSTRAT."
+ },
+ "C7.2": {
+  "code": "NONE",
+  "loc": "Sections 1, 2, 5",
+  "quote": "none found",
+  "note": "The campaigning argument motivates uncertain compliance and the worst-case safety notion. It does not argue why voters are modelled as non-optimising while the briber optimises."
+ },
+ "C8.1": {
+  "codes": [
+   "DEV"
+  ],
+  "loc": "Section 2.2, p.716",
+  "quote": "compute if there exists a set Vb \u2286 V of voters",
+  "note": ""
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 2.2, p.716",
+  "quote": "compute if there exists a set Vb \u2286 V of voters"
+ },
+ "C9.1": {
+  "code": "N",
+  "claims": [],
+  "note": "The conclusion's claims concern computational overhead for the briber, and the campaigning remark is motivation. There are no claims about institutions, voter welfare or rule choice."
+ },
+ "C9.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C9.1 = N."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Section 1, Section 2, Section 5",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C3.1": {
+   "chosen": "A",
+   "reason": "Read literally, C3.1 asks whether any analysis has voters submitting inputs that differ from their held preference P, and every problem in the paper involves bribed voters casting Q different from P."
+  },
+  "C3.2": {
+   "chosen": "A",
+   "reason": "Since C3.1 = ALL, the codebook requires NA for C3.2."
+  },
+  "C7.2": {
+   "chosen": "B",
+   "reason": "The paper's argument justifies robustness to non-compliance, not the difference between a strategic briber and non-strategic voters, so no reason is given."
+  },
+  "C8.2": {
+   "chosen": "A",
+   "reason": "The solution concept, a decision problem asking whether a goal-achieving bribery exists, is explicitly named and formally defined as Safe $Bribery and Safe Shift Bribery."
+  },
+  "C9.1": {
+   "chosen": "A",
+   "reason": "The conclusion's statement about the briber's computational overhead is not a claim about real institutions, voters' well-being or which rule to use."
+  },
+  "C9.2": {
+   "chosen": "A",
+   "reason": "Since C9.1 = N, C9.2 is NA."
+  }
+ }
+}

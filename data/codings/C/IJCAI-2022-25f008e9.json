@@ -1,0 +1,83 @@
+{
+ "paper_id": "IJCAI-2022-25f008e9",
+ "decisions": {
+  "C3.3": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "C3.2 is not STATED."
+   },
+   "chosen": "A",
+   "reason": "Both coders coded C3.2 as NOT-STATED, so the codebook requires NA here, not NONE."
+  },
+  "C6.BRI": {
+   "value": {
+    "present": "Y",
+    "behav": "STRAT",
+    "behav_stated": "EXPLICIT",
+    "info": "COMPLETE",
+    "info_stated": "IMPLICIT",
+    "loc_behav": "Section 2 Preliminaries, p.558",
+    "quote_behav": "the adversary\u2019s goal is for c1 to win the election",
+    "loc_info": "Section 3, Definition 3.1, p.558",
+    "quote_info": "Given a set of candidates C, voters V, and d issues",
+    "note": "The adversary is an external malicious party, not a voter, who changes voter perceptions of the target candidate; footnote 1 says the model can be viewed as bribery."
+   },
+   "chosen": "A",
+   "reason": "The adversary is an external manipulator who is not a voter, which is exactly the BRI type, so OTH is not needed."
+  },
+  "C6.OTH": {
+   "value": {
+    "present": "N"
+   },
+   "chosen": "A",
+   "reason": "The adversary fits BRI, so no other acting agent remains for OTH."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "EXPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Section 2 Preliminaries, p.558",
+    "quote_behav": "Each voter vj ranks candidates in C according to their lp distance",
+    "loc_info": "",
+    "quote_info": "",
+    "note": ""
+   },
+   "chosen": "A",
+   "reason": "Voters take a fixed action in the model by ranking candidates by distance, and the codebook counts fixed actions as presence."
+  },
+  "C7.1": {
+   "value": {
+    "code": "Y",
+    "loc": "Introduction, p.557",
+    "quote": "a malicious party can change voter perceptions of a target candidate",
+    "note": "BRI (adversary) is STRAT. VOT is NONSTRAT."
+   },
+   "chosen": "A",
+   "reason": "Two types are present, a strategic adversary and non-strategic voters, in the same analysis."
+  },
+  "C7.2": {
+   "value": {
+    "code": "NONE",
+    "loc": "Introduction, Section 2, Conclusion",
+    "quote": "none found",
+    "note": ""
+   },
+   "chosen": "A",
+   "reason": "The paper gives no reason for modelling voters as non-strategic while the adversary is strategic."
+  },
+  "C8.2": {
+   "value": {
+    "code": "Y",
+    "loc": "Section 2 Preliminaries, p.558",
+    "quote": "In our election control problem, the adversary has a target candidate"
+   },
+   "chosen": "A",
+   "reason": "The DEV concept is explicitly named and defined as an election control decision problem (BVPM/RVPM)."
+  }
+ }
+}

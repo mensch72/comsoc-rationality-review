@@ -1,0 +1,99 @@
+{
+ "paper_id": "COMSOC-2025-b65c2dac",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "AX",
+     "SB",
+     "AL",
+     "OT"
+    ],
+    "primary": "AX",
+    "loc": "Abstract, p.1; Section 1.1, p.3; Sections 3-4",
+    "quote": "We study the compatibility of efficiency and strategyproofness for randomized voting rules",
+    "note": "OT: the paper calls the quantile agent utility model its main conceptual contribution. AL: polynomial-time results (Theorem 10, Theorem 26, Algorithm 1). SB: strategyproofness as a property."
+   },
+   "chosen": "A",
+   "reason": "The paper explicitly presents the new utility model as its main conceptual contribution, so OT applies alongside AX, AL and SB."
+  },
+  "C2.2": {
+   "value": {
+    "codes": [
+     "RANK",
+     "OTH"
+    ],
+    "loc": "Section 3, p.5; Section 4, p.9",
+    "quote": "\u227bi is a strict ordering over the alternatives",
+    "note": "OTH: the matching mechanisms take as input the vector h of quantile parameters together with the preference profile."
+   },
+   "chosen": "A",
+   "reason": "The matching mechanisms explicitly take the quantile vector h as input, which is a non-ranking format."
+  },
+  "C2.4": {
+   "value": {
+    "code": "DIST",
+    "loc": "Section 4, proof of Theorem 16, p.11; Definition 5, p.6",
+    "quote": "when agent 3 misreports \u227b\u20323 instead of her true preference \u227b2",
+    "note": "The strategyproofness definitions and proofs distinguish the true preference \u227bi from the reported preference \u227b\u2032i."
+   },
+   "chosen": "A",
+   "reason": "The text explicitly says that the submitted preference can differ from the true preference, which meets DIST."
+  },
+  "C4.1": {
+   "value": {
+    "code": "SPEC",
+    "loc": "Abstract, p.1; Section 2, p.4",
+    "quote": "an agent gets utility from a particular representative",
+    "note": "Utility is defined from the ranking and the quantile parameter via the h-quantile representative."
+   },
+   "chosen": "A",
+   "reason": "The inputs are rankings, the paper uses utility for voters, and it formally defines how the ranking determines the comparison of lotteries."
+  },
+  "C5.2": {
+   "value": {
+    "code": "INPUT-UNSTATED",
+    "loc": "Definition 3, p.6",
+    "quote": "a lottery x over the alternatives of A is efficient if",
+    "note": "Efficiency is evaluated on the profile \u227b given as input to the rule. In the non-strategic analyses no statement relates it to true preferences."
+   },
+   "chosen": "A",
+   "reason": "Efficiency is defined on the input profile \u227b, and there is no statement equating that profile with held preferences outside the strategyproofness analyses."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "MIXED",
+    "behav_stated": "EXPLICIT",
+    "info": "NS",
+    "info_stated": "NA",
+    "loc_behav": "Section 3, after Definition 5, p.6; Section 4, proof of Theorem 13, p.10",
+    "quote_behav": "profile that is obtained from \u227b when agent i changes her preference",
+    "loc_info": "Checked Sections 2-4 and Appendix C",
+    "quote_info": "none found",
+    "note": "Agents may misreport in the strategyproofness analyses and are fixed in the efficiency, welfare and fairness analyses."
+   },
+   "chosen": "A",
+   "reason": "Voters are strategic only in the strategyproofness analyses, so MIXED applies, and the misreporting is described in words."
+  },
+  "C9.1": {
+   "value": {
+    "code": "N",
+    "claims": [],
+    "note": "The real-world uses in the introduction serve only as motivation. The other claims concern formal compatibility of properties within the model."
+   },
+   "chosen": "A",
+   "reason": "The cited passages are motivation or restatements of formal results, not claims about institutions, voter well-being or which rule to use; one of B's quotes also exceeds 12 words."
+  },
+  "C9.2": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "C9.1 is N."
+   },
+   "chosen": "A",
+   "reason": "C9.1 = N, so C9.2 is NA."
+  }
+ }
+}

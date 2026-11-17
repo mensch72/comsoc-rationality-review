@@ -1,0 +1,171 @@
+{
+ "paper_id": "IJCAI-2022-724fc628",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.482",
+  "quote": "classic Chamberlin-Courant multiwinner voting rule (CC) on single-peaked preference profiles",
+  "note": "Computational complexity of computing CC and Thiele winners."
+ },
+ "C1": {
+  "types": [
+   "AL"
+  ],
+  "primary": "AL",
+  "loc": "Sec 1.1, p.483",
+  "quote": "We prove that CC is FPT with respect to d",
+  "note": "All main results are algorithms and lower bounds."
+ },
+ "C2.1": {
+  "value": "preference profile; approval ballots; votes; misrepresentation function",
+  "loc": "Sec 2, p.484",
+  "quote": "A tuple (V, C, r) or (V, C, u) is called a preference profile"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK",
+   "WEAK",
+   "APPR",
+   "CARD"
+  ],
+  "loc": "Sec 2, p.484",
+  "quote": "then we call a vote of v a weak order",
+  "note": "General misrepresentation functions are real-valued (CARD). Borda misrepresentation corresponds to linear orders. Approval ballots are also used."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec 2, p.484",
+  "quote": "measures how much a voter is misrepresented by a particular candidate",
+  "note": "Misrepresentation and utility functions are attributed to voters. The paper says balloting them fully is costly."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Sec 2, p.484",
+  "quote": "Balloting a misrepresentation function fully is costly for a voter",
+  "note": "The rule is applied directly to the misrepresentation function or preference profile. There is no statement about reporting or misreporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sec 2-5, pp.484-487",
+  "quote": "none found",
+  "note": "No strategic analysis."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Introduction, Sec 2 Preliminaries, Sec 6 Conclusions",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is NOT-STATED, so C3.3 does not apply."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Sec 2, p.484",
+  "quote": "We can define it as: u(v, c) = maxc\u2032 \u2208C (r(v, c\u2032 )) \u2212 r(v, c)",
+  "note": "Approval misrepresentation is defined as 0 iff approved and 1 otherwise. Thiele utility is defined as the sum of w_i over approved committee members."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sec 2, p.484",
+  "quote": "we define total utility of C \u2032 by u(C \u2032 )",
+  "note": "The problem definitions used in all results evaluate committees by total utility or total misrepresentation of voters."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Sec 2, p.484",
+  "quote": "we define total misrepresentation of C \u2032 by r(C \u2032 )",
+  "note": "Evaluation is on the input r or u, with no statement relating it to anything held separately."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sec 2, p.484",
+   "quote_behav": "a voter v gives an approval ballot as a vote",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters submit ballots, which are taken as given, so this is a fixed action; no strategic behaviour is modelled."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "N",
+  "claims": [],
+  "note": "Real-world remarks are motivation for the structured domains or concern practical running time. None concerns institutions, voter welfare or rule choice."
+ },
+ "C9.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C9.1 is N."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction, Sec 2 Preliminaries, Sec 6 Conclusions",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C3.3": {
+   "chosen": "A",
+   "reason": "The codebook requires NA for C3.3 whenever C3.2 is not STATED, and both coders coded C3.2 as NOT-STATED."
+  },
+  "C6.VOT": {
+   "chosen": "A",
+   "reason": "The model has voters who give ballots, a fixed action, which counts as present under C6 ('whether chosen strategically or fixed'), and that behaviour is only inferable from the formal model."
+  }
+ }
+}

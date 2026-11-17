@@ -1,0 +1,191 @@
+{
+ "paper_id": "AAAI-2021-37c64d33",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p. 5489",
+  "quote": "present a neutral and anonymous algorithm for selecting a candidate",
+  "note": "Studies computing the proportional veto core voting rule, selection from it, and its manipulation."
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "SB",
+   "AX",
+   "SI"
+  ],
+  "primary": "AL",
+  "loc": "Abstract, p. 5489; Selecting from the Veto Core, p. 5492-5493; Manipulating the Veto Core, p. 5494",
+  "quote": "we present a polynomial time algorithm for computing the veto core",
+  "note": "AL: Theorem 8 and Theorem 15 algorithms. SB: pessimistic manipulation. AX: Propositions 11 and 13 and properties of veto by consumption. SI: Tables 1-2 on Impartial Culture profiles."
+ },
+ "C2.1": {
+  "value": "voters' preferences, or ballots; profile",
+  "loc": "Preliminaries, p. 5490",
+  "quote": "which we term the voters\u2019 preferences, or ballots"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Preliminaries, p. 5490",
+  "quote": "every voter is associated with a linear order over the candidates",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Manipulating the Veto Core, p. 5494",
+  "quote": "blocking a candidate they would not sincerely, or refusing to block",
+  "note": "Sincere preferences (P1) of the manipulator are distinguished from the strategic vote P1'."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Manipulating the Veto Core, p. 5494",
+  "quote": "blocking a candidate they would not sincerely, or refusing to block",
+  "note": "In the manipulation section the manipulator's sincere order P1 and the submitted strategic vote P1' have separate notation, and the text says the submitted ballot may differ from sincere preferences. Elsewhere 'preferences' and 'ballots' are used as synonyms."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "Abstract p. 5489; Manipulating the Veto Core p. 5494",
+  "quote": "We also show that a pessimist can manipulate the veto core",
+  "note": "Only the manipulation section considers strategic voting. The computation, selection and simulation analyses do not."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Introduction, Preliminaries, Computing/Selecting sections, Future Directions",
+  "quote": "none found",
+  "note": "Preliminaries names the linear orders 'preferences, or ballots' as terminology. There is no statement that voters submit their held preferences."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "None of utility, welfare, satisfaction, cost, distortion or intensity is used for voters. 'Happiness of the minority' appears only in Future Directions."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Preliminaries, p. 5490; Selecting from the Veto Core, p. 5493",
+  "quote": "Other desirable properties it satisfies include Pareto efficiency, strongly monotonicity, homogeneity",
+  "note": "Pareto efficiency is asserted as a formal property of the veto core and of veto by consumption, in the body of the paper."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Preliminaries, p. 5490",
+  "quote": "A voting rule is a function that maps a profile",
+  "note": "Pareto efficiency is evaluated on the profile of submitted orders, with no statement relating that profile to held attitudes in the non-strategic analyses."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "IMPLICIT",
+   "loc_behav": "Manipulating the Veto Core, p. 5494",
+   "quote_behav": "manipulation by an optimist, who evaluates a set by the best",
+   "loc_info": "Proof of Theorem 15, p. 5494",
+   "quote_info": "The problem of pessimistic manipulation is thus finding a P10 such",
+   "note": "Voters are sincere in the computation and selection analyses. A manipulator is strategic in Theorem 15 and is given the others' profile P\u22121."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N",
+   "note": "Agenda manipulation by padding with spoiler candidates is discussed informally, not modelled as an agent's choice."
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [
+   "DEV"
+  ],
+  "loc": "Theorem 15, p. 5494",
+  "quote": "It can be determined whether the veto core is manipulable by a pessimist",
+  "note": "Manipulation is studied as a decision problem. Equilibrium concepts in the introduction concern prior work."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Manipulating the Veto Core, p. 5494",
+  "quote": "The problem of pessimistic manipulation is thus finding a P10"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p. 5489",
+    "quote": "a natural and effective way of ensuring that no minority is left"
+   },
+   {
+    "loc": "Introduction, p. 5489",
+    "quote": "As an arbitrated settlement to an armed dispute, a is unlikely"
+   },
+   {
+    "loc": "Future Directions, p. 5495",
+    "quote": "settings where the happiness of the minority matters"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Preliminaries, p. 5490",
+  "quote": "none found",
+  "note": "The claims about minorities avoiding untenable outcomes need submitted ballots to equal voters' held preferences. This is not stated; preferences and ballots are only named as synonyms."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction, Preliminaries, Future Directions",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C2.4": {
+   "chosen": "A",
+   "reason": "The paper uses separate notation for the sincere order and the strategic vote, and states that a voter can submit something other than what they would sincerely, which meets the DIST condition."
+  },
+  "C5.1": {
+   "chosen": "A",
+   "reason": "Pareto efficiency is an efficiency criterion asserted as a property of the rules in the body of the paper, not only in the introduction, so C5.1 = Y."
+  },
+  "C5.2": {
+   "chosen": "A",
+   "reason": "Pareto efficiency is evaluated on the input profile, and the paper never states that the input equals held preferences in these analyses."
+  }
+ }
+}

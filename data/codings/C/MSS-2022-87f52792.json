@@ -1,0 +1,29 @@
+{
+ "paper_id": "MSS-2022-87f52792",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "WD",
+     "OT"
+    ],
+    "primary": "WD",
+    "loc": "Abstract; Sections 3-9; Section 11",
+    "quote": "minimise the democracy deficit, i.e. the expected deviation of the council",
+    "note": "Most main results compute weights that minimise the democracy deficit (WD). The paper also proposes the generalised CBM and proves its large-population limit behaviour (Theorem 15), which is a modelling proposal and probability result (OT)."
+   },
+   "chosen": "B",
+   "reason": "The conclusion lists defining the generalised CBM and its asymptotic behaviour (Theorem 15) as main findings, so OT applies alongside the primary WD results."
+  },
+  "C9.2": {
+   "value": {
+    "code": "ALL-STATED",
+    "loc": "Section 1, p.1-2",
+    "quote": "obeying the voters\u2019 preferences which we do not model explicitly",
+    "note": "The needed assumptions are stated: votes obey preferences, and representatives vote with the group majority. That the bias model approximates reality is a general modelling assumption and is excluded by the codebook."
+   },
+   "chosen": "A",
+   "reason": "The assumptions the claims need are stated in Section 1, and B's unstated items are either general model-realism or normative choices, which do not count as needed assumptions."
+  }
+ }
+}

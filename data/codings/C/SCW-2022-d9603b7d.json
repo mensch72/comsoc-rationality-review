@@ -1,0 +1,34 @@
+{
+ "paper_id": "SCW-2022-d9603b7d",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "EM",
+     "SB",
+     "WD"
+    ],
+    "primary": "EM",
+    "loc": "Abstract; Sections 3-6",
+    "quote": "Hm sghr o\u2018odq vd otqrtd \u2018m dwodqhldms\u2018k \u2018ooqn\u2018bg",
+    "note": "The main results come from lab experiments with human subjects (EM). The paper also studies voters' rationality, dominated choices and pivotal vote changes (SB). It evaluates iterative voting by average social welfare (Hypothesis 7) (WD)."
+   },
+   "chosen": "B",
+   "reason": "Besides the empirical design, main results assess voters' strategic rationality and pivotality (SB) and evaluate iterative voting by average social welfare (WD), so all three types apply to at least one main result."
+  },
+  "C8.1": {
+   "value": {
+    "codes": [
+     "DOM",
+     "ITER",
+     "BND"
+    ],
+    "loc": "Section 3.3; Section 3.4",
+    "quote": "Sgdm u hr \u2018 cnlhm\u2018shmf \u2018bshnm",
+    "note": "Behaviour is classified by dominating/dominated actions and by stochastic dominance (DOM). Votes are studied in iterative voting with revision after observing tallies (ITER). Voters are also classified as optimistic or pessimistic, a heuristic classification (BND)."
+   },
+   "chosen": "A",
+   "reason": "Besides dominance and iterative voting, the paper classifies voters as optimistic or pessimistic, a heuristic-behaviour classification that fits BND."
+  }
+ }
+}

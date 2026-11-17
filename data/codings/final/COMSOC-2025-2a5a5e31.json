@@ -1,0 +1,197 @@
+{
+ "paper_id": "COMSOC-2025-2a5a5e31",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "We study diversity in approval-based committee elections",
+  "note": ""
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "WD",
+   "SI",
+   "EM"
+  ],
+  "primary": "AL",
+  "loc": "Abstract; Sections 4-6",
+  "quote": "requires \u03a9(m2 ) non-adaptive queries, where m is the number of candidates",
+  "note": "Query-complexity bounds and approximation algorithms (AL) dominate. The experiments compare greedy and local search against approval voting on Max Cover (CC) score, which is a rule-performance-against-objective result (WD). Experiments use Polis data (EM) and synthetic data (SI)."
+ },
+ "C2.1": {
+  "value": "approval profile; approval sets; approval ballots; votes; query responses",
+  "loc": "Sec. 3, p.3",
+  "quote": "The sequence of sets A = (A(1), . . . , A(n)) is called the approval profile"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Sec. 3, p.3",
+  "quote": "every voter vi \u2208 V approves of a subset of the candidates",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec. 5, p.8",
+  "quote": "the voters are inaccurate in reporting their true approvals",
+  "note": "The introduction also refers to voters' true beliefs and opinions."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Sec. 5, p.8",
+  "quote": "a p-inaccurate query as Ap (i, j) := A(i, j) \u2295 X",
+  "note": "True approvals A and reported answers Ap have separate notation in the inaccurate setting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sec. 5, p.8",
+  "quote": "we assume each query A(i, j) is incorrect with a probability p",
+  "note": "Deviations are random noise, not strategic choices."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "App. D, p.20; Sec. 5, p.8",
+  "quote": "for accurate information, we write A(i, j) to query the opinion",
+  "note": "In the accurate settings a query is said to return the voter's opinion, i.e. their true approval, in contrast to inaccurate reporting."
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Sec. 4, p.4; App. D, p.20",
+  "quote": "which equals 1 in case voter vi approves candidate cj",
+  "note": "No reason is given for accurate answers."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Sec. 3, p.3; Sec. 6; App. E",
+  "quote": "",
+  "note": "No utility, welfare or satisfaction notion is used for voters in the model. 'Unsatisfiable' appears only once, in preprocessing."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sec. 2, p.2; Definition 1, p.3",
+  "quote": "score of W equals the number of voters that have a representative",
+  "note": "Chamberlin-Courant score measures representation of voters."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Sec. 5, p.8; Definition 1",
+  "quote": "voters are inaccurate in reporting their true approvals",
+  "note": "The CC score is computed on the true approvals A, which are notationally separate from the noisy reports Ap."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sec. 5, p.8",
+   "quote_behav": "we assume each query A(i, j) is incorrect with a probability p",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters answer queries truthfully or with random noise."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N",
+   "note": "The querying algorithm is not modelled as an agent with an objective."
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is strategic."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Sec. 1, p.2",
+    "quote": "diverse summarizations can guarantee higher inclusivity"
+   },
+   {
+    "loc": "Sec. 7, p.10",
+    "quote": "we prove diverse committees can be found by querying only"
+   },
+   {
+    "loc": "App. E, p.24",
+    "quote": "if we achieve good Max Cover score here, we also can"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sec. 3-5",
+  "quote": "none found",
+  "note": "The applied claims need that real voters do not misreport strategically, which is never stated. The relation of answers to true approvals is stated through the noise model."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sec. 1, 3, 7",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C1": {
+   "chosen": "B",
+   "reason": "The experiments evaluate rules against the Chamberlin-Courant representation objective, comparing them with approval voting, so WD applies to a main result."
+  },
+  "C3.2": {
+   "chosen": "A",
+   "reason": "The paper says in words that accurate queries return the voter's opinion, as opposed to inaccurately reporting their true approvals."
+  },
+  "C3.3": {
+   "chosen": "A",
+   "reason": "Since C3.2 is STATED and no justification for accurate reporting is offered, NONE applies."
+  },
+  "C5.2": {
+   "chosen": "A",
+   "reason": "The objective is defined on the true approval profile A, which the paper distinguishes from the submitted responses Ap."
+  },
+  "C6.VOT": {
+   "chosen": "A",
+   "reason": "The voters' response behaviour, accurate or randomly corrupted, is stated in words as an assumption."
+  }
+ }
+}

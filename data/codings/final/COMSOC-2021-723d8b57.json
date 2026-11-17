@@ -1,0 +1,191 @@
+{
+ "paper_id": "COMSOC-2021-723d8b57",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "We study approval-based committee elections for the case where the voters\u2019 preferences",
+  "note": ""
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "SI"
+  ],
+  "primary": "AL",
+  "loc": "Abstract, p.1; Sections 4 and 5",
+  "quote": "we find that many NP-hard rules remain intractable for 2D-Euclidean elections",
+  "note": "The main formal results are NP-hardness results and polynomial-time algorithms (Theorems 1\u20132, Propositions 2\u20133, Corollary 1). Section 5 adds simulation-based visualizations."
+ },
+ "C2.1": {
+  "value": "approval set; approval ballots; voters' preferences",
+  "loc": "Section 2 Preliminaries, p.2",
+  "quote": "by A(v) we denote the approval set of v"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Section 1 Introduction, p.1",
+  "quote": "each voter specifies a subset of candidates that he or she finds",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 3 Euclidean Preferences, p.3",
+  "quote": "xa describes a\u2019s ideal position in a t-dimensional space of opinions",
+  "note": "Ideal points and willingness to compromise are attributed to voters. Approval sets are derived from them."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2 Preliminaries, p.2",
+  "quote": "the set of those candidates that voter v finds acceptable",
+  "note": "The approval set is described as what the voter finds acceptable, determined by ideal points and radii. The rule is applied to it directly, with no statement about reporting or submission."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 1, 2, 3, 4, 5, 6",
+  "quote": "none found",
+  "note": "No strategic voting is considered."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1 Introduction, 2 Preliminaries, 3 Euclidean Preferences, 5 Visualization, 6 Conclusions",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "PART",
+  "loc": "Section 5.2 Discussion, p.9",
+  "quote": "the voter who approves fewest of them",
+  "note": "Voter-oriented notions (worst-off voter, satisfying the voters) are tied loosely to approvals and proximity, but no utility function is defined."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' appears only in a reference title."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 5.2 Discussion, p.8",
+  "quote": "one would expect a proportional rule to choose more candidates from there",
+  "note": "The simulation discussion evaluates rules by proportional representation of voter groups and by coverage of voters' views."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 5.2 Discussion, p.8",
+  "quote": "even though many agents have ideal points in this area",
+  "note": "Proportionality is judged against the distribution of voters' ideal points, which are defined separately from the approval sets."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 1 Introduction, p.1; Section 3, p.3",
+   "quote_behav": "we assume that each voter specifies a subset of candidates",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Approval sets are fixed by the Euclidean model."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates have positions and radii but take no action."
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is strategic."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 6 Conclusions, p.10",
+    "quote": "one should not force the voters to approve a fixed number"
+   },
+   {
+    "loc": "Section 1 Introduction, p.2",
+    "quote": "forcing the voters to approve a given number of candidates leads"
+   },
+   {
+    "loc": "Section 1 Introduction, p.2",
+    "quote": "AV might have some deficiencies as a rule to choose individually excellent"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sections 1, 3, 5.2, 6",
+  "quote": "none found",
+  "note": "The recommendations about real approval elections need two assumptions. First, that the submitted approval ballots equal the approval sets generated from ideal points, i.e. sincere voting; this is never stated. Second, that judgments of rule quality relative to ideal points reflect voters' interests; this is only partly stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 2, 3, 6",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C2.2": {
+   "chosen": "A",
+   "reason": "The input is approval sets, and 'dichotomous preferences' appears only in a cited reference title, so the input is never described as dichotomous preferences and DICH does not apply."
+  },
+  "C4.1": {
+   "chosen": "A",
+   "reason": "With APPR input, the paper's references to the worst-off voter and to satisfying the voters trigger applicability, and their relation to approvals is mentioned but not defined."
+  },
+  "C5.2": {
+   "chosen": "A",
+   "reason": "The proportionality evaluation refers explicitly to the locations of voters' ideal points, which are held attitudes distinct from the submitted approval sets."
+  },
+  "C6.VOT": {
+   "chosen": "A",
+   "reason": "Voters take an action (specifying approval sets) that is fixed by the model, so they are present and NONSTRAT, and info is NA."
+  }
+ }
+}

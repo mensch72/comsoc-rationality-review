@@ -1,0 +1,49 @@
+{
+ "paper_id": "SCW-2022-d2d3b887",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "SB",
+     "SI"
+    ],
+    "primary": "SB",
+    "loc": "Abstract p.1; Section 4.3 p.26",
+    "quote": "voters are given the opportunity to strategically choose their ballots",
+    "note": "Main results: a robustness theorem for cycles of heuristic-driven polling dynamics, and examples of bad cycles. Section 4.3 adds a simulation study on synthetic cultures. Dynamical equilibria are fixed points of a dynamics, not game equilibria, so EQ is not coded."
+   },
+   "chosen": "A",
+   "reason": "The paper says its equilibria are fixed points of a heuristic dynamics, never Nash equilibria, so they are not equilibria of a game under EQ, and strategic ballot choice is the dominant theme."
+  },
+  "C3.1": {
+   "value": {
+    "code": "ALL",
+    "loc": "Section 2.2, p.9",
+    "quote": "representing the way voters of this type choose their next ballot",
+    "note": "All analyses model voters choosing ballots through outcome-dependent heuristics."
+   },
+   "chosen": "A",
+   "reason": "In every analysis the ballot is chosen by an outcome-dependent heuristic and differs from the held preference order; the paper notes strategic voting occurs even when ballots are restricted to sincere ones."
+  },
+  "C3.2": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "C3.1 = ALL."
+   },
+   "chosen": "A",
+   "reason": "C3.1 is ALL, so C3.2 is NA."
+  },
+  "C3.3": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "C3.2 is not STATED."
+   },
+   "chosen": "A",
+   "reason": "C3.2 is not STATED, so C3.3 is NA."
+  }
+ }
+}

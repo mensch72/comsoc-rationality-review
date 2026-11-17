@@ -1,0 +1,186 @@
+{
+ "paper_id": "COMSOC-2023-d21c14b4",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "Approval-based committee (ABC) voting rules elect a fixed size subset",
+  "note": ""
+ },
+ "C1": {
+  "types": [
+   "AX"
+  ],
+  "primary": "AX",
+  "loc": "Abstract, p.1",
+  "quote": "We address this problem by characterizing ABC voting rules",
+  "note": ""
+ },
+ "C2.1": {
+  "value": "approval ballots; approval profile",
+  "loc": "Section 2, p.3",
+  "quote": "Thus, voters report approval ballots Ai which are nonempty subsets"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR",
+   "DICH"
+  ],
+  "loc": "Section 2, p.3",
+  "quote": "every voter i \u2208 N has dichotomous preferences over the candidates",
+  "note": "Ballots are approval sets, introduced as reports of dichotomous preferences."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.3",
+  "quote": "every voter i \u2208 N has dichotomous preferences over the candidates",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "IDS",
+  "loc": "Section 2, p.3",
+  "quote": "she partitions the candidates into approved and disapproved ones. Thus,",
+  "note": "Voters have dichotomous preferences and 'thus' report approval ballots. No reason is given for truthful reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-4",
+  "quote": "Thus, voters report approval ballots Ai which are nonempty subsets",
+  "note": "Purely axiomatic. No strategic analysis."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Section 2, p.3",
+  "quote": "Thus, voters report approval ballots Ai which are nonempty subsets",
+  "note": "The report is presented as following from the held dichotomous preferences."
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Section 2, p.3",
+  "quote": "Thus, voters report approval ballots Ai which are nonempty subsets",
+  "note": ""
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Section 2.2, p.5",
+  "quote": "every voter values a committee only based on how many",
+  "note": "The terms utility, welfare and satisfaction are not used for voters. The valuation function is a scoring device defined on ballots. If treated as utility, the link would be SPEC."
+ },
+ "C4.2": {
+  "code": "N",
+  "loc": "Section 2, p.3",
+  "quote": "she partitions the candidates into approved and disapproved ones",
+  "note": "No utility or richer preference interpretation is given."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 4, p.10",
+  "quote": "the chosen committee should proportionally reflect the voters\u2019 preferences",
+  "note": "Theorem 4 uses clone-proportionality. The paper defines it through how many voters each candidate represents, which is a representation and proportionality criterion towards voters."
+ },
+ "C5.2": {
+  "code": "INPUT-STATED",
+  "loc": "Section 4, p.10",
+  "quote": "whereas the candidate c represents n2 voters",
+  "note": "Evaluated on ballots. C2.4 = IDS."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2, p.3",
+   "quote_behav": "Thus, voters report approval ballots Ai which are nonempty subsets",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters take a fixed action, reporting ballots, so they are present under the 'whether chosen strategically or fixed' clause."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no strategic type."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Conclusion, p.11",
+    "quote": "Such characterizations are crucial for reasoning about which rule to use"
+   },
+   {
+    "loc": "Introduction, p.1",
+    "quote": "it seems to be a good choice for the election at hand"
+   },
+   {
+    "loc": "Section 2, p.3",
+    "quote": "Anonymity and neutrality are common fairness conditions"
+   }
+  ],
+  "note": "The third claim appears in the model section rather than the abstract, introduction or conclusion, so it may fall outside the C9.1 scope. It is included as supplementary."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Conclusion, p.11",
+  "quote": "without a characterization, there is always the possibility that a more",
+  "note": "The claims concern rule selection via axioms on ballots and need no further unstated assumptions about input-attitude relations."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction; Section 2; Conclusion",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C5.1": {
+   "chosen": "A",
+   "reason": "Clone-proportionality is defined in terms of the number of voters each candidate represents, so it counts as representation or proportionality of voters used in a formal result."
+  },
+  "C5.2": {
+   "chosen": "A",
+   "reason": "Representation is computed on the submitted ballots, and the paper states that ballots follow from the held dichotomous preferences (C2.4 = IDS)."
+  },
+  "C6.VOT": {
+   "chosen": "A",
+   "reason": "The codebook counts fixed actions, and the paper explicitly has voters report ballots derived from their preferences, so voters are present and non-strategic."
+  }
+ }
+}

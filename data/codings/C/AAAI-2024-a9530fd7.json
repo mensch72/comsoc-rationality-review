@@ -1,0 +1,73 @@
+{
+ "paper_id": "AAAI-2024-a9530fd7",
+ "decisions": {
+  "C2.2": {
+   "value": {
+    "codes": [
+     "RANK"
+    ],
+    "loc": "Section 3, p. 9818",
+    "quote": "The algorithm learns, for each voter v \u2208 V , a ranking",
+    "note": "Rankings are by non-decreasing distance, so ties are possible, but the input is treated as a ranking with positions \u03c0v."
+   },
+   "chosen": "A",
+   "reason": "The rule's argument is the ranked-choice profile of rankings; the cardinal (known-metric) model is not an input to the studied rule, so OTH does not apply."
+  },
+  "C2.4": {
+   "value": {
+    "code": "DIST",
+    "loc": "Section 3, p. 9818",
+    "quote": "We say that a pseudo-metric d is consistent with the rankedchoice",
+    "note": "Rankings and distances use separate notation. Rankings are assumed consistent with distances, without a reason; DIST is listed first."
+   },
+   "chosen": "A",
+   "reason": "The paper uses separate notation for rankings and distances, and many metrics may be consistent with the rankings, which meets the DIST criterion of separate notation."
+  },
+  "C3.2": {
+   "value": {
+    "code": "STATED",
+    "loc": "Section 3, p. 9817",
+    "quote": "the voters are assumed to rank the candidates by non-decreasing distance",
+    "note": ""
+   },
+   "chosen": "A",
+   "reason": "The paper states in words that voters rank candidates according to their distances, which is a statement that inputs reflect held attitudes."
+  },
+  "C3.3": {
+   "value": {
+    "code": "NONE",
+    "loc": "Section 3, pp. 9817-9818",
+    "quote": "the voters are assumed to rank the candidates by non-decreasing distance",
+    "note": "Stated as an assumption without justification."
+   },
+   "chosen": "A",
+   "reason": "The assumption is stated without any justification for sincere ranking; the justification given concerns ordinal information, not incentives."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "EXPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Section 3, p. 9818",
+    "quote_behav": "Voters rank candidates by non-decreasing distances",
+    "loc_info": "",
+    "quote_info": "",
+    "note": ""
+   },
+   "chosen": "A",
+   "reason": "Voters take a fixed action (ranking candidates) in the model, so they are present under the codebook's 'strategically or fixed' rule, and that action is NONSTRAT and explicitly stated."
+  },
+  "C9.2": {
+   "value": {
+    "code": "ALL-STATED",
+    "loc": "Section 3, p. 9817",
+    "quote": "the voters are assumed to rank the candidates by non-decreasing distance",
+    "note": "The claims need rankings to reflect metric costs and distances to reflect voter preferences; both are stated (Section 3 and the introduction), though without justification."
+   },
+   "chosen": "A",
+   "reason": "The needed assumption that rankings reflect distances, and hence that voters are non-strategic, is explicitly stated, and the introduction states that preferences reflect distances."
+  }
+ }
+}

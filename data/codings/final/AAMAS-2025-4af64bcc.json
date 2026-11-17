@@ -1,0 +1,182 @@
+{
+ "paper_id": "AAMAS-2025-4af64bcc",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Section 1, p.2024",
+  "quote": "ABC rule plays a crucial role in collective decision-making",
+  "note": "Multiwinner approval voting; computational and axiomatic study of a proportionality measure."
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "AX"
+  ],
+  "primary": "AL",
+  "loc": "Section 1.2, p.2026",
+  "quote": "we focus on the computational complexity and the approximability",
+  "note": "AX covers Proposition 1 (JR vs EJR degree) and Corollary 1 (PAV attains maximum EJR degree for large n)."
+ },
+ "C2.1": {
+  "value": "approval ballots; ballot profile; approval preferences",
+  "loc": "Section 1, p.2024",
+  "quote": "A = (\ud835\udc341, . . . , \ud835\udc34\ud835\udc5b ) of approval ballots be the ballot profile"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Section 1, p.2024",
+  "quote": "who each approve a subset \ud835\udc34\ud835\udc56 of \ud835\udc36",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 1, p.2024",
+  "quote": "it can accurately reflect the voters\u2019 preferences",
+  "note": "Preferences are referred to, but they are not defined separately from the approval sets."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 1, p.2024",
+  "quote": "Given a profile A of \ud835\udc5b approval preferences",
+  "note": "The same object is called both ballots and preferences. Nothing is said about reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 1-4",
+  "quote": "none found",
+  "note": "No strategic analysis. Strategyproofness is only mentioned in related work."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 1.1, 2, 3, 4 checked",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 2.1, p.2027",
+  "quote": "each voter\u2019s \u201cutility\u201d is defined by the harmonic progression",
+  "note": "Satisfaction is defined as the number of approved winners. The PAV utility is the harmonic number of approved winners. Both are defined directly from the approval input."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term appears only in titles of cited references."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 1.1, Definition 4, p.2025",
+  "quote": "there are at least \ud835\udc50 voters each of which approves",
+  "note": "Representation and proportionality (JR/EJR degree) are evaluated in the formal results."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 1.1, p.2025",
+  "quote": "Given a ballot profile A = (\ud835\udc341, . . . , \ud835\udc34\ud835\udc5b )",
+  "note": ""
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 1, p.2024",
+   "quote_behav": "who each approve a subset \ud835\udc34\ud835\udc56 of \ud835\udc36",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Approval sets are given exogenously."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 1, p.2025",
+    "quote": "is clearly \u201cunfair\u201d to voters 3, 6, 9"
+   },
+   {
+    "loc": "Section 4, p.2031",
+    "quote": "the possibility of deviation will be reduced"
+   },
+   {
+    "loc": "Section 1, p.2025",
+    "quote": "many social choice scenarios require the committee to represent as many"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sections 1, 4",
+  "quote": "none found",
+  "note": "Two needed assumptions are not stated. (1) Approval ballots reflect voters' held attitudes; this is needed for the fairness and representation claims. (2) A behavioural model of group deviation and persuasion; this is needed for the deviation claim and is not part of the formal model."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 1.1, 4 checked",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C4.1": {
+   "chosen": "A",
+   "reason": "The format is APPR and voter utility or satisfaction is used, so C4.1 applies, and the paper defines utility as a function of approved winners, which is SPEC (B's NA contradicts its own note)."
+  },
+  "C6.VOT": {
+   "chosen": "A",
+   "reason": "Voters take the action of approving subsets, which is fixed by the model, so under the codebook they are present (actions may be fixed) and NONSTRAT, implicitly."
+  }
+ }
+}

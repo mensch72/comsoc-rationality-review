@@ -1,0 +1,195 @@
+{
+ "paper_id": "IJCAI-2021-43528f67",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Sec. 1 Introduction, p. 299",
+  "quote": "first citizens propose projects and then they vote on these projects.",
+  "note": "Participatory budgeting with approval ballots aggregated into budget allocations over several rounds."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "AL"
+  ],
+  "primary": "AX",
+  "loc": "Abstract, p. 299; Table 1, p. 302",
+  "quote": "investigate under which conditions these criteria can be satisfied, and analyze",
+  "note": "Most results are existence or impossibility guarantees for fairness criteria (Props 4, 5, Thm 7, Examples 5-8). Complexity results are Props 1-3."
+ },
+ "C2.1": {
+  "value": "approval ballots; ballots; approval function",
+  "loc": "Sec. 2, p. 300; Sec. 3 Def. 1, p. 300",
+  "quote": "their cost and the agents\u2019 approval ballots"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Sec. 3 Def. 1, p. 300",
+  "quote": "the set of projects Aj (i) \u2286 Pj she approves of.",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec. 4.2, p. 301",
+  "quote": "Even though agents can have personal utility functions to express their satisfaction",
+  "note": "Private utility functions are mentioned as distinct from what the decision maker observes."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Sec. 4.2, p. 301",
+  "quote": "We thus need to approximate the satisfaction of an agent.",
+  "note": "Private personal utility functions are described in words as separate from the approval ballots, and satisfaction computed from ballots is only an approximation of them."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Secs. 3-5, pp. 300-304",
+  "quote": "none found",
+  "note": "No analysis considers misreporting."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sec. 1 Introduction, Sec. 3, Sec. 4.2, Sec. 6 Conclusion",
+  "quote": "none found",
+  "note": "There is no statement that ballots reflect true preferences or utilities."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Sec. 4.2 Def. 6, p. 301",
+  "quote": "sat m j (I, \u03c0j , i) = c(\u03c0j \u2229 Aj (i)).",
+  "note": "Satisfaction is formally defined from approval ballots, analogous to utility for approved projects."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sec. 4.2, pp. 301-302",
+  "quote": "the fairness criteria equal-share can be considered a proportionality concept.",
+  "note": "Welfare measures (satisfaction, relative satisfaction, share) are used in all results."
+ },
+ "C5.2": {
+  "code": "INPUT-REPORTED",
+  "loc": "Sec. 4.2, pp. 301-302",
+  "quote": "neither agent 1 or 2 can be made happier (subject to the available information)",
+  "note": "Welfare is computed on ballots. The paper says it approximates private satisfaction from the available information."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sec. 3 Def. 1, p. 300",
+   "quote_behav": "is the approval function giving for every",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Ballots are exogenous inputs."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N",
+   "note": "A municipality or decision maker is mentioned, but solutions are studied as objects, not as an agent's choice."
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no strategic type."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Sec. 6 Conclusion, p. 304",
+    "quote": "taking the long-term viewpoint allows us to approximate forms of fairness"
+   },
+   {
+    "loc": "Sec. 1 Introduction, p. 299",
+    "quote": "it disregards the possibility of achieving fair outcomes over time"
+   },
+   {
+    "loc": "Sec. 1 Introduction, p. 300",
+    "quote": "cannot be guaranteed in a single round of PB and thus"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sec. 4.2, p. 301",
+  "quote": "We thus need to approximate the satisfaction of an agent.",
+  "note": "Fairness claims based on satisfaction need ballots to reflect voters' held attitudes, i.e. sincere approval. This is not stated; only an approximation is noted."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sec. 1, Sec. 3, Sec. 4.2, Sec. 6",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C1": {
+   "chosen": "A",
+   "reason": "The results are existence guarantees for fairness criteria (AX) and complexity results (AL); no result measures rule performance against a welfare optimum or distortion, so WD does not apply."
+  },
+  "C2.4": {
+   "chosen": "A",
+   "reason": "The input is called approval ballots rather than preferences, so IDU does not fit, and the text separates the private utility functions from what is observed."
+  },
+  "C4.1": {
+   "chosen": "A",
+   "reason": "The paper formally defines voter satisfaction as a function of the approval input, which matches the SPEC examples."
+  },
+  "C5.2": {
+   "chosen": "A",
+   "reason": "The paper does relate the ballot-based welfare to held attitudes, saying it approximates private utility using the available information, so INPUT-UNSTATED does not fit."
+  },
+  "C6.VOT": {
+   "chosen": "A",
+   "reason": "Voters submit approval ballots, which counts as an action even when fixed, so voters are present and non-strategic by implication from the formal model."
+  }
+ }
+}

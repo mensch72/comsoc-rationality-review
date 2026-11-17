@@ -1,0 +1,100 @@
+{
+ "paper_id": "GEB-2024-fa546f24",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "EQ"
+    ],
+    "primary": "EQ",
+    "loc": "2. Model, p.210",
+    "quote": "We use perfect Bayesian equilibrium (PBE) as the solution concept.",
+    "note": "Main results characterise existence of informative equilibria and full information aggregation. The aggregation result is framed as equilibrium mistake probabilities, not as welfare or distortion, so WD is not coded."
+   },
+   "chosen": "A",
+   "reason": "The paper frames Proposition 4 as information aggregation in equilibrium (mistake probabilities), not as performance against a welfare or distortion objective, so EQ alone fits."
+  },
+  "C5.1": {
+   "value": {
+    "code": "N",
+    "loc": "3.2, p.212",
+    "quote": "full information aggregation is achieved as",
+    "note": "Results evaluate equilibria by information transmission and aggregation (DM mistake probabilities), not by welfare, efficiency, representation, proportionality or distortion."
+   },
+   "chosen": "A",
+   "reason": "None of the listed criteria is used in the results; the paper evaluates accuracy of the decision relative to the state and never frames this as welfare or efficiency."
+  },
+  "C5.2": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "C5.1 = N."
+   },
+   "chosen": "A",
+   "reason": "Follows from C5.1 = N."
+  },
+  "C6.ORG": {
+   "value": {
+    "present": "Y",
+    "behav": "STRAT",
+    "behav_stated": "EXPLICIT",
+    "info": "PARTIAL",
+    "info_stated": "EXPLICIT",
+    "loc_behav": "3.1, p.211",
+    "quote_behav": "the DM optimally chooses \ud835\udc4c if |\ud835\udc63| \u2265 \ud835\udc58",
+    "loc_info": "2. Model, p.209",
+    "quote_info": "after observing each member\u2019s vote",
+    "note": "The decision maker aggregates the votes and endogenously chooses the decision rule, so she fits ORG. She observes all votes but not the signals, and holds only a common prior and posterior beliefs about the signals, so PARTIAL is coded."
+   },
+   "chosen": "other",
+   "reason": "The DM is an authority who chooses the decision rule and so fits ORG. She sees the inputs but knows the held signals only through a prior and posterior beliefs, so PARTIAL fits better than COMPLETE."
+  },
+  "C6.OTH": {
+   "value": {
+    "present": "N"
+   },
+   "chosen": "A",
+   "reason": "The decision maker is coded under ORG, and no other acting agent exists in the model."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "STRAT",
+    "behav_stated": "EXPLICIT",
+    "info": "PARTIAL",
+    "info_stated": "EXPLICIT",
+    "loc_behav": "3.1, p.210",
+    "quote_behav": "must be indi\ufb00erent between voting for \ud835\udc4c and \ud835\udc41 conditional on being pivotal",
+    "loc_info": "2. Model, p.209",
+    "quote_info": "Each member \ud835\udc56 (he) receives a private signal",
+    "note": "Members observe only their own private signal and the common prior, not others' signals."
+   },
+   "chosen": "other",
+   "reason": "B's codes are right because the private nature of the signals is said in words, but B's info quote was not verbatim and has been corrected."
+  },
+  "C8.1": {
+   "value": {
+    "codes": [
+     "BNE",
+     "SPE"
+    ],
+    "loc": "2. Model, p.210",
+    "quote": "We use perfect Bayesian equilibrium (PBE) as the solution concept.",
+    "note": "Perfect Bayesian equilibrium of a sequential game (votes, then the DM's decision) combines Bayesian beliefs with sequential rationality."
+   },
+   "chosen": "B",
+   "reason": "PBE in this two-stage game involves both Bayesian updating and backward-induction sequential rationality by the DM, so both codes apply."
+  },
+  "C9.2": {
+   "value": {
+    "code": "ALL-STATED",
+    "loc": "1. Introduction, p.208",
+    "quote": "a decision maker (DM) who cannot commit to a decision rule",
+    "note": "Needed assumptions: strategic voters and DM, non-commitment and endogenous rule, continuous signals, IHRP, conflict of interest. All are stated in the model."
+   },
+   "chosen": "A",
+   "reason": "The assumptions needed for the claims about unanimity and consensus are all stated explicitly, and B names no specific unstated assumption that the codebook would count as needed."
+  }
+ }
+}

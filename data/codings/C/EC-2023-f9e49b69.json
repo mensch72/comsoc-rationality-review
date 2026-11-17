@@ -1,0 +1,39 @@
+{
+ "paper_id": "EC-2023-f9e49b69",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "EQ",
+     "WD"
+    ],
+    "primary": "EQ",
+    "loc": "Abstract, p.1; Section 4, p.10",
+    "quote": "every \ud835\udf00-strong Bayes Nash Equilibrium with \ud835\udf00 converging to 0",
+    "note": "Main results characterise \u03b5-strong BNE (EQ). Fidelity analysis of strategy profiles, including informative and sincere voting, is coded WD because it measures performance against the informed majority decision."
+   },
+   "chosen": "A",
+   "reason": "Corollaries 3-4 characterise when informative and sincere voting reach high fidelity, which is a performance (WD) result rather than an axiomatic property characterisation, so AX does not apply."
+  },
+  "C3.2": {
+   "value": {
+    "code": "STATED",
+    "loc": "Section 1.2, p.2-3; Section 4.1, Definition 5, p.13",
+    "quote": "A sincere agent chooses the alternative that maximizes the expected utility",
+    "note": "Informative voting is described in words as votes honestly reflecting private signals. Sincere voting is described as voting to maximise one's own expected utility given the signal. Both statements link the vote to held attitudes."
+   },
+   "chosen": "A",
+   "reason": "NA is allowed only when C2.4 = ONE or C3.1 = ALL, neither of which holds, and the paper states in words how non-strategic votes follow from held signals and utilities."
+  },
+  "C3.3": {
+   "value": {
+    "code": "CONV",
+    "loc": "Section 4.1, p.13",
+    "quote": "we study the two most common non-strategic voting schemes",
+    "note": "The behaviours are justified only by being common, standard schemes, and they serve as benchmarks against strategic voting."
+   },
+   "chosen": "A",
+   "reason": "C3.2 is STATED, and the only justification offered is that these are the most common (conventional) non-strategic schemes."
+  }
+ }
+}

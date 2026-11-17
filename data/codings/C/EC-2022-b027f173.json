@@ -1,0 +1,79 @@
+{
+ "paper_id": "EC-2022-b027f173",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "EQ",
+     "WD"
+    ],
+    "primary": "EQ",
+    "loc": "Section 5.2, Theorem 1, p.13; Section 6.2, Theorem 2, p.20",
+    "quote": "We now characterize the set of equilibrium payoffs in the repeated game.",
+    "note": "Main results characterise subgame-perfect equilibrium payoffs. Welfare comparisons of majority rules (the optimal rule maximising the highest equilibrium payoff) are also main results. Incentives to vote non-sincerely are analysed as equilibrium behaviour, not as a separate manipulation or strategyproofness result, so they are coded EQ rather than SB."
+   },
+   "chosen": "A",
+   "reason": "The non-sincere voting incentives are analysed only through equilibrium characterisation, which is EQ; adding SB as a separate type is not warranted."
+  },
+  "C3.1": {
+   "value": {
+    "code": "ALL",
+    "loc": "Section 4.1, p.9; Section 4.2, p.10",
+    "quote": "At the unique Nash equilibrium in weakly undominated strategies",
+    "note": "Even the stage-game sincere benchmark is derived as an equilibrium of strategic voters who could deviate, not assumed."
+   },
+   "chosen": "A",
+   "reason": "Voters are strategic in every analysis; stage-game sincerity is an equilibrium result, not an assumption of non-strategic voters."
+  },
+  "C3.2": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "C3.1 = ALL."
+   },
+   "chosen": "A",
+   "reason": "Follows from C3.1 = ALL."
+  },
+  "C3.3": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "C3.2 is not STATED."
+   },
+   "chosen": "A",
+   "reason": "Follows from C3.2 = NA."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "STRAT",
+    "behav_stated": "EXPLICIT",
+    "info": "COMPLETE",
+    "info_stated": "EXPLICIT",
+    "loc_behav": "Section 4.2, p.10-11",
+    "quote_behav": "Agents then vote for the alternative that maximizes their continuation utility.",
+    "loc_info": "Section 4.2, p.10; Section 8.1, p.26",
+    "quote_info": "Our model assumes complete information in the stage-game",
+    "note": "Utilities are publicly observed at each stage, while future reforms are uncertain. In the stage game, sincere voting is the equilibrium choice of strategic voters. Appendix B gives an incomplete-information example in which agents observe only their own utility."
+   },
+   "chosen": "A",
+   "reason": "Stage-game sincere voting is chosen as a weakly dominant strategy, so voters are strategic throughout rather than MIXED."
+  },
+  "C8.1": {
+   "value": {
+    "codes": [
+     "SPE",
+     "NE",
+     "DOM"
+    ],
+    "loc": "Section 4.2, p.10; Section 4.1, p.9; Section 2, p.5",
+    "quote": "We focus on subgame perfect equilibria that satisfy the following",
+    "note": "SPE is refined by Symmetry, Anonymous Histories and As-if-pivotal Voting. The stage game uses Nash equilibrium in weakly undominated strategies, and sincere voting is stated to be weakly dominant."
+   },
+   "chosen": "A",
+   "reason": "The paper explicitly uses weak dominance for the stage game in addition to NE and SPE."
+  }
+ }
+}

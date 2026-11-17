@@ -1,0 +1,31 @@
+{
+ "paper_id": "COMSOC-2023-de41cb58",
+ "decisions": {
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Sec. 1, problem definition GCSE, p.2",
+    "quote_behav": "a sequence of nomination profiles U = (u1 , . . . , u\u03c4 )",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Agents nominate candidates, an action fixed by the model as given input; no strategic nomination is modelled."
+   },
+   "chosen": "A",
+   "reason": "Under the codebook, a type is present when its agents take an action in the model even if that action is fixed; nominating is such an action, so voters are present and NONSTRAT."
+  },
+  "C9.2": {
+   "value": {
+    "code": "SOME-UNSTATED",
+    "loc": "Section 5, Epilogue, p.12",
+    "quote": "where egalitarian or even equitable solutions appear particularly relevant",
+    "note": "The claims about fairness and the relevance of egalitarian or equitable solutions for agents need nominations to reflect agents' actual satisfaction, i.e. no misreporting. This is not stated (C3.2 = NOT-STATED, C2.4 = IDU). The tractability claim follows from the formal results."
+   },
+   "chosen": "other",
+   "reason": "B's code is correct because the fairness claims need an unstated input-equals-held-attitude assumption; the abstract's 'would satisfy her' is definitional and says nothing about reporting, but B's quote exceeds 12 words, so the quote was replaced."
+  }
+ }
+}

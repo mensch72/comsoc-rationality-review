@@ -1,0 +1,34 @@
+{
+ "paper_id": "EC-2021-acea6a8c",
+ "decisions": {
+  "C2.2": {
+   "value": {
+    "codes": [
+     "WEAK",
+     "PAIR"
+    ],
+    "loc": "Section 1, p.2; Abstract, p.1; Theorem 1.1, p.3",
+    "quote": "single-winner voting rule defined on (weak) ordinal preference ballots",
+    "note": "The rule is defined on weak orders. Several main results (Theorems 1.1, 4.1, 5.3; Propositions 3.2, 3.3) take the weighted majority graph as input: 'When the input is the weighted majority graph'. Linear orders appear only as special instances in the lower-bound constructions, not as the input format."
+   },
+   "chosen": "other",
+   "reason": "The input format is weak orders, and the weighted majority graph is the stated input of several main results, so PAIR applies; strict rankings occur only as special cases inside the reductions, so RANK does not."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Section 2, p.6",
+    "quote_behav": "A preference profile P (or a multiset of votes) is a list",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Voters give ballots, which are fixed weak orders taken as given input; the codebook counts fixed actions as presence."
+   },
+   "chosen": "A",
+   "reason": "The codebook counts a type as present when its action is fixed, and voters give ballots in the model ('the voters give (weak) ordinal preference ballots'), so voters are present and NONSTRAT."
+  }
+ }
+}

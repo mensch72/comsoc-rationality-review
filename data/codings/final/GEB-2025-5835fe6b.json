@@ -1,0 +1,198 @@
+{
+ "paper_id": "GEB-2025-5835fe6b",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Section 2, p.9",
+  "quote": "voters vote for the candidate whose election would give them",
+  "note": "Two-candidate majority election; the paper studies candidates' strategic platform choice in this voting procedure."
+ },
+ "C1": {
+  "types": [
+   "EQ"
+  ],
+  "primary": "EQ",
+  "loc": "Abstract, p.1",
+  "quote": "we find a unique pure strategy Nash equilibrium",
+  "note": ""
+ },
+ "C2.1": {
+  "value": "votes",
+  "loc": "Section 2, p.8",
+  "quote": "There are two candidates, A and B, that compete for votes"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 2, p.9, fn.6",
+  "quote": "voter i votes for candidate A if ui (A) > ui (B)",
+  "note": "Single vote for one of two candidates, split in case of indifference."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.8",
+  "quote": "Voters have a utility function with three components",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2, p.9, fn.6",
+  "quote": "Indeed, such a behavior is dominant even if there is",
+  "note": "The vote is a choice defined from utilities and is a separate object from them. IDJ could also fit; DIST is listed first."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Section 2, p.9",
+  "quote": "Since the behavior of the voters is unambiguous in this model",
+  "note": ""
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Section 2, p.9",
+  "quote": "voters vote for the candidate whose election would give them",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "SP",
+  "loc": "Section 2, p.9, fn.6",
+  "quote": "such a behavior is dominant even if there is a finite",
+  "note": ""
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C2.2 is OTH only."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 3.3-3.4",
+  "quote": "none found",
+  "note": "Results concern platforms, polarization, expected policy outcome and win probabilities."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2, p.9",
+   "quote_behav": "voters vote for the candidate whose election would give them",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "CAN": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 2, p.9",
+   "quote_behav": "Candidates are office motivated, thus they maximize their probability",
+   "loc_info": "Section 2, p.9",
+   "quote_info": "They have beliefs about the ideal point of the median voter",
+   "note": "Candidates know each other's reference policies and valence. About voters' held attitudes, they hold only a common prior F over the median voter's ideal point."
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N",
+   "note": "Parties and party elites are discussed but not modelled as acting agents."
+  }
+ },
+ "C7.1": {
+  "code": "Y",
+  "loc": "Section 2, p.9",
+  "quote": "we define an equilibrium of the game only in terms",
+  "note": "CAN are STRAT and VOT are NONSTRAT."
+ },
+ "C7.2": {
+  "code": "REASON",
+  "loc": "Section 2, p.9, fn.6",
+  "quote": "such a behavior is dominant even if there is a finite",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [
+   "NE",
+   "SPE"
+  ],
+  "loc": "Section 2, p.9; Section 3.4.1, p.26",
+  "quote": "The solution concept we consider is Nash equilibrium.",
+  "note": "Subgame perfect equilibrium is used for the sequential-timing variant in Section 3.4.1, where an equilibrium is characterised."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 2, p.9",
+  "quote": "The solution concept we consider is Nash equilibrium."
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.5",
+    "quote": "it might be preferable for a policy-motivated party elite to"
+   },
+   {
+    "loc": "Concluding remarks, p.29",
+    "quote": "parties might not lose on all fronts when nominating a"
+   },
+   {
+    "loc": "Abstract, p.1",
+    "quote": "parties' motives to nominate low-quality candidates."
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 2, pp.8-9; Introduction, p.5",
+  "quote": "the degree at which party elites care about winning vs.",
+  "note": "The needed assumptions are stated: voter utility with consistency and valence, sincere and dominant voting, office-motivated candidates, a common prior, and party elites caring about policy. The paper explicitly says the nomination game is not modelled and hedges its claims."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 2, 4",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C6.CAN": {
+   "chosen": "A",
+   "reason": "Candidates know voters' ideal points only through a common prior F, which is PARTIAL information about others' held attitudes; the common information concerns candidates, not voters."
+  },
+  "C8.1": {
+   "chosen": "A",
+   "reason": "The paper characterises an essentially unique Subgame Perfect Equilibrium of the sequential variant, so SPE is a solution concept used in an analysis, not just a passing mention."
+  },
+  "C9.2": {
+   "chosen": "A",
+   "reason": "The assumptions needed for the nomination claims (policy-motivated elites, voter utilities, candidate motives and information) are all stated, and the unmodelled nomination stage is explicitly acknowledged rather than assumed silently."
+  }
+ }
+}

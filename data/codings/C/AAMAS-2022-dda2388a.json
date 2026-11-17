@@ -1,0 +1,31 @@
+{
+ "paper_id": "AAMAS-2022-dda2388a",
+ "decisions": {
+  "C2.4": {
+   "value": {
+    "code": "DIST",
+    "loc": "Sec. 1 Introduction, p.409",
+    "quote": "they may strategize as they wish.",
+    "note": "There is no separate notation. The introduction says outright that voters may strategize, so what they submit may differ from the projects they would like to fund. This meets the textual criterion for DIST, although the formal model applies the rules to the approval profile directly."
+   },
+   "chosen": "A",
+   "reason": "The codebook allows DIST on text saying submitted inputs may differ from held attitudes, and 'they may strategize as they wish' is such text."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Sec. 3, p.410",
+    "quote_behav": "the set of projects that voter \ud835\udc56 approves.",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Voters act in the model by approving projects. Their approval sets are fixed inputs, and strategizing is mentioned only in the introduction."
+   },
+   "chosen": "A",
+   "reason": "The codebook counts a type as present when it takes an action even if that action is fixed, and voters submitting approval sets is such an action."
+  }
+ }
+}

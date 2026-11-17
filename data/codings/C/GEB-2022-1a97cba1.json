@@ -1,0 +1,31 @@
+{
+ "paper_id": "GEB-2022-1a97cba1",
+ "decisions": {
+  "C3.3": {
+   "value": {
+    "code": "NONE",
+    "loc": "Section 3.2, p.6",
+    "quote": "each voter acts as if there is only one voter",
+    "note": "The citation to Austen-Smith and Banks supports the definition of sincere voting, not a reason for assuming sincerity, and the paper never calls it a benchmark."
+   },
+   "chosen": "B",
+   "reason": "The paper gives no reason for the sincere-voting analysis; A's 'benchmark' rationale is the coder's inference, not a reason stated in the text."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "MIXED",
+    "behav_stated": "EXPLICIT",
+    "info": "PARTIAL",
+    "info_stated": "IMPLICIT",
+    "loc_behav": "Introduction, p.3",
+    "quote_behav": "under strategic voting equilibria, each voter cares only about the event",
+    "loc_info": "Introduction, p.2",
+    "quote_info": "each voter independently receives an informative signal",
+    "note": "Voters are strategic in the equilibrium analyses and sincere in Section 3.2. Each voter's knowledge of others' signals (priors only) follows from the Bayesian model and is not stated in words."
+   },
+   "chosen": "A",
+   "reason": "What voters know about others' signals is only inferable from the BNE model, so IMPLICIT fits, and B's behaviour quote is placed at a location where the text reads differently."
+  }
+ }
+}

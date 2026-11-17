@@ -1,0 +1,45 @@
+{
+ "paper_id": "EC-2023-d244aafc",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "AX",
+     "AL"
+    ],
+    "primary": "AX",
+    "loc": "Section 1.3, p.7",
+    "quote": "an e\u03b2 -approximate restrained core is always non-empty",
+    "note": "The main results concern existence and approximation of core and EJR properties. The polynomial-time Local results (Table 1, Sections 2.3 and 3) are secondary algorithmic content. Approximate-core bounds are relaxations of an axiom, not a welfare or distortion objective, so WD is not coded."
+   },
+   "chosen": "A",
+   "reason": "The approximate restrained core and EJR are proportionality axioms rather than performance against a welfare objective, so WD does not apply and AX/AL with AX primary is correct."
+  },
+  "C4.1": {
+   "value": {
+    "code": "SPEC",
+    "loc": "Section 1.1, p.2",
+    "quote": "Their utility for T is ui (T ) = |T \u2229 Ai |.",
+    "note": ""
+   },
+   "chosen": "A",
+   "reason": "C2.2 includes APPR and voter utilities are used, so C4.1 applies, and the paper defines approval utility explicitly as |T \u2229 Ai|."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Section 1, p.2",
+    "quote_behav": "Voters express preferences over subsets of candidates.",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "The voters' only action is expressing utilities, which are fixed inputs to the rule. Deviating coalitions are part of the core definition, not modelled actions."
+   },
+   "chosen": "A",
+   "reason": "Voters are described as expressing preferences, an action fixed by the model, so they are present and non-strategic, which is only inferable from the model."
+  }
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "paper_id": "SCW-2022-a9a4c9a9",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "AX",
+     "SB",
+     "EQ"
+    ],
+    "primary": "AX",
+    "loc": "Section 4, Theorem 3, p.571; Section 3, Theorem 1, p.567",
+    "quote": "an anonymous and unanimous SCR is implementable if and only if",
+    "note": "The main results characterise which SCRs satisfy implementability, unanimity and anonymity. AX and SB fit about equally well, so under the doubt rule the first-listed code, AX, is primary."
+   },
+   "chosen": "B",
+   "reason": "The results are characterisations of rules satisfying properties, and where AX and SB fit equally the codebook says to pick the first listed, AX."
+  },
+  "C2.2": {
+   "value": {
+    "codes": [
+     "RANK",
+     "OTH"
+    ],
+    "loc": "Sec 2 Model, p.564",
+    "quote": "the set of all strict, complete and transitive alignments over X",
+    "note": "Strict single-peaked preferences are reported. OTH covers the reported alignment (an axis, not a preference) and the arbitrary message components Li, such as integers and alternatives."
+   },
+   "chosen": "A",
+   "reason": "The rule's input includes a reported alignment and extra message components that are not preferences, so OTH is needed alongside RANK."
+  },
+  "C6.DES": {
+   "value": {
+    "present": "Y",
+    "behav": "STRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "PARTIAL",
+    "info_stated": "EXPLICIT",
+    "loc_behav": "Sec 5 Discussion, p.573",
+    "quote_behav": "she can identify which SCR she should choose",
+    "loc_info": "Abstract, p.561; Sec 4, p.570",
+    "quote_info": "she places a positive probability over every possible alignment",
+    "note": "The designer chooses a mechanism or SCR that is robust to uncertainty. She knows the set A of possible alignments (a prior), so her information is partial."
+   },
+   "chosen": "A",
+   "reason": "The designer knows the set A of possible alignments and has a prior over them, which counts as PARTIAL rather than NONE."
+  },
+  "C7.1": {
+   "value": {
+    "code": "N",
+    "loc": "Sec 2, p.565; C6",
+    "quote": "none found",
+    "note": "Both present types, VOT and DES, are modelled as strategic."
+   },
+   "chosen": "A",
+   "reason": "Two types are present and both are STRAT, so the code is N, not NA."
+  },
+  "C8.1": {
+   "value": {
+    "codes": [
+     "DOM",
+     "NE"
+    ],
+    "loc": "Abstract, p.561; Definition 3, p.565",
+    "quote": "requires Nash implementation in the public information and dominant strategy implementation",
+    "note": "Implementation in mixed information equilibria combines Nash implementation for the public state with dominant-strategy implementation for the private state. The existing codes cover it, so OTH is not needed."
+   },
+   "chosen": "B",
+   "reason": "The named concept is a combination of NE and DOM, both already coded, so a separate OTH is redundant."
+  }
+ }
+}

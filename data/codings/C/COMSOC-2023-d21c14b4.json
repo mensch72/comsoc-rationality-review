@@ -1,0 +1,41 @@
+{
+ "paper_id": "COMSOC-2023-d21c14b4",
+ "decisions": {
+  "C5.1": {
+   "value": {
+    "code": "Y",
+    "loc": "Section 4, p.10",
+    "quote": "the chosen committee should proportionally reflect the voters\u2019 preferences",
+    "note": "Theorem 4 uses clone-proportionality. The paper defines it through how many voters each candidate represents, which is a representation and proportionality criterion towards voters."
+   },
+   "chosen": "A",
+   "reason": "Clone-proportionality is defined in terms of the number of voters each candidate represents, so it counts as representation or proportionality of voters used in a formal result."
+  },
+  "C5.2": {
+   "value": {
+    "code": "INPUT-STATED",
+    "loc": "Section 4, p.10",
+    "quote": "whereas the candidate c represents n2 voters",
+    "note": "Evaluated on ballots. C2.4 = IDS."
+   },
+   "chosen": "A",
+   "reason": "Representation is computed on the submitted ballots, and the paper states that ballots follow from the held dichotomous preferences (C2.4 = IDS)."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "EXPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Section 2, p.3",
+    "quote_behav": "Thus, voters report approval ballots Ai which are nonempty subsets",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Voters take a fixed action, reporting ballots, so they are present under the 'whether chosen strategically or fixed' clause."
+   },
+   "chosen": "A",
+   "reason": "The codebook counts fixed actions, and the paper explicitly has voters report ballots derived from their preferences, so voters are present and non-strategic."
+  }
+ }
+}

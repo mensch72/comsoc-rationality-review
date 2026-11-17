@@ -1,0 +1,198 @@
+{
+ "paper_id": "COMSOC-2025-b65c2dac",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Section 1.1, p.3; Section 3, p.5",
+  "quote": "we consider the classical ranking-based voting scenario",
+  "note": "Randomized voting rules are one of three main settings. The other two are one- and two-sided matching. Voting is a main object, so coded ELIG."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SB",
+   "AL",
+   "OT"
+  ],
+  "primary": "AX",
+  "loc": "Abstract, p.1; Section 1.1, p.3; Sections 3-4",
+  "quote": "We study the compatibility of efficiency and strategyproofness for randomized voting rules",
+  "note": "OT: the paper calls the quantile agent utility model its main conceptual contribution. AL: polynomial-time results (Theorem 10, Theorem 26, Algorithm 1). SB: strategyproofness as a property."
+ },
+ "C2.1": {
+  "value": "voting profile; profile of agent preferences; rankings submitted as votes; preference profile",
+  "loc": "Section 1.1, p.3; Section 3, p.5",
+  "quote": "rankings of the available alternatives that are submitted as votes"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK",
+   "OTH"
+  ],
+  "loc": "Section 3, p.5; Section 4, p.9",
+  "quote": "\u227bi is a strict ordering over the alternatives",
+  "note": "OTH: the matching mechanisms take as input the vector h of quantile parameters together with the preference profile."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Abstract, p.1",
+  "quote": "Each agent has a preference over all outcomes and a quantile parameter",
+  "note": "Agents also hold a true preference that can differ from what is reported (strategyproofness)."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 4, proof of Theorem 16, p.11; Definition 5, p.6",
+  "quote": "when agent 3 misreports \u227b\u20323 instead of her true preference \u227b2",
+  "note": "The strategyproofness definitions and proofs distinguish the true preference \u227bi from the reported preference \u227b\u2032i."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "Section 4, proof of Theorem 13, p.10",
+  "quote": "unilateral misreporting by agent i cannot result to a final lottery",
+  "note": "The strategyproofness analyses consider misreports. The efficiency, welfare, proportionality, envy-freeness and stability analyses do not."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Checked: Abstract, Section 1 (Introduction), Section 2 (model), Section 3, Section 4, Section 5 (Conclusion), Appendices",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Abstract, p.1; Section 2, p.4",
+  "quote": "an agent gets utility from a particular representative",
+  "note": "Utility is defined from the ranking and the quantile parameter via the h-quantile representative."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Definition 3, p.6; Theorem 10, p.9; Definition 14, p.10",
+  "quote": "a lottery x over the alternatives of A is efficient if",
+  "note": "Pareto efficiency, a variant of social welfare, and proportionality/envy-freeness as fairness."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Definition 3, p.6",
+  "quote": "a lottery x over the alternatives of A is efficient if",
+  "note": "Efficiency is evaluated on the profile \u227b given as input to the rule. In the non-strategic analyses no statement relates it to true preferences."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Section 3, after Definition 5, p.6; Section 4, proof of Theorem 13, p.10",
+   "quote_behav": "profile that is obtained from \u227b when agent i changes her preference",
+   "loc_info": "Checked Sections 2-4 and Appendix C",
+   "quote_info": "none found",
+   "note": "Agents may misreport in the strategyproofness analyses and are fixed in the efficiency, welfare and fairness analyses."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only one type (voters/agents) is present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "DOM"
+  ],
+  "loc": "Definition 5, p.6",
+  "quote": "the voting rule R is strategyproof for the domain (N, A, \u00b7, h)",
+  "note": ""
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Definition 5, p.6",
+  "quote": "Definition 5 (strategyproofness)."
+ },
+ "C9.1": {
+  "code": "N",
+  "claims": [],
+  "note": "The real-world uses in the introduction serve only as motivation. The other claims concern formal compatibility of properties within the model."
+ },
+ "C9.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C9.1 is N."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Checked: Abstract, Section 1, Section 2, Section 3, Section 5",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C1": {
+   "chosen": "A",
+   "reason": "The paper explicitly presents the new utility model as its main conceptual contribution, so OT applies alongside AX, AL and SB."
+  },
+  "C2.2": {
+   "chosen": "A",
+   "reason": "The matching mechanisms explicitly take the quantile vector h as input, which is a non-ranking format."
+  },
+  "C2.4": {
+   "chosen": "A",
+   "reason": "The text explicitly says that the submitted preference can differ from the true preference, which meets DIST."
+  },
+  "C4.1": {
+   "chosen": "A",
+   "reason": "The inputs are rankings, the paper uses utility for voters, and it formally defines how the ranking determines the comparison of lotteries."
+  },
+  "C5.2": {
+   "chosen": "A",
+   "reason": "Efficiency is defined on the input profile \u227b, and there is no statement equating that profile with held preferences outside the strategyproofness analyses."
+  },
+  "C6.VOT": {
+   "chosen": "A",
+   "reason": "Voters are strategic only in the strategyproofness analyses, so MIXED applies, and the misreporting is described in words."
+  },
+  "C9.1": {
+   "chosen": "A",
+   "reason": "The cited passages are motivation or restatements of formal results, not claims about institutions, voter well-being or which rule to use; one of B's quotes also exceeds 12 words."
+  },
+  "C9.2": {
+   "chosen": "A",
+   "reason": "C9.1 = N, so C9.2 is NA."
+  }
+ }
+}

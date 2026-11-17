@@ -1,0 +1,51 @@
+{
+ "paper_id": "IJCAI-2022-d9445a57",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "AX",
+     "SB",
+     "SI",
+     "EM"
+    ],
+    "primary": "AX",
+    "loc": "Abstract p.230; Sec. 4 p.233; Sec. 5.2 p.235; Sec. 6 p.235",
+    "quote": "study the obtained runoff rules from an axiomatic point of view",
+    "note": "SB from weak strategyproofness (Theorem 1), since the codebook counts strategyproofness as a property under SB; SI from Gaussian simulations; EM from French election and poster datasets."
+   },
+   "chosen": "A",
+   "reason": "Theorem 1 is a main result on strategyproofness, which the SB definition explicitly includes as a property."
+  },
+  "C2.4": {
+   "value": {
+    "code": "DIST",
+    "loc": "Sec. 3.1 footnote 4, p.231; Sec. 1 p.231",
+    "quote": "voters are strategic and cast insincere approval ballots",
+    "note": "Footnote 4 and the deviation analysis treat submitted ballots as possibly differing from held preferences. The main text also assumes sincere ballots, citing convention, so IDJ could fit; DIST is listed first."
+   },
+   "chosen": "A",
+   "reason": "Footnote 4 says submitted ballots may differ from held preferences, which meets DIST, and IDS is wrong because a convention-type reason is given."
+  },
+  "C4.1": {
+   "value": {
+    "code": "PART",
+    "loc": "Sec. 3.2, p.232",
+    "quote": "discount the satisfaction of voters who are already satisfied",
+    "note": "Satisfaction is tied informally to approved finalists; no utility notion is defined."
+   },
+   "chosen": "A",
+   "reason": "The paper's own Section 3.2 uses voter satisfaction, so C4.1 applies, and its relation to approvals is only mentioned informally, not defined."
+  },
+  "C9.2": {
+   "value": {
+    "code": "ALL-STATED",
+    "loc": "Sec. 1, p.231",
+    "quote": "we concentrate on the counting of sincere ballots cast by a fixed electorate",
+    "note": "The needed assumption is that ballots reflect held preferences and that the electorate is fixed; the paper states it in Section 1, including the exclusion of between-round dynamics."
+   },
+   "chosen": "A",
+   "reason": "The needed sincerity and fixed-electorate assumptions are stated in Section 1, and the codebook does not require them to be restated in the conclusion."
+  }
+ }
+}

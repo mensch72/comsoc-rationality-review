@@ -1,0 +1,211 @@
+{
+ "paper_id": "EC-2023-3f145b26",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "3.1 Model, p.4",
+  "quote": "We aggregate the experts\u2019 top \ud835\udc58 rankings and select a candidate",
+  "note": "Committee voting: experts' votes are aggregated by a voting rule into a choice of candidate(s)."
+ },
+ "C1": {
+  "types": [
+   "WD"
+  ],
+  "primary": "WD",
+  "loc": "Abstract; 1.1 Our Results; Sec. 4-5",
+  "quote": "selects a candidate whose quality is at most \ud835\udf00 worse than the best one",
+  "note": "The paper names Theorems 4.1 and 5.1 as its main results; these are regret-guarantee bounds on committee size. The running-time statements (Algorithm 1, Corollary 4.10) are secondary and not main results, so AL is not coded."
+ },
+ "C2.1": {
+  "value": "reported rankings; top k rankings; votes; k-approval ballots",
+  "loc": "3.1 Model, p.4",
+  "quote": "to refer to the set of reported rankings"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK",
+   "APPR"
+  ],
+  "loc": "3.1, p.4; 3.2, p.5",
+  "quote": "each expert returns a ranking of her top \ud835\udc58 candidates",
+  "note": "Inputs are top-k partial rankings, with k=1 meaning a single vote. Section 3.2 analyses k-approval ballots, giving a negative result. The rule also takes candidate and expert locations as inputs."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "3.1 Model, p.4",
+  "quote": "\ud835\udc57 maximizes the perceived quality \ud835\udc5e \ud835\udc57 \u2212\ud835\udc51 (\ud835\udc52\ud835\udc56 , \ud835\udc50 \ud835\udc57 )",
+  "note": "Experts hold perceived qualities (evaluations) of candidates, defined independently of what they submit."
+ },
+ "C2.4": {
+  "code": "IDS",
+  "loc": "1 Introduction, p.2",
+  "quote": "each expert will vote for who she believes is the best candidate",
+  "note": "Submitted rankings are defined as the argmax of perceived quality. No reason is given for why experts would not misreport."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "3.1, p.4; Sections 4-6",
+  "quote": "expert \ud835\udc56 votes for candidate \ud835\udc57 if and only if \ud835\udc57 maximizes",
+  "note": ""
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "1 Introduction, p.2",
+  "quote": "each expert will vote for who she believes is the best candidate",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "1 Introduction, p.2; 3.1, p.4",
+  "quote": "each expert will vote for who she believes is the best candidate",
+  "note": "No reason for sincere voting is given."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "2 Related Work, p.3; 3.1, p.4",
+  "quote": "utility functions that are unobservable by the planner underlie the preferences",
+  "note": "Rankings are defined as ordering by q_j \u2212 d(e_i, c_j), so the link between utility and ranking is fully specified."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "2 Related Work, p.3; 3.1, p.5; Sections 4-6",
+  "quote": "the planner\u2019s goal is not to maximize the social welfare",
+  "note": "Results evaluate regret in candidate quality, which is the planner's objective. They do not evaluate voter welfare, efficiency, representation or distortion, and the paper explicitly contrasts this objective with social welfare."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "1 Introduction, p.2",
+   "quote_behav": "each expert will vote for who she believes is the best candidate",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Experts report their rankings by perceived quality; they are not modelled as strategic."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates serve only as alternatives with locations and qualities."
+  },
+  "ORG": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "3.3, p.6",
+   "quote_behav": "The goal of the planner is now to construct a committee",
+   "loc_info": "1 Introduction, p.2",
+   "quote_info": "the planner cannot observe candidates\u2019 qualities",
+   "note": "The planner chooses the committee and the rule, and selects the candidate from the votes, in order to minimise worst-case regret. ORG and DES fit equally well, so ORG is chosen as the first listed type."
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "The planner's design role is coded under ORG, the first-listed fitting type."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "Y",
+  "loc": "1 Introduction, p.2; 3.3, p.6",
+  "quote": "The goal of the planner is now to construct a committee",
+  "note": "ORG (planner) optimises its choice; VOT (experts) report rankings mechanically by perceived quality."
+ },
+ "C7.2": {
+  "code": "NONE",
+  "loc": "1 Introduction, p.2; 3.1, p.4",
+  "quote": "none found",
+  "note": "No argument is given for why experts are non-strategic while the planner optimises."
+ },
+ "C8.1": {
+  "codes": [
+   "DEV"
+  ],
+  "loc": "3.3, p.6; Theorem 4.1, p.7",
+  "quote": "there exists a universal committee of size",
+  "note": "The planner's problem is a worst-case (minimax regret) design: whether a committee exists that guarantees regret at most \u03b5. It is coded as DEV; OTH (minimax regret design) would also fit."
+ },
+ "C8.2": {
+  "code": "N",
+  "loc": "3.3, p.6",
+  "quote": "none found"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "1 Introduction, p.1",
+    "quote": "the dean could choose a committee that is diverse in the sub-fields"
+   },
+   {
+    "loc": "1.1 Our Results, p.3",
+    "quote": "we believe that our committees remain potentially feasible for small \ud835\udc51"
+   }
+  ],
+  "note": "The claims concern how real hiring committees should be formed."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "1 Introduction, p.2; 3.1, p.4",
+  "quote": "each expert will vote for who she believes is the best candidate",
+  "note": "The needed assumptions are stated: experts report sincerely by perceived quality, bias is additive metric distance, and the planner knows locations. Sincerity is stated without a reason."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "1 Introduction; 3 Preliminaries; 6",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C1": {
+   "chosen": "B",
+   "reason": "The paper identifies its main results as the regret bounds (Theorems 4.1, 5.1, 6.1, 6.2), and the running-time corollary is a side remark rather than a main result."
+  },
+  "C5.1": {
+   "chosen": "A",
+   "reason": "Regret is defined over candidate qualities, not voters' utilities, and the paper explicitly distinguishes its objective from social welfare, so none of the listed voter-oriented criteria applies."
+  },
+  "C5.2": {
+   "chosen": "A",
+   "reason": "C5.1 is N, so C5.2 is NA."
+  },
+  "C6.ORG": {
+   "chosen": "A",
+   "reason": "The planner chooses the committee (who votes) and the rule as part of the analysis, which fits ORG; under the doubt rule the first-listed type, ORG, is used."
+  },
+  "C6.DES": {
+   "chosen": "A",
+   "reason": "The planner is coded once, under ORG, so DES is not separately present."
+  }
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "paper_id": "AAMAS-2025-d4c20165",
+ "decisions": {
+  "C3.3": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "C3.2 is not STATED."
+   },
+   "chosen": "A",
+   "reason": "The codebook requires NA for C3.3 whenever C3.2 is not STATED, and both coders coded C3.2 as NOT-STATED."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Section 2, p. 786",
+    "quote_behav": "every voter \ud835\udc63 \u2208 \ud835\udc49\ud835\udc5b reports a preference relation \u227b\ud835\udc63",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Reports are exogenous inputs and are not chosen strategically."
+   },
+   "chosen": "A",
+   "reason": "Voters take an action in the model (they report preference relations), and fixed actions count as present; that behaviour is non-strategic but is not described as sincere in words, so it is implicit."
+  },
+  "C9.2": {
+   "value": {
+    "code": "SOME-UNSTATED",
+    "loc": "Sections 1, 2.2, 6",
+    "quote": "none found",
+    "note": "Recommending rules on the basis of social cost needs the assumption that voters' true costs are consistent with their submitted rankings (sincere reporting). This is not stated in words. The consistency condition only defines the set of metrics considered."
+   },
+   "chosen": "B",
+   "reason": "The rule recommendations bear on voters' real costs only if submitted rankings reflect held costs, and the paper never states this, which matches C3.2 = NOT-STATED."
+  }
+ }
+}

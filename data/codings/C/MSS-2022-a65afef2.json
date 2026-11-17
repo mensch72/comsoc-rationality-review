@@ -1,0 +1,25 @@
+{
+ "paper_id": "MSS-2022-a65afef2",
+ "decisions": {
+  "C2.4": {
+   "value": {
+    "code": "DIST",
+    "loc": "Introduction, p.1; Section 2, Definition 2.1, p.4",
+    "quote": "to prevent strategical false declarations",
+    "note": "Separate notation: Pv is the held preference and Qv a possible declaration; the text says declarations may be false."
+   },
+   "chosen": "A",
+   "reason": "The paper uses separate notation (Pv vs Qv) and says declarations can be strategically false, which is the DIST condition rather than IDU."
+  },
+  "C9.2": {
+   "value": {
+    "code": "ALL-STATED",
+    "loc": "Introduction, p.1; Section 2, p.4",
+    "quote": "to prevent strategical false declarations",
+    "note": "The fairness claim needs inputs to reflect opinions. The same sentence states that strategy-proofness prevents false declarations, which links inputs to held preferences."
+   },
+   "chosen": "A",
+   "reason": "The assumption linking submitted inputs to held opinions is stated in the same sentence, since strategy-proofness is said to prevent false declarations."
+  }
+ }
+}

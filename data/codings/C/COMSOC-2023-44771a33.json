@@ -1,0 +1,49 @@
+{
+ "paper_id": "COMSOC-2023-44771a33",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "EM",
+     "OT"
+    ],
+    "primary": "EM",
+    "loc": "Section 4 User Study",
+    "quote": "In total, 222 students participated in the experiments.",
+    "note": "OT: proposal of an elicitation algorithm and aggregation protocol (R2R), with no formal analysis. The main results come from a classroom user study."
+   },
+   "chosen": "A",
+   "reason": "The tie-count experiments resample voters from the real classroom data, so they are EM and not simulation on synthetic data (SI)."
+  },
+  "C2.4": {
+   "value": {
+    "code": "DIST",
+    "loc": "Abstract; Section 3.1, Example 2",
+    "quote": "students might strategically assign low grades to the projects of others",
+    "note": "Separate notation is used for the held \u03c41/\u03c01 and the elicited \u03c81 and declared scores. The text also says submitted grades may differ from what students think or prefer."
+   },
+   "chosen": "other",
+   "reason": "A's DIST code is correct because the paper uses separate notation and says submissions may be strategic, but the quote is from the abstract, so the loc is corrected."
+  },
+  "C3.1": {
+   "value": {
+    "code": "ALL",
+    "loc": "Section 4 User Study",
+    "quote": "students did not pay attention and reported arbitrary preferences",
+    "note": "Coded ALL under the rule for human-participant experiments. No analysis assumes that inputs equal held attitudes, and strategic voting is not modelled formally."
+   },
+   "chosen": "A",
+   "reason": "The main analyses use freely chosen inputs from human participants and none assumes those inputs equal held attitudes, so the codebook rule gives ALL."
+  },
+  "C3.2": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "C3.1 = ALL"
+   },
+   "chosen": "A",
+   "reason": "C3.2 is NA because C3.1 is ALL."
+  }
+ }
+}

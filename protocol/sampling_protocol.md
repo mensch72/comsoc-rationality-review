@@ -162,6 +162,7 @@ If a stratum has fewer eligible papers than allocated, all of them are taken and
   - Items with 0.40 ≤ κ < 0.60 are reported as moderate.
   - Multi-select items: κ per category. Stakeholder matrix: κ for presence, then κ per attribute on the papers where both coders marked the type present.
   - κ confidence intervals: bootstrap over papers, 2,000 resamples.
+- **Final counts.** See `protocol/checkpoint3.md`.
 - **Calibration case.** The frozen codebook is applied in the same A/B/C fashion to the calibration paper and its supplement.
 
 ## 6. Outcome measures (pre-specified)

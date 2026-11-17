@@ -1,0 +1,61 @@
+{
+ "paper_id": "MSS-2022-526b7598",
+ "decisions": {
+  "C2.4": {
+   "value": {
+    "code": "DIST",
+    "loc": "Section 5, p.27-28",
+    "quote": "vote sincerely for their preferences",
+    "note": "Doubt between DIST and IDU. Grades are described as submitted, but also as voters' preferences. The text on strategic and sincere voting says votes may differ from preferences, so DIST, the first-listed code, is chosen."
+   },
+   "chosen": "A",
+   "reason": "The paper's references to strategic versus sincere voting are text saying the submitted grades may differ from held preferences, which fits DIST at least as well as IDU, so the first-listed code applies."
+  },
+  "C3.2": {
+   "value": {
+    "code": "NOT-STATED",
+    "loc": "Sections 1, 2, 3, 5, 6",
+    "quote": "none found",
+    "note": "Sincere voting appears only inside the no-show paradox definition. The paper never states as an assumption that voters submit their held attitudes."
+   },
+   "chosen": "B",
+   "reason": "The phrase 'vote sincerely' only defines a paradox and is not a statement that voters in the analyses submit their held attitudes."
+  },
+  "C3.3": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "C3.2 is not STATED."
+   },
+   "chosen": "B",
+   "reason": "C3.3 is NA because C3.2 is NOT-STATED."
+  },
+  "C4.1": {
+   "value": {
+    "code": "PART",
+    "loc": "Section 2.3, p.8",
+    "quote": "they introduce the intensity of the relative preferences",
+    "note": "C2.2 includes APPR and the paper uses intensity of preference for voters, so the item applies. Grades are said to convey intensity, but no formal link to utilities is defined."
+   },
+   "chosen": "A",
+   "reason": "The applicability condition holds (APPR input plus 'intensity of preference'), and the relation is only mentioned, not defined."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Section 2.2, p.4-5",
+    "quote_behav": "Suppose that each voter vj , j = 1, . . . , n grades",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Voters act by grading candidates. The grades are taken as given, with no strategic choice modelled."
+   },
+   "chosen": "A",
+   "reason": "Voters take an action in the model (grading candidates) that is fixed exogenously, so they are present and NONSTRAT."
+  }
+ }
+}

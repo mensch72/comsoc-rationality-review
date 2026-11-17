@@ -1,0 +1,195 @@
+{
+ "paper_id": "SCW-2022-d2d3b887",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "We consider synchronous iterative voting, where voters are given the opportunity",
+  "note": "Iterative voting dynamics under Approval Voting and other rules."
+ },
+ "C1": {
+  "types": [
+   "SB",
+   "SI"
+  ],
+  "primary": "SB",
+  "loc": "Abstract p.1; Section 4.3 p.26",
+  "quote": "voters are given the opportunity to strategically choose their ballots",
+  "note": "Main results: a robustness theorem for cycles of heuristic-driven polling dynamics, and examples of bad cycles. Section 4.3 adds a simulation study on synthetic cultures. Dynamical equilibria are fixed points of a dynamics, not game equilibria, so EQ is not coded."
+ },
+ "C2.1": {
+  "value": "ballot profile; ballots",
+  "loc": "Section 2.2, p.9",
+  "quote": "A ballot profile is thus an element of \u212c \ud835\udc5b"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR",
+   "RANK",
+   "OTH"
+  ],
+  "loc": "Section 2.1 p.9; Sections 5.1-5.3 pp.32-34",
+  "quote": "for Approval Voting the set \ud835\udcab(\ud835\udc34) of subsets of \ud835\udc34",
+  "note": "OTH: single-name plurality ballots in Examples 3.4 and 5.1. RANK: IRV and condorcified ranked voting in Sections 5.2-5.3."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2.1, p.8",
+  "quote": "Preferences of each voter type will be modeled by an element",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2.2, p.9",
+  "quote": "Formally, the preferences of voter types do not appear in the",
+  "note": "Ballots are produced by heuristics that take preferences and the outcome as arguments."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Section 2.2, p.9",
+  "quote": "representing the way voters of this type choose their next ballot",
+  "note": "All analyses model voters choosing ballots through outcome-dependent heuristics."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No utility, welfare, satisfaction, cost or distortion notion is used for voters; outcomes are judged by Condorcet winner or loser status."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Section 4, p.17; Section 4.3 p.27",
+  "quote": "none found",
+  "note": "Outcomes are evaluated by election of the Condorcet winner or absolute majority loser. None of the listed criteria is used."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Abstract, p.1",
+   "loc_info": "Section 1, p.2",
+   "quote_behav": "voters are given the opportunity to strategically choose their ballots",
+   "quote_info": "all voters are given the information at time \ud835\udc61",
+   "note": "Voters follow fixed heuristics responding to poll outcomes; some types always vote the same ballot. Information is the previous poll outcome."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present as acting agents."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "ITER",
+   "BND"
+  ],
+  "loc": "Section 1, pp.2-3",
+  "quote": "each voter is given a fixed heuristic, which dictates for each",
+  "note": ""
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 1, p.2",
+  "quote": "we will thus name our dynamical model Polling Dynamics"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 1, p.5",
+    "quote": "rigging any one poll can prevent the election of the Condorcet winner"
+   },
+   {
+    "loc": "Section 1, p.5",
+    "quote": "our examples cast a doubt"
+   },
+   {
+    "loc": "Section 7, p.44",
+    "quote": "individually sound heuristics to result collectively in the worst possible outcome"
+   }
+  ],
+  "note": "Claims concern Approval Voting in practice, the effect of polls on real elections, and bad outcomes for voters."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 2.2 p.9; Section 4 p.17",
+  "quote": "Each voter type \ud835\udc56 is assumed to have a heuristic",
+  "note": "Needed assumptions are all stated: voters' heuristic behaviour, poll information, and preference-based evaluation of outcomes (Condorcet winner, absolute majority loser)."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 2, 7",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C1": {
+   "chosen": "A",
+   "reason": "The paper says its equilibria are fixed points of a heuristic dynamics, never Nash equilibria, so they are not equilibria of a game under EQ, and strategic ballot choice is the dominant theme."
+  },
+  "C3.1": {
+   "chosen": "A",
+   "reason": "In every analysis the ballot is chosen by an outcome-dependent heuristic and differs from the held preference order; the paper notes strategic voting occurs even when ballots are restricted to sincere ones."
+  },
+  "C3.2": {
+   "chosen": "A",
+   "reason": "C3.1 is ALL, so C3.2 is NA."
+  },
+  "C3.3": {
+   "chosen": "A",
+   "reason": "C3.2 is not STATED, so C3.3 is NA."
+  }
+ }
+}

@@ -1,0 +1,191 @@
+{
+ "paper_id": "COMSOC-2023-c6750bee",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "fully implements the majority rule for binary social decisions",
+  "note": "Design of voting mechanisms implementing majority rule for binary decisions."
+ },
+ "C1": {
+  "types": [
+   "EQ",
+   "SB"
+  ],
+  "primary": "EQ",
+  "loc": "Section 3.1, Proposition 1",
+  "quote": "Majority voting with Random checks subgame perfect implements the majority rule",
+  "note": "Main results are implementation results, i.e. characterisations of the equilibrium outcomes of designed mechanisms (SPE, Nash, sequential). SB is included because the analysis turns on incentives to vote truthfully."
+ },
+ "C2.1": {
+  "value": "votes; profile of votes; message (vote plus nomination); announcements",
+  "loc": "Section 3, Timing",
+  "quote": "Each agent i votes for an option vi \u2208 A."
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 3, Timing; Section 4.1.1",
+  "quote": "a vote for an option vi and (2.) a nomination of",
+  "note": "Inputs are single votes for one of two options (optionally abstention), Y/N confirmation announcements, ratify/verify announcements, and in Bloc formation also nominations of p agents."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, Model",
+  "quote": "Each agent has strict complete and reflexive preferences over A",
+  "note": "Preferences or types \u03b8 are defined separately from votes."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2; Section 3",
+  "quote": "The purpose of this lottery is to give incentives to agents",
+  "note": "Votes v_i are notated separately from types \u03b8, and the paper discusses agents voting insincerely."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Sections 3-4, Appendices",
+  "quote": "any agent with type \u03b8a has a profitable deviation",
+  "note": "All results are equilibrium or implementation results in which votes may differ from preferences."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL"
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 not STATED"
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Input format is OTH (binary votes or messages), so the applicability condition is not met. The paper does mention vNM utility representations consistent with ordinal preferences, used for SD."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term 'dichotomous preferences' not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 2-4",
+  "quote": "none found",
+  "note": "Formal results concern implementation of the majority rule. Welfare or efficiency language ('inefficiencies', 'socially desirable') appears only in the introduction and conclusion."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 3.1, Example 1",
+   "quote_behav": "by SD, agent 1 prefers to deviate",
+   "loc_info": "Section 3.2",
+   "quote_info": "when we relax the assumption of complete information",
+   "note": "Information is complete in Props 1, 3, 4 and 5. Under incomplete information (Props 2 and 6) agents have i.i.d. priors over types and observe votes, which would be PARTIAL. COMPLETE is chosen as the first listed code under the doubt rule."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N",
+   "note": "The authors design the mechanism, but no designer is modelled as an acting agent."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 = NA"
+ },
+ "C8.1": {
+  "codes": [
+   "SPE",
+   "NE",
+   "OTH"
+  ],
+  "loc": "Section 2; footnote 9",
+  "quote": "We focus on implementation in sequential equilibria",
+  "note": "OTH = sequential equilibrium under incomplete information. Also uses full implementation as a solution concept and SD preferences over lotteries."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 4.1.2, Proposition 4",
+  "quote": "The Bloc formation mechanism Nash implements the majority rule."
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 5, Conclusion",
+    "quote": "lotteries do not arise in equilibrium so that the socially desirable"
+   },
+   {
+    "loc": "Section 5, Conclusion",
+    "quote": "introducing lotteries in the mechanisms removes the undesirable equilibria"
+   },
+   {
+    "loc": "Section 1, Introduction",
+    "quote": "the mechanism (integer game) achieving the implementation is hard to apply"
+   }
+  ],
+  "note": "Claims concern the desirability and practicality of the proposed mechanisms relative to existing voting institutions."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 2; Section 3.2",
+  "quote": "We assume that preferences over lotteries satisfy stochastic dominance (SD).",
+  "note": "The claims require that voters are strategic equilibrium players (stated), what they know (stated: complete or i.i.d. priors), SD preferences over lotteries (stated), and that votes may differ from preferences (stated)."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 2, 5",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C1": {
+   "chosen": "A",
+   "reason": "The paper contains no axiomatic characterisation, so AX does not apply, and B's own note concedes this; the results are equilibrium implementation results that turn on incentives."
+  },
+  "C6.VOT": {
+   "chosen": "A",
+   "reason": "MIXED is not a valid info code, so the doubt rule gives COMPLETE (listed first); strategic deviation is described in words, so behav_stated is EXPLICIT."
+  },
+  "C8.1": {
+   "chosen": "A",
+   "reason": "Sequential equilibrium is neither Bayes\u2013Nash nor ex-post equilibrium, so it belongs under OTH rather than BNE."
+  }
+ }
+}

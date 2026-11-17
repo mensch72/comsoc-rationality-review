@@ -1,0 +1,89 @@
+{
+ "paper_id": "SCW-2024-deb36aa9",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "AL",
+     "WD",
+     "SI",
+     "OT"
+    ],
+    "primary": "SI",
+    "loc": "Abstract, p.263; Sects. 4-8",
+    "quote": "We provide NP-Hardness results for electing an ideal set of representatives",
+    "note": "AL: NP-hardness results. WD: rules evaluated against the majority-agreement objective. SI: simulations, which make up most results. OT: proposal of the FRD model, a main contribution of the paper."
+   },
+   "chosen": "A",
+   "reason": "The paper's introduction of FRD as a new voting-system model is a main contribution, so OT applies alongside AL, WD and SI."
+  },
+  "C2.4": {
+   "value": {
+    "code": "DIST",
+    "loc": "Sect. 4.2, p.273; Sect. 10, p.303",
+    "quote": "voters\u2019 preferences over candidates are derived exactly from their agreement",
+    "note": "Issue preferences (v_j, P_V) and electoral inputs (P_VC) are separate objects with separate notation. The paper notes that the derivation assumption should be relaxed, so the two may differ."
+   },
+   "chosen": "A",
+   "reason": "Held issue preferences and submitted electoral inputs have separate notation, and the link between them is an explicit assumption the paper says could be relaxed."
+  },
+  "C3.2": {
+   "value": {
+    "code": "STATED",
+    "loc": "Sect. 4.2, p.273",
+    "quote": "we assume that v approves of c if and only if",
+    "note": "Reported approvals and rankings are stated in words to follow exactly from voters' issue agreement."
+   },
+   "chosen": "A",
+   "reason": "The paper explicitly states that reported approvals and rankings follow exactly from held issue preferences."
+  },
+  "C3.3": {
+   "value": {
+    "code": "OTH",
+    "loc": "Sect. 4.2, p.273; Sect. 5, p.276",
+    "quote": "We give the election rules the best chances we can",
+    "note": "The reason given is that this is a best-case assumption for the election rules."
+   },
+   "chosen": "A",
+   "reason": "The stated justification is a best-case assumption for the rules, which fits none of the listed reason categories."
+  },
+  "C4.1": {
+   "value": {
+    "code": "SPEC",
+    "loc": "Sect. 8, p.293",
+    "quote": "each voter v j is assigned a preference intensity parameter",
+    "note": "Intensity for voters is used, so C4.1 applies. Intensity defines the Bernoulli parameter of issue preferences and the delegation probability. Rankings and approvals are defined from agreement L(v,c)."
+   },
+   "chosen": "A",
+   "reason": "Voter preference intensity is used, so the item applies, and its relation to the inputs is formally defined."
+  },
+  "C5.2": {
+   "value": {
+    "code": "HELD",
+    "loc": "Sect. 3.2, p.270",
+    "quote": "We hold Direct Democracy with majority voting and full participation",
+    "note": "Majority agreement is evaluated against voters' issue preferences, which are separate from the submitted electoral inputs."
+   },
+   "chosen": "A",
+   "reason": "Outcomes are evaluated against voters' issue preferences, which are defined separately from the electoral inputs submitted to the rule."
+  },
+  "C6.OTH": {
+   "value": {
+    "present": "N",
+    "note": "Elected representatives act as proxies receiving delegations; the codebook places delegates and proxies under VOT."
+   },
+   "chosen": "B",
+   "reason": "Representatives in FRD function as proxies, which the codebook assigns to VOT rather than OTH."
+  },
+  "C7.1": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "Only one type (VOT, including representatives as proxies) is present."
+   },
+   "chosen": "B",
+   "reason": "With representatives coded under VOT, fewer than two types are present."
+  }
+ }
+}

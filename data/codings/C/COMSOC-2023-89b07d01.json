@@ -10,6 +10,116 @@
    },
    "chosen": "A",
    "reason": "The paper defines gerrymandering as manipulation of district boundaries in FPTP elections and simulates seat-maximising districting plans, so it studies a strategic aspect of a voting procedure, the kind of districting the codebook's DIS stakeholder type covers."
+  },
+  "C1": {
+   "value": {
+    "types": [
+     "OT",
+     "SI",
+     "EM"
+    ],
+    "primary": "OT",
+    "loc": "Sec. 1.1 Contribution; Sec. 2; Sec. 6; Sec. 7",
+    "quote": "development of a nonparametric methods for detecting gerrymandering",
+    "note": "OT: proposal of a statistical detection methodology, which the paper calls its main contribution. SI: Monte Carlo observation and tests on simulated districting plans. EM: application to real election datasets."
+   },
+   "chosen": "A",
+   "reason": "The paper presents its main contribution as a methodological proposal (OT); the simulation and empirical tests are secondary validations, so OT is the primary type."
+  },
+  "C6.DIS": {
+   "value": {
+    "present": "N",
+    "behav": "NS",
+    "behav_stated": "NA",
+    "info": "NS",
+    "info_stated": "NA",
+    "loc_behav": "",
+    "quote_behav": "",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Unfair plans are produced by an ILP algorithm to create test data for the detector. No district-designer agent is part of the formal model."
+   },
+   "chosen": "B",
+   "reason": "The seat-maximising ILP is a tool for generating test plans, not a modelled agent taking actions in the paper's formal model."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Sec. 6.1",
+    "quote_behav": "party p\u2019s vote share pk , varying between 9.1% and 66.7%",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Votes enter as fixed data."
+   },
+   "chosen": "A",
+   "reason": "Voters cast votes that enter the model as fixed, exogenous data, which counts as a present non-strategic type."
+  },
+  "C7.1": {
+   "value": {
+    "code": "NA",
+    "loc": "Sec. 6",
+    "quote": "none found",
+    "note": "Only VOT is present under the C6 definition."
+   },
+   "chosen": "other",
+   "reason": "Only one type (VOT) is present, so the item is NA; B's note that no types are present is inaccurate."
+  },
+  "C7.2": {
+   "value": {
+    "code": "NA",
+    "loc": "Section 6",
+    "quote": "none found",
+    "note": "C7.1 not Y."
+   },
+   "chosen": "B",
+   "reason": "C7.1 is NA."
+  },
+  "C8.1": {
+   "value": {
+    "codes": [],
+    "loc": "",
+    "quote": "",
+    "note": "NA: no type is STRAT or MIXED."
+   },
+   "chosen": "B",
+   "reason": "With the district designer not present, no type is strategic, so C8 does not apply."
+  },
+  "C8.2": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": ""
+   },
+   "chosen": "B",
+   "reason": "C8.1 is NA."
+  },
+  "C9.1": {
+   "value": {
+    "code": "Y",
+    "claims": [
+     {
+      "loc": "Section 1.3, p.3",
+      "quote": "the proposed methods can still be useful to identify"
+     }
+    ],
+    "note": "Claim about the method's usefulness for real-world identification of cases for investigation, made in the introductory Preliminaries section."
+   },
+   "chosen": "B",
+   "reason": "The introduction claims what the results mean for real-world decisions, namely identifying elections that need further investigation."
+  },
+  "C9.2": {
+   "value": {
+    "code": "ALL-STATED",
+    "loc": "Section 1.3",
+    "quote": "inability to distinguish gerrymandering from natural electoral bias",
+    "note": "The claim needs the assumptions about the training set and the rarity of gerrymandering, which are stated explicitly as three basic assumptions."
+   },
+   "chosen": "B",
+   "reason": "The assumptions needed for the usefulness claim are stated explicitly in Section 1.3."
   }
  }
 }

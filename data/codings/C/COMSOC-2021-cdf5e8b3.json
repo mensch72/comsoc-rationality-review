@@ -1,0 +1,55 @@
+{
+ "paper_id": "COMSOC-2021-cdf5e8b3",
+ "decisions": {
+  "C3.1": {
+   "value": {
+    "code": "ALL",
+    "loc": "Section 2.1",
+    "quote": "every voter prefers the lottery obtained by voting truthfully to any lottery",
+    "note": "Every main result is restricted to strategyproof SDSs, and strategyproofness quantifies over deviations from truthful reports."
+   },
+   "chosen": "A",
+   "reason": "Every theorem imposes strategyproofness, which explicitly considers voters voting dishonestly; this is consistent with both coders treating voters as STRAT in C6."
+  },
+  "C3.2": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "C3.1 = ALL"
+   },
+   "chosen": "A",
+   "reason": "Since C3.1 = ALL, the codebook requires NA."
+  },
+  "C4.1": {
+   "value": {
+    "code": "SPEC",
+    "loc": "Section 2.1",
+    "quote": "vNM utility function that is ordinally consistent with voter i\u2019s preferences",
+    "note": "Utilities are defined as any vNM representation consistent with the strict ranking."
+   },
+   "chosen": "A",
+   "reason": "The paper defines utilities as consistent with the ranking, which is the codebook's own example of SPEC."
+  },
+  "C5.2": {
+   "value": {
+    "code": "INPUT-UNSTATED",
+    "loc": "Section 2.2",
+    "quote": "An alternative x Pareto-dominates another alternative y in a preference profile R",
+    "note": "Pareto dominance and ex post efficiency are evaluated on the profile R that is the argument of f. Held attitudes are not defined separately from it, and no statement links this evaluation to held attitudes."
+   },
+   "chosen": "B",
+   "reason": "Efficiency is evaluated on the SDS's argument R, with no separately defined held attitude, so HELD does not apply and no relating statement is made."
+  },
+  "C9.2": {
+   "value": {
+    "code": "ALL-STATED",
+    "loc": "Introduction, p.1",
+    "quote": "voters may be better off by lying about their preferences",
+    "note": "The needed assumptions are that reports may differ from held preferences and that voters manipulate when it is beneficial. Both are stated, together with the statement that under strategyproofness no voter can manipulate."
+   },
+   "chosen": "A",
+   "reason": "The needed assumptions behind the listed claims (possible misreporting and the incentive to manipulate) are stated explicitly in the introduction and Section 2.1."
+  }
+ }
+}

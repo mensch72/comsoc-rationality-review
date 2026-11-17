@@ -1,0 +1,21 @@
+{
+ "paper_id": "JET-2021-7ee9c91b",
+ "decisions": {
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "MIXED",
+    "behav_stated": "EXPLICIT",
+    "info": "PARTIAL",
+    "info_stated": "EXPLICIT",
+    "loc_behav": "Introduction, p.4; Section 3, p.15",
+    "quote_behav": "expressive partisan voters (i.e. voters who do not engage in strategic",
+    "loc_info": "Section 2, p.6-7",
+    "quote_info": "After each voting round voters are only let know of the alternative",
+    "note": "Independent voters are strategic throughout, while partisans are expressive (fixed) in Section 2 and play rationalizable strategies in Section 3. Each voter knows her own privately drawn type, the type distribution and the eliminated alternatives, but not others' types or full vote counts. The paper states this information structure in words."
+   },
+   "chosen": "other",
+   "reason": "A's codes are correct because the paper explicitly states what voters know (their own private type and only which alternatives are eliminated), so info_stated is EXPLICIT; the info quote is replaced with the more direct statement of what voters observe."
+  }
+ }
+}

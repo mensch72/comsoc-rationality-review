@@ -1,0 +1,45 @@
+{
+ "paper_id": "COMSOC-2021-039ef884",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "AX",
+     "AL"
+    ],
+    "primary": "AX",
+    "loc": "Abstract and Sections 3-4",
+    "quote": "we fully characterize the axiomatic possibilities",
+    "note": "Mostly axiomatic. Prop 8(v) states and proves polynomial-time computability, so AL applies to at least one formal result but is minor."
+   },
+   "chosen": "B",
+   "reason": "C1.types covers every type that applies to at least one main result, and Prop 8(v) is a formal computability result with a proof, so AL belongs in types while AX stays primary."
+  },
+  "C4.1": {
+   "value": {
+    "code": "SPEC",
+    "loc": "Section 2, p.3",
+    "quote": "the satisfaction of a voter is the number of past decisions",
+    "note": "Defined as sat(v,w) = |{i \u2264 k : wi \u2208 Ai(v)}|."
+   },
+   "chosen": "A",
+   "reason": "The codebook lists 'satisfaction' as a trigger for applicability, and the paper defines it exactly from the approval input, so the code is SPEC rather than NA."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Section 2, p.2",
+    "quote_behav": "each voter v \u2208 N approves some non-empty subset of C",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Approval sets are exogenous inputs."
+   },
+   "chosen": "A",
+   "reason": "Voters submit approval sets in the model, which counts as an action even when fixed, so voters are present and non-strategic."
+  }
+ }
+}

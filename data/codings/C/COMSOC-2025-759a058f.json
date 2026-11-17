@@ -1,0 +1,41 @@
+{
+ "paper_id": "COMSOC-2025-759a058f",
+ "decisions": {
+  "C2.4": {
+   "value": {
+    "code": "DIST",
+    "loc": "Section 2, p.4; Section 2.1, p.4",
+    "quote": "we are provided with textual information reflecting their opinions",
+    "note": "The procedure works on user texts and query outputs, which are separate from the true utilities u_i. Disc(i, \u03b1) is notated separately and may differ from u_i(\u03b1). The difference is due to estimation error, not misreporting. IDU also partly fits; the doubt rule selects the first listed code."
+   },
+   "chosen": "A",
+   "reason": "The paper keeps the texts and query outputs the procedure uses separate in notation and wording from the agents' true utilities and opinions, which meets the DIST condition."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "N",
+    "behav": "",
+    "behav_stated": "",
+    "info": "",
+    "info_stated": "",
+    "loc_behav": "",
+    "quote_behav": "",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "In the formal model (Sections 2-3) agents only have utility functions that are accessed through queries; they take no action. Review and comment submission happens in the datasets, outside the model."
+   },
+   "chosen": "B",
+   "reason": "The formal model has agents whose utilities are queried, not agents who take an action, so voters are not present under the C6 definition."
+  },
+  "C9.2": {
+   "value": {
+    "code": "ALL-STATED",
+    "loc": "Section 2, p.4; Section 4.2.3, p.11",
+    "quote": "Consequently, we rely on a proxy.",
+    "note": "Needed assumptions: user texts reflect opinions (stated, Sec 2) and CoT utilities stand in for true utilities (stated as a proxy, Sec 4.2.3). No separate sincerity or strategic-behaviour assumption is needed beyond the stated link between texts and opinions."
+   },
+   "chosen": "A",
+   "reason": "The assumptions needed for the satisfaction and representation claims, namely that texts reflect opinions and that the CoT proxy stands for true utilities, are both stated in the paper."
+  }
+ }
+}

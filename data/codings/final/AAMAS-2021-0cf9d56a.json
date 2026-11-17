@@ -1,0 +1,160 @@
+{
+ "paper_id": "AAMAS-2021-0cf9d56a",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.647",
+  "quote": "computing the probability of winning in an election where voter attendance",
+  "note": "Computational aspects of voting rules under uncertain voter attendance."
+ },
+ "C1": {
+  "types": [
+   "AL"
+  ],
+  "primary": "AL",
+  "loc": "Abstract, p.647",
+  "quote": "it is computationally hard (#P-hard) for various other rules",
+  "note": "Control problems (CCAV/CCAUV) are used only as auxiliary problems in hardness reductions, not as analyses of strategic behaviour."
+ },
+ "C2.1": {
+  "value": "voting profile; preference profile",
+  "loc": "Section 2, p.648",
+  "quote": "A voting profile T = (\ud835\udc471, . . . ,\ud835\udc47\ud835\udc5b ) consists of \ud835\udc5b linear orders"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2, p.648",
+  "quote": "\ud835\udc47\ud835\udc56 is the ranking of (i.e., linear order over) \ud835\udc36 by \ud835\udc63\ud835\udc56",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 1, p.647",
+  "quote": "each voter has an individual preference, namely ordering over the candidates",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 1, p.647",
+  "quote": "a voting rule is applied to the preference profile",
+  "note": "Preferences/rankings are fed directly to the rule. There is no statement about reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-5",
+  "quote": "voters participate by being drawn randomly from \ud835\udc49",
+  "note": "Only attendance is random. No misreporting is considered."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Checked: Abstract, Section 1, Section 2, Section 6",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No utility, welfare or similar notions are used for voters."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 3-5",
+  "quote": "none found",
+  "note": "Results concern computational complexity only."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 1, p.647",
+   "quote_behav": "she casts a vote with probability \ud835\udc5d\ud835\udc56",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Attendance is exogenous and random. Votes are the voters' orders."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N",
+   "note": "CCAV/CCAUV control problems appear only as auxiliary decision/counting problems in reductions. No controlling agent acts in the main model."
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "N",
+  "claims": [],
+  "note": "Abstract, introduction and conclusion summarise complexity results and open problems only."
+ },
+ "C9.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C9.1 = N."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Checked: Abstract, Section 1, Section 2, Section 6",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {}
+}

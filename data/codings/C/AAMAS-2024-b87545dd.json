@@ -1,0 +1,100 @@
+{
+ "paper_id": "AAMAS-2024-b87545dd",
+ "decisions": {
+  "C2.2": {
+   "value": {
+    "codes": [
+     "APPR",
+     "OTH"
+    ],
+    "loc": "Sec. 2, p.51",
+    "quote": "each voter \ud835\udc56 has revealed preferences b \ud835\udc63\ud835\udc56 \u2208 {0, 1, \u22a5}\ud835\udc5a",
+    "note": "Approval vectors with a third value \u22a5 for proposals on which the voter has no opinion. These are incomplete approval inputs."
+   },
+   "chosen": "A",
+   "reason": "The submitted revealed vectors are three-valued (accept, reject, no opinion), so they go beyond plain approval sets and OTH is warranted alongside APPR."
+  },
+  "C3.2": {
+   "value": {
+    "code": "STATED",
+    "loc": "Sec. 4, p.55",
+    "quote": "since voters only submit the first of the two",
+    "note": "The paper states that voters submit their revealed preferences. Revealed preferences agree with intrinsic ones where they are defined."
+   },
+   "chosen": "A",
+   "reason": "The paper says in words that voters submit their (revealed) preferences, which are held attitudes agreeing with intrinsic ones where defined."
+  },
+  "C3.3": {
+   "value": {
+    "code": "NONE",
+    "loc": "Sec. 4, p.55",
+    "quote": "since voters only submit the first of the two",
+    "note": "The statement is given as part of the model, without justification."
+   },
+   "chosen": "A",
+   "reason": "No justification is offered for voters submitting their revealed preferences."
+  },
+  "C4.1": {
+   "value": {
+    "code": "NOTSPEC",
+    "loc": "Abstract, p.49; Sec. 2, p.51-52",
+    "quote": "outcomes with higher legitimacy and enhanced voters\u2019 satisfaction",
+    "note": "Voters' satisfaction is mentioned but not formally related to the approval inputs. The formal objective is the intrinsic approval score."
+   },
+   "chosen": "A",
+   "reason": "The inputs are approvals and the paper uses 'voters' satisfaction', so C4.1 applies, and no relation between satisfaction and the inputs is defined."
+  },
+  "C6.OTH": {
+   "value": {
+    "present": "N"
+   },
+   "chosen": "A",
+   "reason": "dReps are explicitly 'special' voters acting as proxies, which the codebook assigns to VOT, so no other acting type is present."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "EXPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Sec. 2, p.51",
+    "quote_behav": "devoid of personal preferences over the proposals",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "VOT includes the dReps (proxies). Ordinary voters follow a fixed threshold delegation rule. dReps have no objective of their own: their types are chosen in the analyst's proxy selection problem to serve an assigned social goal, so they are coded non-strategic."
+   },
+   "chosen": "other",
+   "reason": "Proxies belong to VOT, but MIXED is defined across analyses, not sub-types; neither voters nor dReps pursue their own objective, so the type is NONSTRAT with info NA."
+  },
+  "C7.1": {
+   "value": {
+    "code": "NA",
+    "loc": "Sec. 2, p.51",
+    "quote": "A delegation representative (dRep) is a \u201cspecial\u201d voter",
+    "note": "Only VOT is present, since proxies count as voters."
+   },
+   "chosen": "A",
+   "reason": "Only one type (VOT) is present under the C6 definition."
+  },
+  "C8.1": {
+   "value": {
+    "codes": [],
+    "loc": "",
+    "quote": "",
+    "note": "No type is STRAT or MIXED, so C8 does not apply."
+   },
+   "chosen": "B",
+   "reason": "With VOT coded NONSTRAT and no other type present, no type is strategic and C8 is NA."
+  },
+  "C8.2": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": ""
+   },
+   "chosen": "B",
+   "reason": "C8.1 is not applicable, so C8.2 is NA."
+  }
+ }
+}

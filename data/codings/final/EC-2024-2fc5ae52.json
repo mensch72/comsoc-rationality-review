@@ -1,0 +1,215 @@
+{
+ "paper_id": "EC-2024-2fc5ae52",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1; Section 2, p.5",
+  "quote": "summarizing free-form opinions into a proportionally representative slate of opinion statements",
+  "note": "Multi-winner, committee-style selection of statements from agents' preferences, with representation axioms from approval-based committee voting."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "AL",
+   "EM",
+   "OT"
+  ],
+  "primary": "AX",
+  "loc": "Section 1.2, p.2; Sections 2-5",
+  "quote": "We propose a framework for generative social choice",
+  "note": "AX for the BJR axiom, its satisfaction and impossibilities (largest share); AL for query and time complexity; EM for the LLM validation on survey data and the human pilot; OT for the generative social choice framework, a modelling proposal presented as a main contribution."
+ },
+ "C2.1": {
+  "value": "utility function (accessed through discriminative and generative queries); in implementation, participants' survey responses / ratings",
+  "loc": "Section 2, p.5; Section 1.3, p.3",
+  "quote": "Each agent i \u2208 N has a utility function ui : U \u2192 R"
+ },
+ "C2.2": {
+  "codes": [
+   "CARD",
+   "APPR",
+   "OTH"
+  ],
+  "loc": "Section 2, p.5; Section 1.3, p.3",
+  "quote": "approval utilities, where utilities are 0 or 1",
+  "note": "General real-valued utilities; the impossibilities use 0/1 approval utilities. OTH: in the implementation the process takes free-text survey responses, which an LLM translates into utilities."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.5; Section 2.2, p.6",
+  "quote": "utilities as expressing how accurately and completely the statement captures the agent's viewpoint",
+  "note": "Utilities and viewpoints are attributed to agents."
+ },
+ "C2.4": {
+  "code": "IDS",
+  "loc": "Section 4, p.11",
+  "quote": "We equate ratings with utilities",
+  "note": "The formal oracle returns u_i directly; the empirical part explicitly equates submitted ratings with utilities and gives no reason about sincerity."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-5",
+  "quote": "We equate ratings with utilities",
+  "note": "No analysis considers misreporting. Malicious input (prompt injection) is mentioned only in the Discussion as future work."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Section 4, p.11",
+  "quote": "We equate ratings with utilities; e.g., an agent i rating",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Section 4, p.11",
+  "quote": "We equate ratings with utilities",
+  "note": "The remark that the numerical values are inconsequential concerns the scale, not sincerity."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 2, p.5",
+  "quote": "approval utilities, where utilities are 0 or 1",
+  "note": ""
+ },
+ "C4.2": {
+  "code": "Y",
+  "loc": "Section 2, p.5",
+  "quote": "approval utilities, where utilities are 0 or 1",
+  "note": "'Approval utilities' is treated as equivalent to dichotomous preferences and is defined in utility terms."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Definition 1, Section 2.2, p.6; Section 5.2, p.18",
+  "quote": "A slate W satisfies balanced justified representation (BJR)",
+  "note": "Representation axioms; validation also uses Monroe representation objective and ratings."
+ },
+ "C5.2": {
+  "code": "INPUT-STATED",
+  "loc": "Section 4, p.11; Section 5.2, p.18",
+  "quote": "We equate ratings with utilities",
+  "note": "BJR is defined on u_i, and the empirical evaluation uses ratings that the paper equates with utilities."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "In the formal model agents only have utilities, which the process accesses through oracle queries; no agent takes an action."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N",
+   "note": "The LLM acts as an oracle without objectives of its own, so it was not coded as an acting agent."
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only one type is present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.1",
+    "quote": "84 out of 100 participants feel \u201cexcellently\u201d or \u201cexceptionally\u201d represented"
+   },
+   {
+    "loc": "Section 6 Discussion, p.19",
+    "quote": "voting rules with AI elements, just like those without, should argue"
+   },
+   {
+    "loc": "Section 6 Discussion, p.19",
+    "quote": "the democratic process can tap into the power of LLMs while ensuring"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 6, p.19; Section 4, p.11",
+  "quote": "one could let participants vote on the statements proposed by",
+  "note": "Ratings-equal-utilities is stated. Not stated: that participants in deployment report free text and votes sincerely, i.e. are non-strategic, which the 'voters have the final word' safeguard claim needs. Only malicious prompt injection is mentioned."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 2, 4, 6",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C1": {
+   "chosen": "B",
+   "reason": "The two-component framework is presented as a main contribution and is a conceptual modelling proposal, so OT applies alongside AX, AL and EM."
+  },
+  "C2.2": {
+   "chosen": "A",
+   "reason": "Besides cardinal utilities, the paper uses approval utilities for its impossibilities and describes free-text interactions as the process input."
+  },
+  "C2.4": {
+   "chosen": "A",
+   "reason": "The paper explicitly equates submitted ratings with utilities without a sincerity rationale, which fits IDS better than IDU."
+  },
+  "C3.2": {
+   "chosen": "A",
+   "reason": "The statement equating ratings with utilities says in words that the input equals the held attitude."
+  },
+  "C3.3": {
+   "chosen": "A",
+   "reason": "No reason for sincere reporting accompanies the equation of ratings with utilities."
+  },
+  "C4.1": {
+   "chosen": "A",
+   "reason": "With APPR included, C4.1 applies, and approval utilities are defined explicitly as 0/1 utilities."
+  },
+  "C4.2": {
+   "chosen": "A",
+   "reason": "The dichotomous approval term is defined as utility 1 or 0."
+  },
+  "C5.2": {
+   "chosen": "A",
+   "reason": "The evaluation is on inputs that the paper states equal utilities, which is consistent with C2.4 = IDS."
+  },
+  "C6.VOT": {
+   "chosen": "B",
+   "reason": "Presence requires an acting agent in the formal model, and the formal model only queries agents' utilities through an oracle."
+  }
+ }
+}

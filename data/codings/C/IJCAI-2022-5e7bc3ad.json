@@ -1,0 +1,44 @@
+{
+ "paper_id": "IJCAI-2022-5e7bc3ad",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "AL"
+    ],
+    "primary": "AL",
+    "loc": "Abstract, p.475",
+    "quote": "Our main results are three polynomial-time approximation schemes",
+    "note": "NP-hardness, inapproximability and approximation algorithms for computing the committee."
+   },
+   "chosen": "A",
+   "reason": "The results approximate the rule's own minimax objective, which the codebook assigns to AL (approximation algorithms for computing outcomes); they do not evaluate rules against a separate welfare objective, so WD does not apply."
+  },
+  "C4.1": {
+   "value": {
+    "code": "SPEC",
+    "loc": "Section 5.4, p.480",
+    "quote": "We say a voter v is satisfied with a subset T",
+    "note": "Satisfaction is defined via Euclidean distances, and the same distances generate the rankings. The introduction's Remark also discusses how value relates to distance."
+   },
+   "chosen": "A",
+   "reason": "The paper applies 'satisfied', 'utilitarian' and 'value to a voter' to voters with ranking inputs, so C4.1 applies; the Euclidean model generates both the satisfaction notion and the rankings, which is a specified link."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Section 3, p.476",
+    "quote_behav": "a voter v prefers ci to cj if and only if",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Voters' rankings are fixed by their positions; no choice of action is modelled."
+   },
+   "chosen": "A",
+   "reason": "Voters supply the rankings the rule aggregates, a fixed action that still counts under 'whether chosen strategically or fixed', so they are present and NONSTRAT, inferred from the model."
+  }
+ }
+}

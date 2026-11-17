@@ -1,0 +1,75 @@
+{
+ "paper_id": "EC-2025-6214a235",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "AX",
+     "AL"
+    ],
+    "primary": "AX",
+    "loc": "Abstract, p.1; Sections 3-6",
+    "quote": "randomized voting rules that satisfy ex-ante neutrality, monotonicity, and continuity",
+    "note": "Most main results establish properties of randomized rules: neutrality, monotonicity, EJR+ variants, continuity and stability bounds, and lower bounds for JR rules. Polynomial-time computability and the dynamic reduction are AL."
+   },
+   "chosen": "A",
+   "reason": "Most main results establish axiomatic properties (neutrality, monotonicity, ex-post EJR+/JR, continuity and its lower bounds) of the rules, so AX is the primary type."
+  },
+  "C2.3": {
+   "value": {
+    "code": "Y",
+    "loc": "Introduction, p.2",
+    "quote": "a voting rule selects a \ud835\udc58sized subset (the committee) using voters\u2019 preferences",
+    "note": "The only held-attitude term is 'voters' preferences', used as a description of the input."
+   },
+   "chosen": "A",
+   "reason": "The paper explicitly attributes 'preferences' to voters as what the rule uses, so a held-attitude term is present in the text."
+  },
+  "C2.4": {
+   "value": {
+    "code": "IDU",
+    "loc": "Introduction, p.2; Section 2.1, p.5",
+    "quote": "a voting rule selects a \ud835\udc58sized subset (the committee) using voters\u2019 preferences",
+    "note": "Doubt between IDU and ONE. The input is mostly called approval sets or ballots, but the rule is once described as applied to preferences directly. IDU is listed first."
+   },
+   "chosen": "A",
+   "reason": "The input is described once as voters' preferences, to which the rule is applied with no statement about reporting, and under the doubt rule IDU precedes ONE."
+  },
+  "C3.2": {
+   "value": {
+    "code": "NOT-STATED",
+    "loc": "Introduction; Section 2 Preliminaries; Section 7 Conclusion",
+    "quote": "none found",
+    "note": ""
+   },
+   "chosen": "A",
+   "reason": "C2.4 is IDU rather than ONE, and the paper never says that voters submit their held attitude."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Section 2.1, p.5",
+    "quote_behav": "which we interpret to be the set of candidates that are \u201capproved\u201d",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Approval sets are exogenous inputs submitted by voters."
+   },
+   "chosen": "A",
+   "reason": "Voters take an action in the model by submitting approval sets, and the action is fixed and exogenous, so the type is present and NONSTRAT by the formal model only."
+  },
+  "C7.1": {
+   "value": {
+    "code": "N",
+    "loc": "Sections 2, 6",
+    "quote": "We will assume an oblivious adversary.",
+    "note": "Both present types (voters and the adversary) are non-strategic."
+   },
+   "chosen": "A",
+   "reason": "Two types are present (voters and the oblivious adversary), and both are NONSTRAT, so no STRAT/NONSTRAT contrast exists."
+  }
+ }
+}

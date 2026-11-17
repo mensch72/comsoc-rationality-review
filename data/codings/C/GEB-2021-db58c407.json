@@ -1,0 +1,64 @@
+{
+ "paper_id": "GEB-2021-db58c407",
+ "decisions": {
+  "C3.1": {
+   "value": {
+    "code": "ALL",
+    "loc": "Section 3, p.8; Section 5.1",
+    "quote": "equilibrium voting is generically strategic",
+    "note": "Every main analysis uses equilibrium (strategic) voting by experts. The optimal-voting benchmark, in which the principal dictates cutoffs, is not an analysis of voters submitting held attitudes."
+   },
+   "chosen": "A",
+   "reason": "All main results characterise equilibrium voting, and the dictated-cutoff benchmark is not a non-strategic voter analysis, so ALL applies."
+  },
+  "C3.2": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "C3.1 = ALL."
+   },
+   "chosen": "A",
+   "reason": "With C3.1 = ALL, the codebook requires NA."
+  },
+  "C3.3": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "C3.2 is not STATED."
+   },
+   "chosen": "A",
+   "reason": "With C3.2 not STATED, the codebook requires NA."
+  },
+  "C6.ORG": {
+   "value": {
+    "present": "Y",
+    "behav": "STRAT",
+    "behav_stated": "EXPLICIT",
+    "info": "PARTIAL",
+    "info_stated": "IMPLICIT",
+    "loc_behav": "Section 1, p.2",
+    "quote_behav": "we ask whether an uninformed principal would appoint more or less",
+    "loc_info": "Section 4, p.10",
+    "quote_info": "her ex ante payoff before a committee vote is:",
+    "note": "The principal chooses committee composition (\u03b2), information (\u03bb) and size. She has no signals but evaluates ex ante payoffs using the prior F, so she knows a prior; this is inferable from the model rather than said in words."
+   },
+   "chosen": "other",
+   "reason": "Knowing only the prior counts as PARTIAL under the codebook, but that knowledge is only inferable from the ex ante payoff formulation, so info_stated is IMPLICIT."
+  },
+  "C8.1": {
+   "value": {
+    "codes": [
+     "BNE",
+     "SPE"
+    ],
+    "loc": "Section 2, p.7; Section 4, pp.10-12",
+    "quote": "we solve for symmetric (Bayesian-Nash) equilibria of the voting game",
+    "note": "SPE: the principal chooses composition, information and size anticipating the equilibrium voting, which is a backward-induction structure; this concept is not named explicitly."
+   },
+   "chosen": "other",
+   "reason": "The principal's choice made in anticipation of equilibrium play is backward induction, which the codebook codes as SPE rather than OTH or omitting it."
+  }
+ }
+}

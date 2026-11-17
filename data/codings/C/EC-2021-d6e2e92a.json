@@ -1,0 +1,96 @@
+{
+ "paper_id": "EC-2021-d6e2e92a",
+ "decisions": {
+  "C3.2": {
+   "value": {
+    "code": "STATED",
+    "loc": "Section 2, p.6",
+    "quote": "Each agent uses a linear order to represent his or her preferences",
+    "note": "The preliminaries say in words that the vote represents the agent's preferences. The smoothed model separately adds noise to ground truth, so STATED and NOT-STATED both fit; STATED is chosen as the first-listed code."
+   },
+   "chosen": "A",
+   "reason": "The preliminaries say in words that the vote represents preferences, and the doubt rule favours the first-listed code."
+  },
+  "C3.3": {
+   "value": {
+    "code": "NONE",
+    "loc": "Section 2, p.6",
+    "quote": "none found",
+    "note": "No reason is given for the vote representing preferences."
+   },
+   "chosen": "A",
+   "reason": "Since C3.2 is STATED and no justification accompanies the statement, NONE applies."
+  },
+  "C6.OTH": {
+   "value": {
+    "present": "Y",
+    "behav": "STRAT",
+    "behav_stated": "EXPLICIT",
+    "info": "NS",
+    "info_stated": "NA",
+    "loc_behav": "Section 1 (Our Contributions), p.2",
+    "quote_behav": "the max-adversary aims to maximize the likelihood of k-way ties",
+    "loc_info": "Sections 1-2, pp.2-8",
+    "quote_info": "none found",
+    "note": "Max/min adversary choosing each agent's vote distribution (smoothed analysis device); its information is never discussed."
+   },
+   "chosen": "A",
+   "reason": "The adversary's information about others is never discussed, and inferring complete information is not warranted because it chooses the distributions itself."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Section 3, Definition 3, p.8",
+    "quote_behav": "Yj is distributed as \u03c0j",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Votes are random draws from the distributions chosen by the adversary, so voters cast votes as a fixed, exogenous action."
+   },
+   "chosen": "A",
+   "reason": "Voters cast votes in the model, and the codebook counts fixed actions, so voters are present and NONSTRAT."
+  },
+  "C7.1": {
+   "value": {
+    "code": "Y",
+    "loc": "Section 1, p.2",
+    "quote": "the adversary chooses a distribution \u03c0j for each agent j",
+    "note": "OTH (adversary) is STRAT; VOT is NONSTRAT."
+   },
+   "chosen": "A",
+   "reason": "With voters present as NONSTRAT and the adversary as STRAT, two types are modelled differently in the same analysis."
+  },
+  "C7.2": {
+   "value": {
+    "code": "CITE",
+    "loc": "Section 1, p.2",
+    "quote": "which is inspired by the celebrated smoothed complexity analysis [59]",
+    "note": "The framework is justified by reference to smoothed analysis and [66]; there is no specific argument for treating the types differently."
+   },
+   "chosen": "A",
+   "reason": "The adversarial setup is justified only by citing the smoothed analysis literature, with no specific argument for the differing behaviour."
+  },
+  "C8.2": {
+   "value": {
+    "code": "Y",
+    "loc": "Section 1, p.2",
+    "quote": "We call Tie the max (respectively, min) smoothed likelihood"
+   },
+   "chosen": "A",
+   "reason": "The sup/inf adversarial optimisation concept is explicitly named as the max/min smoothed likelihood."
+  },
+  "C9.2": {
+   "value": {
+    "code": "ALL-STATED",
+    "loc": "Section 1 (The Model), p.2; Section 3, p.8",
+    "quote": "we assume that the set of distribution \u03a0 is strictly positive",
+    "note": "The claims concern how often submitted votes are tied; the needed assumption is the vote-generation model (smoothed, strictly positive, closed \u03a0), and it is stated."
+   },
+   "chosen": "A",
+   "reason": "B's unstated assumption, that real electorates fit the model, is the general model-approximates-reality assumption the codebook excludes, and the needed model assumptions are stated."
+  }
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "paper_id": "SCW-2022-53d746e0",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "WD",
+     "SB"
+    ],
+    "primary": "WD",
+    "loc": "Abstract, p.1; Theorems 1-3, pp.6-14",
+    "quote": "has the lowest worst-case approximation ratio in the class of deterministic",
+    "note": "Results bound the approximation ratio of social cost within the class of strategyproof mechanisms. Strategyproofness enters as a constraint, and characterisations from prior work are used only as tools. No algorithmic results."
+   },
+   "chosen": "A",
+   "reason": "The main results are approximation-ratio bounds under a strategyproofness constraint; the characterisations are cited lemmas, not new axiomatic results, and nothing is algorithmic, so AX and AL do not apply."
+  },
+  "C2.4": {
+   "value": {
+    "code": "DIST",
+    "loc": "Introduction, p.1; Definition 2.1, p.3",
+    "quote": "agents may lie about their ideal points if it benefits them",
+    "note": "The strategyproofness definition distinguishes the true point xi from the report x'i."
+   },
+   "chosen": "A",
+   "reason": "The paper says in words that reports may differ from ideal points, and Definition 2.1 uses separate notation (xi vs x'i), which meets the DIST condition."
+  },
+  "C5.2": {
+   "value": {
+    "code": "HELD",
+    "loc": "Section 2, p.3",
+    "quote": "The cost of locating the facility at y \u2208 X for agent i is d(y, xi )",
+    "note": "Social cost is defined on agents' true ideal points (held attitudes), which are separate from reports given C2.4 = DIST."
+   },
+   "chosen": "A",
+   "reason": "Costs and social cost are defined on agents' ideal points, a held attitude the paper distinguishes from reports, so the evaluation is on held attitudes."
+  },
+  "C6.DES": {
+   "value": {
+    "present": "Y",
+    "behav": "STRAT",
+    "behav_stated": "EXPLICIT",
+    "info": "NONE",
+    "info_stated": "IMPLICIT",
+    "loc_behav": "Introduction, p.1",
+    "quote_behav": "A central planner wishes to locate the facility to minimize",
+    "loc_info": "Introduction, p.1",
+    "quote_info": "a set of strategic agents have private preferences",
+    "note": "The planner chooses a strategyproof mechanism to minimise the worst-case approximation ratio. Since ideal points are private to the agents, the planner does not know them."
+   },
+   "chosen": "A",
+   "reason": "Calling agents' preferences private and noting that they may lie implies, though it is not said directly, that the planner does not know the ideal points."
+  },
+  "C9.2": {
+   "value": {
+    "code": "ALL-STATED",
+    "loc": "Section 1, p.1; Section 2, p.3",
+    "quote": "Each agent\u2019s preference is defined by its ideal point",
+    "note": "Needed assumptions are stated: costs are Euclidean distances from ideal points, and agents may lie, which motivates the strategyproofness constraint. The claims restate the formal results within this model."
+   },
+   "chosen": "A",
+   "reason": "The claims are optimality statements within the model, and the paper states the needed assumptions (cost definition and agents' incentive to lie, hence strategyproofness)."
+  }
+ }
+}

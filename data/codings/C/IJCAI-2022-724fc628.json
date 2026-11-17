@@ -1,0 +1,31 @@
+{
+ "paper_id": "IJCAI-2022-724fc628",
+ "decisions": {
+  "C3.3": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "C3.2 is NOT-STATED, so C3.3 does not apply."
+   },
+   "chosen": "A",
+   "reason": "The codebook requires NA for C3.3 whenever C3.2 is not STATED, and both coders coded C3.2 as NOT-STATED."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Sec 2, p.484",
+    "quote_behav": "a voter v gives an approval ballot as a vote",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Voters submit ballots, which are taken as given, so this is a fixed action; no strategic behaviour is modelled."
+   },
+   "chosen": "A",
+   "reason": "The model has voters who give ballots, a fixed action, which counts as present under C6 ('whether chosen strategically or fixed'), and that behaviour is only inferable from the formal model."
+  }
+ }
+}

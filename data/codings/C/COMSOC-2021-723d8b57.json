@@ -1,0 +1,53 @@
+{
+ "paper_id": "COMSOC-2021-723d8b57",
+ "decisions": {
+  "C2.2": {
+   "value": {
+    "codes": [
+     "APPR"
+    ],
+    "loc": "Section 1 Introduction, p.1",
+    "quote": "each voter specifies a subset of candidates that he or she finds",
+    "note": ""
+   },
+   "chosen": "A",
+   "reason": "The input is approval sets, and 'dichotomous preferences' appears only in a cited reference title, so the input is never described as dichotomous preferences and DICH does not apply."
+  },
+  "C4.1": {
+   "value": {
+    "code": "PART",
+    "loc": "Section 5.2 Discussion, p.9",
+    "quote": "the voter who approves fewest of them",
+    "note": "Voter-oriented notions (worst-off voter, satisfying the voters) are tied loosely to approvals and proximity, but no utility function is defined."
+   },
+   "chosen": "A",
+   "reason": "With APPR input, the paper's references to the worst-off voter and to satisfying the voters trigger applicability, and their relation to approvals is mentioned but not defined."
+  },
+  "C5.2": {
+   "value": {
+    "code": "HELD",
+    "loc": "Section 5.2 Discussion, p.8",
+    "quote": "even though many agents have ideal points in this area",
+    "note": "Proportionality is judged against the distribution of voters' ideal points, which are defined separately from the approval sets."
+   },
+   "chosen": "A",
+   "reason": "The proportionality evaluation refers explicitly to the locations of voters' ideal points, which are held attitudes distinct from the submitted approval sets."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Section 1 Introduction, p.1; Section 3, p.3",
+    "quote_behav": "we assume that each voter specifies a subset of candidates",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Approval sets are fixed by the Euclidean model."
+   },
+   "chosen": "A",
+   "reason": "Voters take an action (specifying approval sets) that is fixed by the model, so they are present and NONSTRAT, and info is NA."
+  }
+ }
+}

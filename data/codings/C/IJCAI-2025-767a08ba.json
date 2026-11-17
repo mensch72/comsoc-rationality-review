@@ -1,0 +1,31 @@
+{
+ "paper_id": "IJCAI-2025-767a08ba",
+ "decisions": {
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Definition 3, Section 2 p.332",
+    "quote_behav": "Given a set S of rankings over d candidates",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Rankings are given exogenously."
+   },
+   "chosen": "A",
+   "reason": "The codebook counts fixed actions as actions, and voters providing rankings that the rule aggregates is such a fixed action, so voters are present and NONSTRAT (implicit)."
+  },
+  "C9.2": {
+   "value": {
+    "code": "SOME-UNSTATED",
+    "loc": "Intro, p.330",
+    "quote": "to ensure equitable selection and to avoid the risk of reinforcing",
+    "note": "Claims about real applications need an unstated link between input rankings and held preferences, and that the Kendall tau objective and group quotas capture fairness."
+   },
+   "chosen": "B",
+   "reason": "The listed claim that the baseline output reflects 'the preference order of a single voter' needs the unstated assumption that input rankings equal voters' held preferences, so not every needed assumption is stated."
+  }
+ }
+}

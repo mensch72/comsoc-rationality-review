@@ -1,0 +1,66 @@
+{
+ "paper_id": "EC-2022-19abb122",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "WD",
+     "AL",
+     "SB"
+    ],
+    "primary": "WD",
+    "loc": "Abstract, p.1; Sec. 4.1, Thm 4.5, p.14; App. D, p.27",
+    "quote": "If f is an \u03b1-proportionally fair voting rule that is also truthful",
+    "note": "Most results are distortion or proportional-fairness bounds (WD). There are polynomial-time computation results (AL), and lower bounds for truthful (strategyproof) rules are main results reported in Table 1 (SB). No original axiomatic characterisation: Barber\u00e0's result is only cited."
+   },
+   "chosen": "A",
+   "reason": "The truthful-rule lower bounds are main results (Table 1, Thm 4.5) that study strategyproofness as a property, so SB applies, while the core is used as an approximation measure rather than an axiomatic result, so AX does not."
+  },
+  "C3.2": {
+   "value": {
+    "code": "STATED",
+    "loc": "Sec. 1, p.1",
+    "quote": "but reports only the induced ranking over alternatives to the voting rule",
+    "note": "The implicit utilitarian framework is described as agents reporting the ranking induced by their utilities."
+   },
+   "chosen": "A",
+   "reason": "The introduction says in words that agents report the ranking induced by their cardinal utilities, which states that the submitted input reflects the held attitude."
+  },
+  "C3.3": {
+   "value": {
+    "code": "CONV",
+    "loc": "Sec. 1, p.1",
+    "quote": "we build upon the framework of implicit utilitarian voting [Procaccia and Rosenschein, 2006]",
+    "note": "The reasons given (cognitive burden, privacy) concern why rankings rather than utilities are elicited, not why reports are sincere."
+   },
+   "chosen": "A",
+   "reason": "The sincere-reporting assumption is introduced only as part of a cited prior framework, without any incentive-based justification."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "MIXED",
+    "behav_stated": "EXPLICIT",
+    "info": "NS",
+    "info_stated": "NA",
+    "loc_behav": "Sec. 1, p.1; App. D, p.27",
+    "quote_behav": "no agent can increase her utility by misreporting her vote",
+    "loc_info": "Sec. 1; Sec. 2; App. D (checked)",
+    "quote_info": "none found",
+    "note": "Voters report sincerely in the main analyses; possible misreporting is considered only in the strategyproofness analysis. No knowledge assumption is stated."
+   },
+   "chosen": "A",
+   "reason": "Strategyproofness quantifies over all profiles but assumes no particular state of voter knowledge, so info is not specified rather than NONE."
+  },
+  "C9.2": {
+   "value": {
+    "code": "ALL-STATED",
+    "loc": "Sec. 1, p.1; Sec. 2, p.5",
+    "quote": "We assume that when agents submit ranked preferences, they have more expressive",
+    "note": "Two assumptions are needed and both are stated: truthful reporting of the induced ranking, and utilities consistent with the rankings."
+   },
+   "chosen": "A",
+   "reason": "The needed links, sincere reporting of the induced ranking and consistency of utilities with rankings, are both stated in words in Sections 1 and 2."
+  }
+ }
+}

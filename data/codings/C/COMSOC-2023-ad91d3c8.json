@@ -1,0 +1,115 @@
+{
+ "paper_id": "COMSOC-2023-ad91d3c8",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "AX",
+     "SB",
+     "WD"
+    ],
+    "primary": "SB",
+    "loc": "Section 3.2 Theorem 1; Section 4 Theorem 2; Section 5.1",
+    "quote": "Theorem 1. The US-VCG mechanism is SDSIC.",
+    "note": "The main result is SDSIC (SB). Vanishing payments and the properties inherited by biased mechanisms are properties of rules (AX). Welfare maximization is WD."
+   },
+   "chosen": "B",
+   "reason": "Theorem 2 (vanishing payments) and Section 5.1 (properties inherited by M\u0302) establish which mechanisms satisfy which properties, so AX applies alongside SB and WD."
+  },
+  "C3.1": {
+   "value": {
+    "code": "SOME",
+    "loc": "Section 3.2, p.8; Section 4, p.8-10",
+    "quote": "Now, assume that i falsely reports \u03b1i\u2032 \u0338= \u03b1i",
+    "note": "The IC analysis considers misreports; the vanishing-payments analysis evaluates truthful reports only."
+   },
+   "chosen": "A",
+   "reason": "Theorem 2 analyses payments under truthful reports without modelling misreports, so not every main analysis is strategic."
+  },
+  "C3.2": {
+   "value": {
+    "code": "STATED",
+    "loc": "Section 2.1, p.5",
+    "quote": "Since every agent reports (x(i) , t(i) ) = g(\u03b1i )",
+    "note": ""
+   },
+   "chosen": "A",
+   "reason": "The paper states in words that agents report g(\u03b1i), their type-induced optimum."
+  },
+  "C3.3": {
+   "value": {
+    "code": "SP",
+    "loc": "Remark 2, p.7",
+    "quote": "truthfully reporting the types forms a Coalition-Proof Nash Equilibrium",
+    "note": "Truthful reporting is justified by the mechanism's SDSIC property."
+   },
+   "chosen": "A",
+   "reason": "Truthful reporting in the non-strategic analysis is grounded in the strategyproofness of the mechanism."
+  },
+  "C6.DES": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Section 5, p.11",
+    "quote_behav": "the designer may have some goal in mind that she may",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "The designer's objective is modelled explicitly via the bias function C and \u03c8, which are chosen exogenously."
+   },
+   "chosen": "A",
+   "reason": "Section 5 explicitly models the designer's objective and choice of bias function, so DES is present, with that choice fixed exogenously."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "MIXED",
+    "behav_stated": "EXPLICIT",
+    "info": "NS",
+    "info_stated": "NA",
+    "loc_behav": "Section 3.2, p.8",
+    "quote_behav": "assume that i falsely reports \u03b1i\u2032 \u0338= \u03b1i",
+    "loc_info": "Sections 1, 2, 3 checked",
+    "quote_info": "none found",
+    "note": "Voters are strategic in the SDSIC analysis and truthful in the payment analysis; no information assumption is stated."
+   },
+   "chosen": "A",
+   "reason": "MIXED is consistent with C3.1 = SOME, and a dominant-strategy definition does not itself state what voters know."
+  },
+  "C7.1": {
+   "value": {
+    "code": "Y",
+    "loc": "Section 5, p.11",
+    "quote": "C(x, t) must be independent of the realization of preferences",
+    "note": "VOT are strategic in the IC analysis of biased mechanisms, while the designer's choice of C is fixed."
+   },
+   "chosen": "A",
+   "reason": "In Section 5 voters are strategic while the present designer type is non-strategic."
+  },
+  "C7.2": {
+   "value": {
+    "code": "REASON",
+    "loc": "Section 5, p.11",
+    "quote": "C(x, t) must be independent of the realization of preferences",
+    "note": "The designer's choice is fixed independently of preferences to maintain incentive compatibility, which is an argument."
+   },
+   "chosen": "other",
+   "reason": "The paper argues that the designer's bias must be fixed independently of preferences to maintain incentive compatibility, which counts as a reason."
+  },
+  "C8.1": {
+   "value": {
+    "codes": [
+     "DOM",
+     "COAL"
+    ],
+    "loc": "Remark 2, p.7; Appendix B",
+    "quote": "strategy-proof in strictly dominant strategies",
+    "note": "Coalition-Proof Nash Equilibrium (Corollary 2) is used as the coalitional concept."
+   },
+   "chosen": "A",
+   "reason": "Besides dominant strategies, the paper formally treats coalition manipulation and CPNE (Definitions 10-11, Corollary 2), so COAL applies."
+  }
+ }
+}

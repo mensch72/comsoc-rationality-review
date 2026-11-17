@@ -1,0 +1,55 @@
+{
+ "paper_id": "SCW-2023-08f6220a",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "AX",
+     "SB"
+    ],
+    "primary": "AX",
+    "loc": "Section 3, pp.6-8",
+    "quote": "locally ordinal Bayesian incentive compatibility of a social choice function combined with unanimity",
+    "note": "Every main result is an implication or equivalence between properties (unanimity, tops-onlyness, monotonicity, local and full IC), so AX and SB fit equally well. Under the doubt rule the first-listed code, AX, is primary."
+   },
+   "chosen": "B",
+   "reason": "The results are property implications that are equally axiomatic and about strategyproofness, so the doubt rule selects the first-listed code, AX."
+  },
+  "C5.1": {
+   "value": {
+    "code": "N",
+    "loc": "Section 2.1, Definition 1, p.4",
+    "quote": "An scf f is unanimous if for any P \u2208 Dn and a \u2208 A",
+    "note": "Unanimity is a property of the scf. It is framed as a mild form of efficiency only in the introduction (coded under C9.1). No result evaluates outcomes by welfare, efficiency, satisfaction or representation."
+   },
+   "chosen": "B",
+   "reason": "Unanimity in the formal results is not itself an efficiency or welfare criterion, and its efficiency framing appears only in the introduction."
+  },
+  "C5.2": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "C5.1 = N"
+   },
+   "chosen": "B",
+   "reason": "C5.1 = N, so C5.2 is NA."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "STRAT",
+    "behav_stated": "EXPLICIT",
+    "info": "PARTIAL",
+    "info_stated": "EXPLICIT",
+    "loc_behav": "Section 1, p.2",
+    "quote_behav": "any vector obtained from lying",
+    "loc_info": "Section 2.1, p.4",
+    "quote_info": "which is common knowledge for every agent",
+    "note": "Agents know the priors over others' types (Bayesian setting). The DSIC analyses need no information."
+   },
+   "chosen": "A",
+   "reason": "The paper says in words that agents compare truth-telling with lying and that priors are common knowledge, so both behaviour and information are explicit."
+  }
+ }
+}

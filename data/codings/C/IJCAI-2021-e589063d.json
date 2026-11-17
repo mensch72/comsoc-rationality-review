@@ -1,0 +1,41 @@
+{
+ "paper_id": "IJCAI-2021-e589063d",
+ "decisions": {
+  "C4.1": {
+   "value": {
+    "code": "NOTSPEC",
+    "loc": "Introduction, p. 11",
+    "quote": "maximizes the overall satisfaction among the voters",
+    "note": "The paper refers to voters' satisfaction but does not relate it to the votes or to Kendall-Tau distance."
+   },
+   "chosen": "A",
+   "reason": "The input includes RANK and the paper uses 'satisfaction' for voters, so C4.1 applies wherever the term appears; no link between satisfaction and the votes is defined, so the code is NOTSPEC, not NA."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Introduction, p. 11",
+    "quote_behav": "the ranking cast by each voter is a partial order",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Voters cast votes, which enter the model as fixed input; a fixed action counts as presence."
+   },
+   "chosen": "A",
+   "reason": "The codebook counts agents whose actions are fixed, and the model contains votes cast by voters, so voters are present and NONSTRAT, implicitly."
+  },
+  "C9.2": {
+   "value": {
+    "code": "SOME-UNSTATED",
+    "loc": "Introduction, p. 11",
+    "quote": "maximizes the overall satisfaction among the voters",
+    "note": "The satisfaction claim needs two unstated assumptions: that votes reflect voters' preferences, and that voter satisfaction is measured by (inverse) Kendall-Tau distance."
+   },
+   "chosen": "A",
+   "reason": "The listed claim about voters' satisfaction needs unstated links from votes to held preferences and from satisfaction to Kendall-Tau distance."
+  }
+ }
+}

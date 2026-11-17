@@ -1,0 +1,71 @@
+{
+ "paper_id": "SCW-2023-8910a578",
+ "decisions": {
+  "C2.4": {
+   "value": {
+    "code": "IDJ",
+    "loc": "Sect. 1, p. 98; Sect. 6.3, p. 131",
+    "quote": "a group of voters announce their preferences by specifying which alternatives",
+    "note": "Ballots are stated to announce voters' preferences. Sect. 6.3 gives an incentive reason for not modelling strategic voting: 'strategyproofness is usually not important in election with independent experts'. This is consistent with C3.3 = INC."
+   },
+   "chosen": "other",
+   "reason": "The paper states that ballots announce voters' preferences and also gives an incentive-type reason (independent experts), so IDJ fits better than IDS or IDU."
+  },
+  "C3.2": {
+   "value": {
+    "code": "STATED",
+    "loc": "Sect. 1, p. 98",
+    "quote": "a group of voters announce their preferences by specifying which alternatives",
+    "note": ""
+   },
+   "chosen": "A",
+   "reason": "The introduction says in words that voters announce their preferences through their approval ballots."
+  },
+  "C3.3": {
+   "value": {
+    "code": "INC",
+    "loc": "Sect. 6.3, p. 131",
+    "quote": "while strategyproofness is usually not important in election with independent experts",
+    "note": "The incentive argument appears in the future-work section."
+   },
+   "chosen": "A",
+   "reason": "The paper gives an incentive-based reason (independent experts) for not treating strategic voting."
+  },
+  "C5.2": {
+   "value": {
+    "code": "INPUT-STATED",
+    "loc": "Sect. 2, p. 103",
+    "quote": "Efficiency can also be argued for from the perspective of voters",
+    "note": "Pareto efficiency is evaluated on approval ballots; the paper states that ballots announce preferences."
+   },
+   "chosen": "A",
+   "reason": "Efficiency is evaluated on the input, and the paper states that the input equals the held preferences."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "EXPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Sect. 6.3, p. 131",
+    "quote_behav": "We have not considered strategic voting in this paper",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Approvals are generated from perceived quality in the simulations."
+   },
+   "chosen": "A",
+   "reason": "The non-strategic modelling of voters is said in words in Sect. 6.3, so behav_stated is EXPLICIT."
+  },
+  "C9.2": {
+   "value": {
+    "code": "ALL-STATED",
+    "loc": "Sect. 1, p. 98; Sect. 6.3, p. 131",
+    "quote": "We have not considered strategic voting in this paper",
+    "note": "Needed assumptions are that ballots express voters' (noisy) judgements and that voters are non-strategic. Both are stated, and the paper notes that strategic voting may change the recommendations."
+   },
+   "chosen": "A",
+   "reason": "The assumptions the recommendations need (sincere approvals reflecting judgement, no strategic voting) are stated explicitly in the paper."
+  }
+ }
+}

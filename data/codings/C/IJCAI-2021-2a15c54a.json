@@ -1,0 +1,85 @@
+{
+ "paper_id": "IJCAI-2021-2a15c54a",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "AX",
+     "SI"
+    ],
+    "primary": "AX",
+    "loc": "Sections 4-6, pp.263-266",
+    "quote": "study their monotonicity and proportionality properties",
+    "note": "Main results are monotonicity and proportionality properties (Sections 4-5) and simulations on synthetic profiles (Section 6). The polynomial-time remark is deferred to the full version and is not a main result."
+   },
+   "chosen": "A",
+   "reason": "Polynomial-time computability is only a one-sentence remark deferred to the full version, so AL is not a main result."
+  },
+  "C2.3": {
+   "value": {
+    "code": "Y",
+    "loc": "Abstract/Section 1, p.261",
+    "quote": "participants only upvote questions related to their own interest",
+    "note": "Voters' interests and opinions are referred to apart from the upvotes; the paper also speaks of groups with similar preferences."
+   },
+   "chosen": "A",
+   "reason": "The paper attributes interests and preferences to participants that are distinct from the upvotes they submit."
+  },
+  "C2.4": {
+   "value": {
+    "code": "IDU",
+    "loc": "Abstract, p.261",
+    "quote": "aggregate approval-style preferences of agents into a collective ranking",
+    "note": "In the formal model the approval sets are treated as preferences and the rule is applied to them directly. The intro example assumes upvotes track interests, but only for illustration."
+   },
+   "chosen": "A",
+   "reason": "The input is described as approval preferences and the rule is applied to it directly; ONE is excluded because a held attitude is referenced."
+  },
+  "C3.2": {
+   "value": {
+    "code": "NOT-STATED",
+    "loc": "Sections 1, 2, 3, 7",
+    "quote": "none found",
+    "note": "The intro assumption about upvoting own interests belongs to the motivating example of tyranny of the majority. It is not stated as a modelling assumption for the analyses."
+   },
+   "chosen": "A",
+   "reason": "C2.4 is not ONE and C3.1 is NONE, so NA does not apply, and no general sincerity statement for the analyses is found."
+  },
+  "C4.1": {
+   "value": {
+    "code": "SPEC",
+    "loc": "Section 4, p.264",
+    "quote": "To measure satisfaction of a group V \u2286 N of voters",
+    "note": "Satisfaction is defined as the number of approved candidates in a set, i.e. avgV(S) = (1/|V|) \u03a3|Ai \u2229 S|."
+   },
+   "chosen": "A",
+   "reason": "The input is approval sets and voter satisfaction is used, so C4.1 applies, and satisfaction is defined explicitly from approvals."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Section 2, p.262",
+    "quote_behav": "the approval set Ai \u2286 C of voter i",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Approval sets are given exogenously."
+   },
+   "chosen": "A",
+   "reason": "Voters take a fixed action (upvoting) in the model, and the codebook counts fixed actions as presence."
+  },
+  "C7.1": {
+   "value": {
+    "code": "N",
+    "loc": "Sections 3-6",
+    "quote": "none found",
+    "note": "VOT and ORG are present but both are NONSTRAT."
+   },
+   "chosen": "A",
+   "reason": "Two types are present (VOT and ORG), and neither is strategic, so the code is N rather than NA."
+  }
+ }
+}

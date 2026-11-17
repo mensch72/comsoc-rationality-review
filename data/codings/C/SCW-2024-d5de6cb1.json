@@ -1,0 +1,90 @@
+{
+ "paper_id": "SCW-2024-d5de6cb1",
+ "decisions": {
+  "C3.1": {
+   "value": {
+    "code": "NONE",
+    "loc": "Sect. 2.1, p. 508",
+    "quote": "the supporters of \"death\" strategically voted in favor of the \"exile\"",
+    "note": "Strategic voting appears only in the historical retelling of Pliny's episode (following Riker). The paper's own analyses of the Declamation and Gellius cases do not consider it."
+   },
+   "chosen": "B",
+   "reason": "Pliny's strategic voting is narrated as historical background, not analysed by the paper, so no analysis in the paper models strategic voters."
+  },
+  "C5.1": {
+   "value": {
+    "code": "N",
+    "loc": "Sect. 2.2, Sect. 3.1",
+    "quote": "none found",
+    "note": "There are no formal results or definitions used in results. The talk of representing the judges' will is an informal interpretation of the texts."
+   },
+   "chosen": "A",
+   "reason": "C5.1 requires a definition used in a result, a formal result or a simulation, and this historical paper has none."
+  },
+  "C5.2": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "C5.1 = N."
+   },
+   "chosen": "A",
+   "reason": "Follows from C5.1 = N."
+  },
+  "C6.ORG": {
+   "value": {
+    "present": "N",
+    "note": "Pliny's agenda change is narrated historically, not modelled."
+   },
+   "chosen": "A",
+   "reason": "A type is present only if the formal model contains an acting agent of that type, and the paper has no formal model."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "N",
+    "note": "No formal model."
+   },
+   "chosen": "A",
+   "reason": "Presence requires an acting agent in the formal model, and the paper has no formal model."
+  },
+  "C7.1": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "No types present."
+   },
+   "chosen": "A",
+   "reason": "Under the C6 definition fewer than two types are present."
+  },
+  "C8.1": {
+   "value": {
+    "codes": [],
+    "loc": "",
+    "quote": "",
+    "note": "NA: no type present as STRAT or MIXED."
+   },
+   "chosen": "A",
+   "reason": "C8 applies only if some present type is STRAT or MIXED, and no type is present."
+  },
+  "C8.2": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": ""
+   },
+   "chosen": "A",
+   "reason": "Follows from C8.1 being NA."
+  },
+  "C9.2": {
+   "value": {
+    "code": "UNCLEAR",
+    "loc": "Sect. 2.2, p. 510",
+    "quote": "Only when we assume voters\u2019 preferences and assume",
+    "note": "There are no formal results from which the claims could follow, so the needed assumptions cannot be determined. The paper does state that criticising plurality presupposes preferences distinct from votes."
+   },
+   "chosen": "A",
+   "reason": "Without formal results the needed assumptions cannot be identified, and the paper does state the preference-vote gap that B calls unstated."
+  }
+ }
+}

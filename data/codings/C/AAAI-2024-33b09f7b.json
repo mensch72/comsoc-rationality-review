@@ -1,0 +1,31 @@
+{
+ "paper_id": "AAAI-2024-33b09f7b",
+ "decisions": {
+  "C4.1": {
+   "value": {
+    "code": "PART",
+    "loc": "Sec. 3, p. 12166",
+    "quote": "the matrices in the proofs also yield similar voter satisfaction",
+    "note": "The paper uses 'voter satisfaction' and voter cost with ranking inputs, so C4.1 applies. Satisfaction is associated with the Kemeny score, but no utility model linking it to rankings is defined."
+   },
+   "chosen": "A",
+   "reason": "C2.2 includes RANK and PAIR and the paper uses 'voter satisfaction' for voters, so NA is wrong; satisfaction is related to the Kemeny score only loosely, without a definition, which fits PART."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Sec. 1, p. 12164",
+    "quote_behav": "bandit feedback for pulling two arms corresponds to a random voter\u2019s preference",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Voters answer pairwise queries according to their preferences. This is a fixed action in the model."
+   },
+   "chosen": "A",
+   "reason": "Voters take an action in the model by answering elicitation queries, and the codebook counts fixed actions as presence; that behaviour is fixed but never described in words as sincere."
+  }
+ }
+}

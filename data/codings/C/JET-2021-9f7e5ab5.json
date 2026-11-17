@@ -1,0 +1,31 @@
+{
+ "paper_id": "JET-2021-9f7e5ab5",
+ "decisions": {
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "STRAT",
+    "behav_stated": "EXPLICIT",
+    "info": "NS",
+    "info_stated": "NA",
+    "loc_behav": "2.2, footnote 4, p.7",
+    "quote_behav": "strategy-proofness ensures that the outcome an(y) agent can obtain by misreporting",
+    "loc_info": "Sections 1, 2, 2.2, 6 checked",
+    "quote_info": "none found",
+    "note": "Possible misreports are described in words in footnote 4, and proofs say an agent 'manipulates at PN via P\u03041'. Information about others is not discussed."
+   },
+   "chosen": "A",
+   "reason": "Footnote 4 and the proofs say in words that agents may misreport or manipulate, so the behaviour is EXPLICIT rather than only inferable from the formal definition."
+  },
+  "C9.2": {
+   "value": {
+    "code": "SOME-UNSTATED",
+    "loc": "1.2, p.4",
+    "quote": "property can be utilized in finding the optimal RSCFs for a society",
+    "note": "The optimal-RSCF claim needs an objective over lotteries, such as expected welfare from cardinal utilities linked to the ordinal preferences, so that optima lie at extreme points. This paper never states that objective or link; it only refers to Gershkov et al."
+   },
+   "chosen": "other",
+   "reason": "The optimality claim needs an unstated assumption about utilities and an objective that is linear in lotteries, so neither ALL-STATED nor UNCLEAR fits; the needed assumption can be identified and is not stated."
+  }
+ }
+}

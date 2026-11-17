@@ -1,0 +1,188 @@
+{
+ "paper_id": "SCW-2024-d73d2827",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Sect. 1, p. 103",
+  "quote": "based on these reports the committee decides on the suitability",
+  "note": "Aggregation of agents' reported binary vectors into a social alternative; the paper studies strategy-proofness of such rules."
+ },
+ "C1": {
+  "types": [
+   "SB",
+   "AX"
+  ],
+  "primary": "SB",
+  "loc": "Sect. 1, p. 104",
+  "quote": "The central question of the paper is how far we can",
+  "note": "The main results are (group) strategy-proofness possibility and impossibility results within an axiomatically defined class F. Some Pareto-optimality results are axiomatic."
+ },
+ "C2.1": {
+  "value": "profile of reported alternatives; preference profile",
+  "loc": "Sect. 1, p. 104; Sect. 2, p. 107",
+  "quote": "A rule assigns to each profile of reported alternatives a (social)"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Sect. 2, p. 107",
+  "quote": "the set of alternatives is A = {0, 1} M",
+  "note": "The input is a reported top alternative, a binary vector of opinions on issues. The paper mentions approval voting only as a formal resemblance."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sect. 2, p. 107",
+  "quote": "A preference of an agent i on A is characterized by",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Sect. 2, Def. 2.2, p. 107",
+  "quote": "there is a bi \u2208 A such that r ( f (bi , a N \u2212{i}",
+  "note": "Reports b^i are notated separately from true tops a^i. The text speaks of 'not reporting the top alternative truthfully'."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Sect. 1, p. 104",
+  "quote": "no agent can be better off by not reporting the top",
+  "note": "All main results concern (group) strategy-proofness. The Pareto lemmas are auxiliary."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL"
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 not STATED"
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Sect. 2, p. 107",
+  "quote": "The disutility of agent i with top alternative a i for",
+  "note": "Disutility is the Hamming distance from the agent's top alternative."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sect. 3.1, Prop. 3.4, p. 109",
+  "quote": "Let f be a component-wise majority rule. Then f is strongly",
+  "note": "Pareto optimality is used in results (Prop. 3.4, Lemma 3.7)."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Sect. 2, p. 108",
+  "quote": "there does not exist an alternative b \u2208 A such that",
+  "note": "Pareto optimality is defined via the disutility r(b, a^i) relative to true tops a^i, which are distinct from reports b^i. INPUT-UNSTATED is also arguable, since the rule is applied to a^N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Sect. 2, Def. 2.3, p. 107",
+   "quote_behav": "A group S can strongly manipulate f at profile a N",
+   "loc_info": "Sects. 1, 2, 5 checked",
+   "quote_info": "none found",
+   "note": "Strategy-proofness is a dominant-strategy notion. Knowledge of others' tops is not discussed."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 not Y"
+ },
+ "C8.1": {
+  "codes": [
+   "DOM",
+   "COAL"
+  ],
+  "loc": "Sect. 2, Defs. 2.2\u20132.4, pp. 107\u2013108",
+  "quote": "f is strongly group strategy-proof if at every profile there is",
+  "note": "Individual strategy-proofness plus weak and strong group strategy-proofness (coalitional)."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Sect. 2, Def. 2.2, p. 107",
+  "quote": "f is strategy-proof if at every profile there is no agent"
+ },
+ "C9.1": {
+  "code": "N",
+  "claims": [],
+  "note": "The introduction says truthful reporting is 'desirable' as motivation. No claims are drawn from the results about institutions, voter welfare or which rule to use."
+ },
+ "C9.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C9.1 = N"
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sects. 1, 2, 5 checked",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C1": {
+   "chosen": "A",
+   "reason": "The bulk of the main results concern whether rules are (group) strategy-proof, which the codebook places explicitly under SB, so SB is primary."
+  },
+  "C2.2": {
+   "chosen": "B",
+   "reason": "Inputs are reported top alternatives (binary judgment vectors), and the approval reading is only an analogy, so OTH fits better than APPR."
+  },
+  "C6.VOT": {
+   "chosen": "A",
+   "reason": "Strategy-proofness is a dominant-strategy property that does not depend on what agents know, so complete information does not follow unambiguously and the information assumption is not specified."
+  },
+  "C8.1": {
+   "chosen": "A",
+   "reason": "Weak and strong group strategy-proofness are coalitional concepts and are central to the results, so COAL belongs alongside DOM."
+  },
+  "C9.1": {
+   "chosen": "A",
+   "reason": "The committee application and the desirability of truthful reports are motivation, not claims drawn from the results, and the conclusion only restates the formal results."
+  },
+  "C9.2": {
+   "chosen": "A",
+   "reason": "C9.1 = N, so C9.2 is NA."
+  }
+ }
+}

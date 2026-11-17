@@ -8,17 +8,22 @@ A small systematic coding study of recent papers on voting in social choice and 
 
 ## Status
 
-**Checkpoint 2:** pilot done, codebook frozen (v1.0), sample drawn (150), hand-check set of 15 coded. See `protocol/checkpoint2.md`.
+**Coding complete.** 150 eligible papers coded (passes A and B) and adjudicated (pass C). Results are in `results/`, the dataset in `data/dataset.xlsx`, and the note in `note/`. See `protocol/checkpoint3.md`.
+
+**Open:** the human hand-check of 15 papers (`data/handcheck/handcheck_blank_form.csv`).
 
 ## Layout
 
 | Path | Content |
 |---|---|
 | `protocol/sampling_protocol.md` | Population, frame, sources, screening, allocation, coding procedure, outcome measures |
-| `protocol/codebook.md` | Codebook (v0.1 draft; frozen after the pilot) |
+| `protocol/codebook.md` | Codebook v1.0 (frozen after the pilot) |
 | `scripts/build_frame.py` | Enumerates the frame from the venue listings |
 | `scripts/draw_sample.py` | Seeded stratified draw, allocation, weights |
-| `data/` | Frame, screening decisions, sample, codes. PDFs are never committed |
+| `scripts/finalize_sample.py`, `scripts/api_code.py`, `scripts/merge_codings.py`, `scripts/check_quotes.py`, `scripts/analyze.py` | Final sample with replacements, API coding and adjudication, merge, quote check, analysis |
+| `data/` | Frame, screening decisions, sample, retrieval log, codings (A, B, C, final), calibration case, `dataset.xlsx`. PDFs are never committed |
+| `results/` | Outcome estimates, breakdowns, reliability, coder sensitivity, replacements |
+| `note/` | The note for the community (HTML source and PDF) |
 
 ## Reproducing the frame and the draw
 
@@ -32,4 +37,14 @@ Screening adds a `screen` column, which gives `data/frame_screened.csv`. Then dr
 
 ```bash
 python3 scripts/draw_sample.py
+```
+
+After coding, produce the final sample, merge the passes and run the analysis:
+
+```bash
+python3 scripts/finalize_sample.py
+```
+
+```bash
+python3 scripts/analyze.py
 ```

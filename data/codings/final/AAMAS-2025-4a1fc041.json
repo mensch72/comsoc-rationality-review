@@ -1,0 +1,187 @@
+{
+ "paper_id": "AAMAS-2025-4a1fc041",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Sec. 1, p.205; Sec. 3, p.208",
+  "quote": "Like many social choice/voting mechanisms, spatial social choice is",
+  "note": "Spatial social choice: a selection rule aggregates agents' submitted ideal points into one collective outcome, and the strategic aspects are studied. The paper also mentions facility location, but treats the setting as a voting mechanism."
+ },
+ "C1": {
+  "types": [
+   "WD",
+   "EQ",
+   "SB"
+  ],
+  "primary": "WD",
+  "loc": "Sec. 1.1, p.205-206; Sec. 4-6",
+  "quote": "we use the price of anarchy to quantify the impact of manipulation",
+  "note": "Most main theorems bound the price of anarchy (WD) under equilibrium refinements (EQ). Some results concern strategy-proofness (SB)."
+ },
+ "C2.1": {
+  "value": "submitted preference profile; submitted ideal point; submitted preferences",
+  "loc": "Sec. 2.1, p.206-207",
+  "quote": "The collection of all submitted ideal points is the submitted profile"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Sec. 2.1, p.207",
+  "quote": "agent \ud835\udc63 submits a submitted ideal point \ud835\udf0b\u00af\ud835\udc63 \u2208 X",
+  "note": "Inputs are points in a compact convex domain X \u2286 R^k."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec. 2, p.206",
+  "quote": "Each agent \ud835\udc63 \u2208 \ud835\udc49 has an ideal point \ud835\udf0b \ud835\udc63 \u2208 X",
+  "note": "The held attitudes are sincere ideal points and an l_p cost function."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Sec. 2.1, p.206",
+  "quote": "In practice, agents will not necessarily submit honest preferences.",
+  "note": "The paper uses separate notation: \u03c0_v for sincere ideal points and \u03c0\u0304_v for submitted ones."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Sec. 2.1-6",
+  "quote": "This manipulation of submitted preferences results in the following",
+  "note": "All main analyses concern the Strategic Spatial Social Choice Game. Strategy-proofness results also consider possible deviations."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL"
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 not STATED"
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Input format is OTH (spatial points) only."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sec. 2.2, Definition 2.2, p.207",
+  "quote": "how much worse an outcome obtained from a Nash equilibrium is",
+  "note": "The price of anarchy of the social cost (total distance) is used in the main results."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Sec. 2.2, p.207",
+  "quote": "with respect to the sincere preferences \u03a0, the outcome actually costs",
+  "note": "Social cost C(\u03a0, r(\u03a0\u0304)) is evaluated on sincere ideal points."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "IMPLICIT",
+   "loc_behav": "Sec. 2.1, p.207",
+   "quote_behav": "agent \ud835\udc63 submits a submitted ideal point \ud835\udf0b\u00af\ud835\udc63 \u2208 X",
+   "loc_info": "Sec. 2.1, p.207",
+   "quote_info": "no agent \ud835\udc63 would obtain an outcome they sincerely prefer",
+   "note": "Pure Nash equilibrium analysis implies that agents know others' submissions. Only the mechanism is stated as common knowledge; the abstract calls preferences private information. Agents are refined as minimally dishonest."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N",
+   "note": "Mechanism design (domain restriction) is discussed, but the designer is not modelled as an acting agent."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 = NA"
+ },
+ "C8.1": {
+  "codes": [
+   "NE",
+   "DOM"
+  ],
+  "loc": "Sec. 2.1, Sec. 3, Sec. 4, p.207-210",
+  "quote": "A set of submitted preferences \u03a0\u0304 forms a pure strategy Nash equilibrium",
+  "note": "The minimally dishonest Nash equilibrium is a refinement of NE, so it is covered by NE. DOM: strategy-proofness results such as Theorem 4.3 and Definition 3.3."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Sec. 3, p.208",
+  "quote": "we introduce the Minimally Dishonest Nash equilibrium refinement"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Conclusion, p.212",
+    "quote": "we propose that the price of anarchy be one of the criteria"
+   },
+   {
+    "loc": "Sec. 1.1, p.206",
+    "quote": "manipulation has no impact on the quality of the outcome"
+   },
+   {
+    "loc": "Sec. 1.1, p.206",
+    "quote": "introducing bias into a mechanism is undesirable"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Abstract p.205; Sec. 2.1, p.207",
+  "quote": "If a point's cost has an intrinsic correspondence to its quality",
+  "note": "Stated: the relation between inputs and held attitudes, strategic minimally dishonest behaviour, and the cost-quality link (conditionally). Unstated: the information assumption needed for agents to reach Nash play, i.e. that they know others' submissions; only the mechanism is stated as common knowledge."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "",
+  "quote": "none found",
+  "note": "Checked Sec. 1, Sec. 2, Sec. 7."
+ },
+ "adjudication": {
+  "C8.1": {
+   "chosen": "B",
+   "reason": "The minimally dishonest refinement is still a Nash equilibrium concept, so NE covers it and a separate OTH code is not needed."
+  },
+  "C9.2": {
+   "chosen": "A",
+   "reason": "The claims about real manipulation and rule assessment rely on agents reaching Nash equilibria, which needs an information assumption that the paper never states."
+  }
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "paper_id": "IJCAI-2023-a0a9f446",
+ "decisions": {
+  "C2.3": {
+   "value": {
+    "code": "Y",
+    "loc": "Fig. 1 caption, p. 2651; Prologue, Example 1, p. 2651",
+    "quote": "Preferences indicating the favorite activity of each agent for each day",
+    "note": "The paper attributes preferences, wants and satisfaction to agents, using these terms for the nominations themselves."
+   },
+   "chosen": "A",
+   "reason": "The paper refers to agents' preferences, what they want and their satisfaction, which are held attitudes under the codebook's examples, so N is wrong."
+  },
+  "C2.4": {
+   "value": {
+    "code": "IDU",
+    "loc": "Fig. 1 caption, p. 2651; Prologue, Example 1, p. 2651",
+    "quote": "The agents' preferences are given in Fig. 1.",
+    "note": "The nominations are described as the agents' preferences and the rule is applied to them directly, with no statement about submission or reporting."
+   },
+   "chosen": "A",
+   "reason": "The input is described as preferences and used directly, so IDU fits; ONE requires that no held attitude is referred to."
+  },
+  "C3.2": {
+   "value": {
+    "code": "NOT-STATED",
+    "loc": "Abstract, Prologue, Section 2, Epilogue",
+    "quote": "none found",
+    "note": "The abstract phrase about a candidate 'whose selection would satisfy her' defines what a nomination is; it is not a statement that voters submit their held attitude."
+   },
+   "chosen": "A",
+   "reason": "C2.4 is IDU rather than ONE and C3.1 is NONE, so NA does not apply, and no explicit sincerity statement is found."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Section 2, GCSE definition, p. 2652",
+    "quote_behav": "a sequence of nomination profiles U = (u1 , . . . , u\u03c4 )",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Agents take an action (nominating) that is fixed exogenously as input."
+   },
+   "chosen": "A",
+   "reason": "Nominating is an action in the model, and the codebook counts actions fixed by the model, so voters are present and non-strategic."
+  },
+  "C9.2": {
+   "value": {
+    "code": "ALL-STATED",
+    "loc": "Prologue, Example 1, p. 2651; Abstract, p. 2651",
+    "quote": "Each one announces what they want to do on each day",
+    "note": "The tractability claims need no behavioural assumptions. The fairness and relevance claims need nominations to reflect what agents want, and the paper states this (announcing what they want; a nomination 'would satisfy her')."
+   },
+   "chosen": "other",
+   "reason": "The only assumption needed, that nominations reflect agents' satisfaction, is stated in words, so neither UNCLEAR nor SOME-UNSTATED fits."
+  }
+ }
+}

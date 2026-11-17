@@ -1,0 +1,21 @@
+{
+ "paper_id": "AAMAS-2025-ef1790dd",
+ "decisions": {
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Introduction, p.1127",
+    "quote_behav": "each voter approves (their most favorite) \ud835\udc58 candidates",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Voters' approvals and vetoes are fixed by their rankings."
+   },
+   "chosen": "A",
+   "reason": "Voters act in the model by casting approval and veto votes determined by their rankings, and the codebook counts fixed actions, so voters are present and non-strategic, which is only implicit."
+  }
+ }
+}

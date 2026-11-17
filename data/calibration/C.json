@@ -1,0 +1,69 @@
+{
+ "paper_id": "CALIB-HSC2024",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "AX",
+     "SB",
+     "EQ",
+     "WD",
+     "SI",
+     "EM"
+    ],
+    "primary": "AX",
+    "loc": "Sect. 3.1 Proposition 1, p. 356; Sect. 3.2, p. 357; Sect. 4, p. 359; Sect. 5, p. 362",
+    "quote": "allocate power proportionally. MNL and MMaxParC are Pareto-efficient",
+    "note": "Axiomatic results (Prop. 1, Supp. Props. 1-4) and equilibrium results (Props. 2-3, Supp. Props. 5-9) carry similar weight. Under the doubt rule AX is chosen as the first listed."
+   },
+   "chosen": "A",
+   "reason": "The axiomatic and equilibrium results are roughly balanced, so the doubt rule selects the first-listed code, AX."
+  },
+  "C3.3": {
+   "value": {
+    "code": "EMP",
+    "loc": "Supplement 2.3.2.1, footnote 3",
+    "quote": "57 per cent of those with an incentive to vote strategically",
+    "note": "The share of non-strategic (sincere or lazy) voters is motivated by empirical election data (footnotes 3-4). The sincere-only outcome analyses give no separate reason."
+   },
+   "chosen": "A",
+   "reason": "The paper justifies the presence of non-strategic voters with empirical election evidence, which fits EMP."
+  },
+  "C4.2": {
+   "value": {
+    "code": "N",
+    "loc": "Supplement 1 and 3.1.4",
+    "quote": "for the special case of \u2018dichotomous preferences\u2019 under the name",
+    "note": "The term is used only when referring to prior work and is not explained."
+   },
+   "chosen": "A",
+   "reason": "The term is used in the paper, so NA does not apply, and its two classes are never explained in utility terms."
+  },
+  "C8.1": {
+   "value": {
+    "codes": [
+     "DOM",
+     "NE",
+     "COAL",
+     "ITER",
+     "BND"
+    ],
+    "loc": "Sect. 3.2 Prop. 2, p. 358; Supplement 2.3.2, 3.1.3.2, 3.1.5.6",
+    "quote": "the factional game has a strong Nash equilibrium \u03b2",
+    "note": "Dominant strategies are used for RB and in the NL partial-consensus analysis. The paper also uses Nash and strong/coalition-proof equilibrium, best-response dynamics and heuristic voters."
+   },
+   "chosen": "A",
+   "reason": "The analysis explicitly uses dominant strategies (e.g., RB and F3 in NL) in addition to NE, COAL, ITER and BND."
+  },
+  "C9.2": {
+   "value": {
+    "code": "ALL-STATED",
+    "loc": "Supplement 2.3.1, 2.3.2",
+    "quote": "We simulate voter preferences by using one of several different",
+    "note": "The utility models, the ballot-utility relation and the behavioural types needed for the welfare claims are all stated. The realism of the models is a general modelling assumption and is excluded."
+   },
+   "chosen": "A",
+   "reason": "The assumptions B lists concern whether the models approximate reality, which the codebook excludes, and the needed input-utility and behaviour assumptions are stated."
+  }
+ }
+}

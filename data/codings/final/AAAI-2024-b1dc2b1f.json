@@ -1,0 +1,170 @@
+{
+ "paper_id": "AAAI-2024-b1dc2b1f",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.9790",
+  "quote": "We study the computational complexity of finding the possible and necessary",
+  "note": "Possible/necessary winner problems for voting rules under incomplete spatial voter information."
+ },
+ "C1": {
+  "types": [
+   "AL"
+  ],
+  "primary": "AL",
+  "loc": "Table 1, p.9791",
+  "quote": "Complexity results for computing the necessary and possible winners",
+  "note": ""
+ },
+ "C2.1": {
+  "value": "ranking profile; approval profile; partial spatial profile; partial spatial approval profile",
+  "loc": "Section 2, p.9791",
+  "quote": "A voting rule is a function that maps each ranking profile"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK",
+   "APPR"
+  ],
+  "loc": "Section 2, p.9791; Section 6, p.9795",
+  "quote": "A voting rule is a function that maps each ranking profile",
+  "note": "The rules take ranking profiles (positional scoring rules) or approval profiles (k-approval, AV) as their argument. The partial spatial profile is the input to the PW/NW computational problem, not to the voting rule."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.9791; Introduction, p.9790",
+  "quote": "Each Ri represents the preference order of voter vi.",
+  "note": "Voters have preference orders and ideal points or opinions."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2, p.9791",
+  "quote": "Each Ri represents the preference order of voter vi.",
+  "note": "The rule is applied directly to preference orders induced by ideal points. No statement about submission or reporting was found."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-6",
+  "quote": "each voter ranks candidates based on their distance from the voter\u2019s",
+  "note": "Uncertainty concerns information about voters, not strategic misreporting."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Introduction, Section 2, Section 3, Conclusions",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No utility, welfare, satisfaction, cost, distortion or intensity notions are used for voters."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 4-6",
+  "quote": "none found",
+  "note": "Results concern computational complexity only."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2, p.9791",
+   "quote_behav": "each voter vj ranks candidates in C according to their Euclidean",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters' rankings and approvals are fixed by distance from their position, which the text states in words. No strategic choice is modelled."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates serve only as fixed alternatives. Relocation is mentioned only as future work."
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Fewer than two types are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "N",
+  "claims": [],
+  "note": "The abstract, introduction and conclusion make only technical claims and suggest future work."
+ },
+ "C9.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C9.1 = N."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction, Section 2, Section 3, Conclusions",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C2.2": {
+   "chosen": "B",
+   "reason": "C2.2 codes the argument of the rule, which is ranking or approval profiles, so the partial spatial profile does not warrant OTH."
+  },
+  "C6.VOT": {
+   "chosen": "other",
+   "reason": "Voters take an action (ranking or approving) that the model fixes, so they are present and NONSTRAT as A coded, but the paper describes this behaviour in words, so behav_stated is EXPLICIT."
+  }
+ }
+}

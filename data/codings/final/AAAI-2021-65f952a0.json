@@ -1,0 +1,195 @@
+{
+ "paper_id": "AAAI-2021-65f952a0",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "1 Introduction, p. 5228",
+  "quote": "pairwise comparisons capture the majority relation between pairs of candidates",
+  "note": "Tournament solutions are aggregation rules on the majority relation, with elections given as an application. Eligibility is borderline because sports tournaments are also an application."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SI"
+  ],
+  "primary": "AX",
+  "loc": "3 Structural Results, p. 5230; 4 Experiments, p. 5232",
+  "quote": "using axiomatic and probabilistic analysis (Section 3) as well as through experiments",
+  "note": "Includes a probabilistic result (Theorem 15) on uniform random tournaments. SB is excluded because bribery is only an interpretation of MoV and no incentive analysis is carried out."
+ },
+ "C2.1": {
+  "value": "tournament",
+  "loc": "2 Preliminaries, p. 5229",
+  "quote": "A tournament solution is a function that maps each tournament"
+ },
+ "C2.2": {
+  "codes": [
+   "PAIR"
+  ],
+  "loc": "2 Preliminaries, p. 5229",
+  "quote": "represents an asymmetric and connex dominance relation between the alternatives",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "4 Experiments, Set-up, p. 5233",
+  "quote": "We used six stochastic models to generate preferences",
+  "note": "Preferences are referred to only in the experimental generation of tournaments (some models with voters)."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "1 Introduction, p. 5228; 4 Experiments, p. 5233",
+  "quote": "pairwise comparisons capture the majority relation between pairs of candidates",
+  "note": "The tournament is treated as the majority relation derived from preferences, with no statement about submission or reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "1 Introduction, p. 5228",
+  "quote": "a natural interpretation in terms of bribery and manipulation",
+  "note": "Bribery and manipulation appear only as an interpretation of MoV; no strategic analysis is carried out."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "1 Introduction; 2 Preliminaries; 4 Experiments; 5 Discussion",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No utility, welfare, satisfaction, cost or distortion notion is used for voters."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "3.1 Cover-Consistency, p. 5230; 5 Discussion, p. 5234",
+  "quote": "inherits Pareto optimality from the uncovered set, which it refines",
+  "note": "Pareto is mentioned only in passing in Section 3.1 and in the Discussion, not in any result."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "No voter takes an action in the formal model; tournaments are given or randomly generated."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N",
+   "note": "Bribery appears only as an interpretation of MoV, not as a modelled agent."
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No types are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "5 Discussion, p. 5234",
+    "quote": "It is consequently tempting to suggest maxMoVUC as a new tournament solution."
+   },
+   {
+    "loc": "5 Discussion, p. 5234",
+    "quote": "inherits Pareto optimality from the uncovered set, which it refines"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "5 Discussion, p. 5234; 3.1, p. 5230",
+  "quote": "has a close connection to Pareto dominance in voting settings",
+  "note": "The Pareto optimality appeal needs the tournament to be the majority relation of voters' true preferences; this relation between input and held preferences is not stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "1 Introduction; 2 Preliminaries; 5 Discussion",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C1": {
+   "chosen": "A",
+   "reason": "No result analyses incentives or strategic action, so SB does not apply; the main results are axiomatic and the experiments use synthetic data."
+  },
+  "C2.3": {
+   "chosen": "A",
+   "reason": "The paper refers to preferences generated by voter-based models (impartial culture, urn, Mallows) as the source of the majority relation, which is a held attitude distinct from the tournament."
+  },
+  "C2.4": {
+   "chosen": "A",
+   "reason": "Since a held attitude is present, ONE is excluded; the tournament is described as the majority relation of preferences and the rule is applied to it with no statement about reporting."
+  },
+  "C3.2": {
+   "chosen": "A",
+   "reason": "C2.4 is not ONE and C3.1 is NONE, and the paper never states that voters submit their preferences sincerely."
+  },
+  "C9.1": {
+   "chosen": "A",
+   "reason": "The conclusion suggests a rule to use and appeals to Pareto optimality, a voter-oriented property, so the claim criteria are met."
+  },
+  "C9.2": {
+   "chosen": "A",
+   "reason": "The Pareto-based recommendation requires the tournament to reflect voters' held preferences, and the paper never states this."
+  }
+ }
+}

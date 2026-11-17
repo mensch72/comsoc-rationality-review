@@ -1,0 +1,70 @@
+{
+ "paper_id": "EC-2023-3f145b26",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "WD"
+    ],
+    "primary": "WD",
+    "loc": "Abstract; 1.1 Our Results; Sec. 4-5",
+    "quote": "selects a candidate whose quality is at most \ud835\udf00 worse than the best one",
+    "note": "The paper names Theorems 4.1 and 5.1 as its main results; these are regret-guarantee bounds on committee size. The running-time statements (Algorithm 1, Corollary 4.10) are secondary and not main results, so AL is not coded."
+   },
+   "chosen": "B",
+   "reason": "The paper identifies its main results as the regret bounds (Theorems 4.1, 5.1, 6.1, 6.2), and the running-time corollary is a side remark rather than a main result."
+  },
+  "C5.1": {
+   "value": {
+    "code": "N",
+    "loc": "2 Related Work, p.3; 3.1, p.5; Sections 4-6",
+    "quote": "the planner\u2019s goal is not to maximize the social welfare",
+    "note": "Results evaluate regret in candidate quality, which is the planner's objective. They do not evaluate voter welfare, efficiency, representation or distortion, and the paper explicitly contrasts this objective with social welfare."
+   },
+   "chosen": "A",
+   "reason": "Regret is defined over candidate qualities, not voters' utilities, and the paper explicitly distinguishes its objective from social welfare, so none of the listed voter-oriented criteria applies."
+  },
+  "C5.2": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "C5.1 = N"
+   },
+   "chosen": "A",
+   "reason": "C5.1 is N, so C5.2 is NA."
+  },
+  "C6.ORG": {
+   "value": {
+    "present": "Y",
+    "behav": "STRAT",
+    "behav_stated": "EXPLICIT",
+    "info": "PARTIAL",
+    "info_stated": "EXPLICIT",
+    "loc_behav": "3.3, p.6",
+    "quote_behav": "The goal of the planner is now to construct a committee",
+    "loc_info": "1 Introduction, p.2",
+    "quote_info": "the planner cannot observe candidates\u2019 qualities",
+    "note": "The planner chooses the committee and the rule, and selects the candidate from the votes, in order to minimise worst-case regret. ORG and DES fit equally well, so ORG is chosen as the first listed type."
+   },
+   "chosen": "A",
+   "reason": "The planner chooses the committee (who votes) and the rule as part of the analysis, which fits ORG; under the doubt rule the first-listed type, ORG, is used."
+  },
+  "C6.DES": {
+   "value": {
+    "present": "N",
+    "behav": "",
+    "behav_stated": "",
+    "info": "",
+    "info_stated": "",
+    "loc_behav": "",
+    "quote_behav": "",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "The planner's design role is coded under ORG, the first-listed fitting type."
+   },
+   "chosen": "A",
+   "reason": "The planner is coded once, under ORG, so DES is not separately present."
+  }
+ }
+}

@@ -1,0 +1,117 @@
+{
+ "paper_id": "AAAI-2023-119744b9",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "AX",
+     "SB",
+     "AL"
+    ],
+    "primary": "AX",
+    "loc": "Sections 4-5, pp.5759-5761; Introduction p.5755",
+    "quote": "We prove that all of our rules satisfy absolute monotonicity",
+    "note": "SB covers the SD-strategyproofness property results, since the codebook counts strategyproofness as a property. AL covers the efficient sampling result (Lemma 1, O(m^2) time), which is listed among the contributions."
+   },
+   "chosen": "A",
+   "reason": "The codebook's SB explicitly includes strategyproofness as a property, and the efficient-sampling lemma is presented as a contribution, so AX, SB and AL all apply, with AX primary."
+  },
+  "C2.4": {
+   "value": {
+    "code": "IDS",
+    "loc": "Introduction, p.5755",
+    "quote": "voters submit their preferences over a set of alternatives",
+    "note": "IDS and IDU fit about equally. The introduction states in passing, without a reason, that voters submit their preferences. There is no separate notation."
+   },
+   "chosen": "A",
+   "reason": "The paper states that voters submit their preferences, which is a statement about submission with no reason given, so IDS fits better than IDU."
+  },
+  "C3.1": {
+   "value": {
+    "code": "SOME",
+    "loc": "Introduction p.5755; Section 4 p.5760",
+    "quote": "no voter can benefit herself in the sense of stochastic dominance",
+    "note": "The SD-strategyproofness analyses consider voters changing their vote. The other axioms (Condorcet, Pareto, monotonicity, DP) do not."
+   },
+   "chosen": "A",
+   "reason": "The SD-strategyproofness analyses explicitly consider a voter changing her vote to benefit herself, while the other analyses do not."
+  },
+  "C3.2": {
+   "value": {
+    "code": "STATED",
+    "loc": "Introduction, p.5755",
+    "quote": "voters submit their preferences over a set of alternatives",
+    "note": "This is a general descriptive statement."
+   },
+   "chosen": "A",
+   "reason": "The introduction says in words that voters submit their preferences, which is consistent with IDS."
+  },
+  "C3.3": {
+   "value": {
+    "code": "NONE",
+    "loc": "Introduction, p.5755",
+    "quote": "voters submit their preferences over a set of alternatives",
+    "note": ""
+   },
+   "chosen": "A",
+   "reason": "The statement that voters submit their preferences comes with no reason."
+  },
+  "C5.2": {
+   "value": {
+    "code": "INPUT-STATED",
+    "loc": "Section 2, p.5756",
+    "quote": "where exists a, b \u2208 A that a j b for all j \u2208 N",
+    "note": "Pareto dominance is defined on the profile of votes. The paper states that voters submit their preferences."
+   },
+   "chosen": "A",
+   "reason": "Pareto is evaluated on the input, and C2.4 is IDS, so INPUT-STATED applies."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "MIXED",
+    "behav_stated": "EXPLICIT",
+    "info": "NS",
+    "info_stated": "NA",
+    "loc_behav": "Introduction, p.5755",
+    "quote_behav": "no voter can benefit herself in the sense of stochastic dominance",
+    "loc_info": "Sections 2, 4",
+    "quote_info": "none found",
+    "note": "Voters are considered deviating only in the SD-SP analyses. Information is never specified."
+   },
+   "chosen": "A",
+   "reason": "Voters take actions in the model (changing or withdrawing votes) and are strategic only in the strategyproofness analyses, so they are present with MIXED behaviour."
+  },
+  "C8.1": {
+   "value": {
+    "codes": [
+     "DOM"
+    ],
+    "loc": "Section 2, p.5756; Section 4, p.5760",
+    "quote": "A randomized rule r satisfies SD-Strategyproofness",
+    "note": "Includes the approximate variant alpha-SD-strategyproofness."
+   },
+   "chosen": "A",
+   "reason": "Voters are MIXED, so C8 applies, and the concept used is SD-strategyproofness, which is coded DOM."
+  },
+  "C8.2": {
+   "value": {
+    "code": "Y",
+    "loc": "Section 4, p.5760",
+    "quote": "We adopt the notion of SD-strategyproofness"
+   },
+   "chosen": "A",
+   "reason": "The paper names SD-strategyproofness explicitly."
+  },
+  "C9.2": {
+   "value": {
+    "code": "ALL-STATED",
+    "loc": "Introduction, p.5755",
+    "quote": "voters submit their preferences over a set of alternatives",
+    "note": "The claims concern axiom satisfaction and privacy of submitted votes. The only needed assumption, relating votes to preferences, is stated in the introduction."
+   },
+   "chosen": "A",
+   "reason": "B's adversary claim comes from Section 5, not the abstract, introduction or conclusion; the listed claims follow from the axiomatic results given the stated submission assumption."
+  }
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "paper_id": "AAAI-2025-b174e3f4",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "SB",
+     "SI"
+    ],
+    "primary": "SB",
+    "loc": "Introduction, p. 13915; Learning to Manipulate, p. 13917",
+    "quote": "In this paper, we take a different approach than previous work",
+    "note": "All main results are simulations, on synthetic data, of single-voter manipulation, so SB and SI fit equally well; SB is chosen because it is listed first."
+   },
+   "chosen": "A",
+   "reason": "Every main result is both a simulation and a manipulation analysis, so the doubt rule applies and SB, listed first, is the primary type."
+  },
+  "C3.1": {
+   "value": {
+    "code": "ALL",
+    "loc": "Introduction, p. 13915",
+    "quote": "we focus on the case of a single manipulating voter",
+    "note": "Every analysis has one strategic manipulator; the other voters submit sincere rankings."
+   },
+   "chosen": "A",
+   "reason": "Every main analysis, including the ideal-manipulator baseline, considers a voter submitting a ranking that differs from their utilities."
+  },
+  "C3.2": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "C3.1 = ALL."
+   },
+   "chosen": "A",
+   "reason": "C3.1 is ALL, so C3.2 is NA by the codebook."
+  },
+  "C7.1": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "Only voters are present as a type."
+   },
+   "chosen": "A",
+   "reason": "C7.1 compares stakeholder types, and only one type (VOT) is present, so the code is NA."
+  },
+  "C7.2": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "C7.1 is not Y."
+   },
+   "chosen": "A",
+   "reason": "C7.1 is not Y, so C7.2 is NA."
+  },
+  "C8.1": {
+   "value": {
+    "codes": [
+     "DEV",
+     "BND"
+    ],
+    "loc": "Preliminaries, p. 13916; Learning to Manipulate, p. 13917",
+    "quote": "How difficult is it for a computationally bounded agent to learn",
+    "note": "The manipulator seeks an optimal or profitable ranking. The learned MLP policies represent computationally bounded behaviour."
+   },
+   "chosen": "A",
+   "reason": "Optimal or profitable manipulation is a DEV-type problem, and the learned MLP manipulators are explicitly computationally bounded agents, which fits BND."
+  },
+  "C8.2": {
+   "value": {
+    "code": "Y",
+    "loc": "Preliminaries, p. 13916",
+    "quote": "aims to submit an optimal ranking"
+   },
+   "chosen": "A",
+   "reason": "The paper explicitly names and defines its concepts of profitable and optimal manipulation."
+  },
+  "C9.2": {
+   "value": {
+    "code": "ALL-STATED",
+    "loc": "Introduction, p. 13915; Implementation Details, p. 13917",
+    "quote": "we focus on the case of a single manipulating voter",
+    "note": "The needed assumptions are stated: a single strategic voter with the other voters sincere, the information available to the manipulator, and the probability models generating utilities. The conclusion flags the case where all agents strategize as open."
+   },
+   "chosen": "A",
+   "reason": "The claims are qualified by the stated single-manipulator setting, the explicit P = P(U) definition and the named probability models, so the needed assumptions are stated."
+  }
+ }
+}

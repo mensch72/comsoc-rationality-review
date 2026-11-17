@@ -1,0 +1,71 @@
+{
+ "paper_id": "GEB-2021-b4e19a63",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "EQ",
+     "EM"
+    ],
+    "primary": "EQ",
+    "loc": "Section 1, p.187; Section 7, p.188/195",
+    "quote": "I fully characterize a Markov Perfect Equilibrium (MPE) and prove it exists",
+    "note": "Laboratory experiments (Sections 7-8) test the theoretical predictions."
+   },
+   "chosen": "A",
+   "reason": "The strategic content is fully captured by equilibrium analysis of the bargaining game; there is no separate manipulation or strategyproofness result that would warrant SB as a main result type."
+  },
+  "C2.2": {
+   "value": {
+    "codes": [
+     "OTH"
+    ],
+    "loc": "Section 3, p.189",
+    "quote": "they vote yes if and only if their expected utility",
+    "note": "Inputs are proposed allocations of a fixed resource and binary yes/no votes of a proposal against the status quo."
+   },
+   "chosen": "A",
+   "reason": "Proposals are divisions of a resource and votes are binary yes/no, so neither is a cardinal score or utility submitted by voters, and OTH alone fits."
+  },
+  "C3.1": {
+   "value": {
+    "code": "ALL",
+    "loc": "Section 3, p.189; Sections 7-8",
+    "quote": "I require that agents use stage-undominated voting strategies",
+    "note": "All theory is equilibrium analysis of strategic legislators; experimental subjects choose freely."
+   },
+   "chosen": "A",
+   "reason": "Every theoretical analysis models proposals and votes as strategic equilibrium choices, and the experiment rule calls for ALL when subjects choose their inputs freely."
+  },
+  "C3.2": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "C3.1 = ALL."
+   },
+   "chosen": "A",
+   "reason": "Since C3.1 = ALL, the codebook requires NA here."
+  },
+  "C7.1": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "Only one type is present."
+   },
+   "chosen": "A",
+   "reason": "Only VOT is present, so fewer than two types exist and the code is NA, as B's own note also concedes."
+  },
+  "C9.2": {
+   "value": {
+    "code": "SOME-UNSTATED",
+    "loc": "Section 3, p.189",
+    "quote": "none found",
+    "note": "Strategic behaviour and selfish utility are stated. The complete-information assumption underlying the equilibrium is not stated in words."
+   },
+   "chosen": "A",
+   "reason": "The institutional claims rest on equilibrium results that require complete information, and the paper only implies this assumption through the game model without stating it in words."
+  }
+ }
+}

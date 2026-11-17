@@ -1,0 +1,208 @@
+{
+ "paper_id": "SCW-2022-a9a4c9a9",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "1 Introduction, p.561",
+  "quote": "a committee is to be set up each year to select",
+  "note": "Aggregation of agents' single-peaked preferences into a collective choice via social choice rules and mechanisms."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SB",
+   "EQ"
+  ],
+  "primary": "AX",
+  "loc": "Section 4, Theorem 3, p.571; Section 3, Theorem 1, p.567",
+  "quote": "an anonymous and unanimous SCR is implementable if and only if",
+  "note": "The main results characterise which SCRs satisfy implementability, unanimity and anonymity. AX and SB fit about equally well, so under the doubt rule the first-listed code, AX, is primary."
+ },
+ "C2.1": {
+  "value": "state / message profile (reported alignment and preference); \"reported peaks\"",
+  "loc": "Sec 2 Model, p.565",
+  "quote": "assigns an outcome to each message profile"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK",
+   "OTH"
+  ],
+  "loc": "Sec 2 Model, p.564",
+  "quote": "the set of all strict, complete and transitive alignments over X",
+  "note": "Strict single-peaked preferences are reported. OTH covers the reported alignment (an axis, not a preference) and the arbitrary message components Li, such as integers and alternatives."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec 2 Model, p.564",
+  "quote": "The preferences of agents are private knowledge",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Sec 2 Model, p.565",
+  "quote": "ensures nobody has an incentive to unilaterally misreport the common ordering",
+  "note": "States (held) and messages (submitted) have separate notation."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Sec 2 Model, p.565",
+  "quote": "ensures that the private preferences are also reported truthfully",
+  "note": "All results concern implementability, which considers misreports."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL"
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 not STATED"
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No utility, welfare, satisfaction, cost or distortion notions are used for voters."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Secs 2-4, pp.564-572",
+  "quote": "none found",
+  "note": "Criteria used are strategy-proofness, unanimity, anonymity and no veto power."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Sec 2 Model, p.565",
+   "quote_behav": "ensures nobody has an incentive to unilaterally misreport the common ordering",
+   "loc_info": "Sec 2 Model, p.564",
+   "quote_info": "this alignment is common knowledge amongst the agents",
+   "note": "Agents know the common alignment but not others' preferences."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Sec 5 Discussion, p.573",
+   "quote_behav": "she can identify which SCR she should choose",
+   "loc_info": "Abstract, p.561; Sec 4, p.570",
+   "quote_info": "she places a positive probability over every possible alignment",
+   "note": "The designer chooses a mechanism or SCR that is robust to uncertainty. She knows the set A of possible alignments (a prior), so her information is partial."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "N",
+  "loc": "Sec 2, p.565; C6",
+  "quote": "none found",
+  "note": "Both present types, VOT and DES, are modelled as strategic."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 = N"
+ },
+ "C8.1": {
+  "codes": [
+   "DOM",
+   "NE"
+  ],
+  "loc": "Abstract, p.561; Definition 3, p.565",
+  "quote": "requires Nash implementation in the public information and dominant strategy implementation",
+  "note": "Implementation in mixed information equilibria combines Nash implementation for the public state with dominant-strategy implementation for the private state. The existing codes cover it, so OTH is not needed."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Definition 3, Sec 2, p.565",
+  "quote": "implements a social choice rule f in mixed information equilibria"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Sec 5 Discussion, p.573",
+    "quote": "she can identify which SCR she should choose from all"
+   },
+   {
+    "loc": "Sec 5 Discussion, p.572",
+    "quote": "This is in and of itself useful in practice"
+   },
+   {
+    "loc": "1 Introduction, p.562",
+    "quote": "It would then be prudent to set up a rule"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sec 2 Model, p.564",
+  "quote": "this alignment is common knowledge amongst the agents",
+  "note": "Needed assumptions are stated in the model: agents are strategic, the alignment is common knowledge, preferences are private, and the designer is uncertain over A."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Intro, Sec 2, Sec 5",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C1": {
+   "chosen": "B",
+   "reason": "The results are characterisations of rules satisfying properties, and where AX and SB fit equally the codebook says to pick the first listed, AX."
+  },
+  "C2.2": {
+   "chosen": "A",
+   "reason": "The rule's input includes a reported alignment and extra message components that are not preferences, so OTH is needed alongside RANK."
+  },
+  "C6.DES": {
+   "chosen": "A",
+   "reason": "The designer knows the set A of possible alignments and has a prior over them, which counts as PARTIAL rather than NONE."
+  },
+  "C7.1": {
+   "chosen": "A",
+   "reason": "Two types are present and both are STRAT, so the code is N, not NA."
+  },
+  "C8.1": {
+   "chosen": "B",
+   "reason": "The named concept is a combination of NE and DOM, both already coded, so a separate OTH is redundant."
+  }
+ }
+}

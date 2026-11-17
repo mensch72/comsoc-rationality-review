@@ -1,0 +1,18 @@
+{
+ "paper_id": "SCW-2024-46300569",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "AX"
+    ],
+    "primary": "AX",
+    "loc": "Theorems 1-4, pp. 62-65",
+    "quote": "the domain FK is a maximal Condorcet domain",
+    "note": "Structural characterisations of domains on which majority voting is acyclic: maximality, copiousness, connectedness and single-peakedness on a circle. Domain-restriction results of this kind are read as AX (which domains guarantee a property of majority rule) rather than OT."
+   },
+   "chosen": "B",
+   "reason": "The main results characterise domains on which majority rule is acyclic, which fits AX better than a conceptual or modelling contribution (OT), but B's quote was not verbatim and is corrected here."
+  }
+ }
+}

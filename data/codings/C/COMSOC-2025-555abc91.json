@@ -1,0 +1,41 @@
+{
+ "paper_id": "COMSOC-2025-555abc91",
+ "decisions": {
+  "C4.2": {
+   "value": {
+    "code": "N",
+    "loc": "Section 3, after Definition 4, p.4",
+    "quote": "CI preferences as single-peaked preferences in the dichotomous setting",
+    "note": "The term is used, so NA does not apply, but the two classes are not explained in terms of utility or a richer preference."
+   },
+   "chosen": "A",
+   "reason": "The paper does use the equivalent term 'dichotomous setting', so NA (term not used) does not apply, and the paper never says what the two classes represent."
+  },
+  "C6.ORG": {
+   "value": {
+    "present": "N",
+    "behav": "",
+    "behav_stated": "",
+    "info": "",
+    "info_stated": "",
+    "loc_behav": "",
+    "quote_behav": "",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "The querying algorithm is the procedure under study, not an organiser agent in the formal model; no chair or authority chooses control actions, agenda or rule."
+   },
+   "chosen": "A",
+   "reason": "The elicitation algorithm is the mechanism itself rather than an acting organiser agent, so under the codebook's narrow definition ORG is not present."
+  },
+  "C7.1": {
+   "value": {
+    "code": "NA",
+    "loc": "",
+    "quote": "",
+    "note": "Only voters are present as a type under the C6 definition."
+   },
+   "chosen": "A",
+   "reason": "With ORG not present, fewer than two types are present, so C7.1 is NA."
+  }
+ }
+}

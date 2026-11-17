@@ -1,0 +1,37 @@
+{
+ "paper_id": "COMSOC-2021-cdf3c939",
+ "decisions": {
+  "C6.BRI": {
+   "value": {
+    "present": "Y",
+    "behav": "STRAT",
+    "behav_stated": "EXPLICIT",
+    "info": "COMPLETE",
+    "info_stated": "EXPLICIT",
+    "loc_behav": "Sec. 1, p.1",
+    "quote_behav": "the polling agency tries to make some distinguished candidate win",
+    "loc_info": "Sec. 1, p.1",
+    "quote_info": "reasonable to assume complete information for the polling agency, since it collects",
+    "note": "The polling agency is an external manipulator, not a voter and not the election authority. It manipulates the announced poll to reach a constructive or destructive goal."
+   },
+   "chosen": "A",
+   "reason": "The polling agency only announces poll results and is not the organiser or election authority, so it fits the external-manipulator type BRI rather than ORG."
+  },
+  "C6.ORG": {
+   "value": {
+    "present": "N",
+    "behav": "",
+    "behav_stated": "",
+    "info": "",
+    "info_stated": "",
+    "loc_behav": "",
+    "quote_behav": "",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "No election authority or chair acts in the model; the polling agency is coded under BRI."
+   },
+   "chosen": "A",
+   "reason": "No organiser or chair chooses anything in the model, and the polling agency is an external manipulator rather than the election authority."
+  }
+ }
+}

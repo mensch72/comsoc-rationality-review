@@ -1,0 +1,40 @@
+{
+ "paper_id": "AAMAS-2023-ab1e7cc5",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "WD",
+     "SI",
+     "EM"
+    ],
+    "primary": "WD",
+    "loc": "Abstract p.1752; Sec 7.2 p.1759",
+    "quote": "performance of every voting system is quantitatively measured by its worst-case",
+    "note": "Most results are distortion bounds. Section 7 adds simulations on synthetic data and on PrefLib real-world rankings, with synthetic utilities."
+   },
+   "chosen": "A",
+   "reason": "Section 7.2 runs experiments on real-world PrefLib datasets, which meets the EM definition of real-world data, alongside WD and SI."
+  },
+  "C7.1": {
+   "value": {
+    "code": "Y",
+    "loc": "Sec 3, p.1754",
+    "quote": "Hence, the election designer designs a voting system",
+    "note": "The designer (DES) optimises worst-case distortion (STRAT), while voters (VOT) follow fixed threshold behaviour (NONSTRAT) in the same analysis."
+   },
+   "chosen": "A",
+   "reason": "Both coders code DES as present and STRAT and VOT as NONSTRAT in the same distortion analysis, so C7.1 must be Y."
+  },
+  "C7.2": {
+   "value": {
+    "code": "NONE",
+    "loc": "Sec 1, 3, 8",
+    "quote": "none found",
+    "note": "No argument is given for modelling the designer as optimising while voters follow a fixed threshold."
+   },
+   "chosen": "A",
+   "reason": "C7.1 is Y and no argument or citation for the difference in modelled behaviour between designer and voters was found."
+  }
+ }
+}

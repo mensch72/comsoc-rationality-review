@@ -1,0 +1,217 @@
+{
+ "paper_id": "COMSOC-2023-89b07d01",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Sec. 1, Preliminaries",
+  "quote": "a method of detecting gerrymandering that can be applied to such",
+  "note": "The paper studies districting manipulation of FPTP elections, a strategic aspect of a voting procedure. Its main object is a statistical detection method, which makes eligibility borderline."
+ },
+ "C1": {
+  "types": [
+   "OT",
+   "SI",
+   "EM"
+  ],
+  "primary": "OT",
+  "loc": "Sec. 1.1 Contribution; Sec. 2; Sec. 6; Sec. 7",
+  "quote": "development of a nonparametric methods for detecting gerrymandering",
+  "note": "OT: proposal of a statistical detection methodology, which the paper calls its main contribution. SI: Monte Carlo observation and tests on simulated districting plans. EM: application to real election datasets."
+ },
+ "C2.1": {
+  "value": "votes; district-level vote share",
+  "loc": "Sec. 1.3, Basic Concepts and Notation",
+  "quote": "we denote the district-level vote share of"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Sec. 1.3",
+  "quote": "district-level vote share of the i-th party\u2019s candidate",
+  "note": "Plurality (FPTP) single votes, aggregated into vote shares per candidate/party."
+ },
+ "C2.3": {
+  "code": "N",
+  "loc": "Sec. 1, 1.3, 2, 7",
+  "quote": "none found",
+  "note": "No preferences or utilities of voters are referred to; only votes and vote shares appear."
+ },
+ "C2.4": {
+  "code": "ONE",
+  "loc": "Sec. 1.3",
+  "quote": "the number of voters cast in the k-th district",
+  "note": ""
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sec. 1, 1.3, 6, 7",
+  "quote": "none found",
+  "note": "Voter strategic behaviour is not analysed."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C2.4 = ONE"
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 not STATED"
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Input format is OTH (plurality votes); no utility notions are used for voters."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sec. 4, 5, 6.4",
+  "quote": "treat gerrymandering and electoral bias as statistical anomalies",
+  "note": "The evaluation criterion is statistical deviation of party seat shares from an estimated seats-votes function, not welfare, voter representation or proportionality. This is borderline, since partisan bias concerns parties' representation."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sec. 6.1",
+   "quote_behav": "party p\u2019s vote share pk , varying between 9.1% and 66.7%",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Votes enter as fixed data."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Parties' contesting decisions appear only as data, not as modelled actions."
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "NS",
+   "behav_stated": "NA",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Unfair plans are produced by an ILP algorithm to create test data for the detector. No district-designer agent is part of the formal model."
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Sec. 6",
+  "quote": "none found",
+  "note": "Only VOT is present under the C6 definition."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "Section 6",
+  "quote": "none found",
+  "note": "C7.1 not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 1.3, p.3",
+    "quote": "the proposed methods can still be useful to identify"
+   }
+  ],
+  "note": "Claim about the method's usefulness for real-world identification of cases for investigation, made in the introductory Preliminaries section."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 1.3",
+  "quote": "inability to distinguish gerrymandering from natural electoral bias",
+  "note": "The claim needs the assumptions about the training set and the rarity of gerrymandering, which are stated explicitly as three basic assumptions."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sec. 1, 1.3, 7",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C0": {
+   "chosen": "A",
+   "reason": "The paper defines gerrymandering as manipulation of district boundaries in FPTP elections and simulates seat-maximising districting plans, so it studies a strategic aspect of a voting procedure, the kind of districting the codebook's DIS stakeholder type covers."
+  },
+  "C1": {
+   "chosen": "A",
+   "reason": "The paper presents its main contribution as a methodological proposal (OT); the simulation and empirical tests are secondary validations, so OT is the primary type."
+  },
+  "C6.DIS": {
+   "chosen": "B",
+   "reason": "The seat-maximising ILP is a tool for generating test plans, not a modelled agent taking actions in the paper's formal model."
+  },
+  "C6.VOT": {
+   "chosen": "A",
+   "reason": "Voters cast votes that enter the model as fixed, exogenous data, which counts as a present non-strategic type."
+  },
+  "C7.1": {
+   "chosen": "other",
+   "reason": "Only one type (VOT) is present, so the item is NA; B's note that no types are present is inaccurate."
+  },
+  "C7.2": {
+   "chosen": "B",
+   "reason": "C7.1 is NA."
+  },
+  "C8.1": {
+   "chosen": "B",
+   "reason": "With the district designer not present, no type is strategic, so C8 does not apply."
+  },
+  "C8.2": {
+   "chosen": "B",
+   "reason": "C8.1 is NA."
+  },
+  "C9.1": {
+   "chosen": "B",
+   "reason": "The introduction claims what the results mean for real-world decisions, namely identifying elections that need further investigation."
+  },
+  "C9.2": {
+   "chosen": "B",
+   "reason": "The assumptions needed for the usefulness claim are stated explicitly in Section 1.3."
+  }
+ }
+}

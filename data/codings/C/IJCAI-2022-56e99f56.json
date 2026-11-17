@@ -1,0 +1,76 @@
+{
+ "paper_id": "IJCAI-2022-56e99f56",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "SI",
+     "EM",
+     "AL"
+    ],
+    "primary": "SI",
+    "loc": "Introduction p.496; Sections 4 and 6, pp.498-501",
+    "quote": "Our goal is to initiate a systematic study of approval-based statistical cultures",
+    "note": "Main results are maps and statistics from synthetic elections (SI). Real Pabulib participatory budgeting elections are mapped and analysed (EM, Fig. 4d). Propositions 1-2 give polynomial-time sampling and NP-hardness of the isomorphic Hamming distance (AL)."
+   },
+   "chosen": "A",
+   "reason": "The real-world Pabulib dataset is mapped and its statistics are analysed as part of the main results, which meets EM's 'real-world data' criterion."
+  },
+  "C2.3": {
+   "value": {
+    "code": "Y",
+    "loc": "Section 3, Euclidean Models, p.498",
+    "quote": "each candidate and each voter is a point from Rt",
+    "note": "Voter positions in the Euclidean models, and linear orders in the truncated urn model, generate the approval ballots. The introduction also speaks of candidates voters find acceptable."
+   },
+   "chosen": "A",
+   "reason": "Voter ideal points and ranked orders are attributed to voters separately from their ballots, and the codebook lists ideal points as held attitudes."
+  },
+  "C2.4": {
+   "value": {
+    "code": "DIST",
+    "loc": "Section 3, p.498",
+    "quote": "a voter v approves candidate c if the distance between their points",
+    "note": "Positions (or orders) and approval sets have separate notation, but the ballot is deterministically derived from them. IDU also fits partly; the first-listed code was chosen."
+   },
+   "chosen": "A",
+   "reason": "The voter points or orders and the ballots A(v) are separately notated objects, so ONE cannot apply once C2.3 = Y."
+  },
+  "C3.2": {
+   "value": {
+    "code": "NOT-STATED",
+    "loc": "Introduction; Preliminaries; Section 3; Conclusions",
+    "quote": "none found",
+    "note": "Ballots are generated from positions or orders by definition, but there is no statement in words that voters submit their held attitude."
+   },
+   "chosen": "A",
+   "reason": "With C2.4 not ONE and C3.1 = NONE, NA does not apply, and no statement in words about sincere submission exists."
+  },
+  "C6.VOT": {
+   "value": {
+    "present": "Y",
+    "behav": "NONSTRAT",
+    "behav_stated": "IMPLICIT",
+    "info": "NA",
+    "info_stated": "NA",
+    "loc_behav": "Section 3, Noise Models, p.498",
+    "quote_behav": "each new vote v is generated with probability proportional to",
+    "loc_info": "",
+    "quote_info": "",
+    "note": "Votes are sampled from statistical cultures; voters cast ballots, which is an action fixed by the model."
+   },
+   "chosen": "A",
+   "reason": "Voters cast approval ballots in the model, so they take an action that is fixed by the model, which makes them present and NONSTRAT."
+  },
+  "C9.2": {
+   "value": {
+    "code": "UNCLEAR",
+    "loc": "Introduction, p.496",
+    "quote": "Approval voting is particularly attractive due to its simplicity and low cognitive",
+    "note": "The claim is motivational and is not drawn from the paper's formal results, so the needed assumptions cannot be identified."
+   },
+   "chosen": "A",
+   "reason": "B's claims are either outside the abstract, introduction and conclusion or methodological, whereas the qualifying introduction claim is not derived from the results, so the needed assumptions cannot be determined."
+  }
+ }
+}

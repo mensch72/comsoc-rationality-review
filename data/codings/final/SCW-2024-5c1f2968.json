@@ -1,0 +1,234 @@
+{
+ "paper_id": "SCW-2024-5c1f2968",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Sect. 2.1, p. 302",
+  "quote": "Voting behaviour is probabilistic.",
+  "note": "Political-economy model of an incumbent's strategic policy choice under electoral competition with probabilistic two-party voting. It concerns strategic aspects of an election, namely candidates acting to win votes. Borderline because no aggregation rule is varied; ELIG is the first-listed code."
+ },
+ "C1": {
+  "types": [
+   "EQ"
+  ],
+  "primary": "EQ",
+  "loc": "Sect. 3, p. 304",
+  "quote": "To deduce the political equilibrium, for simplicity and without loss",
+  "note": "Main results are the incumbent's equilibrium policy choice and its comparative statics."
+ },
+ "C2.1": {
+  "value": "voting / expected vote share",
+  "loc": "Sect. 2.1, p. 302",
+  "quote": "the expected vote share for each party is given by"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Sect. 2.1, p. 302",
+  "quote": "The probability of i's voting for party j \u2208 {I , O}",
+  "note": "A binary vote between two parties, modelled probabilistically."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sect. 2.1, p. 302",
+  "quote": "the voter can but estimate the effect a policy platform",
+  "note": "Voters have real utilities U_it and estimated utilities \u00db_it."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Sect. 2.1, p. 302",
+  "quote": "depends on the difference in the estimated utilities of the running platforms",
+  "note": "The vote probability has its own notation, separate from real and estimated utilities, and also depends on valence."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sect. 2.1, p. 302",
+  "quote": "Voting behaviour is probabilistic.",
+  "note": "Voters are biased but not strategic."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sect. 2.1, 2.2, 5",
+  "quote": "none found",
+  "note": "The paper says what votes depend on but never states that voters submit their held attitude."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C2.2 is OTH only."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sect. 2.2, p. 304",
+  "quote": "but that the good policy is, indeed, better overall",
+  "note": "Results evaluate the policy chosen as good or bad by voters' real utilities over two periods."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Sect. 2.2, p. 304",
+  "quote": "Voter i's real utilities at t therefore now depend on",
+  "note": "Real utilities are distinct from votes and from estimated utilities."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sect. 2.1, p. 302",
+   "quote_behav": "Voting behaviour is probabilistic.",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Votes depend on biased estimated utilities and on retrospective valence."
+  },
+  "CAN": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Sect. 2.2, p. 305",
+   "quote_behav": "chooses the policy platform at t that maximises",
+   "loc_info": "Sect. 2.2, p. 305",
+   "quote_info": "The incumbent is perfectly informed",
+   "note": "Incumbent and opposition parties."
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sect. 4.2, p. 308",
+   "quote_behav": "the, not always predictable, strategy of other, exogenous actors",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Exogenous policy actors in the limited-accountability extension; their action is an exogenous random variable."
+  }
+ },
+ "C7.1": {
+  "code": "Y",
+  "loc": "Sect. 2.1\u20132.2, pp. 302\u2013305",
+  "quote": "Voting behaviour is probabilistic.",
+  "note": "Candidates (CAN) are STRAT; voters (VOT) are NONSTRAT."
+ },
+ "C7.2": {
+  "code": "REASON",
+  "loc": "Sect. 1, p. 300",
+  "quote": "Models that wish to begin to capture the variegated tapestry of real",
+  "note": "The introduction argues from evidence that voters are biased and not rational, and that officials hold more accurate beliefs; this motivates modelling voters as non-optimising and the incumbent as an informed optimiser."
+ },
+ "C8.1": {
+  "codes": [
+   "NE",
+   "OTH"
+  ],
+  "loc": "Sect. 2.2, p. 305; Appendix B, p. 316",
+  "quote": "the incumbent and the opposition behave non-cooperatively",
+  "note": "OTH: the incumbent's single-agent optimisation, labelled political equilibrium; Appendix B solves a system of best responses between the parties."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Sect. 3, p. 304",
+  "quote": "To deduce the political equilibrium"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Sect. 5, p. 313",
+    "quote": "there might be an advantage to keeping government in office"
+   },
+   {
+    "loc": "Sect. 5, p. 313",
+    "quote": "emerges as a potentially valuable tool for aligning incumbents' choices"
+   },
+   {
+    "loc": "Sect. 5, p. 313",
+    "quote": "This possibility offers promising avenues to address the challenge"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sect. 2.1\u20132.2, pp. 302\u2013305",
+  "quote": "for all voters, that the bad policy produces better results immediately",
+  "note": "The needed assumptions are all stated in the model: voter behaviour, biased beliefs, welfare as real utilities, and strategic, informed incumbents. Justification of these assumptions is not required by the item."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sect. 1, 2, 5",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C0": {
+   "chosen": "A",
+   "reason": "The paper models parties strategically choosing platforms to win a two-party election, which counts as a strategic aspect of a voting procedure; since INELIG fits about equally well, the doubt rule selects the first-listed code, ELIG."
+  },
+  "C1": {
+   "chosen": "A",
+   "reason": "WD covers the performance of voting rules against an objective, whereas the results here are comparative statics of an incumbent's equilibrium policy choice, so EQ alone fits."
+  },
+  "C2.4": {
+   "chosen": "A",
+   "reason": "Votes (vote probabilities) and utilities have separate notation, and votes also depend on valence, so they are distinct objects."
+  },
+  "C3.2": {
+   "chosen": "B",
+   "reason": "Describing votes as a probabilistic function of estimated utilities and valence is not a statement that the input equals the held attitude."
+  },
+  "C3.3": {
+   "chosen": "B",
+   "reason": "C3.3 follows from C3.2 = NOT-STATED."
+  },
+  "C6.OTH": {
+   "chosen": "A",
+   "reason": "The limited-accountability extension models exogenous actors whose fixed, random action affects outcomes, so they count as present and non-strategic."
+  },
+  "C7.2": {
+   "chosen": "other",
+   "reason": "The introduction gives an argument, not only a citation, for treating voters as biased non-optimisers while politicians are informed, so neither CITE nor NONE fits."
+  },
+  "C8.1": {
+   "chosen": "A",
+   "reason": "Besides the incumbent's single-agent optimisation, the paper has non-cooperative party behaviour and solves a system of best responses in Appendix B, which is Nash equilibrium."
+  },
+  "C8.2": {
+   "chosen": "A",
+   "reason": "The solution concept is named explicitly as the political equilibrium."
+  },
+  "C9.2": {
+   "chosen": "A",
+   "reason": "The assumptions needed for the claims are stated in the model; B's objection concerns a missing justification, not a missing statement."
+  }
+ }
+}

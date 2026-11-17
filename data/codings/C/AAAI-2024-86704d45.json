@@ -1,0 +1,19 @@
+{
+ "paper_id": "AAAI-2024-86704d45",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "WD",
+     "AL"
+    ],
+    "primary": "WD",
+    "loc": "Sec. 1 Our Results, p. 9556",
+    "quote": "using at most O(k 2 ) overall distance evaluations, obtain a 2-distortion",
+    "note": "Every main result is a distortion bound, either an upper bound achieved by an algorithm under query or centre budgets, or a lower bound. The lower bounds are information-theoretic rather than computational, so WD covers the largest share and AL is secondary."
+   },
+   "chosen": "A",
+   "reason": "All theorems, including the lower bounds on centres and queries, are stated as distortion guarantees, while polynomial running time is incidental, so WD is not merely tied with AL and the doubt rule does not apply."
+  }
+ }
+}

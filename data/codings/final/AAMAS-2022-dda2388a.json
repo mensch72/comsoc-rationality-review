@@ -1,0 +1,184 @@
+{
+ "paper_id": "AAMAS-2022-dda2388a",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.409",
+  "quote": "Different rules have been used to aggregate participants\u2019 votes.",
+  "note": "Approval-based participatory budgeting voting rules."
+ },
+ "C1": {
+  "types": [
+   "WD",
+   "AX",
+   "SI",
+   "EM"
+  ],
+  "primary": "WD",
+  "loc": "Abstract, p.409; Sec. 4, p.412",
+  "quote": "a theoretical and empirical study of the worst-case guarantees",
+  "note": "Worst-case utilitarian and representation guarantees. AX covers the guarantees for the class of EJR rules. SI uses the Euclidean and party-list datasets. EM uses Pabulib data from Poland."
+ },
+ "C2.1": {
+  "value": "approval profile; votes",
+  "loc": "Sec. 3 Preliminaries, p.410",
+  "quote": "the approval profile \ud835\udc34 : \ud835\udc49 \u2192 2\ud835\udc43"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Sec. 3, p.410",
+  "quote": "the set of projects that voter \ud835\udc56 approves.",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Abstract, p.409; Sec. 1, p.409",
+  "quote": "citizens vote on which of the projects they would like to fund",
+  "note": "Utility is also attributed to voters: 'each voter get a utility of 1'."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Sec. 1 Introduction, p.409",
+  "quote": "they may strategize as they wish.",
+  "note": "There is no separate notation. The introduction says outright that voters may strategize, so what they submit may differ from the projects they would like to fund. This meets the textual criterion for DIST, although the formal model applies the rules to the approval profile directly."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sec. 3-5, pp.410-416",
+  "quote": "none found",
+  "note": "No analysis models misreporting."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Checked: Intro, Sec. 3 Preliminaries, Sec. 5, Sec. 6 Conclusions",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Abstract/Intro, p.409",
+  "quote": "each voter get a utility of 1 for each approve project",
+  "note": ""
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sec. 3, p.410; Sec. 3.3, p.411",
+  "quote": "The social welfare score of an approval profile \ud835\udc34",
+  "note": "Social welfare, representation and EJR are all used in results."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Sec. 3, p.410",
+  "quote": "\ud835\udc46\ud835\udc4a (\ud835\udc34, \ud835\udc35) = \ud835\udc56 \u2208\ud835\udc49 |\ud835\udc34(\ud835\udc56) \u2229 \ud835\udc35|",
+  "note": "Welfare is computed on the approval profile, with no statement that the profile equals held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sec. 3, p.410",
+   "quote_behav": "the set of projects that voter \ud835\udc56 approves.",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters act in the model by approving projects. Their approval sets are fixed inputs, and strategizing is mentioned only in the introduction."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only one type (voters) is present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Sec. 1.1, p.410",
+    "quote": "Our results provide PB organizers with explainable recommendations"
+   },
+   {
+    "loc": "Sec. 6, p.416",
+    "quote": "can lead to more efficient outcomes that will satisfy the citizens."
+   },
+   {
+    "loc": "Sec. 6, p.416",
+    "quote": "we concluded the PAV rule to be the clear winner"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sec. 1, p.409; Sec. 3, p.410",
+  "quote": "they may strategize as they wish.",
+  "note": "Claims about citizens' satisfaction and rule recommendations need submitted approvals to equal voters' held attitudes, which is never stated. The paper even notes that voters may strategize. The utility link (1 per approved project) is stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Checked: Intro, Sec. 3, Sec. 6",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C2.4": {
+   "chosen": "A",
+   "reason": "The codebook allows DIST on text saying submitted inputs may differ from held attitudes, and 'they may strategize as they wish' is such text."
+  },
+  "C6.VOT": {
+   "chosen": "A",
+   "reason": "The codebook counts a type as present when it takes an action even if that action is fixed, and voters submitting approval sets is such an action."
+  }
+ }
+}

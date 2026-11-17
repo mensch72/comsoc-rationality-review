@@ -1,0 +1,193 @@
+{
+ "paper_id": "AAMAS-2024-629cc4bd",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1567",
+  "quote": "We study the setting of single-winner elections with ordinal preferences",
+  "note": ""
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SI",
+   "WD"
+  ],
+  "primary": "AX",
+  "loc": "Sections 3-5, pp.1569-1574",
+  "quote": "show that they have good axiomatic properties",
+  "note": "Most results are axioms, propositions and theorems on axioms. Section 5 simulates on synthetic data (IC, Euclidean) and compares social welfare (Borda score) across rules."
+ },
+ "C2.1": {
+  "value": "election (C, V, A); voters' strict linear order (ranking); voters' preferences; votes/ballots",
+  "loc": "Section 2, p.1568",
+  "quote": "is associated with a strict linear order (ranking)"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK",
+   "OTH"
+  ],
+  "loc": "Section 2, p.1568",
+  "quote": "is associated with a strict linear order (ranking)",
+  "note": "OTH: the rule also takes the set of alliances A between candidates as input. Approval-type ballots appear only as an implementation discussion in Section 6.1."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 1, p.1567; Section 5, p.1573",
+  "quote": "The voters\u2019 preferences are as follows:",
+  "note": "Rankings are called preferences. In the Euclidean simulations, voter ideal points generate the rankings."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 1.1, p.1567",
+  "quote": "take as input not only voters\u2019 preferences",
+  "note": "The rule is applied directly to preferences/rankings. No statement about submission or reporting was found."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Section 3.2, p.1570",
+  "quote": "we do not consider strategic behavior of candidates",
+  "note": "No analysis models voters misreporting."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 2, 5, 6",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 5.2, p.1573",
+  "quote": "social welfare of a given candidate is equal to his or her Borda score",
+  "note": "Welfare is defined from the positions in the rankings."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 5.2, p.1573",
+  "quote": "we compare the social welfare obtained by standard and alliance-aware rules",
+  "note": ""
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 5.2, p.1573",
+  "quote": "denotes the position of candidate \ud835\udc50 \ud835\udc64 in vote \ud835\udc63",
+  "note": "Welfare is computed on the rankings/votes, with no statement relating them to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2, p.1568",
+   "quote_behav": "is associated with a strict linear order (ranking)",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters' rankings are fixed inputs."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates and alliances are given; the paper states it does not consider strategic behaviour of candidates."
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only one type (voters) is present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.1567",
+    "quote": "simple enough to explain to be used in practice"
+   },
+   {
+    "loc": "Section 1.1, p.1568",
+    "quote": "This fact makes them reasonable proposals for real-life elections."
+   },
+   {
+    "loc": "Section 6, p.1574",
+    "quote": "We have argued that they provide similar social welfare to the voters"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sections 2, 5.2, 6",
+  "quote": "none found",
+  "note": "The welfare claim and the real-life use claims need the assumption that submitted rankings equal voters' true preferences (sincere voting), which is not stated. The Borda-based welfare link is stated as a definition."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 2, 6",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C1": {
+   "chosen": "A",
+   "reason": "The Section 5.2 simulation evaluates rules against social welfare, so it is a WD result as well as an SI one, and AX remains primary."
+  },
+  "C2.2": {
+   "chosen": "A",
+   "reason": "The rule's argument is (C, V, A), and the paper says the rules take as input alliance information besides rankings, which fits OTH."
+  },
+  "C2.3": {
+   "chosen": "A",
+   "reason": "The paper attributes preferences and Euclidean ideal points to voters, and both coders' C2.4 = IDU already presupposes that a held attitude is present."
+  },
+  "C4.1": {
+   "chosen": "A",
+   "reason": "The paper explicitly defines voter welfare as a function of the ranking positions (Borda), which is a defined link between welfare and the input."
+  }
+ }
+}

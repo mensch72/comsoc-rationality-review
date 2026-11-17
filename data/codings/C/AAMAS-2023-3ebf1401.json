@@ -1,0 +1,41 @@
+{
+ "paper_id": "AAMAS-2023-3ebf1401",
+ "decisions": {
+  "C1": {
+   "value": {
+    "types": [
+     "WD",
+     "SB",
+     "SI",
+     "EM"
+    ],
+    "primary": "WD",
+    "loc": "Abstract, p.1391; Sections 3-5",
+    "quote": "show asymptotically tight bounds on their distortion",
+    "note": "Most results are distortion bounds. There are also strategyproofness results (SB), synthetic simulations (SI) and Jester real-data experiments (EM)."
+   },
+   "chosen": "A",
+   "reason": "No main result is axiomatic: the lower bounds are distortion bounds, and the strategyproofness results are already covered by SB, so AX does not apply."
+  },
+  "C2.4": {
+   "value": {
+    "code": "DIST",
+    "loc": "Section 2, Strategyproofness, p.1393",
+    "quote": "when only agent \ud835\udc56 reports information different than that in \ud835\udc3c",
+    "note": "Outside the strategyproofness definition, mechanisms are applied directly to \u03b4(I), which would be IDU. The strategyproofness text says reports may differ from held valuations v_i, so DIST is coded."
+   },
+   "chosen": "A",
+   "reason": "The paper says an agent may report information different from its held valuations, which are still used for evaluation; this meets the DIST condition."
+  },
+  "C4.1": {
+   "value": {
+    "code": "SPEC",
+    "loc": "Section 2, Mechanisms, p.1393",
+    "quote": "rankings of alternatives that are consistent to the values of",
+    "note": ""
+   },
+   "chosen": "A",
+   "reason": "C4.1 applies because RANK is an input format and welfare and distortion are used, and rankings are defined as induced by the valuations, so SPEC is correct; B's NA contradicts its own note."
+  }
+ }
+}

@@ -1,0 +1,187 @@
+{
+ "paper_id": "IJCAI-2021-e589063d",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Introduction, p. 11",
+  "quote": "selection of candidates, products, etc. by a group of voters",
+  "note": "The paper studies Kemeny rank aggregation of voters' (partial) votes, framed in social choice terms. This is computational aspects of a voting procedure, although it is close to generic rank aggregation."
+ },
+ "C1": {
+  "types": [
+   "AL"
+  ],
+  "primary": "AL",
+  "loc": "Abstract, p. 10",
+  "quote": "Kemeny Rank Aggregation problem is fixed-parameter tractable with respect to",
+  "note": ""
+ },
+ "C2.1": {
+  "value": "partial votes; votes; preference lists",
+  "loc": "Section 3, p. 12",
+  "quote": "A partial vote over C is a partial order over C."
+ },
+ "C2.2": {
+  "codes": [
+   "RANK",
+   "OTH"
+  ],
+  "loc": "Abstract, p. 10",
+  "quote": "aggregation over linearly ordered votes, and in the more general",
+  "note": "OTH: votes may be arbitrary partial orders, which is more general than weak orders."
+ },
+ "C2.3": {
+  "code": "N",
+  "loc": "Introduction p. 11; Sections 2-3 pp. 11-12",
+  "quote": "the ranking cast by each voter is a partial order",
+  "note": "The formal model contains only cast votes. The introduction mentions 'preference lists' and voters' 'satisfaction', but neither is defined as an attitude separate from the votes. Coded N with some doubt."
+ },
+ "C2.4": {
+  "code": "ONE",
+  "loc": "Section 3, p. 12",
+  "quote": "A list of partial votes \u03a0 over a set of candidates C",
+  "note": "The inputs are described as votes cast. No separately defined held attitude was found."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 3-6, pp. 12-15",
+  "quote": "none found",
+  "note": "No strategic voting is analysed."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C2.4 = ONE."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NOTSPEC",
+  "loc": "Introduction, p. 11",
+  "quote": "maximizes the overall satisfaction among the voters",
+  "note": "The paper refers to voters' satisfaction but does not relate it to the votes or to Kendall-Tau distance."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 3-6, pp. 12-15",
+  "quote": "none found",
+  "note": "Formal results concern Kemeny score (Kendall-Tau distance) and diversity. Satisfaction is mentioned only in the introduction."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Introduction, p. 11",
+   "quote_behav": "the ranking cast by each voter is a partial order",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters cast votes, which enter the model as fixed input; a fixed action counts as presence."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N",
+   "note": "The 'user' who chooses among the diverse solutions appears only in the motivation, not in the formal model."
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only one type is present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p. 11",
+    "quote": "find a ranking of the candidates that maximizes the overall satisfaction"
+   },
+   {
+    "loc": "Abstract, p. 10",
+    "quote": "the user has the opportunity to choose the solution being most"
+   },
+   {
+    "loc": "Abstract, p. 10",
+    "quote": "a powerful algorithmic framework to address problems of practical relevance"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Introduction, p. 11",
+  "quote": "maximizes the overall satisfaction among the voters",
+  "note": "The satisfaction claim needs two unstated assumptions: that votes reflect voters' preferences, and that voter satisfaction is measured by (inverse) Kendall-Tau distance."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction, Sections 2-3, end of Section 6",
+  "quote": "none found",
+  "note": ""
+ },
+ "adjudication": {
+  "C4.1": {
+   "chosen": "A",
+   "reason": "The input includes RANK and the paper uses 'satisfaction' for voters, so C4.1 applies wherever the term appears; no link between satisfaction and the votes is defined, so the code is NOTSPEC, not NA."
+  },
+  "C6.VOT": {
+   "chosen": "A",
+   "reason": "The codebook counts agents whose actions are fixed, and the model contains votes cast by voters, so voters are present and NONSTRAT, implicitly."
+  },
+  "C9.2": {
+   "chosen": "A",
+   "reason": "The listed claim about voters' satisfaction needs unstated links from votes to held preferences and from satisfaction to Kendall-Tau distance."
+  }
+ }
+}
