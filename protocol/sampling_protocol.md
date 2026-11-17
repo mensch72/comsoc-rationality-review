@@ -114,7 +114,7 @@ Step 4 (web search for author pages, SSRN and RePEc) is therefore essential for 
 
 **Unavailable.** If none of steps 1–4 gives a full text, the paper is recorded as unavailable and replaced by the next paper of the same stratum in the seeded order. **Replacements are reported per venue, together with the reason.** This is a known source of bias: papers that are open may differ from papers that are not.
 
-PDFs are stored only in a temporary cache outside the repository and are never committed. Full-text extraction uses `pdftotext -layout`.
+PDFs are stored only in a temporary cache outside the repository and are never committed. Full-text extraction uses `pdftotext` in reading order. `-layout` was dropped because it interleaves two-column pages.
 
 ## 4. Stratified draw
 

@@ -99,7 +99,7 @@ def arxiv(r):
 
 
 def extract(pdf_path, txt_path):
-    subprocess.run(["pdftotext", "-layout", pdf_path, txt_path], check=True, timeout=180)
+    subprocess.run(["pdftotext", pdf_path, txt_path], check=True, timeout=180)
     pages = subprocess.run(["pdfinfo", pdf_path], capture_output=True, text=True).stdout
     m = re.search(r"Pages:\s+(\d+)", pages)
     return int(m.group(1)) if m else "", os.path.getsize(txt_path)

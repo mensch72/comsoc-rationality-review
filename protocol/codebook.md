@@ -1,6 +1,6 @@
 # Codebook: modelling choices in papers on voting
 
-Version: **0.1 (draft, before pilot)**.
+Version: **1.0 (frozen after pilot)**.
 
 ## Purpose and general rules
 
@@ -92,6 +92,8 @@ If INELIG, stop coding.
 | SOME | Some analyses do, others do not |
 | NONE | No analysis does |
 
+In experiments with human participants who choose their inputs freely, code ALL unless an analysis assumes the inputs equal the held attitudes.
+
 **C3.2 Statement for the non-strategic analyses.** For the analyses where voters are not modelled as strategic, does the paper state that voters submit their held attitude?
 
 | Code | Meaning |
@@ -136,7 +138,16 @@ If INELIG, stop coding.
 
 ## C5. Welfare and voter-oriented claims
 
-**C5.1 Claims present.** Does the paper state results or claims about any of: social welfare, efficiency (including Pareto), voter satisfaction or utility, representation of voters or groups, proportionality presented as fairness to voters or groups, distortion? Y / N.
+**C5.1 Criteria in results.** Does any definition used in a result, any formal result, or any simulation or experiment evaluate outcomes or rules by one of these criteria?
+
+- social welfare,
+- efficiency, including Pareto efficiency,
+- voter satisfaction or utility,
+- representation of voters or groups,
+- proportionality, presented as fairness to voters or groups (e.g. justified representation),
+- distortion.
+
+Code Y / N. Statements that appear only in the abstract, introduction or conclusion are coded under C9.1, not here.
 
 **C5.2 Object of evaluation**, if C5.1 = Y. Choose one:
 
@@ -150,7 +161,11 @@ If INELIG, stop coding.
 
 ## C6. Stakeholders
 
-For each type below, first code `present` (Y/N). A type is present if the model contains an agent of that type who takes or could take an action, or whose interests the paper discusses.
+For each type below, first code `present` (Y/N). A type is present only if the formal model contains at least one agent of that type who takes an action in the model, whether chosen strategically or fixed.
+
+- Candidates that serve only as alternatives to be chosen are not present.
+- An organiser is present only if they choose something in the model (control actions, agenda, maps, the rule as part of the analysis).
+- Mentioning a type's interests outside the model does not make it present.
 
 | ID | Type |
 |---|---|
@@ -160,7 +175,7 @@ For each type below, first code `present` (Y/N). A type is present if the model 
 | DIS | District designer |
 | BRI | Briber or external manipulator who is not a voter |
 | DES | Rule or mechanism designer, only when the paper models the designer's choice or objective explicitly |
-| OTH | Other. Name it in `note` |
+| OTH | Another acting agent that fits none of the types above. Name it in `note` |
 
 For each present type, code the following.
 
@@ -203,7 +218,7 @@ Evidence is required for `behav` and for `info`.
 |---|---|
 | Y | Yes. Name the types in `note` |
 | N | No |
-| NA | Fewer than two types present |
+| NA | Fewer than two types present, by the C6 definition |
 
 **C7.2** If C7.1 = Y: is a reason given for modelling the types differently?
 
@@ -227,12 +242,12 @@ Applies if any type is STRAT or MIXED; otherwise NA.
 | SPE | Subgame-perfect equilibrium or backward induction |
 | BNE | Bayes–Nash or ex-post equilibrium |
 | ITER | Iterative voting or best-response dynamics |
-| DEV | Existence of a profitable deviation for a given agent or coalition (e.g. the decision problems of manipulation, control, bribery) |
+| DEV | Existence of an action that achieves a given agent's or coalition's goal, studied as a decision or optimisation problem (e.g. manipulation, control, bribery, districting) |
 | BND | Bounded-rationality or heuristic behaviour (level-k, poll-based heuristics) |
 | COAL | Coalitional concepts (strong equilibrium, core) |
 | OTH | Other. Name it in `note` |
 
-**C8.2** Is the solution concept named explicitly? Y / N.
+**C8.2** Is the solution concept named explicitly? Y / N, or NA if C8.1 is NA.
 
 ## C9. Claims beyond the formal results
 
@@ -252,7 +267,9 @@ Code Y / N. If Y, list up to three such claims as quotes, with `loc`.
 - what agents know,
 - other.
 
-For each assumption, record whether the paper states it. Then code:
+Count an assumption as needed only if, without it, the claim would not follow from the formal results. For example, a claim about voters' welfare drawn from results on submitted inputs needs a statement relating inputs to held attitudes. Do not list assumptions that apply to all modelling, such as that the model approximates reality.
+
+For each needed assumption, record whether the paper states it. Then code:
 
 | Code | Meaning |
 |---|---|
@@ -272,7 +289,7 @@ For each assumption, record whether the paper states it. Then code:
 ```json
 {
   "paper_id": "",
-  "codebook_version": "0.1",
+  "codebook_version": "1.0",
   "C0":  {"code": "", "loc": "", "quote": "", "note": ""},
   "C1":  {"types": [], "primary": "", "loc": "", "quote": "", "note": ""},
   "C2.1": {"value": "", "loc": "", "quote": ""},
