@@ -81,6 +81,7 @@ The unit is a **venue appearance**. A workshop paper that later appears at a con
 | Judgment aggregation | exclude, unless the paper's main application is voting on candidates or alternatives |
 | Rank aggregation for ML or IR (e.g. search results, ensembles) | exclude, because nobody makes a collective decision |
 | Peer selection and peer review by vote | include |
+| Sortition | exclude: no aggregation by voting (confirmed at checkpoint 2) |
 | Tournament solutions | include if framed as choosing from a majority relation; exclude if framed as sports scheduling |
 | Apportionment and seat allocation | include |
 | Opinion dynamics and deliberation without a voting rule | exclude |
@@ -149,7 +150,7 @@ If a stratum has fewer eligible papers than allocated, all of them are taken and
 
 - **Codebook.** `protocol/codebook.md`. Version 0.1 was the draft. It was revised after the pilot and frozen as **v1.0 on 2026-11-17; the SHA-256 begins `a630a2333e399c67`**. See `protocol/pilot_report.md`. No changes are made after freezing. Any later clarification is logged and does not alter codes already assigned.
 - **Blinding.** Coders receive only the codebook and the paper text. They do not receive the research questions, this protocol, the commissioning researcher's background or prior, or other coders' outputs.
-- **Pass A and Pass B.** Two independent LLM coding runs per paper, each in a fresh context, each returning the JSON template of the codebook. Pass A uses the larger model and pass B a different, smaller model, to reduce correlated errors.
+- **Pass A and Pass B.** Two independent LLM coding runs per paper, each in a fresh context, each returning the JSON template of the codebook. Pass A uses the larger model and pass B a different, smaller model, to reduce correlated errors. **Changed at checkpoint 2, by the researcher's decision: both passes use the larger model.** Agreement between A and B therefore measures run-to-run consistency of one model rather than agreement between independent coders. The pilot and the first hand-check codings, whose pass B used the smaller model, are kept in `data/pilot/` and `data/codings/B/` (to be moved to `data/codings/B_smaller_model/`) and reported as a sensitivity check.
 - **Pass C (adjudication).** A third run sees the paper, the codebook and both codings for items where A and B disagree only. It chooses one of the two codes, or a third code with a reason, and records the evidence.
 - **Reliability.** Cohen's κ per item is computed on A vs B, before adjudication. Each item is also reported with its percentage agreement and the prevalence of its modal code, because κ is unstable at extreme prevalence.
   - Items with κ < 0.40 are reported as **unreliable**. They are kept in the dataset and their proportions are reported with that label.

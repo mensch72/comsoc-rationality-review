@@ -1,6 +1,6 @@
 export const meta = {
   name: 'comsoc-code-papers',
-  description: 'Code papers with the codebook: independent passes A (default model) and B (smaller model)',
+  description: 'Code papers with the codebook: independent independent passes A and B (same model, separate contexts)',
   phases: [{ title: 'Code', detail: 'pass A and pass B per paper, blind to each other' }],
 }
 const prompt = (p, pass) => `You are a research assistant coding one academic paper with a codebook.
@@ -10,5 +10,5 @@ const prompt = (p, pass) => `You are a research assistant coding one academic pa
 4. Write your coding as ONE JSON object following the codebook's output template to ${args.out}/${pass}/${p.id}.json, with "paper_id": "${p.id}" and "codebook_version" as in the codebook. Then check it parses: python3 -c "import json;json.load(open('${args.out}/${pass}/${p.id}.json'))".
 Do not open any other file, do not search the web, and do not look at any other coding. Return one line: the paper_id and "ok" or the problem.`
 await pipeline(args.papers, p => parallel(args.passes.map(pass => () =>
-  agent(prompt(p, pass), { label: `${pass}:${p.id}`, phase: 'Code', ...(pass === 'B' ? { model: 'sonnet' } : {}) }))))
+  agent(prompt(p, pass), { label: `${pass}:${p.id}`, phase: 'Code' }))))
 return 'done'
