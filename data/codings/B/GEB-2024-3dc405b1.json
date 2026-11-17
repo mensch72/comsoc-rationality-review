@@ -1,0 +1,185 @@
+{
+ "paper_id": "GEB-2024-3dc405b1",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "We study how voting rules shape voter coordination in large threecandidate elections.",
+  "note": "Strategic/equilibrium analysis of Plurality, Anti-Plurality and Approval Voting."
+ },
+ "C1": {
+  "types": [
+   "EQ",
+   "WD",
+   "SI",
+   "AX"
+  ],
+  "primary": "EQ",
+  "loc": "Sections 3-5, pp.7-23",
+  "quote": "We show that the Condorcet winner is always elected at some equilibrium under Approval Voting",
+  "note": "AX: Condorcet-consistency of rules at equilibrium; mainly EQ; WD (welfare guarantees); SI (Monte-Carlo of t\u00e2tonnement)."
+ },
+ "C2.1": {
+  "value": "ballots / messages; ballot profile \u03c4",
+  "loc": "Section 2.2, p.6",
+  "quote": "the set of messages (or ballots) available to each voter"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR",
+   "RANK"
+  ],
+  "loc": "Section 2.2, p.6",
+  "quote": "Approval Voting is defined by M AV = {a, b, c, ab, ac, bc}",
+  "note": "Ballots are single or two-candidate approval sets (PL: one; APL: two); voters' held types are rankings plus cardinal utility."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2.1, p.5",
+  "quote": "A voter\u2019s type t consists of his von Neumann and Morgenstern preference",
+  "note": "Types (ordinal and cardinal utilities) are held attitudes."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2.2 and 5.4",
+  "quote": "A (pure) strategy is a measurable function \u03c3 : T \u2192 M .",
+  "note": "Types T separate from ballots M; strategic voting and expressive voting discussed."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "Sections 3-5",
+  "quote": "We consider in this section simulations where only a fraction of the electorate is strategic",
+  "note": "Main analyses are strategic; the expressive-voter robustness simulations include non-strategic voters (sincere ballots)."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Section 5.4, p.21",
+  "quote": "casting a ballot for the candidate they prefer, independently of her chance of winning",
+  "note": "Expressive voters are stated to vote their preferences."
+ },
+ "C3.3": {
+  "code": "CONV",
+  "loc": "Section 5.4, p.21; Section 7",
+  "quote": "in line with recent empirical studies (see Section 7)",
+  "note": "Expressive voting motivated by empirical literature on share of expressive voters; this is citing empirical studies, no argument by the paper itself; closest fit is CONV/EMP. CONV chosen as only citations."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 2.1, p.5-6",
+  "quote": "he attaches utility 1 (resp. 0) to his preferred (resp. worst) candidate",
+  "note": "Utility of second-best candidate u in (0,1); ballot choice defined via utility threshold; ordinal type consistent with cardinal representation."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "Term dichotomous preferences not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 4.1, p.13; Section 5.2.3",
+  "quote": "we consider an alternative welfare criterion, utilitarian welfare",
+  "note": "Also Rawlsian and anti-Rawlsian welfare, Propositions 4 and 6."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 4.1, p.13",
+  "quote": "Wi = r i + r ki \u222b udF ki (u) + r ji \u222b udF ji (u)",
+  "note": "Welfare evaluated on held cardinal utilities of the type distribution, defined separately from ballots."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 5.4, p.21",
+   "quote_behav": "some voters vote expressively, casting a ballot for the candidate they prefer",
+   "loc_info": "Section 5, p.15",
+   "quote_info": "a fraction of voters updates its behavior after the publication",
+   "note": "Strategic best replies in main analysis; expressive (non-strategic) voters in robustness. Info: beliefs on aggregate profile (Poisson common knowledge probabilities / polls)."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates are only alternatives."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "No organiser acts."
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "note": "Rules are compared, but designer's choice not modelled."
+  },
+  "OTH": {
+   "present": "N",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "C6",
+  "quote": "",
+  "note": "Only one type present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "C6",
+  "quote": "",
+  "note": "C7.1 is NA."
+ },
+ "C8.1": {
+  "codes": [
+   "BNE",
+   "ITER",
+   "NE"
+  ],
+  "loc": "Sections 3.2 and 5",
+  "quote": "We say that a profile \u03c4 is an equilibrium if \u03c4 = BR(\u03c4)",
+  "note": "Equilibrium in Poisson games (asymptotic best-reply fixed point, closest to NE/BNE); fictitious-play-type adaptive dynamics (ITER). Best fit codes: NE for equilibrium of Poisson game; BNE also listed as types are private."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 3.2, p.9",
+  "quote": "We say that a profile \u03c4 is an equilibrium if"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.1",
+    "quote": "The dominance of Approval Voting is robust to several alternative welfare criteria"
+   },
+   {
+    "loc": "Section 8, p.28",
+    "quote": "This work underlines the potential of AV as a promising alternative voting"
+   },
+   {
+    "loc": "Introduction, p.4",
+    "quote": "This election method thus tends to confer political legitimacy to the winner."
+   }
+  ],
+  "note": "Also the title 'a case for approval voting'."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sections 2, 5.1, 5.4",
+  "quote": "We assumed in the analysis above that all voters were strategic.",
+  "note": "Needed assumptions (strategic voters, information via polls/Poisson beliefs, utility-ordinal link, uniform utilities) are stated in the model; the paper also flags the strategic assumption as strong and tests expressive voters."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No procedural reading statement."
+ }
+}

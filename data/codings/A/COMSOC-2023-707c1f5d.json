@@ -1,0 +1,168 @@
+{
+ "paper_id": "COMSOC-2023-707c1f5d",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "the goal is to elect a fixed size subset of the candidates",
+  "note": "Axiomatic characterisation of approval-based committee voting rules."
+ },
+ "C1": {
+  "types": [
+   "AX"
+  ],
+  "primary": "AX",
+  "loc": "Section 3.2, Theorem 1",
+  "quote": "An ABC voting rule is a Thiele rule if and only if",
+  "note": ""
+ },
+ "C2.1": {
+  "value": "approval ballots; approval profile",
+  "loc": "Section 2, p.3",
+  "quote": "An approval profile A is a mapping from N to A"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Section 2, p.3",
+  "quote": "as approval ballot Ai , i.e., as a non-empty subset of C",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.3",
+  "quote": "each voter i \u2208 N reports her preferences over the candidates",
+  "note": "Preferences are referred to as what voters report."
+ },
+ "C2.4": {
+  "code": "IDS",
+  "loc": "Section 2, p.3",
+  "quote": "reports her preferences over the candidates as approval ballot",
+  "note": "The ballot is said to be the report of the voter's preferences, with no justification. IDU would also be plausible."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-4",
+  "quote": "none found",
+  "note": "No analysis considers voters misreporting. Strategic considerations of candidates motivate an axiom but are not modelled."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Section 2, p.3",
+  "quote": "each voter i \u2208 N reports her preferences over the candidates",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Section 2, p.3",
+  "quote": "none found",
+  "note": "Checked Introduction, Preliminaries and Conclusion; no reason is given."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 2.1, p.3",
+  "quote": "the voter should have some benefit s(x) from the committee",
+  "note": "Benefit is defined as a function of the number of approved candidates in the committee, as motivation for Thiele rules. NA would also be plausible if 'benefit' is not counted as a utility-type term."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' appears only in reference titles."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2.2, p.4",
+  "quote": "we say an ABC S voting rule f is weakly efficient if",
+  "note": "Weak efficiency is used in Theorem 2 and Proposition 1."
+ },
+ "C5.2": {
+  "code": "INPUT-STATED",
+  "loc": "Section 2.2, p.4",
+  "quote": "unanimously unapproved candidates can never be \u201cbetter\u201d than approved ones",
+  "note": "Evaluated on approval ballots; C2.4 = IDS."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2, p.3",
+   "quote_behav": "reports her preferences over the candidates as approval ballot",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidate party-forming is discussed only as motivation for an axiom; candidates take no action in the model."
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is strategic."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.2",
+    "quote": "this axiom is reasonable for excellence-based elections"
+   },
+   {
+    "loc": "Introduction, p.2",
+    "quote": "intuitively, the quality of W should only depend on its members"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "UNCLEAR",
+  "loc": "Introduction, p.2",
+  "quote": "We believe that this axiom is reasonable",
+  "note": "The claims are normative arguments for axioms rather than conclusions drawn from the formal results, so the needed assumptions cannot be determined."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction; Section 2; Conclusion",
+  "quote": "none found",
+  "note": ""
+ }
+}

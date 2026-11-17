@@ -1,0 +1,184 @@
+{
+ "paper_id": "IJCAI-2022-0b527f93",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Introduction, p.3940",
+  "quote": "We consider electoral control by deleting",
+  "note": "Studies electoral control by voter deletion under plurality when an LDP mechanism is used in pre-election polls."
+ },
+ "C1": {
+  "types": [
+   "SB",
+   "AL",
+   "SI"
+  ],
+  "primary": "SB",
+  "loc": "Introduction, p.3941; Section 5, p.3944",
+  "quote": "the effect brought by local differential privacy in a voting system",
+  "note": "The main results quantify the attacker's control cost (SB), computed via ILP/LP bounds (AL). Section 5 runs numeric experiments on generated voting systems; one generation method samples true types from Sushi data, but the generated systems remain synthetic."
+ },
+ "C2.1": {
+  "value": "votes / type of preference (true type)",
+  "loc": "Introduction, p.3940",
+  "quote": "we define the type1 of his/her preference as the candidate he/she votes for"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Introduction, p.3940",
+  "quote": "each voter votes for exactly one candidate",
+  "note": "Plurality: a single candidate per voter (the type in [1,m])."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Introduction, p.3940, footnote 1",
+  "quote": "the type of his/her preference is private information",
+  "note": "A true preference/true type is held, distinguished from the reported type used in polls."
+ },
+ "C2.4": {
+  "code": "IDS",
+  "loc": "Section 2 Preliminary, p.3942",
+  "quote": "Voters will vote according to their true types in the election.",
+  "note": "Only the reported type (for polls) differs from the held type. The vote that enters the rule is stated to equal the true type, with no reason given."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Section 1, p.3941",
+  "quote": "Voters will still vote according to their true preference",
+  "note": "The reported types arise from a randomized LDP mechanism, not from strategic choice, and they are not inputs to the rule."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Section 1, p.3941",
+  "quote": "Voters will still vote according to their true preference",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Section 1, p.3941; Section 2, p.3942",
+  "quote": "Voters will vote according to their true types in the election.",
+  "note": ""
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The input format is OTH (single-candidate vote), and no utility notions are used for voters."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 3-5, Introduction, Conclusion",
+  "quote": "none found",
+  "note": "Results concern the attacker's manipulation cost, not welfare criteria."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2, p.3942",
+   "quote_behav": "Voters will vote according to their true types in the election.",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters also run the LDP mechanism for polls, which is a fixed action."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 3, p.3942",
+   "quote_behav": "can thus strategically delete voters",
+   "loc_info": "Section 3, p.3942",
+   "quote_info": "the attacker needs to delete voters according to reported types",
+   "note": "The 'attacker' is the controlling agent (control by deleting voters). In the classical scenario it has complete information; in the LDP scenario it knows lambda and the reported types only. Coded PARTIAL for the main LDP analysis."
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "Y",
+  "loc": "Section 2-3, p.3942",
+  "quote": "can thus strategically delete voters",
+  "note": "ORG (attacker) is STRAT; VOT is NONSTRAT."
+ },
+ "C7.2": {
+  "code": "NONE",
+  "loc": "Introduction, Sections 2, 3, 6, 7",
+  "quote": "none found",
+  "note": "Footnote 3 cites convention only for the attacker's knowledge, not for the difference in behaviour."
+ },
+ "C8.1": {
+  "codes": [
+   "DEV"
+  ],
+  "loc": "Section 1, p.3941",
+  "quote": "minimal number of voters the attacker should delete to make",
+  "note": ""
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 3, Definition 2, p.3943",
+  "quote": "The manipulation cost of a voting system"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.3941",
+    "quote": "show that they can generally enhance the resilience of a voting system"
+   },
+   {
+    "loc": "Introduction, p.3941",
+    "quote": "The security threshold provides general guidance toward the application of LDP"
+   },
+   {
+    "loc": "Conclusion, p.3945",
+    "quote": "gives general guidance towards the choice of the privacy parameter"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sections 1, 2, 3, 6",
+  "quote": "We also assume the attacker knows the parameter",
+  "note": "Needed assumptions: sincere voting in the election (stated); the attacker knows only reported types and lambda (stated and discussed in Section 6); voters run LDP once for all polls (stated)."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction, Sections 2, 3, Conclusion",
+  "quote": "none found",
+  "note": ""
+ }
+}

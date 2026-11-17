@@ -1,0 +1,10 @@
+{
+ "paper_id": "AAAI-2025-401e133f",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "INELIG",
+  "loc": "Abstract and Section 1, p.13700",
+  "quote": "Knockout tournaments, also known as single-elimination or cup tournaments, are a popular form of sports competitions.",
+  "note": "The main object is manipulation of probabilistic knockout sports tournaments by coalitions of players who throw matches. No voters submit ballots and nothing is aggregated by voting. Elections are mentioned only as a side application, so the paper is not about a voting procedure."
+ }
+}

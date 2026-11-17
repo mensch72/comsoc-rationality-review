@@ -1,0 +1,180 @@
+{
+ "paper_id": "AAMAS-2025-d4c20165",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Section 1, p.785",
+  "quote": "RSCFs, which formalize deterministic and randomized voting rules",
+  "note": "Metric distortion of randomized voting rules."
+ },
+ "C1": {
+  "types": [
+   "WD",
+   "AL",
+   "SI",
+   "EM"
+  ],
+  "primary": "WD",
+  "loc": "Sections 3-5, pp.788-792",
+  "quote": "we conduct extensive computer experiments on the metric distortion of RSCFs",
+  "note": "Main results are distortion bounds (WD); LP for computing distortion (AL); simulations on synthetic data (SI) and Spotify real-world rankings (EM, real-world data)."
+ },
+ "C2.1": {
+  "value": "preference profile",
+  "loc": "Section 2, p.786",
+  "quote": "A preference profile \ud835\udc45 is the collection of the preference relations"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2, p.786",
+  "quote": "complete, transitive, and anti-symmetric binary relation over \ud835\udc4b\ud835\udc5a",
+  "note": "Linear rankings."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 1, p.785; Section 2.2, p.788",
+  "quote": "voters have latent cardinal utilities over the alternatives",
+  "note": "Latent utilities / metric costs are held attitudes."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2.2, p.788",
+  "quote": "voters only report ordinal preferences over the alternatives instead of their cardinal costs",
+  "note": "Separate notation for reported preferences and metric distances/costs; metric must be consistent with profile. Reports vs. costs are distinguished by informational level, not misreporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-5",
+  "quote": "none found",
+  "note": "No analysis considers voters misreporting; uniform random dictatorship strategyproofness mentioned only in passing."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 2, 6 checked",
+  "quote": "none found",
+  "note": "Paper says voters report preferences consistent with metric, but no explicit statement of truthful/sincere submission."
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Sections 1, 2, 6",
+  "quote": "none found",
+  "note": "C3.2 is NOT-STATED, so no reason given (NONE rather than NA by letter of codebook is arguable)."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 2.2, p.788",
+  "quote": "a metric \ud835\udc51 is consistent with a profile \ud835\udc45 if \ud835\udc65 \u227b\ud835\udc63 \ud835\udc66 implies",
+  "note": "Consistency of distances with rankings defined formally."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "Dichotomous preferences not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2.2, p.788",
+  "quote": "The social cost of an alternative \ud835\udc65 is thus",
+  "note": "Metric distortion is a social-cost (welfare) measure; the main results evaluate it."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 2.2, p.788",
+  "quote": "The distance \ud835\udc51 (\ud835\udc63, \ud835\udc65) states the cost incurred to voter \ud835\udc63",
+  "note": "Evaluated on metric costs defined separately from the ordinal input."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters only supply preferences; no actions modelled as agents."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Alternatives only."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "No organiser choosing anything."
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "note": "The rule is analysed, with no explicit designer choice model."
+  },
+  "OTH": {
+   "present": "N",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Section 2",
+  "quote": "none found",
+  "note": "Fewer than two types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is NA"
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 1, p.785",
+    "quote": "this gives a strong argument for using a C1ML or C2ML rule"
+   },
+   {
+    "loc": "Section 6, p.792",
+    "quote": "established RSCFs, such as C1ML and C2ML rules, are also appealing"
+   },
+   {
+    "loc": "Section 4.2, p.790",
+    "quote": "we should use the CRWW rule as it has both the best"
+   }
+  ],
+  "note": "Rule recommendations drawn from distortion results."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sections 1, 2.2, 6",
+  "quote": "none found",
+  "note": "Recommendation of rules based on social cost needs an assumption that submitted rankings reflect true preferences (sincere reporting), which is not stated; metric-consistency link is stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1-6",
+  "quote": "none found",
+  "note": "No statement of procedural reading."
+ }
+}

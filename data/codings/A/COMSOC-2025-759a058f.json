@@ -1,0 +1,175 @@
+{
+ "paper_id": "COMSOC-2025-759a058f",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Section 1, p.1",
+  "quote": "it is an instance of committee elections, where the statements play",
+  "note": "Proportional slate selection, cast as a committee election or participatory-budgeting-style aggregation of agents' utilities."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "AL",
+   "SI",
+   "EM"
+  ],
+  "primary": "AX",
+  "loc": "Section 3, p.5",
+  "quote": "establish its proportionality guarantees under approximate queries",
+  "note": "Main theoretical results are approximate cBJR guarantees and impossibility results for a query-based algorithm. There are also synthetic simulations (Sec 3.4) and LLM experiments on real drug-review and Polis data (Sec 4)."
+ },
+ "C2.1": {
+  "value": "utility function u_i (accessed via discriminative/generative queries); in implementation, \"textual information\" about each user",
+  "loc": "Section 2, p.3-4",
+  "quote": "each agent i \u2208 N has a utility function ui : U \u2192 [r]"
+ },
+ "C2.2": {
+  "codes": [
+   "CARD",
+   "OTH"
+  ],
+  "loc": "Section 2, p.3; Section 4.1, p.9",
+  "quote": "mapping each statement \u03b1 \u2208 U to one of r possible utility values",
+  "note": "OTH: in the implementation, the input is unstructured text (reviews, comments) from which LLM queries estimate utilities."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.4",
+  "quote": "we are provided with textual information reflecting their opinions",
+  "note": "Agents have utility functions and opinions."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2.1, p.4",
+  "quote": "Disc(i, \u03b1) \u2208 [ui (\u03b1) \u2212 \u03b2, ui (\u03b1) + \u03b2]",
+  "note": "Query outputs used by the algorithm are notated separately from true utilities and may differ from them. The difference is due to estimation error, not voter misreporting. IDU also partly fits; the doubt rule selects the first listed code."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-4",
+  "quote": "none found",
+  "note": "No strategic voters are analysed."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 2, 4, 5, Appendix A",
+  "quote": "none found",
+  "note": "The paper never states that users' submitted texts truthfully report their opinions. It only says the text reflects their opinions."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Input format is cardinal or text, not ordinal or approval."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2.2, p.4; Section 4.2.3, p.11",
+  "quote": "To evaluate whether a slate adequately represents the agents",
+  "note": "Evaluation uses cBJR proportionality and agents' utilities (mean and 25th percentile)."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 4.2.3, p.11",
+  "quote": "treat them as the true, underlying utilities",
+  "note": "Theory evaluates on true u_i, separate from query outputs. Experiments evaluate on CoT utilities treated as proxies for true utilities."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 4.2.1, p.10",
+   "quote_behav": "Each agent is represented by the text of their submitted review",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Agents' inputs (utilities or texts) are exogenous. There is no strategic choice."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only one type is present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no strategic type."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.1",
+    "quote": "demonstrating its effectiveness in generating representative slates from unstructured user opinions"
+   },
+   {
+    "loc": "Section 1.1, p.2",
+    "quote": "PROSE outperforms four baseline approaches with respect to both user satisfaction"
+   },
+   {
+    "loc": "Section 1.1, p.2",
+    "quote": "a compelling vision for how AI can support democratic innovation"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 2, p.4; Section 4.2.3, p.11",
+  "quote": "Consequently, we rely on a proxy.",
+  "note": "Needed assumptions: texts reflect opinions (stated, Sec 2) and LLM CoT utilities stand in for true utilities (stated as a proxy, Sec 4.2.3). No strategic-behaviour assumption is needed."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 2, 5",
+  "quote": "none found",
+  "note": ""
+ }
+}

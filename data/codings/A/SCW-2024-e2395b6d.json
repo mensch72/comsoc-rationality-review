@@ -1,0 +1,194 @@
+{
+ "paper_id": "SCW-2024-e2395b6d",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Section 3.1, p. 11-12",
+  "quote": "Let us consider a majoritarian rule in which the candidate",
+  "note": "Borderline. The paper is political economy: a probabilistic voting election model with strategic candidates and a central bank, plus an empirical popularity-function study. It is coded ELIG because it studies strategic aspects of an election decided by majority voting."
+ },
+ "C1": {
+  "types": [
+   "EQ",
+   "EM"
+  ],
+  "primary": "EM",
+  "loc": "Sections 3 and 5, pp. 11-27",
+  "quote": "We first consider the Nash equilibrium between the central bank and",
+  "note": "The theory gives Nash and Stackelberg equilibria. Most reported results are econometric estimates on UK data, so EM is primary; EQ would also be defensible."
+ },
+ "C2.1": {
+  "value": "votes / vote share (voters choose between the two candidates)",
+  "loc": "Section 2, p. 8; Section 3.1, p. 12",
+  "quote": "The election is held, in which voters choose between the two candidates."
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 3.1, p. 11-12",
+  "quote": "citizen i supports candidate R if UiR >",
+  "note": "Each voter casts a single vote for one of two candidates."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2.1, p. 8; Section 3.1, p. 11",
+  "quote": "Voters are characterized by their personal preferences towards the output gap",
+  "note": "Voters have loss functions and utilities U_i^j."
+ },
+ "C2.4": {
+  "code": "IDJ",
+  "loc": "Section 3.1, p. 11",
+  "quote": "As is common in probabilistic voting models, citizen i supports candidate R",
+  "note": "The vote follows the higher utility. The only justification is convention in probabilistic voting models, so IDJ vs IDS is in doubt; IDJ is listed first."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 3.1, 4, 5",
+  "quote": "All citizens with \u03b8i > \u03b8\u02c9i prefer candidate R.",
+  "note": "Voters vote for their preferred candidate. The empirical part uses poll popularity and does not model strategic voting."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Section 3.1, p. 11",
+  "quote": "As is common in probabilistic voting models, citizen i supports candidate R",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "CONV",
+  "loc": "Section 3.1, p. 11",
+  "quote": "As is common in probabilistic voting models",
+  "note": ""
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The input format is OTH (single vote), not RANK, WEAK, APPR, DICH or PAIR."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 3, 5, 6",
+  "quote": "none found",
+  "note": "Results concern election probabilities and popularity, not welfare criteria."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 3.1, p. 11",
+   "quote_behav": "citizen i supports candidate R if UiR >",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters vote for the candidate giving higher utility."
+  },
+  "CAN": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Section 3.2, p. 13",
+   "quote_behav": "chooses their electoral platform (g j ) by minimizing their loss function",
+   "loc_info": "Sections 2-3",
+   "quote_info": "none found",
+   "note": "Politicians minimise a policy loss function. Their knowledge of voters is not specified."
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N",
+   "note": "The text mentions that society could choose central bank conservatism, but this choice is not modelled."
+  },
+  "OTH": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 3.4, p. 15",
+   "quote_behav": "the central bank minimizes its loss function LB by taking",
+   "loc_info": "Section 2, p. 8",
+   "quote_info": "knowing these platforms but without knowing the result of the election",
+   "note": "The central bank sets the interest rate. It knows the platforms and election probabilities but not the election outcome."
+  }
+ },
+ "C7.1": {
+  "code": "Y",
+  "loc": "Sections 3.1-3.4",
+  "quote": "The three actors then determine their policies independently and simultaneously",
+  "note": "Candidates and the central bank are STRAT; voters are NONSTRAT."
+ },
+ "C7.2": {
+  "code": "CITE",
+  "loc": "Section 3.1, p. 11",
+  "quote": "Following the probabilistic voting models of Lindbeck & Weibull (1987)",
+  "note": "Only an appeal to the probabilistic voting literature is given."
+ },
+ "C8.1": {
+  "codes": [
+   "NE",
+   "SPE"
+  ],
+  "loc": "Section 3 and 3.5, pp. 11, 16-17",
+  "quote": "As usual, the game is solved by backwards induction.",
+  "note": "Nash equilibrium and a Stackelberg game with the central bank as leader."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 3, p. 11",
+  "quote": "We first consider the Nash equilibrium between the central bank and"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 7, p. 34",
+    "quote": "our result calls into question the principle of independence and political"
+   },
+   {
+    "loc": "Section 1, p. 6",
+    "quote": "an overly conservative central bank will erode the comparative advantage"
+   },
+   {
+    "loc": "Section 7, p. 34",
+    "quote": "monetary policy, even when implemented by unelected institutions, is not insulated"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sections 2-3",
+  "quote": "citizen i supports candidate R if UiR >",
+  "note": "Needed assumptions are stated: voters vote by utility, the central bank does not know the outcome, and announcements are binding."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 2, 3, 7",
+  "quote": "none found",
+  "note": ""
+ }
+}

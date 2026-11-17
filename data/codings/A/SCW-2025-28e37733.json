@@ -1,0 +1,177 @@
+{
+ "paper_id": "SCW-2025-28e37733",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.197; Sect. 2, p.200",
+  "quote": "when voters are allowed to trade votes",
+  "note": "Strategic vote-for-vote trading under majority rule on two binary issues."
+ },
+ "C1": {
+  "types": [
+   "EQ",
+   "SB",
+   "WD",
+   "EM"
+  ],
+  "primary": "EQ",
+  "loc": "Abstract, p.197; Sect. 2.1\u20132.2, pp.201\u2013206; Sect. 3, pp.207\u2013208",
+  "quote": "We compute the Nash equilibria for this game",
+  "note": "EM: equilibria and welfare are computed on joint utility distributions estimated from ANES survey data."
+ },
+ "C2.1": {
+  "value": "votes",
+  "loc": "Sect. 2, p.200",
+  "quote": "Finally, all voters cast their votes on both issues."
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Sect. 2, p.200",
+  "quote": "the sum of utilities for all issues that pass with a majority",
+  "note": "Inputs are binary yes/no votes on each of two issues under majority rule. A traded vote is cast by the partner. Cardinal utilities are held attitudes, not inputs."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sect. 2, p.200",
+  "quote": "voters are independently assigned utilities on both issues",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Sect. 1, p.198; Sect. 4, p.208",
+  "quote": "giving up their autonomy on issues they view as unimportant",
+  "note": "Utilities and cast votes are separate objects. Traders' votes on the traded issue need not match their utility sign."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Sect. 2, p.200; Sect. 4, p.208",
+  "quote": "two voters can offer to trade away their vote on t1",
+  "note": "Every main analysis models trading voters. Non-trading voters vote sincerely."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C2.2 contains only OTH, so the applicability condition is not met."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sect. 2.2, p.205",
+  "quote": "we compute the probability that a trade improves group welfare",
+  "note": ""
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Sect. 2, p.200",
+  "quote": "The welfare of the entire group is simply the sum of individual utilities.",
+  "note": "Welfare is computed from utilities, not from votes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Sect. 1, p.199",
+   "quote_behav": "we study this system via Nash equilibria in which no participants",
+   "loc_info": "Sect. 1, p.199",
+   "quote_info": "All voters operate with the same knowledge about the distribution",
+   "note": "Trading voters are strategic. In the main model the other n\u22122 voters vote sincerely and myopically. Voters know the distribution f but not their partners' preferences."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N",
+   "note": "A cost on trading is discussed, but no designer choice is modelled."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "NE"
+  ],
+  "loc": "Sect. 2.1, p.201",
+  "quote": "is a non-trivial Nash equilibrium if and only if",
+  "note": "Symmetric Bayesian-style Nash equilibrium with incomplete information over partners' utilities. Voters are myopic in the main model."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Sect. 2.1, p.201",
+  "quote": "A strategy (defined by the eight \u03b8i coefficients) is a non-trivial Nash equilibrium"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.197",
+    "quote": "trades are typically detrimental to the welfare of the group"
+   },
+   {
+    "loc": "Sect. 1, p.200",
+    "quote": "vote trading removes value from the group by overriding simple majority rule"
+   },
+   {
+    "loc": "Sect. 5, p.210",
+    "quote": "vote trading adds value for the entire group infrequently, at best"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sect. 3, p.208",
+  "quote": "this data allows us to estimate the joint probability distribution",
+  "note": "Stated: welfare is the sum of utilities; incomplete information; sincere non-traders; myopia. Not stated: how 1\u20137 survey responses are converted to cardinal utilities in [\u22121,1] that are comparable across voters. This is needed for the claim about real data."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sect. 1\u20132, pp.197\u2013201; Sect. 5, p.209",
+  "quote": "none found",
+  "note": ""
+ }
+}

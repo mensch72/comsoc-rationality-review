@@ -1,0 +1,173 @@
+{
+ "paper_id": "EC-2023-52ac2aae",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "designing voting rules that take as input the ordinal preferences",
+  "note": "Single-winner voting rules evaluated by distortion."
+ },
+ "C1": {
+  "types": [
+   "WD"
+  ],
+  "primary": "WD",
+  "loc": "Abstract, p.1",
+  "quote": "simultaneously achieve near-optimal distortion guarantees in both distortion worlds",
+  "note": "All main results are upper and lower bounds on metric and utilitarian distortion."
+ },
+ "C2.1": {
+  "value": "preference profile; preference ranking; top-t preference profile",
+  "loc": "Sec. 2, p.4",
+  "quote": "Collectively, they form a preference profile ~\u03c3 = (\u03c31 , \u03c32 , . . . , \u03c3n )"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK",
+   "OTH"
+  ],
+  "loc": "Sec. 2, p.4; Sec. 5, p.13",
+  "quote": "we only have each agent\u2019s ranking for their top-t preferences",
+  "note": "OTH: top-t prefixes of rankings (partial rankings)."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec. 2, p.5",
+  "quote": "We assume that the preference profile stems from underlying cardinal preferences",
+  "note": "Cardinal utilities and metric costs are held attitudes; the ranking is also described as held."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Sec. 2, p.4",
+  "quote": "Each agent i \u2208 N has a preference ranking \u03c3i \u2208 L(A)",
+  "note": "The rule is applied directly to the held ranking. Cardinal utilities are separate objects, but no statement relates submitted rankings to held rankings beyond 'ask each agent to report' in the introduction. DIST was considered."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Secs. 2-5",
+  "quote": "none found",
+  "note": "No strategic voting is analysed."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Introduction, Sec. 2 Preliminaries, Sec. 6 Discussion",
+  "quote": "none found",
+  "note": "No statement that agents report their true rankings."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Sec. 2.2, p.5",
+  "quote": "if for each i \u2208 N and X, Y \u2208 A, we have",
+  "note": "Consistency of rankings with utilities and with metrics is formally defined."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sec. 2.2, p.6",
+  "quote": "The utilitarian distortion of distribution over alternatives p \u2208 \u2206(A)",
+  "note": "Results concern distortion and social welfare."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Sec. 2.2, p.6",
+  "quote": "worst-case distortion of f (~\u03c3 ) on any utility profile",
+  "note": "Evaluation is against cardinal utilities or metric costs, defined separately from the input."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sec. 2, p.5",
+   "quote_behav": "takes as input a preference profile ~\u03c3 and outputs",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Rankings are treated as exogenous inputs."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N",
+   "note": "Authors design rules, but no designer agent is modelled."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only one type is present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is strategic."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.2",
+    "quote": "Such rules would be perfect for deployment within an automated decision-making tool"
+   },
+   {
+    "loc": "Sec. 1.1, p.2",
+    "quote": "approximately optimal welfare will be achieved with respect to all possible"
+   },
+   {
+    "loc": "Introduction, p.2",
+    "quote": "providing an obvious choice for someone looking to minimize distortion"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Introduction, Sec. 2",
+  "quote": "none found",
+  "note": "The claims about real deployment and achieved welfare need submitted rankings to equal held rankings; this is not stated. The utility-ranking link is stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction, Sec. 2, Sec. 6",
+  "quote": "none found",
+  "note": ""
+ }
+}

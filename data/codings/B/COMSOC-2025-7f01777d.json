@@ -1,0 +1,176 @@
+{
+ "paper_id": "COMSOC-2025-7f01777d",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "we introduce mixed voting rules for PB",
+  "note": "PB voting rules aggregating approval ballots into collective decisions."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SI",
+   "EM"
+  ],
+  "primary": "AX",
+  "loc": "Sections 5 and 6, pp.8-12",
+  "quote": "examine how well the resulting rules approximate well-known proportionality axioms such as EJR+",
+  "note": "Main results are proportionality guarantees (Theorems 1-3) plus an empirical analysis on Pabulib data. The empirical part uses real-world data."
+ },
+ "C2.1": {
+  "value": "approval profile; approval preferences",
+  "loc": "Section 2, p.3",
+  "quote": "an approval profile A = (A1 , . . . , An )"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Section 2, p.3",
+  "quote": "We assume approval preferences and let Ai \u2286 P denote",
+  "note": "Approval sets; cost-satisfaction utilities are derived from them."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.3",
+  "quote": "voter i\u2019s satisfaction (or utility) from project p",
+  "note": "Voters are said to have satisfaction functions, and the paper refers to voter preferences."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2, p.3",
+  "quote": "We assume approval preferences and let Ai \u2286 P denote",
+  "note": "Approval sets are described as preferences and the rule is applied directly to them. There is no statement about submission or sincerity."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 3-6",
+  "quote": "none found",
+  "note": "No analysis considers misreporting."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 2, 3, 7",
+  "quote": "none found",
+  "note": "No statement that voters submit their held attitude."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 2, p.3",
+  "quote": "\u00b5i (p) = c(p) if p \u2208 Ai",
+  "note": "Cost satisfaction function: utility equals project cost if approved, 0 otherwise."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 6, p.10",
+  "quote": "we use the utilitarian ratio [19]",
+  "note": "Utilitarian welfare and proportionality (EJR+) are evaluated in the theory and experiments."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Sections 2 and 6",
+  "quote": "voter i\u2019s satisfaction (or utility) from project p",
+  "note": "Satisfaction is defined directly from the approval sets. There is no statement relating approvals to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters supply approvals but take no modelled action. Their behaviour is not modelled."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Projects are alternatives only."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "The designer composes the rules outside the model; no agent acts."
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N",
+   "note": "The designer's choice or objective is not modelled explicitly."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "C6",
+  "quote": "",
+  "note": "Fewer than two types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "C6",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 7, p.12",
+    "quote": "This parallel has the potential to improve the explainability of mixed PB voting rules"
+   },
+   {
+    "loc": "Section 6, p.12",
+    "quote": "the Value-Based method might be preferable, as it gives strong theoretical guarantees"
+   },
+   {
+    "loc": "Section 1, p.1",
+    "quote": "it is often desirable to achieve good outcomes on multiple objectives"
+   }
+  ],
+  "note": "Claims about which rule to prefer and about real-world explainability."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sections 2 and 6",
+  "quote": "none found",
+  "note": "The preference-for-rule claim about proportional representation of voters needs a statement that approvals equal held preferences. This is not stated. No strategic-behaviour assumption is stated either."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1-7",
+  "quote": "none found",
+  "note": "No statement of a purely procedural reading."
+ }
+}

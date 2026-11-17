@@ -1,0 +1,174 @@
+{
+ "paper_id": "AAAI-2025-b174e3f4",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p. 13915",
+  "quote": "neural networks of various sizes can learn to profitably manipulate a given voting method",
+  "note": "Strategic manipulation of voting rules by a single voter; computational/learning approach."
+ },
+ "C1": {
+  "types": [
+   "SB",
+   "SI"
+  ],
+  "primary": "SI",
+  "loc": "Training Setup / Results, pp. 13919-13922",
+  "quote": "we trained one or more \u201cgenerations\u201d of MLPs with that model size",
+  "note": "Experiments on synthetic utility profiles (uniform, spatial, Mallows) measuring manipulability; also SB as topic. Simulation is the method for most results."
+ },
+ "C2.1": {
+  "value": "preference profile; rankings (submitted rankings)",
+  "loc": "Preliminaries, p. 13916",
+  "quote": "a preference profile for (V, X) is a function P assigning"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Preliminaries, p. 13916",
+  "quote": "assigning to each i \u2208 V a linear order Pi of X",
+  "note": "Linear orders; utilities used only as held attitudes."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Preliminaries, p. 13916",
+  "quote": "A utility profile for (V, X) is a function U",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Preliminaries, p. 13916; Introduction p. 13915",
+  "quote": "a voter has an incentive to report an insincere preference",
+  "note": "Utility profile U separate from submitted order P'i; manipulation defined as submitting an order differing from sincere."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "Training Setup / Results, p. 13919",
+  "quote": "we focus on the case of a single manipulating voter",
+  "note": "Manipulator submits insincere rankings; other voters sincere (profiles induced from utilities)."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Preliminaries; Implementation Details; Conclusion",
+  "quote": "none found",
+  "note": "Other voters' sincerity is implied by P(U) induced from utilities, but no verbal statement found; limited info about 'how other voters will vote'."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED"
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Preliminaries, eq. (1), p. 13916",
+  "quote": "x \u227bi y iff Ui (x) > Ui (y).",
+  "note": "Input rank order induced by utilities."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "",
+  "note": "Dichotomous preferences not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Evaluation, p. 13918",
+  "quote": "we use the difference between the left and right-hand sides",
+  "note": "Profitability measured as expected utility gain of the manipulator, a voter utility criterion."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Evaluation, p. 13918",
+  "quote": "normalized by the greatest possible utility difference according to Ui",
+  "note": "Evaluated on held utilities separate from submitted ranking."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Introduction, p. 13915",
+   "quote_behav": "we focus on the case of a single manipulating voter",
+   "loc_info": "Introduction, p. 13915",
+   "quote_info": "we train neural networks to manipulate on the basis of different types of limited information",
+   "note": "Manipulator strategic with limited info (and ideal manipulator with full info baseline); other voters' behaviour fixed by probability models (not stated as sincere in words)."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "Y",
+  "loc": "Introduction, p. 13915",
+  "quote": "we focus on the case of a single manipulating voter",
+  "note": "Manipulating voter STRAT vs other voters sampled from probability models (NONSTRAT), same type VOT; coded as differing behaviour within voters."
+ },
+ "C7.2": {
+  "code": "REASON",
+  "loc": "Introduction, p. 13915",
+  "quote": "A single voter can almost never affect the outcome of a large election",
+  "note": "Reason for focusing on single manipulator; conclusion lists all-strategize as future work."
+ },
+ "C8.1": {
+  "codes": [
+   "DEV"
+  ],
+  "loc": "Preliminaries, p. 13916",
+  "quote": "a profitable manipulation of F at U by i",
+  "note": "Optimal manipulation by single voter given information; no equilibrium."
+ },
+ "C8.2": {
+  "code": "N",
+  "loc": "Preliminaries, p. 13916",
+  "quote": "our manipulating agent aims to maximize expected utility"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p. 13915",
+    "quote": "Such resistance to manipulation has been considered an important criterion for comparing voting rules"
+   },
+   {
+    "loc": "Abstract, p. 13915",
+    "quote": "the overall least manipulable of the 8 methods we study are Condorcet methods"
+   },
+   {
+    "loc": "Introduction, p. 13915",
+    "quote": "rational manipulation by a single voter is most relevant for small elections"
+   }
+  ],
+  "note": "Claims about which methods are resistant to manipulation and relevance to committees."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Results, p. 13919",
+  "quote": "All claims are implicitly qualified to apply to elections with 3\u20136 candidates",
+  "note": "Claims about method resistance rely on probability models of utilities/other voters' behaviour (other voters assumed to vote sincerely, not stated in words); generalisation beyond models is conjectured."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": ""
+ }
+}

@@ -1,0 +1,178 @@
+{
+ "paper_id": "COMSOC-2023-3315757c",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Section 1",
+  "quote": "Several voting procedures, as well as other collective decision-making mechanisms",
+  "note": "Collective decision mechanisms (RR, MNW, leximin) for sequences of decisions; framed as public decision-making / perpetual voting, with Borda-based ordinal inputs."
+ },
+ "C1": {
+  "types": [
+   "AX"
+  ],
+  "primary": "AX",
+  "loc": "Abstract; Sections 6-8",
+  "quote": "We thus introduce a new fairness property that captures this requirement",
+  "note": "Main results are which mechanisms satisfy which fairness properties, plus impossibility results. Computational intractability is only remarked on briefly."
+ },
+ "C2.1": {
+  "value": "valuations (agents' valuations; ordinal preference orders translated by Borda)",
+  "loc": "Section 3",
+  "quote": "every agent i reports her valuation"
+ },
+ "C2.2": {
+  "codes": [
+   "CARD",
+   "RANK"
+  ],
+  "loc": "Section 3",
+  "quote": "we translate the ordinal preference orders to cardinal preferences",
+  "note": "General model uses cardinal valuations. Borda valuations come from reported strict rankings."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 1",
+  "quote": "each agent evaluates the candidates in each round",
+  "note": "Refers to agents' preferences, utilities and evaluations."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 3",
+  "quote": "We assume that the agents have additive utility functions.",
+  "note": "Valuations are described as reported but also used as the agents' utilities. The mechanisms are applied directly, with no statement relating reports to held attitudes."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 3-8",
+  "quote": "none found",
+  "note": "No analysis considers misreporting."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 3, 9",
+  "quote": "none found",
+  "note": "No statement that voters submit their held attitude."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 3",
+  "quote": "we translate the ordinal preference orders to cardinal preferences",
+  "note": "Rankings are mapped to Borda valuations, which are used as utilities."
+ },
+ "C4.2": {
+  "code": "Y",
+  "loc": "Appendix D, Definition D.3",
+  "quote": "they assign either 1 or 0 to each candidate",
+  "note": "Dichotomous valuations are defined as values 1 or 0. This appears only in the appendix, on a side axiom."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 4",
+  "quote": "each one of the agents will get at least a 1/n fraction",
+  "note": "Proportionality, Pareto optimality and leximin are evaluated in the results."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 4",
+  "quote": "ui (o) \u2265 \u03b1 \u00b7 P ropi",
+  "note": "Evaluated on the reported valuations. No statement relates them to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 3",
+   "quote_behav": "every agent i reports her valuation",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Agents' valuations are exogenous inputs. In offline RR the agent's choice is a rule of the mechanism."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates are only alternatives."
+  },
+  "ORG": {
+   "present": "N",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Fewer than two types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no STRAT or MIXED type."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract",
+    "quote": "a decision-making mechanism must consider fairness notions"
+   },
+   {
+    "loc": "Abstract",
+    "quote": "the leximin mechanism guarantees the best possible additive approximation to proportionality"
+   },
+   {
+    "loc": "Section 9",
+    "quote": "has a significant advantage over the other known mechanisms"
+   }
+  ],
+  "note": "Claims about fairness to agents and which mechanism is preferable."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sections 3, 9",
+  "quote": "none found",
+  "note": "Fairness claims for agents need reported valuations to equal true valuations, and this is not stated. Mapping from ordinal to cardinal is stated via Borda."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 3, 9",
+  "quote": "none found",
+  "note": ""
+ }
+}

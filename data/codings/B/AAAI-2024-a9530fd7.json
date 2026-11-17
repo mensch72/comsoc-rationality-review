@@ -1,0 +1,173 @@
+{
+ "paper_id": "AAAI-2024-a9530fd7",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Sec 1, p.9815",
+  "quote": "selecting a committee of representatives for a large population",
+  "note": "Committee selection rule (Expanding Approvals) from ranked ballots; metric distortion and proportional representation. Eligible, though also framed for clustering."
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "WD",
+   "AX"
+  ],
+  "primary": "WD",
+  "loc": "Sec 4, p.9818-9819",
+  "quote": "selects an (\u03b1, \u03b3)-proportionally representative committee R of size k",
+  "note": "Main results are approximation guarantees (representativeness, distortion) for a polynomial algorithm, plus lower bounds. Primary WD (approximation of proportional representation/distortion). AX is weak: core/fairness property satisfaction. Doubt between AL and WD resolved by listing order only if equal; here WD judged larger share."
+ },
+ "C2.1": {
+  "value": "ranked-choice profile; rankings",
+  "loc": "Sec 3, p.9818",
+  "quote": "refer to it as the rankedchoice profile"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK",
+   "OTH"
+  ],
+  "loc": "Sec 3, p.9818",
+  "quote": "Voters rank candidates by non-decreasing distances",
+  "note": "Rankings induced by metric distances; also cardinal metric model discussed for known distances (not main)."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec 2-3, p.9816-9818",
+  "quote": "Voters rank candidates by non-decreasing distances, so c \u227bv c' implies",
+  "note": "Distances/metric positions are held attitudes of voters."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Sec 3, p.9818",
+  "quote": "the voters are assumed to rank the candidates by non-decreasing distance",
+  "note": "Rankings are assumed to be consistent with distances and rule applied directly; no statement about submission/reporting or strategic misreport."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sec 3-4, p.9818-9819",
+  "quote": "none found",
+  "note": "No analysis of strategic voters."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sec 2, 3, 6",
+  "quote": "none found",
+  "note": "Rankings assumed consistent with distances, but no statement about voters submitting held attitude/sincerity."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "Sec 3",
+  "quote": "none found",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Sec 3, p.9818",
+  "quote": "We say that a pseudo-metric d is consistent with the rankedchoice profile",
+  "note": "Metric model defines costs/distances consistent with rankings; distortion and costs used for voters."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "Term dichotomous preferences not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sec 2, p.9816",
+  "quote": "all sufficiently large coalitions of voters are well represented",
+  "note": "Proportional representation, core fairness, and metric distortion are evaluation criteria."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Sec 3, p.9818",
+  "quote": "worst-case loss in the objective function due to the lack of information",
+  "note": "Evaluated on distances in a metric consistent with rankings; defined separately from ranking input (distortion)."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters are inputs; no action modelled as agent choice beyond fixed rankings."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates only alternatives."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "Rule is analysed; no organiser choice modelled."
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N",
+   "note": "Designer objective not modelled as agent."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "C6",
+  "quote": "none found",
+  "note": "No types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "C6",
+  "quote": "none found",
+  "note": "C7.1 not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "NA: no strategic agents."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Sec 6, p.9821",
+    "quote": "potentially useful rule to be used in practice"
+   },
+   {
+    "loc": "Sec 1, p.9815",
+    "quote": "large like-minded groups of the population should be suitably represented"
+   }
+  ],
+  "note": "Practical-use claim about which rule to use and voters' representation."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sec 6, p.9821",
+  "quote": "adds to the evidence for EXPANDING APPROVALS RULE being a",
+  "note": "Claim that the rule is useful in practice needs assumption that submitted rankings reflect true distances/preferences (sincere voting), which is not stated; also that voters are non-strategic."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No procedural-reading statement."
+ }
+}

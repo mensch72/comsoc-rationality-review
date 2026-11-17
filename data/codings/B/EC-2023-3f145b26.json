@@ -1,0 +1,224 @@
+{
+ "paper_id": "EC-2023-3f145b26",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Sec. 3",
+  "quote": "The expert votes for her favorite candidate.",
+  "note": "Studies a voting rule and committee design that aggregate experts' votes into a single choice."
+ },
+ "C1": {
+  "types": [
+   "WD"
+  ],
+  "primary": "WD",
+  "loc": "Abstract; Sec. 4-5",
+  "quote": "selects a candidate whose quality is at most \ud835\udf00 worse than the best one",
+  "note": "Main results are upper and lower bounds on committee size for a regret guarantee. A running-time corollary exists (Cor. 4.10) but is not a main result, so AL is not coded."
+ },
+ "C2.1": {
+  "value": "reported rankings",
+  "loc": "Sec. 3.1",
+  "quote": "set of reported rankings"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK",
+   "APPR"
+  ],
+  "loc": "Sec. 3.1-3.2",
+  "quote": "each expert returns a ranking of her top \ud835\udc58 candidates",
+  "note": "Main model is top-k strict rankings, with k=1 being a single vote for the favourite. k-approval ballots appear only in Sec. 3.2, as a setting where no committee guarantees low regret."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec. 1; Sec. 3.1",
+  "quote": "An expert evaluates each candidate as the candidate\u2019s quality less the distance",
+  "note": "Experts hold perceived qualities, i.e. evaluations of candidates."
+ },
+ "C2.4": {
+  "code": "IDS",
+  "loc": "Sec. 1",
+  "quote": "each expert will vote for who she believes is the best candidate",
+  "note": "The vote is the top of the expert's own evaluation, stated without a justification. The ranking is defined directly by the arg max of perceived quality."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sec. 3",
+  "quote": "expert \ud835\udc56 votes for candidate \ud835\udc57 if and only if \ud835\udc57 maximizes the perceived quality",
+  "note": "No analysis considers misreporting."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Sec. 1",
+  "quote": "each expert will vote for who she believes is the best candidate",
+  "note": "Sincere voting is stated in words in the introduction and built into the model."
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Sec. 1; Sec. 3.1",
+  "quote": "none found",
+  "note": "No reason is given for sincere voting."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Sec. 3.1",
+  "quote": "\ud835\udc57 maximizes the perceived quality \ud835\udc5e \ud835\udc57 \u2212\ud835\udc51 (\ud835\udc52\ud835\udc56 , \ud835\udc50 \ud835\udc57 )",
+  "note": "Rankings are defined as induced by perceived quality, i.e. quality minus distance. Applicability is arguable because the paper uses 'utilitarian view', 'utility' and 'perceived quality' for voters."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sec. 3.3; Thm 4.1",
+  "quote": "the regret of choosing candidate \ud835\udc57 \u2217 under quality vector \ud835\udc5e is defined as",
+  "note": "Regret against the best true quality is an additive analogue of distortion. Coded Y with some doubt, since quality is a candidate property rather than voter welfare."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Sec. 3.3",
+  "quote": "max \ud835\udc57 \ud835\udc5e \ud835\udc57 \u2212 \ud835\udc5e \ud835\udc57 \u2217",
+  "note": "Regret is evaluated on true qualities, which are separate from the submitted rankings."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sec. 1",
+   "quote_behav": "each expert will vote for who she believes is the best candidate",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Experts vote according to their biased evaluation."
+  },
+  "CAN": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Candidates only have a location and a quality and take no action."
+  },
+  "ORG": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "The planner's choices are coded under DES instead."
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DES": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Sec. 1",
+   "quote_behav": "We study how to select a committee of experts and aggregate",
+   "loc_info": "Sec. 1",
+   "quote_info": "the planner cannot observe candidates\u2019 qualities",
+   "note": "The planner chooses the committee and voting rule to guarantee regret at most \u03b5. It sees the votes and the locations but not the qualities."
+  },
+  "OTH": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "Y",
+  "loc": "Sec. 1; Sec. 3",
+  "quote": "each expert will vote for who she believes is the best candidate",
+  "note": "DES is STRAT and VOT is NONSTRAT."
+ },
+ "C7.2": {
+  "code": "NONE",
+  "loc": "Sec. 1; Sec. 3",
+  "quote": "none found",
+  "note": "No reason is given for modelling the two types differently."
+ },
+ "C8.1": {
+  "codes": [
+   "DEV"
+  ],
+  "loc": "Sec. 1; Sec. 3.3",
+  "quote": "design a voting rule that minimizes regret over all quality vectors",
+  "note": "Committee and rule design is an optimisation problem for the planner; there is no equilibrium concept."
+ },
+ "C8.2": {
+  "code": "N",
+  "loc": "Sec. 1; Sec. 3",
+  "quote": "universal committee problem"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Sec. 1",
+    "quote": "the dean could choose a committee that is diverse in the sub-fields"
+   },
+   {
+    "loc": "Sec. 1.1",
+    "quote": "we believe that our committees remain potentially feasible for small \ud835\udc51"
+   }
+  ],
+  "note": "Claims about real hiring committees and the feasibility of the constructed committees."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sec. 1; Sec. 3.1",
+  "quote": "An expert evaluates each candidate as the candidate\u2019s quality less the distance",
+  "note": "The claims depend on the bias model and on sincere voting, and both are stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No procedural reading is stated."
+ }
+}

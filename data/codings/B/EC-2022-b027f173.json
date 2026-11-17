@@ -1,0 +1,182 @@
+{
+ "paper_id": "EC-2022-b027f173",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "study equilibrium behavior under alternative majority rules",
+  "note": "Repeated majority voting in committees; equilibrium analysis of voting rule."
+ },
+ "C1": {
+  "types": [
+   "EQ",
+   "WD",
+   "SB"
+  ],
+  "primary": "EQ",
+  "loc": "Sections 5-6, Theorem 1-2",
+  "quote": "characterizes the set of equilibrium payoffs and the optimal consensus probability",
+  "note": "Equilibrium payoffs characterisation dominates; welfare comparison of majority rules (WD); SB included because of strategic non-sincere voting incentives (judgement call)."
+ },
+ "C2.1": {
+  "value": "vote / votes (voting strategy vi(u) in {0,1})",
+  "loc": "Section 4.1, p.9",
+  "quote": "each agent i votes either in favor or against the reform"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 4.1, p.9",
+  "quote": "A voting strategy vi for player i associates to any reform u a vote vi (u) \u2208 {0, 1}",
+  "note": "Binary vote in favour/against a reform; not rankings/approval sets of candidates."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 4.1, p.8",
+  "quote": "the reform yields utility ui \u2208 R to agent i \u2208 N",
+  "note": "Cardinal utilities are held attitudes."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 4.1, p.9; Section 1",
+  "quote": "agents sometimes voting against their immediate preference",
+  "note": "Votes and utilities are separate objects, and votes may differ from preferences."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "Section 4.1 vs Section 4.2",
+  "quote": "every agent votes sincerely, i.e. vi (u) = 1{ui \u2265 0}",
+  "note": "Stage game analysis is sincere (weakly undominated equilibrium); repeated game involves non-sincere voting as equilibrium."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Section 2, p.5; Section 4.1, p.9",
+  "quote": "voting sincerely is a weakly dominant strategy",
+  "note": "Static benchmark sincerity stated in words."
+ },
+ "C3.3": {
+  "code": "SP",
+  "loc": "Section 1, p.2",
+  "quote": "sincere voting is a dominant strategy and the collective decision coincides",
+  "note": "Reason: dominance in the static binary decision."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Section 4.1",
+  "quote": "",
+  "note": "Input is binary vote; cardinal utilities are primitives; no RANK/WEAK/APPR/DICH/PAIR format."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "",
+  "note": "Term dichotomous preferences not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 4.1, p.9; Section 5.2",
+  "quote": "the efficient rule de (.) accepts every good reform and rejects every bad reform",
+  "note": "Efficiency and utilitarian welfare U(d) used in results."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 4.1, p.9",
+  "quote": "U (d) = \u222b ui d(u) dF (u)",
+  "note": "Welfare evaluated on cardinal utilities defined separately from votes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 4.1/4.2, p.9-10",
+   "quote_behav": "every agent votes sincerely, i.e. vi (u) = 1{ui \u2265 0}",
+   "loc_info": "Section 4.2, p.10",
+   "quote_info": "The reform u is publicly observed, then agents simultaneously vote",
+   "note": "Sincere in stage game, strategic in repeated game equilibrium (subgame perfect). Complete info on current-stage utilities."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Reforms are alternatives drawn exogenously; no acting proponents."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "No organiser acts."
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "note": "Optimal voting rule is evaluated by the authors, but no designer agent with explicit choice is modelled."
+  },
+  "OTH": {
+   "present": "N",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Section 4",
+  "quote": "",
+  "note": "Only one type present (voters)."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "SPE",
+   "NE"
+  ],
+  "loc": "Section 4.2, p.10-11",
+  "quote": "We focus on subgame perfect equilibria that satisfy the following three assumptions.",
+  "note": "Stage game Nash in undominated strategies; repeated game SPE."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 4.2, p.10",
+  "quote": "We focus on subgame perfect equilibria that satisfy the following three assumptions."
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.1",
+    "quote": "The model provides a rationale for the use of super-majority rules"
+   },
+   {
+    "loc": "Section 1, p.3",
+    "quote": "the inefficiency of (super-) majority rules may be exaggerated by standard voting models"
+   },
+   {
+    "loc": "Section 1, p.4",
+    "quote": "provides a possible explanation for the widespread observation that committee decisions"
+   }
+  ],
+  "note": "Claims about real committees and rule choice."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 8.1, p.26",
+  "quote": "Our model assumes complete information in the stage-game",
+  "note": "Needed assumptions (cardinal utilities, complete info, equilibrium selection/anonymous histories, independence) are stated and discussed in Sections 4 and 8."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No procedural-only reading; utilities explicitly modelled."
+ }
+}

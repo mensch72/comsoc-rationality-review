@@ -1,0 +1,184 @@
+{
+ "paper_id": "SCW-2024-5c1f2968",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "adjudicated",
+  "quote": "",
+  "note": "Decided as ELIG by adjudication; the paper is a probabilistic voting model of incumbent policy choice."
+ },
+ "C1": {
+  "types": [
+   "EQ",
+   "WD"
+  ],
+  "primary": "EQ",
+  "loc": "Sect. 3, Propositions 1-5",
+  "quote": "Its equilibrium is characterized in Sect. 3.",
+  "note": "Incumbent's optimal policy choice (comparative statics) is the main result; welfare appears as good vs bad policy quality."
+ },
+ "C2.1": {
+  "value": "none found (voting is probabilistic; no named input to a voting rule)",
+  "loc": "Sect. 2.1",
+  "quote": "Voting behaviour is probabilistic."
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Sect. 2.1",
+  "quote": "Voting behaviour is probabilistic.",
+  "note": "Voters choose between two parties with a vote probability depending on estimated utilities and valence; no ballot format specified."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sect. 2.1, Eq. 1-2",
+  "quote": "the voter can but estimate the effect a policy platform would have",
+  "note": "Voters have utilities and estimated utilities."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Sect. 2.1",
+  "quote": "depends on the difference in the estimated utilities of the running platforms",
+  "note": "Vote probability is a function of estimated utility and valence; no statement about submission versus held attitude."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sect. 2-4",
+  "quote": "Voting behaviour is probabilistic.",
+  "note": "Voters do not strategically misreport; the strategic agent is the incumbent."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sect. 2.1, 5",
+  "quote": "none found",
+  "note": "No statement that voters submit their held attitude."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Input format is not RANK, WEAK, APPR, DICH or PAIR."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sect. 3, Prop. 1",
+  "quote": "the purely good policy is chosen",
+  "note": "Results evaluate policies as socially better or worse, based on voters' real utilities (Eq. 9)."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Sect. 2.2, Eq. 9",
+  "quote": "the good policy is, indeed, better overall",
+  "note": "Evaluated on real utilities Uit, defined separately from estimated utilities that drive votes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sect. 2.1",
+   "quote_behav": "Voting behaviour is probabilistic.",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters follow a fixed probabilistic voting function with biased beliefs and retrospective valence."
+  },
+  "CAN": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Sect. 2.2",
+   "quote_behav": "chooses and implements a policy-platform for term t",
+   "loc_info": "Sect. 2.2",
+   "quote_info": "The incumbent is perfectly informed and chooses the policy platform",
+   "note": "Incumbent maximises a payoff mixing office and policy motives. The opposition platform is fixed to bad."
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N",
+   "note": "Contracts in Sect. 4.3 are exogenous; the designer's choice or objective is not modelled."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "Y",
+  "loc": "Sect. 2-3",
+  "quote": "The incumbent is perfectly informed and chooses the policy platform",
+  "note": "CAN (incumbent) is STRAT; VOT is NONSTRAT."
+ },
+ "C7.2": {
+  "code": "NONE",
+  "loc": "Sect. 2",
+  "quote": "none found",
+  "note": "No reason is given for modelling voters as non-strategic; the voting model is inherited from Bischoff and Siemers (2013)."
+ },
+ "C8.1": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Sect. 3",
+  "quote": "To deduce the political equilibrium, for simplicity and without loss of generality",
+  "note": "Incumbent's optimal choice is by first-order condition (single-agent optimisation, with the opposition's platform fixed as bad). It is not a standard game solution concept."
+ },
+ "C8.2": {
+  "code": "N",
+  "loc": "Sect. 3",
+  "quote": "To deduce the political equilibrium, for simplicity and without loss of generality"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Sect. 5",
+    "quote": "there might be an advantage to keeping government in office"
+   },
+   {
+    "loc": "Sect. 5",
+    "quote": "implementing incentive and threshold contracts emerges as a potentially valuable tool"
+   },
+   {
+    "loc": "Abstract",
+    "quote": "it may nevertheless be optimal for an incumbent to select good long-term policies"
+   }
+  ],
+  "note": "Claims on institutional design and welfare."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sect. 5",
+  "quote": "implementing incentive and threshold contracts emerges as a potentially valuable tool",
+  "note": "Needs the assumption that voters' real utility is the social welfare standard and that the incumbent is fully informed; the first is stated through Eq. 9, but the voters' non-strategic behaviour is not justified. The Sect. 5 federalism claims go beyond the model and rest on unmodelled assumptions."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No procedural reading is stated."
+ }
+}

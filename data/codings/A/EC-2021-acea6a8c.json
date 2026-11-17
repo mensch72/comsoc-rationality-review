@@ -1,0 +1,173 @@
+{
+ "paper_id": "EC-2021-acea6a8c",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "We study computational aspects of a well-known single-winner voting rule",
+  "note": "Computational complexity of winner determination for the Schulze voting method."
+ },
+ "C1": {
+  "types": [
+   "AL"
+  ],
+  "primary": "AL",
+  "loc": "Section 1.1, p.3",
+  "quote": "one can compute the set of all winners of the Schulze method",
+  "note": "All main results are algorithms and fine-grained conditional lower bounds."
+ },
+ "C2.1": {
+  "value": "preference profile (multiset of votes); (weak) ordinal preference ballots; weighted majority graph",
+  "loc": "Section 2, p.6",
+  "quote": "A preference profile P (or a multiset of votes) is a list"
+ },
+ "C2.2": {
+  "codes": [
+   "WEAK",
+   "RANK",
+   "PAIR"
+  ],
+  "loc": "Section 2, p.6; Section 6, p.13",
+  "quote": "is a list (a )a\u2208N of weak orders over a set of alternatives",
+  "note": "Weak orders in general; linear orders in the lower-bound constructions; several results take the weighted majority graph as input."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.6",
+  "quote": "means that a voter a \u2208 N strictly (weakly respectively) prefers",
+  "note": "Preferences are attributed to voters but are identified with the input, with no separate notation."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2, p.6",
+  "quote": "A preference profile P (or a multiset of votes) is a list",
+  "note": "The rule is applied directly to preferences, with no statement about submission or reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-6",
+  "quote": "none found",
+  "note": "Manipulation is discussed only in the related-work section (Section 1.2)."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Checked: Introduction, Section 2 Preliminaries, Section 7 Conclusions",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No utility, welfare or similar notion is used for voters."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 3-6",
+  "quote": "none found",
+  "note": "Axiomatic properties appear only in the introduction; the results concern running times."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2, p.6",
+   "quote_behav": "A preference profile P (or a multiset of votes) is a list",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Votes are fixed weak orders that are given as input."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.1",
+    "quote": "we can identify voting protocols that are unlikely to be practical"
+   },
+   {
+    "loc": "Section 1.1, p.5",
+    "quote": "hence are likely impractical for large numbers of candidates and/or voters"
+   },
+   {
+    "loc": "Section 1.1, p.3",
+    "quote": "and is potentially of practical interest."
+   }
+  ],
+  "note": "These are claims about the practicality of the procedure in real use."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 1.1, p.5",
+  "quote": "it is believed that the two problems require r 2.5\u2212o(1) time",
+  "note": "The practicality claims need only complexity hypotheses, which are stated; no behavioural or held-attitude assumptions are needed."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Checked: Introduction, Section 2, Section 7",
+  "quote": "none found",
+  "note": ""
+ }
+}

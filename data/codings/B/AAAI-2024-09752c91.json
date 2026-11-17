@@ -1,0 +1,222 @@
+{
+ "paper_id": "AAAI-2024-09752c91",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Introduction, p.9909",
+  "quote": "IRV has a moderating effect relative to plurality voting",
+  "note": "Compares the winners of two voting rules, IRV and plurality, on a 1-D Euclidean model."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SI"
+  ],
+  "primary": "AX",
+  "loc": "Theorems 1-8; Figures 3-4, pp.9911-9914",
+  "quote": "if there is a candidate in [1/6, 5/6], then the IRV winner is in [1/6, 5/6]",
+  "note": "Main results are theorems on exclusion zones, a property of a rule; simulations only validate them. Probabilistic winner-distribution results are also theorems. No welfare or distortion criterion is used."
+ },
+ "C2.1": {
+  "value": "rankings (voters submit a ranking over the candidates)",
+  "loc": "Uniform voters section, p.9911",
+  "quote": "voters submit a ranking over the candidates"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Introduction, p.9909",
+  "quote": "IRV elections ask voters to rank candidates in order of preference",
+  "note": "Full strict rankings; truncated ballots are mentioned only as future work."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Introduction, p.9910",
+  "quote": "voters form preferences over candidates by ranking them in order of proximity",
+  "note": "Voters have ideological positions on [0,1] and 1-Euclidean preferences."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Uniform voters section, p.9911",
+  "quote": "Voters prefer candidates closer to them (i.e., they have 1-Euclidean preferences)",
+  "note": "Rankings are derived directly from positions and the rule is applied to them. The paper never states that submitted rankings equal held preferences."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Discussion, p.9915",
+  "quote": "we did not consider strategic analyses",
+  "note": "No analysis has voters misreport. Candidate strategy is also excluded."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Introduction; Uniform voters; Discussion",
+  "quote": "none found",
+  "note": "Sincere voting is never stated in words. Voters simply vote for or rank by proximity."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "",
+  "note": "No voter utility, welfare or satisfaction notions are used."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Theorems 1-8",
+  "quote": "none found",
+  "note": "The criterion is moderation of the winner's position, which is not among the listed criteria. Metric distortion and representation are mentioned only as other literature."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Uniform voters section, p.9911",
+   "quote_behav": "the fraction of voters who vote for candidate xi is the probability mass",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters vote for or rank by proximity; their behaviour is fixed by the model."
+  },
+  "CAN": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "Introduction, p.9910",
+   "quote_behav": "we do not analyze strategic choices by candidates",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Candidates are random or fixed positions serving only as alternatives."
+  },
+  "ORG": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only one type (voters) is present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.9909",
+    "quote": "we prove that IRV has a moderating effect relative to plurality voting"
+   },
+   {
+    "loc": "Introduction, p.9910",
+    "quote": "IRV will push out more extreme candidates"
+   }
+  ],
+  "note": "Claims bear on the real-world debate over adopting IRV versus plurality, but no explicit recommendation of a rule is made."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Introduction, p.9910",
+  "quote": "voters favor candidates who are closer to them on the line",
+  "note": "The real-world moderation claim needs voters to submit their held proximity rankings (sincerity), which is not stated. The 1-D preference structure and non-strategic candidates are stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Model sections; Discussion",
+  "quote": "none found",
+  "note": "No procedural reading is stated."
+ }
+}

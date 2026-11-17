@@ -1,0 +1,176 @@
+{
+ "paper_id": "AAAI-2021-434fe260",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Preliminaries, p. 5823",
+  "quote": "We call a liquid democracy election (LDE) the tuple",
+  "note": "Liquid democracy: binary voting with delegations aggregated by a quota rule; the paper studies power and strategic delegation."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "EQ",
+   "SI"
+  ],
+  "primary": "AX",
+  "loc": "Introduction, p. 5822",
+  "quote": "We characterize this index axiomatically (Theorem 1)",
+  "note": "AX covers Theorem 1 and Facts 1-3. EQ covers Theorems 2-3. SI covers the experiments on random networks."
+ },
+ "C2.1": {
+  "value": "delegation profile; votes (accept or reject an issue); liquid democracy election (LDE)",
+  "loc": "Preliminaries, p. 5823",
+  "quote": "d = (d1 , d2 , . . . , dn ) is called a delegation profile"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Preliminaries, p. 5823",
+  "quote": "has to vote on whether to accept or reject an issue",
+  "note": "Inputs are binary votes on one issue plus a delegation profile (a map from agents to agents or abstention). Agents also have weights."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Delegation Games, p. 5827",
+  "quote": "u is the utility function, defined as follows:",
+  "note": "Agents have accuracies q_i and utilities combining power and accuracy. These are defined separately from their delegation choices."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Definition 8, p. 5827",
+  "quote": "\u03a3i = E(i) \u222a {i} is i\u2019s delegation strategy space",
+  "note": "Delegations are strategies with their own notation, separate from utilities and accuracies."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "A Game-theoretic Model, p. 5826-5827",
+  "quote": "our agents choose their delegations by aiming at maximizing the trade-off",
+  "note": "The power-index axiomatics take delegation profiles as given. The delegation game and the simulations are strategic."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Introduction; Preliminaries; A Power Index for Liquid Democracy; Conclusions",
+  "quote": "none found",
+  "note": "For the power-index analysis, no statement relates the given delegations to agents' attitudes."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C2.2 contains only OTH."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Experiments, p. 5827-5828",
+  "quote": "inequality in the distribution of DB, measured by the Gini coefficient",
+  "note": "Results evaluate the distribution of power (average DB, Gini coefficient) and the ratio of delegators. No listed welfare, efficiency or representation criterion is used."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 is N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "IMPLICIT",
+   "loc_behav": "Delegation Games, p. 5827",
+   "quote_behav": "our agents choose their delegations by aiming at maximizing the trade-off",
+   "loc_info": "Experiments, Setup, p. 5827",
+   "quote_info": "each agent selects her neighbor (including herself) which maximises her utility",
+   "note": "Delegations are fixed inputs in the power-index part and strategic in the game part. Computing utilities requires knowing others' delegations and accuracies, which is never stated in words."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present as acting agents."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "NE",
+   "ITER"
+  ],
+  "loc": "Equilibrium Analysis, p. 5827; Experiments, p. 5827",
+  "quote": "iterated better response dynamics (IBRD)",
+  "note": "Pure-strategy Nash equilibrium is used in Theorems 2-3. Better-response dynamics and one-shot best responses are used in the simulations."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Equilibrium Analysis, p. 5827",
+  "quote": "have a Nash equilibrium (NE) in pure strategies"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p. 5822",
+    "quote": "limiting the level of connectivity of the underlying network has a beneficial effect"
+   },
+   {
+    "loc": "Introduction, p. 5822",
+    "quote": "groups where agents are more power-greedy appear to achieve more equal"
+   },
+   {
+    "loc": "Conclusions, p. 5828",
+    "quote": "play an important role in containing the emergence of large inequalities"
+   }
+  ],
+  "note": "The claims concern institutional design (network connectivity) and fairness of power distribution in liquid democracy."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Experiments, p. 5827",
+  "quote": "each agent selects her neighbor (including herself) which maximises her utility",
+  "note": "The claims depend on agents best-responding with knowledge of others' accuracies and delegations. This information assumption is not stated. The behavioural (utility) assumption is stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction; Preliminaries; Conclusions",
+  "quote": "none found",
+  "note": ""
+ }
+}

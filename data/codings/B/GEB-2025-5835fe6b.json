@@ -1,0 +1,227 @@
+{
+ "paper_id": "GEB-2025-5835fe6b",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Section 2, p.1,8",
+  "quote": "We study electoral competition between two win-motivated candidates",
+  "note": "Candidate-competition model with voters voting sincerely over two candidates (Downsian); borderline, but treated as eligible: strategic analysis of an electoral/voting procedure with voters' votes aggregated by majority."
+ },
+ "C1": {
+  "types": [
+   "EQ"
+  ],
+  "primary": "EQ",
+  "loc": "Section 3, pp.10-28",
+  "quote": "we characterize the unique pure strategy equilibrium of the game",
+  "note": "Equilibrium existence/characterisation and comparative statics."
+ },
+ "C2.1": {
+  "value": "votes (voters vote for the candidate giving highest utility)",
+  "loc": "Section 2, p.9",
+  "quote": "voters vote for the candidate whose election would give them the highest utility"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 2, p.9",
+  "quote": "voters vote for the candidate whose election would give them the highest utility",
+  "note": "Vote for one of two candidates; binary choice, none of the listed formats."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.8",
+  "quote": "Voters have a utility function with three components",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2, p.9 and footnote 6",
+  "quote": "voter i votes for candidate A if ui (A) > ui (B)",
+  "note": "Utilities (held) are separate from votes; footnote 6 says sincere voting is dominant, but the vote is modelled as a function of utility."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Section 2, p.9",
+  "quote": "Since the behavior of the voters is unambiguous in this model",
+  "note": "Voters vote for preferred candidate; only candidates are strategic."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Section 2, footnote 6, p.9",
+  "quote": "such a behavior is dominant even if there is a finite number of voters",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "SP",
+  "loc": "Section 2, footnote 6, p.9",
+  "quote": "such a behavior is dominant even if there is a finite number of voters",
+  "note": "Voting for the preferred option is dominant in a two-candidate election."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Section 2",
+  "quote": "",
+  "note": "Input is a vote between two candidates, not RANK/WEAK/APPR/DICH/PAIR; utilities directly defined."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Section 3",
+  "quote": "none found",
+  "note": "Results concern equilibrium platforms, polarization, expected policy outcome and win probabilities; no welfare or efficiency criteria evaluated."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2, p.9",
+   "quote_behav": "voters vote for the candidate whose election would give them the highest utility",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters take the voting action, fixed by the model."
+  },
+  "CAN": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 2, p.8",
+   "quote_behav": "Each candidate\u2019s objective is to maximize his probability of winning the election.",
+   "loc_info": "Introduction, p.7",
+   "quote_info": "their reference policies are common information",
+   "note": "Candidates choose platforms; they know each other's reference points and valence, but are uncertain about the median voter's ideal point (common prior)."
+  },
+  "ORG": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Parties are discussed only outside the formal model."
+  }
+ },
+ "C7.1": {
+  "code": "Y",
+  "loc": "Section 2, p.9",
+  "quote": "Since the behavior of the voters is unambiguous in this model",
+  "note": "CAN strategic, VOT non-strategic."
+ },
+ "C7.2": {
+  "code": "REASON",
+  "loc": "Section 2, footnote 6, p.9",
+  "quote": "such a behavior is dominant even if there is a finite number of voters",
+  "note": "Sincere voting is dominant for voters."
+ },
+ "C8.1": {
+  "codes": [
+   "NE"
+  ],
+  "loc": "Section 2, p.9",
+  "quote": "The solution concept we consider is Nash equilibrium.",
+  "note": "Also SPE mentioned for a sequential variant in Section 3.4.1, a side remark."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 2, p.9",
+  "quote": "The solution concept we consider is Nash equilibrium."
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract",
+    "quote": "novel insights regarding candidates\u2019 flip-flopping incentives, and parties\u2019 motives to nominate low-quality candidates"
+   },
+   {
+    "loc": "Introduction, p.5",
+    "quote": "forces pushing parties to nominate lower-quality candidates are also present"
+   },
+   {
+    "loc": "Conclusion, p.29",
+    "quote": "parties might not lose on all fronts when nominating a lower quality candidate"
+   }
+  ],
+  "note": "Claims about real institutions/party nomination behaviour."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Conclusion, p.29; Section 3.3, p.19",
+  "quote": "follows from our specific assumptions",
+  "note": "Claims about parties' policy-motivated nomination need an assumption that parties are policy-motivated and care about outcome; the nomination stage is not modelled (paper admits it does not model it). Needed assumptions are partly stated as caveats."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No statement of a procedural reading."
+ }
+}

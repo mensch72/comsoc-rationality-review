@@ -1,0 +1,225 @@
+{
+ "paper_id": "JET-2021-7ee9c91b",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Introduction, p2-3",
+  "quote": "we investigate their information aggregation properties in general information",
+  "note": "Runoff voting as an aggregation procedure, with equilibrium analysis."
+ },
+ "C1": {
+  "types": [
+   "EQ",
+   "WD"
+  ],
+  "primary": "EQ",
+  "loc": "Sections 2-3, Propositions 1-2",
+  "quote": "we show that, indeed, runoff voting can lead to full information equivalence",
+  "note": "Main results are existence of equilibria in which the correct alternative is elected with probability tending to 1. The correct-alternative objective is a performance criterion, hence WD as a secondary type."
+ },
+ "C2.1": {
+  "value": "vote",
+  "loc": "Section 2, p6",
+  "quote": "each voter gives a vote to an alternative of her choosing"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 2, p6",
+  "quote": "each voter gives a vote to an alternative of her choosing",
+  "note": "In each round a voter votes for one remaining alternative or abstains. Not a ranking, approval set or score."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p7",
+  "quote": "independent and enjoy a positive utility if the correct alternative wins and zero otherwise",
+  "note": "Types (private information) and utilities are held attitudes."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2, p10",
+  "quote": "Recall that the voter can condition her strategy on her type",
+  "note": "Types and utilities are separate from the strategies (votes) chosen."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Sections 2-3, p15",
+  "quote": "we consider independent voters to use strategies that are not only rationalizable",
+  "note": "Independent voters play equilibrium strategies and may vote against their signal in every main analysis. Partisans are expressive in Section 2 and rationalizable in Section 3."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C3.1 = ALL"
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C3.2 is not STATED"
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "Input format is OTH only, so the applicability condition is not met."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2, p11",
+  "quote": "i.e. all voters seek to maximize the ex\u2013ante probability that the correct",
+  "note": "Rules are evaluated by the probability that the correct alternative is elected, which the paper calls efficiency (full information equivalence)."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 2, p7",
+  "quote": "independent and enjoy a positive utility if the correct alternative wins and zero otherwise",
+  "note": "Evaluated against the true state and the utility defined separately from votes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "IMPLICIT",
+   "loc_behav": "Introduction, p4",
+   "quote_behav": "voters who do not engage in strategic reasoning",
+   "loc_info": "Section 2, p7",
+   "quote_info": "Each voter's type is selected privately through an independent random draw",
+   "note": "Independent voters are strategic (Bayes-Nash equilibrium) and partisans are expressive in Section 2. Partisans are rationalizable and strategic in Section 3. Info: private signal plus known type distribution, inferred from the model."
+  },
+  "CAN": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Alternatives are only options to be chosen."
+  },
+  "ORG": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Nature moves randomly and is not an acting agent."
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Section 2",
+  "quote": "",
+  "note": "Only the voter type is present under the C6 definition. Independents and partisans are subtypes of voters."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C7.1 is not Y"
+ },
+ "C8.1": {
+  "codes": [
+   "BNE",
+   "OTH"
+  ],
+  "loc": "Introduction p4; Section 3 p15",
+  "quote": "then a (BayesNash) equilibrium with similar properties should also exist",
+  "note": "OTH is rationalizability for partisans, with an equilibrium notion for independents."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 3, p15",
+  "quote": "we require that partisan voters use rationalizable strategies"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p5",
+    "quote": "truthseeking majorities may achieve full information equivalence by the means of simple voting rules"
+   },
+   {
+    "loc": "Introduction, p5",
+    "quote": "combine and strengthen the case for democratic decision making"
+   }
+  ],
+  "note": "Claims about institutions and democratic decision making."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Conclusion, p20",
+  "quote": "neither the runoff rule nor approval voting admits a unique equilibrium",
+  "note": "Needed assumptions are the existence-type reading (equilibrium multiplicity acknowledged), a large society, majority of independent voters, common-value utilities, and the sophistication of partisans. All are stated, with caveats in Section 3 and the conclusion."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Model, introduction, conclusion",
+  "quote": "none found",
+  "note": "The paper models voter types and strategic behaviour explicitly and does not take a procedural stance."
+ }
+}

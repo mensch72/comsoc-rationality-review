@@ -1,0 +1,187 @@
+{
+ "paper_id": "SCW-2022-a9a4c9a9",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "1 Introduction, p.561",
+  "quote": "a committee is to be set up each year to select",
+  "note": "Aggregation of agents' single-peaked preferences into a collective choice via social choice rules and mechanisms."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SB",
+   "EQ"
+  ],
+  "primary": "SB",
+  "loc": "Abstract, p.561; Theorem 1, Sec 3, p.567",
+  "quote": "I then identify necessary and sufficient conditions for social choice rules",
+  "note": "Main results characterise SCRs implementable in mixed information equilibria, an incentive property combining Nash and dominant-strategy implementation. AX and SB fit almost equally; SB chosen as primary because implementability is the central property."
+ },
+ "C2.1": {
+  "value": "state / message profile (reported alignment and preference); \"reported peaks\"",
+  "loc": "Sec 2 Model, p.565",
+  "quote": "assigns an outcome to each message profile"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK",
+   "OTH"
+  ],
+  "loc": "Sec 2 Model, p.564",
+  "quote": "P is the set of all strict, complete and transitive alignments over X",
+  "note": "Messages contain a reported alignment, a reported strict single-peaked preference and an arbitrary component Li. The OTH component is the alignment report plus extra message components such as integers and alternatives."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec 2 Model, p.564",
+  "quote": "The preferences of agents are private knowledge",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Sec 2 Model, p.565",
+  "quote": "ensures nobody has an incentive to unilaterally misreport the common ordering",
+  "note": "States (held) and messages (submitted) have separate notation."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Sec 2 Model, p.565",
+  "quote": "ensures that the private preferences are also reported truthfully",
+  "note": "All results concern implementability, which considers misreports."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL"
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 not STATED"
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No utility, welfare, satisfaction, cost or distortion notions are used for voters."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Secs 2-4, pp.564-572",
+  "quote": "none found",
+  "note": "Criteria used are strategy-proofness, unanimity, anonymity and no veto power."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Sec 2 Model, p.565",
+   "quote_behav": "ensures nobody has an incentive to unilaterally misreport the common ordering",
+   "loc_info": "Sec 2 Model, p.564",
+   "quote_info": "this alignment is common knowledge amongst the agents",
+   "note": "Agents know the common alignment but not others' preferences."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Sec 5 Discussion, p.573",
+   "quote_behav": "she can identify which SCR she should choose",
+   "loc_info": "Abstract, p.561",
+   "quote_info": "the designer is uncertain about the underlying alignment",
+   "note": "Designer chooses a mechanism or SCR robust to uncertainty. Her information is the set A of possible alignments."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "N",
+  "loc": "Sec 2, p.565",
+  "quote": "none found",
+  "note": "Both voters and designer are treated as optimising."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 = N"
+ },
+ "C8.1": {
+  "codes": [
+   "DOM",
+   "NE",
+   "OTH"
+  ],
+  "loc": "Abstract, p.561",
+  "quote": "a relevant solution concept called implementation in mixed information equilibria",
+  "note": "OTH = implementation in mixed information equilibria: Nash in the public state, dominant strategies in the private state."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Definition 3, Sec 2, p.565",
+  "quote": "implements a social choice rule f in mixed information equilibria"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Sec 5 Discussion, p.573",
+    "quote": "she can identify which SCR she should choose from all"
+   },
+   {
+    "loc": "Sec 5 Discussion, p.572",
+    "quote": "This is in and of itself useful in practice"
+   },
+   {
+    "loc": "1 Introduction, p.562",
+    "quote": "It would then be prudent to set up a rule"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sec 2 Model, p.564",
+  "quote": "this alignment is common knowledge amongst the agents",
+  "note": "Needed assumptions are stated in the model: agents are strategic, the alignment is common knowledge, preferences are private, and the designer is uncertain over A."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Intro, Sec 2, Sec 5",
+  "quote": "none found",
+  "note": ""
+ }
+}

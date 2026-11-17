@@ -1,0 +1,168 @@
+{
+ "paper_id": "EC-2021-450e2267",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Introduction, p.1",
+  "quote": "Deciding how to allocate the seats of a house of representatives",
+  "note": "Borderline: apportionment maps vote counts to seats, i.e. a proportional-representation procedure. Coded as eligible."
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "EM"
+  ],
+  "primary": "AL",
+  "loc": "Introduction, p.2",
+  "quote": "determining the existence of a proportional apportionment in the multidimensional setting is NP-complete",
+  "note": "Also an existence characterisation, an iterative rounding algorithm, and a test on the 2021 Chilean Constitutional Convention election data."
+ },
+ "C2.1": {
+  "value": "matrix (of votes); votes",
+  "loc": "Introduction, p.1",
+  "quote": "an instance is given by an integral matrix (of votes)"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Introduction, p.1",
+  "quote": "an instance is given by an integral matrix (of votes)",
+  "note": "Aggregate vote counts per party and region, plus seat marginals; not individual ballots."
+ },
+ "C2.3": {
+  "code": "N",
+  "loc": "whole text",
+  "quote": "none found",
+  "note": "No held attitudes of voters are mentioned."
+ },
+ "C2.4": {
+  "code": "ONE",
+  "loc": "Introduction, p.1",
+  "quote": "an integral matrix (of votes)",
+  "note": "The input is described only as submitted votes."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "whole text",
+  "quote": "none found",
+  "note": "No strategic voters are analysed."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "C2.4 = ONE",
+  "quote": "",
+  "note": "C2.4 = ONE"
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No voter utility notions are used."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Introduction, p.2",
+  "quote": "our method is significantly more representative than the one used",
+  "note": "The experiment evaluates representation and proportionality across dimensions. Only an extended abstract is supplied, so the evidence is the summary of the experiment."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Introduction, p.2",
+  "quote": "proportionality across three dimensions: political, geographical and gender",
+  "note": "Evaluated on the vote matrix; no relation to held attitudes is stated."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters take no action in the model."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Fewer than two types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no strategic agents."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.2",
+    "quote": "our method is significantly more representative than the one used"
+   },
+   {
+    "loc": "Introduction, p.2",
+    "quote": "representation of dimensions beyond political affiliation and geography is increasingly demanded"
+   }
+  ],
+  "note": "The claims concern real-world institutions (the Chilean Constitutional Convention) and representation."
+ },
+ "C9.2": {
+  "code": "UNCLEAR",
+  "loc": "Introduction, p.2",
+  "quote": "our approach is more robust in that small perturbations of the votes",
+  "note": "Only a short extended abstract is supplied, so the assumptions needed for the claims cannot be determined."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole text",
+  "quote": "none found",
+  "note": ""
+ }
+}

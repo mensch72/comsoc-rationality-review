@@ -1,0 +1,179 @@
+{
+ "paper_id": "COMSOC-2021-3c02f718",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Section 2",
+  "quote": "agents with single-peaked preferences can participate in a costly voting procedure",
+  "note": "Voting mechanisms (generalized medians) with participation and strategic aspects."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SB",
+   "EQ"
+  ],
+  "primary": "EQ",
+  "loc": "Section 3, Theorem 1; Section 4, Theorem 2",
+  "quote": "there exists a generically unique equilibrium with one single participant",
+  "note": "Main results are equilibrium characterisations under axiomatic conditions (strategy-proofness, anonymity, responsiveness)."
+ },
+ "C2.1": {
+  "value": "vote / reported peak (voting mechanism applied to preference profiles)",
+  "loc": "Section 2",
+  "quote": "maps every profile of preferences of the agents in K to an outcome"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 2",
+  "quote": "F^k only depends on the individual peaks",
+  "note": "Single-peaked preferences / peaks in [0,1]; strategy-proof rules depend only on the reported peak. Not rankings per se."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2",
+  "quote": "Each agent i is characterized by a single-peaked (ordinal) preference relation",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 3.1 Strategy-proofness",
+  "quote": "we cannot assume that the reported peaks coincide with the true peaks",
+  "note": "Reported peaks p\u0303i are notated separately from true peaks; truthfulness derived from dominant strategy."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "Section 3 vs Section 4",
+  "quote": "all participants who actually cast a vote submit their true peak",
+  "note": "Theorem 1 analyses assume truthful voting (as dominant strategy), while Theorem 2 / symmetric median analysis has non-truthful extreme reporting."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Section 2",
+  "quote": "We will therefore assume that all participants who actually cast a vote submit their true peak",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "SP",
+  "loc": "Section 2",
+  "quote": "voting truthfully is the unique (weakly) dominant strategy for every participant",
+  "note": "Rule strategy-proof; refinement such as perfectness is also invoked."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Section 2",
+  "quote": "none found",
+  "note": "Input is a peak of single-peaked ordinal preferences; no RANK/WEAK/APPR/DICH/PAIR format coded. Utility mentioned only in intro (distance) and probabilistic example."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Introduction; Section 4",
+  "quote": "the median thus represents the utilitarian welfare optimum for the group",
+  "note": "Corollary 1 evaluates whether the median (a welfare-minimizing sum-of-distances rule) is implemented; also Section 4 notes outcome very far from median peak. Borderline; criterion of implementing the median/efficiency (Observation: mechanism is efficient)."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 2 Observation; Section 4",
+  "quote": "the corresponding voting mechanism is efficient",
+  "note": "Evaluated on true peaks/preferences, defined separately from reports; efficiency and distance to median peak."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Introduction",
+   "quote_behav": "Agents take two decisions: whether or not to participate in the voting procedure",
+   "loc_info": "Introduction",
+   "quote_info": "Our analysis is embedded in a simple voting model with complete information.",
+   "note": "Agents choose participation strategically and votes."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N",
+   "note": "Mechanism is taken as given; designer's choice not modelled."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Section 2",
+  "quote": "none found",
+  "note": "Only voters present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "none found",
+  "note": "C7.1 is NA."
+ },
+ "C8.1": {
+  "codes": [
+   "DOM",
+   "NE",
+   "SPE",
+   "COAL"
+  ],
+  "loc": "Section 3 Theorem 1; Section 4 Theorem 2",
+  "quote": "unique subgame perfect equilibrium in which all agents choose their unique (weakly) dominant strategy",
+  "note": "Also perfect equilibrium, strong Nash equilibrium in the second stage of Theorem 2."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 3, Theorem 1",
+  "quote": "The simultaneous voting game has a unique perfect equilibrium"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction",
+    "quote": "Strategy-proofness is desirable because without it the social outcome cannot be assessed"
+   },
+   {
+    "loc": "Abstract",
+    "quote": "no deterministic mechanism can implement the median if all participants vote"
+   },
+   {
+    "loc": "Introduction",
+    "quote": "The assumption of complete information is strong but does not seem to be unrealistic"
+   }
+  ],
+  "note": "Claims about what results mean for committees, and about desirability of properties."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Introduction; Section 2",
+  "quote": "we will assume that all participants who actually cast a vote",
+  "note": "Needed assumptions (truthful reporting, complete information, single-peakedness, positive costs) are stated; the utilitarian welfare claim is conditioned explicitly on 'If individual utilities can be measured by objective distance'."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": ""
+ }
+}

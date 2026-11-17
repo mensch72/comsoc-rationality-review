@@ -1,0 +1,184 @@
+{
+ "paper_id": "GEB-2021-b542eb9a",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Section 3, p.6-8",
+  "quote": "simple majority rule, with ties broken by a fair coin toss",
+  "note": "Two-candidate election game with costly voting and abstention. It is analysed through strategic equilibria (BNE, QRE) and a laboratory experiment."
+ },
+ "C1": {
+  "types": [
+   "EQ",
+   "EM"
+  ],
+  "primary": "EM",
+  "loc": "Abstract; Sections 4-6",
+  "quote": "We test these predictions in a laboratory experiment",
+  "note": "Propositions 1-5 are equilibrium results. Results 1-4, the regressions and the structural model are experimental. The largest share of results is experimental, so EM is primary."
+ },
+ "C2.1": {
+  "value": "votes (action from {A, B, O})",
+  "loc": "Section 3, p.6",
+  "quote": "Each voter can choose an action from {A, B, O}"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 3, p.6",
+  "quote": "representing voting for candidate A, candidate B, and abstaining",
+  "note": "Single-candidate vote or abstention in a two-candidate majority election. This does not fit RANK, WEAK, APPR, CARD or PAIR."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 3, p.6-7",
+  "quote": "Voter i is characterized by a 2-dimensional private type",
+  "note": "Held attitudes are the ideological preference v_i and a utility function."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 3 and Section 4.2",
+  "quote": "ai indicates voter i's action",
+  "note": "The action a_i is notated separately from the type (v_i, c_i) and from utility. QRE explicitly allows errors in voting decisions."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Section 4.1 and Section 5",
+  "quote": "decide whether or not to cast a vote for the better candidate",
+  "note": "All analyses (BNE, QRE, experiment with free choice) model voters choosing actions strategically, including abstention. Voting for the preferred candidate is dominant in the model."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL"
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED"
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Input format is OTH, not RANK, WEAK, APPR, DICH or PAIR."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 4-7",
+  "quote": "none found",
+  "note": "Results evaluate vote share, winning probability and turnout, not welfare, efficiency or similar criteria. Voter welfare is mentioned only in the introduction."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 4.1, p.8",
+   "quote_behav": "the voter has to weigh the expected benefits against the costs of voting",
+   "loc_info": "Section 3, p.6; Section 4.1",
+   "quote_info": "k is assumed to be unobservable to voters but precisely observable to media",
+   "note": "Voters know their own types, have a common prior, and update on media messages. The QRE version adds noise."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 3, p.7",
+   "quote_behav": "sends public endorsement using the following cutoff strategy",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Media outlets (robots in the experiment) send messages by a fixed cutoff strategy based on their bias."
+  }
+ },
+ "C7.1": {
+  "code": "Y",
+  "loc": "Section 3 and Section 5.2",
+  "quote": "sends public endorsement using the following cutoff strategy",
+  "note": "Voters are STRAT and the media outlets are NONSTRAT."
+ },
+ "C7.2": {
+  "code": "CITE",
+  "loc": "Footnote 9, Section 3, p.7",
+  "quote": "we show that the cutoff strategy (2) endogenously arises in equilibrium",
+  "note": "The reason is given only by citing the authors' companion paper SSS18."
+ },
+ "C8.1": {
+  "codes": [
+   "BNE",
+   "OTH"
+  ],
+  "loc": "Section 4.1 and 4.2",
+  "quote": "we first derive the Bayesian Nash Equilibrium (BNE)",
+  "note": "OTH = quantal response equilibrium (QRE)."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 4",
+  "quote": "derive the Bayesian Nash Equilibria"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Conclusion, p.40",
+    "quote": "Our results imply that voters are not fully irrational"
+   },
+   {
+    "loc": "Conclusion, p.40",
+    "quote": "provide clear implications for understanding the world outside the laboratory"
+   },
+   {
+    "loc": "Conclusion, p.40",
+    "quote": "provides a possible rationale for the mixed empirical evidence"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 1, p.2",
+  "quote": "we assume that voters know exactly each media's bias",
+  "note": "Needed assumptions are that voters know the media biases and that lab behaviour extrapolates to the real world. The first is stated, and the second is argued in a footnote on external validity."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": ""
+ }
+}

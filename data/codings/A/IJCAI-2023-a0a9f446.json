@@ -1,0 +1,171 @@
+{
+ "paper_id": "IJCAI-2023-a0a9f446",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p. 2651",
+  "quote": "We study the election of sequences of committees",
+  "note": "Committee selection from agents' nominations across levels; computational complexity of the selection problem."
+ },
+ "C1": {
+  "types": [
+   "AL"
+  ],
+  "primary": "AL",
+  "loc": "Abstract, p. 2651",
+  "quote": "We analyze the parameterized complexity of finding such committees",
+  "note": ""
+ },
+ "C2.1": {
+  "value": "nomination profiles (also \"Preferences\" in Fig. 1)",
+  "loc": "Section 2, GCSE definition, p. 2652",
+  "quote": "a sequence of nomination profiles U = (u1 , . . . , u\u03c4 )"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 2, GCSE definition, p. 2652",
+  "quote": "with ut \u2236 A \u2192 C \u222a {\u2205}",
+  "note": "Each agent nominates at most one candidate per level. This could also be read as a size-one approval set; OTH was chosen."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Abstract, p. 2651; Fig. 1 caption, p. 2651",
+  "quote": "Preferences indicating the favorite activity of each agent for each day",
+  "note": "Agents' satisfaction and favourite activities are referred to."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Fig. 1 caption, p. 2651; Section 4.1, p. 2655",
+  "quote": "We define for A \u2254 A \\ {a} the utility function",
+  "note": "Nominations are described as preferences or utility functions and used directly. No statement about reporting is made."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-5",
+  "quote": "none found",
+  "note": "No strategic nomination is analysed."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Abstract, Prologue, Section 2, Epilogue",
+  "quote": "none found",
+  "note": "The abstract says agents may nominate a candidate 'whose selection would satisfy her'. This is read as defining satisfaction, not as a sincerity statement."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The input format was coded OTH, so the applicability condition is not met. The Other Variants section does define 0/1 NOM preference functions."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2, GCSE definition, p. 2652",
+  "quote": "We also refer to the left-hand side of (1) and of (2) as committee and agent score",
+  "note": "The problems require each agent to be satisfied in at least (or exactly) y levels. This is egalitarian/equitable satisfaction."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 2, p. 2652",
+  "quote": "\u2223ut (a) \u2229 Ct \u2223 \u2265 y",
+  "note": ""
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2, p. 2652",
+   "quote_behav": "a sequence of nomination profiles U = (u1 , . . . , u\u03c4 )",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Nominations are given exogenously as input."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Epilogue, p. 2657",
+    "quote": "short trips with few per-day activities like in our introductory example"
+   },
+   {
+    "loc": "Epilogue, p. 2657",
+    "quote": "where egalitarian or even equitable solutions appear particularly relevant"
+   },
+   {
+    "loc": "Prologue, Example 1, p. 2651",
+    "quote": "the agents might not find this fair, because some are satisfied"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "UNCLEAR",
+  "loc": "Abstract, p. 2651",
+  "quote": "may nominate one candidate whose selection would satisfy her",
+  "note": "The tractability claims follow from complexity results without behavioural assumptions. The fairness claims need nominations to reflect agents' actual satisfaction. The abstract phrase may or may not count as stating this."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Abstract, Prologue, Section 2, Epilogue",
+  "quote": "none found",
+  "note": ""
+ }
+}

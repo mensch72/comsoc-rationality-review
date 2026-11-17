@@ -1,0 +1,169 @@
+{
+ "paper_id": "AAAI-2024-33b09f7b",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p. 12164",
+  "quote": "eliciting agents\u2019 preferences with the goal of finding a Kemeny ranking",
+  "note": "Computational elicitation of inputs for computing the outcome of a voting rule (Kemeny)."
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "SI"
+  ],
+  "primary": "AL",
+  "loc": "Abstract, p. 12164; Sec. 4, p. 12167",
+  "quote": "we formulate PAC algorithms for Kemeny rankings w.r.t. Kemeny scores",
+  "note": "Synthetic experiments in Sec. 5: 'All described methods are compared on synthetic data.'"
+ },
+ "C2.1": {
+  "value": "preference profile; preference matrix (matrix of winning probabilities)",
+  "loc": "Sec. 2, p. 12165",
+  "quote": "A social preference function is a function that maps a preference profile"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK",
+   "PAIR"
+  ],
+  "loc": "Sec. 2, p. 12165",
+  "quote": "preferences of the voters over the alternatives to be linear orders",
+  "note": "Profiles of linear orders are translated into a pairwise preference matrix Q, which Kemeny's rule takes as input."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec. 2, p. 12165",
+  "quote": "the preferences of the voters over the alternatives",
+  "note": "Voters have preferences, which are elicited via queries. No separate submitted object is defined."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Sec. 2, p. 12165",
+  "quote": "aggregate the preferences of voters into an outcome ranking",
+  "note": "The rule is applied directly to preferences or query answers. There is no statement about truthful reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sec. 1, p. 12165; Sec. 4, p. 12167",
+  "quote": "query voters to compare two alternatives",
+  "note": "Queried voters always answer according to their preference."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Checked: Sec. 1 Introduction, Sec. 2 Voting and Bandits, Sec. 4, Sec. 6 Conclusion",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "PART",
+  "loc": "Sec. 3, p. 12166",
+  "quote": "the matrices in the proofs also yield similar voter satisfaction",
+  "note": "Voter satisfaction and disagreement are associated with the Kemeny score, but no utility model linking them to rankings is defined."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sec. 3, p. 12166-12167",
+  "quote": "approximates the Kemeny score, i.e., minimal voter disagreement, well.",
+  "note": "Results evaluate rankings by the Kemeny score, interpreted as voter disagreement or satisfaction. This was a borderline call."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Sec. 3, p. 12166",
+  "quote": "the matrices in the proofs also yield similar voter satisfaction",
+  "note": ""
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sec. 1, p. 12164",
+   "quote_behav": "bandit feedback for pulling two arms corresponds to a random voter\u2019s preference",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters answer pairwise queries according to their preferences."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Sec. 1 Introduction, p. 12164",
+    "quote": "To ensure a good societal outcome, the fair aggregation of"
+   },
+   {
+    "loc": "Sec. 1 Introduction, p. 12164",
+    "quote": "This can be excessively time consuming or costly for voters"
+   }
+  ],
+  "note": "Motivational claims about societal outcomes and voter burden."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sec. 2, p. 12165",
+  "quote": "none found",
+  "note": "These claims need voters' query answers to equal their preferences (truthful answering). This is not stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Checked: Sec. 1, Sec. 2, Sec. 6",
+  "quote": "none found",
+  "note": ""
+ }
+}

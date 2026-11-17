@@ -1,0 +1,173 @@
+{
+ "paper_id": "AAMAS-2023-c511e46e",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Section 1, p.2067",
+  "quote": "collective decision making from first principles",
+  "note": "Concerns choosing outcomes from voters' reported preference profiles via axioms; algorithmic and axiomatic aspects of a voting procedure."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "AL"
+  ],
+  "primary": "AX",
+  "loc": "Sections 4-5, pp.2071-2074",
+  "quote": "we establish the computational complexity of deciding whether a given set of axioms",
+  "note": "Complexity (Thm 6, SAT encoding) and axiomatic results (Props 2-3, Thms 7-8). Largest share of results is axiomatic/forcing-related; roughly balanced."
+ },
+ "C2.1": {
+  "value": "profile (or scenario) R; reported preference",
+  "loc": "Section 2.2, p.2068",
+  "quote": "a profile (or scenario) R is a function that assigns to each agent"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2.2, p.2068",
+  "quote": "assigns to each agent i \u2208 N a (reported) preference Ri \u2208 L(X )",
+  "note": "Strict linear orders."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Abstract; Section 2.2",
+  "quote": "individual agents report their preferences into a collective decision",
+  "note": "Preferences are referred to as something agents hold and report."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2.2, p.2068",
+  "quote": "a (reported) preference Ri \u2208 L(X )",
+  "note": "Profile is called 'reported preference' and the rule is applied directly; no statement on sincerity or relation to held preferences."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 3-5",
+  "quote": "none found",
+  "note": "No strategic voter analysis; Gibbard-Satterthwaite only mentioned as impossibility example."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 2, 6",
+  "quote": "none found",
+  "note": "No statement that voters submit their held preferences."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "",
+  "note": "No utility, welfare, or satisfaction notion for voters is used."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 3-5",
+  "quote": "none found",
+  "note": "Pareto and Condorcet appear as axioms, but outcomes are not evaluated by welfare, efficiency or similar criteria in a result; the axioms are treated as normative principles used for forcing."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters supply profiles but take no modelled action; the profile is simply given as input."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N",
+   "note": "The designer ranks axiom sets, but this is not modelled as a strategic choice or an explicit objective."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Section 2.2",
+  "quote": "",
+  "note": "Fewer than two types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "n/a",
+  "quote": "",
+  "note": "No STRAT or MIXED types."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract",
+    "quote": "identify for every concrete such scenario the most appealing set"
+   },
+   {
+    "loc": "Section 1, p.2067",
+    "quote": "in practice it is most suited to high-stakes situations"
+   },
+   {
+    "loc": "Section 6, p.2074",
+    "quote": "The decisions taken will be appropriate only if the axioms are."
+   }
+  ],
+  "note": "Claims about how to make real decisions and which approach to use."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 1, p.2067",
+  "quote": "we require any decision taken to stand on sound normative grounds",
+  "note": "Claim that the approach suits real high-stakes decisions needs the assumption that reported profiles equal voters' true preferences, and that voters do not misreport; neither is stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 2, 6",
+  "quote": "none found",
+  "note": "No statement of a procedural reading or of taking no position on how inputs relate to held attitudes."
+ }
+}

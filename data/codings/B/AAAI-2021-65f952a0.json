@@ -1,0 +1,214 @@
+{
+ "paper_id": "AAAI-2021-65f952a0",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Section 1, p.5228",
+  "quote": "pairwise comparisons capture the majority relation between pairs of candidates",
+  "note": "Tournament solutions (winner selection from pairwise majority relations) and margin of victory, which has a bribery/manipulation interpretation; treated as a voting-rule paper."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SI",
+   "SB"
+  ],
+  "primary": "AX",
+  "loc": "Sections 3 and 4, pp.5230-5234",
+  "quote": "using axiomatic and probabilistic analysis (Section 3) as well as through experiments (Section 4)",
+  "note": "Main results are structural/axiomatic (cover-consistency, degree-consistency) plus a probabilistic theorem. Experiments are on synthetic tournaments (SI). MoV is interpreted as bribery cost (SB), but no strategic analysis is performed. SB is included only weakly."
+ },
+ "C2.1": {
+  "value": "tournament (pairwise comparisons / majority relation)",
+  "loc": "Section 1, p.5228",
+  "quote": "pairwise comparisons capture the majority relation between pairs of candidates"
+ },
+ "C2.2": {
+  "codes": [
+   "PAIR"
+  ],
+  "loc": "Section 2, p.5229",
+  "quote": "A tournament T = (V, E) is a directed graph in which exactly one directed edge exists",
+  "note": "Tournament = majority relation."
+ },
+ "C2.3": {
+  "code": "N",
+  "loc": "Sections 1-2",
+  "quote": "none found",
+  "note": "Voters and their preferences are not modelled. Preferences appear only as a generator for random tournaments in the experiments."
+ },
+ "C2.4": {
+  "code": "ONE",
+  "loc": "Section 2, p.5229",
+  "quote": "represents an asymmetric and connex dominance relation between the alternatives",
+  "note": "The input is only the tournament. No held attitude is referred to."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 3-4",
+  "quote": "none found",
+  "note": "Edge reversals are used only to define MoV, not as strategic voter behaviour."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C2.4 = ONE"
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No utility-type notion is used for voters."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 3-4",
+  "quote": "none found",
+  "note": "The criteria evaluated are consistency with the covering relation, degree-consistency and discriminative power. Pareto optimality is mentioned only in the Discussion."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "No voter agents in the model."
+  },
+  "CAN": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Alternatives are only chosen."
+  },
+  "ORG": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "The bribery interpretation is mentioned in the introduction. No briber acts in the model; reversal sets are a combinatorial definition."
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Fewer than two types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "N",
+  "claims": [],
+  "note": "The introduction mentions the bribery and manipulation interpretation, and the discussion suggests max-MoV_UC as a new tournament solution. These are weak, rule-level claims about the rule's structural and discriminative properties, not about institutions, voters' welfare or which rule should be used in practice."
+ },
+ "C9.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C9.1 = N"
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "No statement about procedural reading or about the relation between inputs and held attitudes."
+ }
+}

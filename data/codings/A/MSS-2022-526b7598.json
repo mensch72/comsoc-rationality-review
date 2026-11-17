@@ -1,0 +1,172 @@
+{
+ "paper_id": "MSS-2022-526b7598",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "present a unified framework for grading-based voting processes",
+  "note": ""
+ },
+ "C1": {
+  "types": [
+   "AX"
+  ],
+  "primary": "AX",
+  "loc": "Section 4, p.17",
+  "quote": "satisfies the properties Neutrality, Universality, and Unanimity",
+  "note": "Main results are properties and characterisations of deepest voting rules, plus paradox analysis."
+ },
+ "C2.1": {
+  "value": "grading matrix; grades; profile",
+  "loc": "Section 2.2, p.5",
+  "quote": "The grading is summarized in a d \u00d7 n grading matrix"
+ },
+ "C2.2": {
+  "codes": [
+   "CARD",
+   "APPR"
+  ],
+  "loc": "Section 2.2, p.5",
+  "quote": "Approval voting is a voting process based on a binary",
+  "note": "Grades in [0,1], discrete or continuous; the binary case gives approval voting."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 3.1, p.11",
+  "quote": "the deepest point is a location estimator of the preferences",
+  "note": "Preferences are also mentioned in the paradox discussion: 'voter v3 prefers candidate c2'."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 5, p.28",
+  "quote": "vote sincerely for their preferences",
+  "note": "Doubt between DIST and IDU. The paper refers to sincere and strategic voting, implying votes can differ from preferences, but uses no separate notation; DIST picked as listed first."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 4-5, Appendix",
+  "quote": "very vulnerable to strategic voting for a large p",
+  "note": "Strategic voting is mentioned only informally; no analysis models misreporting."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Section 5, p.28",
+  "quote": "decides to participate in the election and vote sincerely",
+  "note": "Stated only in the no-show paradox definition, not as a general assumption. Doubt with NOT-STATED; first-listed code chosen."
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Section 5, p.28",
+  "quote": "vote sincerely for their preferences",
+  "note": ""
+ },
+ "C4.1": {
+  "code": "PART",
+  "loc": "Section 2.3, p.8",
+  "quote": "they introduce the intensity of the relative preferences",
+  "note": "Grades are said to convey intensity of preference; no formal utility link is defined."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 4-5",
+  "quote": "none found",
+  "note": "Results concern neutrality, universality, unanimity, monotonicity, IIA and Condorcet/no-show/reinforcement paradoxes; none of the listed criteria are used."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2.2, p.4-5",
+   "quote_behav": "Suppose that each voter vj , j = 1, . . . , n grades",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Grades are taken as given."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no agent type is strategic."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.2",
+    "quote": "can be seen as the most representative of all voters"
+   },
+   {
+    "loc": "Introduction, p.3",
+    "quote": "do not lead to monotone voting procedures, which seems a main drawback"
+   },
+   {
+    "loc": "Conclusion, p.30",
+    "quote": "deepest voting deserves much attention"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Introduction, p.2",
+  "quote": "their preferences should meet a large consensus among the others",
+  "note": "The representativeness/consensus claim needs grades to equal voters' held preferences; this is not stated as an assumption."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 2, 6",
+  "quote": "none found",
+  "note": ""
+ }
+}

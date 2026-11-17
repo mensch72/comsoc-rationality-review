@@ -1,0 +1,185 @@
+{
+ "paper_id": "COMSOC-2021-cb7d9155",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "We study the parameterized complexity of counting variants of Swap- and ShiftBribery",
+  "note": "Counting versions of bribery problems used to assess the robustness of election winners."
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "SB",
+   "SI",
+   "EM"
+  ],
+  "primary": "AL",
+  "loc": "Introduction, Main Contributions, p.2",
+  "quote": "We consider their computational complexity for parameterizations by the number",
+  "note": "Complexity results dominate. Experiments use synthetic (map of elections) and real cycling data."
+ },
+ "C2.1": {
+  "value": "preference order / votes / election",
+  "loc": "Section 2 Preliminaries, p.3",
+  "quote": "we sometimes refer to preference orders as votes"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2 Preliminaries, p.3",
+  "quote": "ranks all candidates from the most to the least desired one",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Introduction, p.1",
+  "quote": "some other voters accidently \u201cmisranked\u201d some of the candidates",
+  "note": "The motivation refers to how voters would rank candidates apart from the votes cast. In the formal model the preference order is identified with the vote."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Introduction, p.1",
+  "quote": "would have ranked two candidates differently if he or she had",
+  "note": "DIST and IDU fit about equally well; DIST is listed first. The text says the cast votes may differ from what voters would rank, but the formal model uses one object (preference order = vote)."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-4",
+  "quote": "none found",
+  "note": "Deviations from votes are random swaps or briber actions. Voters themselves are never modelled as strategic."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Introduction; Section 2 Preliminaries; Section 5 Conclusions",
+  "quote": "none found",
+  "note": "There is only the terminological identification of preference orders with votes."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No utility, welfare or similar notion is used for voters."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Section 4",
+  "quote": "none found",
+  "note": "Outcomes are evaluated by robustness (winning probabilities, thresholds), not by welfare or representation."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2 Preliminaries, p.3",
+   "quote_behav": "Each voter vi has a preference order",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Votes are given as exogenous input."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "IMPLICIT",
+   "loc_behav": "Section 2, Swap- and Shift-Bribery, p.4",
+   "quote_behav": "our goal is to preclude the designated candidate\u2019s victory",
+   "loc_info": "Section 2, Swap- and Shift-Bribery, p.4",
+   "quote_info": "we are given an election E, a designated candidate p",
+   "note": "The briber is an implicit agent performing swaps toward a goal, in the decision and minimum-cost variants. In the counting variants the swaps are counted or randomised rather than chosen."
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "Y",
+  "loc": "Section 2, p.4",
+  "quote": "We ask if there is an election E 0 where p",
+  "note": "The briber (BRI) is goal-directed while voters (VOT) are fixed."
+ },
+ "C7.2": {
+  "code": "NONE",
+  "loc": "Introduction; Section 2",
+  "quote": "none found",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [
+   "DEV"
+  ],
+  "loc": "Section 2, p.4",
+  "quote": "In the decision variant of the R SwapBribery problem",
+  "note": "Existence or counting of swap sets achieving a goal; minimum destructive bribery cost is used in the experiments."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 2, p.4",
+  "quote": "In the decision variant of the R SwapBribery problem"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.1",
+    "quote": "then we might want to recount the votes or reexamine"
+   },
+   {
+    "loc": "Conclusions, p.12",
+    "quote": "are very useful for analyzing the robustness of election winners"
+   },
+   {
+    "loc": "Conclusions, p.12",
+    "quote": "neither the scores of the candidates nor DestructiveSwap-Bribery costs suffice"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Introduction, p.1",
+  "quote": "if for each r we had (some estimate of) the probability",
+  "note": "The recount/reexamination claim needs uniformly random adjacent swaps to model real voter errors. This assumption is not stated; only the motivating story is given."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction; Section 2; Section 5",
+  "quote": "none found",
+  "note": ""
+ }
+}

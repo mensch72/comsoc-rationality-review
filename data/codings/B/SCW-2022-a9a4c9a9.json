@@ -1,0 +1,187 @@
+{
+ "paper_id": "SCW-2022-a9a4c9a9",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Section 3",
+  "quote": "identify necessary and sufficient conditions for social choice rules (SCRs) to be implementable",
+  "note": "Implementation of voting-type social choice rules on single-peaked domains; strategic aspects (strategy-proofness, Nash implementation)."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SB",
+   "EQ"
+  ],
+  "primary": "AX",
+  "loc": "Section 3, Theorem 1; Section 4 Theorem 3",
+  "quote": "an anonymous and unanimous SCR is implementable if and only if it is the median SCR",
+  "note": "Characterizations of implementable SCRs; implementability involves dominant strategy and Nash equilibrium requirements."
+ },
+ "C2.1": {
+  "value": "preference profile; reported peaks; report of the state",
+  "loc": "Section 2",
+  "quote": "Let P = (P1 , ..., Pn ) = (Pi , P\u2212i ) denote a preference profile"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2",
+  "quote": "P is the set of all strict, complete and transitive alignments over X",
+  "note": "Strict single-peaked preferences; in the mechanism agents report an alignment and a preference."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2",
+  "quote": "The preferences of agents are private knowledge, i.e. unknown to both other agents and the designer.",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2, Definition 3",
+  "quote": "m\u2217i = (li\u2217 , \u227b\ud835\udf03 , P\ud835\udf03i )",
+  "note": "Messages are separate from true state; the mechanism has a message space and truthful reporting is an equilibrium condition."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Section 2-3, Definition 3",
+  "quote": "dominant strategy implementation ensures that the private preferences are also reported truthfully.",
+  "note": "Implementation analysis considers misreports of both alignment and preferences."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "C3.1 = ALL",
+  "quote": "",
+  "note": "NA because C3.1 = ALL."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "C3.2 not STATED",
+  "quote": "",
+  "note": ""
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Whole paper",
+  "quote": "",
+  "note": "Only ordinal preferences; no utility, welfare or satisfaction notions for voters are used."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "Whole paper",
+  "quote": "",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 3-4",
+  "quote": "none found",
+  "note": "Unanimity and anonymity are normative axioms but not welfare, efficiency, representation or proportionality criteria; no evaluation by those criteria."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "C5.1 = N",
+  "quote": "",
+  "note": ""
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 2, after Definition 3",
+   "quote_behav": "Nash implementation in the public component ensures nobody has an incentive to unilaterally misreport",
+   "loc_info": "Section 2",
+   "quote_info": "this alignment is common knowledge amongst the agents",
+   "note": "Agents know the public alignment (common knowledge) but preferences are private; this is partial information."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Alternatives only."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "The designer is a mechanism designer, not an organiser acting in the model."
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NONE",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 3",
+   "quote_behav": "Consider the following mechanism:",
+   "loc_info": "Abstract",
+   "quote_info": "with the designer uninformed of both",
+   "note": "Designer chooses the mechanism to implement an SCR; designer's objective is robustness to uncertainty. Designer is uninformed of the alignment and preferences, so info is NONE about them."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "C6",
+  "quote": "",
+  "note": "Only VOT is an acting type besides the designer; with DES treated as present, both are STRAT, so C7.1 would be N. Rule: coded NA is not correct if two types present; revise: N."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "C7.1",
+  "quote": "",
+  "note": "C7.1 not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "DOM",
+   "NE"
+  ],
+  "loc": "Abstract; Definition 3",
+  "quote": "requires Nash implementation in the public information and dominant strategy implementation",
+  "note": ""
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Abstract",
+  "quote": "Nash implementation in the public information and dominant strategy implementation in the private information"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction",
+    "quote": "The authority creating the committee would like to know what selection rules would be attractive"
+   },
+   {
+    "loc": "Section 4, after Theorem 3",
+    "quote": "she should choose the median so that she can have this additional bulwark"
+   },
+   {
+    "loc": "Section 5",
+    "quote": "she can identify which SCR she should choose from all of Moulin\u2019s SCRs"
+   }
+  ],
+  "note": "Claims about which rule the designer should use."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 2; Section 4",
+  "quote": "this alignment is common knowledge amongst the agents",
+  "note": "Needed assumptions (agents' strategic behaviour, common knowledge of alignment, private preferences, designer uncertainty) are all stated in the model."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": ""
+ }
+}

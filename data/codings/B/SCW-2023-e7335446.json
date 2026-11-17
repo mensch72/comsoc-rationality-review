@@ -1,0 +1,181 @@
+{
+ "paper_id": "SCW-2023-e7335446",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Sect. 1, p. 233-234",
+  "quote": "compare voting rules in terms of the expressive utility",
+  "note": "Compares single-winner voting rules (plurality, approval, A-Borda) via a model of expressive utility and turnout, plus an experiment. Borderline, but coded eligible as the main object is the voting rules and the ballots they allow."
+ },
+ "C1": {
+  "types": [
+   "OT",
+   "EM"
+  ],
+  "primary": "EM",
+  "loc": "Sect. 2 and Sects. 3-5, pp. 239-255",
+  "quote": "We then ran an online experiment testing this implication",
+  "note": "Conceptual model with one proposition (expressive power ordering, OT), plus a large online experiment (EM). Most results are experimental."
+ },
+ "C2.1": {
+  "value": "expressed preference; vote; ballot",
+  "loc": "Sect. 2, p. 240",
+  "quote": "Individual i\u2019s expressed preference, denoted Rei, is the ranking that i casts when voting."
+ },
+ "C2.2": {
+  "codes": [
+   "WEAK",
+   "APPR",
+   "CARD",
+   "RANK"
+  ],
+  "loc": "Sect. 2-3, pp. 240, 244",
+  "quote": "Preferences are not necessarily complete",
+  "note": "Expressed preferences are modelled as reflexive, transitive (weak) orders. Rules take plurality, approval and point-score ballots (A-Borda) as inputs. CARD covers the point scores in A-Borda (2/1/0), though these are mapped to ordinal preferences."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sect. 2, p. 240",
+  "quote": "Individual i\u2019s actual preference, denoted Rai, is the individual own ranking of alternatives.",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Sect. 2, p. 240",
+  "quote": "Even so, Rai and Rei may differ.",
+  "note": "Separate notation for actual and expressed preferences."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "Sect. 2 and Sect. 6, pp. 240, 256",
+  "quote": "Assume that voters are attentive and sincere",
+  "note": "The theoretical model assumes sincere voters, but the empirical analysis allows non-sincere voting and discusses strategic voting and noise. Coded SOME."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Sect. 2, p. 240",
+  "quote": "voters are attentive and sincere, in the sense that they do not make mistakes",
+  "note": "Stated for the model analysis."
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Sect. 2, p. 240",
+  "quote": "they vote as closest as possible to their actual preference",
+  "note": "The sincerity assumption is given without a reason."
+ },
+ "C4.1": {
+  "code": "PART",
+  "loc": "Sect. 2, Eq. 1-2, p. 240-241",
+  "quote": "Ei (Rei ) denotes i\u2019s expressive utility of voting Rei.",
+  "note": "Expressive utility is defined as a function of the Kemeny distance between expressed and actual preference. Material benefit B_i is mentioned but not tied to the ballot beyond the preferred option in Rei."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sect. 5.1 and Sect. 6, pp. 249-255",
+  "quote": "differences in expressive power can have a significant impact in terms of the representation",
+  "note": "Experiment evaluates rules by representation of voters' actual preferences (Kemeny distance) and expressive utility."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Sect. 5.1, p. 249",
+  "quote": "Kemeny distance between participants\u2019 actual and expressed preferences",
+  "note": "Evaluated against separately elicited actual preferences."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Sect. 2 and Sect. 6, pp. 240, 256",
+   "quote_behav": "around 30% of subjects did not vote sincerely",
+   "loc_info": "Sects. 2-6",
+   "quote_info": "none found",
+   "note": "Model assumes sincere voters. Experiment discusses strategic and non-sincere voters and the turnout decision. Information about others is not specified."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Policies are only alternatives."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "Experimenters set the rules. Not an agent in the model."
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "note": "No explicit designer objective modelled."
+  },
+  "OTH": {
+   "present": "N",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Sect. 6",
+  "quote": "none found",
+  "note": "Only one type present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is NA."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "Sect. 6, p. 256",
+  "quote": "none found",
+  "note": "Strategic voting is mentioned as a possible confounder but no solution concept is used. VOT is MIXED, so C8 nominally applies, but no concept is analysed. Codes left empty."
+ },
+ "C8.2": {
+  "code": "N",
+  "loc": "Sect. 6",
+  "quote": "none found"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Sect. 7, p. 259",
+    "quote": "expressive power of voting rules is a relevant criterion when deciding which voting rule to use"
+   },
+   {
+    "loc": "Sect. 1, p. 236",
+    "quote": "a voting rule with higher expressive power is desirable"
+   },
+   {
+    "loc": "Sect. 7, p. 258",
+    "quote": "the government could link the reform with an informational campaign"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sect. 2, p. 240; Sect. 1, p. 236",
+  "quote": "all else equal",
+  "note": "The needed assumptions are stated: the link between expressed and actual preferences via the expressive utility function, ceteris paribus, and awareness of alternative rules. The generalisation 'if this holds more generally' is hedged."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "The paper explicitly distinguishes actual and expressed preferences."
+ }
+}

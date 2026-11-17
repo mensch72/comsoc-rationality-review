@@ -1,0 +1,183 @@
+{
+ "paper_id": "COMSOC-2023-c6750bee",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "fully implements the majority rule for binary social decisions",
+  "note": "Voting mechanisms aggregating agents' votes; strategic implementation."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "EQ",
+   "SB"
+  ],
+  "primary": "EQ",
+  "loc": "Sections 3-4, Propositions 1-6",
+  "quote": "subgame perfect implements the majority rule",
+  "note": "Implementation results are equilibrium characterisations; incentives to vote sincerely; no explicit axiomatic characterisation, so AX is not coded here, but the paper has no other type. Revised: EQ and SB only."
+ },
+ "C2.1": {
+  "value": "votes; message profile; voting profile",
+  "loc": "Section 3 and 4.1",
+  "quote": "The profile of votes v is publicly announced"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 2 and 3",
+  "quote": "Each agent i votes for an option vi \u2208 A",
+  "note": "Binary vote for one of two options; plus nominations in the bloc mechanism; abstention extension."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2",
+  "quote": "Each agent has strict complete and reflexive preferences",
+  "note": "Preferences/types over A."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2 and 3",
+  "quote": "at least p + 1 agents who prefer the majority option are sincere",
+  "note": "Votes v_i and types/preferences are separate notation; agents may vote insincerely."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Sections 3-4",
+  "quote": "agent 1 deviates and votes v1\u2032 = a rather than v1 = b",
+  "note": "All analyses are equilibrium analyses where agents can misreport."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "Sections 3-4",
+  "quote": "none found",
+  "note": "C3.1 = ALL."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "Sections 3-4",
+  "quote": "none found",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Section 2",
+  "quote": "none found",
+  "note": "Input format is not among RANK/WEAK/APPR/DICH/PAIR (binary vote); utility is used only via SD."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 3-4",
+  "quote": "none found",
+  "note": "Evaluation is by implementation of the majority rule, not welfare criteria. Majority rule is the target SCC, not a welfare criterion."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "Sections 3-4",
+  "quote": "none found",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "MIXED",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 3.1, Example 1",
+   "quote_behav": "any agent with type \u03b8a has a profitable deviation",
+   "loc_info": "Sections 3.1-3.2",
+   "quote_info": "each agent believes that the types of other agents are i.i.d.",
+   "note": "Complete information in Prop 1,4,5; incomplete (i.i.d. beliefs) in Prop 2,6. The info code should be a single value: PARTIAL for incomplete analyses and COMPLETE for others; MIXED is not a valid code, so COMPLETE is chosen as first listed."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Options are only alternatives."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "Mechanism is fixed; no agent chooses."
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "note": "Authors design the mechanism, but the designer's choice or objective is not modelled as an agent."
+  },
+  "OTH": {
+   "present": "N",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Section 6",
+  "quote": "none found",
+  "note": "Only one type present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "none found",
+  "note": "C7.1 is NA."
+ },
+ "C8.1": {
+  "codes": [
+   "NE",
+   "SPE",
+   "BNE"
+  ],
+  "loc": "Section 2 and 3",
+  "quote": "Nash (resp. subgame perfect) implements a social choice correspondence",
+  "note": "Sequential equilibrium used for incomplete information; coded as BNE closest."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 2",
+  "quote": "sequential equilibrium (a formal definition is skipped)"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.1",
+    "quote": "a non-negligible share of voters regret their choice"
+   },
+   {
+    "loc": "Conclusion, p.8",
+    "quote": "so that the socially desirable option is always selected"
+   },
+   {
+    "loc": "Conclusion, p.8",
+    "quote": "determine to which extent the proposed mechanisms outperform the classic voting procedures"
+   }
+  ],
+  "note": "Claims about institutions, voter regret and desirability of the mechanism."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sections 2-3",
+  "quote": "we impose the mild restriction of stochastic dominance",
+  "note": "Needed assumptions (strategic voters, information, SD over lotteries) are stated; inputs-vs-preferences relation is explicit in the model."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": ""
+ }
+}

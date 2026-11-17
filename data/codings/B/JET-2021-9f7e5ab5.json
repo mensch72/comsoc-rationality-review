@@ -1,0 +1,177 @@
+{
+ "paper_id": "JET-2021-9f7e5ab5",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Section 1.1, p.1",
+  "quote": "unanimous and strategy-proof random rules on these domains",
+  "note": "Strategy-proof random social choice functions aggregating agents' preferences; a strategic property of voting rules."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SB"
+  ],
+  "primary": "AX",
+  "loc": "Section 3, Theorem 1, p.9",
+  "quote": "if and only if it is a TRM rule",
+  "note": "Characterization of unanimous and strategy-proof RSCFs. The main results are axiomatic, with strategy-proofness as a property."
+ },
+ "C2.1": {
+  "value": "preference profile",
+  "loc": "Section 2.1, p.5",
+  "quote": "A preference profile, denoted by PN = (P1 , . . . , Pn )"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK",
+   "WEAK"
+  ],
+  "loc": "Section 2.1 and Section 5, pp.4, 21",
+  "quote": "complete, reflexive, antisymmetric, and transitive binary relation (also called a linear order)",
+  "note": "Strict rankings for most results; weak preferences with a plateau of at most two at the top in Section 5."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 1.1, p.1",
+  "quote": "based on preferences of individuals in a society",
+  "note": "Preferences are the agents' attitudes, and strategy-proofness refers to misreporting them."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2.2, footnote 4, p.7",
+  "quote": "misreporting his/her preference will be first order stochastically dominated by the original/sincere outcome",
+  "note": "Strategy-proofness is defined by comparing a true preference Pi against a misreport Pi', so the two are separate objects."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Section 2.2 and Theorems 1-3",
+  "quote": "strategy-proof if for all i \u2208 N, all PN \u2208 D n , all Pi\u2032 \u2208 D",
+  "note": "All results concern strategy-proofness, which considers misreports."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "none found",
+  "note": "C3.1 = ALL."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "none found",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "No utility, welfare, satisfaction or distortion notions are used for voters. Only ordinal preferences appear."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 2-5",
+  "quote": "none found",
+  "note": "Unanimity is an axiom and not a welfare criterion in the sense of the codebook. No welfare, distortion or representation evaluation appears."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "none found",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Section 2.2, p.7",
+   "quote_behav": "all Pi\u2032 \u2208 D, and all x \u2208 A",
+   "loc_info": "Sections 2.2 and 6",
+   "quote_info": "none found",
+   "note": "Agents may deviate to any Pi'; strategy-proofness means no profitable misreport. Information is not specified, although the dominance-based definition holds for any profile of the others."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Alternatives only."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "No acting organiser."
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "note": "The designer is mentioned only informally, as knowing the top-set (Remark 4.1). The designer's choice or objective is not modelled."
+  },
+  "OTH": {
+   "present": "N",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Section 2",
+  "quote": "none found",
+  "note": "Only one type present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "none found",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "DOM"
+  ],
+  "loc": "Section 2.2, p.7",
+  "quote": "An RSCF is strategy-proof if for all i \u2208 N",
+  "note": "Strategy-proofness is defined via first-order stochastic dominance, which is a dominant-strategy notion."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 2.2, footnote 4, p.7",
+  "quote": "Our notion of strategy-proofness (which is introduced in Gibbard (1977))"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 1.2, p.4",
+    "quote": "This property can be utilized in finding the optimal RSCFs for a society."
+   },
+   {
+    "loc": "Section 1.1, p.2",
+    "quote": "many political and economic scenarios where preferences of individuals satisfy natural restrictions"
+   }
+  ],
+  "note": "The claims about real-world relevance are weak and concern the applicability of the domains."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sections 1.1, 1.2",
+  "quote": "none found",
+  "note": "The claims about applicability and optimal rules are supported by the formal results and the domain definitions; no unstated modelling assumption is needed."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "No procedural-reading statement."
+ }
+}

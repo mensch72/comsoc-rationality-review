@@ -1,0 +1,225 @@
+{
+ "paper_id": "COMSOC-2025-555abc91",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Section 1, p.1",
+  "quote": "computing committees that provide Proportional Justified Representation + (PJR+)",
+  "note": "Multiwinner approval voting; algorithmic study of committee selection with elicitation of voters' approvals."
+ },
+ "C1": {
+  "types": [
+   "AL"
+  ],
+  "primary": "AL",
+  "loc": "Section 6, Theorem 4, p.7",
+  "quote": "Algorithm 2 finds a PJR+ committee with O(log(\u03c3k)) queries per voter",
+  "note": "Query-complexity algorithms with probabilistic analysis. PJR+ is verified by the algorithm, but this is a property guarantee of the output, not an axiomatic characterisation."
+ },
+ "C2.1": {
+  "value": "approval ballot; approval set A(v) (approval interval)",
+  "loc": "Section 4, Definition 5, p.4",
+  "quote": "the voter\u2019s approval ballot is defined as A\u2217 (v) = [av , bv ]"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Section 3, Definition 1, p.3",
+  "quote": "maps each voter to the set of candidates she approves",
+  "note": "Approval sets that are intervals (CI preferences). The paper also links them to dichotomous preferences, but the input is coded as approval sets."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Abstract; Section 1, p.1",
+  "quote": "voters may struggle to determine their preferences over the entire slate",
+  "note": "Preferences are referred to as held, and voters are asked about them via queries."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 3-4, pp.3-4",
+  "quote": "voters and candidates are associated with points in R",
+  "note": "Approval sets are treated as voters' preferences and the rule is applied directly. Voters answer queries and no statement is made about truthful reporting or misreporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 4-6",
+  "quote": "none found",
+  "note": "No analysis considers misreporting. Voters answer queries as the model dictates."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 3, 4, 7",
+  "quote": "none found",
+  "note": "No statement that voters submit their held attitude truthfully."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "Section 3-7",
+  "quote": "none found",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "The paper uses no utility, welfare or satisfaction notion for voters. PJR+ is defined purely on approval sets."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "Section 3, after Definition 4, p.4",
+  "quote": "single-peaked preferences in the dichotomous setting",
+  "note": "The term 'dichotomous' appears only in passing as context for CI preferences. The paper does not use dichotomous preferences as an input format or discuss what the two classes represent. Coded NA."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 3, Definition 2, p.3",
+  "quote": "there is no group of voters who (i) deserve \u2113 representatives",
+  "note": "PJR+ is a proportionality and representation criterion evaluated in Theorem 4. The core is also used in Corollary 3."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 3, Definitions 2-3, p.3",
+  "quote": "A : V \u2192 2C is a function that maps each voter to the set of candidates she approves",
+  "note": "PJR+ is evaluated on approval sets A(v), with no statement relating them to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 4.1, p.5",
+   "quote_behav": "A point query Point(x, v) asks voter v whether they approve candidate position x",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters answer queries according to their sampled approval interval. The behaviour is fixed by the model and not discussed in words as sincere."
+  },
+  "CAN": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Candidates are only alternatives."
+  },
+  "ORG": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 6, Algorithm 2, p.8",
+   "quote_behav": "Algorithm 2: Finding a PJR+ committee",
+   "note": "The mechanism or elicitor runs a fixed algorithm that chooses queries. It optimises no objective of its own. Counted as ORG, since it chooses queries adaptively and acts as the election authority.",
+   "loc_info": "",
+   "quote_info": ""
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "The designer's objective is not modelled explicitly."
+  },
+  "OTH": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "N",
+  "loc": "Section 6",
+  "quote": "none found",
+  "note": "Neither voters nor the organiser are strategic."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 \u2260 Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.1",
+    "quote": "which (if any) fairness guarantees can be provided under reduced communication"
+   },
+   {
+    "loc": "Section 7, p.12",
+    "quote": "O(log \u03c3k) is a reasonable measure of what a voter can evaluate"
+   },
+   {
+    "loc": "Section 1, p.1",
+    "quote": "still provide guarantees on the social desirability of the outcome"
+   }
+  ],
+  "note": "The claims concern fairness guarantees, voter cognitive burden and the social desirability of outcomes."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 1, p.1; Section 7, p.12",
+  "quote": "The query complexity, as defined in our work, can be seen as a crude heuristic",
+  "note": "The fairness claim towards voters needs an assumption that voters' answers reflect their true preferences, and this is not stated. The claim about cognitive burden is hedged as a heuristic. The RIV distribution is stated as an assumption."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "The paper makes no statement about a procedural reading."
+ }
+}

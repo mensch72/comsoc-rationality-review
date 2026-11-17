@@ -1,0 +1,172 @@
+{
+ "paper_id": "COMSOC-2021-347f9e9f",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1; Section 2, p.6",
+  "quote": "identify a strongly supported proposal from a space of alternatives",
+  "note": "Borderline. A deliberation and coalition-formation process aggregates agents' approvals of proposals into a collective choice of the most-supported proposal, framed as pre-vote deliberation."
+ },
+ "C1": {
+  "types": [
+   "OT"
+  ],
+  "primary": "OT",
+  "loc": "Introduction, p.2; Table 1, p.3",
+  "quote": "the deliberation process is guaranteed to terminate",
+  "note": "Main results are termination bounds and success guarantees for coalition-formation dynamics (transition systems) in various metric spaces. This analysis of non-strategic dynamics fits none of the listed types well."
+ },
+ "C2.1": {
+  "value": "approval set; proposals agents approve/support; deliberative coalition structure",
+  "loc": "Section 2, p.4",
+  "quote": "the set X v is the approval set of v"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Section 2, p.4",
+  "quote": "when x >v r we say that v approves x",
+  "note": "Approvals are derived from agents' locations in a metric space: v approves x iff x is closer to v than the status quo."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.4",
+  "quote": "an agent v is able to articulate whether she (strictly) prefers",
+  "note": "Preferences over the status quo and agent locations (ideal points) in a metric space."
+ },
+ "C2.4": {
+  "code": "IDS",
+  "loc": "Section 8, p.12",
+  "quote": "agents are not strategic: they truthfully reveal whether they support",
+  "note": "Approval is defined as preferring x to the status quo. The conclusion states truthful revelation; abstracting from strategic issues is stated without justification."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Section 8, p.12; Related Work, p.3",
+  "quote": "in our current model agents are not strategic",
+  "note": ""
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Section 8, p.12",
+  "quote": "they truthfully reveal whether they support a given proposal",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Related Work, p.3; Section 8, p.12",
+  "quote": "strategic issues that may arise during communication",
+  "note": "The paper says it abstracts away from strategic issues and flags game-theoretic extension as future work; no justification is given."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No utility, welfare, satisfaction, cost or distortion notions are used for voters; only distances determine approval."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Definition 5, Section 2, p.6",
+  "quote": "the set of most-supported alternatives is M \u2217 = argmaxx\u2208X\\{r} |V x |",
+  "note": "Success is defined by maximum approval support. This is not framed as welfare, efficiency, satisfaction, representation or distortion."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 8, p.12",
+   "quote_behav": "in our current model agents are not strategic",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Agents move between coalitions via permitted transitions. Moves are motivated as 'myopically optimize the size of their coalition', but the paper explicitly says agents are not strategic and analyses all runs."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N",
+   "note": "An external mediator is mentioned informally but not modelled."
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters (agents) are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.3",
+    "quote": "provides formal foundations for the design and development of practical systems"
+   },
+   {
+    "loc": "Introduction, p.2",
+    "quote": "complex deliberative spaces require more sophisticated coalition formation abilities"
+   },
+   {
+    "loc": "Section 8, p.12",
+    "quote": "a foundation for the study of mechanisms and systems allowing communities"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 8, p.12",
+  "quote": "they truthfully reveal whether they support a given proposal",
+  "note": "Needed assumptions: approvals reflect preferences over the status quo, agents are non-strategic, and agents follow the specified transitions. All are stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Section 2; Section 8",
+  "quote": "none found",
+  "note": ""
+ }
+}

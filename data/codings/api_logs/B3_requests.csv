@@ -1,0 +1,4 @@
+paper_id,model,mode,prompt_tokens,completion_tokens,reasoning_tokens,cost,status
+JET-2021-7ee9c91b,anthropic/claude-sonnet-5.5-20260928,batch,39663,5276,2955,,ok
+SCW-2024-e2395b6d,anthropic/claude-sonnet-5.5-20260928,batch,36716,732,0,,ok
+SCW-2022-305481fc,anthropic/claude-sonnet-5.5-20260928,batch,51549,6074,3264,,ok

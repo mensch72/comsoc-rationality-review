@@ -1,0 +1,182 @@
+{
+ "paper_id": "AAMAS-2025-4a1fc041",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Section 2, p.206",
+  "quote": "agents then submit their preferences to a publicly known selection rule",
+  "note": "Spatial social choice selection rules (1-Median, 1-Mean) aggregating agents' submitted ideal points; strategic aspects (manipulation, price of anarchy). Borderline voting but about voting/social choice mechanisms."
+ },
+ "C1": {
+  "types": [
+   "SB",
+   "EQ",
+   "WD"
+  ],
+  "primary": "WD",
+  "loc": "Sections 3-6; Abstract",
+  "quote": "We use the price of anarchy to measure how much strategic behavior impacts",
+  "note": "Main results are price-of-anarchy bounds (WD) on Nash equilibria (EQ); strategy-proofness results (SB) are also present."
+ },
+ "C2.1": {
+  "value": "submitted preferences / submitted ideal points / submitted profile",
+  "loc": "Section 2.1, p.207",
+  "quote": "agent \ud835\udc63 submits a submitted ideal point \ud835\udf0b\u00af\ud835\udc63 \u2208 X"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 2, p.206",
+  "quote": "Each agent \ud835\udc63 \u2208 \ud835\udc49 has an ideal point \ud835\udf0b \ud835\udc63 \u2208 X",
+  "note": "Input is an ideal point in R^k (spatial); does not fit the listed formats."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.206",
+  "quote": "Each agent \ud835\udc63 \u2208 \ud835\udc49 has an ideal point \ud835\udf0b \ud835\udc63 \u2208 X",
+  "note": "Sincere ideal points and cost functions are held attitudes."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2.1, p.206-207",
+  "quote": "In practice, agents will not necessarily submit honest preferences.",
+  "note": "Separate notation: sincere \u03c0_v vs submitted \u03c0\u0304_v."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Section 2.1; Sections 4-6",
+  "quote": "A set of submitted preferences \u03a0\u0304 forms a pure strategy Nash equilibrium",
+  "note": "All main analyses (price of anarchy at equilibria) consider submitted inputs that differ from ideal points. Strategyproofness results also consider deviation."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "C3.1 = ALL",
+  "quote": "none found",
+  "note": "C3.1 = ALL"
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "C3.2 not STATED",
+  "quote": "none found",
+  "note": "NA"
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Section 2",
+  "quote": "none found",
+  "note": "Input format is not among RANK/WEAK/APPR/DICH/PAIR."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "Term dichotomous preferences not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2.2, Definition 2.2, p.207",
+  "quote": "how much worse an outcome obtained from a Nash equilibrium is",
+  "note": "Price of anarchy with respect to social cost (welfare-type criterion) at sincere profile."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Definition 2.2, p.207",
+  "quote": "\ud835\udc36 (\u03a0, \ud835\udc5f ( \u03a0\u0304))",
+  "note": "Social cost evaluated on sincere ideal points, defined separately from the submitted profile."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "IMPLICIT",
+   "loc_behav": "Section 2.1, p.206",
+   "quote_behav": "agent 2 can misrepresent their ideal point to result in a strictly better outcome",
+   "loc_info": "Section 2.1, p.207",
+   "quote_info": "It is common knowledge that a central decision mechanism",
+   "note": "Nash equilibrium in pure strategies; full information about others' inputs is inferred from the NE concept and not stated in words. Common knowledge is stated only for the mechanism."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Outcomes are points in X, not acting candidates."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "Mechanism is fixed."
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "note": "Designer's choice of domain/tie-breaking is discussed but no explicit designer objective modelled as an agent."
+  },
+  "OTH": {
+   "present": "N",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "C6",
+  "quote": "none found",
+  "note": "Only one type present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "C7.1",
+  "quote": "none found",
+  "note": "NA"
+ },
+ "C8.1": {
+  "codes": [
+   "NE",
+   "DOM"
+  ],
+  "loc": "Section 2.1 and Section 3",
+  "quote": "A set of submitted preferences \u03a0\u0304 forms a pure strategy Nash equilibrium",
+  "note": "Also minimally dishonest NE refinement; strategy-proofness (DOM) in Theorem 4.3."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 2.1, p.207",
+  "quote": "forms a pure strategy Nash equilibrium"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract",
+    "quote": "uncover a class of selection rules that are immune to the negative"
+   },
+   {
+    "loc": "Introduction, Section 1.1",
+    "quote": "manipulation has no impact on the quality of the outcome"
+   },
+   {
+    "loc": "Conclusion, Section 7",
+    "quote": "we propose that the price of anarchy be one of the criteria"
+   }
+  ],
+  "note": "Claims about which rules/criteria to use and mechanism design implications."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sections 2.1, 3",
+  "quote": "agent \ud835\udc63\u2019s cost of the outcome \ud835\udc5f ( \u03a0\u0304) is \ud835\udc50 \ud835\udc63 (\ud835\udc5f ( \u03a0\u0304))",
+  "note": "Needed assumptions (agents are strategic NE players with cost relative to sincere ideal point, minimal dishonesty refinement) are stated in the model."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "Paper explicitly models sincere vs submitted preferences."
+ }
+}

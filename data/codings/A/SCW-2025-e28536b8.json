@@ -1,0 +1,10 @@
+{
+ "paper_id": "SCW-2025-e28536b8",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "INELIG",
+  "loc": "Sect. 1 Introduction, p. 722; Sect. 3, Definition 1, p. 727",
+  "quote": "a map that associates to any coalitional ranking",
+  "note": "The paper is an axiomatic study of social ranking solutions. These map a single ranking of coalitions of players to a binary relation over the individual players. They are ordinal power or relevance measures, not procedures aggregating several agents' inputs into a collective decision by voting. CP-majority is described with metaphorical coalition 'voters', and the application ranks parties' power in a bicameral legislature. Neither makes the object a voting procedure aggregating agents' inputs. Coding stopped per C0."
+ }
+}

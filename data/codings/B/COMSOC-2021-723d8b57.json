@@ -1,0 +1,175 @@
+{
+ "paper_id": "COMSOC-2021-723d8b57",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "We study approval-based committee elections",
+  "note": "Computational complexity and experimental evaluation of ABC rules."
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "SI"
+  ],
+  "primary": "AL",
+  "loc": "Abstract; Sections 4-5",
+  "quote": "we ask for the complexity of computing election results",
+  "note": "NP-hardness results plus a simulation-based visualization on synthetic ideal points. Roughly equal; AL listed first."
+ },
+ "C2.1": {
+  "value": "approval sets",
+  "loc": "Section 2, p.2",
+  "quote": "the approval set of v"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR",
+   "DICH"
+  ],
+  "loc": "Section 1, p.1; References",
+  "quote": "We consider the approval preference model",
+  "note": "DICH only through the cited title 'Structure in dichotomous preferences'; input is approval sets."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 3, p.4",
+  "quote": "the point xa describes a's ideal position",
+  "note": "Ideal points and radii are held positions that generate approval sets."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 1, p.1",
+  "quote": "each voter specifies a subset of candidates that he or she finds suitable",
+  "note": "Approval sets are derived from ideal points and radii; rules applied directly; no statement on sincerity or reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 4-5",
+  "quote": "none found",
+  "note": "No analysis considers misreporting."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 2, 3, 6",
+  "quote": "none found",
+  "note": "No statement that voters submit their held attitude."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Sections 2-5",
+  "quote": "",
+  "note": "The paper does not use utility, welfare, satisfaction or distortion for voters in a way that triggers applicability; the approval link is geometric. Mentions of 'satisfy the voters' are informal."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "Sections 1-6",
+  "quote": "",
+  "note": "Term 'dichotomous preferences' appears only in a cited title."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 5.2, p.8",
+  "quote": "PAV seeks proportional representation",
+  "note": "Rules are evaluated experimentally on proportionality and diversity of the resulting committees across the space (e.g. asymmetric Gaussians 'highlight rules' abilities to choose proportional results')."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 5.2",
+  "quote": "one would expect a proportional rule to choose more candidates from there",
+  "note": "Evaluation is on the generated approval profiles and ideal point positions; no statement relating the input to a held attitude."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters are generated inputs only; they take no action in the model."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates are only alternatives."
+  },
+  "ORG": {
+   "present": "N",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Section 6",
+  "quote": "",
+  "note": "No stakeholder types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 6, p.8",
+    "quote": "one should not force the voters to approve a fixed number of candidates"
+   },
+   {
+    "loc": "Section 1, p.2",
+    "quote": "AV might have some deficiencies as a rule to choose individually excellent candidates"
+   }
+  ],
+  "note": "Claims about which protocol or rule to use."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sections 1, 5.2, 6",
+  "quote": "none found",
+  "note": "Claims about quality of committees need that approval sets reflect voters' views, i.e. the input-held-attitude relation, and that Euclidean distance indicates desirability; the paper states the geometric generation but not an input-attitude relation, and results depend on the synthetic distributions."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 2-6",
+  "quote": "none found",
+  "note": ""
+ }
+}

@@ -1,0 +1,162 @@
+{
+ "paper_id": "GEB-2024-b62ae4ec",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "1 Introduction, p.1",
+  "quote": "select one member of the group based on nominations from within",
+  "note": "Selection of a group member by aggregating nominations; impartial selection mechanisms."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SB",
+   "WD"
+  ],
+  "primary": "WD",
+  "loc": "Abstract, p.1; 1.1, p.2-3",
+  "quote": "a deterministic mechanism with an additive performance guarantee",
+  "note": "Main results are additive guarantees (upper and lower bounds) for impartial mechanisms. The lower bounds come via an axiomatic impossibility (weak unanimity vs impartiality). Impartiality is an incentive property."
+ },
+ "C2.1": {
+  "value": "nomination graph; nominations",
+  "loc": "1 Introduction, p.1",
+  "quote": "takes such a nomination graph as input"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "1 Introduction, p.2",
+  "quote": "the more general approval setting, where outdegrees can be arbitrary",
+  "note": "Input is a directed graph; each vertex's out-neighbourhood is its approval/nomination set over other agents. The plurality setting is the special case of outdegree one."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "1 Introduction, p.1",
+  "quote": "motivated not to reveal their true opinion on who should win",
+  "note": "Held attitude ('true opinion') mentioned informally."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "1 Introduction, p.1",
+  "quote": "motivated not to reveal their true opinion on who should win",
+  "note": "Text says submitted nominations may differ from true opinions. The formal model has no separate notation for held attitudes."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "2 Preliminaries, p.4; 3, p.10",
+  "quote": "the outgoing edges of a vertex have no influence on its selection",
+  "note": "The impartiality analyses compare graphs differing in one voter's outgoing edges. The additive-guarantee analyses evaluate the submitted graph without such deviations."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "1 Introduction; 2 Preliminaries; 3; 4 (end), pp.1-28",
+  "quote": "none found",
+  "note": "The intro motivates impartiality as allowing voters to express true opinions. It never states that voters submit them."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No utility, welfare, satisfaction, cost or distortion for voters is used."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "2 Preliminaries, p.4",
+  "quote": "the indegree of the choice of f differs from the maximum indegree",
+  "note": "Outcomes are evaluated by additive approximation of the maximum indegree. This is not framed as welfare, satisfaction, efficiency, representation or distortion."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NS",
+   "behav_stated": "NA",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "2 Preliminaries, p.4",
+   "quote_behav": "maps each graph to a subset of its vertices",
+   "loc_info": "2 Preliminaries; 3, pp.4-10",
+   "quote_info": "none found",
+   "note": "Voters cast nominations. Mechanisms are studied over all graphs, and no behavioural model of voters is specified."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates coincide with voters; no separate candidate actions."
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N",
+   "note": "Mechanisms are designed by the authors; no designer choice or objective is modelled within the model."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type coded STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "N",
+  "claims": [],
+  "note": "Abstract, introduction and closing remarks state formal results. Real-world examples (papal conclave, FIFA) serve only as motivation. No conclusion section."
+ },
+ "C9.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C9.1 = N."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "1 Introduction; 2 Preliminaries; 4, pp.1-28",
+  "quote": "none found",
+  "note": ""
+ }
+}

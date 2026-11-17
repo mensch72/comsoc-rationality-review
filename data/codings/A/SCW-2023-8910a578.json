@@ -1,0 +1,173 @@
+{
+ "paper_id": "SCW-2023-8910a578",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Sect. 2, p. 101",
+  "quote": "An approval-based election E = (C, V) consists of a non-empty set",
+  "note": "Approval-based shortlisting rules with a variable number of winners."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SI",
+   "EM"
+  ],
+  "primary": "AX",
+  "loc": "Abstract, p. 97",
+  "quote": "We axiomatically analyze established and new shortlisting methods and complement",
+  "note": "Proposition 1 also shows polynomial-time computability of q-NCSA. This is a minor side result, so AL was not coded. EM covers the Hugo Awards real-world data."
+ },
+ "C2.1": {
+  "value": "approval ballots; approval-based election",
+  "loc": "Sect. 2, p. 101",
+  "quote": "an n-tuple of approval ballots V = (v1 , \u2026 , vn )"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Sect. 2, p. 101",
+  "quote": "If cj \u2208 vi , we say that voter i approves candidate cj",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sect. 1, p. 98",
+  "quote": "However, voters have only a noisy perception of these values.",
+  "note": "Voters' perceptions of candidate quality are a held attitude. Sect. 5 also models perception and bias."
+ },
+ "C2.4": {
+  "code": "IDS",
+  "loc": "Sect. 1, p. 98",
+  "quote": "a group of voters announce their preferences by specifying which alternatives",
+  "note": "Ballots are described as announcing what voters view as worthy, with no reason given at that point. IDU would be the close alternative."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sect. 6.3, p. 131",
+  "quote": "We have not considered strategic voting in this paper",
+  "note": ""
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Sect. 1, p. 98",
+  "quote": "a group of voters announce their preferences by specifying which alternatives",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "INC",
+  "loc": "Sect. 6.3, p. 131",
+  "quote": "while strategyproofness is usually not important in election with independent experts",
+  "note": "This incentive-type argument appears only in the future-work section."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Sects. 1, 2, 5, 6",
+  "quote": "",
+  "note": "None of utility, welfare, satisfaction, cost, distortion or intensity is used for voters in the model. Private utilities appear only for parties in the related work."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sect. 2, p. 103",
+  "quote": "efficient shortlists are Pareto efficient among shortlists of the same size",
+  "note": "The Efficiency axiom is argued from the voters' perspective, with a Pareto argument on approval sets."
+ },
+ "C5.2": {
+  "code": "INPUT-STATED",
+  "loc": "Sect. 2, p. 103",
+  "quote": "Efficiency can also be argued for from the perspective of voters",
+  "note": "Evaluated on approval ballots; C2.4 = IDS."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sect. 6.3, p. 131",
+   "quote_behav": "We have not considered strategic voting in this paper",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Approvals are generated from perceived quality in the simulations."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p. 97",
+    "quote": "Our results lead to recommendations which shortlisting methods to use"
+   },
+   {
+    "loc": "Sect. 6.2, p. 130",
+    "quote": "Overall, we recommend three shortlisting methods based on our analysis"
+   },
+   {
+    "loc": "Sect. 6.2, p. 130",
+    "quote": "Increasing Size Priority appears to be the best choice."
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sect. 4.1, p. 112",
+  "quote": "we generally assume in shortlisting that the approval scores approximate",
+  "note": "Needed assumptions: approvals reflect voters' (noisy) judgement of quality, and voters are non-strategic. Both are stated; strategic voting is explicitly flagged as excluded."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sects. 1, 2, 6",
+  "quote": "none found",
+  "note": ""
+ }
+}

@@ -1,0 +1,178 @@
+{
+ "paper_id": "COMSOC-2023-d21c14b4",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "Approval-based committee (ABC) voting rules elect a fixed size subset of the candidates",
+  "note": "Axiomatic characterisation of ABC voting rules."
+ },
+ "C1": {
+  "types": [
+   "AX"
+  ],
+  "primary": "AX",
+  "loc": "Introduction, p.2",
+  "quote": "we characterize the class of sequential valuation rules that satisfy mild standard conditions",
+  "note": "All main results are characterisations."
+ },
+ "C2.1": {
+  "value": "approval ballots; approval profile",
+  "loc": "Section 2, p.3",
+  "quote": "voters report approval ballots Ai which are nonempty subsets of C"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR",
+   "DICH"
+  ],
+  "loc": "Section 2, p.3",
+  "quote": "every voter i \u2208 N has dichotomous preferences over the candidates",
+  "note": "Inputs are approval ballots; the model also states dichotomous preferences."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.3",
+  "quote": "every voter i \u2208 N has dichotomous preferences over the candidates",
+  "note": "Dichotomous preferences are mentioned as a held attitude."
+ },
+ "C2.4": {
+  "code": "IDS",
+  "loc": "Section 2, p.3",
+  "quote": "she partitions the candidates into approved and disapproved ones. Thus, voters report approval ballots",
+  "note": "The ballot is the reported partition; the identity is implied by 'Thus', with no reason given and no separate notation."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-5",
+  "quote": "none found",
+  "note": "No strategic voter analysis; rules are studied axiomatically."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Section 2, p.3",
+  "quote": "Thus, voters report approval ballots Ai which are nonempty subsets of C",
+  "note": "Borderline: the statement is in words, although the held attitude is not separately named."
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Section 2, p.3",
+  "quote": "none found",
+  "note": "No reason given."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "No voter utility, welfare, satisfaction or cost notion is used. The valuation function is a rule component, and 'satisfaction approval voting' is only a named rule."
+ },
+ "C4.2": {
+  "code": "N",
+  "loc": "Section 2, p.3",
+  "quote": "she partitions the candidates into approved and disapproved ones",
+  "note": "The term 'dichotomous preferences' is used. The two classes are described only as approved and disapproved, with no utility meaning given."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 2-4",
+  "quote": "none found",
+  "note": "Results are axiomatic. Clone-proportionality is a property of rules and is not presented as fairness to voters in a result."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters only supply ballots; no action in a game is modelled."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates are only alternatives."
+  },
+  "ORG": {
+   "present": "N",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "Fewer than two types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "n/a",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.1",
+    "quote": "if a voting rule satisfies desirable properties, it seems to be a good choice"
+   },
+   {
+    "loc": "Conclusion, p.7",
+    "quote": "Such characterizations are crucial for reasoning about which rule to use"
+   },
+   {
+    "loc": "Introduction, p.2",
+    "quote": "when the winning committees should be computed sequentially"
+   }
+  ],
+  "note": "The claims concern which rule should be used."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Conclusion, p.7",
+  "quote": "Such characterizations are crucial for reasoning about which rule to use",
+  "note": "The claims about rule choice follow from the axiomatic results without needing assumptions about held attitudes, strategic behaviour or information."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "No explicit procedural-reading statement found."
+ }
+}

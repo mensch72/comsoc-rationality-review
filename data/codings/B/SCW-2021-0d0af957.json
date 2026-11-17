@@ -1,0 +1,231 @@
+{
+ "paper_id": "SCW-2021-0d0af957",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p. 711",
+  "quote": "sequential voting (as in roll call votes) is theoretically preferable to simultaneous voting",
+  "note": "Strategic and experimental analysis of simultaneous vs sequential voting procedures with outside pressure."
+ },
+ "C1": {
+  "types": [
+   "EQ",
+   "SB",
+   "EM"
+  ],
+  "primary": "EM",
+  "loc": "Sects. 2-4, pp. 715-728",
+  "quote": "Experimental results, however, show severe deviations from the equilibrium strategy in sequential voting",
+  "note": "Equilibrium analysis (Props 1-3, mostly from prior work) plus a lab experiment with regression; experiments take most of the paper."
+ },
+ "C2.1": {
+  "value": "votes",
+  "loc": "Sect. 2, p. 715",
+  "quote": "players have two possible actions, called \u201cYes\u201d and \u201cNo.\u201d"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Sect. 2, Definition 1, p. 714",
+  "quote": "players have two possible actions, called \u201cYes\u201d and \u201cNo.\u201d",
+  "note": "Binary Yes/No vote on a single proposal; none of the listed formats fits."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sect. 2, Definition 2, p. 715",
+  "quote": "We define the true preference of N + as voting Yes",
+  "note": "True preferences, costs and benefits are held attitudes."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Sect. 1, p. 713; Definition 2",
+  "quote": "\u201ctrue preferences\u201d are simply defined under the assumption that the own vote is decisive",
+  "note": "Votes are separate from true preferences, and voting against true preferences is possible."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Sects. 2-4, pp. 715-723",
+  "quote": "Under complete information, sequential voting has a unique subgame perfect equilibrium",
+  "note": "Equilibrium analysis involves strategic voting; experimental voters choose freely."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "Sect. 2",
+  "quote": "none found",
+  "note": "C3.1 = ALL"
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C3.2 is not STATED"
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Sect. 2, p. 714",
+  "quote": "with ci , Gi , and Ri as cardinal utilities",
+  "note": "Input is a binary Yes/No vote (OTH), none of RANK, WEAK, APPR, DICH or PAIR, so the applicability condition fails."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sect. 4.1, p. 721; Sect. 4.3 p. 723",
+  "quote": "true majority results were generated 11-12 percentage points more often",
+  "note": "Rules are evaluated by true majority results, which is representation of voters' true preferences. Efficiency is also discussed (Sect. 4.3)."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Sect. 2, Definition 2(iv), p. 715",
+  "quote": "the result is the same as if all voters had voted according to their true preferences",
+  "note": "True majority is defined on held true preferences, separate from votes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Sect. 2, p. 714",
+   "quote_behav": "Players maximize their expected revenues",
+   "loc_info": "Sect. 3, p. 719",
+   "quote_info": "Every player decided under complete information",
+   "note": "Strategic equilibrium players in the theory; static true-preference, heuristic and emotional behavior is considered in the experimental analysis."
+  },
+  "CAN": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "ORG": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Outside pressure is represented only as voters' costs, not as an agent."
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Sect. 2",
+  "quote": "none found",
+  "note": "Only one agent type (voters) is present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C7.1 is not Y"
+ },
+ "C8.1": {
+  "codes": [
+   "NE",
+   "SPE",
+   "BND"
+  ],
+  "loc": "Sect. 2, pp. 715-717; Sect. 4.2",
+  "quote": "Sequential voting has a unique subgame perfect equilibrium",
+  "note": "Mixed and pure Nash equilibria in simultaneous voting; SPE in sequential voting; bounded rationality discussed for deviations."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Sect. 2.2, Prop. 3, p. 717",
+  "quote": "The sequential voting game has a unique subgame perfect equilibrium"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p. 711",
+    "quote": "sequential voting (as in roll call votes) is theoretically preferable to simultaneous voting"
+   },
+   {
+    "loc": "Sect. 5, p. 729",
+    "quote": "The clear theoretical superiority of sequential over simultaneous voting is not confirmed"
+   },
+   {
+    "loc": "Sect. 5, p. 730",
+    "quote": "be aware of structural differences but do not base your evaluations exclusively on theory"
+   }
+  ],
+  "note": "Claims about which procedure is preferable and about real roll-call institutions."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sects. 2-3, pp. 715-719",
+  "quote": "Every player decided under complete information",
+  "note": "Needed assumptions are stated: true preferences defined via costs and benefits, strategic voters, complete information, and the experimental design. The claims are about true majorities, defined on held preferences."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "The paper does not state a procedural-only reading."
+ }
+}

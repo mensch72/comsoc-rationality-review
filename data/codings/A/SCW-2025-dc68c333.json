@@ -1,0 +1,184 @@
+{
+ "paper_id": "SCW-2025-dc68c333",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "1 Introduction, p. 928",
+  "quote": "the task is to design a mechanism (or voting system)",
+  "note": "A jury of agents selects a collective winner through a sequential announcement (voting) mechanism; implementation-theoretic."
+ },
+ "C1": {
+  "types": [
+   "SB",
+   "EQ"
+  ],
+  "primary": "EQ",
+  "loc": "Abstract; Sect. 4, Theorem 1, p. 939",
+  "quote": "Mechanism 1 implements \u03d5 via backward induction",
+  "note": "Main results are a necessary condition and a mechanism for implementation via backward induction, i.e. properties of equilibria of the mechanism game."
+ },
+ "C2.1": {
+  "value": "messages / announcements (\"announces m1 \u2208 N\")",
+  "loc": "Sect. 2, p. 931; Sect. 4, p. 935",
+  "quote": "outcome function mapping the agents' messages to a final winner"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Sect. 4, Mechanism 1, p. 935",
+  "quote": "Stage 1: Agent 1 announces m 1 \u2208 N .",
+  "note": "The input is the announcement of a single candidate's name at each stage, or a choice between two candidates."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sect. 2, p. 930",
+  "quote": "Each agent i has a preference function Ri",
+  "note": "Preference functions and the deserving winner are held by the agents independently of their messages."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Sect. 2, pp. 930-931",
+  "quote": "g : M \u2192 N is an outcome function mapping the agents' messages",
+  "note": "Messages M_i are modelled separately from the preference functions R_i, and the paper discusses incentives to deceive."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "1 Introduction, p. 928",
+  "quote": "new incentives to deceive emerge to prevent their enemy",
+  "note": "All analyses concern backward induction equilibria of strategic jurors."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The input format is OTH (announcements); applicability condition not met."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sect. 2, p. 931; Sects. 3-4",
+  "quote": "none found",
+  "note": "The objective is selecting the exogenous deserving winner (the 'socially optimal rule'), not welfare, efficiency, representation or distortion of voters."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "IMPLICIT",
+   "loc_behav": "1 Introduction, p. 928",
+   "quote_behav": "each juror will strive to favor the candidate",
+   "loc_info": "Sect. 2, pp. 930-931",
+   "quote_info": "a finite sequential mechanism with perfect information implements",
+   "note": "The deserving winner is explicitly known to all jurors. Knowledge of other jurors' preferences is only implied by the use of backward induction under perfect information. Jurors are also the candidates; they are coded here only, as jurors."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates act only in their role as jurors, which is coded under VOT."
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "1 Introduction, p. 928",
+   "quote_behav": "the task is to design a mechanism (or voting system)",
+   "loc_info": "Sect. 2, p. 930",
+   "quote_info": "he does not know the actual functions",
+   "note": "The planner's objective (implementing the socially optimal rule) and its knowledge (the jury configuration and the admissible preference domain) are modelled explicitly."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "N",
+  "loc": "Sects. 2 and 4",
+  "quote": "none found",
+  "note": "Both present types (jurors and planner) are goal-directed; no type is modelled as non-strategic."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 \u2260 Y."
+ },
+ "C8.1": {
+  "codes": [
+   "SPE"
+  ],
+  "loc": "Sect. 2, p. 931",
+  "quote": "the only outcome reached via backward induction is \u03c9d",
+  "note": "Dominant strategies and Nash equilibrium are mentioned only in footnotes and related-work remarks, not as solution concepts of the main results."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Abstract; Sect. 2, p. 931",
+  "quote": "implement the deserving winner via backward induction"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "1 Introduction, p. 928",
+    "quote": "we propose a novel, simple, and natural mechanism"
+   },
+   {
+    "loc": "1 Introduction, p. 927",
+    "quote": "this identification between jurors and candidates occurs in some international"
+   },
+   {
+    "loc": "5 Concluding comments, p. 944",
+    "quote": "we have proposed a simple mechanism that successfully implements"
+   }
+  ],
+  "note": "Claims link the results to real competitions and juries (and to the papal election in a footnote) and recommend the proposed mechanism."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sect. 2, pp. 930-931",
+  "quote": "known to all agents but cannot be verified",
+  "note": "Stated: jurors are strategic, the deserving winner is commonly known, and the planner knows the jury configuration. Not stated in words: that jurors know each other's preference functions, which backward induction requires for the recommendation to apply to real juries."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sect. 2; Introduction; Sect. 5",
+  "quote": "none found",
+  "note": ""
+ }
+}

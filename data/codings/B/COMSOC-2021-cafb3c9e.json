@@ -1,0 +1,178 @@
+{
+ "paper_id": "COMSOC-2021-cafb3c9e",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Sec 1, p.1",
+  "quote": "assess qualities of various multiwinner election rules",
+  "note": "Multiwinner election rules evaluated by distortion and simulations."
+ },
+ "C1": {
+  "types": [
+   "WD",
+   "SI"
+  ],
+  "primary": "WD",
+  "loc": "Sec 4-5",
+  "quote": "we assess the worst-case loss of utility of multiwinner rules",
+  "note": "Distortion theorems and simulations of average utility. Axiomatic or strategic analysis is absent."
+ },
+ "C2.1": {
+  "value": "preferences of the voters over the candidates (preference rankings)",
+  "loc": "Sec 1, Sec 2.1",
+  "quote": "preference relation of vi, which is a linear order over C"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Sec 2.1",
+  "quote": "which is a linear order over C",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec 3",
+  "quote": "indicating her preferences over the issues",
+  "note": "Voters hold binary preferred outcomes on issues."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Sec 3",
+  "quote": "each instance of indirect elections can be interpreted as a simple election",
+  "note": "The ranking is derived from the issue preferences and the rules are applied directly. There is no talk of misreporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sec 3-5",
+  "quote": "none found",
+  "note": "No strategic voting is analysed."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sec 2, 3, Conclusion",
+  "quote": "none found",
+  "note": "The ranking is defined as consistent with issue preferences by the model, but sincere submission is not stated."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Sec 3",
+  "quote": "voter v ranks the candidates according to the number of issues",
+  "note": "The ranking is generated from the issue-agreement model, and utility is defined as the number of issues on which the committee agrees with the voter."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sec 3-5",
+  "quote": "define the utility of the voter vi from a committee W",
+  "note": "Utilitarian and Nash welfare, and distortion."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Sec 3, 4",
+  "quote": "comparing those decisions to the preferred outcomes of the voters",
+  "note": "Utility is evaluated on issue preferences, which are separate from the rankings."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters take no modelled action beyond their fixed rankings."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates are only alternatives."
+  },
+  "ORG": {
+   "present": "N",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "note": "The elected committee decides by majority but is not a strategic agent; its behaviour is fixed."
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Fewer than two types are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no strategic types."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Conclusion, p.8",
+    "quote": "STV performs much better."
+   },
+   {
+    "loc": "Sec 1, p.1",
+    "quote": "help societies to improve the processes of making collective decisions"
+   },
+   {
+    "loc": "Sec 1, p.2",
+    "quote": "proportional rules such as STV are always superior"
+   }
+  ],
+  "note": "Claims about which rule is better."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sec 1-3",
+  "quote": "none found",
+  "note": "The rule-choice claims need the assumption that submitted rankings are the voters' sincere rankings, and this is not stated. The majority-decision committee and the issue-space model are stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": ""
+ }
+}

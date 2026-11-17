@@ -1,0 +1,176 @@
+{
+ "paper_id": "GEB-2024-719b6233",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "we study the manipulation of tops-only rules",
+  "note": "Studies strategic properties (obvious manipulability) of voting rules."
+ },
+ "C1": {
+  "types": [
+   "SB",
+   "AX"
+  ],
+  "primary": "SB",
+  "loc": "Section 3, Theorem 1, p.8",
+  "quote": "A tops-only rule is NOM if and only if every veto",
+  "note": "The results characterise which rules satisfy non-obvious manipulability. This is an incentive property and also axiomatic in form."
+ },
+ "C2.1": {
+  "value": "preference profile; (preference) profile; preference report",
+  "loc": "Section 2.1, p.5",
+  "quote": "A (voting) rule is a function f : P n \u2212\u2192 X selecting"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2.1, p.5",
+  "quote": "Each agent i \u2208 N has a strict preference Pi over",
+  "note": "Strict preferences over X. In Section 4.2, X consists of subsets of objects."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Introduction, p.2",
+  "quote": "in the best interest of the agents to reveal their true preferences",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2.1, p.5",
+  "quote": "an alternative report Pi\u2032 \u2208 P is a (profitable) manipulation",
+  "note": "The true preference Pi and the reported preference Pi\u2032 are separate objects."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Section 2.2, p.6-7",
+  "quote": "A manipulation Pi\u2032 is obvious if",
+  "note": "Every main result concerns whether agents have obvious manipulations."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No utility, welfare, satisfaction, cost, distortion or intensity notions are used for voters. Efficiency is defined ordinally."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2.1, p.6; Corollaries 1-2, p.10",
+  "quote": "A rule f : P n \u2212\u2192 X is efficient if for each",
+  "note": "Efficiency appears as a hypothesis in Corollaries 1 and 2."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 2.1, p.6",
+  "quote": "there is no x \u2208 X such that xPi f ( P)",
+  "note": "Efficiency is evaluated on the rule's argument P. No statement says whether this profile is the reported or the true one."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NONE",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 2.2, p.6",
+   "quote_behav": "They try to describe those manipulations that are easily identifiable",
+   "loc_info": "Section 2.2, p.6",
+   "quote_info": "each agent has complete ignorance in this respect",
+   "note": "The ignorance assumption is attributed to Troyan and Morrill (2020) and adopted through the option-set definition."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N",
+   "note": "The designer is mentioned only in motivation and is not modelled."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "DOM",
+   "OTH"
+  ],
+  "loc": "Section 2.1-2.2, p.6-7",
+  "quote": "The rule f is not obviously manipulable (NOM) if it",
+  "note": "OTH = obvious manipulability (Troyan and Morrill), based on best and worst outcomes in option sets. Strategy-proofness is also defined and used."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 2.2, Definition 1, p.7",
+  "quote": "The rule f is not obviously manipulable (NOM)"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.3",
+    "quote": "it is important to identify which rules within these families obey"
+   },
+   {
+    "loc": "Introduction, p.4",
+    "quote": "identifying which rules are not obviously manipulable can be helpful"
+   },
+   {
+    "loc": "Introduction, p.2",
+    "quote": "are both useful in practice and extensively studied in the literature"
+   }
+  ],
+  "note": "The claims concern which rules a designer should consider when domain restrictions may fail."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 2.2, p.6",
+  "quote": "each agent focuses on the set of outcomes that can be",
+  "note": "The needed assumptions are that agents are strategic and ignorant of others' preferences. Both are stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction; Section 2; Section 5",
+  "quote": "none found",
+  "note": ""
+ }
+}

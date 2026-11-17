@@ -1,0 +1,159 @@
+{
+ "paper_id": "EC-2024-97e2ef87",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "1 Introduction, p.1",
+  "quote": "the algorithm has access only to ordinal information regarding the preferences",
+  "note": "Single-winner voting rules aggregating voters' rankings, evaluated by metric distortion."
+ },
+ "C1": {
+  "types": [
+   "WD"
+  ],
+  "primary": "WD",
+  "loc": "2 Model and Preliminaries, p.6",
+  "quote": "The distortion of ALG is the worst-case multiplicative approximation it achieves",
+  "note": "All main results are distortion, consistency or robustness bounds, i.e. approximation of optimal social cost. The learning-augmented algorithm design is assessed only through distortion."
+ },
+ "C2.1": {
+  "value": "preference profile (preference rankings)",
+  "loc": "2 Model and Preliminaries, p.6",
+  "quote": "ALG receives as input a preference profile \u03c3 which is induced"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "2 Model and Preliminaries, p.5",
+  "quote": "we have a preference ranking (bijection)",
+  "note": "An underlying weak preference relation is mentioned, but the input is a strict ranking (bijection). Section 4 adds a predicted optimal candidate as an extra non-voter input."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "2 Model and Preliminaries, p.5",
+  "quote": "the distance between a voter and a candidate quantifies how much",
+  "note": "Voter-candidate distances in a metric space are the held attitude."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "2 Model and Preliminaries, p.6",
+  "quote": "Importantly, ALG does not have access to the underlying distance function.",
+  "note": "The metric d and the ranking \u03c3 use separate notation, but \u03c3 is itself called the voters' 'preference ranking' (a held attitude) and the rule is applied to it directly. Nothing is said about submission or reporting. DIST could also be argued, but no submitted object distinct from held preferences is described."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "1 Introduction; 2 Model and Preliminaries; 4; 5 Conclusion",
+  "quote": "none found",
+  "note": "No strategic misreporting is considered anywhere in the paper."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "1 Introduction; 2 Model and Preliminaries; 5 Conclusion",
+  "quote": "none found",
+  "note": "The input is said to be induced by the metric. The paper never states in words that voters submit or report their true preferences."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "2 Model and Preliminaries, p.5",
+  "quote": "we write in this case that d is aligned with \u03c3v",
+  "note": "The metric generates both the costs (distances) and the rankings."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "2 Model and Preliminaries, p.6",
+  "quote": "The goal is to output a candidate that minimizes the social cost.",
+  "note": "Results evaluate rules by social cost and distortion."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "2 Model and Preliminaries, p.6",
+  "quote": "Importantly, ALG does not have access to the underlying distance function.",
+  "note": "Distortion is measured against the metric distances, which are defined separately from the ordinal input."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "2 Model and Preliminaries, p.6",
+   "quote_behav": "a preference profile \u03c3 which is induced by some (V, C, d)",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters' rankings are fixed by the metric. Their behaviour is not discussed in words."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N",
+   "note": "A designer choosing the confidence parameter \u03b4 is mentioned, but the designer's choice is not modelled as an agent's optimisation."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only one type (voters) is present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "N",
+  "claims": [],
+  "note": "Abstract, introduction and conclusion restate formal results and motivate the model, e.g. that designers may have historical data. No claims are made about real institutions, voter welfare, or which rule should be used."
+ },
+ "C9.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C9.1 is N."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "1 Introduction; 2 Model and Preliminaries; 5 Conclusion",
+  "quote": "none found",
+  "note": ""
+ }
+}

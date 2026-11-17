@@ -1,0 +1,176 @@
+{
+ "paper_id": "COMSOC-2025-e1a5a511",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "We propose a new voting mechanism for such juries",
+  "note": "Voting mechanism aggregating reported valuations; incentive compatibility."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SB",
+   "EQ",
+   "WD"
+  ],
+  "primary": "EQ",
+  "loc": "Section 4, Theorem 1",
+  "quote": "VCG Sortition Mechanisms are Bayesian incentive-compatible and utilitarian-optimal.",
+  "note": "Main results: Bayesian incentive compatibility (truthful BNE) and utilitarian efficiency at equilibrium. EQ chosen as primary; could be SB."
+ },
+ "C2.1": {
+  "value": "reports (reported type / valuation)",
+  "loc": "Section 3, p.5",
+  "quote": "each voter i \u2208 I is allowed to report a type"
+ },
+ "C2.2": {
+  "codes": [
+   "CARD"
+  ],
+  "loc": "Section 1, p.2",
+  "quote": "Our mechanism allows each voter to report a cardinal utility function",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 3, p.5",
+  "quote": "we denote her type by \u03b8_n^i \u2208 \u0398",
+  "note": "Types and vNM utilities are held."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 3, p.5",
+  "quote": "a type that may not be their true type",
+  "note": "Reported type separate notation from true type."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Section 4.1, Theorem 1",
+  "quote": "Bayesian incentive-compatible if every voter maximizes their expected utility",
+  "note": "Main analysis considers misreports and shows truthful BNE."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL"
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 not STATED"
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Input is cardinal; no ordinal formats."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 3, Definition 1",
+  "quote": "A Sortition Mechanism S is utilitarian efficient if:",
+  "note": "Utilitarian efficiency/social welfare is a formal criterion."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 3, Definition 1",
+  "quote": "\u03b8^n is the vector of true types in decision n",
+  "note": "Efficiency evaluated on true types' utilities, separate from reports."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 3, p.6",
+   "quote_behav": "every voter maximizes their expected utility by revealing their true type",
+   "loc_info": "Section 3, p.5",
+   "quote_info": "we assume this distribution, the discount factor and the members of the committee are known",
+   "note": "Voters know the type distribution (prior), not others' realized types."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only one type present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 not Y"
+ },
+ "C8.1": {
+  "codes": [
+   "BNE"
+  ],
+  "loc": "Section 4.1, Theorem 1",
+  "quote": "VCG Sortition Mechanisms are Bayesian incentive-compatible and utilitarian-optimal.",
+  "note": ""
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Abstract",
+  "quote": "utilitarian efficient outcomes at a Bayesian Nash equilibrium"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Conclusion, p.11",
+    "quote": "incentivize truthful voting behaviour at a Bayesian Nash equilibrium"
+   },
+   {
+    "loc": "Conclusion, p.12",
+    "quote": "may be suitable for a wider variety of applications"
+   },
+   {
+    "loc": "Introduction, p.1",
+    "quote": "This gives rise to the question of what voting rules could be desirable"
+   }
+  ],
+  "note": "Claims about applicability to citizen juries and committees, and desirability of the mechanism."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 3, p.5",
+  "quote": "each voter has the same discount factor \u03b4 \u2208 [0,1]",
+  "note": "Needed assumptions (held vNM utilities, truthful-vs-reported distinction, strategic voters, known distribution, large population approximation, discount) are stated in model."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Section 3",
+  "quote": "none found",
+  "note": "Paper does not state a procedural reading."
+ }
+}

@@ -1,0 +1,180 @@
+{
+ "paper_id": "COMSOC-2025-986b3900",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "deals with iterative voting under the plurality rule",
+  "note": "Strategic and computational aspects of plurality iterative voting."
+ },
+ "C1": {
+  "types": [
+   "SB",
+   "AL",
+   "SI",
+   "WD",
+   "EQ"
+  ],
+  "primary": "AL",
+  "loc": "Abstract; Sections 4-6",
+  "quote": "exploring the computational complexity of determining possible and necessary iterative winners",
+  "note": "Results: complexity (Thm 5.2, 5.3), probabilistic bounds on equilibrium (IAC/IC), Condorcet efficiency, small simulation. Primary is AL as a judgment call; probabilistic analysis is spread across types."
+ },
+ "C2.1": {
+  "value": "preference profile; ballot profile; truthful ballot",
+  "loc": "Section 3, p.3",
+  "quote": "Let bi \u2208 M denote the ballot submitted by voter i"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 3, p.3",
+  "quote": "represented by a linear order \u227bi over candidates",
+  "note": "Plurality ballots are single candidates (top choice), derived from linear order preferences; the held attitudes are strict rankings."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 3, p.3",
+  "quote": "Each voter i \u2208 N has preferences over candidates",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 3, p.3",
+  "quote": "Let b\u22a4 denote the truthful ballot profile",
+  "note": "Ballots b_i and preferences \u227b_i have separate notation; ballots can deviate from truthful."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "Section 4.2 and 6.2",
+  "quote": "how frequently the initial ballot profile is already an equilibrium",
+  "note": "Iterative analyses involve strategic deviations; the analysis of the truthful initial plurality winner (Condorcet efficiency baseline) is non-strategic."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Section 3, p.3",
+  "quote": "Initially, all voters vote truthfully",
+  "note": "Initial profile is truthful by assumption; the Condorcet efficiency of plain plurality is evaluated on truthful ballots."
+ },
+ "C3.3": {
+  "code": "CONV",
+  "loc": "Section 3, p.3",
+  "quote": "we examine the classical iterative voting model introduced by Meir et al. [22]",
+  "note": "Truthful start is part of the classical model cited; no incentive argument given."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Sections 3, 6",
+  "quote": "none found",
+  "note": "Social welfare is mentioned only in related work about other papers; the paper itself uses no utility notions for voters."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 6.2, p.11",
+  "quote": "Condorcet efficiency (CE) is defined as the probability of electing",
+  "note": "Condorcet efficiency as a quality criterion for outcomes; it is a majority-based criterion rather than one of the listed ones. Judged borderline and coded Y as an evaluation of outcome quality."
+ },
+ "C5.2": {
+  "code": "INPUT-STATED",
+  "loc": "Section 6.2, p.11",
+  "quote": "c\u2217 = WP (b0 ) | c\u2217 exists",
+  "note": "Condorcet winner is computed from preferences \u227b (held), compared to the winner from ballots; Condorcet winner is defined on the held preference profile, so it is evaluated on held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "IMPLICIT",
+   "loc_behav": "Section 1, p.1",
+   "quote_behav": "voters perform direct best responses when they are pivotal",
+   "loc_info": "Section 3, p.3",
+   "quote_info": "if i believes that voting for y will make candidate y the new winner",
+   "note": "Best responses are computed with respect to the current score vector, which implies knowledge of the current scores."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates are only alternatives."
+  },
+  "ORG": {
+   "present": "N",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Section 3",
+  "quote": "none found",
+  "note": "Only one type present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "Section 3",
+  "quote": "none found",
+  "note": "C7.1 is NA."
+ },
+ "C8.1": {
+  "codes": [
+   "ITER"
+  ],
+  "loc": "Section 3, p.3",
+  "quote": "We then consider a best response dynamics",
+  "note": ""
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Abstract, p.1",
+  "quote": "iterative voting under the plurality rule",
+  "note": "Iterative voting / best response dynamics named explicitly."
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.1",
+    "quote": "Condorcet efficiency of plurality is increased by considering its iterative voting version"
+   },
+   {
+    "loc": "Conclusion, p.12",
+    "quote": "our analysis also helps provide theoretical insights on how beneficial manipulation can be"
+   }
+  ],
+  "note": "Claims about the benefit of manipulation and the quality of the rule."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 3, p.3",
+  "quote": "Initially, all voters vote truthfully",
+  "note": "The claims need the model of strategic best-response voters with truthful start and the culture assumption (IC/IAC); these are stated. Condorcet winner is defined on held preferences, so no further link is needed."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No procedural-reading statement."
+ }
+}

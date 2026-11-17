@@ -1,0 +1,171 @@
+{
+ "paper_id": "IJCAI-2022-5e7bc3ad",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Sec 1",
+  "quote": "We consider multiwinner elections in Euclidean space using the minimax Chamberlin-Courant rule.",
+  "note": "Computational aspects of multiwinner voting rule."
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "WD"
+  ],
+  "primary": "AL",
+  "loc": "Abstract; Sec 4-5",
+  "quote": "We show that the problem is NP-hard in any dimension d \u2265 2",
+  "note": "Hardness and approximation algorithms are the main results. Approximation of the minimax score is coded as AL; WD is added because the minimax rank is an egalitarian objective."
+ },
+ "C2.1": {
+  "value": "preference list / ranking (ordinal preferences)",
+  "loc": "Sec 1, Sec 3",
+  "quote": "The preference list of each voter is a total ordering (ranking) of C"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Sec 3",
+  "quote": "The preference list of each voter is a total ordering (ranking) of C",
+  "note": "Rankings are induced by Euclidean positions. Positions are part of the input."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec 1, Remark",
+  "quote": "it seems harder to argue that v\u2019s preference varies linearly",
+  "note": "Voters have preferences/positions as held attitudes; the Euclidean embedding implicitly specifies the rankings."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Sec 1, Sec 3",
+  "quote": "implicitly specifying each voter\u2019s ranking (closest to farthest) of the candidates",
+  "note": "Rankings derived from preferences are used directly as the rule's input. Nothing is said about submission or reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No strategic misreporting is analysed."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sec 1, 3, 6",
+  "quote": "none found",
+  "note": "The paper does not state that voters submit their held attitude."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Sec 1, Sec 5.4",
+  "quote": "",
+  "note": "The paper uses ranks and distances as misrepresentation scores. It uses no utility, welfare or satisfaction notion for voters other than the 'satisfied' voter in the algorithm. The 'satisfied' notion there is purely a distance criterion. NA is the more defensible code."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sec 1, Sec 3",
+  "quote": "This scoring function is often called the misrepresentation score",
+  "note": "The minimax rank of voters' most preferred committee member is evaluated. This is a representation or egalitarian criterion."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Sec 3",
+  "quote": "a voter v\u2019s score for a committee T is the rank of its most preferred",
+  "note": "Evaluated on the rankings, which are the input. Nothing relates them to held attitudes. The cardinal distances in \u03b4-optimality are part of the geometric input."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters take no action in the model."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates are only alternatives."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "No organiser acts in the model. The committee is computed by an algorithm."
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N",
+   "note": "The designer's objective is not modelled as an agent."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Fewer than two types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Sec 1, Remark",
+    "quote": "the (rank-based) solution seems more equitable because outliers are matched"
+   },
+   {
+    "loc": "Sec 1",
+    "quote": "The problem encapsulates a number of applications that range from choosing representatives in democracies"
+   }
+  ],
+  "note": "Claims about equity of the ordinal measure and about applications. They are mostly motivational."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sec 1, Remark",
+  "quote": "it seems harder to argue that v\u2019s preference varies linearly",
+  "note": "The equity claim assumes that ranks derived from the embedding reflect voters' true preferences. It also assumes ordinal rank is the right measure of voters' well-being. Neither is stated as an assumption. Part of this is argued in the Remark."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No explicit procedural reading is stated."
+ }
+}

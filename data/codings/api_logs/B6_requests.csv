@@ -1,0 +1,3 @@
+paper_id,model,mode,prompt_tokens,completion_tokens,reasoning_tokens,cost,status
+COMSOC-2023-89b07d01,anthropic/claude-sonnet-5.5,sync,32445,1796,0,0.08285,ok
+SCW-2024-5c1f2968,anthropic/claude-sonnet-5.5,sync,32744,2114,0,0.086628,ok

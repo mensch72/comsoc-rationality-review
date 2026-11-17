@@ -1,0 +1,185 @@
+{
+ "paper_id": "COMSOC-2021-cdf3c939",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "This paper investigates the manipulative power of the polling agency.",
+  "note": "Manipulation of iterative plurality/veto elections via opinion polls."
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "SB",
+   "SI"
+  ],
+  "primary": "AL",
+  "loc": "Sec. 1, p.2; Sec. 5",
+  "quote": "Several restricted variants are considered with respect to their parameterized complexity.",
+  "note": "Complexity of poll manipulation (a strategic-behaviour problem) plus simulations of heuristics on impartial culture."
+ },
+ "C2.1": {
+  "value": "ballot; profile of ballots (rule applied to b); preference profile held separately",
+  "loc": "Sec. 2.1, p.3",
+  "quote": "each voter i is asked to submit a ballot bi \u2208 M"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Sec. 2.1, p.3",
+  "quote": "submit a ballot bi \u2208 M corresponding to a single candidate",
+  "note": "Ballot is a single candidate (approved under plurality, vetoed under veto)."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec. 2.1, p.3",
+  "quote": "Each voter i has strict ordinal preferences over the candidates",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Sec. 2.1, p.3",
+  "quote": "A profile of ballots is said to be truthful if each agent",
+  "note": "Ballots b are notated separately from preferences \u227b."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Sec. 2.1, p.3",
+  "quote": "agents can successively deviate from their current submitted ballot",
+  "note": "All main analyses concern the iterative winner after strategic deviations. The initial profile is truthful."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Input format is OTH. No utility notions are used for voters."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sec. 5",
+  "quote": "none found",
+  "note": "Condorcet/Borda winners serve only as target candidates. They are not used as welfare criteria."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Sec. 2.2, Def. 3, p.4",
+   "quote_behav": "A voter i deviates from ballot bti to ballot",
+   "loc_info": "Sec. 1, p.1",
+   "quote_info": "we assume that voters only have partial knowledge about the other ballots",
+   "note": "Myopic best-response or veto-winner deviations, made when the voter believes she is pivotal. The initial ballot is truthful."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Sec. 1, p.1",
+   "quote_behav": "the polling agency tries to make some distinguished candidate win",
+   "loc_info": "Sec. 1, p.1",
+   "quote_info": "reasonable to assume complete information for the polling agency, since it collects",
+   "note": "Polling agency is an external manipulator, not a voter."
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "N",
+  "loc": "Sec. 2.2\u20132.3",
+  "quote": "none found",
+  "note": "Both voters and polling agency are strategic."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 = N."
+ },
+ "C8.1": {
+  "codes": [
+   "ITER",
+   "DEV"
+  ],
+  "loc": "Sec. 2.1\u20132.3",
+  "quote": "We consider a strategic game called iterative voting",
+  "note": "Voters follow iterative best-response or veto-winner dynamics. The polling agency's manipulation is studied as a decision problem."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Sec. 2.2, Def. 3",
+  "quote": "Best response deviation (plurality)."
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Sec. 1, p.1",
+    "quote": "the opinion poll is critical, and hence the polling agency has"
+   },
+   {
+    "loc": "Sec. 1, p.2",
+    "quote": "This is particularly important when considering real-world problems."
+   },
+   {
+    "loc": "Sec. 6",
+    "quote": "voters may have a local information by their relatives"
+   }
+  ],
+  "note": "Claims about the power of real polling agencies and the role of social networks."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sec. 2.2, p.3",
+  "quote": "The voters trust the results communicated by the polling agency",
+  "note": "Needed assumptions: voters trust the poll and deviate myopically on partial information; the agency has complete information. All are stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sec. 1, 2, 6",
+  "quote": "none found",
+  "note": ""
+ }
+}

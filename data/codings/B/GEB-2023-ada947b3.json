@@ -1,0 +1,177 @@
+{
+ "paper_id": "GEB-2023-ada947b3",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Section 2",
+  "quote": "focuses on the strategic calculus of voting under such mechanisms",
+  "note": "Trimmed mean aggregation of reports into a collective decision; equilibrium analysis and a lab experiment."
+ },
+ "C1": {
+  "types": [
+   "SB",
+   "EQ",
+   "EM"
+  ],
+  "primary": "EQ",
+  "loc": "Sections 3, 5-6",
+  "quote": "each trimmed mechanism leads, essentially, to a unique equilibrium",
+  "note": "Main results are strong Nash equilibrium characterisation and comparative statics, plus a lab experiment."
+ },
+ "C2.1": {
+  "value": "reports; votes; strategy profile",
+  "loc": "Section 1; Section 2",
+  "quote": "several players submit some value in the unit interval"
+ },
+ "C2.2": {
+  "codes": [
+   "CARD"
+  ],
+  "loc": "Section 2",
+  "quote": "each player i submits a report si \u2208 [0, 1]",
+  "note": "Reports are real values in [0,1] (integers 1-100 in the experiment); the input format is cardinal/other."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2",
+  "quote": "Each player i has utility function ui in U",
+  "note": "Single-peaked preferences with peaks pi."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 4",
+  "quote": "Under sincere voting, si = pi , and under strategic voting we have, generically, si 6= pi",
+  "note": "Reports si and peaks pi have separate notation, and the text says they may differ."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "Section 4; Sections 3, 5",
+  "quote": "Sincere voting outcome of trimming",
+  "note": "Equilibrium and experimental analyses are strategic. Section 4 also computes sincere-voting outcomes as a comparison benchmark."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Section 4",
+  "quote": "Note that when voting is sincere si = pi .",
+  "note": "The sincere analyses are explicitly defined as si = pi."
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Section 4",
+  "quote": "Under sincere voting, si = pi",
+  "note": "Sincere voting is a benchmark; no reason is given."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Section 2",
+  "quote": "none found",
+  "note": "Input is cardinal (a real-valued report), not RANK/WEAK/APPR/DICH/PAIR."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 3, 5-6",
+  "quote": "none found",
+  "note": "Outcomes are evaluated by distance from the median peak and from the centre of the policy space. This is not a welfare, efficiency, representation or distortion criterion."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "Sections 3, 6",
+  "quote": "none found",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 4",
+   "quote_behav": "Under sincere voting, si = pi , and under strategic voting we have",
+   "loc_info": "Section 7",
+   "quote_info": "Our results were derived in a context of complete information",
+   "note": "Strategic in the equilibrium analysis and experiment; sincere in the benchmark comparison."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Section 2",
+  "quote": "none found",
+  "note": "Only the voter type is present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "Section 2",
+  "quote": "none found",
+  "note": "C7.1 is NA."
+ },
+ "C8.1": {
+  "codes": [
+   "NE",
+   "COAL",
+   "DOM"
+  ],
+  "loc": "Section 3",
+  "quote": "based on the concept of strong (Nash) equilibrium (Aumann, 1959)",
+  "note": "Strong Nash equilibrium is the main concept; Nash equilibrium is shown to be indeterminate; weak dominance of sincerity is noted for the median mechanism."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 3",
+  "quote": "based on the concept of strong (Nash) equilibrium (Aumann, 1959)"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract",
+    "quote": "call for caution\u2013 regarding its implementation"
+   },
+   {
+    "loc": "Section 1",
+    "quote": "our findings also call for caution when it comes to deciding"
+   },
+   {
+    "loc": "Section 1",
+    "quote": "the best way to induce the desired outcome"
+   }
+  ],
+  "note": "The claims concern real-life implementation and which mechanism to use."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 1; Section 7",
+  "quote": "the players' payoffs depend negatively on the distance between their peaks",
+  "note": "The claims rest on strategic voters with single-peaked preferences and complete information, all of which are stated. The paper also acknowledges incomplete information as a limit."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "The paper does not state a procedural reading."
+ }
+}

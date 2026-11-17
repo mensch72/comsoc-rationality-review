@@ -1,0 +1,131 @@
+{
+ "paper_id": "JET-2023-ada456a7",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "INELIG",
+  "loc": "Section 1 Introduction, p. 2; Section 3 The model, p. 7",
+  "quote": "a planner awards a single, indivisible, prize to one of n competing agents",
+  "note": "The main object is optimal mechanism design without money for allocating a single prize. Agents report binary signals about their own suitability, and the planner maximises the probability of picking a suitable agent using external referee signals. This is an allocation and screening problem (cf. costly-verification and assignment literature), not a procedure aggregating agents' inputs into a collective decision by voting. A secondary peer-evaluation section resembles impartial peer selection, but most main results (Theorem 1, Propositions 1, 4, 5) concern self-reports of private types. Coding stopped per C0."
+ },
+ "C1": {
+  "types": [],
+  "primary": "",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C2.1": {
+  "value": "",
+  "loc": "",
+  "quote": ""
+ },
+ "C2.2": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C3.1": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C3.2": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C4.1": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C4.2": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C5.1": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C5.2": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C6": {
+  "VOT": {},
+  "CAN": {},
+  "ORG": {},
+  "DIS": {},
+  "BRI": {},
+  "DES": {},
+  "OTH": {}
+ },
+ "C7.1": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C7.2": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.2": {
+  "code": "",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "",
+  "claims": [],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C10.1": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ }
+}

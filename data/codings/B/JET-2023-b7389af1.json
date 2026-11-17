@@ -1,0 +1,229 @@
+{
+ "paper_id": "JET-2023-b7389af1",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Section 3, p.10",
+  "quote": "the legislators voting for or against the proposal",
+  "note": "Borderline. The main object is informational lobbying, but the model includes a legislative vote under an M-majority requirement, and results are tied to that requirement. Coded ELIG."
+ },
+ "C1": {
+  "types": [
+   "EQ",
+   "WD"
+  ],
+  "primary": "EQ",
+  "loc": "Sections 4-6",
+  "quote": "The solution concept is (pure-strategy) Perfect Bayesian equilibrium",
+  "note": "Equilibrium stopping rule and search sequence are the main results. Section 6.1 compares legislators' expected payoffs with and without lobbying (welfare)."
+ },
+ "C2.1": {
+  "value": "vote (voting strategy: vote for or against the proposal)",
+  "loc": "Section 3, p.10",
+  "quote": "the legislators voting for or against the proposal"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 3, p.10",
+  "quote": "the legislators voting for or against the proposal",
+  "note": "Binary vote in favor of or against a single allocation proposal."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 3, p.10",
+  "quote": "Each district has a valuation of the goods",
+  "note": "Districts have valuations and legislators have payoffs u_n(g)."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Sections 3-4, pp.10-12",
+  "quote": "votes in favor of the proposal if she is better off",
+  "note": "Votes (voting strategy) and valuations/payoffs are separate objects with separate notation."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Section 4, p.12",
+  "quote": "votes in favor of the proposal if she is better off",
+  "note": "Legislators vote for the proposal iff it improves their payoff. No analysis considers voting against the held attitude. The strategic agents are IG and AS."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Section 4, p.12",
+  "quote": "votes in favor of the proposal if she is better off",
+  "note": "Statement in words that the vote follows the legislator's payoff. Weak statement."
+ },
+ "C3.3": {
+  "code": "OTH",
+  "loc": "Section 3, p.12",
+  "quote": "weakly undominated voting strategies for the legislators",
+  "note": "The vote follows from the equilibrium solution concept with the weakly-undominated refinement. No separate sincerity argument is given."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Section 3",
+  "quote": "none found",
+  "note": "Input format is a binary vote (OTH), not RANK/WEAK/APPR/DICH/PAIR."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "Term dichotomous preferences not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 6.1, pp.24-27",
+  "quote": "Welfare implications of lobbying",
+  "note": "Compares expected payoffs of all players with and without lobbying and examines who gains and loses; Example 5 shows all legislators except AS worse off."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 6.1",
+  "quote": "Welfare implications of lobbying",
+  "note": "Welfare is evaluated on legislators' payoffs u_n(g), defined separately from votes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 4, p.12",
+   "quote_behav": "votes in favor of the proposal if she is better off",
+   "loc_info": "Section 3, p.10",
+   "quote_info": "Signals are publicly",
+   "note": "Legislators best-respond using the prior and the publicly observed signals."
+  },
+  "CAN": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Districts are only recipients of goods."
+  },
+  "ORG": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 4, p.12",
+   "quote_behav": "AS proposes an allocation g that maximizes his expected utility",
+   "loc_info": "Section 3, p.10",
+   "quote_info": "Realized valuations are unknown to IG and the legislators.",
+   "note": "Agenda setter (chair) chooses the allocation proposal. Knows the prior and the public signals."
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "IG is coded under OTH, not as a briber (it provides verifiable information, no payments)."
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "The majority requirement M is a parameter, not a designer's choice."
+  },
+  "OTH": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 1, p.4",
+   "quote_behav": "The interest group engages in selective persuasion",
+   "loc_info": "Section 3, p.10",
+   "quote_info": "Realized valuations are unknown to IG and the legislators.",
+   "note": "Interest group (lobbyist) chooses a sequential search of districts. Knows the priors p_n and observes signals, but not the realized valuations."
+  }
+ },
+ "C7.1": {
+  "code": "N",
+  "loc": "Sections 3-5",
+  "quote": "none found",
+  "note": "All present types (voters, agenda setter, interest group) are modelled as strategic."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is N."
+ },
+ "C8.1": {
+  "codes": [
+   "BNE",
+   "SPE"
+  ],
+  "loc": "Sections 3-4, pp.11-12",
+  "quote": "The solution concept is (pure-strategy) Perfect Bayesian equilibrium",
+  "note": "PBE solved by backward induction over the stages."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 3, p.12",
+  "quote": "The solution concept is (pure-strategy) Perfect Bayesian equilibrium"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract",
+    "quote": "would unanimously prefer to ban informational lobbying"
+   },
+   {
+    "loc": "Section 7, Conclusion, p.33",
+    "quote": "legislators may want to adopt simple- or super-majority requirements"
+   },
+   {
+    "loc": "Section 7, Conclusion, p.33",
+    "quote": "an information rationale both for friendly lobbying"
+   }
+  ],
+  "note": "Claims on legislators' welfare and institutional design (majority requirement)."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 3, pp.10-12",
+  "quote": "the legislator from district n gets a payo",
+  "note": "The claims rest on stated assumptions: payoff functions, single IG, public signals, take-it-or-leave-it bargaining, information-maximizing objective of legislators. All are stated in the model."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No procedural-reading statement."
+ }
+}

@@ -1,0 +1,228 @@
+{
+ "paper_id": "IJCAI-2021-2a15c54a",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.261",
+  "quote": "aggregate the upvotes of the participants into a proportional ranking over questions",
+  "note": "Approval-based proportional ranking rules aggregating voters' approvals."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "AL",
+   "SI"
+  ],
+  "primary": "AX",
+  "loc": "Sections 4-6",
+  "quote": "we define a notion of satisfaction monotonicity and analyze to what extent",
+  "note": "Main results are axiomatic (monotonicity, group representation, PJS). Section 6 is simulation on synthetic profiles. Polynomial-time computability is mentioned only briefly."
+ },
+ "C2.1": {
+  "value": "approval profile",
+  "loc": "Section 2, p.262",
+  "quote": "An (approval) profile A = (A1 , . . . , An )",
+  "note": "Also called approval sets, upvotes."
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Section 2, p.262",
+  "quote": "the approval set Ai \u2286 C of voter i",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "N",
+  "loc": "Section 2, p.262",
+  "quote": "Ai contains the questions that have been upvoted by participant i.",
+  "note": "Approval sets are defined as upvotes; no separate held attitude is modelled, although the abstract says 'approval-style preferences' and 'approval preferences'."
+ },
+ "C2.4": {
+  "code": "ONE",
+  "loc": "Section 2, p.262",
+  "quote": "Ai contains the questions that have been upvoted by participant i.",
+  "note": "Input described as submitted upvotes. The word 'preferences' appears loosely, but no separate held attitude is modelled."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 3-6",
+  "quote": "none found",
+  "note": "No analysis considers misreporting by voters."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "C2.4 = ONE",
+  "quote": "",
+  "note": "NA because C2.4 = ONE."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Satisfaction is defined directly as the number of approved candidates in a set. This is a definition on the input, so the condition for NA does not strictly hold. It is coded NA because no link to separate utilities is at issue; arguably SPEC."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term dichotomous is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 5, Definition 6 and Section 6",
+  "quote": "how the satisfaction of a voter group with the current ranking varies",
+  "note": "Group representation, PJS and satisfaction are evaluated in results and experiments."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 4, p.263",
+  "quote": "To measure satisfaction of a group V \u2286 N of voters with a set",
+  "note": "Satisfaction is computed from approval sets with no statement relating them to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters supply fixed approval sets and take no modelled action beyond that input."
+  },
+  "CAN": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Candidates (questions) serve only as alternatives."
+  },
+  "ORG": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 6, p.265",
+   "quote_behav": "The selection behavior of the DM is modeled via Google clickthrough rates.",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "The decision maker/moderator selects candidates. Behaviour is exogenous, either adversarial within the top h positions or a click-through-rate model."
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "C6",
+  "quote": "",
+  "note": "Fewer than two types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no STRAT or MIXED type. The DM is modelled as NONSTRAT; worst-case adversarial selection is a bound, not a game."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.261",
+    "quote": "such that each minority is represented in the ranking to an extent that is proportional"
+   },
+   {
+    "loc": "Section 7, p.266",
+    "quote": "verify that both approaches lead to proportional results."
+   },
+   {
+    "loc": "Section 7, p.266",
+    "quote": "applicable to a wide variety of sequential selection procedures in"
+   }
+  ],
+  "note": "Claims about live Q&A platforms and representation of minorities."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Abstract and Section 7",
+  "quote": "participants only upvote questions related to their own interest",
+  "note": "The claim of representing minority opinions needs approvals to reflect voters' actual interests (sincere upvoting). The abstract's illustration says participants only upvote their interest, but this is not stated as a general assumption. The DM's behaviour assumptions are stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": ""
+ }
+}

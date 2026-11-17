@@ -1,0 +1,173 @@
+{
+ "paper_id": "EC-2021-450e2267",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Main text, p.1",
+  "quote": "Deciding how to allocate the seats of a house of representatives",
+  "note": "Apportionment aggregates vote counts into a seat allocation (a collective decision). This is a 2-page extended abstract, so coding rests only on this text."
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "AX",
+   "EM"
+  ],
+  "primary": "AL",
+  "loc": "Main text, p.2",
+  "quote": "proportional apportionment in the multidimensional setting (dimension 3 and higher) is NPcomplete",
+  "note": "AX covers the existence characterisation and the existence under marginal violations. EM covers the test on the 2021 Chilean Constitutional Convention election."
+ },
+ "C2.1": {
+  "value": "integral matrix (of votes)",
+  "loc": "Main text, p.1",
+  "quote": "an instance is given by an integral matrix (of votes)"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Main text, p.1",
+  "quote": "the rows typically represent the political parties and the columns",
+  "note": "The input is a matrix of aggregate vote counts per party and region, plus marginals."
+ },
+ "C2.3": {
+  "code": "N",
+  "loc": "Main text, pp.1-2",
+  "quote": "none found",
+  "note": "No preferences or utilities of voters are mentioned. The phrase 'needs of different segments' refers to population segments, not to modelled voter attitudes."
+ },
+ "C2.4": {
+  "code": "ONE",
+  "loc": "Main text, p.1",
+  "quote": "an integral matrix (of votes)",
+  "note": ""
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Main text, pp.1-2",
+  "quote": "none found",
+  "note": "No strategic analysis appears."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C2.4 = ONE."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The input format is OTH, so the applicability condition is not met."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Main text, p.2",
+  "quote": "our method is significantly more representative than the one used",
+  "note": "The experiment evaluates representativeness, and the formal results concern proportionality."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Main text, p.1",
+  "quote": "keeping proportionality with respect to the votes simultaneously",
+  "note": ""
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Only aggregate vote counts enter the model; no voter takes an action in it."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No types are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Main text, p.2",
+    "quote": "our method is significantly more representative than the one used"
+   },
+   {
+    "loc": "Main text, p.2",
+    "quote": "representation of dimensions beyond political affiliation and geography is increasingly demanded"
+   },
+   {
+    "loc": "Main text, p.2",
+    "quote": "our approach is more robust in that small perturbations of the votes"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "UNCLEAR",
+  "loc": "Main text, p.2",
+  "quote": "our method is significantly more representative than the one used",
+  "note": "The representativeness measure is not defined in this extended abstract, so it cannot be determined which assumptions are needed."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Main text, pp.1-2",
+  "quote": "none found",
+  "note": ""
+ }
+}

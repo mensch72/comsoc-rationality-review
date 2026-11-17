@@ -1,0 +1,173 @@
+{
+ "paper_id": "SCW-2023-2dcc4508",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p. 713",
+  "quote": "This paper considers manipulation by groups of voters who have",
+  "note": "Studies group manipulation of voting rules."
+ },
+ "C1": {
+  "types": [
+   "SB"
+  ],
+  "primary": "SB",
+  "loc": "Abstract, p. 713",
+  "quote": "conditions on the numbers of voters and alternatives which allow",
+  "note": "Results characterise when scoring rules, run-off, Copeland and STV are only safely or unsafely manipulable."
+ },
+ "C2.1": {
+  "value": "preference profile",
+  "loc": "Sect. 2.1, p. 716",
+  "quote": "A preference profile is a vector P = (P1 , \u2026 , Pn )"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Sect. 2.1, p. 716",
+  "quote": "Each voter has a preference, i.e., a linear order",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sect. 1, p. 714",
+  "quote": "better for them according to the true, sincere preference",
+  "note": "Voters hold sincere preferences."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Abstract, p. 713",
+  "quote": "report the same insincere preference",
+  "note": "Sincere P_i and reported P\u0303 have separate notation (Def. 2.1)."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Sect. 2.1, Definition 2.1, p. 716",
+  "quote": "if all voters in that group vote insincerely using the",
+  "note": "Every main result concerns manipulation by groups."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL"
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 not STATED"
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No utility, welfare or similar notions are used for voters. Only ordinal 'better' and 'worse' appear."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sects. 2-7, pp. 716-732",
+  "quote": "none found",
+  "note": "Rules are evaluated only on manipulability properties."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "IMPLICIT",
+   "loc_behav": "Sect. 1, p. 714",
+   "quote_behav": "if all voters in this group report this preference",
+   "loc_info": "Sect. 2.1, Definition 2.1, p. 716",
+   "quote_info": "has an incentive to manipulate rule F at profile",
+   "note": "The manipulating group deviates while other voters keep sincere preferences. Incentives are defined relative to the full profile P, implying complete information. Explicit complete information is stated only for the basic GS model in the introduction."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 not Y"
+ },
+ "C8.1": {
+  "codes": [
+   "DEV"
+  ],
+  "loc": "Sect. 2.2, p. 716",
+  "quote": "we say that manipulation with P\u0303 is unsafe for i",
+  "note": "Existence of a profitable common group deviation, and whether partial participation can hurt (safety)."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Sect. 2.2, p. 716-717",
+  "quote": "In words, a manipulation is safe if it never results"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Sect. 1, p. 714",
+    "quote": "In many applications, however, this coordination cannot and does not"
+   },
+   {
+    "loc": "Sect. 1, p. 715",
+    "quote": "this fact may prevent voters from voting strategically"
+   },
+   {
+    "loc": "Sect. 7.2, p. 732",
+    "quote": "this does not mean that any group manipulation is unsafe"
+   }
+  ],
+  "note": "Claims concern real voters' strategic behaviour and the risks they face."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sects. 1, 2, pp. 714-716",
+  "quote": "none found",
+  "note": "The claim that unsafety may deter strategic voting requires assumptions about what voters know: that they know the profile and can assess whether a manipulation is unsafe. This information assumption is not stated for the paper's model."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sects. 1, 2, 7",
+  "quote": "none found",
+  "note": ""
+ }
+}

@@ -1,0 +1,181 @@
+{
+ "paper_id": "EC-2022-19abb122",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "A voting rule decides on a probability distribution over a set of m alternatives",
+  "note": "Probabilistic voting rules aggregating rankings; distortion and proportional fairness."
+ },
+ "C1": {
+  "types": [
+   "WD",
+   "AL",
+   "AX"
+  ],
+  "primary": "WD",
+  "loc": "Sections 3-4, pp.9-16",
+  "quote": "we study the distortion of voting rules, which is a worst-case measure",
+  "note": "Main results are distortion and proportional fairness bounds (WD). Also a polynomial-time algorithm (Thm 4.9) and a truthfulness-related lower bound (Appendix D, using strategyproofness as a property), plus core and Nash welfare implications. AX and SB are not clearly main; AX is included only loosely for the core/fairness property results."
+ },
+ "C2.1": {
+  "value": "preference profile; preference ranking; rankings",
+  "loc": "Section 2, p.5",
+  "quote": "We refer to the collection \u20d7\u03c3 = (\u03c3i)i\u2208N as a preference profile."
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2, p.5",
+  "quote": "Each agent i \u2208 N submits a preference ranking over the alternatives",
+  "note": "Strict rankings via bijective rank function."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 1, p.2",
+  "quote": "each agent i has a cardinal utility function ui : A \u2192 R\u2a7e0 over alternatives",
+  "note": "Hidden cardinal utilities."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2, p.5",
+  "quote": "We assume that when agents submit ranked preferences, they have more expressive underlying cardinal preferences.",
+  "note": "Separate notation \u03c3 and u, with consistency relation."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "Appendix C.2 and D, pp.24-28",
+  "quote": "no agent can increase her utility by misreporting her vote",
+  "note": "Strategyproofness (truthful rules) is analyzed in lower bounds (Thm 4.5, D.8) and as an explanation for harmonic rule; main distortion and PF analyses do not model misreporting."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 2, 5",
+  "quote": "none found",
+  "note": "Non-strategic analyses use rankings consistent with utilities; no statement that voters submit their held attitude truthfully. Consistency is assumed (u\u25b7\u03c3) but this is definitional for the input-utility link; the paper does not state sincere reporting."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 2, p.5",
+  "quote": "we say that a utility function ui for agent i is consistent with her preference ranking",
+  "note": "Consistency defined formally."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "Related work, p.4",
+  "quote": "",
+  "note": "Paper does not use dichotomous preferences as its own model; only cited in references and related work, and uses approval utilities defined as 0/1 utilities."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2.1, p.5-6; Section 2.4",
+  "quote": "the utilitarian welfare of a distribution over alternatives x \u2208 \u2206(A) is defined as",
+  "note": "Distortion, social welfare, proportional fairness, core."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 2.1, p.6",
+  "quote": "Note that voting rules have access to the preference profile but not to the utility profile.",
+  "note": "Evaluated on hidden utilities defined separately from the rankings."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "NONE",
+   "info_stated": "IMPLICIT",
+   "loc_behav": "Appendix D, p.27",
+   "quote_behav": "no agent can increase her utility by misreporting her vote",
+   "loc_info": "Appendix D, p.27",
+   "quote_info": "any preference profile \u20d7\u03c3 , any agent i \u2208 N",
+   "note": "Voters submit rankings (fixed) in main analyses; in strategyproofness results voters may misreport. Info: strategyproofness is dominant-strategy, so no knowledge assumed; coded loosely as NONE (implicit). Main analyses: voters nonstrategic."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Alternatives only."
+  },
+  "ORG": {
+   "present": "N",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "note": "Rule is designed by authors but designer's choice not modelled as an agent."
+  },
+  "OTH": {
+   "present": "N",
+   "note": "The adversary in the minimax proof is a proof device, not an agent."
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "C6",
+  "quote": "",
+  "note": "Fewer than two types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "C6",
+  "quote": "",
+  "note": "C7.1 is NA."
+ },
+ "C8.1": {
+  "codes": [
+   "DOM"
+  ],
+  "loc": "Appendix D, Definition D.1, p.27",
+  "quote": "A voting rule f is called strategyproof (also known as truthful)",
+  "note": "Strategyproofness used for voters in the lower bound analysis. The minimax theorem is used as a proof tool, not as a solution concept for agents."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Appendix D, p.27",
+  "quote": "A voting rule f is called strategyproof (also known as truthful)"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.1",
+    "quote": "making it interesting for applications in participatory budgeting."
+   },
+   {
+    "loc": "Section 1, p.2",
+    "quote": "if you want to be efficient, it pays to also be fair."
+   },
+   {
+    "loc": "Section 5, p.17",
+    "quote": "Significant challenges lie ahead in paving the path for increased practicability"
+   }
+  ],
+  "note": "Claims about applications and fairness to voters."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 1, p.2",
+  "quote": "reports only the induced ranking over alternatives to the voting rule",
+  "note": "Claims about fairness/efficiency for voters need an assumption that voters report rankings consistent with their utilities (sincere reporting); the paper only defines consistency and does not state that voters submit truthfully outside the truthful-rule results."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1-2",
+  "quote": "none found",
+  "note": "No statement of purely procedural reading."
+ }
+}

@@ -1,0 +1,180 @@
+{
+ "paper_id": "COMSOC-2025-759a058f",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Section 1",
+  "quote": "produce a concise slate of statements that proportionally represents the full spectrum",
+  "note": "Committee-election-like selection of statements with proportionality guarantees via queries to agents' utilities; treated as a voting procedure."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "AL",
+   "SI",
+   "EM"
+  ],
+  "primary": "AX",
+  "loc": "Sections 2-4",
+  "quote": "we achieve an approximate version of BJR adapted to the cost setting",
+  "note": "Main results are approximate cBJR guarantees and lower bounds (axiomatic); synthetic simulations; experiments on real review data with LLM-simulated utilities."
+ },
+ "C2.1": {
+  "value": "utility functions (queried via discriminative query); no ballots named",
+  "loc": "Section 2",
+  "quote": "each agent i \u2208 N has a utility function ui",
+  "quote_note": "",
+  "note": ""
+ },
+ "C2.2": {
+  "codes": [
+   "CARD",
+   "OTH"
+  ],
+  "loc": "Section 2",
+  "quote": "mapping each statement \u03b1 \u2208 U to one of r possible utility values",
+  "note": "Cardinal utility levels on r-point scale accessed through queries; input to PROSE is unstructured text about each user."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2",
+  "quote": "each agent i \u2208 N has a utility function ui",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2.1",
+  "quote": "returns ui (\u03b1)",
+  "note": "Algorithm applies directly to (predicted) utilities via queries; no submission/reporting is discussed."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-4",
+  "quote": "none found",
+  "note": "No analysis considers misreporting."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 2, 5",
+  "quote": "none found",
+  "note": "No statement that voters submit their held attitude."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Section 2",
+  "quote": "",
+  "note": "Input format is cardinal (CARD) or text; no ordinal/approval/dichotomous input in C2.2 codes."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2.2; Section 4.2.3",
+  "quote": "proportionally represents the agents",
+  "note": "cBJR proportionality and agent utility used as evaluation criteria."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 4.2.3",
+  "quote": "treat them as the true, underlying utilities",
+  "note": "Evaluated against utilities defined separately and accessed via queries (CoT utilities as proxy for true utilities)."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Agents are passive; their utilities are queried; they take no action."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Statements are alternatives only."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "The designer's algorithm is the object of study, not a modelled agent."
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N",
+   "note": "Designer's objective is not modelled as a choice."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Section 2",
+  "quote": "",
+  "note": "No types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no strategic type."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract",
+    "quote": "demonstrating its effectiveness in generating representative slates from unstructured user opinions"
+   },
+   {
+    "loc": "Section 1.1",
+    "quote": "provides a compelling vision for how AI can support democratic innovation"
+   },
+   {
+    "loc": "Section 1.1",
+    "quote": "PROSE outperforms four baseline approaches with respect to both user satisfaction and proportionality"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 4.2.3",
+  "quote": "we rely on a proxy",
+  "note": "Claims about user satisfaction/representation of real opinions need LLM-predicted utilities to match true utilities (partly stated as proxy, validated in E.5), and that real participants' held opinions are what is reflected; no statement on sincerity of submitted text. Unstated: sincerity of user-provided text."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1-5",
+  "quote": "none found",
+  "note": ""
+ }
+}

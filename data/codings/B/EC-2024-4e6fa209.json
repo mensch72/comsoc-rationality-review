@@ -1,0 +1,183 @@
+{
+ "paper_id": "EC-2024-4e6fa209",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Section 1",
+  "quote": "a subset of k alternatives is selected based on the preferences of voters",
+  "note": "Committee voting rules (probabilistic), axiomatic/algorithmic/strategic analysis."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "AL",
+   "SB",
+   "WD"
+  ],
+  "primary": "AX",
+  "loc": "Sections 3-6",
+  "quote": "We characterize our fairness axiom by a correspondence with max flows",
+  "note": "AX: GRP characterization and implications; AL: polytime RUT, GCUT; SB: excludable strategyproofness, impossibility; WD: GCUT maximizes social welfare subject to GRP."
+ },
+ "C2.1": {
+  "value": "approval profile; approval set; preferences",
+  "loc": "Section 2",
+  "quote": "an approval profile A = ( A1 , A2 , . . . , An )"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR",
+   "DICH"
+  ],
+  "loc": "Section 1; Section 2",
+  "quote": "We assume that the voters have dichotomous preferences over candidates.",
+  "note": "Approval sets."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2",
+  "quote": "each voter\u2019s preference is represented by a set of approved candidates",
+  "note": "Preferences/utilities attributed to voters."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2",
+  "quote": "each voter\u2019s preference is represented by a set of approved candidates, called",
+  "note": "Approval set is the preference; rules applied directly. Strategyproofness section refers to misreporting 'true preferences' but main model has no separate notation."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "Section 5",
+  "quote": "no voter has an incentive to misreport her true preferences to the rule",
+  "note": "Strategic misreporting considered in Section 5 only; other sections not."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 2, 3, 4, 6",
+  "quote": "none found",
+  "note": "No statement that voters submit their held attitude in non-strategic analyses."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "C3.2 not STATED",
+  "quote": "",
+  "note": "C3.2 is NOT-STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 2",
+  "quote": "ui (W ) = | Ai \u2229 W |",
+  "note": "Utility defined as number of approved candidates; input is approval sets."
+ },
+ "C4.2": {
+  "code": "Y",
+  "loc": "Section 1; Section 2",
+  "quote": "derive utility equal to the number of approved candidates on the selected committee",
+  "note": "Dichotomous preferences with utility = number of approved candidates."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sections 3-5",
+  "quote": "Generalized CUT maximizes utilitarian welfare subject to GRP.",
+  "note": "Also GRP representation guarantees, efficiency."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 2",
+  "quote": "we assume voters\u2019 preferences over committees are determined by the number",
+  "note": "Utility computed from approval sets, no statement relating to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Section 2",
+   "quote_behav": "no voter ever has an incentive to misreport her true preferences",
+   "loc_info": "Section 5",
+   "quote_info": "none found",
+   "note": "Strategic in strategyproofness analysis (Sec 5), otherwise inputs fixed. Information not specified (strategyproofness is dominant-strategy style)."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates are alternatives only."
+  },
+  "ORG": {
+   "present": "N",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "note": "Designer's choice not modelled."
+  },
+  "OTH": {
+   "present": "N",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "C6",
+  "quote": "",
+  "note": "Only one type present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "C7.1",
+  "quote": "",
+  "note": "C7.1 is NA."
+ },
+ "C8.1": {
+  "codes": [
+   "DOM"
+  ],
+  "loc": "Section 2, Definition 2.2-2.3",
+  "quote": "no voter ever has an incentive to misreport her true preferences",
+  "note": "Strategyproofness / excludable strategyproofness."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 2",
+  "quote": "A rule satisfies strategyproofness if no voter"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 1 Introduction",
+    "quote": "approval ballots are clearly the most natural method of preference elicitation"
+   },
+   {
+    "loc": "Section 1 Introduction",
+    "quote": "there remain significant obstacles in obtaining committees which are fair to all voters"
+   },
+   {
+    "loc": "Discussion",
+    "quote": "We believe that this network-based approach will prove useful"
+   }
+  ],
+  "note": "Claims about fairness to voters and suitability of approval ballots."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Introduction",
+  "quote": "committees which are fair to all voters",
+  "note": "Fairness to voters from results on approval inputs needs a stated input-held attitude relation; not stated (IDU)."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No procedural reading statement."
+ }
+}

@@ -1,0 +1,226 @@
+{
+ "paper_id": "COMSOC-2021-cdf3c939",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "This paper investigates the manipulative power of the polling agency.",
+  "note": "Iterative voting under plurality and veto; strategic and computational aspects of manipulation."
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "SB",
+   "SI"
+  ],
+  "primary": "AL",
+  "loc": "Sections 3-5",
+  "quote": "Several restricted variants are considered with respect to their parameterized complexity.",
+  "note": "Most results are hardness and FPT/P results; heuristics tested by simulation (impartial culture). Manipulation by the polling agency is also a strategic-behaviour problem."
+ },
+ "C2.1": {
+  "value": "ballot",
+  "loc": "Section 2.1, p.2",
+  "quote": "each voter i is asked to submit a ballot"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 2.1, p.2",
+  "quote": "ballot bi \u2208 M corresponding to a single candidate",
+  "note": "Single-candidate ballot: plurality vote or veto vote. Not an approval set in the codebook's sense, so coded OTH."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2.1, p.2",
+  "quote": "Each voter i has strict ordinal preferences over the candidates",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2.1, p.2",
+  "quote": "A profile of ballots is said to be truthful if each agent submits",
+  "note": "Ballots b_i and preferences are separate notation, and ballots may deviate from truthful ones."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Section 2.2, p.3",
+  "quote": "We assume that the voters only deviate when they believe that they are pivotal",
+  "note": "All analyses involve voters deviating strategically according to beliefs. The initial profile is truthful but dynamics are strategic."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "Section 2.1",
+  "quote": "We assume that the initial profile b0 is truthful",
+  "note": "C3.1 = ALL."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "none found",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "The paper does not use utility, welfare or distortion for voters. Only ordinal preferences."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 3-5",
+  "quote": "none found",
+  "note": "Criteria are manipulation success frequency and complexity. Condorcet and Borda winners appear only as target candidates, not as evaluation of welfare."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "none found",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 1, p.1",
+   "quote_behav": "every voter can update her ballot with respect to this information",
+   "loc_info": "Section 1, p.1",
+   "quote_info": "we assume that voters only have partial knowledge about the other ballots",
+   "note": "Voters follow best-response or veto-winner deviations based on beliefs from the poll and neighbours."
+  },
+  "CAN": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Candidates are only alternatives."
+  },
+  "ORG": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 2.3, p.4",
+   "quote_behav": "Can the polling agency announce a plausible poll",
+   "loc_info": "Section 1, p.1",
+   "quote_info": "it is reasonable to assume complete information for the polling agency",
+   "note": "The polling agency is coded as ORG (a chair-like actor who chooses the announced poll). It is the manipulator pursuing a constructive or destructive goal."
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "The polling agency could be seen as an external manipulator but is coded under ORG."
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "N",
+  "loc": "Section 2",
+  "quote": "none found",
+  "note": "Both voters and the polling agency are strategic."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "none found",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "ITER",
+   "DEV"
+  ],
+  "loc": "Section 2.2, p.3",
+  "quote": "While best response deviations are considered under plurality",
+  "note": "Voters follow iterative best-response dynamics; the polling agency's manipulation is studied as a decision problem."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 2, p.2",
+  "quote": "We consider a strategic game called iterative voting"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 1, p.2",
+    "quote": "This is particularly important when considering real-world problems."
+   },
+   {
+    "loc": "Section 6, p.12",
+    "quote": "manipulating is easier for the polling agency, especially under veto."
+   }
+  ],
+  "note": "Claims about real-world relevance of the model and results."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sections 2 and 6",
+  "quote": "voters may have a local information by their relatives in a social network",
+  "note": "The claims rely on which agents are strategic and what they know. Both are stated in the model."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No procedural reading is stated."
+ }
+}

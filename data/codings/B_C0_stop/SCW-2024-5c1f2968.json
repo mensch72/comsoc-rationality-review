@@ -1,0 +1,10 @@
+{
+ "paper_id": "SCW-2024-5c1f2968",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "INELIG",
+  "loc": "Sect. 2.2 and Sect. 3, pp. 303-306",
+  "quote": "the probability of reelection",
+  "note": "This is a political-economy model of an incumbent's policy choice under biased voter beliefs, retrospective voting and the down-up problem. Voters are a continuum who vote probabilistically, and the model reduces them to a reelection probability Q. No voting rule, ballot or aggregation procedure is analysed. The strategic agent is the incumbent choosing a policy mix, not voters submitting inputs to a rule. The paper is therefore not about a procedure aggregating agents' inputs by voting, and coding stops here. This is a borderline call, since the paper concerns elections and appears in Social Choice and Welfare."
+ }
+}

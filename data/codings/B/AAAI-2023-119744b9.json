@@ -1,0 +1,171 @@
+{
+ "paper_id": "AAAI-2023-119744b9",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Section 3",
+  "quote": "we propose a novel famliy of randomized voting rules based on the well-known Condorcet method",
+  "note": "Randomized voting rules aggregating votes; axiomatic analysis"
+ },
+ "C1": {
+  "types": [
+   "AX"
+  ],
+  "primary": "AX",
+  "loc": "Sections 3-5",
+  "quote": "We prove that all of our rules satisfy absolute monotonicity, lexi-participation",
+  "note": "Satisfaction of axioms, incompatibility with DP. Tight DP bounds are also axiom-like properties of the rule. Strategyproofness axiom is a property, but the SB type is not coded because there is no modelled strategic agent in the main analysis."
+ },
+ "C2.1": {
+  "value": "profile; vote; votes",
+  "loc": "Section 2, p.2",
+  "quote": "the vote of voter j is a linear order"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2",
+  "quote": "the vote of voter j is a linear order j \u2208 L(A)",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Introduction, p.1",
+  "quote": "voters submit their preferences over a set of alternatives",
+  "note": "Preferences mentioned; in strategyproofness definitions 'benefit herself'"
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Introduction; Section 2",
+  "quote": "voters submit their preferences over a set of alternatives",
+  "note": "Preferences and votes used interchangeably ('(preference) profile'); no statement about misreporting or sincerity, rule applied directly."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 3-5",
+  "quote": "no voter can benefit herself in the sense of stochastic dominance",
+  "note": "SD-SP and participation are axioms comparing profiles; no analysis models voters strategically submitting differing inputs."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 2, 6",
+  "quote": "none found",
+  "note": "No statement that voters submit held preferences."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED"
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Strategyproofness uses stochastic dominance on rankings; no utility link to voters is used. Utility loss is mentioned only for prior work."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term not used"
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 4, Definition 6",
+  "quote": "probabilistic Pareto efficiency (p-Pareto)",
+  "note": "Pareto efficiency is evaluated as an axiom in results."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 4, Definition 6",
+  "quote": "a k b holds for all k \u2208 N",
+  "note": "Pareto dominance defined on submitted rankings; no statement relating to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters appear only via profiles; axioms compare profiles, no agent takes action in the model."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Fewer than two types present"
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 not Y"
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no STRAT or MIXED type"
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract",
+    "quote": "Designing private voting rules is an important and pressing problem for trustworthy democracy."
+   },
+   {
+    "loc": "Section 5",
+    "quote": "there is little motivation for an adversary to manipulate the voting process"
+   },
+   {
+    "loc": "Introduction",
+    "quote": "our results suggest that CMLAP outperforms CMEXP in all aspects"
+   }
+  ],
+  "note": "Claims about democracy and about which mechanism performs better; the paper's strongest claim concerns rule comparison."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 5",
+  "quote": "there is little motivation for an adversary to manipulate the voting process",
+  "note": "The manipulation-incentive claim needs an assumption about adversary/voter behaviour and about what they know and want, and about how votes relate to held preferences; none are stated in the model."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 2, 6",
+  "quote": "none found",
+  "note": ""
+ }
+}

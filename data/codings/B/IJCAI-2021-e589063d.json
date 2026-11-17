@@ -1,0 +1,168 @@
+{
+ "paper_id": "IJCAI-2021-e589063d",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Sec. 3, p.10-12",
+  "quote": "Kemeny Rank Aggregation, a well-studied class of problems lying in the intersection of order theory and social choice theory",
+  "note": "Computational aspects of Kemeny rank aggregation of votes (a voting rule), diverse solutions."
+ },
+ "C1": {
+  "types": [
+   "AL"
+  ],
+  "primary": "AL",
+  "loc": "Abstract; Sec. 5-6",
+  "quote": "Kemeny Rank Aggregation problem is fixed-parameter tractable with respect to natural parameters",
+  "note": "FPT and subexponential algorithms for computing outcomes."
+ },
+ "C2.1": {
+  "value": "votes / partial votes",
+  "loc": "Sec. 3, p.12",
+  "quote": "A partial vote over C is a partial order over C."
+ },
+ "C2.2": {
+  "codes": [
+   "RANK",
+   "OTH"
+  ],
+  "loc": "Sec. 3, p.12",
+  "quote": "A partial vote over C is a partial order over C.",
+  "note": "Linear orders and partial orders as votes; partial orders are not weak orders, so coded OTH."
+ },
+ "C2.3": {
+  "code": "N",
+  "loc": "Sec. 1, 3",
+  "quote": "none found",
+  "note": "Only submitted votes; the 'satisfaction among the voters' phrase is informal, no held attitude defined."
+ },
+ "C2.4": {
+  "code": "ONE",
+  "loc": "Sec. 3, p.12",
+  "quote": "A partial vote over C is a partial order over C.",
+  "note": "Votes only; no held attitude referred to."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sec. 3-6",
+  "quote": "none found",
+  "note": "No strategic voters."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C2.4 = ONE"
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED"
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Sec. 1",
+  "quote": "maximizes the overall satisfaction among the voters",
+  "note": "Satisfaction mentioned only informally in the introduction; no utility notion used in the model, so applicability is not met."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sec. 3-6",
+  "quote": "none found",
+  "note": "Kemeny score is a cost of a ranking, studied computationally; no welfare criterion evaluated in results."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Votes are fixed input; no voter acts in the model."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Fewer than two types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 not Y"
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no strategic type."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.10",
+    "quote": "the user has the opportunity to choose the solution being most appropriate"
+   },
+   {
+    "loc": "Sec. 1, p.10",
+    "quote": "The task is then to find a ranking of the candidates that maximizes"
+   }
+  ],
+  "note": "Claims about usefulness of diverse solutions for users and applications; weak claims about voter satisfaction."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sec. 1",
+  "quote": "the user has the opportunity to choose the solution most appropriate",
+  "note": "Claims about users choosing among solutions follow from the algorithmic results without needing assumptions about input-attitude relations, strategy or knowledge."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sec. 1-3",
+  "quote": "none found",
+  "note": "No explicit procedural reading statement."
+ }
+}

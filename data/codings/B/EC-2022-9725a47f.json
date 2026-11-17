@@ -1,0 +1,10 @@
+{
+ "paper_id": "EC-2022-9725a47f",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "INELIG",
+  "loc": "Section 1.2 Related Work (Fair division), p. 6",
+  "quote": "Apportionment can be seen as a special case of the fair division",
+  "note": "The paper studies randomized apportionment of house seats to states from population counts. The input is a population profile, not submitted votes or ballots from agents. The results concern axioms (house/population monotonicity, quota, ex ante proportionality) and a dependent-rounding technique. The authors place the problem in fair division and allocation, so it is not a voting procedure aggregating agents' inputs. Coding stopped."
+ }
+}

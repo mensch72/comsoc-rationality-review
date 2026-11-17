@@ -1,0 +1,226 @@
+{
+ "paper_id": "JET-2021-86b63ae3",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "voting rules that select a fixed-size group of candidates based on approval ballots",
+  "note": "Axiomatic study of approval-based multi-winner voting rules."
+ },
+ "C1": {
+  "types": [
+   "AX"
+  ],
+  "primary": "AX",
+  "loc": "Abstract, p.1",
+  "quote": "This paper is an axiomatic study of consistent approval-based multi-winner rules",
+  "note": "All main results are characterisations."
+ },
+ "C2.1": {
+  "value": "approval ballots; approval profile",
+  "loc": "Abstract; Section 2, p.8",
+  "quote": "an approval profile of V is a function from V to P(C)"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR",
+   "DICH"
+  ],
+  "loc": "Introduction, p.2",
+  "quote": "approval ballots, which allow voters to express dichotomous preferences",
+  "note": "Approval sets are described as dichotomous preferences."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Introduction, p.1",
+  "quote": "based on the preferences of voters",
+  "note": "Preferences are mentioned. Section 6 also says voters desire approved candidates."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Introduction, p.2",
+  "quote": "approval ballots, which allow voters to express dichotomous preferences",
+  "note": "The paper moves between ballots and preferences ('preference profiles', 'approval preference profiles'). It applies the rules directly to them and says nothing about sincerity or misreporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 3-5",
+  "quote": "none found",
+  "note": "No strategic-voter analysis appears. Strategyproofness is only mentioned as a separate paper."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 2, 6",
+  "quote": "none found",
+  "note": "The paper does not state that voters submit their held attitude."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "PART",
+  "loc": "Section 6, p.21",
+  "quote": "It is a plausible assumption that voters desire to have approved candidates",
+  "note": "Voter satisfaction is used for the satisfaction-type counting function ('the satisfaction of all voters'). Only a loose relation to approval is given, with no definition."
+ },
+ "C4.2": {
+  "code": "N",
+  "loc": "Introduction, p.2",
+  "quote": "Dichotomous preferences distinguish between approved and disapproved candidates\u2014a dichotomy.",
+  "note": "The two classes are described as approved and disapproved. No utility or richer preference is given."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 4.1, 5.1",
+  "quote": "we intuitively expect a proportional committee to contain as many candidates",
+  "note": "D'Hondt proportionality, lower quota and disjoint diversity are formal axioms. Proportionality is framed as representation of voter groups."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 4, 5.1",
+  "quote": "W is D\u2019Hondt proportional for A",
+  "note": "Evaluated on approval profiles with no statement relating them to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters are inputs and take no action in the model."
+  },
+  "CAN": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Candidates are alternatives only."
+  },
+  "ORG": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Section 3",
+  "quote": "",
+  "note": "Fewer than two types are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no strategic type is present."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.3",
+    "quote": "Such an axiomatic exploration of multi-winner rules is essential if one wants to choose a rule"
+   },
+   {
+    "loc": "Introduction, p.2",
+    "quote": "Voting rules suitable in such scenarios follow the principle of diversity."
+   },
+   {
+    "loc": "Abstract, p.1",
+    "quote": "illustrate three different, orthogonal principles that multi-winner voting rules may represent"
+   }
+  ],
+  "note": "The claims are about which rule to choose and which rules suit which scenarios."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Introduction, p.2",
+  "quote": "voters would prefer to have a hospital close to their home",
+  "note": "Claims that rules suit scenarios need an assumed link between ballots and voters' held preferences, or between ballots and utility. That link is not stated, and sincere voting is also unstated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1-6",
+  "quote": "none found",
+  "note": "The paper does not state a purely procedural reading."
+ }
+}

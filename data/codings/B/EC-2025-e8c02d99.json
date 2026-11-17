@@ -1,0 +1,168 @@
+{
+ "paper_id": "EC-2025-e8c02d99",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Sec 3",
+  "quote": "we consider two fundamental social choice problems: single-winner voting and one-sided matching",
+  "note": "Distortion of single-winner voting mechanisms (and one-sided matching) with predictions. Voting is a main object, so coded eligible."
+ },
+ "C1": {
+  "types": [
+   "WD",
+   "AL"
+  ],
+  "primary": "WD",
+  "loc": "Sec 1.1; Sec 3-4",
+  "quote": "we design mechanisms that achieve tight tradeoffs between consistency and robustness",
+  "note": "Distortion, consistency and robustness bounds with matching lower bounds. Mechanisms are simple and computation is not the focus, so AL is only a minor secondary type."
+ },
+ "C2.1": {
+  "value": "ordinal preferences / ordinal profile (rankings reported by voters)",
+  "loc": "Sec 2.1",
+  "quote": "each voter i reports an ordering (or, ranking) \u227bvi of the candidates"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Sec 2.1",
+  "quote": "each voter i reports an ordering (or, ranking) \u227bvi of the candidates",
+  "note": "The predicted valuation profile is an additional input (CARD) to the mechanism, but the voters' input is the ranking. Rankings are induced weakly (x \u227b y implies vi(x) \u2265 vi(y))."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec 2",
+  "quote": "Each voter i \u2208 N has a valuation function vi : A \u2192 R\u22650",
+  "note": "Held cardinal valuations are present."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Sec 2.1",
+  "quote": "ordinal preferences of the voters which are induced by their valuation functions",
+  "note": "Valuations (v) and the ordinal profile (\u227bv) have separate notation. Rankings are induced by the valuations, though that is a consistency requirement rather than a sincerity claim."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sec 2-5",
+  "quote": "none found",
+  "note": "No analysis has voters misreporting strategically. Distortion is worst-case over valuations given the induced ordinal profile."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Sec 2.1",
+  "quote": "each voter i reports an ordering (or, ranking) \u227bvi of the candidates",
+  "note": "Rankings are defined as induced by the valuations, so submission equals the held ranking. This is stated as part of the definition, with no reason given."
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Sec 2.1",
+  "quote": "none found",
+  "note": "No reason is given for the equality of reported and induced rankings."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Sec 2.1",
+  "quote": "x \u227bvi y implies vi (x) \u2265 vi (y)",
+  "note": "Rankings are consistent with unit-sum valuations."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sec 2; Sec 3",
+  "quote": "The social welfare of a candidate x \u2208 A is defined as the total value",
+  "note": "Distortion and social welfare are the evaluation criteria."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Sec 2.1",
+  "quote": "maxz SW(z|v)",
+  "note": "Distortion is evaluated against the cardinal valuations v, which are defined separately from the ordinal input."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters supply induced rankings and take no strategic actions. By the C6 definition, an agent who takes a fixed action in the model could count as present, but the rankings are mechanically induced by the valuations and the analysis is worst-case over valuations."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Sec 6",
+  "quote": "none found",
+  "note": "Fewer than two types are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is NA."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no strategic agents."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Sec 1 Introduction",
+    "quote": "aggregate the preferences of individuals into a collective outcome which is aligned with the well-being"
+   },
+   {
+    "loc": "Sec 1.1",
+    "quote": "improved distortion guarantees can be achieved when the prediction is accurate"
+   }
+  ],
+  "note": "Claims are mostly about mechanism performance with respect to welfare, plus the interpretation of elicited cardinal values as predictions."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sec 2.1; Sec 1",
+  "quote": "ordinal preferences of the voters which are induced by their valuation functions",
+  "note": "Welfare claims need the relation between rankings and values, and it is stated (rankings induced by valuations). The strategic issue does not arise since no strategic behaviour is modelled."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "The paper does not state a procedural reading."
+ }
+}

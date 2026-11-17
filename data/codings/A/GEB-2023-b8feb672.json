@@ -1,0 +1,174 @@
+{
+ "paper_id": "GEB-2023-b8feb672",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "Social decision schemes (SDSs) map the ordinal preferences of individual voters",
+  "note": "Randomized voting rules (SDSs) aggregating voters' rankings."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SB"
+  ],
+  "primary": "AX",
+  "loc": "Introduction, p.3",
+  "quote": "There is no Condorcet-consistent SDS that satisfies PC -strategyproofness",
+  "note": "Impossibility and characterisation results involving strategyproofness and participation axioms. Primary is AX because all results are axiomatic."
+ },
+ "C2.1": {
+  "value": "preference profile",
+  "loc": "Section 2, p.3",
+  "quote": "A preference profile R on an electorate N \u2208 F(N) assigns"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2, p.3",
+  "quote": "complete, transitive, and anti-symmetric binary relation on A",
+  "note": "Ties are not allowed."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2.4, p.7",
+  "quote": "no voter can benefit by lying about his true preferences",
+  "note": "Voters have true preferences that may differ from what they report."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2.4, p.7; Section 4.1, p.13",
+  "quote": "report a, c, b instead of b, a, c",
+  "note": "The paper says reported preferences may differ from true preferences, although both use the same profile notation."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "Section 2.4, p.7; Appendix A.1, p.20",
+  "quote": "There is a profile R and a lottery p such that",
+  "note": "Strategyproofness and participation results consider misreporting or abstention. The efficiency results (e.g. Proposition 5) do not."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Section 2, Section 2.3, Introduction, Conclusion, Appendix A.1",
+  "quote": "none found",
+  "note": "Efficiency is defined on the profile with no statement that it equals true preferences."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 2.2, p.5",
+  "quote": "We assume that the voters' preferences over alternatives are lifted",
+  "note": "The PC extension defines preferences over lotteries from rankings. 'Better off' and 'maximum happiness' are defined through it, and SD is defined via all consistent utility representations."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2.3, p.6",
+  "quote": "we cannot make a voter better off without making another",
+  "note": "PC-efficiency, SD-efficiency and ex post efficiency are used in the theorems."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 2.3, p.6",
+  "quote": "a lottery p is X -efficient in R if it is",
+  "note": "Efficiency is evaluated on the profile R with no statement relating it to true preferences."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Section 2.4, p.7-8",
+   "quote_behav": "voters should not be able to benefit by abstaining from the election",
+   "loc_info": "Section 2.4, Section 2",
+   "quote_info": "none found",
+   "note": "Strategic in the strategyproofness and participation analyses; not strategic in the efficiency results."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "DOM"
+  ],
+  "loc": "Section 2.4, p.7",
+  "quote": "Intuitively, strategyproofness demands that no voter can benefit",
+  "note": "Participation axioms are coded under the same dominant-strategy-style property."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 2.4, p.7",
+  "quote": "The first option, which we call X -strategyproofness, requires"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Conclusion, p.16",
+    "quote": "In light of the shown tradeoff between incentive-compatibility and efficiency"
+   },
+   {
+    "loc": "Conclusion, p.17",
+    "quote": "two SDSs stand out: the uniform random dictatorship"
+   },
+   {
+    "loc": "Introduction, p.1",
+    "quote": "mechanisms should incentivize agents to participate and to act truthfully"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 2.2, p.5",
+  "quote": "We assume that the voters' preferences over alternatives are lifted",
+  "note": "The claims follow from the axioms under the stated PC lottery extension. The claims are about rules' properties, not about voters' welfare on true preferences."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Section 2, Introduction, Conclusion",
+  "quote": "none found",
+  "note": ""
+ }
+}

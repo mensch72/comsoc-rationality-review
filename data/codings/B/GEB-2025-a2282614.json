@@ -1,0 +1,177 @@
+{
+ "paper_id": "GEB-2025-a2282614",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Sec 1, p.1",
+  "quote": "A voting rule is a Condorcet extension if it returns a candidate",
+  "note": "Axiomatic study of voting rules (Condorcet extensions)."
+ },
+ "C1": {
+  "types": [
+   "AX"
+  ],
+  "primary": "AX",
+  "loc": "Sec 4-5",
+  "quote": "we provide an overview of Condorcet extensions and their inclusion relationships",
+  "note": "Impossibility and characterization results. The SAT-based proof and the simulation figure (Fig 4, computed with Ehrhart theory) are supporting."
+ },
+ "C2.1": {
+  "value": "preference profile",
+  "loc": "Sec 2, p.2",
+  "quote": "a (preference) profile P = (\u227bi )i\u2208N over N is a collection of linear orders"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Sec 2, p.2",
+  "quote": "a (preference) profile P = (\u227bi )i\u2208N over N is a collection of linear orders",
+  "note": "Margins derived from rankings are only a derived representation."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec 2, p.2; Sec 5",
+  "quote": "with \u227bi denoting the preference of voter i \u2208 N",
+  "note": "The paper speaks of voters' preferences. The profile is these preferences."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Sec 2, p.2; Sec 5",
+  "quote": "with \u227bi denoting the preference of voter i \u2208 N",
+  "note": "The rule is applied directly to preferences. Participation is defined via the voter's preference \u227bj, with no statement on submission or reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sec 5, p.13",
+  "quote": "The participation axiom demands that voters are never better off by abstaining",
+  "note": "Participation concerns abstention, not misreporting a ranking. No analysis has voters submitting an input that differs from their held attitude."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sec 2; Sec 5; Sec 6",
+  "quote": "none found",
+  "note": "No statement that voters submit their held preferences."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "",
+  "note": "No utility, welfare or satisfaction notion is used for voters."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' appears only in a reference title."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sec 3-5",
+  "quote": "none found",
+  "note": "The paper evaluates axioms such as reinforcement and participation and does not use the listed welfare criteria. Pareto-dominance appears only in a footnote remark. Choosing the Condorcet winner is a consistency property."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sec 5, p.13",
+   "quote_behav": "voter j should weakly prefer the outcome when j is present",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters only join or leave the electorate in the axiom definitions. The model has no voter choosing actions strategically, so the axiom is treated as a property of the rule."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates are only alternatives."
+  },
+  "ORG": {
+   "present": "N",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "note": "The designer is not modelled explicitly."
+  },
+  "OTH": {
+   "present": "N",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Sec 5",
+  "quote": "",
+  "note": "Fewer than two types are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Sec 6, p.20",
+    "quote": "These conclusions could motivate advocating for their adoption in real-world elections."
+   },
+   {
+    "loc": "Sec 6, p.21",
+    "quote": "compelling choices for adoption in real-world applications"
+   },
+   {
+    "loc": "Abstract",
+    "quote": "highlighting their suitability for threecandidate elections"
+   }
+  ],
+  "note": "The claims are about which rule should be used."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sec 6, p.20-21",
+  "quote": "maximin and its refinements are very attractive for threecandidate elections",
+  "note": "Recommending adoption in real elections needs an unstated assumption: that voters do not misreport rankings, since only no-show manipulation is addressed and the Gibbard-Satterthwaite theorem is cited only in the introduction. It also needs the assumption that the paradoxes studied are the relevant criteria for choosing a rule."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No procedural reading is stated."
+ }
+}

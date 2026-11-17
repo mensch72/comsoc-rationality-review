@@ -1,0 +1,178 @@
+{
+ "paper_id": "EC-2024-1dad3c35",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Section 2, p.5",
+  "quote": "we study the problem of aggregating rankings into a collective ranking",
+  "note": "The paper studies a social preference function that aggregates weighted rankings. The applications include criteria and votes, and the analysis uses standard voting axioms."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "AL",
+   "SB",
+   "WD",
+   "SI",
+   "EM"
+  ],
+  "primary": "AX",
+  "loc": "Abstract, p.0; Sections 3-6",
+  "quote": "we give an axiomatic characterization of the Squared Kemeny rule",
+  "note": "AX: characterization (Thm 3.2). AL: NP-completeness and approximation (Sec 5). SB: strategyproofness is violated (Prop 3.4). WD: proportionality and distance guarantees (Sec 4). SI: synthetic samples (Sec 6.2-6.3). EM: city data and Preflib data (Sec 6.1-6.2)."
+ },
+ "C2.1": {
+  "value": "ranking profile; input rankings; votes",
+  "loc": "Section 2, p.5",
+  "quote": "we define a (ranking) profile"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2, p.5",
+  "quote": "A ranking \u227b is a complete, transitive, and anti-symmetric binary relation",
+  "note": "The rankings in a profile carry rational weights."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 3.2, p.8",
+  "quote": "disutility that the outcome ranking \u25b7 would give to a voter",
+  "note": "The paper refers to 'a voter with a preference order \u227b'. In the strategyproofness definition, the true ranking is distinguished from the reported one."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 3.3, p.11",
+  "quote": "agents should never be better off by lying than by voting truthfully",
+  "note": "The text says that the submitted ranking may differ from the held one. There is no separate notation outside the strategyproofness definition."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "Section 3.3, p.11",
+  "quote": "The Squared Kemeny rule satisfies efficiency and participation but violates strategyproofness.",
+  "note": "Only the strategyproofness analysis considers misreporting."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Introduction, Section 2 (Model), Section 3, Section 7 (Conclusions)",
+  "quote": "none found",
+  "note": "Section 2 says the weights may 'represent the fraction of voters who report a ranking'. It does not state that the reports are sincere."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 3.2, p.8; Section 3.3, p.10",
+  "quote": "we use the swap distance between the input ranking and the output rankings",
+  "note": "Disutility and satisfaction are defined through the swap distance between the voter's ranking and the output ranking."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 4, p.13; Section 3.3, p.10",
+  "quote": "We now provide a bound on the average satisfaction of any group.",
+  "note": "The criteria in results are Pareto efficiency (Prop 3.4) and group satisfaction or proportionality guarantees (Thm 4.2, Sec 6.3)."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 4, p.13",
+  "quote": "We can think of \ud835\udc46 as a group of voters",
+  "note": "Satisfaction is measured on the input rankings. No statement relates these rankings to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Section 3.3, p.11",
+   "quote_behav": "agents should never be better off by lying than by voting truthfully",
+   "loc_info": "Introduction, Section 2, Section 3.3",
+   "quote_info": "none found",
+   "note": "Voters are strategic only in the strategyproofness analysis. In all other analyses, inputs are taken as given."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only one type (VOT) is present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "DOM"
+  ],
+  "loc": "Section 3.3, p.11",
+  "quote": "We hence say an SPF \ud835\udc53 is strategyproof if there are no profiles",
+  "note": ""
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 3.3, p.11",
+  "quote": "As the last axiom of this section, we will consider strategyproofness."
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 7, p.18",
+    "quote": "the Squared Kemeny rule has the potential of providing a consensus ranking"
+   },
+   {
+    "loc": "Introduction, p.5",
+    "quote": "Proportionality may be desirable in this context to ensure that"
+   },
+   {
+    "loc": "Introduction, p.4",
+    "quote": "the Squared Kemeny rule caters to all group sizes"
+   }
+  ],
+  "note": "These are claims about which rule should be used and about fairness to groups of voters."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Introduction; Section 2; Section 4",
+  "quote": "none found",
+  "note": "In multi-agent settings, the claims about satisfying voter groups and reflecting their interests need submitted rankings to equal voters' true preferences. This is not stated. The link from swap distance to satisfaction is stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction, Section 2, Section 7",
+  "quote": "none found",
+  "note": ""
+ }
+}

@@ -1,0 +1,180 @@
+{
+ "paper_id": "GEB-2024-719b6233",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "we study the manipulation of tops-only rules",
+  "note": "Strategic aspects (obvious manipulation) of voting rules."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SB"
+  ],
+  "primary": "SB",
+  "loc": "Section 3, Theorem 1, p.8",
+  "quote": "A tops-only rule is NOM if and only if every veto is a strong veto",
+  "note": "Characterizations of obvious manipulability (SB) for rule classes; also axiomatic-style characterizations. Primary SB as the core property studied is manipulability."
+ },
+ "C2.1": {
+  "value": "preference profile",
+  "loc": "Section 2.1, p.5",
+  "quote": "A (preference) profile is a n-tuple"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2.1, p.5",
+  "quote": "Each agent i \u2208 N has a strict preference Pi over X.",
+  "note": "Strict preferences; rule takes full strict preference reports."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2.1, p.5",
+  "quote": "Each agent i \u2208 N has a strict preference Pi over X.",
+  "note": "Preferences are held by agents; manipulation defined via misreporting."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2.1, p.5",
+  "quote": "an alternative report Pi\u2032 \u2208 P is a (profitable) manipulation",
+  "note": "True preference Pi vs reported Pi\u2032 with separate notation; the rule is applied to reports."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Section 2.2, Definition 1, p.7",
+  "quote": "The rule f is not obviously manipulable (NOM) if it does not admit any obvious manipulation.",
+  "note": "All analyses concern manipulations (misreports)."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "Section 3",
+  "quote": "none found",
+  "note": "C3.1 = ALL"
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "none found",
+  "note": "C3.2 not STATED"
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Section 2",
+  "quote": "none found",
+  "note": "Strict rankings, but no utility/welfare notions for voters are used in results (efficiency is Pareto defined ordinally; no utilities)."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2.1, p.6",
+  "quote": "A rule f : P n \u2212\u2192 X is efficient if for each P \u2208 P n",
+  "note": "Efficiency used in Corollaries 1 and 2 as a hypothesis of results."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 2.1, p.6",
+  "quote": "there is no x \u2208 X such that xPi f ( P) for each i \u2208 N",
+  "note": "Efficiency defined on profile P, which is the input; no statement relating to held attitude."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NONE",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 2.1, p.5",
+   "quote_behav": "an alternative report Pi\u2032 \u2208 P is a (profitable) manipulation",
+   "loc_info": "Section 2.2, p.6",
+   "quote_info": "each agent has complete ignorance in this respect",
+   "note": "Agents' manipulation incentives under obvious-manipulation notion with complete ignorance (Troyan and Morrill)."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Alternatives only."
+  },
+  "ORG": {
+   "present": "N",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "note": "Designer mentioned informally only."
+  },
+  "OTH": {
+   "present": "N",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Section 2",
+  "quote": "none found",
+  "note": "Only one type present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "none found",
+  "note": "C7.1 not Y"
+ },
+ "C8.1": {
+  "codes": [
+   "DEV"
+  ],
+  "loc": "Section 2.2, Definition 1, p.7",
+  "quote": "Let f : P n \u2212\u2192 X be a rule, let Pi \u2208 P , and let Pi\u2032",
+  "note": "Existence of a (obvious) manipulation as property; with ignorance of others."
+ },
+ "C8.2": {
+  "code": "N",
+  "loc": "Section 2.2",
+  "quote": "none found"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.3",
+    "quote": "it is important to identify which rules within these families obey"
+   },
+   {
+    "loc": "Introduction, p.2",
+    "quote": "tops-only voting rules are important rules on their own right and are both useful in practice"
+   },
+   {
+    "loc": "Section 4.2 end, p.19",
+    "quote": "Corollary 3 is rather surprising."
+   }
+  ],
+  "note": "Claims about practical relevance and rule robustness; mild."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 2.2, p.6",
+  "quote": "each agent has complete ignorance in this respect",
+  "note": "Needed assumptions (agents' ignorance, obvious-manipulation notion, strategic misreporting) are stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": ""
+ }
+}

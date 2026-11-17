@@ -1,0 +1,167 @@
+{
+ "paper_id": "EC-2021-acea6a8c",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "We study computational aspects of a well-known single-winner voting rule called the Schulze method",
+  "note": "Computational aspects of a voting rule."
+ },
+ "C1": {
+  "types": [
+   "AL"
+  ],
+  "primary": "AL",
+  "loc": "Section 1.1, p.3",
+  "quote": "almost quadratic time algorithm for finding all winners",
+  "note": "Algorithms and fine-grained lower bounds. Strategic behaviour appears only in related work."
+ },
+ "C2.1": {
+  "value": "preference profile; (weak) ordinal preference ballots; votes",
+  "loc": "Abstract p.1; Section 2 p.6",
+  "quote": "the voters give (weak) ordinal preference ballots"
+ },
+ "C2.2": {
+  "codes": [
+   "WEAK"
+  ],
+  "loc": "Section 2, p.6",
+  "quote": "A preference profile P (or a multiset of votes) is a list (\u227da)a\u2208N of weak orders",
+  "note": "The weighted majority graph is a derived intermediate input, which could also count as PAIR. Coded by the primary input, weak orders."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.6",
+  "quote": "a voter a \u2208 N strictly (weakly respectively) prefers alternative u",
+  "note": "The paper refers to voters' preferences, and the profile is of preferences."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2, p.6",
+  "quote": "A preference profile P (or a multiset of votes) is a list",
+  "note": "The input is described as preferences and the rule is applied to it directly, with no statement on submission or sincerity."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 3-6",
+  "quote": "none found",
+  "note": "Strategic behaviour is mentioned only in related work (Section 1.2) and is not analysed."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 2, 7",
+  "quote": "none found",
+  "note": "No statement that voters submit their held attitude."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "",
+  "note": "No utility, welfare or satisfaction notion is used for voters."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 3-6",
+  "quote": "none found",
+  "note": "The results concern running time and complexity."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters take no action in the model; the ballots are input data."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "No types are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "n/a",
+  "quote": "",
+  "note": "NA, since no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.1",
+    "quote": "we can identify voting protocols that are unlikely to be practical"
+   },
+   {
+    "loc": "Section 1, p.5",
+    "quote": "likely impractical for large numbers of candidates and/or voters"
+   }
+  ],
+  "note": "Claims about the practicality of rules for real elections; not about voter welfare or which rule to use."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 1, p.5",
+  "quote": "we can identify which voting protocols have potentially practical algorithms",
+  "note": "The practicality claims follow from the stated running times and the fine-grained hypotheses. No assumptions on held attitudes are needed."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No explicit procedural-reading statement."
+ }
+}

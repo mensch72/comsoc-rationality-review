@@ -1,0 +1,172 @@
+{
+ "paper_id": "JET-2021-86b63ae3",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "voting rules that select a fixed-size group of candidates based on approval ballots",
+  "note": "Quote is 14 words; trimmed version: 'select a fixed-size group of candidates based on approval ballots'"
+ },
+ "C1": {
+  "types": [
+   "AX"
+  ],
+  "primary": "AX",
+  "loc": "Abstract, p.1",
+  "quote": "This paper is an axiomatic study of consistent approval-based multi-winner rules",
+  "note": ""
+ },
+ "C2.1": {
+  "value": "approval ballots; approval profile; approval preference profile",
+  "loc": "Section 2, p.8",
+  "quote": "an approval profile of V is a function from V to P(C)"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR",
+   "DICH"
+  ],
+  "loc": "Section 1, p.2",
+  "quote": "approval ballots, which allow voters to express dichotomous preferences",
+  "note": "Ballots are approval sets that the paper describes as expressing dichotomous preferences."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 6, p.21",
+  "quote": "voters desire to have approved candidates in the committee",
+  "note": "The introduction also refers to voters' preferences, which ballots 'express'."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 1, p.2; Appendix C, p.45",
+  "quote": "every two approval preference profiles A \u2208 A(C, V )",
+  "note": "The input is called preferences/approval preference profile and the rule is applied directly. No statement about reporting is made."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-5",
+  "quote": "none found",
+  "note": "No strategic analysis; strategyproofness is only mentioned via a citation to other work."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 2, 3, 6",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "PART",
+  "loc": "Appendix B, proof of Theorem 4, p.40; Section 6, p.21",
+  "quote": "(the satisfaction of all voters remains the same)",
+  "note": "Satisfaction is used informally, apparently tied to counting-function scores. The relation to the input is not defined."
+ },
+ "C4.2": {
+  "code": "N",
+  "loc": "Section 1, p.2",
+  "quote": "Dichotomous preferences distinguish between approved and disapproved candidates\u2014a dichotomy",
+  "note": "No utility or richer-preference interpretation of the two classes is given."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 3.2, p.13; Section 4.1, p.15; Appendix A.1, p.24",
+  "quote": "strong efficiency is the well-known Pareto efficiency axiom",
+  "note": "Efficiency axioms and proportionality/lower quota axioms are used in the results."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 3.2, p.13",
+  "quote": "where no voter approves a candidate in W2 \\ W1",
+  "note": ""
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2, p.8",
+   "loc_info": "",
+   "quote_behav": "let A(v) \u2286 C denote the subset of candidates approved by voter v",
+   "quote_info": "",
+   "note": "Ballots are exogenous inputs to the rule."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is strategic."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 1, p.3",
+    "quote": "essential if one wants to choose a rule in a principled way"
+   },
+   {
+    "loc": "Section 1, p.1",
+    "quote": "chosen subset of candidates should proportionally reflect the voters\u2019 preferences"
+   },
+   {
+    "loc": "Section 6, p.21",
+    "quote": "weak efficiency only rules out pathological examples of multiwinner rules"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 6, p.21",
+  "quote": "It is a plausible assumption that voters desire to have approved",
+  "note": "The claims about reflecting voters' preferences need approval ballots to equal held preferences, which is not stated. Claims about satisfaction need a link between utility and approvals, which is only partly given."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 2, 6",
+  "quote": "none found",
+  "note": ""
+ }
+}

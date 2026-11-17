@@ -1,0 +1,181 @@
+{
+ "paper_id": "SCW-2023-08f6220a",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "deterministic social choice functions (or voting mechanisms)",
+  "note": "Incentive compatibility of voting mechanisms (social choice functions)."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SB"
+  ],
+  "primary": "AX",
+  "loc": "Section 3, pp.6-8",
+  "quote": "locally ordinal Bayesian incentive compatibility of a social choice function combined with unanimity",
+  "note": "Results characterise relations between unanimity, tops-onlyness and local/full IC. They are both axiomatic and about strategyproofness. The largest share is axiomatic/property-implication."
+ },
+ "C2.1": {
+  "value": "preference profile; preference ordering (type); reported preferences",
+  "loc": "Section 2.1, p.4",
+  "quote": "Each agent i \u2208 N has a private preference ordering"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2.1, p.4",
+  "quote": "Let P denote the set of all strict linear orders over A.",
+  "note": "scf takes strict preference orderings as arguments."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2.1, p.4",
+  "quote": "Each agent i \u2208 N has a private preference ordering",
+  "note": "Private types."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2.2, p.5",
+  "quote": "no Pi0 \u2208 D such that f (Pi0 , P\u2212i ) Pi f (Pi , P\u2212i )",
+  "note": "True type Pi is separate from the reported Pi' in the IC definitions; misreports are considered."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Section 2.2, p.5",
+  "quote": "OBIC with respect to {\u00b5i }i\u2208N",
+  "note": "Incentive compatibility notions compare truthful reports with misreports; no analysis assumes truthful reports."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "Section 2.2",
+  "quote": "none found",
+  "note": "C3.1 = ALL"
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "Section 2.2",
+  "quote": "none found",
+  "note": "C3.2 is not STATED"
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Section 3",
+  "quote": "none found",
+  "note": "No utility-type notion is used for voters; the paper uses only ordinal preferences and efficiency as unanimity."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "Dichotomous preferences are not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Section 2.1, Definition 1",
+  "quote": "An scf f is unanimous if for any P \u2208 Dn and a \u2208 A",
+  "note": "Unanimity is a property of the scf, not used as a welfare evaluation criterion of outcomes in results. It is described as mild efficiency only in the introduction."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 2.2, p.5, Definitions 3 and 5",
+   "quote_behav": "there exists no Pi0 \u2208 D such that f (Pi0 , P\u2212i ) Pi f (Pi , P\u2212i )",
+   "loc_info": "Section 2.1, p.4",
+   "quote_info": "which is common knowledge for every agent",
+   "note": "Agents hold priors over others' types (Bayesian), for OBIC; DSIC requires no information. Agents' incentive to misreport is evaluated via IC."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Alternatives only."
+  },
+  "ORG": {
+   "present": "N",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "note": "Designer is mentioned in the introduction only, with no formal modelling of choice."
+  },
+  "OTH": {
+   "present": "N",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Section 2",
+  "quote": "none found",
+  "note": "Only one type present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "Section 2",
+  "quote": "none found",
+  "note": "C7.1 is not Y"
+ },
+ "C8.1": {
+  "codes": [
+   "DOM",
+   "BNE"
+  ],
+  "loc": "Section 2.2, p.5",
+  "quote": "dominant strategy incentive compatible (DSIC)",
+  "note": "OBIC is an ordinal Bayesian incentive-compatibility notion, coded under BNE as the closest option."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Introduction, p.2",
+  "quote": "dominant strategy incentive compatibility (DSIC) and ordinal Bayesian incentive compatibility (OBIC)"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.2",
+    "quote": "it is quite natural to require an scf to be unanimous"
+   },
+   {
+    "loc": "Introduction, p.3",
+    "quote": "Tops-onlyness is desirable not only for a mechanism designer"
+   },
+   {
+    "loc": "Introduction, p.2",
+    "quote": "it becomes onerous and costly to verify that a social choice function"
+   }
+  ],
+  "note": "Normative claims about which rule properties to require and about the practical value of the results."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 2.1, p.4",
+  "quote": "private and strict preference orderings on a finite set of alternatives",
+  "note": "Claims about unanimity, tops-onlyness and designer cost follow from formal properties. The needed assumptions on information (priors) and strategic voters are stated in the model."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No procedural reading statement."
+ }
+}

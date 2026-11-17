@@ -1,0 +1,10 @@
+{
+ "paper_id": "SCW-2021-1b64884f",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "INELIG",
+  "loc": "Abstract and Section 1 (Introduction), p. 1-2",
+  "quote": "This paper studies aggregation of preferences under ignorance",
+  "note": "The paper is about Harsanyi-type aggregation of decision-theoretic preferences (maximin and alpha-maximin over sets of lotteries) under a Pareto axiom. It uses no ballots, votes or voting rule, and the main results are impossibility and possibility theorems for social welfare-style aggregation. This is not a voting procedure, so coding stops."
+ }
+}

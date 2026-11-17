@@ -1,0 +1,10 @@
+{
+ "paper_id": "COMSOC-2023-89b07d01",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "INELIG",
+  "loc": "Section 1 Preliminaries, p.1",
+  "quote": "is to develop a method of detecting gerrymandering",
+  "note": "The paper proposes a statistical, nonparametric learning method to detect anomalies (gerrymandering or electoral bias) in observed FPTP election results, and tests it on simulated and real data. It does not study a voting rule's inputs, strategic behaviour, or computation. It is therefore treated as statistical analysis of election outcomes rather than the study of a voting procedure. This is a borderline call. Coding stopped."
+ }
+}

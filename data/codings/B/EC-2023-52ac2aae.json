@@ -1,0 +1,178 @@
+{
+ "paper_id": "EC-2023-52ac2aae",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "designing voting rules that take as input the ordinal preferences of n agents",
+  "note": "Voting rule design with distortion guarantees."
+ },
+ "C1": {
+  "types": [
+   "WD",
+   "AL"
+  ],
+  "primary": "WD",
+  "loc": "Abstract, p.1; Sections 3-5",
+  "quote": "simultaneously achieve near-optimal distortion guarantees in both distortion worlds",
+  "note": "Distortion bounds (upper and lower) for rules; AL is only weakly applicable (rule design), but WD is dominant. Lower bounds are also distortion results."
+ },
+ "C2.1": {
+  "value": "preference profile",
+  "loc": "Section 2, p.4",
+  "quote": "Collectively, they form a preference profile"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2, p.4",
+  "quote": "L(A) to denote the set of all rankings (linear orders)",
+  "note": "Also top-t prefixes of rankings (Section 5)."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.5",
+  "quote": "each agent i \u2208 N has a utility function ui : A \u2192 R\u2a7e0",
+  "note": "Cardinal preferences/utilities and metric distances are held attitudes."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2, p.4-5",
+  "quote": "We assume that the preference profile stems from underlying cardinal preferences",
+  "note": "The ranking is described as the agent's preference and tied to cardinal preferences via consistency; there is no statement about submission versus truthful reporting. The intro mentions 'report', but the model has no separate notation."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-5",
+  "quote": "none found",
+  "note": "No analysis considers misreporting."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 2, 6",
+  "quote": "none found",
+  "note": "No statement that voters submit their held attitude."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 2.1-2.2, p.5",
+  "quote": "X \u227bi Y \u21d2 ui (X) \u2a7e ui (Y )",
+  "note": "The consistency relation is defined for both metric and utility frameworks."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2.2, p.5-6",
+  "quote": "the quality of each alternative is determined based on the sum",
+  "note": "Distortion, social welfare and social cost are the criteria."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 2.1-2.2, p.5-6",
+  "quote": "worst-case distortion of f (~\u03c3 ) on any utility profile ~u \u22b2U ~\u03c3",
+  "note": "Distortion is evaluated against cardinal utilities/metric costs defined separately from the rankings."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Agents are only the source of the input; they take no action in the model."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Alternatives only."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "No acting organiser."
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "note": "The designer is mentioned in the introduction, but their choice or objective is not modelled formally."
+  },
+  "OTH": {
+   "present": "N",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Section 2",
+  "quote": "",
+  "note": "Fewer than two types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "No strategic agents, so NA."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.2",
+    "quote": "providing uninitiated users with the opportunity to input their rankings"
+   },
+   {
+    "loc": "Introduction, p.2",
+    "quote": "thus providing an obvious choice for someone looking to minimize distortion"
+   },
+   {
+    "loc": "Introduction, p.1-2",
+    "quote": "if some designer chooses a voting rule optimized for metric distortion"
+   }
+  ],
+  "note": "Claims about which rule should be used and about deployment in decision tools."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Introduction, p.2",
+  "quote": "find a low-distortion alternative without having to seek expert input",
+  "note": "Recommending the rules for real use needs voters to submit rankings that reflect their held utilities or metric preferences. This is not stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1-2",
+  "quote": "none found",
+  "note": "No procedural-reading statement."
+ }
+}

@@ -1,0 +1,177 @@
+{
+ "paper_id": "AAAI-2022-1a58e106",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.5208",
+  "quote": "We formalize a voting model for plurality elections",
+  "note": "Strategic voting model with iterative best responses under plurality."
+ },
+ "C1": {
+  "types": [
+   "EQ",
+   "SI",
+   "AL"
+  ],
+  "primary": "EQ",
+  "loc": "Convergence Properties; Simulations, pp.5213-5215",
+  "quote": "we prove formally the model converges with asymptotically large electorates",
+  "note": "Main results: convergence/equilibrium proofs (EQ), simulations on synthetic data (SI), derivation of efficient pivotal probability calculations (AL)."
+ },
+ "C2.1": {
+  "value": "electoral choice / vote (candidate voted for); votes",
+  "loc": "Model Definition, p.5210",
+  "quote": "the electoral choice of elector i in iteration \u03b4 is defined as"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Model Definition, p.5210",
+  "quote": "\u03c0 i,\u03b4 \u2208 \u2205 \u222a J \\ argmin h\u2208J (uih )",
+  "note": "Plurality vote for a single candidate (or abstention); not a ranking or approval set."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Model Definition, p.5210",
+  "quote": "vector ui holds normalized cardinal utilities that i would accrue",
+  "note": "Cardinal utilities are held attitudes."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Introduction, p.5208; Model Definition p.5210",
+  "quote": "best response may differ from their sincere preference",
+  "note": "Utilities u^i and electoral choice \u03c0^i are separate objects, and strategic vote may differ from sincere preference."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Abstract; Model Definition, p.5208, 5210",
+  "quote": "autonomous agents simultaneously maximize the utility they expect from candidates",
+  "note": "All analyses model strategic expected-utility maximizing voters (sincere voting arises only as special cases)."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "C3.1 = ALL",
+  "quote": "",
+  "note": "C3.1 = ALL"
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 \u2260 STATED"
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Model Definition, p.5210",
+  "quote": "",
+  "note": "Input is a vote for a candidate, not RANK/WEAK/APPR/DICH/PAIR; utilities are cardinal primitives."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Simulations, p.5214; Convergence Properties",
+  "quote": "none found",
+  "note": "Evaluation is by convergence and Duvergerian equilibria, not welfare/efficiency/distortion. Expected reward is the agents' own objective, not an evaluation of rules."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Abstract, p.5208",
+   "quote_behav": "autonomous agents simultaneously maximize the utility they expect from candidates",
+   "loc_info": "Abstract, p.5208",
+   "quote_info": "They know only of candidates\u2019 latest vote shares",
+   "note": "Agents know latest vote shares only, not others' preferences or choices."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "C6",
+  "quote": "",
+  "note": "Only one type present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 \u2260 Y"
+ },
+ "C8.1": {
+  "codes": [
+   "ITER",
+   "NE",
+   "BND"
+  ],
+  "loc": "Convergence Properties, p.5213; Introduction p.5208",
+  "quote": "ICV agents require low information and are boundedly rational",
+  "note": "Iterative simultaneous expected-utility best responses converging to pure Nash equilibrium; bounded rationality stated."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Convergence Properties, p.5213",
+  "quote": "it converges to a Pure Nash Equilibrium (PNE) as electorates become large"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Discussion, p.5215",
+    "quote": "ICV addresses limitations of most IV and CV models."
+   },
+   {
+    "loc": "Introduction, p.5209",
+    "quote": "We do not see that as a problem for general AI applications"
+   },
+   {
+    "loc": "Discussion, p.5215",
+    "quote": "passing the key Duverger\u2019s Law test"
+   }
+  ],
+  "note": "Claims about the model's applicability and realism, and validity against Duverger's Law; no rule recommendation."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Introduction; Model Definition, pp.5208-5210",
+  "quote": "agents are unaware of each other\u2019s preferences or individual choices",
+  "note": "Needed assumptions (utilities, strategic behavior, information) are stated explicitly."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No procedural-reading statement."
+ }
+}

@@ -1,0 +1,231 @@
+{
+ "paper_id": "GEB-2021-b4e19a63",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Section 3, p.186-189",
+  "quote": "The proposal is implemented if it receives at least two affirmative votes",
+  "note": "Legislative bargaining with veto power, with votes on proposals determining a collective allocation. Borderline with bargaining, but it is a voting procedure with a veto player and strategic analysis."
+ },
+ "C1": {
+  "types": [
+   "EQ",
+   "SB",
+   "EM"
+  ],
+  "primary": "EQ",
+  "loc": "Sections 4-8, pp.190-199",
+  "quote": "I fully characterize a Markov Perfect Equilibrium (MPE) and prove it exists",
+  "note": "Equilibrium characterisation and uniqueness are the main results, supported by laboratory experiments."
+ },
+ "C2.1": {
+  "value": "proposals (policy/allocation proposals) and votes",
+  "loc": "Section 3, p.189",
+  "quote": "This proposal is voted up or down by the committee."
+ },
+ "C2.2": {
+  "codes": [
+   "CARD",
+   "OTH"
+  ],
+  "loc": "Section 3, p.189",
+  "quote": "The possible outcomes in each period are all possible divisions of a fixed resource",
+  "note": "Inputs are proposed allocations (divisions of a dollar) and yes/no votes; no ordinal ballots are used."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 3, p.189",
+  "quote": "Agent i derives stage utility u i = xi from the implemented policy xt .",
+  "note": "Stage utilities and expected utilities are held attitudes."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 3, p.189",
+  "quote": "they vote yes if and only if their expected utility from the status quo",
+  "note": "Votes are separate from utilities. The votes are derived from utilities by the stage-undominated restriction, but they are modelled as separate objects."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 3-4, p.189",
+  "quote": "I require that agents use stage-undominated voting strategies",
+  "note": "Votes are best responses to utilities. No analysis has voters submit an input differing from their held attitude in a way that is a misreport. Proposals are strategic but are not misreports."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Section 3, p.189",
+  "quote": "none found",
+  "note": "Voting is modelled as strategic via stage-undominated strategies, not as sincere reporting. Judged not applicable in substance, but the code follows the default rule, since C3.1 = NONE and C2.4 = DIST."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "Section 3",
+  "quote": "none found",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Section 3",
+  "quote": "none found",
+  "note": "The input is not RANK, WEAK, APPR, DICH or PAIR. The utilities are the allocation itself."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 3, p.189; Appendix B",
+  "quote": "Agent i derives stage utility u i = xi from the implemented policy xt .",
+  "note": "Results evaluate the allocation to the veto player and the non-veto players, including each player's continuation values and the veto player's appropriation. This is evaluation of outcomes by player utility/share."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 3, p.189",
+  "quote": "their payoff in the game is given by the discounted sum of stage payoffs",
+  "note": "Evaluation uses utilities and allocations defined separately from the votes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "IMPLICIT",
+   "loc_behav": "Section 3, p.189",
+   "quote_behav": "I look for a stationary Markov perfect equilibrium (MPE).",
+   "loc_info": "Section 3, p.189",
+   "quote_info": "In an MPE, agents behave identically in different periods with the same state s",
+   "note": "Legislators (veto and non-veto) propose and vote strategically. The state is common knowledge in the perfect-information game, which is implicit. Experimental subjects choose freely."
+  },
+  "CAN": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "No candidates in the model."
+  },
+  "ORG": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "The proposer is selected randomly and is a legislator. No separate organiser."
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "The designer's choice of recognition probabilities is discussed only as comparative statics."
+  },
+  "OTH": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "N",
+  "loc": "Section 3",
+  "quote": "none found",
+  "note": "Only the voter type is present, so fewer than two types, which would give NA. The only present type is VOT, so NA applies."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "Section 3",
+  "quote": "none found",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "SPE",
+   "OTH"
+  ],
+  "loc": "Sections 3, 6, p.189, 194",
+  "quote": "I look for a stationary Markov perfect equilibrium (MPE).",
+  "note": "Markov perfect equilibrium (a refinement of SPE with stationarity) and subgame perfect Nash equilibrium. The MPE is coded as OTH, and SPE is coded for Proposition 8."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 3, p.189",
+  "quote": "I look for a stationary Markov perfect equilibrium (MPE)."
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Conclusions, p.200",
+    "quote": "in the long run, the right to veto is extremely powerful"
+   },
+   {
+    "loc": "Conclusions, p.200",
+    "quote": "institutional measures can be effective in promoting more equitable outcomes"
+   },
+   {
+    "loc": "Abstract, p.186",
+    "quote": "in order to assess the consequences of veto power, it is important"
+   }
+  ],
+  "note": "Claims about real institutions and about equity or fairness towards non-veto players."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 3, p.189",
+  "quote": "Agent i derives stage utility u i = xi from the implemented policy xt .",
+  "note": "The claims follow from the equilibrium analysis, with utility, strategic behaviour and information stated in the model. The model is intentionally simple, which is a general modelling assumption."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No statement of a procedural reading."
+ }
+}

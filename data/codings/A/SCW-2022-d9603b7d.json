@@ -1,0 +1,176 @@
+{
+ "paper_id": "SCW-2022-d9603b7d",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract",
+  "quote": "Hm sghr o\u2018odq vd otqrtd \u2018m dwodqhldms\u2018k \u2018ooqn\u2018bg",
+  "note": "Lab experiment on voting in multiple referenda (one-shot and iterative majority voting on two binary issues). The text is extracted with a letter-shift font encoding, so quotes are copied in that encoded form."
+ },
+ "C1": {
+  "types": [
+   "EM"
+  ],
+  "primary": "EM",
+  "loc": "Section 1 (Introduction)",
+  "quote": "k\u2018a dwodqhldmsr sn hmudrshf\u2018sd sgd adg\u2018uhnq ne gtl\u2018m rtaidbsr",
+  "note": "Behavioural lab experiments with human subjects."
+ },
+ "C2.1": {
+  "value": "vote (a vote on each binary issue)",
+  "loc": "Section 3.4",
+  "quote": "\u2018rjhmf d\u2018bg unsdq sn b\u2018rs \u2018 unsd qdf\u2018qchmf"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 3.4",
+  "quote": "rgd g\u2018r sn unsd enq E nq enq P",
+  "note": "Binary yes/no vote on each of two issues, aggregated by issue-wise majority."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 3.2",
+  "quote": "Vd oqnuhcd unsdqr vhsg tshkhsx l\u2018sqhbdr",
+  "note": "Voters are given payoff/utility matrices over combinations of outcomes."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 3.4",
+  "quote": "d\u2018bg ne vgnl g\u2018r oqhu\u2018sd oqdedqdmbdr nudq \u2018kk bnlahm\u2018shnmr",
+  "note": "Held preferences are over combinations of outcomes. Submitted votes are issue-wise and may differ from them (e.g. dominated, optimistic or pessimistic choices)."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Section 5.1",
+  "quote": "rtaidbsr l\u2018cd \u2018 cnlhm\u2018sdc bgnhbd nm ansg hrrtdr",
+  "note": "Human subjects choose their votes freely; no analysis assumes sincere voting."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Input format is OTH (binary issue votes), not RANK/WEAK/APPR/DICH/PAIR."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 7",
+  "quote": "Vd ld\u2018rtqd sgd rnbh\u2018k vdke\u2018qd \u2018r sgd \u2018udq\u2018fd tshkhsx",
+  "note": "Average social welfare and the frequency of Condorcet winners are used to evaluate outcomes."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 7",
+  "quote": "Vd ld\u2018rtqd sgd rnbh\u2018k vdke\u2018qd \u2018r sgd \u2018udq\u2018fd tshkhsx",
+  "note": "Welfare is computed from the assigned payoff matrices, not from the votes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 6",
+   "quote_behav": "Vd \u2018rrtld sg\u2018s rtaidbsr vntkc v\u2018ms sn hloqnud sgd ntsbnld",
+   "loc_info": "Section 3.4",
+   "quote_info": "\u2018s d\u2018bg rs\u2018fd+ unsdqr nardqud sgd chrsqhatshnm ne unsdr",
+   "note": "In one-shot elections voters know nothing about others' votes or matrices. In iterative elections they observe previous-stage tallies. PARTIAL is chosen as the overall code."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N",
+   "note": "The stopping rule and the rule are fixed exogenously by the experimenters; no organiser acts in the model."
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "DOM",
+   "ITER",
+   "BND"
+  ],
+  "loc": "Section 3.3; Section 3.4",
+  "quote": "Sgdm u hr \u2018 cnlhm\u2018shmf \u2018bshnm",
+  "note": "Behaviour is classified by dominated/dominating actions, by stochastic dominance, and by optimistic/pessimistic heuristics, within iterative voting."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 3.4",
+  "quote": "HsdqYshud unshmf enq ltkshokd qdedqdmc\u2018 hr cd\ufb00mdc"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract",
+    "quote": "sg\u2018s hsdq\u2018sdc unshmf l\u2018x hm e\u2018bs hloqnud"
+   },
+   {
+    "loc": "Section 1 (Introduction)",
+    "quote": "unshmf cndr hloqnud sgd pt\u2018khsx ne sgd ntsbnld"
+   },
+   {
+    "loc": "Section 8 (Conclusions)",
+    "quote": "unshmf hr \u2018 uh\u2018akd v\u2018x ne g\u2018mckhmf mnmrdo\u2018q\u2018ahkhsx hm ltkshokd qdedqdmc\u2018"
+   }
+  ],
+  "note": "The claims concern improvement of social outcomes and the practical viability of iterative voting in referenda."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 3.2; Section 4.2",
+  "quote": "Vd oqnuhcd unsdqr vhsg tshkhsx l\u2018sqhbdr",
+  "note": "Welfare is computed on induced payoff matrices that are stated and paid to subjects. The relation between votes and held attitudes is explicit, and the restriction to two issues is discussed in the conclusion."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Abstract; Section 1; Section 3; Section 8",
+  "quote": "none found",
+  "note": ""
+ }
+}

@@ -1,0 +1,172 @@
+{
+ "paper_id": "MSS-2022-526b7598",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Sec 3.2",
+  "quote": "define the winner of the vote using the deepest point of the scatter plot",
+  "note": "Grading-based voting rules aggregating voters' grades into a winner."
+ },
+ "C1": {
+  "types": [
+   "AX"
+  ],
+  "primary": "AX",
+  "loc": "Sec 4, 5",
+  "quote": "Neutrality, Universality, Unanimity, Monotonicity, and IIA",
+  "note": "Mostly property satisfaction/violation results and paradoxes; small remark on manipulability without formal analysis."
+ },
+ "C2.1": {
+  "value": "grades; grading matrix; profile",
+  "loc": "Sec 2.2",
+  "quote": "The grading is summarized in a d \u00d7 n grading matrix"
+ },
+ "C2.2": {
+  "codes": [
+   "CARD",
+   "APPR"
+  ],
+  "loc": "Sec 2.2",
+  "quote": "Approval voting is a voting process based on a binary set of grades.",
+  "note": "Grades in [0,1], discrete, continuous or binary."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec 3.1; Sec 2.3",
+  "quote": "the deepest point is a location estimator of the preferences of the voters",
+  "note": "Refers to voters' preferences and intensity of preferences."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Sec 3.1",
+  "quote": "the deepest point is a location estimator of the preferences of the voters",
+  "note": "Grades treated as preferences, rule applied directly with no statement about reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sec 4-5",
+  "quote": "none found",
+  "note": "Strategic voting only mentioned informally (Sec 5 on large p, Sec 4.4 breakdown point)."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sec 2, 5, 6",
+  "quote": "none found",
+  "note": "The no-show paradox definition mentions voting sincerely, but there is no statement that voters submit their held attitude."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Sec 2.2",
+  "quote": "",
+  "note": "Input is cardinal grades only; no ordinal/approval input linked to separate utilities, so applicability condition not met (approval is a special case of grades)."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term dichotomous preferences not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sec 4-5",
+  "quote": "none found",
+  "note": "Evaluates axiomatic properties and paradoxes; Condorcet paradoxes are not welfare/efficiency criteria as defined."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters supply grades as fixed data; no actions modelled."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Fewer than two types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no strategic type."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Sec 6 Conclusion",
+    "quote": "Grading-based voting offers a richer information than ranking-based model."
+   },
+   {
+    "loc": "Sec 5",
+    "quote": "The fact that a voting process elects c2 is acceptable in this configuration."
+   },
+   {
+    "loc": "Sec 4.4 Remark 5",
+    "quote": "which means that the procedure is less manipulable."
+   }
+  ],
+  "note": "Claims about which rules/properties are desirable and acceptability of paradoxes."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sec 5; Sec 4.4",
+  "quote": "none found",
+  "note": "Claims about manipulability and about acceptable paradoxes need assumptions about voter behaviour and grades reflecting held preferences/intensity, which are not stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No procedural-reading statement."
+ }
+}

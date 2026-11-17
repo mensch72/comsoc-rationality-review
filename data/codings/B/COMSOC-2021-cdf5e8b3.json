@@ -1,0 +1,174 @@
+{
+ "paper_id": "COMSOC-2021-cdf5e8b3",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "Social decision schemes (SDSs) map the preferences of a group of voters",
+  "note": "Strategyproof randomized voting rules; axiomatic analysis."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SB"
+  ],
+  "primary": "AX",
+  "loc": "Section 3, Theorems 4-6",
+  "quote": "the only anonymous, neutral, and strategyproof SDS that achieves this bound",
+  "note": "Impossibility and characterization results on strategyproof SDSs. Strategyproofness is a property assumed in all results; AX is primary."
+ },
+ "C2.1": {
+  "value": "preference profile",
+  "loc": "Section 2, p.2",
+  "quote": "A preference profile R \u2208 Rn is a n-tuple that contains the preference relation"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2, p.2",
+  "quote": "Every voter i has a (strict) preference relation",
+  "note": "Strict ordinal preferences."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2.1, p.3",
+  "quote": "he only reports his ordinal preferences over alternatives while the outcome",
+  "note": "Preferences and utility representations are held; reports are distinguished."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2.1, p.3",
+  "quote": "voters cannot benefit by misrepresenting their preferences",
+  "note": "Strategyproofness is defined by comparing truthful and misreported preferences, so the two are separate objects. The input is nonetheless notated as the preference relation."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2.1, 3",
+  "quote": "voters cannot benefit by misrepresenting their preferences",
+  "note": "Strategyproofness is a property of the rule. No analysis models voters actually submitting misreports; manipulation is only used to define the property."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 2, 3",
+  "quote": "none found",
+  "note": "The paper does not state that voters submit their held preferences in the non-strategic analyses. The intro mentions properties shown 'under the assumption that all voters submit their preferences truthfully' as general motivation only."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "PART",
+  "loc": "Section 2.1, p.3",
+  "quote": "for every vNM utility function that is ordinally consistent with voter i\u2019s preferences",
+  "note": "Utility is linked to ordinal preferences via consistency, but it is only used to justify stochastic dominance. This is arguably SPEC, but utilities are not used for any voter-welfare notion in the results."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "",
+  "note": "Dichotomous preferences are not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2.2, p.5",
+  "quote": "requires that f (R, x) = 0 for all preference profiles R and alternatives",
+  "note": "Ex post (Pareto) efficiency and beta-ex post efficiency are efficiency criteria defined and used in the results."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 2.2, p.5",
+  "quote": "An alternative x Pareto-dominates another alternative y in a preference profile R",
+  "note": "Efficiency is evaluated on the preference profile, with no statement relating it to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Section 2.1, p.3",
+   "quote_behav": "voters cannot benefit by misrepresenting their preferences",
+   "loc_info": "Section 2.1, p.3",
+   "quote_info": "none found",
+   "note": "Strategyproofness quantifies over possible deviations of each voter, so voters are potential manipulators. Information is not specified; dominance-based strategyproofness is independent of it."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Section 2",
+  "quote": "",
+  "note": "Fewer than two types are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "DOM"
+  ],
+  "loc": "Section 2.1, p.3",
+  "quote": "if no voter can obtain more expected utility for any utility representation",
+  "note": "Strategyproofness by stochastic dominance, i.e. dominant strategies."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 2.1, p.3",
+  "quote": "we can now formalize strategyproofness. An SDS f is"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 3.1, p.7",
+    "quote": "strategyproofness does not allow for any meaningful notion of Condorcet-consistency"
+   },
+   {
+    "loc": "Section 3.2, p.9",
+    "quote": "we may therefore dismiss the voters\u2019 preferences completely instead of using"
+   },
+   {
+    "loc": "Introduction, p.1",
+    "quote": "all of its desirable properties are in doubt because they were shown"
+   }
+  ],
+  "note": "Claims about what results imply for which rules are acceptable; they are modest but present."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 3.1, p.7",
+  "quote": "strategyproofness does not allow for any meaningful notion of Condorcet-consistency",
+  "note": "The claim about rules' usefulness relies on strategyproofness being the relevant requirement, with voters' misreports of held preferences assumed possible. The assumption that the ordinal preferences are held preferences and that voters are strategic is not stated for the non-strategic properties. Information assumptions are also unstated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No procedural-reading statement."
+ }
+}

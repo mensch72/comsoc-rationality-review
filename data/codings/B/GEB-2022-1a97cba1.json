@@ -1,0 +1,175 @@
+{
+ "paper_id": "GEB-2022-1a97cba1",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "voters collectively answer a binary question",
+  "note": "Strategic voting equilibria of majority rule with private signals (information aggregation)."
+ },
+ "C1": {
+  "types": [
+   "EQ",
+   "WD"
+  ],
+  "primary": "EQ",
+  "loc": "Sections 3.3-3.5, pp.8-12",
+  "quote": "voting against intuition is a unique pure-strategy nontrivial BNE",
+  "note": "WD is included because correctness and efficiency of the majority outcome are evaluated. Most results concern equilibria."
+ },
+ "C2.1": {
+  "value": "vote / voting (for alternative A or B)",
+  "loc": "Section 3.1, p.6",
+  "quote": "voting for alternative A is optimal if and only if"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 2, p.5",
+  "quote": "The collective decision is made by a simple majority vote.",
+  "note": "The input is a single binary vote between two alternatives, A or B, with no abstention. This fits none of the listed formats."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.5",
+  "quote": "each voter i independently obtains an intuition about the answer",
+  "note": "Voters have intuition and guess signals and a common-value payoff (1 if correct)."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 3.3, p.8",
+  "quote": "voting against the intuition is the best response",
+  "note": "Votes (w_A) and the intuition signal (\u03c3) are separate objects. Votes may differ from intuition."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "Section 3.2 vs 3.3, pp.6-8",
+  "quote": "sincere voting strategy in which each voter acts as if",
+  "note": "Sincere voting is analysed as a benchmark. The equilibrium analyses are strategic."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Section 3.2, p.6",
+  "quote": "he votes according to the intuition",
+  "note": "Sincere voters are described in words as voting according to their intuition."
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Section 3.2, p.6",
+  "quote": "each voter acts as if there is only one voter",
+  "note": "The citation to Austen-Smith and Banks supports the definition of sincere voting, not a reason for assuming sincerity. No reason is given."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Section 2, p.5",
+  "quote": "none found",
+  "note": "The input format is OTH (binary vote), so the applicability condition is not met."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 3.4, p.9",
+  "quote": "we can show that an efficient equilibrium exists",
+  "note": "Outcomes are evaluated by the probability of a correct decision and by efficiency."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 2, p.5",
+  "quote": "If the voters choose the correct answer, they receive a payoff of 1.",
+  "note": "Correctness is evaluated against the true state \u03c9, which is defined separately from the votes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 3.2, p.6",
+   "quote_behav": "each voter cares only about the event in which he or she is pivotal",
+   "loc_info": "Section 2, p.5",
+   "quote_info": "each voter makes a guess about the complexity of the question",
+   "note": "Voters vote sincerely in the benchmark and strategically in the BNE analyses. They hold private signals and priors."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Section 2, p.5",
+  "quote": "none found",
+  "note": "Only the voter type is present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "Section 2, p.5",
+  "quote": "none found",
+  "note": "C7.1 is NA."
+ },
+ "C8.1": {
+  "codes": [
+   "BNE",
+   "ITER"
+  ],
+  "loc": "Section 3, p.5; Section 3.5, p.11",
+  "quote": "we employ the type-symmetric Bayesian Nash equilibria",
+  "note": "The stability analysis uses repeated best responses, which is coded as ITER. The main concept is BNE."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 3, p.5",
+  "quote": "we employ the type-symmetric Bayesian Nash equilibria"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.3",
+    "quote": "Therefore, for such a question, majority voting is a bad choice."
+   },
+   {
+    "loc": "Conclusion, p.12",
+    "quote": "majority voting by laymen should not be used to answer such questions"
+   },
+   {
+    "loc": "Introduction, p.3",
+    "quote": "Our setting is suitable for highly professional problems such as scientific"
+   }
+  ],
+  "note": "The claims concern real decisions and which rule to use."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sections 2-3, pp.5-6",
+  "quote": "each voter cares only about the event in which he or she is pivotal",
+  "note": "The needed assumptions (common-value payoff, strategic voters playing BNE, private signals, equilibrium selection by stability) are stated in the model or the text."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No procedural reading is stated."
+ }
+}

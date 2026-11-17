@@ -1,0 +1,181 @@
+{
+ "paper_id": "GEB-2024-b62ae4ec",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "selection of an individual from a group based on nominations",
+  "note": "Impartial selection from nominations: a voting-like procedure with strategic (incentive) properties."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "AL",
+   "WD"
+  ],
+  "primary": "WD",
+  "loc": "Sections 3-4, pp.5-28",
+  "quote": "we give a deterministic mechanism with an additive performance guarantee",
+  "note": "Main results are additive approximation guarantees and matching lower bounds, which are WD. Impartiality is a strategyproofness-type property, but it is imposed as a constraint. Impossibility via axioms is AX. Mechanism design with proofs of impartiality is also AX."
+ },
+ "C2.1": {
+  "value": "nominations; nomination graph",
+  "loc": "Introduction, p.1",
+  "quote": "takes such a nomination graph as input"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 2, p.4",
+  "quote": "directed graphs with n vertices and no loops",
+  "note": "Input is a directed graph of nominations (approval-like when outdegree is arbitrary, plurality when one). Could be read as APPR, but coded OTH because the paper models it as a digraph."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Introduction, p.1",
+  "quote": "not to reveal their true opinion on who should win",
+  "note": "Opinions are mentioned, but only informally."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Introduction, p.1",
+  "quote": "not to reveal their true opinion on who should win",
+  "note": "The text says submitted nominations may differ from true opinions. There is no separate notation, but the impartiality motivation rests on this."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 3-4",
+  "quote": "none found",
+  "note": "Voter incentives are handled by requiring impartiality, a property of the rule. No analysis models voters as submitting something different from their opinions."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1-5",
+  "quote": "none found",
+  "note": "No statement that voters submit their held attitude."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "No utility, welfare or satisfaction notion for voters. Indegree is used as the objective."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "The term is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 3-4",
+  "quote": "none found",
+  "note": "The performance criterion is the indegree of the selected vertex relative to the maximum indegree (additive guarantee). This is not framed as welfare, efficiency, satisfaction or representation."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Introduction, p.1",
+   "quote_behav": "motivated not to reveal their true opinion on who should win",
+   "loc_info": "Sections 1-5",
+   "quote_info": "none found",
+   "note": "Voters are the vertices and their outgoing edges are the nominations. Impartiality is defined as a worst-case guarantee over all changes to a vertex's own edges, so voter strategic behaviour is implicit. Information is not specified."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates are the same agents as the voters. There is no separate acting candidate role."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "The mechanism designer is not an acting agent."
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "note": "The designer's choice is not modelled as a game or objective."
+  },
+  "OTH": {
+   "present": "N",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "Fewer than two types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "DOM"
+  ],
+  "loc": "Introduction, p.1",
+  "quote": "a change of the outgoing edges of some vertex v does not change",
+  "note": "Impartiality is a strategyproofness-type property: the outcome for v is independent of v's own edges."
+ },
+ "C8.2": {
+  "code": "N",
+  "loc": "Sections 1-2",
+  "quote": "none found"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.1",
+    "quote": "In fact, such a procedure is applied in a wide range of settings"
+   },
+   {
+    "loc": "Abstract, p.1",
+    "quote": "it is also best possible: for every deterministic impartial mechanism"
+   },
+   {
+    "loc": "Section 4, p.21",
+    "quote": "In the practically relevant case where individuals are not allowed to abstain"
+   }
+  ],
+  "note": "The claims are mostly about the applicability of the setting and the tightness of the bounds. No explicit recommendation of a rule for real use. The coding is borderline."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Introduction, p.1-2",
+  "quote": "none found",
+  "note": "Reading the bounds as quality for real selection needs the assumption that nominations reflect voters' true opinions, and that indegree is the right objective. Neither is stated. Impartiality is only partly stated as an incentive argument."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1-5",
+  "quote": "none found",
+  "note": "The paper does not say it studies the rule only as a function of submitted inputs."
+ }
+}

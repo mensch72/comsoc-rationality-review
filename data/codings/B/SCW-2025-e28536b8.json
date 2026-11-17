@@ -1,0 +1,10 @@
+{
+ "paper_id": "SCW-2025-e28536b8",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "INELIG",
+  "loc": "Abstract and Sections 1-3, pp. 721-728",
+  "quote": "a solution links any ranking of coalitions of players to a binary relation",
+  "note": "The paper is an axiomatic study of social ranking solutions from cooperative game theory. It maps a ranking over coalitions to a ranking of players by relevance or power. The input is a coalitional ranking, not several agents' submitted inputs aggregated into a collective decision. The 'voters' in CP-majority are only a metaphor for coalitions. The legislature case study ranks parties' power, not a voting outcome. Coding stopped as INELIG."
+ }
+}

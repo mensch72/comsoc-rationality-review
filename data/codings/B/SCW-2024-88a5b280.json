@@ -1,0 +1,228 @@
+{
+ "paper_id": "SCW-2024-88a5b280",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Sect. 1, p. 70",
+  "quote": "selecting a fixed-size subset of candidates (a so-called committee) based on the approval preferences",
+  "note": "Approval-based committee voting rules; axiomatic, complexity and experimental analysis."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "AL",
+   "SI"
+  ],
+  "primary": "AX",
+  "loc": "Sects. 3-5, pp. 72-85",
+  "quote": "we formalize the concept of individual representation (IR) and explore to which extent",
+  "note": "AX: IR, incompatibilities, rule failures, domain bounds. AL: NP-hardness, algorithm for VI. SI: experiments on generated profiles. Primary AX by share of results."
+ },
+ "C2.1": {
+  "value": "approval profile",
+  "loc": "Sect. 2, p. 71",
+  "quote": "An (approval) profile A = (A1 , . . . , An ) contains the approval set Ai"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR",
+   "DICH"
+  ],
+  "loc": "Sect. 2 p. 71; Sect. 4 p. 77",
+  "quote": "Domain restrictions for dichotomous (i.e., approval) preferences have been studied",
+  "note": "Approval sets; the paper also calls them dichotomous preferences."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sect. 1, p. 70",
+  "quote": "based on the approval preferences of voters",
+  "note": "Approval preferences, opinions, and voters' evaluation of committees are referred to; the approval set is both input and preference."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Sect. 2, p. 71",
+  "quote": "Each voter i \u2208 N approves a subset Ai \u2286 C of candidates.",
+  "note": "Approval sets are described as voters' preferences and the rules are applied directly, with no statement about submission or misreporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sects. 3-5",
+  "quote": "none found",
+  "note": "No analysis considers misreporting."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sect. 2, Sect. 6, Sect. 1",
+  "quote": "none found",
+  "note": "No statement that voters submit their held attitude."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "PART",
+  "loc": "Sect. 2, p. 71",
+  "quote": "voter i evaluates a committee W by |W \u2229 Ai |",
+  "note": "Satisfaction is tied to the approval count, which is a stated relation; the paper also says IR is 'fair' to voters. Not formally framed as utility from ranking. SPEC could arguably fit; chose PART because satisfaction is only used as a standard assumption and not formally defined."
+ },
+ "C4.2": {
+  "code": "N",
+  "loc": "Sect. 4, p. 77",
+  "quote": "dichotomous (i.e., approval) preferences",
+  "note": "The term is used as a synonym for approval; the two classes are not described in terms of utility or a richer preference."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sect. 3, p. 72",
+  "quote": "Definition 2 (Individual Representation)",
+  "note": "IR, EJR, PJR and core stability are representation and proportionality criteria used in formal results and experiments."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Sect. 3, p. 72",
+  "quote": "|W \u2229 Ai | \u2265 f i for all voters i \u2208 N",
+  "note": "Representation is evaluated on approval sets, with no statement relating them to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters only supply approval sets and take no action in the model."
+  },
+  "CAN": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Candidates are only alternatives."
+  },
+  "ORG": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Sect. 2",
+  "quote": "",
+  "note": "Fewer than two types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "No strategic agents."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Sect. 1, p. 70",
+    "quote": "our goal is to provide all members of a voter group equal guarantees"
+   },
+   {
+    "loc": "Sect. 6, p. 85",
+    "quote": "common voting rules sometimes unfairly distinguish between such voters"
+   },
+   {
+    "loc": "Sect. 6, p. 85",
+    "quote": "IR is achievable in many instances that follow somewhat realistic preferences"
+   }
+  ],
+  "note": "Claims about fairness to voters and realistic achievability."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sect. 6, p. 85",
+  "quote": "common voting rules sometimes unfairly distinguish between such voters",
+  "note": "The fairness-to-voters claim needs a statement that approval sets equal voters' held preferences, which is not stated. The 'realistic preferences' claim needs the generated data to be realistic, which is only partly addressed."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sects. 1-6",
+  "quote": "none found",
+  "note": "No explicit procedural reading."
+ }
+}

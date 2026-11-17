@@ -1,0 +1,38 @@
+{
+ "paper_id": "AAAI-2023-f6a8c13d",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "INELIG",
+  "loc": "Abstract, p. 5490; Section 2 Model, p. 5491",
+  "quote": "studying how to assign participants to discussion groups over multiple sessions",
+  "note": "The main object is a scheduling and optimization problem: assigning citizens' assembly members to discussion tables subject to diversity constraints, solved by submodular maximization. No procedure aggregates agents' inputs into a collective decision by voting, and no strategic or computational aspect of voting is studied. Coding stopped at C0."
+ },
+ "C1": {},
+ "C2.1": {},
+ "C2.2": {},
+ "C2.3": {},
+ "C2.4": {},
+ "C3.1": {},
+ "C3.2": {},
+ "C3.3": {},
+ "C4.1": {},
+ "C4.2": {},
+ "C5.1": {},
+ "C5.2": {},
+ "C6": {
+  "VOT": {},
+  "CAN": {},
+  "ORG": {},
+  "DIS": {},
+  "BRI": {},
+  "DES": {},
+  "OTH": {}
+ },
+ "C7.1": {},
+ "C7.2": {},
+ "C8.1": {},
+ "C8.2": {},
+ "C9.1": {},
+ "C9.2": {},
+ "C10.1": {}
+}

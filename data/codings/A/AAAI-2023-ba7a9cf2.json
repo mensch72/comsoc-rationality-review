@@ -1,0 +1,173 @@
+{
+ "paper_id": "AAAI-2023-ba7a9cf2",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.5697",
+  "quote": "We design near-optimal voting rules which aggregate such preference rankings",
+  "note": ""
+ },
+ "C1": {
+  "types": [
+   "WD"
+  ],
+  "primary": "WD",
+  "loc": "Abstract, p.5697; Top Decisiveness, p.5699",
+  "quote": "aggregate such preference rankings with intensities using the recently-popular distortion framework",
+  "note": "All main results are distortion or price-of-ignoring-intensities bounds."
+ },
+ "C2.1": {
+  "value": "ordinal preference profile; preference ranking with intensities",
+  "loc": "Preliminaries, p.5699",
+  "quote": "Let \u20d7\u03c3 \u201c p\u03c31 , . . . , \u03c3n q denote the ordinal preference profile"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK",
+   "OTH"
+  ],
+  "loc": "Preliminaries, p.5699",
+  "quote": "ordinal preferences over the alternatives given by a preference ranking with intensities",
+  "note": "Strict rankings augmented with a binary intensity marker ('>' or '>>') between adjacent alternatives."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Preliminaries, p.5699",
+  "quote": "each agent i has an underlying utility function",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Preliminaries, p.5699; Voluntary Reporting, p.5701",
+  "quote": "they may choose to not reveal them and use the",
+  "note": "Utility profile \u20d7u is notated separately from the preference profile \u20d7\u03c3 and is related to it via \u03b1-consistency. In the voluntary setting, intensities held may go unreported."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Voluntary Reporting of Intensities, p.5701",
+  "quote": "they may choose to not reveal them and use the",
+  "note": "Non-revelation of intensities is handled by worst-case analysis, not by modelling strategic misreporting. Reports are always assumed to be consistent with utilities."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Preliminaries, p.5699; Mandatory Reporting, p.5702",
+  "quote": "We assume that the ordinal preferences of the agents stem from",
+  "note": "Mandatory section: agents' utility functions are strictly \u03b1-consistent with the preference ordering they submit."
+ },
+ "C3.3": {
+  "code": "CONV",
+  "loc": "Introduction, p.5697",
+  "quote": "the distortion framework posits that ordinal preferences reported by the agents",
+  "note": "The only grounding offered is that this is what the distortion framework of Procaccia and Rosenschein (2006) posits."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Preliminaries, p.5699",
+  "quote": "We say that utility profile \u20d7u is \u03b1consistent with preference profile",
+  "note": ""
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Preliminaries, p.5699",
+  "quote": "The distortion of x over \u20d7u is defined as",
+  "note": ""
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Preliminaries, p.5699",
+  "quote": "the social welfare of distribution x P \u2206pAq is swpx, \u20d7uq",
+  "note": "Welfare is computed on the underlying utilities."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Mandatory Reporting of Intensities, p.5702",
+   "quote_behav": "strictly \u03b1-consistent with the preference ordering they submit",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Reports are assumed to be consistent with utilities. Under voluntary reporting, omission of intensities is treated as exogenous and analysed in the worst case."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N",
+   "note": "The designer choosing \u03b1 is mentioned, but the choice is not modelled as an agent's optimisation. Bounds are given as functions of \u03b1."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is strategic."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.5697",
+    "quote": "can incur significant welfare loss"
+   },
+   {
+    "loc": "Our Contribution, p.5698",
+    "quote": "captures the efficiency loss of traditional voting rules that do"
+   },
+   {
+    "loc": "Introduction, p.5698",
+    "quote": "What welfare loss might the designer incur when using a traditional"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Preliminaries, p.5699",
+  "quote": "We assume that the ordinal preferences of the agents stem from",
+  "note": "The welfare-loss claims need two assumptions: that reports are consistent with utilities, and how utilities relate to rankings (\u03b1-consistency, unit-sum). Both are stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction; Preliminaries; Discussion",
+  "quote": "none found",
+  "note": ""
+ }
+}

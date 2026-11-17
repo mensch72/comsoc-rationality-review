@@ -1,0 +1,176 @@
+{
+ "paper_id": "JET-2021-9f7e5ab5",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "1.1 Background, p.1",
+  "quote": "choosing an alternative from a set of feasible alternatives",
+  "note": "Characterises unanimous, strategy-proof random social choice functions aggregating agents' preferences."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SB"
+  ],
+  "primary": "AX",
+  "loc": "3.1 Theorem 1, p.9",
+  "quote": "unanimous and strategy-proof if and only if it is a TRM rule",
+  "note": "Characterisation results; strategy-proofness is the incentive property characterised."
+ },
+ "C2.1": {
+  "value": "preference profile",
+  "loc": "2.1, p.5",
+  "quote": "A preference profile, denoted by PN"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK",
+   "WEAK"
+  ],
+  "loc": "2.1, p.4; Section 5, p.21",
+  "quote": "A weak preference is a transitive and complete binary relation.",
+  "note": "Strict linear orders in the main model; weak orders with plateau of size at most two in Section 5."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "2.2, footnote 4, p.7",
+  "quote": "the outcome an(y) agent can obtain by misreporting his/her preference",
+  "note": "Agents hold preferences that they may misreport."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "2.2, footnote 4, p.7",
+  "quote": "the outcome an(y) agent can obtain by misreporting his/her preference",
+  "note": "Strategy-proofness compares the true Pi with a reported Pi\u2032."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "2.2, p.7; Theorems 1-3",
+  "quote": "strategy-proofness ensures that the outcome an(y) agent can obtain by misreporting",
+  "note": "Every main result concerns strategy-proof rules, i.e. considers misreports."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No utility, welfare, satisfaction, cost or distortion notions for voters are used."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term dichotomous preferences not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 2-5, Appendices",
+  "quote": "none found",
+  "note": "Results concern unanimity and strategy-proofness only; efficiency appears only in a literature citation."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "2.2, footnote 4, p.7",
+   "quote_behav": "strategy-proofness ensures that the outcome an(y) agent can obtain by misreporting",
+   "loc_info": "Sections 2, 3, 6 checked",
+   "quote_info": "none found",
+   "note": "Strategy-proofness as a dominant-strategy property; information about others not discussed."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N",
+   "note": "Designer mentioned in Remark 4.1 only as knowing the top-set; choice not modelled."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "DOM"
+  ],
+  "loc": "2.2, p.7",
+  "quote": "Our notion of strategy-proofness (which is introduced in Gibbard (1977))",
+  "note": ""
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "2.2, p.7",
+  "quote": "Our notion of strategy-proofness (which is introduced in Gibbard (1977))"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "1.1 Introduction, p.2",
+    "quote": "many political and economic scenarios where preferences of individuals satisfy natural restrictions"
+   },
+   {
+    "loc": "1.2 Introduction, p.4",
+    "quote": "property can be utilized in finding the optimal RSCFs for a society"
+   },
+   {
+    "loc": "1.1 Introduction, p.1",
+    "quote": "Some desirable properties of a DSCF are unanimity and strategy-proofness."
+   }
+  ],
+  "note": "Claims are mild statements about applicability and desirability."
+ },
+ "C9.2": {
+  "code": "UNCLEAR",
+  "loc": "1.2, p.4; 4.5, p.16",
+  "quote": "property can be utilized in finding the optimal RSCFs for a society",
+  "note": "The optimality claim relies on an objective that is not defined in this paper. It is unclear which assumptions are needed beyond those of the cited work."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction, Section 2, Conclusion",
+  "quote": "none found",
+  "note": ""
+ }
+}

@@ -1,0 +1,131 @@
+{
+ "paper_id": "AAMAS-2024-aa390e86",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "INELIG",
+  "loc": "Abstract, p.1683; Sec. 3, p.1685",
+  "quote": "a mechanism to find multi-user consensuses over these preferences",
+  "note": "The main object is detecting unanimous consensus over users' appropriateness preferences and synthesising a minimal set of norms. It is set-cover optimisation in normative multi-agent systems. The paper never frames this as voting or as a voting rule, so it is outside scope under a strict reading. Coding stopped here."
+ },
+ "C1": {
+  "types": [],
+  "primary": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded (INELIG)."
+ },
+ "C2.1": {
+  "value": "",
+  "loc": "",
+  "quote": ""
+ },
+ "C2.2": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "Not coded (INELIG)."
+ },
+ "C2.3": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded (INELIG)."
+ },
+ "C2.4": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded (INELIG)."
+ },
+ "C3.1": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded (INELIG)."
+ },
+ "C3.2": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded (INELIG)."
+ },
+ "C3.3": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded (INELIG)."
+ },
+ "C4.1": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded (INELIG)."
+ },
+ "C4.2": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded (INELIG)."
+ },
+ "C5.1": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded (INELIG)."
+ },
+ "C5.2": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded (INELIG)."
+ },
+ "C6": {
+  "VOT": {},
+  "CAN": {},
+  "ORG": {},
+  "DIS": {},
+  "BRI": {},
+  "DES": {},
+  "OTH": {}
+ },
+ "C7.1": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded (INELIG)."
+ },
+ "C7.2": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded (INELIG)."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "Not coded (INELIG)."
+ },
+ "C8.2": {
+  "code": "",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "",
+  "claims": [],
+  "note": "Not coded (INELIG)."
+ },
+ "C9.2": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded (INELIG)."
+ },
+ "C10.1": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded (INELIG)."
+ }
+}

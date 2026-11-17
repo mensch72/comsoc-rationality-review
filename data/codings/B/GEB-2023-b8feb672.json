@@ -1,0 +1,174 @@
+{
+ "paper_id": "GEB-2023-b8feb672",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Sec. 2",
+  "quote": "Social decision schemes (SDSs) map the ordinal preferences of individual voters",
+  "note": "Axiomatic study of randomized voting rules (SDSs), including strategyproofness and participation."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SB"
+  ],
+  "primary": "AX",
+  "loc": "Sec. 4, Theorems 1-3",
+  "quote": "there is no Condorcet-consistent SDS that satisfies PC -strategyproofness",
+  "note": "Impossibility theorems; strategyproofness and participation are incentive properties. The efficiency-path result is also axiomatic/conceptual."
+ },
+ "C2.1": {
+  "value": "preference profile",
+  "loc": "Sec. 2",
+  "quote": "A preference profile R on an electorate N \u2208 F(N) assigns a preference relation"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Sec. 2",
+  "quote": "complete, transitive, and anti-symmetric binary relation on A",
+  "note": "Strict preferences; ties are not allowed."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec. 2.2",
+  "quote": "We assume that the voters' preferences over alternatives are lifted to preferences over lotteries",
+  "note": "Voters have preferences over alternatives and lotteries."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Sec. 2.4",
+  "quote": "no voter can benefit by lying about his true preferences",
+  "note": "Strategyproofness treats reported and true preferences as separate objects (R and R'), although the profile is also called preferences."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "Sec. 2.3, 4",
+  "quote": "Intuitively, strategyproofness demands that no voter can benefit by lying",
+  "note": "Strategyproofness and participation analyses consider misreporting; the PC-efficiency and Proposition 5 analysis evaluates the profile as given."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sec. 2.3, Appendix A.1",
+  "quote": "none found",
+  "note": "Efficiency is defined on the profile without any statement that voters report truthfully. Sections checked: 2, 4, 5."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Sec. 2.2",
+  "quote": "",
+  "note": "Voter utility is not used as such. The PC extension is defined on ordinal preferences, and expected utility is only mentioned for SD in the background."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used, except in a reference title."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sec. 2.3",
+  "quote": "we say a lottery p is X -efficient in R if it is not X -dominated",
+  "note": "PC-efficiency and Pareto efficiency are formal criteria in the results (Theorems 2 and 3, Proposition 5)."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Sec. 2.3",
+  "quote": "p is an X -improvement of q if p makes every voter weakly better off",
+  "note": "Efficiency is evaluated on the profile of preferences. There is no statement relating it to held versus reported preferences."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "IMPLICIT",
+   "loc_behav": "Sec. 2.4",
+   "quote_behav": "no voter can benefit by lying about his true preferences",
+   "loc_info": "Sec. 2.4",
+   "quote_info": "f (R) \u227dX i f (R\u2032) for all electorates N \u2208 F(N), voters i \u2208 N",
+   "note": "The axiom quantifies over all profiles R, R' with R\u2212i = R'\u2212i, which implicitly gives the manipulator full knowledge of others' preferences. This is not said in words."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "C6",
+  "quote": "",
+  "note": "Only one agent type, voters, is present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "C7.1",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "DOM"
+  ],
+  "loc": "Sec. 2.4",
+  "quote": "strategyproofness demands that no voter can benefit by lying",
+  "note": "Strategyproofness is a dominant-strategy-type property."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Sec. 2.4",
+  "quote": "we call X -strategyproofness, requires of an SDS f that"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Sec. 5 Conclusion",
+    "quote": "our results demonstrate limitations of PC preferences"
+   },
+   {
+    "loc": "Sec. 5 Conclusion",
+    "quote": "two SDSs stand out: the uniform random dictatorship"
+   },
+   {
+    "loc": "Abstract",
+    "quote": "we lift preferences over alternatives to preferences over lotteries using the natural"
+   }
+  ],
+  "note": "Claims about which rules stand out and about the limits of PC preferences amount to rule-choice claims."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sec. 5",
+  "quote": "In light of the shown tradeoff between incentive-compatibility and efficiency",
+  "note": "A claim about which rules to prefer needs the assumption that voters compare lotteries by PC (stated). It also needs the assumption that the preference profile reflects voters' held preferences when efficiency is judged, which is not stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sec. 2",
+  "quote": "none found",
+  "note": "The paper does not state a purely procedural reading."
+ }
+}

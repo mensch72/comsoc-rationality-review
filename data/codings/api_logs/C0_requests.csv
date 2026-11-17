@@ -1,0 +1,7 @@
+paper_id,model,mode,prompt_tokens,completion_tokens,reasoning_tokens,cost,status
+SCW-2024-e2395b6d,anthropic/claude-opus-5.5,sync,40040,559,295,0.17134,ok
+GEB-2024-89ec12d3,anthropic/claude-opus-5.5,sync,40867,554,285,0.174548,ok
+AAMAS-2024-3b0ee8e7,anthropic/claude-opus-5.5,sync,29941,699,469,0.133744,ok
+COMSOC-2023-a7b148f7,anthropic/claude-opus-5.5,sync,40499,807,490,0.178136,ok
+COMSOC-2023-89b07d01,anthropic/claude-opus-5.5,sync,34662,777,518,0.154188,ok
+SCW-2024-5c1f2968,anthropic/claude-opus-5.5,sync,35479,822,547,0.158356,ok

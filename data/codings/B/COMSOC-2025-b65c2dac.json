@@ -1,0 +1,175 @@
+{
+ "paper_id": "COMSOC-2025-b65c2dac",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Section 3, p.5",
+  "quote": "a randomized voting rule takes as input a profile of agent preferences",
+  "note": "Main object is randomized voting rules, plus one- and two-sided matching mechanisms. Voting is a core part, so coded eligible."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "AL",
+   "SB"
+  ],
+  "primary": "AX",
+  "loc": "Sections 3-4, Appendix C",
+  "quote": "We study the compatibility of efficiency and strategyproofness for randomized voting rules",
+  "note": "Mostly axiomatic compatibility results on efficiency, strategyproofness, fairness and stability. Algorithmic results: Theorem 10, 26. Strategyproofness is a property studied throughout."
+ },
+ "C2.1": {
+  "value": "preference profile; voting profile",
+  "loc": "Section 3, p.5",
+  "quote": "A voting profile \u227b= (\u227b1 , ..., \u227bn ) consists of the preference \u227bi of each agent"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 3, p.5",
+  "quote": "\u227bi is a strict ordering over the alternatives",
+  "note": "Quantile parameter is also part of the agent's data, but the ranking is the submitted input."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.4",
+  "quote": "Consider an agent equipped with a strict preference order \u227b among the options",
+  "note": "Agents have preferences and quantile parameters."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 3, p.5-6",
+  "quote": "A voting profile \u227b= (\u227b1 , ..., \u227bn ) consists of the preference \u227bi of each agent",
+  "note": "The profile of preferences is the rule's input. Rankings are called 'submitted as votes' in the introduction. Misreports appear only in strategyproofness definitions, with no explicit statement on the relation between input and held attitude."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "Definition 5 and Theorem 8, Section 3, p.6-7",
+  "quote": "it holds rep(R(\u227b), \u227bi , hi ) \u2ab0i rep(R(\u227b\u2212i , \u227b\u2032i ), \u227bi , hi )",
+  "note": "Strategyproofness analyses consider misreports. Efficiency, welfare and proportionality analyses take the profile as given."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 3, 4, 5, Appendix C",
+  "quote": "none found",
+  "note": "No statement that voters submit their held preferences in the non-strategic analyses."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Section 2-3",
+  "quote": "",
+  "note": "Utility is defined from the ranking via quantile representatives. This is a defined link but is in effect the held-attitude model itself. The paper does use utility for ranking inputs, so the applicability condition may hold. It is coded SPEC below as the safer reading."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "",
+  "note": "Dichotomous preferences not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Definition 3, Section 3, p.6",
+  "quote": "Given a voting instance (N, A, \u227b, h), a lottery x over the alternatives of A is efficient",
+  "note": "Pareto efficiency is a main criterion. Also social welfare variant (Theorem 10) and proportionality/envy-freeness."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 2 and Definition 3, p.4-6",
+  "quote": "rep(y, \u227bi , hi ) \u2ab0i rep(x, \u227bi , hi ) for every agent i",
+  "note": "Evaluation is by the quantile utility of agents based on preferences and quantile parameters, treated as held attitudes. Not explicitly separated from the submitted input, so it could be read as INPUT-UNSTATED."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Definition 5, Section 3, p.6",
+   "quote_behav": "for every preference profile \u227b, agent i, and preference \u227b\u2032i",
+   "loc_info": "Section 3",
+   "quote_info": "none found",
+   "note": "Voters misreport in strategyproofness definitions. Information is not specified, since strategyproofness is a dominance-type condition."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Section 6",
+  "quote": "",
+  "note": "Only one type present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "DOM"
+  ],
+  "loc": "Definition 5, Section 3, p.6",
+  "quote": "the voting rule R is strategyproof for the domain (N, A, \u00b7, h)",
+  "note": ""
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Definition 5, Section 3, p.6",
+  "quote": "the voting rule R is strategyproof for the domain (N, A, \u00b7, h)"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.1",
+    "quote": "Randomized mechanisms are pivotal in social choice and matching theory"
+   },
+   {
+    "loc": "Abstract",
+    "quote": "In contrast to well-known impossibilities in randomized social choice, we show that satisfying the above properties simultaneously is possible."
+   },
+   {
+    "loc": "Introduction, p.2",
+    "quote": "trivial mechanisms like uniform lotteries are usually ideal"
+   }
+  ],
+  "note": "Claims about which rules are good and about the practical use of randomized mechanisms."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Abstract and Introduction",
+  "quote": "none found",
+  "note": "Possibility claims need the assumptions that agents have quantile utilities and that submitted rankings relate to held preferences; the latter is not stated. Real-world quantile parameters are also not discussed."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No procedural-reading statement."
+ }
+}

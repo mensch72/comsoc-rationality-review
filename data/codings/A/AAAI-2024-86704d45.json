@@ -1,0 +1,160 @@
+{
+ "paper_id": "AAAI-2024-86704d45",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Sec. 1 Introduction, p. 9555",
+  "quote": "Motivated by recent work in computational social choice",
+  "note": "Borderline. Agents report rankings over other agents, which are aggregated into a choice of k centres. The paper motivates this as representative election within the metric distortion framework, so I code ELIG under the doubt rule."
+ },
+ "C1": {
+  "types": [
+   "WD",
+   "AL"
+  ],
+  "primary": "WD",
+  "loc": "Sec. 1 Our Results, p. 9556",
+  "quote": "using at most O(k 2 ) overall distance evaluations, obtain a 2-distortion",
+  "note": "Every main result is a distortion bound, achieved under query or centre budgets, and comes with polynomial-time algorithms and query lower bounds."
+ },
+ "C2.1": {
+  "value": "ordinal preference profile; rankings",
+  "loc": "Sec. 2 Preliminaries, p. 9557",
+  "quote": "An ordinal preference profile P is then just the collection"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK",
+   "CARD"
+  ],
+  "loc": "Sec. 2 Preliminaries, p. 9557",
+  "quote": "each point x \u2208 X provides a ranking \u03c0x : [n] \u2192 X",
+  "note": "The input also includes limited cardinal information, obtained through costly distance queries d(x,y)."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec. 2 Preliminaries, p. 9557",
+  "quote": "Each point x \u2208 X reports a ranking \u03c0x that is consistent",
+  "note": "The held attitude is the underlying metric distances d."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Sec. 2 Preliminaries, p. 9557",
+  "quote": "We write P(d) for the set of profiles where each",
+  "note": "Profiles P and distances d have separate notation. The reported rankings are assumed to be consistent with d, without a stated reason."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sec. 2 Preliminaries, p. 9557",
+  "quote": "provides a ranking \u03c0x : [n] \u2192 X that is consistent with d",
+  "note": ""
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Sec. 2 Preliminaries, p. 9557",
+  "quote": "Each point x \u2208 X reports a ranking \u03c0x that is consistent",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Sec. 2 Preliminaries, p. 9557",
+  "quote": "our model assumes that, for every point, ordinal information",
+  "note": "Consistency is simply assumed as part of the model."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Sec. 2 Preliminaries, p. 9557",
+  "quote": "points that are closer to x appear higher in x's ranking",
+  "note": "A metric generates both the rankings and the social cost."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sec. 2 Preliminaries, p. 9557",
+  "quote": "We say that an algorithm A achieves distortion",
+  "note": ""
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Sec. 2 Preliminaries, p. 9557",
+  "quote": "taking into account all underlying metrics that are consistent",
+  "note": "Cost is evaluated on the distances d, not on the rankings."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sec. 2 Preliminaries, p. 9557",
+   "quote_behav": "Each point x \u2208 X reports a ranking \u03c0x that is consistent",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Agents (points) report rankings fixed by the metric."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only one type is present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is strategic."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "N",
+  "claims": [],
+  "note": "The abstract mentions 'the most relevant scenarios in practice' only regarding query counts. The conclusion is purely technical. There are no claims about institutions, voter well-being, or which rule to use."
+ },
+ "C9.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sec. 1 Introduction; Sec. 2 Preliminaries; Sec. 6 Conclusion",
+  "quote": "none found",
+  "note": ""
+ }
+}

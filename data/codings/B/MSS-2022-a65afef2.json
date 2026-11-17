@@ -1,0 +1,166 @@
+{
+ "paper_id": "MSS-2022-a65afef2",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Section 1, p.1",
+  "quote": "every strategy-proof, anonymous social choice function can be described geometrically",
+  "note": "Voting rules (binary social choice functions) and their strategy-proofness."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SB"
+  ],
+  "primary": "AX",
+  "loc": "Section 1, Theorem 1.1; Theorem 2.8",
+  "quote": "\u03c6 \u2208 \u03a6 is strategy-proof if and only if f\u03c6 is dually monotone.",
+  "note": "Representation/characterisation of anonymous strategy-proof rules; the property is strategyproofness. Primary AX as characterisation."
+ },
+ "C2.1": {
+  "value": "profile P = (Pv)v\u2208V of preferences",
+  "loc": "Section 1, p.1",
+  "quote": "based upon the profile P = (Pv)v\u2208V of preferences expressed by its members"
+ },
+ "C2.2": {
+  "codes": [
+   "WEAK"
+  ],
+  "loc": "Section 1, p.1; Definition 2.1",
+  "quote": "it can be indifference between the two alternatives",
+  "note": "Each voter expresses a, b or indifference over two alternatives (weak order)."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 1, p.1",
+  "quote": "preferences expressed by its members",
+  "note": "Paper speaks of preferences; strategyproofness defined with respect to Pv as true preference (\u227b with Pv)."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 1; Section 2",
+  "quote": "profile P = (Pv)v\u2208V of preferences expressed by its members",
+  "note": "Preferences and inputs are the same object P; rule applied directly. Strategyproofness uses Qv as alternative reports but with the same notation type. No statement of sincerity; IDU chosen."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Section 2, Theorem 2.8",
+  "quote": "this agent can advantageously manipulate P (k + 1, m) by declaring indifference.",
+  "note": "The main analysis is strategyproofness, which considers misreports; no non-strategic main analysis."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "Section 2",
+  "quote": "none found",
+  "note": "C3.1 = ALL."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "Section 2",
+  "quote": "none found",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No utility, welfare or satisfaction notions for voters; only preference-based manipulation."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "Term dichotomous preferences not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 2-4",
+  "quote": "none found",
+  "note": "No welfare, efficiency, representation criteria in results."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "Sections 2-4",
+  "quote": "none found",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Section 2, proof of Theorem 2.8",
+   "quote_behav": "this agent can advantageously manipulate P (k + 1, m) by declaring indifference.",
+   "loc_info": "Sections 1-2",
+   "quote_info": "none found",
+   "note": "Strategyproofness is a dominance-type property: any voter, any profile; information not specified."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Section 2",
+  "quote": "none found",
+  "note": "Only one type present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "Section 2",
+  "quote": "none found",
+  "note": "C7.1 is NA."
+ },
+ "C8.1": {
+  "codes": [
+   "DOM"
+  ],
+  "loc": "Definition 2.1; Theorem 2.8",
+  "quote": "\u03c6 \u2208 \u03a6 is strategy-proof if and only if f\u03c6 is dually monotone.",
+  "note": "Strategyproofness/non-manipulability."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 1, Definition 2.1",
+  "quote": "typical assumptions on the scf \u03c6 are anonymity and strategy-proofnes"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 1, p.1",
+    "quote": "To ensure a fair consideration of the opinions of all agents"
+   }
+  ],
+  "note": "Mild motivational claim about fairness and preventing false declarations; no claims on which rule should be used."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 1, p.1",
+  "quote": "to prevent strategical false declarations",
+  "note": "The claim about fair consideration of opinions needs a statement relating inputs to held preferences, which is not made explicitly."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1-2",
+  "quote": "none found",
+  "note": "No procedural reading statement."
+ }
+}

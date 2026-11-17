@@ -1,0 +1,227 @@
+{
+ "paper_id": "SCW-2022-3bbb6690",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Sect. 2, p. 370-373",
+  "quote": "explores the effects of the straight-ticket voting option (STVO)",
+  "note": "Borderline: a probabilistic-voting model of how a ballot-design feature (STVO) shapes outcomes of elections. Treated as eligible because the object is a voting procedure and its effects."
+ },
+ "C1": {
+  "types": [
+   "EQ"
+  ],
+  "primary": "EQ",
+  "loc": "Sect. 2-3, pp. 371-378",
+  "quote": "We solve the game by backward induction.",
+  "note": "Subgame-perfect analysis of a party-voter game with comparative statics (Propositions 1-3). The motivating data in Fig. 1 is descriptive and not a main result."
+ },
+ "C2.1": {
+  "value": "ballot (race-by-race votes or a straight-ticket vote)",
+  "loc": "Sect. 1, p. 366; Sect. 2, p. 372",
+  "quote": "allows voters to select one party for all partisan elections"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Sect. 2, p. 372",
+  "quote": "he selects the candidate that maximises uik (j)",
+  "note": "Each voter casts a vote for one of two parties' candidates in each race, or a single straight-party vote. This is a choice among two alternatives, not a ranking, approval set, or the other listed formats."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sect. 2, p. 372",
+  "quote": "Voters\u2019 utility from electing a candidate has three components",
+  "note": "Voters hold bliss points, a partisanship status, and utilities."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Sect. 2, pp. 372-373",
+  "quote": "if the voter does not use the STVO and goes through the ballot",
+  "note": "Utility and bliss points are held attitudes with separate notation. The vote is a separate object: a voter who uses STVO votes the party line even where race-level utility would favour another candidate."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Sect. 2, p. 373; Sect. 3.3, p. 377",
+  "quote": "although they would have voted positionally had the option not been made available",
+  "note": "Borderline. Voters choosing STVO submit a straight ticket that may differ from their race-by-race utility-maximising choice, but this is not strategic misreporting; it is a cost-driven choice of ballot. Coded ALL because the voter-choice analysis is the core of every result."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "none found",
+  "note": "C3.1 = ALL."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "none found",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Sect. 2, p. 372",
+  "quote": "none found",
+  "note": "The input format is not RANK, WEAK, APPR, DICH or PAIR."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sect. 3, pp. 374-378",
+  "quote": "deduce its effects on three outcomes: candidates\u2019 platforms",
+  "note": "Results concern platforms, vote shares and the expected position of the winner. No welfare, efficiency, representation or distortion criterion is evaluated."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "none found",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Sect. 2, p. 372",
+   "quote_behav": "He makes his decision by comparing the cost",
+   "loc_info": "Sect. 2, p. 373",
+   "quote_info": "none found",
+   "note": "Voters decide whether to use STVO by comparing cost with expected benefit. They observe candidate positions and party labels, and the quality shock only when going through the ballot. Their knowledge of other voters' attitudes or inputs is not specified."
+  },
+  "CAN": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Sect. 2, p. 372",
+   "quote_behav": "The party derives utility from the vote share",
+   "loc_info": "Sect. 2, p. 373",
+   "quote_info": "its distribution is common knowledge so our model contains no aggregate uncertainty",
+   "note": "Parties act as proponents who select candidates. They know the distributions of voter positions and partisanship, but not individual realisations."
+  },
+  "ORG": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "STVO availability is an exogenous parameter (mu)."
+  },
+  "OTH": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "N",
+  "loc": "Sect. 2, pp. 371-373",
+  "quote": "Our model of an election with STVO is a game",
+  "note": "Both voters and parties are strategic."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "none found",
+  "note": "C7.1 = N."
+ },
+ "C8.1": {
+  "codes": [
+   "SPE"
+  ],
+  "loc": "Sect. 2, p. 372",
+  "quote": "We solve the game by backward induction.",
+  "note": ""
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Sect. 2, p. 372",
+  "quote": "We solve the game by backward induction."
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Sect. 1, p. 366",
+    "quote": "no theoretical model exists that clarifies which party benefits from it"
+   },
+   {
+    "loc": "Sect. 1, p. 370",
+    "quote": "our findings are also useful for interpreting empirical research on the impact of ballot design"
+   },
+   {
+    "loc": "Sect. 4, p. 379",
+    "quote": "Introducing each should result in a change in the type of voters targeted"
+   }
+  ],
+  "note": "Claims concern real institutions and ballot design."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sect. 2, pp. 372-374",
+  "quote": "Voters\u2019 utility from electing a candidate has three components",
+  "note": "The claims rest on the probabilistic voting model, the party objective, and free candidate choice. The paper states all of these. No voter-welfare claim is made, so no input-attitude link is needed."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": ""
+ }
+}

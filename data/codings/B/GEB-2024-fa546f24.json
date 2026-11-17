@@ -1,0 +1,225 @@
+{
+ "paper_id": "GEB-2024-fa546f24",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Section 1, p.208",
+  "quote": "members of an advisory committee with private continuous signals vote on a policy change",
+  "note": "Strategic voting game: committee votes, decision maker aggregates votes via decision rules (k-rules, weighted voting); equilibrium and information aggregation analysis."
+ },
+ "C1": {
+  "types": [
+   "EQ",
+   "WD"
+  ],
+  "primary": "EQ",
+  "loc": "Section 3, p.210-212",
+  "quote": "necessary and sufficient condition for the existence of an informative equilibrium",
+  "note": "Main results are equilibrium existence characterisations (Props 2-3); Prop 4 on full information aggregation is a performance/welfare-like result (mistake probabilities vanish)."
+ },
+ "C2.1": {
+  "value": "votes (vote profile)",
+  "loc": "Section 2, p.210",
+  "quote": "maps a vote profile v := (v1, \u2026 , vn) \u2208 {Y, N}"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 2, p.209",
+  "quote": "votes simultaneously over the two options",
+  "note": "Binary votes Y/N on two policy options; none of the listed formats exactly (a binary vote)."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.209",
+  "quote": "Each member i (he) receives a private signal si about the state",
+  "note": "Held attitudes: private signals and payoffs/preferences over decisions given state."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2, p.209",
+  "quote": "A voting strategy of member i is a (measurable) function",
+  "note": "Signals/payoffs are separate from votes; vote is a strategy mapping signal to vote probability."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Section 2-3, p.209-210",
+  "quote": "committee members must use a cutoff strategy",
+  "note": "All analyses model members as strategic Bayesian voters in equilibrium."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "Section 3",
+  "quote": "none found",
+  "note": "C3.1 = ALL."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "Section 3",
+  "quote": "none found",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Section 2",
+  "quote": "none found",
+  "note": "Input is a binary vote, no RANK/WEAK/APPR/DICH/PAIR format."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 3.2, p.212",
+  "quote": "full information aggregation is achievable",
+  "note": "Full information aggregation, probability of DM making mistakes vanishes, evaluates rules by decision accuracy relative to the state, matching payoffs of committee and DM; borderline against the listed criteria."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 2-3.2",
+  "quote": "probabilities of the DM choosing Y in state y and N in state n",
+  "note": "Evaluated against the true state, defined separately from votes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 3.1, p.210",
+   "quote_behav": "must be indifferent between voting for Y and N conditional on being pivotal",
+   "loc_info": "Section 2, p.209",
+   "quote_info": "receives a private signal si about the state \u03b8",
+   "note": "Committee members observe private signals and common prior, not others' signals."
+  },
+  "CAN": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "ORG": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "The DM is a player, coded under OTH."
+  },
+  "OTH": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 2, p.209-210",
+   "quote_behav": "The DM (she) makes the final decision D \u2208 {Y, N}",
+   "loc_info": "Section 2, p.209-210",
+   "quote_info": "after observing each member's vote",
+   "note": "Other agent: decision maker who chooses a decision rule/decision in PBE (best responds to beliefs); observes votes but not signals; knows prior."
+  }
+ },
+ "C7.1": {
+  "code": "N",
+  "loc": "Section 2-3",
+  "quote": "none found",
+  "note": "Both voters and DM are strategic."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "Section 2-3",
+  "quote": "none found",
+  "note": "C7.1 \u2260 Y."
+ },
+ "C8.1": {
+  "codes": [
+   "BNE",
+   "SPE"
+  ],
+  "loc": "Section 2, p.210",
+  "quote": "We use perfect Bayesian equilibrium (PBE) as the solution concept.",
+  "note": "Perfect Bayesian equilibrium of a sequential voting-then-decision game; coded as BNE/SPE-type; named PBE."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 2, p.210",
+  "quote": "We use perfect Bayesian equilibrium (PBE) as the solution concept."
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 1, p.209",
+    "quote": "offers a new rationale, from the perspective of information transmission, why the unanimity rule"
+   },
+   {
+    "loc": "Section 3.1, p.211",
+    "quote": "Corollary 1 thus rationalizes the pressure for a higher level of consensus"
+   }
+  ],
+  "note": "Claims about institutions and which rule is prevalent."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 1, p.209",
+  "quote": "unanimity rule is so prevailing in decision-making processes",
+  "note": "Claims about real institutions rely on assumptions such as the DM being unable to commit and rule being endogenous, which are stated; but the link from the model to real committees (e.g. homogeneous members, continuous signals) is only partly argued; some applicability assumptions unstated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No procedural reading statement."
+ }
+}

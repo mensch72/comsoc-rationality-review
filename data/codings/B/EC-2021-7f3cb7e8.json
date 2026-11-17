@@ -1,0 +1,226 @@
+{
+ "paper_id": "EC-2021-7f3cb7e8",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "choosing a subset of candidates of a given size k from a set of m candidates",
+  "note": "Multiwinner voting rule (Chamberlin-Courant / s-Borda); computational aspects of the rule."
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "WD"
+  ],
+  "primary": "AL",
+  "loc": "Abstract; Sections 3-4, 7",
+  "quote": "no polynomial-time algorithm can distinguish between instances with Opt",
+  "note": "Approximation algorithms, hardness, LP rounding; approximation guarantees against the optimal score (WD) are secondary. Core connection is a minor result."
+ },
+ "C2.1": {
+  "value": "voters' ordinal rankings; preferences; preference orderings",
+  "loc": "Abstract; Section 2",
+  "quote": "with knowledge of voters\u2019 ordinal rankings over all candidates"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2",
+  "quote": "Each voter v has a bijective ranking function rv",
+  "note": "Strict rankings."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 1; Section 2",
+  "quote": "A set V of n voters express their preferences on the candidates ordinally",
+  "note": "Preferences and cardinal utilities are mentioned, but the ranking is the only formal object."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2",
+  "quote": "A set V of n voters express their preferences on the candidates ordinally",
+  "note": "The ranking is described as voter preferences and the rule is applied directly to it, with no statement about reporting or submission."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "No analysis considers misreporting."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 2, 8",
+  "quote": "none found",
+  "note": "No statement that voters submit their held preferences."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NOTSPEC",
+  "loc": "Section 1",
+  "quote": "the candidates are products or public projects that provide shared utility",
+  "note": "Utility and satisfaction are mentioned, and the paper uses the satisfaction version m+1-rank, but no link between utilities and rankings is defined; 'cardinal utilities' are mentioned only as something voters may not articulate."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 1; Section 6",
+  "quote": "the maximization (or satisfaction) version of CC rule",
+  "note": "Satisfaction and proportional representation are evaluated through the Borda score, and the core connection is treated as a fairness notion."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Sections 1, 2",
+  "quote": "the score of a committee is the average over the voters, of the rank",
+  "note": "Evaluated on the submitted rankings, which are called preferences, with no statement relating them to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters are only sources of rankings and take no action in the model."
+  },
+  "CAN": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Candidates are only alternatives."
+  },
+  "ORG": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "The algorithm is a procedure, not an acting organiser."
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "The designer's choice is not modelled explicitly."
+  },
+  "OTH": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "C6",
+  "quote": "",
+  "note": "No types are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "C6",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no agent is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.1",
+    "quote": "provide analytic justification for using such algorithms in practice"
+   },
+   {
+    "loc": "Section 1, p.2",
+    "quote": "optimizing this score implies a form of proportional representation"
+   },
+   {
+    "loc": "Section 6, p.15",
+    "quote": "the core achieves a stronger notion of proportionality than 1-Borda"
+   }
+  ],
+  "note": "Claims about practical use of algorithms and proportional representation of voters."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 1, p.2",
+  "quote": "each voter on average has s \u201cgood\u201d candidates representing her",
+  "note": "Claims about representation of voters need an assumption that submitted rankings equal voters' true preferences (not stated), and a link between rank and satisfaction (not stated)."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 2, 8",
+  "quote": "none found",
+  "note": "No procedural reading stated."
+ }
+}

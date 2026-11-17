@@ -1,0 +1,160 @@
+{
+ "paper_id": "COMSOC-2023-a7b148f7",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1; Sec. 4, p.5",
+  "quote": "We consider the notions of agreement, diversity, and polarization in ordinal elections",
+  "note": "Borderline. The main object is indices of election profiles rather than a decision procedure. Their computation rests on k-Kemeny, a Kemeny-type aggregation (compared to Chamberlin-Courant), so ELIG was chosen as the first-listed code."
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "SI",
+   "OT"
+  ],
+  "primary": "AL",
+  "loc": "Sec. 4, pp.5-7; Sec. 6, pp.11-13",
+  "quote": "There is a polynomial-time 5.4-approximation algorithm for k-Kemeny.",
+  "note": "OT: the paper proposes new diversity and polarization indices. SI: indices are evaluated on synthetic datasets, some resampled from real data. AL and SI are about equally central; AL was chosen as the first listed."
+ },
+ "C2.1": {
+  "value": "election; preferences (or, votes); preference order (his or her vote)",
+  "loc": "Sec. 2 Elections, p.3",
+  "quote": "voters whose preferences (or, votes ) are represented as linear orders"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Sec. 2, p.3",
+  "quote": "are represented as linear orders over C",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec. 1, p.1; Sec. 2, p.3",
+  "quote": "each voter has a preference order (his or her vote)",
+  "note": "Preferences and views are attributed to voters but are identified with the vote."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Sec. 2, p.3",
+  "quote": "voters whose preferences (or, votes ) are represented as linear orders",
+  "note": "Preferences and votes are used interchangeably. There is occasional 'report' language, but no statement or reason about submission."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Secs. 2-6",
+  "quote": "none found",
+  "note": "No strategic behaviour is analysed."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sec. 1, Sec. 2 Preliminaries, Sec. 7 Summary",
+  "quote": "none found",
+  "note": "Preferences are equated with votes by terminology only; there is no statement that voters submit them."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No utility, welfare, satisfaction or cost notions are used for voters."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Secs. 3, 6",
+  "quote": "none found",
+  "note": "Indices measure agreement, diversity and polarization, not welfare or representation."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sec. 5, p.7",
+   "quote_behav": "under impartial culture (IC) each vote is drawn uniformly at random",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Votes are exogenous, generated from statistical cultures."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "N",
+  "claims": [],
+  "note": "Claims concern whether the indices capture diversity and polarization, not institutions, voter well-being or rule choice."
+ },
+ "C9.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C9.1 = N."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sec. 1, Sec. 2, Sec. 7",
+  "quote": "none found",
+  "note": ""
+ }
+}

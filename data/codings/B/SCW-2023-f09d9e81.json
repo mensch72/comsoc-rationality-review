@@ -1,0 +1,187 @@
+{
+ "paper_id": "SCW-2023-f09d9e81",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Section 2, p.4",
+  "quote": "electoral competition between two non-ideological parties",
+  "note": "Game-theoretic analysis of a voting/power-sharing rule where voters can trade votes; strategic aspects of voting."
+ },
+ "C1": {
+  "types": [
+   "EQ"
+  ],
+  "primary": "EQ",
+  "loc": "Section 3, Propositions 1-2, pp.8-13",
+  "quote": "There exists a SPE where party platforms converge to the mid-range ideology.",
+  "note": "Existence and characterisation of subgame-perfect equilibria in the vote-trading and platform game."
+ },
+ "C2.1": {
+  "value": "votes",
+  "loc": "Section 2, p.5",
+  "quote": "Each voter has one vote and one unit of money."
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 2, p.5",
+  "quote": "individuals choose their vote-trading actions and to which party to designate",
+  "note": "Input is a vote offer (0/1) or monetary bid plus a party designation, not a ranking, approval set or score."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.4",
+  "quote": "Voters\u2019ideal policies are distributed",
+  "note": "Voters have ideal policies and utility functions."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2, p.5",
+  "quote": "individuals choose their vote-trading actions and to which party to designate",
+  "note": "Ideal policies and utilities are modelled separately from the vote-trading actions."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Section 3, Lemma 1 and Proposition 1",
+  "quote": "pure strategies that form a subgame perfect equilibrium (SPE)",
+  "note": "Voters choose bids, offers and vote designation strategically in every analysis."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is NA."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Input format is not RANK, WEAK, APPR, DICH or PAIR."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 2-3",
+  "quote": "none found",
+  "note": "Results concern equilibrium vote shares and platforms. Utilitarian and majoritarian comparisons appear only in the introduction (C9)."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 2, p.5",
+   "quote_behav": "individuals choose their vote-trading actions and to which party to designate",
+   "loc_info": "Section 2, p.5",
+   "quote_info": "All information is publicly known",
+   "note": "Voters best-respond in the strategic market game."
+  },
+  "CAN": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 2, p.4",
+   "quote_behav": "Parties are non-ideological and aim at maximizing their vote shares.",
+   "loc_info": "Section 2, p.5",
+   "quote_info": "All information is publicly known",
+   "note": "Parties choose platforms strategically; they are proponents of policies."
+  },
+  "ORG": {
+   "present": "N",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": "Vote buyers are voters."
+  },
+  "DES": {
+   "present": "N",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "N",
+  "loc": "Section 2",
+  "quote": "pure strategies that form a subgame perfect equilibrium (SPE)",
+  "note": "Both voters and parties are strategic."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 \u2260 Y."
+ },
+ "C8.1": {
+  "codes": [
+   "SPE"
+  ],
+  "loc": "Section 2, p.6",
+  "quote": "pure strategies that form a subgame perfect equilibrium (SPE)",
+  "note": "Second-stage subgames are solved by equilibrium, within the SPE."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 2, p.6",
+  "quote": "pure strategies that form a subgame perfect equilibrium (SPE)"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.4",
+    "quote": "vote markets are neither compatible with majoritarian principles"
+   },
+   {
+    "loc": "Introduction, p.3",
+    "quote": "the insights provided by the analysis do not depend crucially"
+   },
+   {
+    "loc": "Section 3 end, p.14",
+    "quote": "should continue to hold in alternative settings as well"
+   }
+  ],
+  "note": "Claims about policy consequences of vote markets, their relation to majoritarian and utilitarian principles, and extension to other systems."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 2, pp.4-5",
+  "quote": "All information is publicly known",
+  "note": "Utilities, complete information, strategic behaviour and the power-sharing rule are all stated in the model. The extension claims are explicitly hedged."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1-3",
+  "quote": "none found",
+  "note": ""
+ }
+}

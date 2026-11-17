@@ -1,0 +1,172 @@
+{
+ "paper_id": "COMSOC-2023-707c1f5d",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "characterizing two important subclasses of ABC scoring rules in the standard ABC election model",
+  "note": "Axiomatic study of approval-based committee voting rules."
+ },
+ "C1": {
+  "types": [
+   "AX"
+  ],
+  "primary": "AX",
+  "loc": "Section 3, Theorems 1-5",
+  "quote": "an ABC voting rule is a Thiele rule if and only if it satisfies",
+  "note": "All main results are axiomatic characterizations."
+ },
+ "C2.1": {
+  "value": "approval ballots; approval profile",
+  "loc": "Section 2, Preliminaries",
+  "quote": "reports her preferences over the candidates as approval ballot Ai"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Section 2",
+  "quote": "approval ballot Ai , i.e., as a non-empty subset of C",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 1 and 2",
+  "quote": "each voter i \u2208 N reports her preferences over the candidates",
+  "note": "Voters are said to have preferences over candidates, and Thiele's 'benefit' for voters is mentioned. Held attitude is only loosely referred to."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2, Preliminaries",
+  "quote": "each voter i \u2208 N reports her preferences over the candidates as approval ballot",
+  "note": "Preferences are reported as approval ballots and the rules are applied directly. No statement about sincerity or distinctness."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-4",
+  "quote": "none found",
+  "note": "No analysis considers misreporting by voters. Candidates' strategic split/merge is discussed only informally as motivation."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 2, 5",
+  "quote": "none found",
+  "note": "No statement that voters submit their held attitude."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only the informal phrase 'benefit s(x)' for Thiele's motivation. The paper does not use utility or welfare for voters in its analysis."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term 'dichotomous preferences' used only in a reference title."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 3-4",
+  "quote": "none found",
+  "note": "Results are axiomatic characterizations. Weak efficiency is an axiom about unapproved candidates, not a welfare evaluation criterion."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters only supply ballots as fixed inputs; no behavioral action modelled."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates' split/merge incentives are only informal motivation for the axiom."
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no strategic type."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 2.2, Choice Set Convexity",
+    "quote": "choice set convexity is reasonable in elections in which only the individual quality"
+   },
+   {
+    "loc": "Section 4",
+    "quote": "such strategic considerations of candidates about whether to compete as a group or individually are undesirable"
+   },
+   {
+    "loc": "Section 1",
+    "quote": "this axiom is reasonable for excellence-based elections"
+   }
+  ],
+  "note": "Normative claims about which axioms/rules are reasonable in certain election settings."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 4",
+  "quote": "such strategic considerations of candidates about whether to compete as a group",
+  "note": "The claims that the axioms are desirable for excellence-based elections or against candidate strategising rely on assumptions that are not stated: that ballots reflect voters' actual views and that candidates act strategically. Neither is modelled."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1-5",
+  "quote": "none found",
+  "note": "No statement that the rules are studied only as functions of submitted inputs."
+ }
+}

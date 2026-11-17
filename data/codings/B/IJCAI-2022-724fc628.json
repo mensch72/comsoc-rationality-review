@@ -1,0 +1,161 @@
+{
+ "paper_id": "IJCAI-2022-724fc628",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Section 1, p.482",
+  "quote": "computational aspects of the Chamberlin-Courant voting rule (CC)",
+  "note": "Computational aspects of multiwinner voting rules (CC, Thiele)."
+ },
+ "C1": {
+  "types": [
+   "AL"
+  ],
+  "primary": "AL",
+  "loc": "Section 1.1, p.483",
+  "quote": "We prove that CC is FPT with respect to d",
+  "note": "Algorithms and conditional lower bounds (ETH/SETH); all results algorithmic/complexity."
+ },
+ "C2.1": {
+  "value": "preference profile; approval ballots",
+  "loc": "Section 2, p.484",
+  "quote": "A tuple (V, C, r) or (V, C, u) is called a preference profile"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK",
+   "WEAK",
+   "APPR",
+   "CARD"
+  ],
+  "loc": "Section 2, p.484",
+  "quote": "then we call a vote of v a weak order",
+  "note": "Also misrepresentation functions (cardinal), Borda linear orders, approval ballots."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.484",
+  "quote": "utility function u : V \u00d7C \u2192 R\u22650 that indicates how well",
+  "note": "Preferences/utilities of voters (misrepresentation function) are treated as the input."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2, p.484",
+  "quote": "A tuple (V, C, r) or (V, C, u) is called a preference profile",
+  "note": "Preference profile is the rule's input; ballots mentioned, but no statement about submission vs sincerity."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "No strategic voting analysis; purely computational."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 2, 6",
+  "quote": "none found",
+  "note": "No statement that voters submit their held attitude."
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Sections 1, 2, 6",
+  "quote": "none found",
+  "note": "No reason given."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 2, p.484",
+  "quote": "r(v, c) = 0 iff c \u2208 Cv and r(v, c) = 1 iff c \u2209 Cv",
+  "note": "Utility defined from approval ballots via misrepresentation/Thiele sequences; applies as approval input with utility notion."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "Term dichotomous preferences not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 1, p.482",
+  "quote": "the total utility of the voters is maximized",
+  "note": "Rules are defined as maximizing total utility / minimizing misrepresentation; the objective is part of the computational problem."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 2, p.484",
+  "quote": "we are given an election (V, C), a misrepresentation function r",
+  "note": "Utility evaluated on the given profile, no statement relating to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters take no action in the model; input is given."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No agent types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 not Y"
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no strategic type."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "N",
+  "claims": [],
+  "note": "Abstract, intro and conclusion only discuss algorithmic results and practical efficiency; mild motivation about real-world elections for domain restrictions is not a claim on institutions or rules to use."
+ },
+ "C9.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C9.1 = N"
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 2, 6",
+  "quote": "none found",
+  "note": "No statement of procedural reading."
+ }
+}

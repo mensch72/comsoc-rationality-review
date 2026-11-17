@@ -1,0 +1,173 @@
+{
+ "paper_id": "AAMAS-2025-09979d3c",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.179",
+  "quote": "We consider voting on multiple independent binary issues.",
+  "note": "Aggregation of binary votes on several issues into one proposal (issue-wise majority, Condorcet winners)."
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "AX"
+  ],
+  "primary": "AL",
+  "loc": "Abstract, p.179; Sections 3-4, pp.182-185",
+  "quote": "it is co-NP-hard to determine whether there exists a Condorcet-winning proposal",
+  "note": "Complexity and recognition algorithms (Thms 1, 7, 8, 10). Domain conditions and paradox-free or existence results (Thms 4, 9, 11-14) coded AX."
+ },
+ "C2.1": {
+  "value": "preference profile; vote v_i; weight profile",
+  "loc": "Section 2, p.181",
+  "quote": "the opinion/preference \ud835\udc63\ud835\udc56,\ud835\udc57 \u2208 B of voter \ud835\udc56 on issue \ud835\udc57"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 2, p.181",
+  "quote": "The decision space for each issue is B := {\u00b11}.",
+  "note": "Binary \u00b11 vectors over issues, plus weight vectors over issues (external or per-voter internal)."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.181",
+  "quote": "the opinion/preference \ud835\udc63\ud835\udc56,\ud835\udc57 \u2208 B of voter \ud835\udc56 on issue \ud835\udc57",
+  "note": "Opinions/preferences, and weights as perceived issue importance."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2, p.181",
+  "quote": "Each voter \ud835\udc56 \u2208 [\ud835\udc5b] is modeled as a dimension-\ud835\udc61 vector",
+  "note": "The input is the preference itself. Weights are 'reported', but nothing is said about truthful reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-5",
+  "quote": "none found",
+  "note": "No misreporting is analysed."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 2, 6 checked",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C2.2 is OTH only."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used for this model."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 3-5",
+  "quote": "none found",
+  "note": "Results evaluate majority support, Condorcet winning and distance to IWM. Voter satisfaction appears only as future work in the conclusion."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 1, p.179",
+   "quote_behav": "each voter votes for whichever of \ud835\udc5d and \ud835\udc5d \u2032 agrees with",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters vote by weighted Hamming agreement."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N",
+   "note": "A policymaker setting external weights is mentioned in the introduction, but the weights are exogenous in the model."
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is strategic."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 1.1.1, p.180",
+    "quote": "this would allow for practically certifying \u201csafe instances\u201d where issue-wise majority"
+   },
+   {
+    "loc": "Section 1.1.2, p.181",
+    "quote": "in which returning an IWM proposal is always a good choice"
+   },
+   {
+    "loc": "Section 1.1.2, p.180",
+    "quote": "we need not fear a vote being called against the defeating proposal"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sections 1.1, 2",
+  "quote": "none found",
+  "note": "Claims about real proposal choice need submitted opinions to equal voters' actual views, which is not stated. The 'need not fear' claim needs an unmodelled computationally bounded strategic opposer who calls votes."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 2, 6 checked",
+  "quote": "none found",
+  "note": ""
+ }
+}

@@ -1,0 +1,131 @@
+{
+ "paper_id": "COMSOC-2023-5d540fcc",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "INELIG",
+  "loc": "Abstract; Section 3",
+  "quote": "we define the degree to which a given rule satisfies an axiom",
+  "note": "The paper is a general framework for measuring probabilistic degrees of axiom satisfaction and for evaluating rules, with a Shapley-value-based compatibility measure. It is not about a voting procedure aggregating agents' inputs. Instances are abstract, and the examples come from fair division and general social choice."
+ },
+ "C1": {
+  "types": [],
+  "primary": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded because INELIG."
+ },
+ "C2.1": {
+  "value": "",
+  "loc": "",
+  "quote": ""
+ },
+ "C2.2": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C3.1": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C3.2": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C4.1": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C4.2": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C5.1": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C5.2": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C6": {
+  "VOT": {},
+  "CAN": {},
+  "ORG": {},
+  "DIS": {},
+  "BRI": {},
+  "DES": {},
+  "OTH": {}
+ },
+ "C7.1": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C7.2": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.2": {
+  "code": "",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "",
+  "claims": [],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C10.1": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ }
+}

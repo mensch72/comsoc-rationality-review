@@ -1,0 +1,172 @@
+{
+ "paper_id": "AAMAS-2025-4af64bcc",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Sec 1, p.2024",
+  "quote": "Justified Representation (JR)/Extended Justified Representation (EJR) is a desirable axiom in multiwinner approval voting.",
+  "note": "Multiwinner approval voting rules; committee selection."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "AL"
+  ],
+  "primary": "AL",
+  "loc": "Abstract; Sec 2-3",
+  "quote": "we show that it is NP-hard to approximate MDJR and MDEJR",
+  "note": "Main results are approximation, hardness and FPT; a new axiomatic-style property (degree) is proposed, but the results are algorithmic."
+ },
+ "C2.1": {
+  "value": "approval ballots; ballot profile",
+  "loc": "Sec 1, p.2024",
+  "quote": "Let the list A = (\ud835\udc341, . . . , \ud835\udc34\ud835\udc5b ) of approval ballots be the ballot profile."
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Sec 1, p.2024",
+  "quote": "a set of \ud835\udc5b voters \ud835\udc41 = {1, . . . , \ud835\udc5b} who each approve a subset \ud835\udc34\ud835\udc56 of \ud835\udc36",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec 1, p.2024-2025",
+  "quote": "accurately reflect the voters\u2019 preferences",
+  "note": "The paper also speaks of 'a profile A of n approval preferences', but no separate held attitude is defined. Mentions of preferences and satisfaction are loose."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Sec 1, p.2024",
+  "quote": "Given a profile A of \ud835\udc5b approval preferences",
+  "note": "Approval ballots are also called approval preferences, and the rule is applied directly with no statement about submission or sincerity."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "No strategic voters analysed."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sec 1, Sec 2, Sec 4",
+  "quote": "none found",
+  "note": "No statement that voters submit their held attitude."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Sec 2.1, p.2027",
+  "quote": "each voter\u2019s \u201cutility\u201d is defined by the harmonic progression",
+  "note": "The format is approval, and voter satisfaction and utility are used. The PAV utility is defined directly from the number of approved winners, and satisfaction is the number of approved winners. Applicability is borderline. The link is effectively specified, but I code SPEC."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "The term 'dichotomous preferences' appears only in a reference title."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sec 1.1, Def 3-5",
+  "quote": "at least \ud835\udc50 voters in every cohesive group are represented",
+  "note": "The (E)JR degree measures representation of voters."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Sec 1.1, Def 4-5",
+  "quote": "there are at least \ud835\udc50 voters each of which approves at least 1 candidate",
+  "note": "Evaluated on approval ballots, with no statement relating them to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters are only inputs and take no action."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No agent types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no STRAT or MIXED type."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Sec 1, p.2024",
+    "quote": "an important requirement one often imposes on an ABC rule is that it can accurately reflect"
+   },
+   {
+    "loc": "Sec 4, p.2031",
+    "quote": "if a committee provides a larger (E)JR degree, the possibility of deviation will be reduced."
+   },
+   {
+    "loc": "Sec 1, p.2025",
+    "quote": "many social choice scenarios require the committee to represent as many voters as possible"
+   }
+  ],
+  "note": "Claims about voters' representation, fairness and stability, and which committee is better."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sec 4, p.2031",
+  "quote": "if only one person is represented, they can easily be persuaded to deviate",
+  "note": "The claims about representing voters and their deviation incentives need ballots to reflect held preferences (sincere approval) and voters' behaviour in deviating. Neither is stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": ""
+ }
+}

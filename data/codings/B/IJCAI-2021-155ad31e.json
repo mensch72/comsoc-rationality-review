@@ -1,0 +1,188 @@
+{
+ "paper_id": "IJCAI-2021-155ad31e",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Sec 1",
+  "quote": "investigate the complexity of problems related to the strategic control of such elections",
+  "note": "Winner determination and control for the Conditional Minisum voting rule."
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "SB"
+  ],
+  "primary": "AL",
+  "loc": "Sec 3, Sec 4",
+  "quote": "our results in Section 3, provide characterizations for the families of CMS instances",
+  "note": "Section 3 gives algorithms and hardness for winner determination. Section 4 gives control hardness results, which are strategic."
+ },
+ "C2.1": {
+  "value": "conditional approval ballot",
+  "loc": "Sec 2, Definition 1",
+  "quote": "A conditional approval ballot of a voter i over the issues"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Sec 2, Definition 1",
+  "quote": "Aj is a set of conditional approval statements",
+  "note": "Conditional approval ballots."
+ },
+ "C2.3": {
+  "code": "N",
+  "loc": "Sec 1; Sec 2",
+  "quote": "none found",
+  "note": "Voters have 'preferences' and 'opinions' mentioned informally, but the model defines only the submitted conditional ballots."
+ },
+ "C2.4": {
+  "code": "ONE",
+  "loc": "Sec 2, Definition 1",
+  "quote": "A conditional approval ballot of a voter i over the issues",
+  "note": "The input is described only as a ballot. The informal 'preferences' in the intro and the reduction text are not modelled as a separate held attitude."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sec 3, Sec 4",
+  "quote": "none found",
+  "note": "Control is by an external agent who adds or deletes voters or alternatives. No voter misreports; manipulation is left open."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C2.4 = ONE."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Voter dissatisfaction \u03b4i is defined directly on approval ballots. The input is not described as ordinal/dichotomous preferences with a link to utilities, though a dissatisfaction count is used. Treated as not applicable since no utility-type link is needed or discussed."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sec 2, Definition 3; Sec 3",
+  "quote": "An outcome that achieves min s\u2208D \u03a3i\u2208[n] \u03b4i(s)",
+  "note": "The rule minimises total dissatisfaction, but the paper evaluates computational complexity, not outcomes by welfare. The rule is the object of study, not an evaluation criterion applied to rules."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters have fixed ballots and take no action in the model."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Alternatives are only options to be chosen."
+  },
+  "ORG": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "IMPLICIT",
+   "loc_behav": "Sec 4",
+   "quote_behav": "external agent (called controller) who has a strong preference",
+   "loc_info": "Sec 4.1",
+   "quote_info": "Does there exist a set V'' \u2286 V' (resp. V'' \u2286 V)",
+   "note": "The controller adds or deletes voters or alternatives. It is an external agent, but it is coded as the controlling agent in control problems. Complete information is implicit because the decision problem takes the full profile as input."
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": "The controller is external, but the codebook places the controlling agent in control problems under ORG."
+  },
+  "DES": {
+   "present": "N",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Fewer than two types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 \u2260 Y."
+ },
+ "C8.1": {
+  "codes": [
+   "DEV"
+  ],
+  "loc": "Sec 4",
+  "quote": "Does there exist a set V'' \u2286 V' (resp. V'' \u2286 V)",
+  "note": "Control studied as a decision problem."
+ },
+ "C8.2": {
+  "code": "N",
+  "loc": "Sec 4",
+  "quote": "none found"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract",
+    "quote": "We exhibit that in most variants of these problems, CMS is resistant against control."
+   },
+   {
+    "loc": "Sec 5 Conclusions",
+    "quote": "CMS provides a satisfactory tradeoff between expressiveness and efficiency"
+   },
+   {
+    "loc": "Sec 1",
+    "quote": "CMS is sufficiently resistant against such moves."
+   }
+  ],
+  "note": "These are claims about the rule's desirability for real elections."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sec 4",
+  "quote": "controller does not have unlimited power",
+  "note": "Resistance claims follow from complexity results given the stated controller model. No hidden assumptions about held attitudes are needed. Worst-case NP-hardness is acknowledged as the criterion."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": ""
+ }
+}

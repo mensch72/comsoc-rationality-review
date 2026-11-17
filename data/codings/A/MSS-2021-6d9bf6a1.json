@@ -1,0 +1,131 @@
+{
+ "paper_id": "MSS-2021-6d9bf6a1",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "INELIG",
+  "loc": "Abstract, p.1; Section 2.1, p.7",
+  "quote": "social welfare orders, on the set of infinite utility streams",
+  "note": "The paper studies social welfare orders ranking infinite intergenerational utility streams (intergenerational equity: representability and constructibility under anonymity and Pareto-type axioms). No agents submit ballots or other inputs, and no voting procedure is analysed. This is welfare-ordering theory, not aggregation by voting. Coding stopped per C0."
+ },
+ "C1": {
+  "types": [],
+  "primary": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded: INELIG."
+ },
+ "C2.1": {
+  "value": "",
+  "loc": "",
+  "quote": ""
+ },
+ "C2.2": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "Not coded: INELIG."
+ },
+ "C2.3": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded: INELIG."
+ },
+ "C2.4": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded: INELIG."
+ },
+ "C3.1": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded: INELIG."
+ },
+ "C3.2": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded: INELIG."
+ },
+ "C3.3": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded: INELIG."
+ },
+ "C4.1": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded: INELIG."
+ },
+ "C4.2": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded: INELIG."
+ },
+ "C5.1": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded: INELIG."
+ },
+ "C5.2": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded: INELIG."
+ },
+ "C6": {
+  "VOT": {},
+  "CAN": {},
+  "ORG": {},
+  "DIS": {},
+  "BRI": {},
+  "DES": {},
+  "OTH": {}
+ },
+ "C7.1": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded: INELIG."
+ },
+ "C7.2": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded: INELIG."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "Not coded: INELIG."
+ },
+ "C8.2": {
+  "code": "",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "",
+  "claims": [],
+  "note": "Not coded: INELIG."
+ },
+ "C9.2": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded: INELIG."
+ },
+ "C10.1": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded: INELIG."
+ }
+}

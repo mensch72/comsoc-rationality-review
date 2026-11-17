@@ -1,0 +1,175 @@
+{
+ "paper_id": "COMSOC-2023-8eaab567",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "a society that uses a voting rule to choose a subset",
+  "note": ""
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SB"
+  ],
+  "primary": "AX",
+  "loc": "Abstract, p.1; Section 3.1, p.7",
+  "quote": "We characterize all voting rules that satisfy false-name-proofness, strategy-proofness",
+  "note": "The main results are characterisations (AX) whose axioms are incentive properties: strategy-proofness and false-name-proofness (SB). AX and SB fit equally well as primary; AX is listed first, so AX is chosen."
+ },
+ "C2.1": {
+  "value": "profile of preferences / preference profile",
+  "loc": "Section 2.1, p.4",
+  "quote": "is an ordered list of preferences P = (Pi )i\u2208N \u2208 DN"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2.1, p.4",
+  "quote": "We assume that Pi is a strict linear order",
+  "note": "Strict linear orders over subsets 2^M, restricted to separable preferences."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Introduction, p.1",
+  "quote": "since individual preferences are private information, voters may behave strategically",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Introduction, p.1; Definition 4, p.5",
+  "quote": "voters may behave strategically by not submitting their preferences truthfully",
+  "note": "Separate notation Pi and Pi' is used in the strategy-proofness definition."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Sections 2.2 and 3, pp.5-11",
+  "quote": "no voter benefits by not revealing their preferences truthfully",
+  "note": "Every main result involves strategy-proofness and/or false-name-proofness, both of which consider deviating voters."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 2.1, p.4",
+  "quote": "In this case, we say that u (additively) represents Pi",
+  "note": "The word 'utility' is not used. Additive utility-type functions u are defined as representing the ordinal preference, which is why SPEC is coded."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 2.2, 3; Introduction, p.1",
+  "quote": "none found",
+  "note": "The properties studied are ontoness, anonymity, neutrality, strategy-proofness, false-name-proofness and participation. No welfare, efficiency or representation criterion is used."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Introduction, p.1",
+   "quote_behav": "voters may behave strategically by not submitting their preferences truthfully",
+   "loc_info": "Sections 1, 2, 3 checked",
+   "quote_info": "none found",
+   "note": "Voters are strategic both by misreporting and by voting under other identities."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "DOM",
+   "OTH"
+  ],
+  "loc": "Definitions 4-6, p.5",
+  "quote": "A voting rule fN : DN \u2192 2M for N is strategy-proof",
+  "note": "OTH = false-name-proofness, i.e. no gain from casting repeated votes under other identities."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Definition 4, p.5",
+  "quote": "is strategy-proof if for all P \u2208 DN"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.1",
+    "quote": "repeated voting can be a highly relevant issue"
+   },
+   {
+    "loc": "Introduction, p.2",
+    "quote": "anonymity is a very natural requirement"
+   },
+   {
+    "loc": "Introduction, p.3",
+    "quote": "protects against an extremely easy way to manipulate an election"
+   }
+  ],
+  "note": "These are claims about the relevance of the results for online voting institutions."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Introduction, pp.1-3; Section 2.1, p.4",
+  "quote": "We assume that voters\u2019 preferences over subsets of objects are separable",
+  "note": "The needed assumptions are stated: voters are strategic and may submit multiple identical votes, and preferences are separable."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 2, 3 checked",
+  "quote": "none found",
+  "note": ""
+ }
+}

@@ -1,0 +1,178 @@
+{
+ "paper_id": "SCW-2022-d9603b7d",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Title page, p.1",
+  "quote": "Voting behavior in one-shot and iterative multiple referenda",
+  "note": "The paper is an experiment on voting by majority on binary issues, one-shot and iterated. The body text is extracted as a letter-shifted cipher (each letter is one step off). I decoded it to code it, and quotes below are copied from the garbled text."
+ },
+ "C1": {
+  "types": [
+   "EM",
+   "SB",
+   "WD"
+  ],
+  "primary": "EM",
+  "loc": "Abstract; Sections 3-6",
+  "quote": "Hm sghr o\u2018odq vd otqrtd \u2018m dwodqhldms\u2018k \u2018ooqn\u2018bg",
+  "note": "Decoded: 'In this paper we pursue an experimental approach'. Lab experiments with human subjects are the main results. Rationality and dominated choices (SB) and average social welfare (WD) are secondary."
+ },
+ "C2.1": {
+  "value": "votes (a vote on each binary issue; votes cast simultaneously or iteratively)",
+  "loc": "Section 2.3, p.8",
+  "quote": "unshmf bnmrhrsr ne \u2018rjhmf d\u2018bg unsdq sn b\u2018rs \u2018 unsd"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Sections 2.3 and 3",
+  "quote": "unshmf bnmrhrsr ne \u2018rjhmf d\u2018bg unsdq sn b\u2018rs \u2018 unsd",
+  "note": "Each voter casts a yes/no vote on each of two binary issues, with majority rule per issue. This is none of the listed formats."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Abstract",
+  "quote": "Unsdqr& oqdedqdmbdr \u2018qd b\u2018ostqdc",
+  "note": "Decoded: 'Voters' preferences are captured by payoffs'. Preferences are given as payoff/utility matrices."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Sections 2.2 and 4",
+  "quote": "oqdu\u2018kdmbd ne cduh\u2018shnmr eqnl q\u2018shnm\u2018khsx",
+  "note": "Preferences are given as utility matrices. Votes are separate choices that can deviate from rational (dominant-action) votes."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Sections 3-5",
+  "quote": "oqdu\u2018kdmbd ne cduh\u2018shnmr eqnl q\u2018shnm\u2018khsx",
+  "note": "Subjects choose votes freely and the paper studies deviations from rationality. Welfare is computed from held payoffs and does not assume that votes are sincere."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL"
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED"
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The input format is binary votes on issues (OTH), not RANK, WEAK, APPR, DICH or PAIR."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 6, p.11",
+  "quote": "vd enbtr nm sgd \u2018udq\u2018fd rnbh\u2018k vdke\u2018qd",
+  "note": "Decoded: 'we focus on the average social welfare'. The paper also evaluates Condorcet efficiency."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Sections 2.2 and 6",
+  "quote": "vd enbtr nm sgd \u2018udq\u2018fd rnbh\u2018k vdke\u2018qd",
+  "note": "Welfare is the average of the payoffs (held utilities) that voters receive from the outcome. Payoffs are defined separately from votes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 4.3",
+   "quote_behav": "Vd \u2018rrtld sg\u2018s rtaidbsr vntkc v\u2018ms sn hloqnud sgd ntsbnld enq sgdlrdkudr",
+   "loc_info": "Section 2.3",
+   "quote_info": "rgd cndr mns jmnv sgd nsgdq unsdr",
+   "note": "Human subjects are paid by the outcome. In one-shot voting they know only their own payoffs. In iterative voting they observe previous vote tallies, so I coded PARTIAL."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Alternatives are only outcomes."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "The experimenter fixes the protocol and takes no in-model action."
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Section 2.3",
+  "quote": "none found",
+  "note": "Only one agent type (voters) is present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y"
+ },
+ "C8.1": {
+  "codes": [
+   "DOM",
+   "ITER"
+  ],
+  "loc": "Sections 2.2 and 2.3",
+  "quote": "cnlhm\u2018sdc \u2018bshnm hm sgd rdmrd",
+  "note": "Rationality is defined via dominant actions. Iterative voting with revision of votes after seeing the outcome is also studied."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 2.2, p.7",
+  "quote": "cnlhm\u2018sdc \u2018bshnm hm sgd rdmrd"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract",
+    "quote": "sg\u2018s hsdq\u2018sdc unshmf l\u2018x hm e\u2018bs hloqnud sgd rnbh\u2018k ntsbnld"
+   },
+   {
+    "loc": "Conclusion, Section 7",
+    "quote": "hsdq\u2018shud unshmf hr \u2018 uh\u2018akd v\u2018x ne g\u2018mckhmf mnmrdo\u2018q\u2018ahkhsx"
+   }
+  ],
+  "note": "Decoded: 'iterated voting may in fact improve the social outcome'; 'iterative voting is a viable way of handling nonseparability'."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sections 2.2 and 3",
+  "quote": "Vd oqnuhcd unsdqr vhsg tshkhsx l\u2018sqhbdr",
+  "note": "Needed assumptions are stated: payoffs are the voters' utilities, and subjects are paid by the outcome. The agents and what they know are also stated. The restriction to two issues is flagged as a caveat."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1-7",
+  "quote": "none found",
+  "note": "No procedural reading is stated."
+ }
+}

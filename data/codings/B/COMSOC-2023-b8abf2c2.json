@@ -1,0 +1,175 @@
+{
+ "paper_id": "COMSOC-2023-b8abf2c2",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "complexity of deciding whether there is a tie in a given approval-based multiwinner election",
+  "note": "Multiwinner approval voting rules; computational aspects of ties."
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "SI",
+   "EM"
+  ],
+  "primary": "AL",
+  "loc": "Table 1; Sections 3-5",
+  "quote": "For most cases, our problems are computationally hard",
+  "note": "Experiments use synthetic cultures and real PabuLib data to measure tie frequency."
+ },
+ "C2.1": {
+  "value": "approval set / vote",
+  "loc": "Section 2, p.2",
+  "quote": "We refer to this set as vi \u2019s approval set or vi \u2019s vote"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Section 2, p.2",
+  "quote": "each voter vi has a set A(vi ) \u2286 C of candidates that he or she approves",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "N",
+  "loc": "Sections 1-2",
+  "quote": "none found",
+  "note": "No held attitude beyond the approval set; 'preferences' appears only loosely in the intro."
+ },
+ "C2.4": {
+  "code": "ONE",
+  "loc": "Section 2, p.2",
+  "quote": "We refer to this set as vi \u2019s approval set or vi \u2019s vote",
+  "note": "Intro says voters 'express preferences', but the formal input is only the approval set/vote."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 3-5",
+  "quote": "none found",
+  "note": "No strategic misreporting analysed."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C2.4 = ONE"
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED"
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No voter utility notions used for the input; 'satisfaction approval voting' is only a rule name."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 3-5",
+  "quote": "none found",
+  "note": "The results concern tie detection and counting and tie frequency, not welfare criteria."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters only supply approval sets; they take no action in the model."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates are only alternatives."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "The organizer is mentioned in the intro but chooses nothing in the model."
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Fewer than two types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is NA"
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no strategic agents."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 6, p.8",
+    "quote": "ties in such elections are a realistic possibility and one should be ready"
+   },
+   {
+    "loc": "Section 5.2, p.7",
+    "quote": "This justifies why one needs to be ready to detect and handle ties"
+   },
+   {
+    "loc": "Section 6, p.8",
+    "quote": "tie-breaking by sampling committees may not be feasible"
+   }
+  ],
+  "note": "Claims about real elections and what practitioners should do."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 5; Section 6",
+  "quote": "none found",
+  "note": "Claims about real elections need the assumption that the synthetic and PabuLib data represent real elections; the paper only partly addresses this (it concedes cost information is dropped). Inputs are the object of study, so no input-attitude link is needed."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1-6",
+  "quote": "none found",
+  "note": "No statement of a procedural reading."
+ }
+}

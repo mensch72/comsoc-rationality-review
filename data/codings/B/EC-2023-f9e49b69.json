@@ -1,0 +1,182 @@
+{
+ "paper_id": "EC-2023-f9e49b69",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Sec. 2",
+  "quote": "We study the voting game where agents\u2019 preferences are endogenous",
+  "note": "Strategic aspects (strong equilibrium) of majority voting with private signals."
+ },
+ "C1": {
+  "types": [
+   "EQ",
+   "WD",
+   "AX"
+  ],
+  "primary": "EQ",
+  "loc": "Sec. 3, Theorems 2-3",
+  "quote": "every \ud835\udf00-strong Bayes Nash Equilibrium with \ud835\udf00 converging to 0",
+  "note": "Main results characterise equilibria and their fidelity (probability of the informed majority decision). Corollaries on informative and sincere voting are characterisation results. AX is a weak fit and is listed only for those characterisations."
+ },
+ "C2.1": {
+  "value": "votes; strategy profile (votes for A or R)",
+  "loc": "Sec. 2, Majority Vote",
+  "quote": "Each agent \ud835\udc5b votes for A or R."
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Sec. 2",
+  "quote": "Each agent \ud835\udc5b votes for A or R.",
+  "note": "Binary vote between two alternatives, with a mixed strategy mapping signals to votes. Fits none of the listed formats."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec. 2, Utility and Types of Agents",
+  "quote": "Each agent \ud835\udc5b has a utility which is a function of the true world state",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Sec. 2 and Sec. 4.1",
+  "quote": "agents may have incentives to deviate from sincere or informative voting",
+  "note": "Votes and strategies are modelled separately from utilities and signals."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "Sec. 3-4.1",
+  "quote": "Our results give merit to strategic voting.",
+  "note": "Equilibrium analysis is strategic. Informative and sincere voting are analysed as non-strategic behaviours."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "Sec. 4.1",
+  "quote": "none found",
+  "note": "The non-strategic analyses (informative and sincere voting) are defined as behaviours. The input is not described as equal to a held attitude. Voting behaviour is defined as a function of signals and utilities, so the stated-sincerity question does not arise."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The input is a binary vote and the format is OTH, so the applicability condition (RANK, WEAK, APPR, DICH or PAIR) is not met."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sec. 2, Definition 3",
+  "quote": "Fidelity is the likelihood that the informed majority decision is reached.",
+  "note": "Outcomes are evaluated by fidelity to the informed majority decision. Expected utility is also analysed."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Sec. 2",
+  "quote": "which is the alternative favored by the majority of the agents",
+  "note": "Evaluated against agents' preferences given the true state, which are defined separately from votes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Sec. 4.1",
+   "quote_behav": "two most common non-strategic voting schemes \u2013 informative voting and sincere voting",
+   "loc_info": "Sec. 2",
+   "quote_info": "The signal distributions ((\ud835\udc43\u210e\ud835\udc3b , \ud835\udc43\ud835\udc59\ud835\udc3b ), (\ud835\udc43\u210e\ud835\udc3f , \ud835\udc43\ud835\udc59\ud835\udc3f )) are also common knowledge.",
+   "note": "Voters are strategic in the equilibrium analysis and non-strategic in the informative and sincere analyses. They know the prior, the signal distributions and the type fractions, plus their own signal."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Alternatives are only options to be chosen."
+  },
+  "ORG": {
+   "present": "N",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only one type (voters) is present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "BNE",
+   "COAL"
+  ],
+  "loc": "Sec. 2",
+  "quote": "we use the solution concept of \ud835\udf00-strong Bayes Nash Equilibrium",
+  "note": "The strong Bayes Nash equilibrium is coalitional and Bayesian."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Sec. 2",
+  "quote": "we use the solution concept of \ud835\udf00-strong Bayes Nash Equilibrium"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract",
+    "quote": "Our results give merit to strategic voting for making good decisions."
+   },
+   {
+    "loc": "Sec. 1.2",
+    "quote": "strategic behavior \u201cprevails\u201d over non-strategic behaviors in binary voting!"
+   },
+   {
+    "loc": "Sec. 1, Example 1",
+    "quote": "the goal is to make a \u201cgood\u201d decision that reflects the real preferences"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sec. 2",
+  "quote": "A is more preferred in \ud835\udc3b , and R is more preferred in \ud835\udc3f.",
+  "note": "The claims rest on the signal structure, the utilities, common knowledge and strategic voting by contingent agents, and the paper states all of these. The claim that the informed majority decision is a good decision is the paper's own normative definition."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sec. 1-6",
+  "quote": "none found",
+  "note": "The paper does not say it studies the rule only as a function of submitted inputs."
+ }
+}

@@ -1,0 +1,161 @@
+{
+ "paper_id": "SCW-2024-299d581a",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.643",
+  "quote": "We consider a voting scenario in which the resource to be voted upon",
+  "note": "Approval-based voting rules for mixed goods (generalizing multiwinner voting); axiomatic study of rules."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "AL",
+   "WD"
+  ],
+  "primary": "AX",
+  "loc": "Sect. 1.1, p.645",
+  "quote": "we introduce two variants of EJR suitable for the mixed-goods setting",
+  "note": "Main results are axiomatic (EJR-M, EJR-1, rule satisfaction). Polynomial-time computation is a minor AL result. Proportionality degree is average satisfaction guarantee, coded WD."
+ },
+ "C2.1": {
+  "value": "approval preferences / approved bundles",
+  "loc": "Sect. 2, p.646",
+  "quote": "each agent i \u2208 N approves a bundle Ri = (Ci , Gi ) of the resource"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR",
+   "DICH"
+  ],
+  "loc": "Sect. 2, p.646",
+  "quote": "approval preferences (also known as dichotomous or binary)",
+  "note": "Approved bundles may include divisible cake intervals."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sect. 2, p.646",
+  "quote": "We assume that the agents have approval preferences",
+  "note": "Paper refers to preferences and utilities of agents."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Sect. 2, p.646",
+  "quote": "We assume that the agents have approval preferences",
+  "note": "Approvals are called preferences and the rules are applied directly; no statement about submission or reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sects. 3-4",
+  "quote": "none found",
+  "note": "No analysis considers misreporting."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sect. 2, Sect. 1, Sect. 5",
+  "quote": "none found",
+  "note": "No statement that voters submit their held attitude."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Sect. 2, p.646",
+  "quote": "The utility of agent i for a bundle R\u2032 is given by",
+  "note": "Utility is defined as the size of the overlap of the approved bundle with the allocation."
+ },
+ "C4.2": {
+  "code": "N",
+  "loc": "Sect. 2, p.646",
+  "quote": "approval preferences (also known as dichotomous or binary)",
+  "note": "The term is used as a synonym for approval, and the utility is defined as the size of the intersection. However, the two classes are not explained in terms of utility or a richer preference, so coded N."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sects. 3-4",
+  "quote": "at least one agent in N \u2217 receives utility at least t",
+  "note": "EJR variants (representation) and proportionality degree/average satisfaction."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Sect. 2, p.646",
+  "quote": "The utility of agent i for a bundle R\u2032 is given by",
+  "note": "Evaluated on approval input via utility defined from it. No statement relating input to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Agents only have fixed approvals; they take no action in the model."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Sect. 6",
+  "quote": "",
+  "note": "Fewer than two types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "No strategic types; NA."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "N",
+  "claims": [],
+  "note": "Abstract, intro and conclusion describe the technical contributions only. Examples are illustrative, not claims about institutions or which rule to use."
+ },
+ "C9.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C9.1 = N."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sects. 1, 2, 5",
+  "quote": "none found",
+  "note": "No procedural reading is stated."
+ }
+}

@@ -1,0 +1,226 @@
+{
+ "paper_id": "EC-2024-97e2ef87",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Section 3",
+  "quote": "select a candidate minimizing the social cost",
+  "note": "Distortion of deterministic voting rules (veto core) with ordinal input; learning-augmented variants."
+ },
+ "C1": {
+  "types": [
+   "WD",
+   "AL"
+  ],
+  "primary": "WD",
+  "loc": "Sections 3-4",
+  "quote": "The distortion of an algorithm is its worst-case approximation factor",
+  "note": "Main results are distortion upper/lower bounds and robustness-consistency trade-offs (WD). AL is secondary: algorithm design, no complexity results; included since it designs algorithms, but could be omitted."
+ },
+ "C2.1": {
+  "value": "preference profile",
+  "loc": "Section 2, Metric distortion",
+  "quote": "ALG receives as input a preference profile \u03c3"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Abstract; Section 2",
+  "quote": "each voter\u2019s list of candidates ranked by distance",
+  "note": "Rankings are strict bijections \u03c3_v though induced from weak distance relation."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2",
+  "quote": "the distance between a voter and a candidate quantifies how much the voter prefers",
+  "note": "Voters have positions in a metric space and distances (held cardinal attitude)."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2, Preference profile",
+  "quote": "A given instance (V, C, d) induces preference rankings over candidates for each voter.",
+  "note": "Ranking is defined as induced by the metric (the held distances) and the rule is applied to it directly; no statement on submission or reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 3-4",
+  "quote": "none found",
+  "note": "No analysis considers misreporting; rankings are induced by the metric."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 2, 5",
+  "quote": "none found",
+  "note": "No statement that voters submit rankings truthfully; rankings are simply defined as induced by the metric."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 2, Preference profile",
+  "quote": "d is aligned with the preference profile \u03c3",
+  "note": "Cardinal distances/social cost are defined and linked to rankings by alignment (d \u25b7 \u03c3)."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Dichotomous preferences not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2, Metric distortion",
+  "quote": "The goal is to output a candidate that minimizes the social cost.",
+  "note": "Distortion with respect to social cost is the evaluation criterion."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 2",
+  "quote": "the worst-case multiplicative approximation it achieves to the optimum",
+  "note": "Social cost is evaluated on underlying metric d, defined separately from the ranking input."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters are located in space and induce rankings but take no action in the model."
+  },
+  "CAN": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Candidates are only alternatives."
+  },
+  "ORG": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "No organiser acting in the model."
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Designer picks the algorithm and \u03b4, but the designer's choice is analysed as an algorithm's guarantees rather than modelled as an agent with its own objective; coded not present."
+  },
+  "OTH": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Section 2",
+  "quote": "",
+  "note": "Fewer than two types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is NA."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no STRAT or MIXED types."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 1.1, Our Results",
+    "quote": "the designer can achieve a consistency of 2 with a guaranteed robustness of 5."
+   },
+   {
+    "loc": "Section 1",
+    "quote": "it is reasonable to assume that the designer may also have access to historical observations"
+   },
+   {
+    "loc": "Section 5, Conclusion",
+    "quote": "leading to an optimal learning-augmented algorithm guided by a prediction for the optimal candidate."
+   }
+  ],
+  "note": "Claims concern which algorithm/parameter a designer should choose and relevance to real decisions."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sections 1, 2",
+  "quote": "none found",
+  "note": "Applying the guarantees to real elections needs that submitted rankings equal the voters' distance-induced rankings; this is not stated. The link from rankings to metric costs is stated (alignment)."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 2, 5",
+  "quote": "none found",
+  "note": "No statement of a procedural reading."
+ }
+}

@@ -1,0 +1,230 @@
+{
+ "paper_id": "AAAI-2021-434fe260",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Introduction, p.5822",
+  "quote": "each voter may choose to cast her vote directly, or to delegate her vote",
+  "note": "Liquid democracy (delegable proxy voting): power index, delegation game equilibria, simulations."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "EQ",
+   "SI"
+  ],
+  "primary": "AX",
+  "loc": "Introduction, p.5822",
+  "quote": "We characterize this index axiomatically (Theorem 1)",
+  "note": "Theorem 1 axiomatic; Theorems 2-3 equilibrium; experiments are simulations. Power index results are the largest share."
+ },
+ "C2.1": {
+  "value": "delegation profile",
+  "loc": "Preliminaries, p.5823",
+  "quote": "d = (d1 , d2 , . . . , dn ) is called a delegation profile"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Preliminaries, p.5823",
+  "quote": "delegation profiles can be usefully thought of as maps d : N \u2192 N \u222a {0}",
+  "note": "Input is a delegation (or direct binary vote); not a ranking, approval set, etc."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Preliminaries, p.5823",
+  "quote": "The agents\u2019 ability to make the right choice",
+  "note": "Agents have accuracy qi and a held view of the correct state; accuracy is an attribute, not a submission."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Abstract, p.5822",
+  "quote": "agents want to vote truthfully in order to relay correct information",
+  "note": "Agents' accuracy-based truthful voting is assumed; rule applied to delegation profiles with no explicit statement on submission vs held attitude."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "Game-theoretic Model, p.5826-5827",
+  "quote": "agents choose their delegations by aiming at maximizing the trade-off",
+  "note": "Delegation game analyses are strategic over delegations; the index analysis is not. Voters do not submit votes differing from a held attitude though; delegation is the strategic action. Coded SOME."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Preliminaries and Power Index sections, pp.5823-5826",
+  "quote": "none found",
+  "note": "The index section does not state that voters submit held attitudes."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "Input format is not RANK/WEAK/APPR/DICH/PAIR."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Experiments, p.5827-5828",
+  "quote": "how the distribution of power in profiles is affected",
+  "note": "Power distribution (Gini) is not among the listed criteria; accuracy appears only inside utilities, with no welfare evaluation of rules."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Game-theoretic Model, p.5827",
+   "quote_behav": "our agents choose their delegations by aiming at maximizing the trade-off",
+   "loc_info": "Game-theoretic Model, p.5826-5827",
+   "quote_info": "none found",
+   "note": "Strategic in the delegation game; in the index analysis delegations are fixed. Information not specified."
+  },
+  "CAN": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "ORG": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "C6",
+  "quote": "",
+  "note": "Only one type present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "C6",
+  "quote": "",
+  "note": "C7.1 not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "NE",
+   "ITER"
+  ],
+  "loc": "Equilibrium Analysis and Experiments, p.5827",
+  "quote": "whether the games of Definition 8 have a Nash equilibrium (NE) in pure strategies",
+  "note": "Iterated better response dynamics used in simulations."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Equilibrium Analysis, p.5827",
+  "quote": "have a Nash equilibrium (NE) in pure strategies"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.5822",
+    "quote": "transitive delegations may in principle lead to disproportionate accrual of power"
+   },
+   {
+    "loc": "Introduction, p.5822",
+    "quote": "thereby harming the democratic legitimacy of the resulting vote"
+   },
+   {
+    "loc": "Introduction, p.5822",
+    "quote": "limiting the level of connectivity of the underlying network has a beneficial effect"
+   }
+  ],
+  "note": "Claims about institutional implications of power inequality."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Introduction, p.5822",
+  "quote": "none found",
+  "note": "Claims about democratic legitimacy and beneficial effects from the Gini results need unstated assumptions: that the power index reflects real influence/legitimacy, and that agents' utility (accuracy x power) captures real behaviour and what agents know."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No procedural reading stated."
+ }
+}

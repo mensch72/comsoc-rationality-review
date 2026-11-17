@@ -1,0 +1,10 @@
+{
+ "paper_id": "EC-2022-9f1aec47",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "INELIG",
+  "loc": "Abstract and Section 3 (The Model), p. 1 and p. 4",
+  "quote": "model selection problems with strategic candidates as a contest game",
+  "note": "The paper analyses a contest game among candidates choosing effort levels, against a single Bayesian decision-maker who selects the top alpha fraction by noisy quality estimates. It covers fairness (demographic parity) in selection. No voting rule aggregates several agents' submitted inputs into a collective decision, so the paper is outside the voting scope."
+ }
+}

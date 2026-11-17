@@ -1,0 +1,170 @@
+{
+ "paper_id": "AAAI-2024-33b09f7b",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Section 1, p. 12164",
+  "quote": "eliciting agents\u2019 preferences with the goal of finding a Kemeny ranking",
+  "note": "Elicitation for the Kemeny voting rule; computational and sample-complexity aspects of a voting procedure."
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "SI"
+  ],
+  "primary": "AL",
+  "loc": "Sections 3-5, p. 12166-12170",
+  "quote": "we formulate PAC algorithms for Kemeny rankings w.r.t. Kemeny scores",
+  "note": "PAC algorithms with sample complexity bounds are the bulk of the results; experiments on synthetic data are secondary."
+ },
+ "C2.1": {
+  "value": "preference profile; preference matrix",
+  "loc": "Section 2, p. 12165",
+  "quote": "maps a preference profile"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK",
+   "PAIR"
+  ],
+  "loc": "Section 2, p. 12165",
+  "quote": "linear orders v \u2208 L(C) for v \u2208 N",
+  "note": "Profile of linear orders; the rule is applied to a pairwise matrix of fractions of voters preferring i over j. Voters answer pairwise queries."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 1, p. 12164",
+  "quote": "eliciting voter preferences",
+  "note": "Voters' preferences are referred to throughout."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2, p. 12165",
+  "quote": "preferences of the voters over the alternatives to be linear orders",
+  "note": "Preferences are taken as the input and the rule is applied directly. Nothing is said about reporting or truthfulness."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-5",
+  "quote": "none found",
+  "note": "No analysis considers misreporting."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 2, 4, 6",
+  "quote": "none found",
+  "note": "No statement that voters answer truthfully."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Sections 3-4",
+  "quote": "",
+  "note": "The paper mentions 'voter satisfaction' loosely, but there is no utility model for voters. Kemeny score is a disagreement measure. Treated as not applicable."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 3, p. 12166-12167",
+  "quote": "minimal voter disagreement, well",
+  "note": "Outcomes are evaluated by Kemeny score, a voter-disagreement measure. This is arguably a representation or satisfaction criterion."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 3, p. 12166",
+  "quote": "the matrices in the proofs also yield similar voter satisfaction",
+  "note": "Kemeny score is evaluated on the preference matrix, with no statement relating it to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters are randomly sampled and answer queries as fixed data. They take no action in the model."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N",
+   "note": "The elicitor chooses which pairs to query (adaptive sampling), which could count as an organiser. Judged here as the algorithm itself rather than an agent."
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "C6",
+  "quote": "",
+  "note": "Fewer than two types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "C6",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no strategic types."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 1, p. 12164",
+    "quote": "To ensure a good societal outcome, the fair aggregation"
+   },
+   {
+    "loc": "Section 1, p. 12164",
+    "quote": "This can be excessively time consuming or costly for voters"
+   }
+  ],
+  "note": "Motivational claims about fairness and voter cost in the introduction. The conclusion makes no such claims."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 1, p. 12164",
+  "quote": "none found",
+  "note": "The claim about a good societal outcome via fair aggregation would need an assumption that elicited answers reflect voters' true preferences. This is not stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1-6",
+  "quote": "none found",
+  "note": "No procedural reading is stated."
+ }
+}

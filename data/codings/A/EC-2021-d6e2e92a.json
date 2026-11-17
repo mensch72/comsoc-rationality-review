@@ -1,0 +1,184 @@
+{
+ "paper_id": "EC-2021-d6e2e92a",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Section 1, p.1-2",
+  "quote": "How likely are large elections tied under realistic models?",
+  "note": "Probabilistic analysis of ties under voting rules aggregating agents' votes."
+ },
+ "C1": {
+  "types": [
+   "OT",
+   "SI",
+   "EM"
+  ],
+  "primary": "OT",
+  "loc": "Abstract; Section 4, p.13; Section 5, p.17",
+  "quote": "We prove dichotomy theorems on the smoothed likelihood of ties",
+  "note": "Main results are probabilistic (smoothed) asymptotic characterisations of tie likelihood, which fit no listed type. There are also synthetic (IC) simulations and Preflib data experiments."
+ },
+ "C2.1": {
+  "value": "vote; (preference) profile",
+  "loc": "Section 2, p.6",
+  "quote": "The vector of n agents\u2019 votes, denoted by P , is called"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2, p.6",
+  "quote": "Each agent uses a linear order to represent his or her preferences",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 1 (The Model), p.2",
+  "quote": "agents\u2019 \u201cground truth\u201d preferences can be arbitrarily correlated",
+  "note": "Ground-truth preferences are distinguished from votes."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 1 (The Model), p.2",
+  "quote": "then independent noises are added to form their votes",
+  "note": "Votes are ground truth plus independent noise, so they may differ from held preferences. The difference is non-strategic."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-4, pp.6-17",
+  "quote": "none found",
+  "note": "Votes are generated randomly from the distributions; no strategic voting is analysed."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Section 2, p.6",
+  "quote": "Each agent uses a linear order to represent his or her preferences",
+  "note": "The preliminaries say the vote represents preferences. The smoothed model, however, adds noise to ground truth; STATED was chosen over NOT-STATED as the first-listed fitting code."
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Section 2, p.6",
+  "quote": "none found",
+  "note": "No reason is given for the vote representing preferences."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No utility, welfare or similar notion is used for voters."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 3-5, pp.8-18",
+  "quote": "none found",
+  "note": "Only the likelihood of ties is evaluated."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 3, Definition 3, p.8",
+   "quote_behav": "Yj is distributed as \u03c0j",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Votes are random draws from the distributions chosen by the adversary."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Section 1 (Our Contributions), p.2",
+   "quote_behav": "the max-adversary aims to maximize the likelihood of k-way ties",
+   "loc_info": "Sections 1-2, pp.2-8",
+   "quote_info": "none found",
+   "note": "Max/min adversary choosing each agent's vote distribution (smoothed analysis device)."
+  }
+ },
+ "C7.1": {
+  "code": "Y",
+  "loc": "Section 1, p.2",
+  "quote": "the adversary chooses a distribution \u03c0j for each agent j",
+  "note": "OTH (adversary) is STRAT; VOT is NONSTRAT."
+ },
+ "C7.2": {
+  "code": "CITE",
+  "loc": "Section 1, p.2",
+  "quote": "which is inspired by the celebrated smoothed complexity analysis [59]",
+  "note": "The framework is justified by reference to smoothed analysis and [66]; there is no specific argument for treating the types differently."
+ },
+ "C8.1": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 1, eq. (4)-(5), p.2",
+  "quote": "the min-adversary aims to minimize the likelihood of k-way ties",
+  "note": "Worst/best-case (sup/inf) optimisation by an adversary over distributions (smoothed analysis)."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 1, p.2",
+  "quote": "We call Tie the max (respectively, min) smoothed likelihood"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 1, p.2",
+    "quote": "a low max smoothed likelihood is good news"
+   },
+   {
+    "loc": "Section 1.1, p.4",
+    "quote": "so that the legislators can make an informed decision"
+   },
+   {
+    "loc": "Section 1, p.3",
+    "quote": "completely characterize conditions for good news in different contexts"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 1 (The Model), p.2; Section 3, p.8",
+  "quote": "we assume that the set of distribution \u03a0 is strictly positive",
+  "note": "The claims concern tie frequency of submitted votes; the needed assumption is the vote-generation model (smoothed, strictly positive, closed \u03a0), and it is stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 2, 6",
+  "quote": "none found",
+  "note": ""
+ }
+}

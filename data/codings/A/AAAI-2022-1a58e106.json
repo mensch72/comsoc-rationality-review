@@ -1,0 +1,163 @@
+{
+ "paper_id": "AAAI-2022-1a58e106",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.5208",
+  "quote": "We formalize a voting model for plurality elections",
+  "note": "The paper studies an iterative strategic voting model under plurality."
+ },
+ "C1": {
+  "types": [
+   "EQ",
+   "SI"
+  ],
+  "primary": "EQ",
+  "loc": "Convergence Properties, p.5213; Simulations, p.5214",
+  "quote": "beginning with showing that it converges to a Pure Nash Equilibrium",
+  "note": "The pivotal-probability derivations and algorithms support the equilibrium and convergence analysis. They compute pivotal probabilities, not outcomes, so AL was not coded."
+ },
+ "C2.1": {
+  "value": "electoral choice / votes",
+  "loc": "Model Definition, p.5210",
+  "quote": "where \u03c0 i,\u03b4 represents the electoral choice of i in \u03b4"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Model Definition, p.5210",
+  "quote": "the choice electors are faced with is to either abstain or",
+  "note": "Each input is a single plurality vote for one candidate, or abstention."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Model Definition, p.5210",
+  "quote": "holds normalized cardinal utilities that i would accrue",
+  "note": "Voters hold cardinal utilities over candidates."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Model Definition, p.5210",
+  "quote": "electors never vote for their sincerely least preferred candidate",
+  "note": "Utilities u^i and choices \u03c0^{i,\u03b4} have separate notation, and choices are strategic."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Introduction, p.5208; Model Definition, p.5210",
+  "quote": "each time doing a simultaneous expected reward optimization",
+  "note": "A truthful initial condition is mentioned only as an option in footnote 8."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The input format is OTH (a plurality vote), so none of RANK, WEAK, APPR, DICH or PAIR applies."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Convergence Properties, p.5213-5214; Simulations, p.5214",
+  "quote": "none found",
+  "note": "Results concern convergence, Duvergerian equilibria, outcome similarity and runtime, not welfare or representation."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Model Definition, p.5210",
+   "quote_behav": "i chooses the electoral choice \u03c0 i,\u03b4 that maximizes",
+   "loc_info": "Introduction, p.5208",
+   "quote_info": "agents learn only candidates\u2019 latest vote shares",
+   "note": "Agents are unaware of other individuals' preferences or choices and of the preference distribution."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "NE",
+   "ITER",
+   "BND"
+  ],
+  "loc": "Introduction, p.5208; Convergence Properties, p.5213",
+  "quote": "ICV agents require low information and are boundedly rational",
+  "note": "Convergence of iterative simultaneous best responses to a pure Nash equilibrium; the paper describes the agents as boundedly rational."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Convergence Properties, p.5213",
+  "quote": "Definition 4. PNE in ICV under plurality is an iteration"
+ },
+ "C9.1": {
+  "code": "N",
+  "claims": [],
+  "note": "The abstract, introduction and discussion make claims about modelling and convergence (e.g. passing the Duverger's Law test), not about institutions, voter welfare or which rule to use."
+ },
+ "C9.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C9.1 = N."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction, Model Definition, Discussion",
+  "quote": "none found",
+  "note": ""
+ }
+}

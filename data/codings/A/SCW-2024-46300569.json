@@ -1,0 +1,167 @@
+{
+ "paper_id": "SCW-2024-46300569",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "1 Introduction, p.57",
+  "quote": "the pairwise majority relation of this society is acyclic",
+  "note": "Borderline. The paper studies preference domains on which pairwise majority voting yields acyclic outcomes, i.e. properties of majority aggregation; coded ELIG on that basis."
+ },
+ "C1": {
+  "types": [
+   "OT"
+  ],
+  "primary": "OT",
+  "loc": "Abstract, p.57; Theorems 1-4, pp.62-65",
+  "quote": "suggest a new combinatorial interpretation of generalised Fishburn's domains",
+  "note": "Combinatorial and structural results on Condorcet domains: maximality, copiousness, single-peakedness on a circle. These could also be read as AX-type characterisations."
+ },
+ "C2.1": {
+  "value": "preferences ... represented by linear orders; domain of linear orders",
+  "loc": "1 Introduction, p.57",
+  "quote": "have preferences over those alternatives represented by linear orders"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "1 Introduction, p.58",
+  "quote": "By L(A) we will denote all linear orders on the set",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "1 Introduction, p.57",
+  "quote": "all voters of a certain society are known to have preferences",
+  "note": "Voters' preferences are the held attitude."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "1 Introduction, p.57",
+  "quote": "the pairwise majority relation of this society is acyclic",
+  "note": "The majority relation is computed directly from preferences, with no statement about submission or reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "No strategic analysis."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "1 Introduction; 2 Generalised Fishburn's domains; 3 Conclusion",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No utility-type notions are used for voters."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 1-3",
+  "quote": "none found",
+  "note": "The individual freedom remark appears only in the introduction."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters appear only as holders of preferences that define domains; no voter action is modelled."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no strategic types."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "1 Introduction, p.57",
+    "quote": "allows a society to always have transitive collective decisions"
+   },
+   {
+    "loc": "1 Introduction, p.57",
+    "quote": "provide voters with as much individual freedom as possible"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "1 Introduction, p.57",
+  "quote": "none found",
+  "note": "For transitive collective decisions to follow from acyclicity of the majority relation over preferences, voters must submit their preferences sincerely; this is not stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "1 Introduction; 2 Generalised Fishburn's domains; 3 Conclusion",
+  "quote": "none found",
+  "note": ""
+ }
+}

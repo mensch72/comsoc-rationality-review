@@ -1,0 +1,181 @@
+{
+ "paper_id": "IJCAI-2021-2a15c54a",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.261",
+  "quote": "Proportional ranking rules aggregate approval-style preferences of agents",
+  "note": "Approval-based dynamic ranking rules that aggregate voters' approval sets into a collective ranking."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SI"
+  ],
+  "primary": "AX",
+  "loc": "Sections 4-6, pp.263-266",
+  "quote": "study their monotonicity and proportionality properties",
+  "note": "Main results are monotonicity and proportionality properties (Sections 4-5) and simulations on synthetic profiles (Section 6). The polynomial-time remark is deferred to the full version and is not a main result."
+ },
+ "C2.1": {
+  "value": "approval profile; approval set; upvotes; approval-style preferences",
+  "loc": "Section 2, p.262",
+  "quote": "An (approval) profile A = (A1 , . . . , An ) is a list"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Section 2, p.262",
+  "quote": "the approval set Ai \u2286 C of voter i",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 1, p.261",
+  "quote": "participants only upvote questions related to their own interest",
+  "note": "Voters' interests and opinions are referred to apart from the upvotes; satisfaction is also attributed to voters (Section 4)."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Abstract, p.261",
+  "quote": "aggregate approval-style preferences of agents into a collective ranking",
+  "note": "In the formal model the approval sets are treated as preferences and the rule is applied to them directly. The intro example assumes upvotes track interests, but only for illustration."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-6",
+  "quote": "none found",
+  "note": "No strategic voting is analysed."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 2, 3, 7",
+  "quote": "none found",
+  "note": "The intro assumption about upvoting own interests belongs to the motivating example of tyranny of the majority. It is not stated as a modelling assumption for the analyses."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 4, p.264",
+  "quote": "To measure satisfaction of a group V \u2286 N of voters",
+  "note": "Satisfaction is defined as the number of approved candidates in a set, i.e. avgV(S) = (1/|V|) \u03a3|Ai \u2229 S|."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 5.2, p.265",
+  "quote": "A dynamic ranking rule satisfies proportional justified selection (PJS)",
+  "note": "Results use group representation, PJS/JS and voter satisfaction."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 4, p.264",
+  "quote": "To measure satisfaction of a group V \u2286 N of voters",
+  "note": "Evaluated on approval sets, with no statement relating them to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2, p.262",
+   "quote_behav": "the approval set Ai \u2286 C of voter i",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Approval sets are given exogenously."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 5.2, p.265",
+   "quote_behav": "restricting the selection behavior of an adversarial DM",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "The decision maker (moderator) selects candidates. Selection is arbitrary/adversarial in worst-case analyses and probabilistic (click-through rates) in experiments; it is not optimising its own objective."
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "N",
+  "loc": "Sections 3-6",
+  "quote": "none found",
+  "note": "No type is strategic."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no strategic type."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 1, p.261",
+    "quote": "minority opinions might go completely unrepresented"
+   },
+   {
+    "loc": "Section 1, p.262",
+    "quote": "do not require attributes in order to ensure the representation"
+   },
+   {
+    "loc": "Section 7, p.266",
+    "quote": "verify that both approaches lead to proportional results"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sections 1-7",
+  "quote": "none found",
+  "note": "Claims about representing minority opinions require that submitted upvotes reflect participants' interests under the proposed rules. This is not stated as a modelling assumption; it appears only in the intro illustration of the AV problem."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 2, 7",
+  "quote": "none found",
+  "note": ""
+ }
+}

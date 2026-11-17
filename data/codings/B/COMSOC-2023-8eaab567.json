@@ -1,0 +1,170 @@
+{
+ "paper_id": "COMSOC-2023-8eaab567",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "We characterize all voting rules that satisfy false-name-proofness, strategy-proofness, and ontoness",
+  "note": "Axiomatic and strategic analysis of voting rules"
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SB"
+  ],
+  "primary": "AX",
+  "loc": "Section 3.1, Theorem 1",
+  "quote": "false-name-proof, strategy-proof, and onto if and only f is a voting by quota",
+  "note": "Characterization via axioms including strategy-proofness and false-name-proofness (SB properties)."
+ },
+ "C2.1": {
+  "value": "profile of voters' preferences; votes",
+  "loc": "Introduction p.1; Section 2.1",
+  "quote": "mapping profiles of voters\u2019 preferences into social alternatives"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 2.1, p.4",
+  "quote": "We assume that Pi is a strict linear order",
+  "note": "Strict linear orders over subsets of objects (separable preferences); not rankings over candidates in the usual sense, so coded OTH."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Introduction p.1",
+  "quote": "since individual preferences are private information",
+  "note": "True preferences exist separately from reports."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2.2, Definition 4; Introduction",
+  "quote": "voters may behave strategically by not submitting their preferences truthfully",
+  "note": "Strategy-proofness definition uses Pi and Pi' separately."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "Section 3, Proposition 1 and 2 vs. Definition 5",
+  "quote": "no voter benefits by not revealing their preferences truthfully",
+  "note": "Strategy-proofness considers misreports; false-name-proofness considers repeating the same vote, with no misreporting; the characterization combines both."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 2, 3",
+  "quote": "none found",
+  "note": "In the false-name analysis voters repeat their own vote, but no statement about sincerity for non-strategic analyses was found."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C3.2 is not STATED"
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Section 2.1",
+  "quote": "",
+  "note": "Input is not among the listed formats; additive utility representation only used as a preference class, not a welfare notion."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "",
+  "note": "Term not used"
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Section 3",
+  "quote": "none found",
+  "note": "No welfare or efficiency criteria in results; only axiomatic properties."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Introduction p.1",
+   "quote_behav": "voters may behave strategically by not submitting their preferences truthfully",
+   "loc_info": "Sections 1-3",
+   "quote_info": "none found",
+   "note": "Voters are modelled as potential manipulators (misreporting or repeating votes); information not specified."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Section 2",
+  "quote": "",
+  "note": "Only one type present"
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C7.1 not Y"
+ },
+ "C8.1": {
+  "codes": [
+   "DOM"
+  ],
+  "loc": "Section 2.2, Definitions 4-5",
+  "quote": "no voter benefits by not revealing their preferences truthfully",
+  "note": "Strategy-proofness and false-name-proofness are dominant-strategy-style properties."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Abstract; Definition 4",
+  "quote": "A voting rule is strategy-proof if no voter benefits"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction p.1",
+    "quote": "This is in fact a real and growing phenomenon in anonymous online voting."
+   },
+   {
+    "loc": "Introduction p.1",
+    "quote": "repeated voting can be a highly relevant issue"
+   }
+  ],
+  "note": "Motivational claims about real online voting institutions; no rule recommendation or welfare claim."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Introduction p.1",
+  "quote": "voters may behave strategically by not submitting their preferences truthfully",
+  "note": "Claims are motivational about the relevance of the problem; the needed assumption (voters may be strategic) is stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1-3",
+  "quote": "none found",
+  "note": "No procedural-reading statement."
+ }
+}

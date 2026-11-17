@@ -1,0 +1,179 @@
+{
+ "paper_id": "EC-2025-1e143359",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Section 1, p.1",
+  "quote": "the maximum payment rule (MP). Under this rule, each voter controls a part of the budget",
+  "note": "Approval-based budget division rules aggregating approval ballots into a distribution; treated as a voting procedure."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "WD"
+  ],
+  "primary": "AX",
+  "loc": "Sections 2-5",
+  "quote": "MP meets our criteria as it satisfies monotonicity and a demanding population consistency condition",
+  "note": "Mostly axiomatic (monotonicity, population consistency, approximate fairness AFS/core satisfaction). Approximation ratios to fairness axioms are quantitative axiomatic analysis; WD included for the efficiency/approximation aspects, weakly. The strategyproofness remark is minor."
+ },
+ "C2.1": {
+  "value": "approval ballots; approval profile",
+  "loc": "Section 2, p.6",
+  "quote": "each voter i \u2208 N reports his preferences in the form of an approval ballot"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR",
+   "DICH"
+  ],
+  "loc": "Section 2, p.6",
+  "quote": "We assume that the voters have dichotomous preferences over the candidates",
+  "note": "Input is approval sets; the paper also describes preferences as dichotomous."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.6",
+  "quote": "voters only distinguish between approved and disapproved candidates",
+  "note": "Dichotomous preferences and utilities ui(p) are attributed to voters."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2, p.6",
+  "quote": "we assume that the utility of a voter i for a distribution p is",
+  "note": "Ballot is described as how a voter reports his preferences, and the rule is applied directly; no statement that reports equal preferences or may differ. Remark 4 discusses manipulation briefly but no model separation."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Remark 4, p.21",
+  "quote": "While MP is monotonic, it fails the more demanding property of strategyproofness.",
+  "note": "Only a single example of manipulability; no main analysis considers strategic voters."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 2, 6",
+  "quote": "none found",
+  "note": "No statement that voters submit their held attitude."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED"
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 2, p.6",
+  "quote": "the utility of a voter i for a distribution p is the total share",
+  "note": "Utility is defined as total share assigned to approved candidates."
+ },
+ "C4.2": {
+  "code": "Y",
+  "loc": "Section 2, p.6",
+  "quote": "ui ( p) = \u2211 x\u2208 Ai p( x )",
+  "note": "Utility is the total share of approved candidates (utility 1 per unit share for approved, 0 otherwise), stated in the model."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2.3, p.9; Theorem 4.2",
+  "quote": "MP satisfies 2-AFS and \u0398(log n)-core",
+  "note": "AFS and core are proportionality/representation fairness notions to groups of voters; also efficiency discussed in Remark 2."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 2.3, p.9-10",
+  "quote": "Average fair share (AFS) lower bounds the average utility of every group of voters",
+  "note": "Utilities are defined from the approval ballots; no statement relating ballots to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2, p.6",
+   "quote_behav": "each voter i \u2208 N reports his preferences in the form of an approval ballot",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters submit ballots, fixed by the model; the manipulation example in Remark 4 is not a main analysis."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates are only alternatives."
+  },
+  "ORG": {
+   "present": "N",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Fewer than two types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is NA"
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 4, p.16",
+    "quote": "these properties make a strong case for using MP in practice."
+   },
+   {
+    "loc": "Section 1, p.4",
+    "quote": "MP is the only sequential payment rule that satisfies our original desiderata"
+   },
+   {
+    "loc": "Section 1, p.4",
+    "quote": "in practice, we believe that it is rare for MP to return (severely) inefficient outcomes"
+   }
+  ],
+  "note": "Claims about which rule to use and practical performance."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sections 1, 2, 4",
+  "quote": "none found",
+  "note": "Claims about fairness to voters and use in practice need an assumption that ballots reflect voters' held preferences (sincere reporting) and that utilities are approval-based; sincerity is not stated, while the utility link is stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1-6",
+  "quote": "none found",
+  "note": "No statement of purely procedural reading."
+ }
+}

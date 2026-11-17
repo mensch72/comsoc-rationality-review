@@ -1,0 +1,186 @@
+{
+ "paper_id": "EC-2025-6214a235",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "We study approval-based committee voting from a novel perspective.",
+  "note": ""
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "AL"
+  ],
+  "primary": "AX",
+  "loc": "Abstract, p.1; Sections 3-6",
+  "quote": "randomized voting rules that satisfy ex-ante neutrality, monotonicity, and continuity",
+  "note": "Main results are properties (neutrality, monotonicity, continuity/stability bounds, EJR+) of randomized rules. Polynomial-time algorithms and a dynamic low-recourse reduction are AL."
+ },
+ "C2.1": {
+  "value": "approval profile; approval sets; ballots; voters' preferences",
+  "loc": "Section 2.1, p.5",
+  "quote": "A collection of all voters\u2019 approval sets is denoted by \ud835\udc34"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Section 2.1, p.5",
+  "quote": "An approval set of voter \ud835\udc56 \u2208 \ud835\udc41 is a subset",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Introduction, p.2",
+  "quote": "a voting rule selects a \ud835\udc58sized subset (the committee) using voters\u2019 preferences",
+  "note": "The only held-attitude term is 'voters' preferences', used as a synonym for the input. Elsewhere the input is described as approvals or ballots."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Introduction, p.2; Section 2.1, p.5",
+  "quote": "a voting rule selects a \ud835\udc58sized subset (the committee) using voters\u2019 preferences",
+  "note": "Doubt between IDU and ONE. The input is mostly called approval sets or ballots, but the rule is once described as applied to preferences directly. IDU is listed first."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-6",
+  "quote": "none found",
+  "note": "No analysis considers misreporting. Strategyproofness is mentioned only as a motivation for differential privacy."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Introduction; Section 2 Preliminaries; Section 7 Conclusion",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No voter utility, welfare, satisfaction, cost or distortion is used. The only use of 'utility' in Appendix C.1 refers to the dummy candidate \u22a5, not to voters."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2.1.2, p.6",
+  "quote": "We now define the standard proportionality axioms Justified Representation (JR)",
+  "note": "Results evaluate rules by JR and EJR+ (proportional representation of voter groups)."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Definitions 2.4-2.5, p.6",
+  "quote": "a committee \ud835\udc4a provides \ud835\udefc-EJR+ if there is no candidate",
+  "note": "Proportionality is defined on the approval sets submitted, with no statement relating them to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2.1, p.5",
+   "quote_behav": "which we interpret to be the set of candidates that are \u201capproved\u201d",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Approval sets are exogenous inputs."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates serve only as alternatives to be chosen."
+  },
+  "ORG": {
+   "present": "N",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "note": ""
+  },
+  "OTH": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 6.1, p.18",
+   "quote_behav": "the sequence \ud835\udc38 is fixed at the outset",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Adversary presenting the sequence of elections in the dynamic model. It is assumed oblivious, so its sequence is fixed."
+  }
+ },
+ "C7.1": {
+  "code": "N",
+  "loc": "Sections 2, 6",
+  "quote": "We will assume an oblivious adversary.",
+  "note": "Both present types (voters and the adversary) are non-strategic."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.2",
+    "quote": "proportional representation ensures that voters are adequately represented in the outcome"
+   },
+   {
+    "loc": "Conclusion, p.19",
+    "quote": "which we argue is favorable from the candidate perspective"
+   },
+   {
+    "loc": "Conclusion, p.19",
+    "quote": "it is also useful for guaranteeing voter privacy"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Introduction, p.2",
+  "quote": "none found",
+  "note": "The claim that voters are adequately represented requires that submitted approvals reflect voters' held attitudes, and this is not stated. The privacy claim concerns votes themselves and needs no such assumption."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction; Section 2; Conclusion",
+  "quote": "none found",
+  "note": ""
+ }
+}

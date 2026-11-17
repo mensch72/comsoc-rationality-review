@@ -1,0 +1,227 @@
+{
+ "paper_id": "AAMAS-2024-b87545dd",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Sec 1.1, p.1-2",
+  "quote": "each voter either delegates to a seemingly attractive proxy or casts a ballot directly",
+  "note": "Proxy voting / delegation under approval voting; approximation and complexity of proxy selection."
+ },
+ "C1": {
+  "types": [
+   "WD",
+   "AL",
+   "EM"
+  ],
+  "primary": "WD",
+  "loc": "Sec 3 (Thms 3.1-3.13), Sec 4",
+  "quote": "a good approximation of the best possible approval score",
+  "note": "Most results are approximation bounds on intrinsic approval score (WD); NP-hardness (AL); MovieLens experiments (EM, using synthetic-derived intrinsic preferences)."
+ },
+ "C2.1": {
+  "value": "preferences / ballots (intrinsic preference profile, revealed preference profile, advertised ballots)",
+  "loc": "Sec 2, p.51",
+  "quote": "we call revealed preference profile"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Sec 2, p.51",
+  "quote": "approval preferences \ud835\udc63\ud835\udc56 \u2208 {0, 1}\ud835\udc5a over the set of proposals",
+  "note": "Approvals with partial revealed preferences (\u22a5 for no opinion)."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec 2, p.51",
+  "quote": "we refer those as true or intrinsic preferences",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Sec 2, p.51",
+  "quote": "voters have intrinsic approval preferences over all proposals",
+  "note": "Separate notation for intrinsic v_i and revealed v\u0302_i; voters delegate or vote directly with revealed preferences."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sec 2-3",
+  "quote": "none found",
+  "note": "Voters' behaviour is a fixed threshold delegation rule; no voter misreports. dReps are strategic only in an optimisation sense but not modelled as misreporting voters."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sec 2, Sec 1, Sec 5",
+  "quote": "none found",
+  "note": "Revealed preferences are partial truthful views of intrinsic ones by definition (v\u0302_i(j)=v_i(j) or \u22a5), but no statement about sincerity of submitted ballots is given as such. Closest: formal relation, not a sincerity statement."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Inputs are approvals, but utility is not used separately; 'approval score' is the objective. Voter satisfaction mentioned only in abstract; no utility notion in the model."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term 'dichotomous preferences' not used by the authors (only in reference title)."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Def 2.1, Sec 2, p.52",
+  "quote": "\ud835\udc60\ud835\udc50 (win(\ud835\udc43b\ud835\udc37 )) \u2265 1/\ud835\udf0c \ud835\udc60\ud835\udc50 (win(\ud835\udc43))",
+  "note": "Approximation of the optimal intrinsic approval score (social welfare)."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Def 2.1, Sec 2, p.52",
+  "quote": "how well the intrinsic score of the winning proposal",
+  "note": "Evaluated on intrinsic preferences defined separately from revealed input."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sec 2, p.51",
+   "quote_behav": "voter \ud835\udc56 delegates their vote to a dRep when their distance",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters follow fixed threshold delegation rule; a voter attracted by multiple dReps delegates arbitrarily."
+  },
+  "CAN": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Proposals are alternatives only."
+  },
+  "ORG": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "OTH": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sec 1.1, p.2",
+   "quote_behav": "they can coordinate with each other and advertise their types accordingly",
+   "loc_info": "Sec 1.1, p.2",
+   "quote_info": "The dReps are fully informed about the preferences of the voters",
+   "note": "dReps (proxies) are the other acting agent; they have no preferences, coordinate to maximise the approximation (a fixed designer-like goal). Coded NONSTRAT because they have no objective of their own; info is complete but info set to NA per codebook for NONSTRAT."
+  }
+ },
+ "C7.1": {
+  "code": "N",
+  "loc": "Sec 1.1, Sec 2",
+  "quote": "devoid of personal preferences over the proposals",
+  "note": "Both voters and dReps are non-strategic."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "No type STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract",
+    "quote": "outcomes with higher legitimacy and enhanced voters\u2019 satisfaction"
+   },
+   {
+    "loc": "Abstract",
+    "quote": "Our results enhance the understanding of the power of delegation"
+   },
+   {
+    "loc": "Sec 1, p.1",
+    "quote": "Our work can be seen as one that contributes to the corpus"
+   }
+  ],
+  "note": "Claims about the value of proxy voting for real systems such as blockchain governance and voter satisfaction."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Abstract; Sec 1.1",
+  "quote": "one should expect a slightly larger number of dReps to be needed in practice",
+  "note": "Claims about real institutions and voter satisfaction need assumptions about dRep information and rationality (stated as best-case) and that intrinsic approval score equals voter satisfaction/utility (not stated)."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sec 2",
+  "quote": "none found",
+  "note": ""
+ }
+}

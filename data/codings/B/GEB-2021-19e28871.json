@@ -1,0 +1,219 @@
+{
+ "paper_id": "GEB-2021-19e28871",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Sec. 2, p.5-7",
+  "quote": "A committee of N (odd) voters must approve or reject each of K",
+  "note": "Vote trading among voters before majority voting on binary proposals; treated as a procedure with strategic aspects."
+ },
+ "C1": {
+  "types": [
+   "EM",
+   "EQ",
+   "SI"
+  ],
+  "primary": "EM",
+  "loc": "Abstract; Sec. 3-4",
+  "quote": "We explore this subject with a laboratory experiment.",
+  "note": "Main results are lab data. Stability and convergence theory is a secondary part (EQ). Random-trading simulations are a benchmark (SI)."
+ },
+ "C2.1": {
+  "value": "votes (vote allocation, vote holdings)",
+  "loc": "Sec. 2.1, p.5",
+  "quote": "We call v = (v1 ; :::; vN ) a vote allocation"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Sec. 2.1, p.5-6",
+  "quote": "each voter's dominant strategy is to cast all votes in his possession",
+  "note": "Voters cast (possibly multiple) votes for or against each binary proposal. None of the listed formats fits."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec. 2.1, p.5",
+  "quote": "represented by a pro\ufb01le of values, Z",
+  "note": "Held values z_ik, i.e. utilities."
+ },
+ "C2.4": {
+  "code": "IDJ",
+  "loc": "Sec. 2.1, p.6",
+  "quote": "dominant strategy is to cast all votes in his possession",
+  "note": "Final votes are stated to equal sincere preferences, with the dominant strategy as the reason. Experiment footnote 13 repeats this."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sec. 2.1, 3",
+  "quote": "voting in the preferred direction is a dominant strategy",
+  "note": "Strategy is in trading only. Voting is sincere (automatic in the lab)."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Sec. 2.1, p.6",
+  "quote": "dominant strategy is to cast all votes in his possession",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "SP",
+  "loc": "Sec. 2.1, footnote 13",
+  "quote": "voting in the preferred direction is a dominant strategy",
+  "note": "Binary proposals, so sincere voting is dominant."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Sec. 2.1",
+  "quote": "",
+  "note": "The input format is not RANK, WEAK, APPR, DICH or PAIR."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sec. 4",
+  "quote": "none found",
+  "note": "Results concern stability, vote holdings, outcomes and trade types. Payoff gains test trader behaviour and do not evaluate rules by welfare. Efficiency appears only in the introduction."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Sec. 2.2, p.7",
+   "quote_behav": "sequences of trades yielding myopic strict gains to both traders",
+   "loc_info": "Sec. 3, p.9",
+   "quote_info": "conveys to all voters complete information",
+   "note": "Voters trade to gain payoffs, myopically in the model. Voting itself is sincere or automatic."
+  },
+  "CAN": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "ORG": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "The experimenter and computer only run the protocol."
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Sec. 2",
+  "quote": "",
+  "note": "Only the voter type is present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y"
+ },
+ "C8.1": {
+  "codes": [
+   "ITER",
+   "COAL",
+   "DOM"
+  ],
+  "loc": "Sec. 2.2-2.3; Sec. 4.2.5",
+  "quote": "Elementary Pivot Algorithm is any mechanism generating a sequence of trades",
+  "note": "The pivot algorithm is a myopic best-response-like dynamic. Stability is a pairwise, coalition-style concept, and farsighted stability uses the farsighted core. Voting uses a dominant strategy."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Sec. 1, 2.3",
+  "quote": "The theory is based on the concept of a stable vote allocation",
+  "note": ""
+ },
+ "C9.1": {
+  "code": "N",
+  "claims": [],
+  "note": "The abstract, introduction and conclusion describe lab findings and future research. They make no claims on institutions, voter welfare or which rule to use."
+ },
+ "C9.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C9.1 = N"
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": ""
+ }
+}

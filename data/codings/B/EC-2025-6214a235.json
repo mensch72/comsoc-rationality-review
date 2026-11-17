@@ -1,0 +1,227 @@
+{
+ "paper_id": "EC-2025-6214a235",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Sec 1",
+  "quote": "We study approval-based committee voting from a novel perspective.",
+  "note": "Randomized approval-based committee voting rules, with proportionality, stability, and differential privacy."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "AL"
+  ],
+  "primary": "AL",
+  "loc": "Sec 3-6; Table 1",
+  "quote": "This polynomial-time algorithm satisfies EJR+ ex post, assures ex-ante monotonicity and neutrality",
+  "note": "Mostly design and analysis of randomized rules with stability bounds, lower bounds and a reduction. Also property satisfaction (AX). No strategic analysis."
+ },
+ "C2.1": {
+  "value": "approval profile; approval sets; ballots",
+  "loc": "Sec 2.1, p.5",
+  "quote": "A collection of all voters\u2019 approval sets is denoted by \ud835\udc34"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Sec 2.1, p.5",
+  "quote": "An approval set of voter \ud835\udc56 \u2208 \ud835\udc41 is a subset \ud835\udc34\ud835\udc56 \u2286 \ud835\udc36",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "N",
+  "loc": "Sec 1; Sec 2.1",
+  "quote": "each voter approves a subset of candidates, and a voting rule selects",
+  "note": "The intro says 'using voters' preferences', but voters are not given a held attitude separate from approvals in the model."
+ },
+ "C2.4": {
+  "code": "ONE",
+  "loc": "Sec 2.1, p.5",
+  "quote": "which we interpret to be the set of candidates that are \u201capproved\u201d",
+  "note": "Inputs are treated as approvals only; no held attitude is modelled."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sec 2-6",
+  "quote": "none found",
+  "note": "No analysis has voters misreporting. Strategyproofness is mentioned only in related work on DP."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "C2.4 = ONE",
+  "quote": "none found",
+  "note": "C2.4 = ONE."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "C3.2",
+  "quote": "none found",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Sec 2-6",
+  "quote": "none found",
+  "note": "The paper uses no voter utility, welfare, satisfaction, cost or distortion notion in its results."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sec 2.1.2, p.6",
+  "quote": "Extended Justified Representation+ (EJR+)",
+  "note": "Ex-post proportionality (EJR+/JR) is the central evaluation criterion, framed as representation of voter groups."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Sec 2.1.2, Def 2.4-2.5",
+  "quote": "a committee \ud835\udc4a provides \ud835\udefc-EJR+ if there is no candidate",
+  "note": "EJR+ is evaluated on the approval sets, with no statement relating them to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters supply approvals but do not act as agents in the model. In the dynamic model, an adversary changes one voter's approvals."
+  },
+  "CAN": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Candidates are only alternatives to be chosen."
+  },
+  "ORG": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "The rule is the object analysed."
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "The designer's choice is not modelled."
+  },
+  "OTH": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sec 6.1, p.18",
+   "quote_behav": "We assume that an adversary presents a sequence of elections",
+   "loc_info": "Sec 6.1, p.18",
+   "quote_info": "We will assume an oblivious adversary.",
+   "note": "Dynamic-model adversary presenting a sequence of elections. It is oblivious, with the sequence fixed at the outset, so NONSTRAT."
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "C6",
+  "quote": "none found",
+  "note": "Fewer than two types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "C7.1",
+  "quote": "none found",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "C6",
+  "quote": "none found",
+  "note": "No type is STRAT or MIXED, so this is NA."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "C8.1",
+  "quote": "none found",
+  "note": "C8.1 is NA."
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract",
+    "quote": "suggesting their applicability in privacy-sensitive domains"
+   },
+   {
+    "loc": "Sec 1, p.2",
+    "quote": "candidates with similar sets of supporters should receive similar representation"
+   },
+   {
+    "loc": "Sec 7, p.19",
+    "quote": "which we argue is favorable from the candidate perspective"
+   }
+  ],
+  "note": "Claims about institutions (blockchain, participatory budgeting) and fairness to candidates."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sec 1, p.2; Sec 7",
+  "quote": "none found",
+  "note": "Claims of fairness to candidates and of voter privacy need an assumption that approvals are sincere, to protect real preferences. This assumption is not stated. The claim of 'proportional representation of voters' also needs an input-attitude link that is unstated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No statement of a procedural reading."
+ }
+}

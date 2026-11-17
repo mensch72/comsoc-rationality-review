@@ -1,0 +1,176 @@
+{
+ "paper_id": "COMSOC-2023-44771a33",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Section 3.2 R2R aggregation",
+  "quote": "a protocol for aggregating the voters\u2019 preferences into a single ranking",
+  "note": "Peer assessment ballots (grades plus pairwise comparisons) are aggregated by a median/Copeland voting rule."
+ },
+ "C1": {
+  "types": [
+   "EM",
+   "OT"
+  ],
+  "primary": "EM",
+  "loc": "Section 4 User Study",
+  "quote": "In total, 222 students participated in the experiments.",
+  "note": "OT: proposal of an elicitation algorithm and aggregation protocol (R2R), with no formal analysis. The main results are from a classroom user study."
+ },
+ "C2.1": {
+  "value": "scores; ranked rating set; preference profile; pairwise comparison queries",
+  "loc": "Section 3.1 R2R elicitation",
+  "quote": "a set of ranked rating profiles \u03c8i \u2208 \u03a8"
+ },
+ "C2.2": {
+  "codes": [
+   "CARD",
+   "RANK",
+   "PAIR"
+  ],
+  "loc": "Section 3.1 R2R elicitation",
+  "quote": "Definition 3.3 (Ranked Rating Set). A ranked rating set \u03c8 \u2208 \u03a8",
+  "note": "Discrete scores 1-5 combined with strict positions obtained from pairwise comparison queries; Copeland uses pairwise majorities."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 3.1, Example 2",
+  "quote": "The rating set and the preference profile are initially unknown.",
+  "note": "The voter's rating set and preference profile are attributed to the voter before elicitation; the introduction also says students' grades do not reveal what they think."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Introduction",
+  "quote": "students might strategically assign low grades to the projects of others",
+  "note": "Separate notation for the held \u03c41/\u03c01 versus the elicited \u03c81 (Example 2). The text also says reports may be strategic or arbitrary (Section 4)."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Section 4 User Study",
+  "quote": "students did not pay attention and reported arbitrary preferences",
+  "note": "Coded ALL under the rule for human-participant experiments; no analysis models strategic voting formally."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL"
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 not STATED"
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No utility, welfare, satisfaction, cost or distortion notion is used for voters. 'Levels of intensity' refers to perceptual discrimination (Miller), not preference intensity."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Section 4 User Study",
+  "quote": "The unique number of rankings in each method was computed",
+  "note": "Evaluation criteria are ties, communication load and order bias; none of the listed welfare-type criteria is used."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 3.1, Example 2",
+   "quote_behav": "The voter responds by stating: c3 \u227b c1.",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "In the model, query responses follow the voter's preference profile. Real participants in the study chose freely."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Projects serve only as alternatives in the formal model, although students are also project owners."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "A system admin enters projects into the system, but no organiser choice appears in the formal model."
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 \u2260 Y"
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 5 Discussion",
+    "quote": "R2R provides a simple and effective approach for ranking alternatives"
+   },
+   {
+    "loc": "Section 5 Discussion",
+    "quote": "Managers can use our model to establish their personal ranked list"
+   },
+   {
+    "loc": "Section 5 Discussion",
+    "quote": "R2R outperformed existing methods by reducing the number of ties"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 5 Discussion",
+  "quote": "would incentivize voters to provide their honest preferences",
+  "note": "Recommending R2R as effective for ranking in peer and workplace settings needs the elicited grades and comparisons to reflect evaluators' actual assessments, not strategic ones. The paper raises manipulation but does not state that this assumption holds for R2R."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction; Section 3 The model; Section 5 Discussion",
+  "quote": "none found",
+  "note": ""
+ }
+}

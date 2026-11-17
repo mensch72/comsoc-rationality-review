@@ -1,0 +1,228 @@
+{
+ "paper_id": "IJCAI-2022-25f008e9",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Sec 1, p.557",
+  "quote": "We present a formal model of the impact of perception manipulation on election outcomes",
+  "note": "Computational complexity of election control (strategic/computational aspects of voting) in a spatial model."
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "SB"
+  ],
+  "primary": "AL",
+  "loc": "Sec 3-4, pp.558-562",
+  "quote": "We show that controlling elections in this model is, in general, NP-hard",
+  "note": "Complexity and algorithms for constructive/destructive control (SB as control problem); the majority of results are hardness/algorithms."
+ },
+ "C2.1": {
+  "value": "preference rankings (voter preferences over candidates); no named ballot/profile term",
+  "loc": "Sec 2, p.558",
+  "quote": "Each voter vj ranks candidates in C according to their lp distance"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Sec 2, p.558",
+  "quote": "the closest candidate is ranked 1, and the farthest is ranked n",
+  "note": "Strict rankings induced from distances; no ties assumed."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec 2, p.558",
+  "quote": "we associate each candidate and voter with a d-dimensional vector",
+  "note": "Voter positions (opinions) on issues are held attitudes."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Sec 2, p.558",
+  "quote": "Each voter vj ranks candidates in C according to their lp distance",
+  "note": "Rankings derived from positions and fed directly to the scoring rule, with no statement about submission or sincerity."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sec 2-4",
+  "quote": "Each voter vj ranks candidates in C according to their lp distance",
+  "note": "Voters do not misreport; the adversary changes perceived candidate positions, not voter ballots."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sec 2, Sec 5",
+  "quote": "none found",
+  "note": "No explicit statement that voters submit their held attitude; ranking is just defined from distance."
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Sec 2",
+  "quote": "none found",
+  "note": "C3.2 is not STATED, so NA would apply by the codebook."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Sec 2",
+  "quote": "none found",
+  "note": "Input is rankings but no utility/welfare notion is used for voters."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "Term dichotomous preferences not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sec 3-4",
+  "quote": "none found",
+  "note": "Results are on control complexity, not welfare or representation criteria."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "Sec 3-4",
+  "quote": "none found",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters take no action in the model; they are fixed positions that induce rankings."
+  },
+  "CAN": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Candidates only alternatives."
+  },
+  "ORG": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "OTH": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "IMPLICIT",
+   "loc_behav": "Sec 1, p.557",
+   "quote_behav": "a malicious party can change voter perceptions of a target candidate",
+   "loc_info": "Sec 2, p.558",
+   "quote_info": "the adversary can change the perception of c1 into c\u03031",
+   "note": "Adversary/malicious party who manipulates the target candidate's perceived position; acts as an external manipulator (footnote 1 says it can be viewed as bribery), but coded OTH as the manipulator of perceptions. Complete info is implied by the formal problem (positions of all voters and candidates are input)."
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Sec 2",
+  "quote": "none found",
+  "note": "Only one type present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "Sec 2",
+  "quote": "none found",
+  "note": "C7.1 not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "DEV"
+  ],
+  "loc": "Sec 3 Def 3.1, p.558",
+  "quote": "is there a c\u03031 \u2208 I = {0, 1}d where ||c\u03031 \u2212 c1 ||p \u2264 \u03f5",
+  "note": "Existence of a manipulation achieving the adversary's goal, as a decision problem."
+ },
+ "C8.2": {
+  "code": "N",
+  "loc": "Sec 3-4",
+  "quote": "none found"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Sec 1, p.558",
+    "quote": "vulnerability of elections to malicious manipulation of voter perceptions hinges on the extent"
+   },
+   {
+    "loc": "Sec 1, p.558",
+    "quote": "elections become easy to manipulate through misinformation"
+   },
+   {
+    "loc": "Abstract, p.557",
+    "quote": "critical to intractability is the diversity of opinions on issues exhibited by the voting public"
+   }
+  ],
+  "note": "Claims about real elections and misinformation under political polarization."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sec 1-2, Sec 5",
+  "quote": "none found",
+  "note": "Claims about real-world misinformation and polarization need the assumption that real voters' perceptions map to rankings via lp distance, with the same norm and identical effect on all voters. The paper states the latter as limitations but does not state sincere voting by voters."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No procedural reading stated."
+ }
+}

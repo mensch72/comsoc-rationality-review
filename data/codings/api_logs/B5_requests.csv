@@ -1,0 +1,3 @@
+paper_id,model,mode,prompt_tokens,completion_tokens,reasoning_tokens,cost,status
+SCW-2024-5c1f2968,anthropic/claude-sonnet-5.5,sync,32700,717,423,0.07257,ok
+EC-2023-457d9225,anthropic/claude-sonnet-5.5,sync,95338,2155,0,0.212226,ok

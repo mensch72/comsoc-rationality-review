@@ -1,0 +1,15 @@
+{
+ "paper_id": "SCW-2024-e2395b6d",
+ "decisions": {
+  "C0": {
+   "value": {
+    "code": "INELIG",
+    "loc": "Abstract; Sections 2-5, pp. 1-27",
+    "quote": "policy-mix game with electoral competition",
+    "note": "The paper is a macroeconomic policy-mix game with a reduced-form probabilistic-voting election probability, plus UK popularity regressions. Its main object is how central bank interest-rate policy affects electoral chances, not a voting procedure or the strategic or computational aspects of one."
+   },
+   "chosen": "B",
+   "reason": "The voting procedure is only a reduced-form input to a monetary-policy game and an empirical popularity study, so its main object is not a voting procedure or its strategic or computational aspects."
+  }
+ }
+}

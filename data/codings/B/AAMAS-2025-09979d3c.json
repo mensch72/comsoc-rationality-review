@@ -1,0 +1,174 @@
+{
+ "paper_id": "AAMAS-2025-09979d3c",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "We consider voting on multiple independent binary issues.",
+  "note": "Multi-issue voting, Condorcet winners, issue-wise majority."
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "AX",
+   "WD"
+  ],
+  "primary": "AL",
+  "loc": "Sections 3-5, pp.2-6",
+  "quote": "it is co-NP-hard to determine whether there exists a Condorcet-winning proposal",
+  "note": "Complexity and recognition algorithms are most results; Anscombe bounds on distance to IWM are approximation/guarantee results (WD); domain/paradox-free conditions are axiomatic-like (AX). Not SB/EQ."
+ },
+ "C2.1": {
+  "value": "preference profile; votes; proposals",
+  "loc": "Section 2, p.3",
+  "quote": "We call the matrix P = (\ud835\udc63\ud835\udc56,\ud835\udc57 )\ud835\udc56 \u2208 [\ud835\udc5b],\ud835\udc57 \u2208 [\ud835\udc61 ] the preference profile.",
+  "note": ""
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 2, p.3",
+  "quote": "Each voter \ud835\udc56 \u2208 [\ud835\udc5b] is modeled as a dimension-\ud835\udc61 vector \ud835\udc63\ud835\udc56 \u2208 B\ud835\udc61",
+  "note": "Binary opinion vectors over issues plus weight vectors; voters compare proposals by weighted Hamming distance. Not RANK/APPR in the codebook sense, though induced preference is derived."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.3",
+  "quote": "the opinion/preference \ud835\udc63\ud835\udc56,\ud835\udc57 \u2208 B of voter \ud835\udc56 on issue \ud835\udc57",
+  "note": "Voters have opinions/preferences, and induced preference relations over proposals."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2, p.3",
+  "quote": "the opinion/preference \ud835\udc63\ud835\udc56,\ud835\udc57 \u2208 B of voter \ud835\udc56 on issue \ud835\udc57",
+  "note": "Input described as preference and the rule applied directly; internal weights are 'reported' but no statement on truthfulness."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 3-5",
+  "quote": "none found",
+  "note": "No analysis considers misreporting."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 2, 6",
+  "quote": "none found",
+  "note": "No statement that voters submit held attitude."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Section 2",
+  "quote": "",
+  "note": "Input is not in the listed ordinal formats; satisfaction only mentioned as future work."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term 'dichotomous preferences' used only in citing related work title/reference."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 3-5",
+  "quote": "none found",
+  "note": "Evaluation is by agreement with IWM and Condorcet/majority support, not welfare/representation criteria; satisfaction only in future work."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2, p.3",
+   "quote_behav": "voter \ud835\udc56 weakly prefers \ud835\udc5d over \ud835\udc5d \u2032 , written \ud835\udc5d \u227d\ud835\udc56 \ud835\udc5d \u2032",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters vote by fixed rule (weighted Hamming distance) in comparisons; no strategic action."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Fewer than two types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "No strategic types; NA."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 1.1.2, p.2",
+    "quote": "giving a convenient characterization for a whole class of instances"
+   },
+   {
+    "loc": "Section 1.1.1, p.2",
+    "quote": "allow for practically certifying \u201csafe instances\u201d where issue-wise majority is the right choice"
+   },
+   {
+    "loc": "Section 1, p.2",
+    "quote": "the chosen proposal should not be easily refuted by calling a vote"
+   }
+  ],
+  "note": "Claims about which rule/proposal to choose (IWM right choice) and real-world implications."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 1.1.1, p.2",
+  "quote": "where issue-wise majority is the right choice",
+  "note": "Claim that IWM is the 'right choice' needs assumption that submitted opinions equal true preferences and that voters evaluate proposals by weighted agreement; the input-held attitude relation is not stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1-2",
+  "quote": "none found",
+  "note": ""
+ }
+}

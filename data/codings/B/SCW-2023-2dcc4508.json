@@ -1,0 +1,176 @@
+{
+ "paper_id": "SCW-2023-2dcc4508",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.713",
+  "quote": "This paper considers manipulation by groups of voters who have the same preferences.",
+  "note": "Strategic aspects (manipulation) of voting rules."
+ },
+ "C1": {
+  "types": [
+   "SB",
+   "AX"
+  ],
+  "primary": "SB",
+  "loc": "Abstract; Sects. 3-6, pp.713-728",
+  "quote": "we study conditions on the numbers of voters and alternatives",
+  "note": "Results characterise when unsafe group manipulation exists; primarily strategic behaviour. AX included because conditions are characterisation-style; weakly."
+ },
+ "C2.1": {
+  "value": "preference profile; preferences",
+  "loc": "Sect. 2.1, p.716",
+  "quote": "A preference profile is a vector P = (P1 , \u2026 , Pn )"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Sect. 2.1, p.716",
+  "quote": "Each voter has a preference, i.e., a linear order on X.",
+  "note": "Linear orders."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sect. 1, p.714",
+  "quote": "according to the true, sincere preference",
+  "note": "True preferences are referred to."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Sect. 1, p.713; Def. 2.1 p.716",
+  "quote": "voters may submit insincere preferences",
+  "note": "Reported preference P\u0303 separate from sincere preference P."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Abstract; Sect. 2.2, p.716",
+  "quote": "all its members use the same strategy (report the same insincere preference)",
+  "note": "All analyses concern manipulation."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "C3.1 = ALL",
+  "quote": "",
+  "note": "C3.1 = ALL."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "Only ordinal preference comparisons; no utility, welfare, or satisfaction notions for voters."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sects. 2-7",
+  "quote": "none found",
+  "note": "No welfare, efficiency, or distortion criteria evaluated."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Sect. 1, p.714",
+   "quote_behav": "a voter who aims to manipulate, may take into account",
+   "loc_info": "Sect. 1, p.714",
+   "quote_info": "having complete information about the preferences of the other voters",
+   "note": "Complete information stated for the basic manipulation model; the group model builds on it. Group members assumed to coordinate on the same insincere report, while partial participation is evaluated."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Alternatives only."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "None."
+  },
+  "DIS": {
+   "present": "N",
+   "note": "None."
+  },
+  "BRI": {
+   "present": "N",
+   "note": "None."
+  },
+  "DES": {
+   "present": "N",
+   "note": "None."
+  },
+  "OTH": {
+   "present": "N",
+   "note": "None."
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Sect. 2",
+  "quote": "",
+  "note": "Only one type present (voters)."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "DEV"
+  ],
+  "loc": "Def. 2.1 and Sect. 2.2, p.716",
+  "quote": "there is a P\u0303 \u2208 L(X) such that F(P\u0303 K , P\u2212K ) P F(P)",
+  "note": "Existence of a manipulation achieving a better outcome for the group."
+ },
+ "C8.2": {
+  "code": "N",
+  "loc": "Sect. 2",
+  "quote": "none found"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Sect. 1, p.715",
+    "quote": "this fact may prevent voters from voting strategically"
+   },
+   {
+    "loc": "Sect. 7.2, p.732",
+    "quote": "this does not mean that any group manipulation is unsafe and, thus, risky"
+   }
+  ],
+  "note": "Mild claims about voters' strategic behaviour in practice."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sect. 1, p.714",
+  "quote": "this coordination cannot and does not actually take place explicitly",
+  "note": "Claim that unsafe manipulation may deter voters needs assumptions about voters' risk attitudes and their knowledge of profile or other group members' behaviour; risk aversion is not stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "No procedural reading statement."
+ }
+}

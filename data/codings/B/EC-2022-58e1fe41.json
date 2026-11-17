@@ -1,0 +1,10 @@
+{
+ "paper_id": "EC-2022-58e1fe41",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "INELIG",
+  "loc": "Abstract; Section 2 (Model), p. 8",
+  "quote": "We model the conference-author interactions as a Stackelberg game",
+  "note": "The paper analyses conference peer review as a Stackelberg game between a conference and authors who decide whether to (re)submit. Reviews are noisy signals about paper quality, and reviewers have no agency in the model. This is not a procedure that aggregates several agents' inputs into a collective decision by voting; it is closer to mechanism design for peer review. Coding stopped."
+ }
+}

@@ -1,0 +1,174 @@
+{
+ "paper_id": "AAMAS-2025-d4c20165",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Section 2.1, p. 787",
+  "quote": "randomized social choice functions which are voting rules that may use",
+  "note": ""
+ },
+ "C1": {
+  "types": [
+   "WD",
+   "AL",
+   "SI",
+   "EM"
+  ],
+  "primary": "WD",
+  "loc": "Abstract, p. 785; Sections 3-5",
+  "quote": "C1 maximal lottery rules, a well-known class of RSCFs, have a metric distortion of 4",
+  "note": "AL for the new LP for computing the metric distortion (Proposition 2). EM for the experiments on the PrefLib Spotify Daily dataset. WD for the worst-case and expected metric distortion results."
+ },
+ "C2.1": {
+  "value": "preference profile; preference relation (reported by each voter)",
+  "loc": "Section 2, p. 786",
+  "quote": "every voter \ud835\udc63 \u2208 \ud835\udc49\ud835\udc5b reports a preference relation \u227b\ud835\udc63"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2, p. 786",
+  "quote": "a complete, transitive, and anti-symmetric binary relation over \ud835\udc4b\ud835\udc5a",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2.2, p. 788",
+  "quote": "voters only report ordinal preferences over the alternatives instead of their cardinal costs",
+  "note": "Held attitude: metric costs d(v,x)."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2.2, p. 788",
+  "quote": "a metric \ud835\udc51 is consistent with a profile \ud835\udc45 if \ud835\udc65 \u227b\ud835\udc63 \ud835\udc66 implies",
+  "note": "Cardinal costs (metric d) are given separate notation from the reported rankings. They are linked by a consistency condition."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-5",
+  "quote": "none found",
+  "note": "No strategic analysis. The strategyproofness of f_RD is only mentioned."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Introduction p. 785; Section 2 and 2.2 pp. 786-788; Conclusion p. 792",
+  "quote": "none found",
+  "note": "The consistency of the metric is a formal condition. No statement in words that voters report truthfully was found."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 2.2, p. 788",
+  "quote": "\ud835\udc65 \u227b\ud835\udc63 \ud835\udc66 implies \ud835\udc51 (\ud835\udc63, \ud835\udc65) \u2264 \ud835\udc51 (\ud835\udc63, \ud835\udc66) for all voters",
+  "note": ""
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2.2, p. 788",
+  "quote": "we thus define the metric distortion of a lottery \ud835\udc5d in a profile \ud835\udc45",
+  "note": "Metric distortion is the social-cost ratio."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 2.2, p. 788",
+  "quote": "The distance \ud835\udc51 (\ud835\udc63, \ud835\udc65) states the cost incurred to voter \ud835\udc63",
+  "note": "Evaluated against metric costs that are consistent with the reported profile."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2, p. 786",
+   "quote_behav": "every voter \ud835\udc63 \u2208 \ud835\udc49\ud835\udc5b reports a preference relation \u227b\ud835\udc63",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Reports are exogenous inputs and are not chosen strategically."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p. 786",
+    "quote": "this gives a strong argument for using a C1ML or C2ML"
+   },
+   {
+    "loc": "Conclusion, p. 792",
+    "quote": "established RSCFs, such as C1ML and C2ML rules, are also appealing"
+   },
+   {
+    "loc": "Introduction, p. 786",
+    "quote": "the choice of the voting rule has surprisingly little effect"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 2.2, p. 788",
+  "quote": "We denote by \ud835\udc37 (\ud835\udc45) the set of metrics that are consistent",
+  "note": "The needed relation between reported rankings and cardinal costs is stated through the formal consistency condition and the description of costs as metric distances. Sincere reporting is not stated in words; this coding is borderline."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 2, 6",
+  "quote": "none found",
+  "note": ""
+ }
+}

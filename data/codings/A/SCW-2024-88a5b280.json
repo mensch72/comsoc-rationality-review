@@ -1,0 +1,174 @@
+{
+ "paper_id": "SCW-2024-88a5b280",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Sect. 2 Preliminaries, p.71",
+  "quote": "An ABC voting rule takes as input an ABC election",
+  "note": "Approval-based committee voting: proportionality axioms, complexity and algorithms."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "AL",
+   "SI"
+  ],
+  "primary": "AX",
+  "loc": "Sect. 3.1\u20133.3, pp.74\u201377; Sect. 4, p.78; Sect. 5, p.82",
+  "quote": "It is NP-hard to decide whether an ABC election admits",
+  "note": "Axiomatic results (incompatibility, IR-consistency, existence on domains) dominate. There are also complexity results and algorithms, plus simulations on generated profiles."
+ },
+ "C2.1": {
+  "value": "approval profile / approval set / approval preferences",
+  "loc": "Sect. 2, p.71",
+  "quote": "An (approval) profile A = (A1 , . . . , An ) contains the approval"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR",
+   "DICH"
+  ],
+  "loc": "Sect. 2, p.71; Sect. 4, p.77",
+  "quote": "Domain restrictions for dichotomous (i.e., approval) preferences have been studied",
+  "note": "Approval sets are also called dichotomous preferences."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sect. 1, p.70; Sect. 2, p.71",
+  "quote": "based on the approval preferences of voters",
+  "note": "The input is described as voters' preferences, and voters are said to care about approved candidates."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Sect. 2, p.71",
+  "quote": "Each voter i \u2208 N approves a subset Ai \u2286 C of candidates.",
+  "note": "Approval sets are called preferences and the rule is applied to them directly. No statement about reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sects. 2\u20135",
+  "quote": "none found",
+  "note": "No strategic voting analysed."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Checked Sect. 1 Introduction, Sect. 2 Preliminaries, Sect. 6 Discussion, Sect. 5 Setup",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Sect. 2, p.71",
+  "quote": "we assume that voters only care about the number of approved candidates",
+  "note": "Voter evaluates committee W by |W \u2229 Ai|."
+ },
+ "C4.2": {
+  "code": "Y",
+  "loc": "Sect. 2, p.71",
+  "quote": "voter i evaluates a committee W by |W \u2229 Ai |",
+  "note": "The term 'dichotomous preferences' is used in Sect. 4. The evaluation by number of approved candidates defines what the approved and non-approved classes mean."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sect. 3, Definition 2, p.72",
+  "quote": "provides individual representation (IR) if |W \u2229 Ai | \u2265 f i",
+  "note": "Representation and proportionality axioms (JR, PJR, EJR, core, IR)."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Sect. 2\u20133, pp.71\u201372",
+  "quote": "Each voter i \u2208 N approves a subset Ai \u2286 C of candidates.",
+  "note": "Evaluated on the approval sets. No statement relating them to separately held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sect. 2, p.71",
+   "quote_behav": "Each voter i \u2208 N approves a subset Ai \u2286 C of candidates.",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Approval sets are fixed by the model."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is NA."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no strategic agents."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Sect. 6 Discussion, p.85",
+    "quote": "common voting rules sometimes unfairly distinguish between such voters"
+   },
+   {
+    "loc": "Sect. 1 Introduction, p.70",
+    "quote": "provide all members of a voter group equal guarantees"
+   },
+   {
+    "loc": "Sect. 6 Discussion, p.85",
+    "quote": "Our experimental results suggest that IR is achievable in many instances"
+   }
+  ],
+  "note": "Claims about fairness to individual voters and about achievability under realistic preferences."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Checked Sect. 1, Sect. 2, Sect. 6",
+  "quote": "none found",
+  "note": "Fairness claims about voters need submitted approval sets to reflect voters' actual opinions or interests (sincere approval). This is not stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Checked Sect. 1, Sect. 2, Sect. 6",
+  "quote": "none found",
+  "note": ""
+ }
+}

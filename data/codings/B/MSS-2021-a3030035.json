@@ -1,0 +1,177 @@
+{
+ "paper_id": "MSS-2021-a3030035",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "study coalitional manipulability within the class of scoring voting rules",
+  "note": "Strategic aspects of voting rules."
+ },
+ "C1": {
+  "types": [
+   "SB",
+   "AX",
+   "SI"
+  ],
+  "primary": "SB",
+  "loc": "Sections 3-4, pp.5-16",
+  "quote": "characterize all the outcomes that can be manipulable by a coalition of voters",
+  "note": "Characterisation of manipulable profiles (manipulation as property); Monte Carlo IAC simulations for probabilities."
+ },
+ "C2.1": {
+  "value": "preference profile; voters' preferences (linear orders); votes",
+  "loc": "Section 2, p.3",
+  "quote": "An anonymous preference profile, hereafter simply called a profile"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2, p.3",
+  "quote": "The voters' preferences are assumed to be linear orders",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.3-4",
+  "quote": "The voters' preferences are assumed to be linear orders",
+  "note": "Voters have preferences, and coalition members prefer an alternative to the winner."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Definition 2.2, p.4",
+  "quote": "can change their preferences in such a way that this alternative wins",
+  "note": "Example 2.3 uses voters with preference (A2,A3,A1) voting (A2,A1,A3), i.e. the vote differs from the preference, though the same notation is used for both."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "Sections 3-4",
+  "quote": "misrepresent their vote in order to secure an outcome they all prefer",
+  "note": "Manipulation analyses have coalition misreporting; the profile/winner computation assumes sincere votes; simulations compute shares of manipulable profiles."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Section 2, p.5",
+  "quote": "assign all their points and vote sincerely when we focus on the manipulation",
+  "note": "Statement is about non-coalition voters, who are non-strategic."
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Section 2, p.5",
+  "quote": "none found",
+  "note": "No reason given for non-coalition voters' sincerity; it is a modelling assumption."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No utility, welfare, satisfaction or cost notions for voters; only preference over alternatives."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "Dichotomous preferences not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 3-4",
+  "quote": "none found",
+  "note": "Evaluates manipulability only."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "IMPLICIT",
+   "loc_behav": "Section 2, p.5",
+   "quote_behav": "assign all their points and vote sincerely when we focus on the manipulation",
+   "loc_info": "Section 3, p.5-6",
+   "quote_info": "the lists defining the vote of all voters taking part",
+   "note": "Coalition members strategic (change preferences); the others sincere. Information is implied by the profile-based characterisation; coalition knows the profile, not explicitly said."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Alternatives only."
+  },
+  "ORG": {
+   "present": "N",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Section 2",
+  "quote": "none found",
+  "note": "Only one type (voters) present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 not Y"
+ },
+ "C8.1": {
+  "codes": [
+   "DEV"
+  ],
+  "loc": "Definition 2.2, p.4",
+  "quote": "coalitionally manipulable if there exists an alternative such that all members",
+  "note": "Existence of a coalition deviation achieving the goal."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Definition 2.2, p.4",
+  "quote": "The outcome of an election is said to be coalitionally manipulable"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 4, p.16",
+    "quote": "Antiplurality rule seems to be the most performing when the number of alternatives"
+   },
+   {
+    "loc": "Introduction, p.3",
+    "quote": "Antiplurality has a much lesser degree of manipulability"
+   }
+  ],
+  "note": "Rule comparison claims on manipulability for m=4,5; mild implications for which rule performs best."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 4, pp.14-16",
+  "quote": "under the assumption of Impartial and Anonymous Culture (IAC)",
+  "note": "Claims depend on IAC being a realistic distribution and on non-coalition voters being sincere/coalition having full info; the latter are not argued."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": ""
+ }
+}

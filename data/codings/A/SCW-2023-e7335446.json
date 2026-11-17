@@ -1,0 +1,175 @@
+{
+ "paper_id": "SCW-2023-e7335446",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p. 233",
+  "quote": "compare voting rules in terms of the expressive utility that voters",
+  "note": "Compares single-winner voting rules by expressive power and tests the effect on turnout experimentally."
+ },
+ "C1": {
+  "types": [
+   "OT",
+   "EM"
+  ],
+  "primary": "EM",
+  "loc": "Abstract, p. 233; Sect. 2, p. 241",
+  "quote": "we first propose a simple ordinal model of expressive voting",
+  "note": "OT: conceptual model and criterion of expressive power (Definition 1, Proposition 1). EM: online experiment with 1977 UK subjects."
+ },
+ "C2.1": {
+  "value": "expressed preference; vote; ballot",
+  "loc": "Sect. 2, p. 240",
+  "quote": "expressed preference, denoted Rei, is the ranking that i casts"
+ },
+ "C2.2": {
+  "codes": [
+   "WEAK",
+   "APPR"
+  ],
+  "loc": "Sect. 2, pp. 239-240; Sect. 3.2, p. 244",
+  "quote": "we assume preferences to be reflexive [i.e., (x, x) belongs",
+  "note": "Expressed preferences are reflexive, transitive, possibly incomplete relations. Experimental ballots are plurality, approval and A-Borda point ballots (OTH aspect: a partial-ranking points rule)."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sect. 2, p. 240",
+  "quote": "Individual i\u2019s actual preference, denoted Rai, is the individual own ranking",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Sect. 2, p. 240",
+  "quote": "We distinguish between two types of preferences.",
+  "note": "Separate notation Rai and Rei; the text says the two may differ."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "Sect. 2, p. 240; Sect. 6, p. 256",
+  "quote": "Assume that voters are attentive and sincere",
+  "note": "The conceptual model assumes sincere voting. In the experiment subjects chose freely, and non-sincere and strategic voting is analysed."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Sect. 2, p. 240",
+  "quote": "they vote as closest as possible to their actual preference",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Sect. 2, p. 240",
+  "quote": "Assume that voters are attentive and sincere, in the sense that",
+  "note": "Footnote 9 defers discussion of strategic voting but gives no reason for the assumption."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Sect. 2, p. 241, Expression (2)",
+  "quote": "Ei (Rei ) = max(Ei\u2217 \u2212 K(Rei , Rai ), 0)",
+  "note": "Expressive utility is defined through the Kemeny distance between expressed and actual preference."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sect. 5.1, p. 251, Result 1",
+  "quote": "Subjects\u2019 actual and expressed preferences are statistically significantly more distant",
+  "note": "Representation of actual preferences and expressive utility are used as evaluation criteria."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Sect. 5.1, p. 249",
+  "quote": "Kemeny distance between participants\u2019 actual and expressed preferences",
+  "note": "Actual preferences were elicited separately from votes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Sect. 2, p. 240; Sect. 6, p. 256",
+   "quote_behav": "Assume that voters are attentive and sincere",
+   "loc_info": "Sects. 2, 3, 7 checked",
+   "quote_info": "none found",
+   "note": "Sincere in the model, with turnout driven by utility. Free choice in the experiment, where non-sincere voting is observed."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Sect. 2, p. 239",
+  "quote": "P1i (ui ) represent the probability that individual i casts a vote",
+  "note": "Turnout is a non-decreasing probability of utility (calculus-of-voting style). No equilibrium concept is used."
+ },
+ "C8.2": {
+  "code": "N",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p. 233",
+    "quote": "expressive power of voting rules is a relevant criterion when choosing"
+   },
+   {
+    "loc": "Sect. 1, p. 236",
+    "quote": "a voting rule with higher expressive power is desirable"
+   },
+   {
+    "loc": "Sect. 7, p. 258",
+    "quote": "the government could link the reform with an informational campaign"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sect. 2, p. 241; Sect. 3.1, p. 244",
+  "quote": "We therefore infer subjects\u2019 actual preferences from this ranking.",
+  "note": "Needed assumptions: the elicited ranking equals actual preference (stated); expressive utility decreases with Kemeny distance (stated as main hypothesis); ceteris paribus regarding pivotality and strategy (stated)."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sects. 1, 2, 7 checked",
+  "quote": "none found",
+  "note": ""
+ }
+}

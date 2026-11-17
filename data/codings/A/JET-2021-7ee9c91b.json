@@ -1,0 +1,176 @@
+{
+ "paper_id": "JET-2021-7ee9c91b",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Section 2, p.5-6",
+  "quote": "has to choose an alternative from the set",
+  "note": "Runoff voting election aggregating votes of privately informed voters."
+ },
+ "C1": {
+  "types": [
+   "EQ",
+   "WD"
+  ],
+  "primary": "EQ",
+  "loc": "Section 2, Proposition 1, p.14",
+  "quote": "there exists an equilibrium strategy profile \u00b5n\u02da such that",
+  "note": "Main results show that equilibria exist in which the probability of electing the correct alternative tends to 1. This is an equilibrium result combined with a performance (efficiency) criterion."
+ },
+ "C2.1": {
+  "value": "vote",
+  "loc": "Section 2, p.6",
+  "quote": "each voter gives a vote to an alternative of her choosing"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 2, p.6",
+  "quote": "each voter gives a vote to an alternative of her choosing \u2013or abstains\u2013",
+  "note": "In each runoff round the input is a single vote for one remaining alternative, or abstention."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.7",
+  "quote": "independent and enjoy a positive utility if the correct alternative wins",
+  "note": "Voters have types (private information) and utilities."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2, p.8",
+  "quote": "a voter's pure strategy \u03c3i : T \u00d1 \u03a3i is a vector function",
+  "note": "Votes are actions chosen as a function of types and are a separate object from types and utilities."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Introduction, p.4; Section 2",
+  "quote": "a (BayesNash) equilibrium with similar properties should also exist",
+  "note": "In all main analyses independent voters choose votes strategically. Sincere voting is explicitly not assumed."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Input format is OTH (single vote per round), not RANK, WEAK, APPR, DICH or PAIR."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2, p.10",
+  "quote": "the ex\u2013ante probability of the correct alternative being chosen",
+  "note": "Results evaluate outcomes by the probability of the correct alternative, which equals the independent voters' expected utility."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 2, p.10",
+  "quote": "EUIi p\u00b5q \u201c Wn p\u00b5q",
+  "note": "Evaluated against the state of the world and voters' utilities, which are defined separately from votes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Introduction, p.4; Section 3, p.15",
+   "quote_behav": "expressive partisan voters (i.e. voters who do not engage in strategic",
+   "loc_info": "Section 2, p.7",
+   "quote_info": "Each voter's type is selected privately through an independent random draw",
+   "note": "Independent voters are strategic throughout. Partisans are expressive (fixed) in Section 2 and play rationalizable strategies in Section 3. Voters know only their own type, the prior, and the history of eliminated alternatives."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N",
+   "note": "Nature censors strategies in the modified game. This is a chance move, not an acting agent."
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present as a type. Within voters, independents are strategic and partisans are expressive in Section 2."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 \u2260 Y."
+ },
+ "C8.1": {
+  "codes": [
+   "BNE",
+   "OTH"
+  ],
+  "loc": "Introduction, p.4; Section 3, p.15",
+  "quote": "both partisan and independent voters are restricted to use rationalizable strategies",
+  "note": "Section 2 uses Bayes-Nash equilibrium. Section 3 combines rationalizability for partisans with best responses for independents."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Introduction, p.4",
+  "quote": "a (BayesNash) equilibrium with similar properties should also exist"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.5",
+    "quote": "these findings combine and strengthen the case for democratic decision making"
+   },
+   {
+    "loc": "Introduction, p.5",
+    "quote": "runoff voting\u2013 can lead to efficient outcomes in the presence of"
+   },
+   {
+    "loc": "Introduction, p.3",
+    "quote": "this intuitive rule is superior in terms of information aggregation"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 2, p.7; Section 3, p.15, p.19",
+  "quote": "calls for extreme caution in the interpretation of our findings",
+  "note": "The claims need the stated assumptions on strategic Bayesian independent voters, partisan behaviour and the information structure. The paper also flags equilibrium multiplicity and partisan sophistication as caveats."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Section 2; Introduction; Sections 4-5",
+  "quote": "none found",
+  "note": ""
+ }
+}

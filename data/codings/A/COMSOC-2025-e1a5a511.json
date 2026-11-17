@@ -1,0 +1,176 @@
+{
+ "paper_id": "COMSOC-2025-e1a5a511",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "We propose a new voting mechanism for such juries",
+  "note": ""
+ },
+ "C1": {
+  "types": [
+   "SB",
+   "EQ",
+   "WD"
+  ],
+  "primary": "SB",
+  "loc": "Section 4.1, Theorem 1, p.10",
+  "quote": "VCG Sortition Mechanisms are Bayesian incentive-compatible and utilitarian-optimal.",
+  "note": "The main results establish incentive compatibility at a Bayesian Nash equilibrium, together with utilitarian efficiency."
+ },
+ "C2.1": {
+  "value": "reported type / reports (real-valued 'valuation' for each alternative)",
+  "loc": "Section 3, p.5",
+  "quote": "each voter i P I is allowed to report a type"
+ },
+ "C2.2": {
+  "codes": [
+   "CARD"
+  ],
+  "loc": "Abstract, p.1",
+  "quote": "asked to report a real-valued \u2018valuation\u2019 for each alternative",
+  "note": "Reported types induce vNM utilities over alternatives in [0,1]."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Abstract, p.1",
+  "quote": "each voter has a privately known von NeumannMorgenstern (vNM) utility function",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 3, p.5",
+  "quote": "a type that may not be their true type.",
+  "note": "Separate notation is used: \u03b8 for the true type and \u03b8\u0302 for the reported type."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Section 4.1, p.10",
+  "quote": "A voter i voting in any decision maximizes their expected utility",
+  "note": "Lemma 1 is a feasibility condition evaluated at truthful reports within the equilibrium analysis."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The input is cardinal only (no RANK, WEAK, APPR, DICH or PAIR)."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 3, Definition 1, p.6",
+  "quote": "the winning alternative in each decision should maximize the total welfare",
+  "note": ""
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 3, p.6",
+  "quote": "is the vector of true types in decision n.",
+  "note": ""
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 4.1, p.10",
+   "quote_behav": "maximizes their expected utility given in (10) with respect to their strategy",
+   "loc_info": "Section 3, p.5",
+   "quote_info": "this distribution, the discount factor and the members of the committee are known",
+   "note": "Voters' types are privately known; the type distribution is common knowledge."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N",
+   "note": "G is said to be set by the mechanism designer, but the designer's choice or objective is not modelled as an agent in the game."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only one type (voters) is present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "BNE"
+  ],
+  "loc": "Section 3, p.5",
+  "quote": "yield efficient decisions in a Bayesian Nash equilibrium.",
+  "note": ""
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 3, Definition 2, p.6",
+  "quote": "A Sortition Mechanism S \u201c p\u03d5s , d, \u03d5r q is Bayesian incentive-compatible if:"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.2",
+    "quote": "the class of mechanisms maximize utilitarian social welfare at a Bayesian"
+   },
+   {
+    "loc": "Section 4.2, p.11",
+    "quote": "This may be preferred to an alternative definition of G"
+   },
+   {
+    "loc": "Conclusion, p.12",
+    "quote": "may be suitable for a wider variety of applications as well"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 3, p.5; Section 4.1, p.9",
+  "quote": "we neglect this probability of selection altogether in our computations",
+  "note": "The needed assumptions are all stated: the input\u2013attitude relation (truthful equilibrium), strategic voters with a common prior, and the large-population approximation."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Section 3, p.5",
+  "quote": "none found",
+  "note": ""
+ }
+}

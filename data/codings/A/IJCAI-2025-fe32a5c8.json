@@ -1,0 +1,38 @@
+{
+ "paper_id": "IJCAI-2025-fe32a5c8",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "INELIG",
+  "loc": "Section 2 Background, p. 9565",
+  "quote": "the VAA provides a ranking ri \u2208 R(C) based on these similarity",
+  "note": "The main object is a voting advice application. It is a recommender system that matches each individual voter to candidates by a distance between answer vectors and returns a personal ranking for that voter. It does not aggregate several agents' inputs into a collective decision by voting. The paper studies adversarial manipulation of these recommendations, not of a voting rule. Coding stopped per C0."
+ },
+ "C1": {},
+ "C2.1": {},
+ "C2.2": {},
+ "C2.3": {},
+ "C2.4": {},
+ "C3.1": {},
+ "C3.2": {},
+ "C3.3": {},
+ "C4.1": {},
+ "C4.2": {},
+ "C5.1": {},
+ "C5.2": {},
+ "C6": {
+  "VOT": {},
+  "CAN": {},
+  "ORG": {},
+  "DIS": {},
+  "BRI": {},
+  "DES": {},
+  "OTH": {}
+ },
+ "C7.1": {},
+ "C7.2": {},
+ "C8.1": {},
+ "C8.2": {},
+ "C9.1": {},
+ "C9.2": {},
+ "C10.1": {}
+}

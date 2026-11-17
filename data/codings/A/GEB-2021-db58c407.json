@@ -1,0 +1,184 @@
+{
+ "paper_id": "GEB-2021-db58c407",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Section 2, p.6",
+  "quote": "the alternative is accepted if it garners at least k",
+  "note": "Committee voting under k-majority rule with strategic voting."
+ },
+ "C1": {
+  "types": [
+   "EQ",
+   "WD"
+  ],
+  "primary": "EQ",
+  "loc": "Section 2, p.7; Section 4, p.12",
+  "quote": "we solve for symmetric (Bayesian-Nash) equilibria of the voting game",
+  "note": "WD because the principal's expected payoff, equivalent to utilitarian welfare (fn 9), is used to evaluate committee composition."
+ },
+ "C2.1": {
+  "value": "votes (Yes/No votes)",
+  "loc": "Section 2, p.6",
+  "quote": "committee members simultaneously vote Yes/No"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 2, p.6",
+  "quote": "committee members simultaneously vote Yes/No",
+  "note": "Binary Yes/No vote on a single alternative against the status quo."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.6",
+  "quote": "which yields a private signal \u03b8 i",
+  "note": "Experts hold private signals and interdependent payoffs."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 3, p.8",
+  "quote": "Expert i is said to vote sincerely if he conditions his vote",
+  "note": "Votes are determined by cutoff strategies on signals; equilibrium cutoffs generally differ from sincere voting."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Section 3, p.8",
+  "quote": "equilibrium voting is generically strategic",
+  "note": "All analyses use equilibrium voting. Sincere voting arises only as an equilibrium outcome in special cases."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Input format is OTH (binary votes), so the applicability condition is not met."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2, fn 9, p.7",
+  "quote": "This is equivalent to assuming a utilitarian principal for the alternative",
+  "note": "The principal's payoff (average quality, equivalent to utilitarian welfare) is evaluated in Propositions 3, 5 and 6."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 2, p.7",
+  "quote": "cares about the average quality of the alternative",
+  "note": "Evaluated on the signals and payoffs, not on the votes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 3, p.8",
+   "quote_behav": "equilibrium voting is generically strategic",
+   "loc_info": "Section 2, p.6",
+   "quote_info": "The interdependence parameter \u03b2 2 [0, 1] is commonly known",
+   "note": "Experts know their own signal and the common prior distribution F."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 1, p.2",
+   "quote_behav": "we ask whether an uninformed principal would appoint more or less",
+   "loc_info": "Section 2, p.6",
+   "quote_info": "An uninformed principal must decide between the status quo",
+   "note": "The principal chooses committee composition (\u03b2), information (\u03bb) and size, knowing only the prior. Coded ORG rather than DES because the voting rule itself is fixed."
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "N",
+  "loc": "Sections 3-4",
+  "quote": "the principal may try to influence their equilibrium voting",
+  "note": "Both present types (voters and principal) are strategic."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 = N."
+ },
+ "C8.1": {
+  "codes": [
+   "BNE",
+   "OTH"
+  ],
+  "loc": "Section 2, p.7; Section 4, p.12",
+  "quote": "symmetric (Bayesian-Nash) equilibria of the voting game",
+  "note": "OTH: the principal optimally chooses composition, information and size, anticipating equilibrium play."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 2, p.7",
+  "quote": "we solve for symmetric (Bayesian-Nash) equilibria"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.4",
+    "quote": "the principal may sometimes raise \u2013 not lower \u2013 the cost"
+   },
+   {
+    "loc": "Introduction, p.4",
+    "quote": "the principal may not consult an informed expert for every attribute"
+   },
+   {
+    "loc": "Conclusion, p.23",
+    "quote": "the principal may prefer some members to be uninformed"
+   }
+  ],
+  "note": "Claims about how organisations should design committees."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 2, p.6-7; Section 5.1, fn 19, p.18",
+  "quote": "Upon receiving their private signals, committee members simultaneously vote",
+  "note": "Needed assumptions are stated: strategic experts, private signals with a common prior, interdependent payoffs, the principal's status quo bias, and abstentions counting as No votes."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 2, 6",
+  "quote": "none found",
+  "note": ""
+ }
+}

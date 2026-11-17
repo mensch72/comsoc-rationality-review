@@ -1,0 +1,169 @@
+{
+ "paper_id": "IJCAI-2023-a0a9f446",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.2651",
+  "quote": "each of n agents (voters) may nominate one candidate",
+  "note": "Committee sequence election from agents' nominations; computational complexity of a voting-type procedure."
+ },
+ "C1": {
+  "types": [
+   "AL"
+  ],
+  "primary": "AL",
+  "loc": "Abstract, p.2651",
+  "quote": "We analyze the parameterized complexity of finding such committees",
+  "note": "All main results are hardness, FPT algorithms and kernelization."
+ },
+ "C2.1": {
+  "value": "nomination profiles",
+  "loc": "Section 2, p.2652",
+  "quote": "a sequence of nomination profiles U = (u1 , . . . , u\u03c4 )"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 2, p.2652",
+  "quote": "with ut \u2236 A \u2192 C \u222a {\u2205}",
+  "note": "Each agent nominates at most one candidate per level (single-candidate nomination). Approval-like but not a general approval set."
+ },
+ "C2.3": {
+  "code": "N",
+  "loc": "Sections 1-2, pp.2651-2652",
+  "quote": "none found",
+  "note": "Agents' nominations are the only attitude; a utility function is mentioned only in the outlook and the proof notation, and is defined as the nomination."
+ },
+ "C2.4": {
+  "code": "ONE",
+  "loc": "Section 1, p.2651",
+  "quote": "every agent may nominate one candidate for the committee",
+  "note": "Input is only something submitted; no held attitude is referred to. Text such as 'Preferences indicating the favorite activity' in Fig. 1 and 'announces what they want' is loose wording."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 1-5",
+  "quote": "none found",
+  "note": "No analysis considers misreporting."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "C2.4 = ONE",
+  "quote": "none found",
+  "note": "C2.4 = ONE."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "C3.2",
+  "quote": "none found",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Section 2 and Epilogue",
+  "quote": "none found",
+  "note": "Input format is not RANK/WEAK/APPR/DICH/PAIR, and voter utilities are not used in the main results."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2, p.2652",
+  "quote": "egalitarian committee sequences ensure that each agent is satisfied",
+  "note": "The problem definitions require a minimum satisfaction per level and per agent (egalitarian/equitable), which is an evaluation by voter satisfaction criteria."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 2, p.2652",
+  "quote": "\u2223{a \u2208 A \u2223 ut (a) \u2208 Ct }\u2223 \u2265 x",
+  "note": "Satisfaction is defined on the nominations with no statement relating them to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Agents only provide fixed nominations and take no action in the model."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates are only alternatives."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "The committee chooser is the solver of the computational problem, not an agent modelled with objectives."
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "C6",
+  "quote": "none found",
+  "note": "Fewer than two types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "C7.1",
+  "quote": "none found",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "C6",
+  "quote": "none found",
+  "note": "NA: no strategic type."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "C8.1",
+  "quote": "none found"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Epilogue, p.2657",
+    "quote": "short trips with few per-day activities like in our introductory example can be tractable"
+   },
+   {
+    "loc": "Epilogue, p.2657",
+    "quote": "where egalitarian or even equitable solutions appear particularly relevant, can be solved efficiently"
+   }
+  ],
+  "note": "Claims about practical settings (real decisions)."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Epilogue, p.2657",
+  "quote": "short trips with few per-day activities",
+  "note": "The claims about practical tractability and the relevance of egalitarian/equitable solutions need the assumption that nominations reflect agents' real satisfaction, and that agents report truthfully. Neither is stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No procedural-reading statement found."
+ }
+}

@@ -1,0 +1,179 @@
+{
+ "paper_id": "EC-2023-457d9225",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Sec. 2",
+  "quote": "all deterministic voting rules have unbounded distortion",
+  "note": "Distortion of voting rules (welfare performance of rankings-based rules) under a behavioural model of voters."
+ },
+ "C1": {
+  "types": [
+   "WD",
+   "AX"
+  ],
+  "primary": "WD",
+  "loc": "Sec. 3, Sec. 4",
+  "quote": "we show that public-spirited voting can substantially reduce the distortion of several voting rules",
+  "note": "Most results are distortion bounds (WD). Sec. 4.3 uses Muller-Satterthwaite to prove an impossibility (AX)."
+ },
+ "C2.1": {
+  "value": "preference profile; rankings",
+  "loc": "Sec. 2.1",
+  "quote": "A preference profile \ud835\udf45 is the \ud835\udc5b-tuple of all \ud835\udc5b voters' rankings",
+  "note": ""
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Sec. 2.1",
+  "quote": "Voter \ud835\udc56 expresses their preferences over alternatives as a strict, complete ranking \ud835\udf0b\ud835\udc56",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec. 2.1",
+  "quote": "We define a utility matrix \ud835\udc48 \u2208 [0, 1] \ud835\udc5b\u00d7\ud835\udc5a",
+  "note": "Utilities and public-spirit levels are held attitudes."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Sec. 2.1, Eq. (2)",
+  "quote": "\ud835\udc63\ud835\udc56 (\ud835\udc4e, \ud835\udf38, \ud835\udc48 ) > \ud835\udc63\ud835\udc56 (\ud835\udc4f, \ud835\udf38, \ud835\udc48 ) =\u21d2 \ud835\udc4e \u227b\ud835\udf0b\ud835\udc56 \ud835\udc4f",
+  "note": "Rankings (input) and utilities/PS-values (held) have separate notation, linked by a behavioural model. The input is not equal to utilities but derived from PS-values."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sec. 2, Sec. 6.1",
+  "quote": "The possibility of some voters being strategic opens several questions",
+  "note": "Voters rank by PS-values; strategic manipulation is left to future work. Misreports in Sec. 5.2 are behavioural errors, not strategic."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Sec. 2.1",
+  "quote": "voter \ud835\udc56 ranks alternatives in order of their PS-value",
+  "note": "The paper states in words that voters rank according to their PS-values."
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Sec. 1, Sec. 2",
+  "quote": "none found",
+  "note": "The behavioural model is motivated by social-science observations of public spirit, but no incentive/SP/empirical reason is given for ranking by PS-value without strategising."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Sec. 2.1, Eq. (2)",
+  "quote": "alternatives are ordered in decreasing order of PS-value",
+  "note": "Ranking is defined as induced by PS-values, which are a convex combination of utility and average welfare."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "Dichotomous preferences not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sec. 2.3",
+  "quote": "the ratio between the respective welfares of the highest-welfare alternative",
+  "note": "Distortion w.r.t. utilitarian social welfare."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Sec. 2.3",
+  "quote": "sw(\ud835\udc4e, \ud835\udc48 ) denote the utilitarian social welfare",
+  "note": "Distortion evaluated against held cardinal utilities U, defined separately from rankings."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sec. 2.1",
+   "quote_behav": "voter \ud835\udc56 ranks alternatives in order of their PS-value",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters follow a fixed behavioural rule (PS-value ranking). In Sec. 5.2 they know utilities and welfares with errors, but behaviour is not strategic."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Alternatives only."
+  },
+  "ORG": {
+   "present": "N",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "note": "The designer is mentioned only informally (footnote 3)."
+  },
+  "OTH": {
+   "present": "N",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Sec. 2",
+  "quote": "none found",
+  "note": "Only one type present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract",
+    "quote": "our results suggest an implementable approach to improving the welfare outcomes of elections"
+   },
+   {
+    "loc": "Sec. 6 Discussion",
+    "quote": "interventions that promote public spirited voting can only help"
+   },
+   {
+    "loc": "Sec. 1",
+    "quote": "This evidence suggests that public-spirited voting behavior can be cultivated"
+   }
+  ],
+  "note": "Claims about real institutions (deliberation) and voters' welfare."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sec. 6; Sec. 4.3",
+  "quote": "Of course, these results arise from a theoretical model",
+  "note": "Needed: deliberation actually raises \u03b3 (cited, partially empirical); voters non-strategic (acknowledged as future work, so mostly stated); and the claim 'can only help' needs monotonicity, which fails instance-wise (Thm 4.11), partly acknowledged. The assumption that deliberation yields accurate welfare estimates is stated only as theorised. Marked SOME-UNSTATED with some doubt."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No procedural-reading statement."
+ }
+}

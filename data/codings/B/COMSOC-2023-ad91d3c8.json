@@ -1,0 +1,177 @@
+{
+ "paper_id": "COMSOC-2023-ad91d3c8",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "We study a divisible Participatory Budgeting model where agents determine both",
+  "note": "Voting-like mechanism aggregating agents' budget proposals; strategyproofness focus."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SB",
+   "WD"
+  ],
+  "primary": "SB",
+  "loc": "Section 3.2 Theorem 1; Section 4 Theorem 2",
+  "quote": "Theorem 1. The US-VCG mechanism is SDSIC.",
+  "note": "Main results: SDSIC (strategic), vanishing payments (property of mechanism), welfare-maximizing. Primary SB."
+ },
+ "C2.1": {
+  "value": "votes; type profile; reports",
+  "loc": "Section 2, p.4; Section 2.2",
+  "quote": "every agent submits her most preferred budget decision (x(i) , t(i) )"
+ },
+ "C2.2": {
+  "codes": [
+   "CARD",
+   "OTH"
+  ],
+  "loc": "Section 2.2",
+  "quote": "agents do not report their full valuations vi (\u00b7, \u00b7) explicitly but rather",
+  "note": "Input is the most preferred budget decision (allocation x plus tax t), which uniquely identifies the cardinal type; coded OTH plus CARD."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2.1",
+  "quote": "Every agent i is associated with a type",
+  "note": "Types and valuations."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2.2; Section 3.2",
+  "quote": "Every agent submits the optimal budget decision g(\u03b1i )",
+  "note": "Separate notation: type \u03b1_i and vote g(\u03b1_i); mechanism takes reported types and misreports \u03b1' considered."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Section 3.2 Definition 5, Theorem 1",
+  "quote": "Now, assume that i falsely reports \u03b1i\u2032 \u0338= \u03b1i .",
+  "note": "Main analyses concern misreports (SDSIC). Theorem 2 on payments assumes truthful reports, but is a consequence of the strategyproof mechanism."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "C3.1 = ALL",
+  "quote": "none found",
+  "note": "C3.1 = ALL"
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "C3.2 not STATED",
+  "quote": "none found",
+  "note": "NA"
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Section 2.2",
+  "quote": "none found",
+  "note": "Input is not ranking/approval/pairwise; formats are CARD/OTH, so applicability condition not met."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "Section 1.2",
+  "quote": "none found",
+  "note": "The term dichotomous is used only for cited related work (binary additive model), not for the paper's own input."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 3; Section 6",
+  "quote": "The US-VCG mechanism is welfare-maximizing and strategy-proof",
+  "note": "Mechanism maximizes social welfare defined as sum of valuations."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 2.1; Observation 1",
+  "quote": "the social welfare is given by \u03a3i vi (x, t) = n \u00b7 v\u1fb1 (x, t).",
+  "note": "Welfare evaluated on valuations defined by types, separate from the reported votes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NONE",
+   "info_stated": "IMPLICIT",
+   "loc_behav": "Section 3.2 / Appendix B",
+   "quote_behav": "the individual sole optimal action, under any circumstances, is for every",
+   "loc_info": "Section 3.2 Definition 5",
+   "quote_info": "for all i \u2208 [n], \u03b1i , \u03b1\u20d7 \u2212i",
+   "note": "Dominant-strategy analysis implies no information needed; not stated in words as information assumption."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N",
+   "note": "Designer chooses bias function in Section 5 but not modelled as an agent with explicit objective/choice in the analysis."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Section 2",
+  "quote": "none found",
+  "note": "Only one type present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "C7.1",
+  "quote": "none found",
+  "note": "C7.1 not Y"
+ },
+ "C8.1": {
+  "codes": [
+   "DOM"
+  ],
+  "loc": "Abstract; Section 3.2",
+  "quote": "strategy-proofness in strictly dominant strategies",
+  "note": "Also CPNE mentioned as corollary (Appendix B); coalition-proof Nash equilibrium could be COAL."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 3.2 Definition 5",
+  "quote": "strictly dominant strategy incentive compatible (SDSIC)"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract",
+    "quote": "in a PB context that seems unreasonable."
+   },
+   {
+    "loc": "Section 1.1",
+    "quote": "granting the community with higher control over economic policies"
+   },
+   {
+    "loc": "Section 6",
+    "quote": "strategy-proof in strictly dominant strategies, and consequently implements the social optimum"
+   }
+  ],
+  "note": "Claims about PB practice and desirability of the mechanism."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 2.1; Section 4",
+  "quote": "under the further assumption that agents utility is a function of per capita spending",
+  "note": "Needed assumptions (additive concave utilities, per-capita utilities, types-to-votes mapping via MRS) are stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1-2",
+  "quote": "none found",
+  "note": "No procedural-reading statement."
+ }
+}

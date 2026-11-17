@@ -1,0 +1,182 @@
+{
+ "paper_id": "IJCAI-2022-d9445a57",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.230",
+  "quote": "voters cast approval ballots over candidates; two finalists are selected",
+  "note": "Defines a family of runoff voting rules and studies them axiomatically."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SI",
+   "EM"
+  ],
+  "primary": "AX",
+  "loc": "Abstract; Sections 4-6",
+  "quote": "study the obtained runoff rules from an axiomatic point of view",
+  "note": "Axiomatic results in Section 4; analysis on single-peaked profiles in Section 5, with an exact derivation for the triangular distribution and simulation for the Gaussian; real data in Section 6. Axiomatic results are the largest share. Weak strategyproofness is only one axiom among several, so SB is not added."
+ },
+ "C2.1": {
+  "value": "approval-preference profile; approval ballots",
+  "loc": "Section 3.1, p.231",
+  "quote": "An approval-preference profile is a collection of pairs"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR",
+   "RANK"
+  ],
+  "loc": "Section 1 and Section 3.1",
+  "quote": "this ranking comes with a threshold that separates approved candidates",
+  "note": "The AP profile combines an approval set with a strict ranking, and the second round uses pairwise majority on the rankings."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 3.1",
+  "quote": "i is the preference ranking of voter i over C",
+  "note": "Preference rankings are part of the AP profile and are referred to as voters' preferences. The text also says 'private information' and 'sincere ballots'."
+ },
+ "C2.4": {
+  "code": "IDS",
+  "loc": "Section 1, p.231",
+  "quote": "we concentrate on the counting of sincere ballots cast by a fixed electorate",
+  "note": "Sincere ballots are assumed without a reason. The AP profile is also used as both input and preference; ballot consistency is assumed."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "Section 4, Definition 3, Theorem 1",
+  "quote": "weak strategyproofness as the impossibility for a voter to deviate",
+  "note": "Theorem 1 considers misreporting (deviation) by voters. The other analyses (Pareto, monotonicity, clones, Euclidean, data) do not."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Section 1, p.231",
+  "quote": "we concentrate on the counting of sincere ballots cast by a fixed electorate",
+  "note": "Stated in words for the non-strategic analyses."
+ },
+ "C3.3": {
+  "code": "CONV",
+  "loc": "Section 1, p.231",
+  "quote": "as it is often the case in social choice theory",
+  "note": "The justification is convention in social choice theory."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Sections 3-6",
+  "quote": "none found",
+  "note": "The paper uses 'utility' only when describing related work (Green-Armytage and Tideman). Its own results do not use voter utility, welfare or satisfaction. Pareto efficiency is defined on rankings and approvals, so the applicability condition is not met."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 4, Definition 2",
+  "quote": "An AVR rule F R is Pareto-efficient if for all approval-preference profile",
+  "note": "Pareto efficiency is an efficiency criterion used in formal results. Proportionality and representation appear only in descriptions of ABC rules."
+ },
+ "C5.2": {
+  "code": "INPUT-STATED",
+  "loc": "Section 1 and Definition 2",
+  "quote": "the normative properties of the rule will be evaluated with respect to this",
+  "note": "Pareto efficiency is evaluated on the AP profile, which is the input. The paper states that sincere ballots are assumed, i.e. input equals held attitude."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Section 1, p.231",
+   "quote_behav": "we concentrate on the counting of sincere ballots cast by a fixed electorate",
+   "loc_info": "Section 4, Theorem 1",
+   "quote_info": "none found",
+   "note": "Voters are sincere in most analyses. In Theorem 1 they deviate to manipulate. Knowledge is not specified. The proof manipulates on a given profile, which does not say what information the voter has."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates are only alternatives. The paper mentions negotiation between rounds but explicitly excludes it from the model."
+  },
+  "ORG": {
+   "present": "N",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "C6",
+  "quote": "none found",
+  "note": "Only one type (voters) is present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "C6",
+  "quote": "none found",
+  "note": "C7.1 is NA."
+ },
+ "C8.1": {
+  "codes": [
+   "DOM"
+  ],
+  "loc": "Section 4, Definition 3",
+  "quote": "weak strategyproofness as the impossibility for a voter to deviate",
+  "note": "Strategyproofness is the only strategic concept used."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 4, Definition 3",
+  "quote": "An AVR rule F R is weakly strategy-proof if"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 7, p.235",
+    "quote": "If such rules have to be used in political elections"
+   },
+   {
+    "loc": "Section 7, p.235",
+    "quote": "the choice of the ABC rule will be crucial"
+   },
+   {
+    "loc": "Section 1, p.230",
+    "quote": "is it possible to keep the nice benefit of the two-round protocol"
+   }
+  ],
+  "note": "The conclusion makes claims about use in political elections and about choosing which rule to use."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 7",
+  "quote": "this choice makes a big difference",
+  "note": "Claims about real elections and rule choice need assumptions about behaviour, since voters may be strategic or react between rounds. The paper acknowledges that its framework omits this, but does not state it as an assumption in the conclusion. The Section 1 assumption of sincere ballots is stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Section 1",
+  "quote": "Formally, we define approval-with-runoff as a voting rule, with a one-shot input",
+  "note": "The paper says it studies the rule as a function of input, but it also assumes sincere ballots. It does not take no position on the input-attitude relation."
+ }
+}

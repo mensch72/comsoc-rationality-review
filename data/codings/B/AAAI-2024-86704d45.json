@@ -1,0 +1,214 @@
+{
+ "paper_id": "AAAI-2024-86704d45",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Introduction, p.1",
+  "quote": "Motivated by recent work in computational social choice, we extend the metric distortion framework",
+  "note": "Borderline. The model is clustering of agents from their rankings and is framed as representative election and voting. Coded eligible because algorithms aggregate agents' rankings into a collective choice of centers."
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "WD"
+  ],
+  "primary": "AL",
+  "loc": "Sections 3-5; Our Results, p.2",
+  "quote": "we give two deterministic polynomial time algorithms for k-center",
+  "note": "Results are algorithms plus lower bounds on distortion and queries. AL and WD fit about equally, so AL is chosen as listed first."
+ },
+ "C2.1": {
+  "value": "ordinal preference profile; rankings",
+  "loc": "Section 2 Preliminaries, p.3",
+  "quote": "An ordinal preference profile P is then just the collection of the points\u2019 rankings"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK",
+   "CARD"
+  ],
+  "loc": "Section 2, p.3",
+  "quote": "each point x \u2208 X provides a ranking \u03c0x : [n] \u2192 X",
+  "note": "The input is a ranking per agent. Limited cardinal distance queries are an additional resource of the algorithm, not a submitted input."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.3",
+  "quote": "each point x \u2208 X provides a ranking \u03c0x : [n] \u2192 X that is consistent with d",
+  "note": "The underlying metric d (agent distances) is the held attitude."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2, Definition 2.1, p.3",
+  "quote": "Each point x \u2208 X reports a ranking \u03c0x that is consistent with the distances d.",
+  "note": "Rankings P and distances d have separate notation. The ranking is only required to be consistent with d. IDS also fits, but DIST is listed first."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "No analysis considers misreporting. Rankings are always consistent with d."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Section 2, Definition 2.1, p.3",
+  "quote": "Each point x \u2208 X reports a ranking \u03c0x that is consistent with the distances d.",
+  "note": "Stated only as a consistency requirement, not as sincerity."
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Section 2; Introduction",
+  "quote": "none found",
+  "note": "No reason is given for consistent reporting."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 2, p.3",
+  "quote": "ranking that is consistent with d in the sense that",
+  "note": "Costs and distortion are defined via the metric d, and rankings are derived from d."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "Dichotomous preferences are not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2, p.3; Section 5",
+  "quote": "We say that an algorithm A achieves distortion D with constant",
+  "note": "Distortion is the main evaluation criterion."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 2, p.3",
+  "quote": "let C \u2217 (d) be a solution (set of centers) of minimal cost",
+  "note": "Cost and distortion are evaluated on the underlying metric d, which is defined separately from the rankings."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2, Definition 2.1, p.3",
+   "quote_behav": "Each point x \u2208 X reports a ranking \u03c0x that is consistent with the distances d.",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Agents (points) report fixed rankings consistent with d. Counted as present because they submit rankings."
+  },
+  "CAN": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Centers are chosen from the agents and are not acting agents."
+  },
+  "ORG": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "The algorithm designer's objective is not modelled as an agent."
+  },
+  "OTH": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only one type is present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is NA."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no strategic type."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "N",
+  "claims": [],
+  "note": "The introduction mentions representative election only as motivation. No claims about which rule to use or about voter well-being were found."
+ },
+ "C9.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C9.1 is N."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "No explicit procedural reading is stated."
+ }
+}

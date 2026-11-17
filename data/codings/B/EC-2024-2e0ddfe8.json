@@ -1,0 +1,174 @@
+{
+ "paper_id": "EC-2024-2e0ddfe8",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "we study voting rules that are computable by querying voters about t < m candidates",
+  "note": "Computability and query complexity of positional scoring rules and STV."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "AL"
+  ],
+  "primary": "AX",
+  "loc": "Abstract, p.1; Sections 4-5",
+  "quote": "fully characterizes the set of positional scoring rules that can be computed",
+  "note": "Characterisation and impossibility results (AX) plus query-complexity bounds (AL). Impossibility results are information-theoretic, so AX is primary."
+ },
+ "C2.1": {
+  "value": "preference profile (distribution over rankings); preferences; rankings",
+  "loc": "Section 2.1, p.4",
+  "quote": "A preference profile (or simply a profile) is a distribution \u03c3 over preferences"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2.1, p.4",
+  "quote": "A ranking or preference over a set C of m candidates is a bijection",
+  "note": "Queries return rankings restricted to subsets of t candidates."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2.1; Section 1, p.2",
+  "quote": "representing the underlying voter preferences that is unknown to the algorithm",
+  "note": "Voter preferences are referred to throughout, e.g. 'ordinal preferences'."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Sections 1 and 2.1, pp.2,4",
+  "quote": "representing the proportion of voters in the population that have each ranking",
+  "note": "The profile is described as the voters' preferences. The rule is applied directly to it, with no discussion of submission or misreporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-5",
+  "quote": "none found",
+  "note": "No strategic voters are analysed. Sections checked: preliminaries, introduction, results, discussion."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 2, 6",
+  "quote": "none found",
+  "note": "The paper does not state that voters submit their held preferences, either sincerely or truthfully."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "none found",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Sections 2-5",
+  "quote": "none found",
+  "note": "No voter utility, welfare or satisfaction notions are used. The 'score' is a rule score, not voter utility."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "none found",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 3-5",
+  "quote": "none found",
+  "note": "Results concern computability of the winner and query complexity, not welfare, efficiency or representation of voters."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "none found",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters are modelled as a distribution over rankings. They take no action in the model; the query algorithm samples from them."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates are only alternatives to be chosen."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "The query algorithm is a computational procedure, not an organiser choosing among strategic options. Under this codebook's definition, an organiser who chooses queries could arguably count, but the algorithm is analysed as a worst-case computational object."
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Section 2",
+  "quote": "none found",
+  "note": "Fewer than two types are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "none found",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "n/a",
+  "quote": "none found",
+  "note": "No type is STRAT or MIXED, so C8 is NA."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "none found"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 6, p.23",
+    "quote": "these results demonstrate the pitfalls of common rules like Plurality and STV"
+   },
+   {
+    "loc": "Section 1, p.1",
+    "quote": "Primary elections in the United States, for example, routinely field large numbers of candidates"
+   }
+  ],
+  "note": "The discussion draws practical implications about which rules are problematic under incomplete votes."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 6, p.23",
+  "quote": "point to the space of alternative rules",
+  "note": "The claim about pitfalls of Plurality and STV in practice needs the assumption that elicited votes via random small queries reflect voters' held preferences. The paper does not state this. It also needs the assumption that the platform can sample voters from a fixed distribution."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1-6",
+  "quote": "none found",
+  "note": "The paper does not say it studies the rule only as a function of submitted inputs, nor that it takes no position on how inputs relate to held attitudes."
+ }
+}

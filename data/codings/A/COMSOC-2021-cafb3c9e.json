@@ -1,0 +1,181 @@
+{
+ "paper_id": "COMSOC-2021-cafb3c9e",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "we theoretically and experimentally assess qualities of various multiwinner election rules",
+  "note": ""
+ },
+ "C1": {
+  "types": [
+   "WD",
+   "SI"
+  ],
+  "primary": "SI",
+  "loc": "Introduction, p.2",
+  "quote": "the major (and the main) part of our study aims",
+  "note": "Worst-case distortion results (Sec. 4) plus simulations (Sec. 5); the paper calls the simulations the main part."
+ },
+ "C2.1": {
+  "value": "preference relation / preference ranking (preferences of the voters over the candidates)",
+  "loc": "Sec. 2.1, p.3",
+  "quote": "the preference relation of vi , which is a linear order over C"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Sec. 2.1, p.3",
+  "quote": "the preference relation of vi , which is a linear order over C",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Introduction, p.1; Sec. 3",
+  "quote": "Each voter and each candidate has her preferred outcome for each issue",
+  "note": "Issue preferences (binary vectors) are held attitudes, separate from the rankings."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Sec. 3, p.4",
+  "quote": "a voter v ranks the candidates according to the number of issues",
+  "note": "The input is the voters' preference ranking, a held attitude derived from issue positions. Rules are applied to it directly, with no statement about submission or reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sec. 2-5",
+  "quote": "none found",
+  "note": "No strategic misreporting is analysed."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Introduction (incl. footnote 1), Sec. 2, Sec. 3, Conclusion",
+  "quote": "none found",
+  "note": "Footnote 1 says voters can construct their rankings, but does not say they submit them sincerely."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Sec. 3, p.4",
+  "quote": "define the utility of the voter vi from a committee W",
+  "note": "Rankings and utilities are both generated from the binary issue vectors."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sec. 4, Definition 1, p.5",
+  "quote": "The satisfaction-based distortion of a voting rule R wrt. a set",
+  "note": "Distortion, utilitarian welfare and Nash-welfare aggregation are used in results and simulations."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Sec. 5, p.7",
+  "quote": "compared these decisions to the preferred outcomes of the voters",
+  "note": "Evaluated on issue preferences, not on the rankings."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sec. 3, p.4",
+   "quote_behav": "the voter ranks them in an arbitrary order",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters' rankings are fixed by their issue agreement with candidates."
+  },
+  "CAN": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Introduction, p.1",
+   "quote_behav": "we assume that the elected committee uses the majority rule",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Elected candidates vote on issues according to their preference vectors."
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "N",
+  "loc": "Sec. 3",
+  "quote": "none found",
+  "note": "Both present types are non-strategic."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.2",
+    "quote": "then the proportional rules such as STV are always superior"
+   },
+   {
+    "loc": "Related Work, p.3",
+    "quote": "Our results allow to formulate conclusions saying how suitable are certain voting"
+   },
+   {
+    "loc": "Conclusion, p.10",
+    "quote": "STV performs much better."
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sec. 2-3",
+  "quote": "none found",
+  "note": "Unstated assumption: voters' rankings fed to the rule equal their true issue-induced preferences, i.e. no strategic reporting. Committee members vote on issues by their stated positions only implicitly."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction, Sec. 2, Sec. 3, Conclusion",
+  "quote": "none found",
+  "note": ""
+ }
+}

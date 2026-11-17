@@ -1,0 +1,176 @@
+{
+ "paper_id": "COMSOC-2021-347f9e9f",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Section 1, p.1",
+  "quote": "agents dynamically form coalitions around proposals that they prefer over the status quo",
+  "note": "Deliberative coalition formation to identify a most-supported proposal; a collective-decision process, computational and social-choice flavour. Borderline but treated as eligible."
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "OT"
+  ],
+  "primary": "AL",
+  "loc": "Sections 3-7; Table 1",
+  "quote": "the deliberation process is guaranteed to terminate",
+  "note": "Main results are termination bounds and guarantees of success for transition types in metric spaces. These are algorithmic/dynamics results; no AX/SB/EQ/WD category fits well. OT covers the conceptual deliberation model."
+ },
+ "C2.1": {
+  "value": "approval set; supports a proposal (no ballot term)",
+  "loc": "Section 2, p.4",
+  "quote": "the set X v is the approval set of v"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Section 2, p.4",
+  "quote": "when x >v r we say that v approves x",
+  "note": "Agents' approval of proposals over the status quo; each agent supports a single proposal."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.4",
+  "quote": "whether she (strictly) prefers x over the status quo r",
+  "note": "Agents have locations in a metric space and preferences over proposals."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2, p.4; Conclusions p.12",
+  "quote": "x >v r if and only if \u03c1(v, x) < \u03c1(v, r)",
+  "note": "Approval is derived directly from held location/preference. Only in the conclusion is truthful revelation mentioned, with no statement of reason."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Section 8, p.12",
+  "quote": "in our current model agents are not strategic",
+  "note": "Strategic extension left for future work."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Section 8, p.12",
+  "quote": "they truthfully reveal whether they support a given proposal",
+  "note": "Stated only in the conclusion."
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Section 8, p.12",
+  "quote": "none found",
+  "note": "No reason is given for truthful revelation."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Section 2",
+  "quote": "",
+  "note": "No utility, welfare or satisfaction notion is used for voters; only preference over status quo."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "",
+  "note": "Term dichotomous preferences not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Definition 5, Section 2, p.6",
+  "quote": "the set of most-supported alternatives is M \u2217",
+  "note": "Success is defined as identifying the proposal with maximum support, a popularity/support criterion. Borderline: support count is not literally welfare or efficiency; coded Y as a representation/support criterion."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 2, p.4-6",
+  "quote": "x >v r if and only if \u03c1(v, x) < \u03c1(v, r)",
+  "note": "Support is evaluated on approval derived from agents' held locations in the metric space."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Section 1, p.1; Section 8",
+   "quote_behav": "we assume that agents are driven by a desire to get behind a winning proposal",
+   "loc_info": "none found",
+   "quote_info": "none found",
+   "note": "Agents myopically move to larger coalitions, but the conclusion says agents are not strategic. Chosen: behaviour follows fixed myopic rules (NONSTRAT would also fit); STRAT is the first-listed fit only if goal-driven. Doubt: the conclusion says 'agents are not strategic', so NONSTRAT is the better reading."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Proposals are alternatives; proposers are not separately modelled."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "An external mediator is mentioned but takes no action in the model."
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Section 2",
+  "quote": "",
+  "note": "Only one type present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is NA"
+ },
+ "C8.1": {
+  "codes": [
+   "ITER"
+  ],
+  "loc": "Sections 3-6",
+  "quote": "a deliberation that consists of single-agent transitions",
+  "note": "Agents' goal-driven moves are best-response-like coalition dynamics. If VOT is read as NONSTRAT, C8 would be NA."
+ },
+ "C8.2": {
+  "code": "N",
+  "loc": "Sections 3-6",
+  "quote": "none found"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 1, p.3",
+    "quote": "formal foundations for the design and development of practical systems"
+   },
+   {
+    "loc": "Abstract",
+    "quote": "theoretical foundations for the analysis of deliberative processes"
+   }
+  ],
+  "note": "Claims about real deliberation platforms such as LiquidFeedback or Polis."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 1, p.3; Section 8, p.12",
+  "quote": "systems that can support successful deliberation",
+  "note": "Applying the results to real platforms needs agents' truthful reporting of approval and myopic behaviour. Truthfulness is stated only in the conclusion, and the metric-space preference model is an unstated link to real preferences."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No procedural-reading statement."
+ }
+}

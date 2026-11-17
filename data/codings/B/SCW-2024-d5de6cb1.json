@@ -1,0 +1,183 @@
+{
+ "paper_id": "SCW-2024-d5de6cb1",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Sect. 2 (p. 505, 509)",
+  "quote": "an early criticism of Plurality rule and, in search of a better method",
+  "note": "Historical paper, but its object is the plurality voting procedure and early pairwise-comparison ideas. Coded ELIG because the object is a voting procedure."
+ },
+ "C1": {
+  "types": [
+   "OT"
+  ],
+  "primary": "OT",
+  "loc": "Abstract; Introduction (p. 505-506)",
+  "quote": "we present two texts that add two more early appearances",
+  "note": "History-of-ideas study of two Roman texts; no formal results."
+ },
+ "C2.1": {
+  "value": "categoric vote",
+  "loc": "Sect. 2.1 and 2.2 (p. 507, 509)",
+  "quote": "Plurality rule by categoric vote does not allow to change the parts",
+  "quote_note": ""
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Sect. 2.2 (p. 509)",
+  "quote": "each voter votes for one candidate and the candidate with the highest number",
+  "note": "Single-choice plurality vote (one alternative per judge); fits none of the listed formats."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sect. 2.2 (p. 509)",
+  "quote": "the pulse of the actual preferences of the voters",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Sect. 2.2 (p. 509-510)",
+  "quote": "the real will (or preference) of the judges has not been properly reflected",
+  "note": "Votes (the 'parts') are contrasted with the voters' actual preferences."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sect. 2.1 (p. 508)",
+  "quote": "supporters of \"death\" strategically voted in favor of the \"exile\" alternative",
+  "note": "Strategic voting appears only in the historical narrative of Pliny's episode, not as an analysis the paper carries out."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sect. 2, 2.1, 2.2, 4 checked",
+  "quote": "none found",
+  "note": "The paper never says that judges submit their held preferences."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Input format is OTH and the paper uses no voter utility notion."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sect. 2.2 (p. 509)",
+  "quote": "it fails to correctly represent the will of the judges",
+  "note": "Normative evaluation of plurality by representation of the judges' will, in the body of the paper."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Sect. 2.2 (p. 509-510)",
+  "quote": "the actual preferences of the voters, rather than the parts formed",
+  "note": "Evaluated against the judges' will or preferences, which are distinct from the votes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Sect. 2.1 (p. 508)",
+   "quote_behav": "supporters of \"death\" strategically voted in favor of the \"exile\" alternative",
+   "loc_info": "Sect. 2.1 and 2.2",
+   "quote_info": "none found",
+   "note": "Senators in Pliny's episode vote strategically. The judges in the Declamation and Gellius cases are given fixed votes. There is no formal model."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Sect. 2.1 (p. 507-508)",
+   "quote_behav": "Pliny, who advocated for acquittal and was aware of the strength",
+   "loc_info": "Sect. 2.1 (p. 507-508)",
+   "quote_info": "was aware of the strength of each group",
+   "note": "Pliny, chairing the Senate, changes the voting procedure. Present only in the historical episode, not in a formal model."
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "N",
+  "loc": "Sect. 2.1 (p. 507-508)",
+  "quote": "supporters of \"death\" strategically voted in favor of the \"exile\" alternative",
+  "note": "In Pliny's episode both the chair (ORG) and the voters are strategic. The non-strategic judges appear only in the separate Declamation and Gellius cases."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Sect. 2.1 (p. 508)",
+  "quote": "supporters of \"death\" strategically voted in favor of the \"exile\" alternative",
+  "note": "No solution concept is used. Strategic behaviour is only narrated historically."
+ },
+ "C8.2": {
+  "code": "N",
+  "loc": "Whole paper",
+  "quote": "none found"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract (p. 505)",
+    "quote": "has evident failures that have triggered theoretical reflection from remote times"
+   },
+   {
+    "loc": "Abstract (p. 505)",
+    "quote": "find more robust and fair alternatives"
+   },
+   {
+    "loc": "Sect. 4 (p. 513)",
+    "quote": "this intuition conceals the numerous flaws inherent in Plurality"
+   }
+  ],
+  "note": "Claims about the flaws of plurality and the search for fairer methods."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sect. 2.2 and 4 (p. 509, 512-513)",
+  "quote": "none found",
+  "note": "The claim that plurality is flawed or unfair needs a statement of how submitted votes relate to the judges' preferences and what the judges know, and the paper gives none. It treats the judges' preferences as unobserved and the votes as 'parts'."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "The paper does not state a procedural-only reading."
+ }
+}

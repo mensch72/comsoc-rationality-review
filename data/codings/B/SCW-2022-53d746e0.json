@@ -1,0 +1,191 @@
+{
+ "paper_id": "SCW-2022-53d746e0",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Section 1, p.1",
+  "quote": "strategyproof facility location in two dimensions",
+  "note": "Strategyproof mechanisms for facility location, framed as voting/approximate mechanism design (median mechanisms, voting scheme characterisations). Borderline vs. facility location, but treated as eligible: strategic aspects of aggregating agents' reported ideal points."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "AL",
+   "SB",
+   "WD"
+  ],
+  "primary": "WD",
+  "loc": "Sections 3-5, pp.6-15",
+  "quote": "has the lowest worst-case approximation ratio in the class of deterministic",
+  "note": "Main results are approximation ratios (WD) of strategyproof mechanisms; Theorem 1 optimality within strategyproof class uses characterisations (AX) and strategyproofness. AL is a weak fit (approximation of optimum, not computing) so AL is included only loosely."
+ },
+ "C2.1": {
+  "value": "ideal points; reports of ideal points (profile of ideal points)",
+  "loc": "Section 2, p.3",
+  "quote": "Let x be the profile of ideal points"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 2, p.3",
+  "quote": "each agent has an ideal point xi \u2208 X for a facility",
+  "note": "Input is a point in R^2 (ideal point report); none of the listed formats."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 1, p.1",
+  "quote": "Each agent\u2019s preference is defined by its ideal point",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2, p.3",
+  "quote": "no agent can benefit by misreporting her ideal point",
+  "note": "Mechanism is a function of X^n applied to ideal points directly; strategyproofness definition mentions misreporting but no separate notation for reports vs ideal points; the input equals the ideal point in notation. Doubt between DIST and IDU; chose IDU because notation is not separate."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "Sections 2-5",
+  "quote": "no agent can benefit by misreporting her ideal point",
+  "note": "Strategyproofness is a property considered (incentive analysis), while approximation ratio analyses evaluate the mechanism on the profile of ideal points without strategic behaviour modelled. Doubt: ALL vs SOME; SOME chosen because the AR computations take profiles as given."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 2, 6",
+  "quote": "none found",
+  "note": "Non-strategic analyses (approximation ratios) are justified implicitly by strategyproofness but no explicit statement that agents submit their ideal point."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Input format is OTH, not ordinal/approval."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 4, p.8; Section 5",
+  "quote": "minimize the social cost",
+  "note": "Approximation ratio of social cost (utilitarian, p-norm) is the evaluation criterion; social cost is the welfare-type criterion."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 2, p.3",
+  "quote": "The social cost of locating the facility at y under profile",
+  "note": "Social cost computed on the profile of ideal points, which is also what the mechanism takes as input; no statement relating reports to ideal points beyond strategyproofness."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Section 1, p.1",
+   "quote_behav": "Since agents may lie about their ideal points if it benefits them",
+   "loc_info": "Sections 1-2",
+   "quote_info": "none found",
+   "note": "Strategyproofness is dominant-strategy, implying any information; information not specified."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Alternatives are locations only."
+  },
+  "ORG": {
+   "present": "N",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Section 1, p.1",
+   "quote_behav": "A central planner wishes to locate the facility to minimize the social cost",
+   "loc_info": "Sections 1-2",
+   "quote_info": "none found",
+   "note": "Planner chooses a mechanism, constrained to strategyproof ones, to minimise worst-case approximation ratio; modelled explicitly as objective."
+  },
+  "OTH": {
+   "present": "N",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "N",
+  "loc": "Section 1",
+  "quote": "none found",
+  "note": "Voters are strategic (in the strategyproofness sense) and the planner optimises; neither is NONSTRAT."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is N."
+ },
+ "C8.1": {
+  "codes": [
+   "DOM"
+  ],
+  "loc": "Section 2, Definition 2.1, p.3",
+  "quote": "no agent can benefit by misreporting her ideal point, regardless of the reports",
+  "note": ""
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 2, p.3",
+  "quote": "A mechanism f is strategyproof if for all i \u2208 N",
+  "quote_note": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract",
+    "quote": "the coordinate-wise median mechanism (CM) has the lowest worst-case approximation"
+   },
+   {
+    "loc": "Section 6, p.15",
+    "quote": "the optimal deterministic, anonymous, and strategyproof mechanism"
+   },
+   {
+    "loc": "Section 1, p.3",
+    "quote": "by demonstrating its quantitative optimality"
+   }
+  ],
+  "note": "Claims of optimality of a rule, a mild recommendation of which rule to use."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sections 1, 6",
+  "quote": "none found",
+  "note": "Optimality for social cost on true ideal points under strategyproofness needs the assumption that truthful reporting is what agents do (relation of inputs to ideal points) and that cost equals Euclidean distance; the former is only implicit via strategyproofness, not stated as an assumption."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1-6",
+  "quote": "none found",
+  "note": ""
+ }
+}

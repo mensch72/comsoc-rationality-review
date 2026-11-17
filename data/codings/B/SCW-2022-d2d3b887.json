@@ -1,0 +1,178 @@
+{
+ "paper_id": "SCW-2022-d2d3b887",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "We consider synchronous iterative voting, where voters are given the",
+  "note": "Dynamics of strategic ballot choice under voting rules."
+ },
+ "C1": {
+  "types": [
+   "SB",
+   "EQ",
+   "SI"
+  ],
+  "primary": "EQ",
+  "loc": "Sections 3-6",
+  "quote": "By a dynamical equilibrium we mean a fixed point of either",
+  "note": "Main results (Theorems A, B, C, 4.10) concern cycles, equilibria and convergence of polling dynamics, which are dynamical equilibria and not Nash equilibria. Section 4.3 is a simulation. Voters adjust ballots by heuristics, so SB also applies. EQ chosen as primary."
+ },
+ "C2.1": {
+  "value": "ballots; ballot profile",
+  "loc": "Section 2.1, p.9",
+  "quote": "Let \u212c be a finite set of ballots that can be cast by"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR",
+   "RANK",
+   "OTH"
+  ],
+  "loc": "Sections 2.1, 5.1, 5.2",
+  "quote": "Ballots and outcomes are linear rankings of candidates",
+  "note": "Approval sets are the main format. IRV and the condorcified rule use rankings. Plurality uses single-name ballots (OTH)."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2.1, p.8",
+  "quote": "Preferences of each voter type will be modeled by an element of \u211b(\ud835\udc34)",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2.1, p.9",
+  "quote": "An Approval Voting ballot \ud835\udc35 \u2208 \ud835\udcab(\ud835\udc34) is said to be sincere",
+  "note": "Preferences and ballots have separate notation. Ballots are chosen through heuristics, and sincere versus strategic ballots are distinguished."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "Sections 4 and 5",
+  "quote": "These heuristics allow voters of type \ud835\udc4b and \ud835\udc4c to vote strategically",
+  "note": "The Plurality, IRV and condorcified examples have voters submit insincere ballots. The Approval examples and Theorem 4.10 restrict to sincere ballots."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Abstract; Section 4",
+  "quote": "electorates applying simple, sincere and consistent heuristics",
+  "note": "For the Approval analyses the paper says the heuristics are sincere."
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Sections 4.1, 4.2",
+  "quote": "none found",
+  "note": "Sincere ballots are a modelling choice. Sincerity is not justified by an incentive argument."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No voter utility, welfare or satisfaction is used."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 4-6",
+  "quote": "none found",
+  "note": "Outcomes are judged by Condorcet winner and loser status and cycles, not by welfare, efficiency, satisfaction, representation or distortion."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Abstract, p.1",
+   "quote_behav": "strategically choose their ballots depending on the outcome deduced from the previous",
+   "loc_info": "Section 1, p.2",
+   "quote_info": "where all voters are given the information at time",
+   "note": "Voters follow fixed heuristics of the poll outcome. The paper calls the adjustments strategic, so STRAT is coded. Information is the poll outcome (winner and runner-up or scores), not the full ballots."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Section 2",
+  "quote": "none found",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y"
+ },
+ "C8.1": {
+  "codes": [
+   "ITER",
+   "BND"
+  ],
+  "loc": "Section 1, p.2",
+  "quote": "synchronous iterative voting, where all voters are given the information",
+  "note": "Synchronous iterative voting with fixed heuristics such as the Leader Rule. Dynamical equilibria are explicitly distinguished from Nash equilibria."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 1, p.2",
+  "quote": "the single word equilibrium will only be used to denote dynamical equilibria"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 1, p.5",
+    "quote": "our examples cast a doubt"
+   },
+   {
+    "loc": "Section 1, p.5",
+    "quote": "rigging any one poll can prevent the election of the Condorcet winner"
+   },
+   {
+    "loc": "Section 7, p.44",
+    "quote": "cycles can lead individually sound heuristics to result collectively in the worst"
+   }
+  ],
+  "note": "Claims about Approval Voting in practice and the effect of polls on elections."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sections 2, 4",
+  "quote": "Synchronous iterative voting can be thought of as a model for political elections",
+  "note": "The claims rest on the stated heuristics, sincere-ballot restriction and poll information. Condorcet status is defined from the preference profile."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": ""
+ }
+}

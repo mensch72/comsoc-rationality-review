@@ -19,21 +19,34 @@ os.makedirs("results", exist_ok=True)
 g = lambda d, k: ((d.get(k) or {}).get("code") or "").upper()
 
 sample = list(csv.DictReader(open("data/sample_final.csv")))
-alloc = {r["stratum"]: (int(r["N_h"]), int(r["n_h"])) for r in csv.DictReader(open("data/allocation.csv"))}
+# realised n_h (differs from data/allocation.csv where a stratum spilled over, see scripts/finalize_sample.py)
+n_real = Counter(r["stratum"] for r in sample)
+alloc = {r["stratum"]: (int(r["N_h"]), n_real[r["stratum"]]) for r in csv.DictReader(open("data/allocation.csv"))}
 final = {p: json.load(open(f"data/codings/final/{p}.json")) for p in (r["paper_id"] for r in sample)}
 VT = {r["paper_id"]: r["venue_type"] for r in sample}
 
 # ---------- eligibility rate per venue type (all papers coded on full text, eligible or not) ----------
-coded_all = [os.path.basename(p)[:-5] for p in glob.glob("data/codings/final/*.json")]
+# C0 decision per coded paper: A and B agree -> that code; otherwise pass C's decision.
 frame = {r["paper_id"]: r for r in csv.DictReader(open("data/frame_raw.csv"))}
+def c0(d, p):
+    alt = f"data/codings/B_C0_stop/{p}.json"   # pass B as first run (stopped at C0) for papers re-run after adjudication
+    path = alt if d == "B" and os.path.exists(alt) else f"data/codings/{d}/{p}.json"
+    return g(json.load(open(path)), "C0")
+coded_all = sorted(os.path.basename(x)[:-5] for x in glob.glob("data/codings/A/*.json"))
+C0 = {}
+for p in coded_all:
+    a, b = c0("A", p), c0("B", p)
+    if a == b:
+        C0[p] = a
+    else:
+        C0[p] = g({"C0": json.load(open(f"data/codings/C/{p}.json"))["decisions"]["C0"]["value"]}, "C0")
 el = defaultdict(lambda: [0, 0])
 for p in coded_all:
-    vt = frame[p]["venue_type"] if p in frame else None
-    if vt is None:
-        continue
+    vt = frame[p]["venue_type"]
     el[vt][1] += 1
-    el[vt][0] += g(json.load(open(f"data/codings/final/{p}.json")), "C0") == "ELIG"
+    el[vt][0] += C0[p] == "ELIG"
 erate = {vt: e / n for vt, (e, n) in el.items()}
+c0_pairs = [(c0("A", p), c0("B", p)) for p in coded_all]
 
 # ---------- outcome measures per paper (None = not applicable) ----------
 def O0(d): return int(g(d, "C5.1") == "N" and g(d, "C9.1") == "N")
@@ -187,6 +200,8 @@ for key, label, f in MEASURES:
     pairs = [(str(a), str(b)) for a, b in pairs]
     der.append(dict(item="derived:" + key, n=len(pairs), agree=round(sum(a == b for a, b in pairs) / len(pairs), 3),
                     kappa=round(kappa(pairs), 3)))
+der.append(dict(item="C0 (all coded papers)", n=len(c0_pairs), agree=round(sum(a == b for a, b in c0_pairs) / len(c0_pairs), 3),
+                kappa=round(kappa(c0_pairs), 3)))
 with open("results/reliability_derived.csv", "w", newline="") as fh:
     w = csv.DictWriter(fh, fieldnames=list(der[0].keys())); w.writeheader(); w.writerows(der)
 

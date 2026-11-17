@@ -1,0 +1,173 @@
+{
+ "paper_id": "SCW-2025-15cb3369",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.2",
+  "quote": "axiomatic characterization of a class of certification methods",
+  "note": "Axiomatic study of approval voting and proportional threshold aggregation of binary opinions into collective decisions."
+ },
+ "C1": {
+  "types": [
+   "AX"
+  ],
+  "primary": "AX",
+  "loc": "Abstract; Theorems 1-2, pp.2, 13-14",
+  "quote": "provide an axiomatic characterization of the approval voting method",
+  "note": ""
+ },
+ "C2.1": {
+  "value": "evaluation profile",
+  "loc": "Section 1.1, p.7",
+  "quote": "an evaluation profile on (N, X) collects the evaluations of the electorate"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Section 1.1, p.7",
+  "quote": "each agent i \u2208 N can either approve of an option x \u2208 X or disapprove",
+  "note": "Binary approve/disapprove evaluations, equivalent to approval sets. The paper also mentions 'binary opinions'."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Abstract, p.2; Introduction p.2",
+  "quote": "consistency properties across populations and profiles of binary opinions",
+  "note": "Refers to 'opinions' and 'negative opinion' of voters. Weak: 'opinions' is used interchangeably with the evaluations that are the input."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 1.1, p.7",
+  "quote": "Each option is evaluated by the agents.",
+  "note": "Evaluations/opinions are the input to the rule; there is no statement about submission or misreporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "No strategic analysis; purely axiomatic."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 2, 4",
+  "quote": "none found",
+  "note": "No statement that voters submit their held attitude."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Whole paper",
+  "quote": "",
+  "note": "No utility, welfare or satisfaction notion for voters is used."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "Whole paper",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is used only in reference titles, not in the paper's model."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 2-3",
+  "quote": "none found",
+  "note": "Only axioms are evaluated. 'Pareto consistency' is a structural axiom on inputs, not a welfare criterion."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Agents only provide evaluations as an input to the rule; no agent action is modelled as an agent choice."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Options are alternatives only."
+  },
+  "ORG": {
+   "present": "N",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "note": "No explicit designer objective modelled."
+  },
+  "OTH": {
+   "present": "N",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Fewer than two types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 4, p.24",
+    "quote": "helpful to understand an important distinction between rules offering acceptable outcomes"
+   },
+   {
+    "loc": "Introduction, p.2",
+    "quote": "Proportional threshold methods and the approval voting method serve substantially different purposes"
+   }
+  ],
+  "note": "Claims about which situations suit which method (certification vs competitive selection), and about real institutions such as impeachment."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Introduction, p.2; Section 4",
+  "quote": "as such, suit different situations",
+  "note": "The claims about suitable use follow from the axioms, which are normative, plus the claim that the axioms are desirable. No assumptions about strategic behaviour, information or held attitudes are needed, and none are stated. The suitability claim is only loosely tied to the formal results, so this is somewhat uncertain."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "No statement of a procedural reading."
+ }
+}

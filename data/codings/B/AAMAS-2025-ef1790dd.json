@@ -1,0 +1,172 @@
+{
+ "paper_id": "AAMAS-2025-ef1790dd",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1127",
+  "quote": "single-winner ranked-choice elections between \ud835\udc5a candidates",
+  "note": "Voting rules (k-ApprovalVeto) analysed for distortion and minority protection."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "WD"
+  ],
+  "primary": "WD",
+  "loc": "Intro, Contributions, p.1128",
+  "quote": "following both the axiomatic and welfarist approaches",
+  "note": "Axiomatic: Droop minority protection (Thm 3). Welfarist: metric distortion (Thms 4-8), most results."
+ },
+ "C2.1": {
+  "value": "rankings; votes (approval and veto votes)",
+  "loc": "Sec 2 Preliminaries, p.1130",
+  "quote": "rankings \u227b = (\u227b\ud835\udc63 )\ud835\udc63 \u2208\ud835\udc49"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Sec 2, p.1130",
+  "quote": "a total order over \ud835\udc36 which represents the preferences of \ud835\udc63",
+  "note": "Strict rankings; approvals derived from top k."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec 2, p.1130; Sec 4",
+  "quote": "a total order over \ud835\udc36 which represents the preferences of \ud835\udc63",
+  "note": "Preferences and metric distances/costs are held attitudes."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Sec 2, p.1130",
+  "quote": "a total order over \ud835\udc36 which represents the preferences of \ud835\udc63",
+  "note": "Ranking is described as the voter's preference, and the rule is applied directly; no statement about reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No analysis considers misreporting."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sec 1, 2, 5",
+  "quote": "none found",
+  "note": "No statement that voters submit their held attitude."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Sec 4, p.1132",
+  "quote": "consistent with the rankings",
+  "note": "Metric costs consistent with rankings: d(v,c) \u2264 d(v,c') if c \u227bv c'."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sec 4, p.1132",
+  "quote": "the utilitarian social cost of \ud835\udc64 is defined",
+  "note": "Distortion and social cost are evaluation criteria in the results."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Sec 4, p.1132",
+  "quote": "a metric \ud835\udc51 over \ud835\udc49 \u222a\ud835\udc36 is consistent with the rankings",
+  "note": "Costs are given by an unknown metric defined separately from the rankings; distortion is worst-case over consistent metrics."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters supply rankings; no actions modelled strategically or otherwise beyond input; veto votes are rule steps."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Fewer than two types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Conclusion, p.1134",
+    "quote": "this makes \ud835\udc58-ApprovalVeto potentially practical for settings where it is desirable"
+   },
+   {
+    "loc": "Abstract, p.1127",
+    "quote": "it accommodates any desired level of minority protection via the parameter \ud835\udc58"
+   },
+   {
+    "loc": "Conclusion, p.1134",
+    "quote": "provides an intuitive means to adjust the desired level of (Droop) minority protection"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sec 1, 2, 5",
+  "quote": "none found",
+  "note": "Claims about practicality and welfare in real elections need a statement that submitted rankings equal held preferences (sincere voting), not stated; the rule is also manipulable, not discussed."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No procedural-reading statement."
+ }
+}

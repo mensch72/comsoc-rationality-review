@@ -1,0 +1,178 @@
+{
+ "paper_id": "AAMAS-2024-629cc4bd",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "We introduce several alliance-aware voting rules and show that they satisfy",
+  "note": "Single-winner voting rules with alliances; axiomatic analysis."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SI"
+  ],
+  "primary": "AX",
+  "loc": "Sections 3-5",
+  "quote": "we present four alliance-aware rules and show that they have good axiomatic properties",
+  "note": "Main results are axioms and propositions/theorems; Section 5 has synthetic simulations including social welfare."
+ },
+ "C2.1": {
+  "value": "voters' preferences; rankings; ballots",
+  "loc": "Section 1.1 and 2, p.1-2",
+  "quote": "take as input not only voters\u2019 preferences, but also the information"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2, p.2",
+  "quote": "is associated with a strict linear order (ranking) \u227b\ud835\udc56 over the candidates",
+  "note": "Section 6.1 also mentions approval-style ballots as implementation of rules, but the formal input is rankings."
+ },
+ "C2.3": {
+  "code": "N",
+  "loc": "Section 2, p.2",
+  "quote": "none found",
+  "note": "Voters only have rankings/preferences defined as the input itself; no separate held attitude is stated. The paper speaks of 'preferences' but the model is rankings only."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 1.1 and 2, p.1-2",
+  "quote": "take as input not only voters\u2019 preferences",
+  "note": "Input described as preferences; rule is applied directly with no statement about submission or reporting. IDU is listed before ONE in the codebook's logic for 'preferences' described as the input."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 3-5",
+  "quote": "we do not consider strategic behavior of candidates",
+  "note": "No analysis considers voters misreporting."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Section 2, Section 5, Section 6",
+  "quote": "none found",
+  "note": "No statement that voters submit their held attitude."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NOTSPEC",
+  "loc": "Section 5.2, p.4",
+  "quote": "the social welfare of a given candidate is equal to his or her Borda score",
+  "note": "Social welfare is used for voters but defined as Borda score from rankings; this is a definition of welfare from the input, with no utility model stated. Coded NOTSPEC as no relation of utilities to the ranking is discussed."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Dichotomous preferences not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 5.2, p.4",
+  "quote": "we compare the social welfare obtained by standard and alliance-aware rules",
+  "note": "Simulation evaluates social welfare (Borda)."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 5.2, p.4",
+  "quote": "the social welfare of a given candidate is equal to his or her Borda score",
+  "note": "Evaluated on the rankings with no statement relating them to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2, p.2",
+   "quote_behav": "is associated with a strict linear order (ranking) \u227b\ud835\udc56 over the candidates",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters' rankings are fixed inputs; no strategic action."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates are alternatives; strategic candidacy explicitly not considered."
+  },
+  "ORG": {
+   "present": "N",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Fewer than two types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is NA."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no strategic type."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.1",
+    "quote": "Our rules have natural definitions and are simple enough"
+   },
+   {
+    "loc": "Section 1.1, p.2",
+    "quote": "This fact makes them reasonable proposals for real-life elections."
+   },
+   {
+    "loc": "Section 6, p.5",
+    "quote": "We have argued that they provide similar social welfare to the voters"
+   }
+  ],
+  "note": "Claims about practical use and voter welfare."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 6, p.5",
+  "quote": "similar social welfare to the voters as the standard rules",
+  "note": "Welfare claim needs assumptions on how rankings relate to held preferences/utilities (sincere voting; Borda as welfare), not stated; claim also depends on voters not behaving strategically."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1-6",
+  "quote": "none found",
+  "note": "No statement of a purely procedural reading."
+ }
+}

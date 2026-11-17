@@ -1,0 +1,10 @@
+{
+ "paper_id": "AAMAS-2023-0d1d7cfd",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "INELIG",
+  "loc": "Abstract and Section 1, p. 2049",
+  "quote": "players form coalitions, and the coalition with the largest cumulative weight takes first prize",
+  "note": "The paper is about cooperative coalition-formation games with externalities (partition function games): stability, core, efficiency and complexity of payoff division among players competing for prizes. It does not study a voting rule that aggregates agents' submitted inputs into a collective decision. Weighted voting games appear only as the origin of the weight structure, so the paper is ineligible and coding stops."
+ }
+}

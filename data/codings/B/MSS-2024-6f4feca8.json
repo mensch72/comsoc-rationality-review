@@ -1,0 +1,158 @@
+{
+ "paper_id": "MSS-2024-6f4feca8",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Sec 1, p.1",
+  "quote": "the aggregation of individual preferences into a collective choice",
+  "note": "Group-theoretic analysis of symmetry (anonymity/neutrality) of social preference functions; a procedure aggregating voters' linear orders."
+ },
+ "C1": {
+  "types": [
+   "AX"
+  ],
+  "primary": "AX",
+  "loc": "Sec 1, p.3; Sec 7-8",
+  "quote": "we completely solve the neutrality problem",
+  "note": "Characterisation of which groups arise as symmetry groups of spfs; algebraic/axiomatic (anonymity, neutrality)."
+ },
+ "C2.1": {
+  "value": "preference profile",
+  "loc": "Sec 1, p.1",
+  "quote": "The ordered list of the individual preferences is called the preference profile."
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Sec 2.1, p.4",
+  "quote": "We then assume that each individual i \u2208 H expresses her preferences",
+  "note": "Linear orders on N."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec 1, p.1",
+  "quote": "Individual preferences are expressed by relations on a set N",
+  "note": "Individual preferences are referred to, but they are identified with the input."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Sec 2.1, p.4",
+  "quote": "We then assume that each individual i \u2208 H expresses her preferences",
+  "note": "The preference profile is the input of the spf and is applied directly; no statement about reporting or sincerity."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No strategic misreporting is analysed; strategy-proofness is only mentioned in the introduction as an example property."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sec 1, Sec 2, Sec 12 (conclusion)",
+  "quote": "none found",
+  "note": "No statement that voters submit their held preferences."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "",
+  "note": "No utility, welfare or satisfaction notions are used for voters."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "",
+  "note": "Results concern symmetry groups. Efficiency appears only in the introduction when recalling Moulin's theorem."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Individuals are only indices of the profile; they take no actions in the model."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Fewer than two types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "N",
+  "claims": [],
+  "note": "The abstract, introduction and conclusion make claims about mathematical results only, and about relations to Boolean function representability. They make no claims about institutions, voter well-being, or which rule to use."
+ },
+ "C9.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C9.1 = N."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No statement of a procedural reading or of taking no position on inputs versus held attitudes."
+ }
+}

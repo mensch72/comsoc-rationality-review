@@ -1,0 +1,182 @@
+{
+ "paper_id": "COMSOC-2023-9dca7c57",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "We study individual manipulability of social choice rules under incomplete information",
+  "note": "Strategic aspects of voting rules."
+ },
+ "C1": {
+  "types": [
+   "SB",
+   "AX",
+   "SI"
+  ],
+  "primary": "SB",
+  "loc": "Abstract, p.1; Sections 4-6",
+  "quote": "we study when non-manipulability is inherited from one model to another",
+  "note": "Computed manipulability indexes (exact enumeration, coded as SI) plus theoretical propositions on non-manipulability; all about manipulation incentives."
+ },
+ "C2.1": {
+  "value": "preference profile",
+  "loc": "Section 3.1, p.4",
+  "quote": "A preference profile of all voters is denoted by"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 3.1, p.4",
+  "quote": "it is assumed to be a linear order",
+  "note": "Voters report linear orders; PIF outputs are polls."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 1, p.2",
+  "quote": "all voters report their sincere preferences to an opinion poll",
+  "note": "Preferences are held; manipulation means misrepresenting them."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 1, p.1",
+  "quote": "voters can achieve a better voting result by misrepresenting their preferences",
+  "note": "Sincere preferences vs strategic reports are distinguished (P\u0303i vs Pi)."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Sections 4-6",
+  "quote": "a voter has an incentive to manipulate under a given PIF",
+  "note": "All analyses concern manipulation incentives of voters."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "Sections 4-6",
+  "quote": "none found",
+  "note": "C3.1 = ALL."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "none found",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Sections 3-6",
+  "quote": "none found",
+  "note": "Voter preferences are strict orders over alternatives and no utility/welfare notions are used for voters; the only 'better off' is defined via Pi."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 3-6",
+  "quote": "none found",
+  "note": "Outcomes are evaluated by manipulability indexes, not welfare, efficiency or representation."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "none found",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 1, p.1",
+   "quote_behav": "A voter having an incentive to manipulate individually with some strategy",
+   "loc_info": "Section 3.1, p.4",
+   "quote_info": "shows what kind of information is known by a voter about P",
+   "note": "Voters are potential manipulators, with information given by the PIF (ranges from complete Profile-PIF to 1Winner). Other voters are sincere in Model 1."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates are only alternatives."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "The tie-breaking rule is fixed."
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Section 6",
+  "quote": "none found",
+  "note": "Only one type is present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "none found",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "DEV",
+   "BND"
+  ],
+  "loc": "Section 3.1, Definition 1; Section 2",
+  "quote": "in Model 2 each manipulating agent thinks about others GS-manipulators as being",
+  "note": "The incentive to manipulate is an existence-of-strategy condition (weak dominance over sincere voting under uncertainty). Models 2 and 3 are level-2 / cognitive-hierarchy style bounded rationality."
+ },
+ "C8.2": {
+  "code": "N",
+  "loc": "Sections 3-6",
+  "quote": "none found"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 7, p.12",
+    "quote": "the goal of this research was not to show that"
+   },
+   {
+    "loc": "Section 7, p.12",
+    "quote": "under very natural conditions it is impossible to find such"
+   },
+   {
+    "loc": "Section 7, p.12",
+    "quote": "this adds to the immunity of rules to manipulation in reality"
+   }
+  ],
+  "note": "Claims about real-world manipulability and the immunity of rules."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 7, p.12",
+  "quote": "it does not make much sense",
+  "note": "The claim that manipulation makes little sense requires that voters demand a strategy that never makes them worse off (stated as 'seems quite natural'); that voters actually know only poll information or hold the assumed beliefs about others is not argued empirically; the 'immunity in reality' claim also needs a link between incentive and actual manipulation, which is acknowledged as unmeasured."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No procedural reading is stated."
+ }
+}

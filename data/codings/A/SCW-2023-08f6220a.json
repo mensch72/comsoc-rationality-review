@@ -1,0 +1,176 @@
+{
+ "paper_id": "SCW-2023-08f6220a",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "deterministic social choice functions (or voting mechanisms)",
+  "note": "Studies incentive properties of social choice functions (voting mechanisms) aggregating agents' preferences."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SB"
+  ],
+  "primary": "SB",
+  "loc": "Abstract, p.1; Section 3, pp.6-8",
+  "quote": "locally ordinal Bayesian incentive compatibility of a social choice function",
+  "note": "Results are equivalences and implications between incentive-compatibility properties and other axioms (unanimity, tops-onlyness, monotonicity). They are coded as both strategic-behaviour and axiomatic, primary SB."
+ },
+ "C2.1": {
+  "value": "preference profile / preference ordering (or a type)",
+  "loc": "Section 2.1, p.4",
+  "quote": "has a private preference ordering (or a type)"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2.1, p.4",
+  "quote": "Let P denote the set of all strict linear orders over A.",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2.1, p.4",
+  "quote": "Each agent i \u2208 N has a private preference ordering",
+  "note": "Agents hold private true types, distinct from what they report."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 1, p.2; Section 2.2, p.5",
+  "quote": "interim outcome probability vector from truth-telling first-order stochastic-dominates",
+  "note": "True type Pi is distinguished from the report Pi' (lying) in the IC definitions."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Section 2.2, pp.5-6; Section 3, pp.6-8",
+  "quote": "there exists no Pi0 \u2208 D such that",
+  "note": "All main results concern incentive constraints, which consider misreports."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No utility, welfare, satisfaction, cost or distortion is used for voters. The only cost mentioned is the designer's data-collection cost."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 1, p.2; Definition 1, p.4",
+  "quote": "unanimity of an scf is a mild form of efficiency",
+  "note": "Unanimity is used in the main theorems and is presented as a form of efficiency. Coding is borderline."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Definition 1, p.4",
+  "quote": "f (P ) = a whenever a = Pi (1) for every agent",
+  "note": "Unanimity is defined on the profile that is the argument of f. No statement relates it to the true types."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 1, p.2",
+   "quote_behav": "any vector obtained from lying",
+   "loc_info": "Section 2.1, p.4",
+   "quote_info": "which is common knowledge for every agent",
+   "note": "Agents know the priors over others' types (Bayesian setting). DSIC analyses need no information."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N",
+   "note": "Mechanism designer is mentioned, but the designer's choice is not modelled."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [
+   "DOM",
+   "BNE"
+  ],
+  "loc": "Section 2.2, p.5",
+  "quote": "ordinally Bayesian incentive compatible (OBIC)",
+  "note": "DSIC/LDSIC are coded as DOM. OBIC/LOBIC are coded as BNE (ordinal Bayesian IC)."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Definition 3, p.5",
+  "quote": "dominant strategy incentive compatible (DSIC)"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 1, p.2",
+    "quote": "it is quite natural to require an scf to be unanimous"
+   },
+   {
+    "loc": "Section 1, p.3",
+    "quote": "Tops-onlyness is desirable not only for a mechanism designer"
+   },
+   {
+    "loc": "Section 1, p.2",
+    "quote": "significantly eases the problem of designing an incentive compatible"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 2.1, pp.4-5",
+  "quote": "each agent independently draws his preference using a probability",
+  "note": "Needed assumptions are stated in the model: private strict preferences, strategic reporting, independent generic common-knowledge priors."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 2, 3",
+  "quote": "none found",
+  "note": ""
+ }
+}

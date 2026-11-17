@@ -1,0 +1,15 @@
+{
+ "paper_id": "SCW-2024-5c1f2968",
+ "decisions": {
+  "C0": {
+   "value": {
+    "code": "ELIG",
+    "loc": "Sect. 2.1, p. 302",
+    "quote": "Voting behaviour is probabilistic.",
+    "note": "Political-economy model of an incumbent's strategic policy choice under electoral competition with probabilistic two-party voting. It concerns strategic aspects of an election, namely candidates acting to win votes. Borderline because no aggregation rule is varied; ELIG is the first-listed code."
+   },
+   "chosen": "A",
+   "reason": "The paper models parties strategically choosing platforms to win a two-party election, which counts as a strategic aspect of a voting procedure; since INELIG fits about equally well, the doubt rule selects the first-listed code, ELIG."
+  }
+ }
+}

@@ -25,6 +25,31 @@ if os.path.exists("data/ineligible_fulltext.csv"):
 by = defaultdict(list)
 for r in order:
     by[r["stratum"]].append(r)
+
+
+def exhausted(st, target):
+    """True if stratum st cannot supply `target` usable papers from its full frame list."""
+    ok = sum(1 for r in by[st] if r["paper_id"] in retr and retr[r["paper_id"]]["status"] == "ok"
+             and r["paper_id"] not in dups and r["paper_id"] not in inel)
+    untried = sum(1 for r in by[st] if r["paper_id"] not in retr)
+    return untried == 0 and ok < target
+
+
+# Protocol section 4: a stratum with fewer eligible papers than allocated gives its surplus to the other
+# years of the same venue type: to the year with the largest N_h (ties: earliest year), repeatedly.
+target = dict(alloc)
+N = {r["stratum"]: int(r["N_h"]) for r in csv.DictReader(open("data/allocation.csv"))}
+for st in sorted(target):
+    while exhausted(st, target[st]):
+        ok = sum(1 for r in by[st] if retr.get(r["paper_id"], {}).get("status") == "ok"
+                 and r["paper_id"] not in dups and r["paper_id"] not in inel)
+        surplus = target[st] - ok; target[st] = ok
+        vt = st.rsplit("-", 1)[0]
+        others = sorted((s for s in target if s.rsplit("-", 1)[0] == vt and s != st and not exhausted(s, target[s] + 1)),
+                        key=lambda s: (-N[s], s))
+        target[others[0]] += surplus
+        print(f"spill-over: {st} has {ok} usable papers; {surplus} moved to {others[0]}")
+alloc = target
 taken, skipped, short = [], [], []
 for st, lst in sorted(by.items()):
     lst.sort(key=lambda r: int(r["rank"]))

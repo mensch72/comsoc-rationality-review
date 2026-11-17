@@ -1,0 +1,167 @@
+{
+ "paper_id": "IJCAI-2022-5e7bc3ad",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.475",
+  "quote": "We consider multiwinner elections in Euclidean space using the minimax Chamberlin-Courant rule.",
+  "note": ""
+ },
+ "C1": {
+  "types": [
+   "AL"
+  ],
+  "primary": "AL",
+  "loc": "Abstract, p.475",
+  "quote": "Our main results are three polynomial-time approximation schemes",
+  "note": "NP-hardness, inapproximability and approximation algorithms for computing the committee."
+ },
+ "C2.1": {
+  "value": "preference list; ordinal preferences; d-Euclidean election (with Euclidean realization)",
+  "loc": "Section 3, p.476",
+  "quote": "The preference list of each voter is a total ordering (ranking) of C"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 3, p.476",
+  "quote": "The preference list of each voter is a total ordering (ranking) of C",
+  "note": "A Euclidean embedding is also part of the input. Ties from equal distances are broken arbitrarily."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 1, p.475",
+  "quote": "each voter v ranks all the candidates in C, from the most preferred",
+  "note": "Preferences are induced by distances in the Euclidean space."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 1, p.475",
+  "quote": "implicitly specifying each voter\u2019s ranking (closest to farthest) of the candidates",
+  "note": "The rule is applied directly to the preferences, with no statement about submission or reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 3-5",
+  "quote": "none found",
+  "note": "No strategic voting is analysed."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 3, 6",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 5.4, p.480",
+  "quote": "We say a voter v is satisfied with a subset T",
+  "note": "Satisfaction is defined via Euclidean distances, and the same distances generate the rankings. The intro remark also discusses how value relates to distance."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 3, p.477",
+  "quote": "minimizes the maximum score (misrepresentation) of any voter",
+  "note": "Misrepresentation and representation of voters; satisfaction in delta-optimality."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 3, p.476-477",
+  "quote": "a voter v\u2019s score for a committee T is the rank",
+  "note": "Evaluated on the rankings and the embedding given as input."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 3, p.476",
+   "quote_behav": "a voter v prefers ci to cj if and only if",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Preferences are fixed by positions; no action choice is modelled."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only one type is present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no strategic type."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 1 (Remark), p.476",
+    "quote": "under the ordinal measure the (rank-based) solution seems more equitable"
+   },
+   {
+    "loc": "Section 1, p.475",
+    "quote": "computing a winning committee with provable guarantees of representation quality"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 1, p.476",
+  "quote": "none found",
+  "note": "The equity and representation claims need the rankings to reflect voters' actual preferences, i.e. that the input equals the held attitude. This relation is not stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 3, 6",
+  "quote": "none found",
+  "note": ""
+ }
+}

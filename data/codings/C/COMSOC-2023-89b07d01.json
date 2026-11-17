@@ -1,0 +1,15 @@
+{
+ "paper_id": "COMSOC-2023-89b07d01",
+ "decisions": {
+  "C0": {
+   "value": {
+    "code": "ELIG",
+    "loc": "Sec. 1, Preliminaries",
+    "quote": "a method of detecting gerrymandering that can be applied to such",
+    "note": "The paper studies districting manipulation of FPTP elections, a strategic aspect of a voting procedure. Its main object is a statistical detection method, which makes eligibility borderline."
+   },
+   "chosen": "A",
+   "reason": "The paper defines gerrymandering as manipulation of district boundaries in FPTP elections and simulates seat-maximising districting plans, so it studies a strategic aspect of a voting procedure, the kind of districting the codebook's DIS stakeholder type covers."
+  }
+ }
+}

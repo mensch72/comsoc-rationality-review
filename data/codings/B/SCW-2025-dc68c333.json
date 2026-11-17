@@ -1,0 +1,229 @@
+{
+ "paper_id": "SCW-2025-dc68c333",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Section 2, p. 928-931",
+  "quote": "a jury that has to select the deserving winner from a group of candidates",
+  "note": "Mechanism design/implementation paper: jurors' announcements are aggregated into a collective choice by a sequential voting-like mechanism; strategic aspects (backward induction) analysed. Borderline but treated as eligible."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "EQ",
+   "SB"
+  ],
+  "primary": "EQ",
+  "loc": "Sections 3-4, pp. 931-941",
+  "quote": "implements the socially optimal rule via backward induction",
+  "note": "Implementation results: necessary condition (minimal impartiality) and a mechanism whose backward induction equilibrium yields the deserving winner. Some results are impossibility/characterisation-like, but most concern equilibrium outcomes."
+ },
+ "C2.1": {
+  "value": "messages (announcements of a winner)",
+  "loc": "Section 2, p. 931",
+  "quote": "Mi is a message space for agent i"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 4, Mechanism 1, p. 935",
+  "quote": "Agent 1 announces m1 \u2208 N",
+  "note": "Input is an announcement of a single candidate (a message), not a ranking or approval set."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p. 930",
+  "quote": "Each agent i has a preference function Ri",
+  "note": "Jurors have preferences over candidates depending on the deserving winner."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2, p. 931; Section 4",
+  "quote": "agents send messages simultaneously",
+  "note": "Messages (announcements) and preference functions Ri are separate objects with separate notation; jurors may announce non-sincerely."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Sections 3-4, pp. 931-941",
+  "quote": "incentives to deceive emerge to prevent their enemy from being selected",
+  "note": "All analyses are of strategic jurors under backward induction."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "C3.1 = ALL",
+  "quote": "",
+  "note": "NA because C3.1 = ALL."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "C3.2 is NA",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Section 2, p. 931",
+  "quote": "",
+  "note": "Input is not ranking/approval/etc.; no utility-type notions for voters beyond ordinal preferences."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "Term dichotomous preferences not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 3-4",
+  "quote": "The socially optimal outcome is the victory of this deserving winner.",
+  "note": "The socially optimal rule is a given deserving winner, not evaluated via welfare, efficiency, representation or distortion; it is the implementation target."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "C5.1 = N",
+  "quote": "",
+  "note": "NA because C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Introduction, p. 928",
+   "quote_behav": "incentives to deceive to ensure that their favorite candidate is chosen",
+   "loc_info": "Section 2, p. 928",
+   "quote_info": "known to all agents but cannot be verified",
+   "note": "Jurors know the deserving winner (and, per sequential perfect information, others' moves); preferences beyond conflicts of interest partly unknown to planner. Jury configuration is common knowledge in comparison with Holzman-Moulin."
+  },
+  "CAN": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Candidates are identified with jurors; their only actions are as jurors, coded under VOT."
+  },
+  "ORG": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Planner designs the mechanism but is not an acting agent; no organiser actions in the model."
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Designer's objective is implementing the socially optimal rule, but no explicit modelling of designer choices as an agent; treated as the analyst's goal."
+  },
+  "OTH": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "C6",
+  "quote": "",
+  "note": "Only one type present (voters)."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "C7.1",
+  "quote": "",
+  "note": "C7.1 is NA."
+ },
+ "C8.1": {
+  "codes": [
+   "SPE"
+  ],
+  "loc": "Section 2, p. 931",
+  "quote": "implements the socially optimal rule via backward induction",
+  "note": "Backward induction in finite perfect-information sequential mechanisms; also mentions Nash and dominant strategies only in discussion."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 2, p. 931",
+  "quote": "implements the socially optimal rule via backward induction"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p. 928",
+    "quote": "design a mechanism (or voting system) that incentivizes jurors to choose the deserving winner"
+   },
+   {
+    "loc": "Introduction, p. 928",
+    "quote": "we propose a novel, simple, and natural mechanism that successfully implements"
+   },
+   {
+    "loc": "Introduction, p. 927-928",
+    "quote": "it is reasonable to think that each juror will strive to favor"
+   }
+  ],
+  "note": "Claims about applicability to international competitions and about which mechanism to use (natural mechanism that works)."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 2, pp. 930-931",
+  "quote": "each agent prioritizes their own victory, regardless of the deserving winner",
+  "note": "The claims follow from the formal model whose assumptions (preferences, common knowledge of deserving winner, strategic jurors, backward induction) are stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": ""
+ }
+}

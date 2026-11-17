@@ -1,0 +1,188 @@
+{
+ "paper_id": "SCW-2021-905600f1",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Sect. 2.2, p. 203-204",
+  "quote": "the winning party and the opposition jointly determine the tax-and-transfer policy",
+  "note": "Voters' votes for two parties are aggregated into power shares and policy via a power-sharing (electoral) rule. The paper studies equilibrium party competition under this rule. Borderline, since the focus is redistribution, but coded as eligible."
+ },
+ "C1": {
+  "types": [
+   "EQ",
+   "EM"
+  ],
+  "primary": "EQ",
+  "loc": "Sect. 1, p. 199; Sect. 4",
+  "quote": "has a unique pure-strategy Nash equilibrium",
+  "note": "Equilibrium existence and characterisation (Props 1-2, Corollaries) plus panel regressions on real data testing the predictions. EQ has the largest share of results."
+ },
+ "C2.1": {
+  "value": "votes",
+  "loc": "Sect. 2.2, p. 203",
+  "quote": "each voter votes sincerely for the party's proposal that offers higher utility"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Sect. 2.2, p. 203",
+  "quote": "a voter of group i votes for party A if",
+  "note": "Binary vote for one of two parties, with a probabilistic partisan bias."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sect. 2.1, p. 202",
+  "quote": "The utility of a voter in group i over Z is given by",
+  "note": "Voters hold utilities over income distributions and a partisan bias."
+ },
+ "C2.4": {
+  "code": "IDJ",
+  "loc": "Sect. 2.2, p. 203, footnote 12",
+  "quote": "the probability of being pivotal at the election is zero",
+  "note": "Sincere voting is stated, with a reason: no loss of generality because of the continuum of voters, so zero pivotality."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sect. 2.2, p. 203",
+  "quote": "each voter votes sincerely for the party's proposal that offers higher utility",
+  "note": "Voters are never modelled as misreporting. Only parties are strategic, and they choose platforms."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Sect. 2.2, p. 203",
+  "quote": "each voter votes sincerely for the party's proposal that offers higher utility",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "INC",
+  "loc": "Sect. 2.2, p. 203, footnote 12",
+  "quote": "the probability of being pivotal at the election is zero",
+  "note": "Incentive argument: no voter is pivotal in a continuum electorate."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Sect. 2.2",
+  "quote": "",
+  "note": "The input format is OTH (a vote for one of two parties), not RANK, WEAK, APPR, DICH or PAIR."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sect. 3.2, Corollary 1, p. 207-208",
+  "quote": "maximizing a social welfare function that weights voters' utilities",
+  "note": "Corollary 1 rationalises the equilibrium as a weighted social welfare maximiser. The Gini is also analysed."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Sect. 3.2, Corollary 1",
+  "quote": "maximizing a social welfare function that weights voters' utilities",
+  "note": "Welfare is defined on voters' utilities ui over income distributions, which are separate from the votes cast."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sect. 2.2, p. 203",
+   "quote_behav": "each voter votes sincerely for the party's proposal that offers higher utility",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters' vote is fixed by the model (sincere)."
+  },
+  "CAN": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Sect. 2.3, p. 205",
+   "quote_behav": "parties A and B propose simultaneously and non-cooperatively redistributive policies",
+   "loc_info": "Sect. 2.3, p. 205",
+   "quote_info": "parties know the initial income of the groups",
+   "note": "Parties are the candidates or proponents who choose platforms. They know the distribution of the partisan bias but not its realised values."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "The power-sharing rule is exogenous."
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "Y",
+  "loc": "Sect. 2.2-2.3",
+  "quote": "each voter votes sincerely for the party's proposal that offers higher utility",
+  "note": "CAN is STRAT and VOT is NONSTRAT."
+ },
+ "C7.2": {
+  "code": "REASON",
+  "loc": "Sect. 2.2, footnote 12, p. 203",
+  "quote": "the probability of being pivotal at the election is zero",
+  "note": "Zero pivotality in a continuum of voters is the reason sincere voting is without loss of generality."
+ },
+ "C8.1": {
+  "codes": [
+   "NE"
+  ],
+  "loc": "Sect. 3.1, Proposition 1",
+  "quote": "has a unique Nash equilibrium in pure strategies",
+  "note": ""
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Sect. 3.1, Proposition 1",
+  "quote": "has a unique Nash equilibrium in pure strategies"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p. 197",
+    "quote": "empirical evidence from a sample of developed and developing democracies supports"
+   },
+   {
+    "loc": "Sect. 5, p. 219",
+    "quote": "rise as policymaking power gets more concentrated in the majority winning party"
+   },
+   {
+    "loc": "Sect. 5, p. 220",
+    "quote": "allows to quantify the effects of small changes in these rules"
+   }
+  ],
+  "note": "Claims about real democracies and electoral-rule disproportionality; no explicit recommendation of which rule to use."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sect. 2.2-2.3, pp. 203-205",
+  "quote": "each voter votes sincerely for the party's proposal that offers higher utility",
+  "note": "The needed assumptions are sincere voting, strategic parties and parties' information. All are stated in the model section."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "Checked Sects. 1, 2, 5."
+ }
+}

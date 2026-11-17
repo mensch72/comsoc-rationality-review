@@ -1,0 +1,15 @@
+{
+ "paper_id": "AAMAS-2024-3b0ee8e7",
+ "decisions": {
+  "C0": {
+   "value": {
+    "code": "INELIG",
+    "loc": "Abstract, p.1400",
+    "quote": "estimate a posterior distribution over the possible outcomes of the election",
+    "note": "The main object is Bayesian estimation and evaluation of election surveys (statistical inference and simulation). The plurality rule is taken as fixed and is not itself studied axiomatically, strategically or computationally."
+   },
+   "chosen": "B",
+   "reason": "The paper studies statistical inference about polls and survey validity rather than a voting procedure or its strategic or computational aspects, so it is ineligible."
+  }
+ }
+}

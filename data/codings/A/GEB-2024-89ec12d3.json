@@ -1,0 +1,131 @@
+{
+ "paper_id": "GEB-2024-89ec12d3",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "INELIG",
+  "loc": "Introduction, p. 3; Abstract, p. 1",
+  "quote": "We survey the latest developments in the area since Monjardet\u2019s",
+  "note": "The paper calls itself a survey and progress report. Its main object is the combinatorial structure of maximal Condorcet domains: sets of linear orders for which the majority relation is acyclic. It does not centre on a voting procedure or its strategic or computational aspects. The few new results (e.g. Prop. 2.3, Prop. 3.4, Prop. 4.1) are combinatorial facts about domains. The codebook lists surveys as an example of INELIG. Coding stopped."
+ },
+ "C1": {
+  "types": [],
+  "primary": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded (INELIG)."
+ },
+ "C2.1": {
+  "value": "",
+  "loc": "",
+  "quote": ""
+ },
+ "C2.2": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "Not coded (INELIG)."
+ },
+ "C2.3": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded (INELIG)."
+ },
+ "C2.4": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded (INELIG)."
+ },
+ "C3.1": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded (INELIG)."
+ },
+ "C3.2": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded (INELIG)."
+ },
+ "C3.3": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded (INELIG)."
+ },
+ "C4.1": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded (INELIG)."
+ },
+ "C4.2": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded (INELIG)."
+ },
+ "C5.1": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded (INELIG)."
+ },
+ "C5.2": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded (INELIG)."
+ },
+ "C6": {
+  "VOT": {},
+  "CAN": {},
+  "ORG": {},
+  "DIS": {},
+  "BRI": {},
+  "DES": {},
+  "OTH": {}
+ },
+ "C7.1": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded (INELIG)."
+ },
+ "C7.2": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded (INELIG)."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "Not coded (INELIG)."
+ },
+ "C8.2": {
+  "code": "",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "",
+  "claims": [],
+  "note": "Not coded (INELIG)."
+ },
+ "C9.2": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded (INELIG)."
+ },
+ "C10.1": {
+  "code": "",
+  "loc": "",
+  "quote": "",
+  "note": "Not coded (INELIG)."
+ }
+}

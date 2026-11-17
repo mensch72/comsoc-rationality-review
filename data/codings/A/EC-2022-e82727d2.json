@@ -1,0 +1,189 @@
+{
+ "paper_id": "EC-2022-e82727d2",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Section 2.1, p.7",
+  "quote": "how votes are aggregated to produce the Nk winners in each",
+  "note": "Multi-winner voting rules combined with districting; the collective decision is made by voting."
+ },
+ "C1": {
+  "types": [
+   "EM",
+   "SI",
+   "SB",
+   "WD"
+  ],
+  "primary": "EM",
+  "loc": "Abstract, p.1",
+  "quote": "We carry out large-scale empirical analyses for the U.S. House",
+  "note": "The main analyses use real precinct and voter-file data. Section 4 and Appendix B simulate synthetic rankings. Gerrymandering is studied as partisan map optimisation (SB), and proportionality is the evaluation objective (WD)."
+ },
+ "C2.1": {
+  "value": "votes; a set of approved candidates or a ranking over candidates; voter rankings",
+  "loc": "Section 2.1, p.7",
+  "quote": "either a set of approved candidates or a ranking over candidates"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK",
+   "APPR"
+  ],
+  "loc": "Section 2.1, p.7",
+  "quote": "either a set of approved candidates or a ranking over candidates",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2.1, p.6; Section 4.1, p.22",
+  "quote": "The utility that voter v assigns to candidate c is",
+  "note": "Voters have party membership pv, partisan scores and utilities u(v,c)."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 4.1, p.22",
+  "quote": "Each voter submits a complete ranking of all candidates in their",
+  "note": "The held attitude (party pv, utilities u(v,c)) has separate notation from the submitted approval set or ranking. Rankings are derived from utilities by an assumption."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Section 2.2, p.9; Section 4.1, p.22",
+  "quote": "each voter simply approves all the candidates in their party",
+  "note": "Strategic concerns appear only in footnote 7, as a reason for fixing the number of candidates. No strategic voting is analysed."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Section 2.2, p.9; Section 4.1, p.22",
+  "quote": "ordered by decreasing realized utility",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "EMP",
+  "loc": "Section 2.2, p.9",
+  "quote": "party membership is a strong predictor of the party of the",
+  "note": "The paper appeals to an empirical regularity and also to redistricting-literature convention. EMP is chosen as listed first."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 4.1, p.22",
+  "quote": "u(v, c) = \u2212|sv \u2212 sc | + \u03b5vc",
+  "note": "Rankings are ordered by decreasing realized utility from a random utility model."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2.1, p.7",
+  "quote": "the proportionality gap is the difference |wR \u2212 yR |",
+  "note": "Proportionality to party vote share is presented as fairness; the paper uses fair and proportional interchangeably."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 2.1, p.7",
+  "quote": "the fraction of voters yp (vote share)",
+  "note": "yp is defined as the fraction of voters belonging to each party, a held attitude. Under solid coalitions it coincides with submitted votes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2.2, p.9",
+   "quote_behav": "each voter simply approves all the candidates in their party",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates are synthetic alternatives only."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "Map-drawing commissions are coded as DIS."
+  },
+  "DIS": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 2.1, p.7",
+   "quote_behav": "a party can gerrymander a map to maximize the seats won",
+   "loc_info": "Section 4.2, p.25",
+   "quote_info": "the optimizer draws maps assuming zero noise",
+   "note": "Partisan gerrymanderers maximise seats; independent commissions minimise the proportionality gap. Map drawers use historical vote shares and their variance; Figure 14 considers perfect knowledge as a variant."
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N",
+   "note": "Rule design choices are compared, but the designer's choice is not modelled."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "Y",
+  "loc": "Section 2.1, p.7; Section 2.2, p.9",
+  "quote": "a party can gerrymander a map to maximize the seats won",
+  "note": "District designers (DIS) are strategic; voters (VOT) are non-strategic."
+ },
+ "C7.2": {
+  "code": "REASON",
+  "loc": "Section 2.2, footnote 7, p.9",
+  "quote": "having more candidates than seats does not create such concerns",
+  "note": "Footnote 7 argues that the candidate setup avoids strategic concerns for voters."
+ },
+ "C8.1": {
+  "codes": [
+   "DEV"
+  ],
+  "loc": "Section 2.3, p.11",
+  "quote": "the most gerrymandered map for each party",
+  "note": "Map drawers' optimisation is solved by dynamic and integer programs."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 2.3, p.12",
+  "quote": "efficiently traversed with a dynamic program to select the most gerrymandered"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.1",
+    "quote": "fairness-minded independent commissions would be able to achieve proportional outcomes"
+   },
+   {
+    "loc": "Introduction, p.3",
+    "quote": "part of the proposal could be relaxed without sacrificing its proportionality goals"
+   },
+   {
+    "loc": "Conclusion, p.26",
+    "quote": "showing the promise of multi-member districts with non-winner-take-all rules"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 2.2, p.9",
+  "quote": "our additional assumption is that this behavior extends to partisan voting",
+  "note": "The needed assumptions are partisan (solid-coalition) voting, sincere approval or ranking, and map drawers' knowledge of vote shares; all are stated and discussed."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 2, 4.1, 5",
+  "quote": "none found",
+  "note": "The paper notes that its results should not be interpreted as predictions, but it does not take a procedural reading."
+ }
+}

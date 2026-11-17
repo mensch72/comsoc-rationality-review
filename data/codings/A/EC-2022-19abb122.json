@@ -1,0 +1,175 @@
+{
+ "paper_id": "EC-2022-19abb122",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "A voting rule decides on a probability distribution over a set",
+  "note": "Probabilistic single-winner voting rules evaluated by distortion and proportional fairness."
+ },
+ "C1": {
+  "types": [
+   "WD",
+   "AL",
+   "SB"
+  ],
+  "primary": "WD",
+  "loc": "Abstract, p.1; Sec. 4.3, p.15; App. D, p.27",
+  "quote": "We evaluate how well voting rules do on measures of social welfare",
+  "note": "Most results are distortion or proportional-fairness bounds (WD). There are polynomial-time computation results (AL) and lower bounds for strategyproof rules (SB, App. D)."
+ },
+ "C2.1": {
+  "value": "preference profile; preference ranking; rankings",
+  "loc": "Sec. 2, p.5",
+  "quote": "We refer to the collection \u20d7\u03c3 = (\u03c3i )i\u2208N as a preference profile."
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Sec. 2, p.5",
+  "quote": "Each agent i \u2208 N submits a preference ranking over the alternatives",
+  "note": "Bijective rank functions, i.e. strict rankings."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec. 2, p.5",
+  "quote": "We assume that when agents submit ranked preferences, they have more expressive",
+  "note": "Cardinal utility functions u_i are held attitudes."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Sec. 2, p.5",
+  "quote": "Note that voting rules have access to the preference profile but not",
+  "note": "Separate notation is used for the submitted profile \u03c3 and the utility profile u, linked by a consistency relation."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "App. D, p.27",
+  "quote": "no agent can increase her utility by misreporting her vote",
+  "note": "Truthfulness and strategyproofness are analysed for the lower bounds on truthful rules; the main distortion and PF results are not strategic."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Sec. 1, p.1",
+  "quote": "but reports only the induced ranking over alternatives to the voting rule",
+  "note": "The implicit utilitarian framework assumes agents report the ranking induced by their utilities."
+ },
+ "C3.3": {
+  "code": "CONV",
+  "loc": "Sec. 1, p.1",
+  "quote": "we build upon the framework of implicit utilitarian voting [Procaccia and Rosenschein, 2006]",
+  "note": "The reasons given (cognitive burden, privacy) concern why rankings rather than utilities are elicited, not why reports are sincere."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Sec. 2, p.5",
+  "quote": "we say that a utility function ui for agent i is consistent",
+  "note": "Consistency is defined: a \u227bi a\u2032 implies ui(a) \u2265 ui(a\u2032)."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' appears only in cited reference titles; the paper uses 'approval utilities' defined as 0/1 utilities."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sec. 2.1, Def. 2.1, p.6; Def. 2.3, p.7",
+  "quote": "the distortion of a distribution x \u2208 \u2206(A) is the ratio",
+  "note": "Distortion, Nash welfare, core and proportional fairness are all used in results."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Sec. 2.1, p.5",
+  "quote": "a voting rule is allowed to observe only the preference profile \u20d7\u03c3",
+  "note": "Evaluated on hidden utility profiles consistent with the submitted rankings, in the worst case."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Sec. 1, p.1; App. D, p.27",
+   "quote_behav": "but reports only the induced ranking over alternatives to the voting rule",
+   "loc_info": "Sec. 2; App. D (checked)",
+   "quote_info": "none found",
+   "note": "Voters report sincerely in the main analyses; possible misreporting is considered only in the strategyproofness analysis."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [
+   "DOM"
+  ],
+  "loc": "App. D, Def. D.1, p.27",
+  "quote": "A voting rule f is called strategyproof (also known as truthful )",
+  "note": ""
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "App. D, Def. D.1, p.27",
+  "quote": "A voting rule f is called strategyproof (also known as truthful )"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.1",
+    "quote": "making it interesting for applications in participatory budgeting"
+   },
+   {
+    "loc": "Sec. 1, p.2",
+    "quote": "if you want to be efficient, it pays to also be fair"
+   },
+   {
+    "loc": "Sec. 5, p.17",
+    "quote": "Can we design simple rules that perform well on these quantitative metrics?"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sec. 1, p.1; Sec. 2, p.5",
+  "quote": "We assume that when agents submit ranked preferences, they have more expressive",
+  "note": "Needed assumptions are both stated: truthful reporting of the induced ranking, and utilities consistent with the rankings."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sec. 1, Sec. 2, Sec. 5 (checked)",
+  "quote": "none found",
+  "note": ""
+ }
+}

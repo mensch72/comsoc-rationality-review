@@ -1,0 +1,224 @@
+{
+ "paper_id": "IJCAI-2023-59c4763a",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Section 2",
+  "quote": "study the effect of different deliberation mechanisms on voting outcomes",
+  "note": "Approval-based multi-winner voting rules evaluated after deliberation."
+ },
+ "C1": {
+  "types": [
+   "SI",
+   "WD"
+  ],
+  "primary": "SI",
+  "loc": "Section 4-5",
+  "quote": "This entire simulation is repeated 10, 000 times and the average values are reported.",
+  "note": "Simulation on synthetic data, evaluating welfare, representation and proportionality of rules."
+ },
+ "C2.1": {
+  "value": "approval ballot; approval profile",
+  "loc": "Section 2, p.2",
+  "quote": "Each voter i \u2208 N , has an approval ballot Ai \u2286 C"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Section 2",
+  "quote": "Each voter i \u2208 N , has an approval ballot Ai \u2286 C",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 3.1",
+  "quote": "we assume that agents have underlying cardinal utilities for candidates",
+  "note": "Utilities and ordinal preferences are held attitudes."
+ },
+ "C2.4": {
+  "code": "IDJ",
+  "loc": "Section 3.2 footnote 3; Section 4",
+  "quote": "we assume agents are non-strategic and truthfully reveal their utilities",
+  "note": "Approval ballot is derived mechanically as top-b_i of the preference ranking; truthful reporting is assumed with reference to deliberation literature convention. Held attitude and ballot are modelled with separate notation, but the ballot is generated as the top-ranked set. Closest fit is IDJ-like (stated, with a convention reason) but could be IDS. Doubt resolved by the listed-first rule among the identity codes."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 3-5",
+  "quote": "we assume agents are non-strategic and truthfully reveal their utilities",
+  "note": "No analysis has voters submitting a ballot differing from the held attitude."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Section 3.2 footnote 3",
+  "quote": "we assume agents are non-strategic and truthfully reveal their utilities",
+  "note": "The statement concerns revealing utilities in deliberation; the ballot is the top-ranked set of the preference ranking (Section 4)."
+ },
+ "C3.3": {
+  "code": "CONV",
+  "loc": "Section 3.2 footnote 3",
+  "quote": "As is common in much of the deliberation literature",
+  "note": ""
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 3.1",
+  "quote": "ui (cx ) \u2265 ui (cy ) if and only if cx \u2ab0i cy in Pi0",
+  "note": "Utilities consistent with the ordinal ranking; the approval ballot is the top b_i candidates."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2.3; Section 5",
+  "quote": "We compare the above voting rules according to different standard objectives",
+  "note": "Utilitarian welfare, representation, EJR/PJR."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 2.1 Def. 1; Section 3.1",
+  "quote": "ui (c) \u2208 R is the utility voter i derives from candidate c.",
+  "note": "Welfare is evaluated on the underlying cardinal utilities. Representation and EJR/PJR are evaluated on approval ballots."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 3.2 footnote 3",
+   "quote_behav": "we assume agents are non-strategic and truthfully reveal their utilities",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Agents speak, update opinions and vote under fixed rules."
+  },
+  "CAN": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Candidates are only alternatives."
+  },
+  "ORG": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 3.3",
+   "quote_behav": "we divide the agent population into g sub-groups of approximately equal size",
+   "note": "The organiser forms deliberation groups using fixed strategies (homogeneous, heterogeneous, random, golfer). These are compared rather than optimised, so they are non-strategic."
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "N",
+  "loc": "Section 3",
+  "quote": "none found",
+  "note": "Both voter and organiser types are non-strategic."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is N"
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is strategic."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract",
+    "quote": "deliberation generally improves welfare and representation guarantees"
+   },
+   {
+    "loc": "Abstract",
+    "quote": "This has ramifications on the practical use of such voting rules"
+   },
+   {
+    "loc": "Conclusion",
+    "quote": "our findings can further support the design of effective citizen-focused democratic processes"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 3.1; Section 4",
+  "quote": "Agent i's approval vote is then the set consisting of its bi top-ranked candidates",
+  "note": "Real-world claims about welfare and the use of simple rules need an assumption on how the utility model (uniform utilities, Mallows preferences, BC parameters) matches real citizens. The truthful-reporting assumption is stated, but the link of the simulated deliberation to real deliberation is not stated as an assumption."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": ""
+ }
+}

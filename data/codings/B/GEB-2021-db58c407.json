@@ -1,0 +1,183 @@
+{
+ "paper_id": "GEB-2021-db58c407",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1; Section 2, p.6",
+  "quote": "committee of experts to vote on a multi-attribute alternative",
+  "note": "Strategic voting in committees under k-majority rules; equilibrium voting analysis."
+ },
+ "C1": {
+  "types": [
+   "EQ",
+   "WD"
+  ],
+  "primary": "EQ",
+  "loc": "Sections 3-5, pp.7-22",
+  "quote": "we solve for symmetric (Bayesian-Nash) equilibria of the voting game",
+  "note": "Equilibrium voting characterised; principal's payoff compared for committee composition (welfare-like objective of principal). No axioms, simulations, or data."
+ },
+ "C2.1": {
+  "value": "votes (Yes/No); private signals",
+  "loc": "Section 2, p.6",
+  "quote": "committee members simultaneously vote Yes/No"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 2, p.6",
+  "quote": "committee members simultaneously vote Yes/No",
+  "note": "Binary Yes/No votes on a single alternative vs status quo; this is not rankings, approval sets, or cardinal reports."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.6",
+  "quote": "expert i may also value others\u2019 signals about the alternative",
+  "note": "Interdependent payoffs v_i^A, private signals are held attitudes."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 3, p.8",
+  "quote": "Expert i is said to vote sincerely if he conditions his vote only",
+  "note": "Votes (cutoff strategies) are separate from signals and payoffs; strategic voting differs from sincere."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "Section 3 and 5, pp.8, 17",
+  "quote": "equilibrium voting is generically strategic and depends on the degree of partisanship",
+  "note": "Experts vote strategically in equilibrium; the uninformed follow best responses too. The principal's optimal-voting benchmark is not strategic dictation, but all voters are equilibrium players, so arguably ALL; benchmark analysis is not about voters misreporting. Choose SOME because the optimal-voting benchmark dictates cutoffs."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Section 4, p.11",
+  "quote": "Suppose that the principal could dictate the cutoff x",
+  "note": "In the benchmark, the principal dictates cutoffs; voters are not modelled as strategic. Sincerity is not stated for this benchmark, and sincere voting is only a special equilibrium case. This is borderline; coded NOT-STATED would also fit."
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Section 4, p.11",
+  "quote": "Suppose that the principal could dictate the cutoff x",
+  "note": "No reason for sincerity is given for the benchmark."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Section 2, p.6",
+  "quote": "none found",
+  "note": "Input is Yes/No vote (OTH), not RANK/WEAK/APPR/DICH/PAIR."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "Term dichotomous preferences not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 4, p.10, eq. (7)",
+  "quote": "the principal who cares about the alternative\u2019s average quality",
+  "note": "Principal's payoff, i.e. average quality (utilitarian welfare, footnote 9), is evaluated for committee composition."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 2, p.7",
+  "quote": "The principal, representing the organization, cares about the average quality",
+  "note": "Evaluated on signals \u03b8_i, which are held and defined separately from votes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 3, p.7",
+   "quote_behav": "we solve for symmetric (Bayesian-Nash) equilibria of the voting game",
+   "loc_info": "Section 2, p.6",
+   "quote_info": "each expert receives private information about the \u201cquality\u201d of one attribute",
+   "note": "Each knows own signal and the distribution F; conditions on pivotal event."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NONE",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 4, p.12",
+   "quote_behav": "the principal may try to influence the equilibrium voting by appointing",
+   "loc_info": "Section 2, p.6",
+   "quote_info": "An uninformed principal must decide between the status quo",
+   "note": "Principal chooses committee composition \u03b2, information \u03bb, and size; she is the committee appointer (organiser). Uninformed about signals."
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "N",
+  "loc": "Section 4-5",
+  "quote": "none found",
+  "note": "Both voters and principal are STRAT."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "none found",
+  "note": "C7.1 is N."
+ },
+ "C8.1": {
+  "codes": [
+   "BNE"
+  ],
+  "loc": "Section 2, p.7",
+  "quote": "we solve for symmetric (Bayesian-Nash) equilibria of the voting game",
+  "note": "The principal's choice is an optimisation over \u03b2 given equilibrium, a Stackelberg-like structure; not coded separately."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 2, p.7",
+  "quote": "we solve for symmetric (Bayesian-Nash) equilibria of the voting game"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.4",
+    "quote": "the principal may sometimes raise \u2013 not lower \u2013 the cost of information"
+   },
+   {
+    "loc": "Section 5.2/Conclusion, p.22",
+    "quote": "the simple majority emerges as a robust rule under which the principal"
+   },
+   {
+    "loc": "Abstract, p.1",
+    "quote": "the principal may prefer to have some when its composition is suboptimal"
+   }
+  ],
+  "note": "Claims about institutional design and which rule/composition to use."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 2, p.6-7",
+  "quote": "we solve for symmetric (Bayesian-Nash) equilibria of the voting game",
+  "note": "Needed assumptions (equilibrium play, private signals, payoffs, commonly known partisanship) are stated in the model."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No procedural reading statement."
+ }
+}

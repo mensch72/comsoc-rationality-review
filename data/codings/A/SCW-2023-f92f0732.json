@@ -1,0 +1,10 @@
+{
+ "paper_id": "SCW-2023-f92f0732",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "INELIG",
+  "loc": "Abstract, p. 397; Section 1, pp. 397-398; Section 5, p. 414",
+  "quote": "characterizes the Shapley value (the Shapley\u2013Shubik power index) on the domain",
+  "note": "The main object is a value or power index for cooperative TU games and simple games. It allocates surplus or measures players' a priori voting power. It does not aggregate agents' inputs into a collective decision by voting, and it does not study strategic or computational aspects of such a procedure. Simple games appear only as representations of voting systems whose power distribution is measured. This is an axiomatic cooperative game theory and fair-allocation paper, so coding stops at C0."
+ }
+}

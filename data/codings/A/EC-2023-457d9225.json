@@ -1,0 +1,172 @@
+{
+ "paper_id": "EC-2023-457d9225",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Sec. 2.2, p.5",
+  "quote": "all deterministic voting rules have unbounded distortion",
+  "note": "Studies distortion of deterministic voting rules under a public-spirited voter model."
+ },
+ "C1": {
+  "types": [
+   "WD",
+   "AX"
+  ],
+  "primary": "WD",
+  "loc": "Sec. 1.1, p.3",
+  "quote": "give tight bounds on the distortion of several popular voting rules",
+  "note": "AX covers Sec. 4 (PS-monotonicity and the impossibility via Muller-Satterthwaite)."
+ },
+ "C2.1": {
+  "value": "preference profile; rankings",
+  "loc": "Sec. 2.1, p.5",
+  "quote": "expresses their preferences over alternatives as a strict, complete ranking"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Sec. 2.1, p.5",
+  "quote": "expresses their preferences over alternatives as a strict, complete ranking",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec. 2.1, p.4",
+  "quote": "We de\ufb01ne a utility matrix",
+  "note": "Utilities and public-spirit levels are held attitudes defined separately from rankings."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Sec. 2.1, p.5",
+  "quote": "alternatives are ordered in decreasing order of PS-value; formally, for any voter",
+  "note": "Rankings, utilities and PS-values use separate notation; rankings are derived from PS-values."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sec. 6.1, p.18",
+  "quote": "The possibility of some voters being strategic opens several questions",
+  "note": "Strategic voting is left to future work. Rankings may differ from the order of own utilities, but they are fixed by the PS-values, not chosen strategically."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Sec. 2.1, p.5",
+  "quote": "contains the values for alternatives by which voters decide how to vote",
+  "note": "States that voters rank by PS-values."
+ },
+ "C3.3": {
+  "code": "EMP",
+  "loc": "Sec. 1, footnote 1, p.2",
+  "quote": "Public-spirited behavior among voters has been demonstrated empirically",
+  "note": "The reason is empirical support for the public-spirited behavioural model. No reason is given for the absence of strategic misreporting."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Sec. 2.1, Eq. (2), p.5",
+  "quote": "alternatives are ordered in decreasing order of PS-value; formally, for any voter",
+  "note": "Rankings are generated from utilities via the PS-values of Eq. (1)."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sec. 2.3, p.6",
+  "quote": "is the ratio between the respective welfares of the highest-welfare alternative",
+  "note": "Distortion with respect to utilitarian social welfare."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Sec. 2.3, p.6",
+  "quote": "is the ratio between the respective welfares of the highest-welfare alternative",
+  "note": "Welfare is computed on the utility matrix U, not on the rankings."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Sec. 1, p.2",
+   "quote_behav": "instead of ranking alternatives according to only their own utilities",
+   "loc_info": "Sec. 5.2, p.16",
+   "quote_info": "Our model assumes that voters know (or can come to know)",
+   "note": "Voters' rankings are fixed by their PS-values. The paper also assumes voters know their own utilities and alternatives' welfares."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no agent type is strategic."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.1",
+    "quote": "our results suggest an implementable approach to improving the welfare outcomes"
+   },
+   {
+    "loc": "Sec. 6, p.17",
+    "quote": "cultivating voters\u2019 public spirit as a new approach to increasing the welfare"
+   },
+   {
+    "loc": "Sec. 6, p.17",
+    "quote": "interventions that promote public spirited voting can only help."
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sec. 2.1, p.5; Sec. 6, p.18",
+  "quote": "Of course, these results arise from a theoretical model, so their practical",
+  "note": "Needed assumptions are stated: how rankings relate to utilities (PS-value model), welfare measured on held utilities, and non-strategic voters (acknowledged as a limitation). The link from deliberation to public spirit is supported by cited empirical work."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sec. 1, Sec. 2, Sec. 6",
+  "quote": "none found",
+  "note": ""
+ }
+}

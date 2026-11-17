@@ -1,0 +1,231 @@
+{
+ "paper_id": "COMSOC-2021-cb7d9155",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "counting variants of Swap- and ShiftBribery",
+  "note": "Computational (counting) complexity of bribery in voting rules, plus robustness experiments."
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "SB",
+   "SI",
+   "EM"
+  ],
+  "primary": "AL",
+  "loc": "Sections 3-4",
+  "quote": "Plurality #Swap-Bribery is #P-hard and #W[1]-hard",
+  "note": "Main results are complexity theorems; experiments on synthetic and cycling data are also reported. Counting bribery is related to SB."
+ },
+ "C2.1": {
+  "value": "votes / preference orders",
+  "loc": "Section 2, p.3",
+  "quote": "we sometimes refer to preference orders as votes",
+  "quote_note": ""
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2, p.3",
+  "quote": "Each voter vi has a preference order, which ranks all candidates",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 1, p.1",
+  "quote": "some voter would have ranked two candidates differently",
+  "note": "Introduction mentions voters who viewed candidates as similar or lacked information, i.e. held attitudes outside the formal model; the formal model uses only preference orders."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2, p.3",
+  "quote": "Each voter vi has a preference order, which ranks all candidates",
+  "note": "Preference orders are described as voters' preferences and the rule applied directly; no statement about submission vs. held attitude. The intro mentions possible misranking, which only informally suggests errors."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 3-4",
+  "quote": "none found",
+  "note": "No voters are modelled as strategic; bribery changes votes externally and the swaps are random."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 2, 5",
+  "quote": "none found",
+  "note": "No statement that voters submit their held attitude."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED"
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No utility-type notions for voters are used."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Dichotomous preferences are not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 3-4",
+  "quote": "none found",
+  "note": "Robustness of winners is evaluated, not welfare, efficiency, representation or distortion."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters take no action in the model; swaps are applied by the briber or at random."
+  },
+  "CAN": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "ORG": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "BRI": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "IMPLICIT",
+   "loc_behav": "Section 2, p.4",
+   "quote_behav": "We ask if there is an election E 0 where p is an R-winner",
+   "loc_info": "Section 2, p.4",
+   "quote_info": "we are given an election E, a designated candidate p, and a budget r",
+   "note": "The briber is the Swap-/Shift-Bribery decision problem agent seeking to make p win; full knowledge of the election is implicit in the input. Counting variants count the ways to achieve the goal."
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only one type (BRI) present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y"
+ },
+ "C8.1": {
+  "codes": [
+   "DEV"
+  ],
+  "loc": "Section 2, p.4",
+  "quote": "We ask if there is an election E 0 where p is an R-winner",
+  "note": "Bribery is a decision/optimisation problem about the existence of actions achieving a goal."
+ },
+ "C8.2": {
+  "code": "N",
+  "loc": "Section 2",
+  "quote": "none found"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.1",
+    "quote": "counting variants of Swap-Bribery offer a new approach to the"
+   },
+   {
+    "loc": "Section 1, p.1",
+    "quote": "we might want to recount the votes or reexamine the election process"
+   },
+   {
+    "loc": "Section 5, p.12",
+    "quote": "are very useful for analyzing the robustness of election winners"
+   }
+  ],
+  "note": "Claims are about practical use of the approach for real elections and institutions."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 1, p.1",
+  "quote": "the probability of changing the election outcome by making some random swaps",
+  "note": "For the practical robustness claim to follow, one needs the random-swap model to reflect real voter errors or uncertainty, and a relation between votes and voters' held opinions. The latter is not stated; the intro only informally mentions misranking."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1-2",
+  "quote": "none found",
+  "note": "No explicit procedural reading is stated."
+ }
+}

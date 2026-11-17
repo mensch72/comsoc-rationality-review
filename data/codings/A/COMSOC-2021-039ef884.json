@@ -1,0 +1,171 @@
+{
+ "paper_id": "COMSOC-2021-039ef884",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "we consider a sequence of subsequent approvalbased elections",
+  "note": "Axiomatic study of perpetual (sequential) approval-based voting rules."
+ },
+ "C1": {
+  "types": [
+   "AX"
+  ],
+  "primary": "AX",
+  "loc": "Abstract, p.1",
+  "quote": "we look at perpetual voting rules from an axiomatic perspective",
+  "note": "Polynomial-time computability (Prop. 8(v)) is a minor sub-claim, so AL was not coded."
+ },
+ "C2.1": {
+  "value": "approval profile; decision sequence",
+  "loc": "Section 2, p.2",
+  "quote": "An approval profile A = (A(1), . . . , A(n)) for C"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Section 2, p.2",
+  "quote": "each voter v \u2208 N approves some non-empty subset of C",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.3",
+  "quote": "subject to the preferences in Ak+1 and under consideration of H",
+  "note": "The paper calls the approval sets preferences. No attitude separate from the input is defined."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2, p.3; Related work, p.2",
+  "quote": "Perpetual voting does not assume utility functions (but approval-based preferences)",
+  "note": "Approval sets are described as preferences, and the rule is applied to them with no statement about reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-5",
+  "quote": "including, e.g., strategy-proofness",
+  "note": "Strategy-proofness is mentioned only as future work."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Introduction, Related work, Section 2, Section 5",
+  "quote": "none found",
+  "note": "The related-work remark that fairness should be achieved 'without strategic voting' does not state that voters report sincerely."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 2, p.3",
+  "quote": "the satisfaction of a voter is the number of past decisions",
+  "note": "Defined as sat(v,w) = |{i \u2264 k : wi \u2208 Ai(v)}|."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 3, Def. 5, p.6; Section 4.2, Def. 7",
+  "quote": "A perpetual voting rule R satisfies simple proportionality if",
+  "note": "Proportionality, representation and satisfaction-based axioms are used in results."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 2, p.3",
+  "quote": "the satisfaction of voter v \u2208 N with w\u0304 is sat(v, w\u0304)",
+  "note": "Satisfaction is computed from the approval input, with no statement relating it to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2, p.2",
+   "quote_behav": "each voter v \u2208 N approves some non-empty subset of C",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Approval sets are exogenous inputs."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.1",
+    "quote": "it is not acceptable if always the same colleague has to compromise"
+   },
+   {
+    "loc": "Introduction, p.1",
+    "quote": "This can lead to unrepresentative results and, eventually, to dissatisfied voters"
+   },
+   {
+    "loc": "Section 5, p.12",
+    "quote": "but is still an unacceptable rule"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 2; Section 5",
+  "quote": "none found",
+  "note": "Claims about fairness to voters and voter dissatisfaction need the approval inputs to reflect what voters actually hold, and that voters do not misreport; neither is stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction, Section 2, Section 5",
+  "quote": "none found",
+  "note": ""
+ }
+}

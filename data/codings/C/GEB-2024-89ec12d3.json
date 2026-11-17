@@ -1,0 +1,15 @@
+{
+ "paper_id": "GEB-2024-89ec12d3",
+ "decisions": {
+  "C0": {
+   "value": {
+    "code": "INELIG",
+    "loc": "Abstract, p. 1; Introduction, p. 3-4",
+    "quote": "We survey the latest developments in the area since Monjardet\u2019s",
+    "note": "The paper calls itself a survey (\"the present survey\"), and the codebook lists surveys as INELIG. Its main object is the combinatorial structure of maximal Condorcet domains, not a voting procedure or its strategic or computational aspects. The few new results are combinatorial facts about domains."
+   },
+   "chosen": "A",
+   "reason": "The paper describes itself as a survey, which the codebook lists as INELIG, and its focus is the combinatorics of preference domains rather than a voting procedure."
+  }
+ }
+}

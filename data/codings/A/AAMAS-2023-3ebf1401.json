@@ -1,0 +1,178 @@
+{
+ "paper_id": "AAMAS-2023-3ebf1401",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1391",
+  "quote": "first decides a representative alternative for each district based on",
+  "note": "Distributed single-winner voting mechanisms and their distortion."
+ },
+ "C1": {
+  "types": [
+   "WD",
+   "SB",
+   "SI",
+   "EM"
+  ],
+  "primary": "WD",
+  "loc": "Abstract, p.1391; Sections 3-5",
+  "quote": "show asymptotically tight bounds on their distortion",
+  "note": "Most results are distortion bounds. There are also strategyproofness results (SB), synthetic simulations (SI) and Jester real-data experiments (EM)."
+ },
+ "C2.1": {
+  "value": "valuation profile; ordinal profile; information about the preferences of the agents",
+  "loc": "Section 2, p.1393",
+  "quote": "let \ud835\udf39 (\ud835\udc3c ) be the information about the preferences of the"
+ },
+ "C2.2": {
+  "codes": [
+   "CARD",
+   "RANK"
+  ],
+  "loc": "Section 2, Mechanisms, p.1393",
+  "quote": "rankings of alternatives that are consistent to the values of",
+  "note": "Cardinal mechanisms use valuations; ordinal mechanisms use rankings induced by the valuations."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.1392",
+  "quote": "The preferences of each agent \ud835\udc56 \u2208 \ud835\udc41 are captured by",
+  "note": "Valuation functions are held by agents."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2, Strategyproofness, p.1393",
+  "quote": "when only agent \ud835\udc56 reports information different than that in \ud835\udc3c",
+  "note": "Outside the strategyproofness definition, mechanisms are applied directly to \u03b4(I), which would be IDU. The strategyproofness text says reports may differ from held valuations, so DIST is coded."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "Section 2, Strategyproofness, p.1393; Sections 3-4",
+  "quote": "providing false information never leads to the selection of an alternative",
+  "note": "Only the strategyproofness results consider misreporting."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Checked Introduction, Section 2 Preliminaries, Section 5, Section 6",
+  "quote": "none found",
+  "note": "Mechanisms are applied to \u03b4(I)=v or \u03c3 with no statement about truthful submission."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 2, Mechanisms, p.1393",
+  "quote": "rankings of alternatives that are consistent to the values of",
+  "note": ""
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2, Social Welfare and Distortion, p.1393",
+  "quote": "The efficiency of a distributed mechanism is measured by the notion",
+  "note": ""
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 2, p.1393",
+  "quote": "the social welfare of an alternative \ud835\udc4e \u2208 \ud835\udc34 is the",
+  "note": "Distortion is evaluated on held valuations v. Ordinal mechanisms see only the induced rankings \u03c3."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Section 1, p.1392; Section 2 Strategyproofness, p.1393",
+   "quote_behav": "in case the participants act selfishly",
+   "loc_info": "Checked Introduction, Section 2, Sections 3-4, Section 6",
+   "quote_info": "none found",
+   "note": "Voters are strategic only in the strategyproofness analyses. Their non-strategic behaviour elsewhere is only implicit."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N",
+   "note": "Best possible mechanisms are identified, but no designer agent or objective is modelled."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "DOM"
+  ],
+  "loc": "Section 2, Strategyproofness, p.1393",
+  "quote": "A strategyproof mechanism makes decisions such that providing false information",
+  "note": ""
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 2, p.1393",
+  "quote": "Another important property that we would like our mechanisms"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction 1.1, p.1392",
+    "quote": "using such rules it is possible to \u201cescape\u201d the ill effects of districts"
+   },
+   {
+    "loc": "Introduction 1.1, p.1392",
+    "quote": "evaluate the effect of distributed decision making to the distortion"
+   },
+   {
+    "loc": "Introduction, p.1391",
+    "quote": "identify the best voting rule to use"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 2; Section 5.1",
+  "quote": "We interpret the ratings of the jokes as cardinal valuations",
+  "note": "For non-strategyproof rules, claims about welfare in practice need voters to submit their true valuations or rankings; this is never stated. The link between utilities and rankings and the unit-sum normalisation are stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Checked Introduction, Section 2, Section 6",
+  "quote": "none found",
+  "note": ""
+ }
+}

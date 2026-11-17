@@ -1,0 +1,173 @@
+{
+ "paper_id": "AAAI-2024-09752c91",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Introduction, p. 9909",
+  "quote": "IRV selects a winner by repeatedly eliminating the candidate",
+  "note": "Compares IRV and plurality rules in a 1-Euclidean model."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "SI"
+  ],
+  "primary": "AX",
+  "loc": "Introduction, p. 9910; Figure 3, p. 9913",
+  "quote": "We say that a voting system has a combinatorial moderating effect",
+  "note": "Main results show which rules satisfy a defined property, the moderating effect or exclusion zones. Some results are probabilistic derivations of winner distributions. Simulations validate the results."
+ },
+ "C2.1": {
+  "value": "preferences / rankings (\"1-Euclidean preferences\"; \"voters submit a ranking over the candidates\"; votes, ballots)",
+  "loc": "Uniform Voters, p. 9911",
+  "quote": "voters submit a ranking over the candidates and their votes"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Introduction, p. 9910",
+  "quote": "voters form preferences over candidates by ranking them in order of proximity",
+  "note": "Rankings are induced by voter and candidate positions on [0,1]."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Introduction, p. 9910",
+  "quote": "representing left\u2013right ideology",
+  "note": "Voters have ideological positions and preferences derived from them."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Uniform Voters, p. 9911",
+  "quote": "Voters prefer candidates closer to them (i.e., they have 1-Euclidean",
+  "note": "The rule is applied to preferences induced by position. There is no statement about whether submitted ballots may differ from these preferences."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Discussion, p. 9915",
+  "quote": "First, we did not consider strategic analyses",
+  "note": ""
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Introduction; Uniform Voters; Discussion",
+  "quote": "none found",
+  "note": "Vote shares are defined as the mass of voters closest to each candidate. No explicit statement that voters report their preferences sincerely was found."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No utility, welfare or distortion notions are used for voters in the model."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Theorems 1-8",
+  "quote": "none found",
+  "note": "Rules are evaluated by the moderation of the winner's position, which is not among the listed criteria."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Uniform Voters, p. 9911",
+   "quote_behav": "the fraction of voters who vote for candidate xi is",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voting is fixed by proximity."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidate positions are exogenous or drawn at random. Candidates serve only as alternatives; the paper states it does not analyze strategic positioning."
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p. 9910",
+    "quote": "the structure of the IRV voting system favors moderate candidates"
+   },
+   {
+    "loc": "Introduction, p. 9910",
+    "quote": "Thus, IRV is even able to offset a level of polarization"
+   },
+   {
+    "loc": "Introduction, p. 9911",
+    "quote": "because of their widespread use in real-world elections"
+   }
+  ],
+  "note": "The results are framed as a contribution to the real-world plurality\u2013IRV debate."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Introduction, p. 9911; Discussion, p. 9915",
+  "quote": "we do not analyze strategic choices by candidates",
+  "note": "Two assumptions are needed. Non-strategic candidates is stated. That voters submit sincere proximity-based rankings, i.e. inputs equal held preferences, is not stated as an assumption."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction; Uniform Voters; Discussion",
+  "quote": "none found",
+  "note": ""
+ }
+}

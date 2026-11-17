@@ -1,0 +1,178 @@
+{
+ "paper_id": "AAMAS-2023-3ebf1401",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Section 2, p.1392",
+  "quote": "choose one alternative as the winner using a mechanism",
+  "note": "Distributed voting rules (districts) and their distortion; strategyproofness also studied."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "WD",
+   "SB",
+   "SI",
+   "EM"
+  ],
+  "primary": "WD",
+  "loc": "Section 1.1, Table 1; Section 5",
+  "quote": "we also experimentally compare the distortion of many different mechanisms",
+  "note": "Main results are distortion bounds (WD). Strategyproof mechanism results are SB. Experiments use synthetic and real data (Jester). AX is a weak fit, since the lower bounds concern all mechanisms rather than properties, so it is not included in the primary."
+ },
+ "C2.1": {
+  "value": "preferences of the agents; valuation profile; ordinal profile",
+  "loc": "Section 2, p.1392",
+  "quote": "valuation profile consisting of the valuation functions of all agents"
+ },
+ "C2.2": {
+  "codes": [
+   "CARD",
+   "RANK"
+  ],
+  "loc": "Section 2, p.1393",
+  "quote": "exact cardinal information about the valuation functions, or only ordinal information",
+  "note": "Cardinal mechanisms take valuations; ordinal mechanisms take rankings."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.1392",
+  "quote": "The preferences of each agent \ud835\udc56 \u2208 \ud835\udc41 are captured by a valuation function",
+  "note": "Valuations are held attitudes."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2, p.1393",
+  "quote": "it may be able to use exact cardinal information about the valuation functions",
+  "note": "Mechanisms are applied directly to valuations or consistent rankings. Rankings are defined as induced by values. Outside strategyproofness, there is no statement about submission or reporting."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "Section 2 Strategyproofness; Section 3-4",
+  "quote": "providing false information never leads to the selection of an alternative",
+  "note": "Strategyproofness analyses consider misreports; distortion analyses do not."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 2, 3, 4, 6",
+  "quote": "none found",
+  "note": "The distortion analyses do not state that voters submit their held attitude."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Section 2",
+  "quote": "",
+  "note": "Ordinal inputs are defined as consistent with the values (\u03c3_i(a)<\u03c3_i(b) if v_i(a)\u2265v_i(b)), so the link is specified. However, the applicability condition is met because RANK is included and welfare and distortion are used. Code SPEC."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2, Social Welfare and Distortion, p.1393",
+  "quote": "The efficiency of a distributed mechanism is measured by the notion of distortion.",
+  "note": "Distortion and social welfare are the central criteria."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 2, p.1393",
+  "quote": "the social welfare of an alternative \ud835\udc4e \u2208 \ud835\udc34 is the total value",
+  "note": "Welfare is evaluated on the cardinal valuations, which are separate from the ordinal input."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Section 2, Strategyproofness, p.1393",
+   "quote_behav": "providing false information never leads to the selection of an alternative",
+   "loc_info": "Section 2, Strategyproofness",
+   "quote_info": "none found",
+   "note": "Voters are strategic only in the strategyproofness analyses and are otherwise fixed as inputs. Information is not specified, although dominant strategy is the implied concept."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Section 2",
+  "quote": "",
+  "note": "Only the voters type is present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "DOM"
+  ],
+  "loc": "Section 2, Strategyproofness",
+  "quote": "A strategyproof mechanism makes decisions such that providing false information never leads",
+  "note": "Strategyproofness is defined in the dominant-strategy sense."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 2, Strategyproofness",
+  "quote": "A strategyproof mechanism makes decisions such that providing false information"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 1, p.1391",
+    "quote": "to identify the best voting rule to use to collectively aggregate"
+   },
+   {
+    "loc": "Section 1.1, p.1392",
+    "quote": "it is possible to \u201cescape\u201d the ill effects of districts"
+   },
+   {
+    "loc": "Section 5, p.1397",
+    "quote": "evaluate the effect of distributed decision making to the distortion in settings closer to practice"
+   }
+  ],
+  "note": "Claims concern which rule is best and the effects of districts in practice."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 1; Section 2",
+  "quote": "none found",
+  "note": "Claims about rule quality and real elections need the assumption that submitted rankings or valuations reflect held valuations, and that ordinal rules see consistent rankings. This is not stated outside the strategyproof analyses."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No procedural reading is stated."
+ }
+}

@@ -1,0 +1,229 @@
+{
+ "paper_id": "GEB-2022-98a37ffc",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Section 3, p.152",
+  "quote": "voters each vote simultaneously for one of the two candidates",
+  "note": "Two-candidate common-interest election; equilibrium of voting and candidate platform game. Eligible as a strategic aspect of voting."
+ },
+ "C1": {
+  "types": [
+   "EQ",
+   "WD"
+  ],
+  "primary": "EQ",
+  "loc": "Section 4, pp.153-157",
+  "quote": "there exists a unique OSPBE",
+  "note": "Equilibrium existence and characterization (Thms 1-3); welfare Proposition 1 and welfare discussion."
+ },
+ "C2.1": {
+  "value": "voting strategy; vote",
+  "loc": "Section 3, p.153",
+  "quote": "a voting strategy is a measurable function"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 3, p.152",
+  "quote": "voters each vote simultaneously for one of the two candidates",
+  "note": "Binary vote for one of two candidates (plurality between two); not in listed formats."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 3, p.152",
+  "quote": "each voter observes a private signal si",
+  "note": "Voters hold signals/beliefs about z and utility u(x,z)."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 3, p.153",
+  "quote": "a voter's best response maximizes the expectation",
+  "note": "Vote is a strategy function of private signal and utility; separate objects, votes chosen strategically."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Section 4.1, p.153",
+  "quote": "a voter favors the candidate whose platform is closest",
+  "note": "Voters play Bayesian Nash equilibrium (strategic voting, pivotal reasoning) throughout."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "Section 4",
+  "quote": "none found",
+  "note": "C3.1 = ALL"
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "Section 4",
+  "quote": "none found",
+  "note": "C3.2 not STATED"
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Section 3",
+  "quote": "none found",
+  "note": "Input is not ranking/approval/etc.; vote for one of two candidates, utility defined directly on policies."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 4.5, p.155",
+  "quote": "it is uncontroversial to measure social welfare simply by the expectation",
+  "note": "Proposition 1 and welfare analysis."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 4.5, p.155",
+  "quote": "measure social welfare simply by the expectation of policy utility",
+  "note": "Welfare evaluated on utility u(x,z) defined separately from votes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 3, p.153",
+   "quote_behav": "a voter's best response maximizes the expectation",
+   "loc_info": "Section 3, p.152",
+   "quote_info": "Before voting, each voter observes a private signal si",
+   "note": "Voters know candidate platforms, have private signals, and infer from pivotality."
+  },
+  "CAN": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 3, p.152",
+   "quote_behav": "the two candidates simultaneously commit to policy platforms",
+   "loc_info": "Section 3, p.152-153",
+   "quote_info": "this paper assumes that candidates possess no information of their own",
+   "note": "Candidates choose platforms to maximize expected utility plus office benefit; they know the prior and infer from winning, not seeing voter signals."
+  },
+  "ORG": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "N",
+  "loc": "Section 3",
+  "quote": "none found",
+  "note": "Both voters and candidates are strategic."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "Section 3",
+  "quote": "none found",
+  "note": "C7.1 \u2260 Y"
+ },
+ "C8.1": {
+  "codes": [
+   "BNE",
+   "SPE"
+  ],
+  "loc": "Section 3, p.153",
+  "quote": "is a perfect Bayesian equilibrium (PBE) if",
+  "note": "BNE in voting subgame, PBE with backward induction over platforms."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 3, p.153",
+  "quote": "A (symmetric) Bayesian Nash equilibrium (BNE) in the voting subgame"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.150",
+    "quote": "catering to centrist voters can lower social welfare"
+   },
+   {
+    "loc": "Section 1, p.151",
+    "quote": "so increasing salaries may have little effect"
+   },
+   {
+    "loc": "Section 5, p.157",
+    "quote": "Substantial polarization can also be optimal for voters."
+   }
+  ],
+  "note": "Policy and welfare claims about real elections."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 1, p.151",
+  "quote": "increasing salaries may have little effect",
+  "note": "Claims about real elections/salary policy need assumptions that real voters are common-interest and strategic (partly stated as modelling choice, not defended); the extension to realistic empirical settings is not fully stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No procedural reading stated."
+ }
+}

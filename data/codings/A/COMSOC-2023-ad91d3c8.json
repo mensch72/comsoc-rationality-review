@@ -1,0 +1,185 @@
+{
+ "paper_id": "COMSOC-2023-ad91d3c8",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Section 2, p.4",
+  "quote": "The collective decision is taken through some voting mechanism",
+  "note": "Divisible participatory budgeting mechanism aggregating agents' submitted budget proposals."
+ },
+ "C1": {
+  "types": [
+   "SB",
+   "WD"
+  ],
+  "primary": "SB",
+  "loc": "Section 3.2, p.7",
+  "quote": "Theorem 1. The US-VCG mechanism is SDSIC.",
+  "note": "Welfare maximization and vanishing payments (Theorem 2) are the secondary results."
+ },
+ "C2.1": {
+  "value": "votes; voting profile; most preferred budget decision; type profile (as input of direct-revelation mechanism)",
+  "loc": "Section 2.2, p.5",
+  "quote": "agents do not report their full valuations vi (\u00b7, \u00b7) explicitly but rather their votes"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH",
+   "CARD"
+  ],
+  "loc": "Section 2, p.4",
+  "quote": "every agent submits her most preferred budget decision (x(i) , t(i) )",
+  "note": "Input is a point (allocation in simplex, tax). The paper treats this w.l.o.g. as a direct report of the cardinal type \u03b1."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2.1, p.4",
+  "quote": "Every agent i is associated with a type",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 3.2, proof of Theorem 1, p.8",
+  "quote": "assume that i falsely reports \u03b1i\u2032 \u0338= \u03b1i",
+  "note": "Votes g(\u03b1i) and types \u03b1i use separate notation, and misreports are considered."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "Section 3.2, p.8; Section 4, p.8-10",
+  "quote": "Now, assume that i falsely reports \u03b1i\u2032 \u0338= \u03b1i",
+  "note": "The IC analysis considers misreports. The vanishing-payments analysis evaluates truthful reports."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Section 2.1, p.5",
+  "quote": "Since every agent reports (x(i) , t(i) ) = g(\u03b1i )",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "SP",
+  "loc": "Remark 2, p.7",
+  "quote": "truthfully reporting the types forms a Coalition-Proof Nash Equilibrium",
+  "note": "Truthful reporting is justified by the mechanism's SDSIC property. This is not said at the point of the statement itself."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C2.2 contains no RANK, WEAK, APPR, DICH or PAIR."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term appears only in reference titles."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2.2, p.5",
+  "quote": "designed to maximize the social welfare",
+  "note": ""
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 2.2, p.5",
+  "quote": "Assumption 3, however, provides that this is enough to fully recover",
+  "note": "Welfare is defined on valuations of the true types, recovered from votes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Section 3.2, p.8",
+   "quote_behav": "assume that i falsely reports \u03b1i\u2032 \u0338= \u03b1i",
+   "loc_info": "Sections 1, 2, 3 checked",
+   "quote_info": "none found",
+   "note": "Strategic in the SDSIC analysis, truthful in the payment analysis. Dominant strategies make information unnecessary, but information is not stated."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 5, p.11",
+   "quote_behav": "the designer may have some goal in mind that she may",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Designer's objective is encoded by an exogenously chosen bias function C."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "Y",
+  "loc": "Section 5, p.11",
+  "quote": "C(x, t) must be independent of the realization of preferences",
+  "note": "VOT are strategic (IC analysis); DES choice of C is fixed."
+ },
+ "C7.2": {
+  "code": "NONE",
+  "loc": "Section 5, p.11",
+  "quote": "none found",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [
+   "DOM",
+   "COAL"
+  ],
+  "loc": "Remark 2, p.7; Appendix B",
+  "quote": "strategy-proof in strictly dominant strategies",
+  "note": "Coalition-Proof Nash Equilibrium is used as the coalitional concept."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 3.2, Definition 5, p.7",
+  "quote": "strictly dominant strategy incentive compatible (SDSIC)"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 1.1, p.2",
+    "quote": "granting the community with higher control over economic policies"
+   },
+   {
+    "loc": "Section 1.1, p.2",
+    "quote": "VCG involves monetary transfers among agents, that seems inappropriate"
+   },
+   {
+    "loc": "Section 6, p.12",
+    "quote": "The US-VCG mechanism is welfare-maximizing and strategy-proof"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 1.2, p.2-3; Section 2.1, p.4",
+  "quote": "it makes more sense to adopt conventional economic assumptions",
+  "note": "The needed assumptions are stated: the utility model, input-to-type recovery (Assumption 3) and incentives via SDSIC."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 2, 6",
+  "quote": "none found",
+  "note": ""
+ }
+}

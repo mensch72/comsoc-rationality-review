@@ -1,0 +1,10 @@
+{
+ "paper_id": "AAAI-2023-f6a8c13d",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "INELIG",
+  "loc": "Abstract; Section 2, p. 5490-5492",
+  "quote": "assign participants to discussion groups over multiple sessions",
+  "note": "The paper studies assigning citizens' assembly participants to discussion tables (a scheduling and submodular optimization problem). No procedure aggregates voter inputs into a collective decision by voting."
+ }
+}

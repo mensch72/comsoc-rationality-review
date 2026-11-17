@@ -1,0 +1,183 @@
+{
+ "paper_id": "IJCAI-2022-25f008e9",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.557",
+  "quote": "We show that controlling elections in this model is, in general, NP-hard",
+  "note": "Complexity of election control in spatial voting under scoring rules."
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "SB"
+  ],
+  "primary": "AL",
+  "loc": "Sections 3-4, pp.558-562",
+  "quote": "BVPM is NP-complete for constructive and destructive control",
+  "note": "Control is studied as a computational problem, which counts as SB."
+ },
+ "C2.1": {
+  "value": "voter preferences / preference rankings over candidates (induced from spatial positions)",
+  "loc": "Section 2 Preliminaries, p.558",
+  "quote": "Each voter vj ranks candidates in C according to their lp distance"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2 Preliminaries, p.558",
+  "quote": "the closest candidate is ranked 1, and the farthest is ranked n",
+  "note": "The rankings are induced by voter and candidate positions in issue space."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2 Preliminaries, p.558",
+  "quote": "corresponding to their positions (opinions) on issues",
+  "note": "Voters hold positions and opinions on issues."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2 Preliminaries, p.558",
+  "quote": "Each voter vj ranks candidates in C according to their lp distance",
+  "note": "The rule is applied directly to the distance-induced preference rankings. No statement about submission or reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Section 2 Preliminaries, p.558",
+  "quote": "Each voter vj ranks candidates in C according to their lp distance",
+  "note": "Voters' rankings change only through manipulated perceptions. Voters never misreport."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Introduction, Section 2 Preliminaries, Conclusion",
+  "quote": "none found",
+  "note": "The paper describes how rankings are generated but gives no statement that voters submit their held attitude."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No utility, welfare, cost or distortion notions are used for voters."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 3-4",
+  "quote": "none found",
+  "note": "Results concern complexity only."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2 Preliminaries, p.558",
+   "quote_behav": "Each voter vj ranks candidates in C according to their lp distance",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "IMPLICIT",
+   "loc_behav": "Section 2 Preliminaries, p.558",
+   "quote_behav": "the adversary\u2019s goal is for c1 to win the election",
+   "loc_info": "Section 3, Definition 3.1, p.558",
+   "quote_info": "Given a set of candidates C, voters V, and d issues",
+   "note": "The adversary is an external malicious party who changes voter perceptions of the target candidate."
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "Y",
+  "loc": "Introduction, p.557",
+  "quote": "a malicious party can change voter perceptions of a target candidate",
+  "note": "BRI (adversary) is STRAT. VOT is NONSTRAT."
+ },
+ "C7.2": {
+  "code": "NONE",
+  "loc": "Introduction, Section 2, Conclusion",
+  "quote": "none found",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [
+   "DEV"
+  ],
+  "loc": "Section 3, Definition 3.1, p.558",
+  "quote": "is there a c\u03031 \u2208 I = {0, 1}d where",
+  "note": "Election control is posed as a decision problem."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 2 Preliminaries, p.558",
+  "quote": "In our election control problem, the adversary has a target candidate"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.558",
+    "quote": "vulnerability of elections to malicious manipulation of voter perceptions hinges on"
+   },
+   {
+    "loc": "Introduction, p.558",
+    "quote": "When this is the case, elections are highly resistant to manipulation."
+   },
+   {
+    "loc": "Introduction, p.558",
+    "quote": "elections become easy to manipulate through misinformation"
+   }
+  ],
+  "note": "These are claims about the real-world vulnerability of elections."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 2 Preliminaries; Conclusion, p.562",
+  "quote": "we assume that perception manipulation has identical impact on all voters",
+  "note": "The adversary's complete knowledge of voter positions is needed but not stated in words. Voters' distance-based ranking and the uniform impact of manipulation are stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction, Section 2, Conclusion",
+  "quote": "none found",
+  "note": ""
+ }
+}

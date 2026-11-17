@@ -1,0 +1,4 @@
+paper_id,model,mode,prompt_tokens,completion_tokens,reasoning_tokens,cost,status
+JET-2021-7ee9c91b,anthropic/claude-opus-5.5-20260921,batch,39663,3271,1172,,ok
+SCW-2024-e2395b6d,anthropic/claude-opus-5.5-20260921,batch,36716,4542,2121,,ok
+SCW-2022-305481fc,anthropic/claude-opus-5.5-20260921,batch,51549,4105,1704,,ok

@@ -1,0 +1,171 @@
+{
+ "paper_id": "EC-2021-7f3cb7e8",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "choosing a subset of candidates of a given size k",
+  "note": "Multiwinner voting rule (Chamberlin-Courant) computation."
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "AX"
+  ],
+  "primary": "AL",
+  "loc": "Abstract, p.1",
+  "quote": "greedy achieves a 1 \u2212 k+1 -approximation to the maximization",
+  "note": "AX for core/committee-monotonicity results (Sections 5-6)."
+ },
+ "C2.1": {
+  "value": "voters' ordinal rankings; preferences; ranking function",
+  "loc": "Section 2, p.6",
+  "quote": "express their preferences on the candidates ordinally"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2, p.6",
+  "quote": "Each voter v has a bijective ranking function"
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.6",
+  "quote": "A set V of n voters express their preferences",
+  "note": "Preferences are attributed to voters, and the input is described as those preferences."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2, p.6",
+  "quote": "v prefers those c\u2019s with smaller rv (c)",
+  "note": "The rule is applied directly to the preference ranking; nothing is said about reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-7",
+  "quote": "none found",
+  "note": "No manipulation or strategic analysis."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Introduction; Section 2 Preliminaries; Conclusion",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NOTSPEC",
+  "loc": "Section 1, p.1-2",
+  "quote": "projects that provide shared utility to individuals",
+  "note": "Satisfaction and dissatisfaction scores are defined from ranks (Borda scores). The relation to voters' utility is not defined, and the paper says voters may not be able to articulate cardinal utilities."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 6, p.15",
+  "quote": "the core achieves a stronger notion of proportionality than 1-Borda",
+  "note": "Satisfaction scores, representation, and the core used as a fairness notion."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 2, p.6",
+  "quote": "the cost for a voter v of a committee T",
+  "note": "Evaluated on the rankings, with no statement relating them to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2, p.6",
+   "quote_behav": "A set V of n voters express their preferences",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters' rankings are fixed inputs."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only one type (voters) is present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is strategic."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.1",
+    "quote": "provide analytic justification for using such algorithms in practice"
+   },
+   {
+    "loc": "Section 1, p.2",
+    "quote": "How can we choose a winning committee where every voter feels"
+   },
+   {
+    "loc": "Section 1, p.4",
+    "quote": "The notion of core from cooperative game theory is appealing"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 1, p.2",
+  "quote": "it is reasonable to assume voters can compare candidates",
+  "note": "The claim about voters feeling represented and about practical use needs two assumptions that are not stated: that submitted rankings reflect true preferences (sincere reporting), and that rank-based scores reflect voter satisfaction."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction; Section 2; Conclusion",
+  "quote": "none found",
+  "note": ""
+ }
+}

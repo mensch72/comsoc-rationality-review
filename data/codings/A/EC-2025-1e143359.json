@@ -1,0 +1,174 @@
+{
+ "paper_id": "EC-2025-1e143359",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "a budget needs to be distributed to candidates based on the voters\u2019 approval ballots",
+  "note": "Approval-based budget division aggregates voters' ballots into a collective distribution."
+ },
+ "C1": {
+  "types": [
+   "AX"
+  ],
+  "primary": "AX",
+  "loc": "Theorem 4.2, Section 4, p.17",
+  "quote": "MP satisfies the following properties: (1) Monotonicity.",
+  "note": "Approximation ratios to AFS/core are treated as quantitative axioms. The welfare and strategyproofness points appear only in remarks, so WD and SB are not coded."
+ },
+ "C2.1": {
+  "value": "approval ballots; approval profile",
+  "loc": "Section 2, p.6",
+  "quote": "An approval profile A = ( A1 , A2 , . . . , An ) contains the approval ballots"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR",
+   "DICH"
+  ],
+  "loc": "Section 2, p.6",
+  "quote": "We assume that the voters have dichotomous preferences over the candidates",
+  "note": "Inputs are approval sets, described as dichotomous preferences."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.6",
+  "quote": "each voter i \u2208 N reports his preferences in the form of an approval ballot",
+  "note": "Preferences are referred to as something voters have and report."
+ },
+ "C2.4": {
+  "code": "IDS",
+  "loc": "Section 2, p.6",
+  "quote": "each voter i \u2208 N reports his preferences in the form of an approval ballot",
+  "note": "Main model equates the ballot with the preference and gives no reason. Remark 4 (p.21) briefly considers misreporting, but the formal model uses a single notation A_i."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "Remark 4, Section 4, p.21",
+  "quote": "if the first voter reports {b, c} instead of { a, b, c}",
+  "note": "Only Remark 4 considers a strategic misreport; all main analyses use reported ballots."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Section 2, p.6",
+  "quote": "each voter i \u2208 N reports his preferences in the form of an approval ballot",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NONE",
+  "loc": "Section 2, p.6",
+  "quote": "each voter i \u2208 N reports his preferences in the form of an approval ballot",
+  "note": "No reason is given for sincere reporting."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 2, p.6",
+  "quote": "the utility of a voter i for a distribution p is the total share",
+  "note": "Utility is defined as u_i(p) = sum of p(x) over x in A_i."
+ },
+ "C4.2": {
+  "code": "Y",
+  "loc": "Section 2, p.6",
+  "quote": "voters only distinguish between approved and disapproved candidates",
+  "note": "Utility is defined as the share assigned to approved candidates, i.e. weight 1 for approved and 0 otherwise."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2.3, p.9",
+  "quote": "we should select outcomes that guarantee an appropriate amount of utility",
+  "note": "AFS and core are fairness notions defined over voters' utilities."
+ },
+ "C5.2": {
+  "code": "INPUT-STATED",
+  "loc": "Section 2, p.6",
+  "quote": "the utility function of voter i is given by ui ( p) =",
+  "note": "Utilities are computed from the reported ballots A_i, which the paper states are the voters' preferences."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Remark 4, p.21",
+   "quote_behav": "Since this voter has a utility of 57 when voting honestly",
+   "loc_info": "Sections 2, 4 (Remark 4), checked",
+   "quote_info": "none found",
+   "note": "Voters are sincere in the main analyses and strategic in Remark 4."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present as acting agents."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [
+   "DOM"
+  ],
+  "loc": "Remark 4, p.21",
+  "quote": "it fails the more demanding property of strategyproofness",
+  "note": ""
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Remark 4, p.21",
+  "quote": "it fails the more demanding property of strategyproofness"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.1",
+    "quote": "prove that it is the most desirable rule in this class"
+   },
+   {
+    "loc": "Introduction, p.4",
+    "quote": "in practice, we believe that it is rare for MP to return"
+   },
+   {
+    "loc": "Introduction, p.2",
+    "quote": "A central objective for many budget division problems is to choose outcomes"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 2, p.6",
+  "quote": "we assume that the utility of a voter i for a distribution p",
+  "note": "The fairness and desirability claims need that ballots equal preferences (stated, Section 2) and that utility is linked to approvals (stated, Section 2)."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction, Section 2, Conclusion",
+  "quote": "none found",
+  "note": ""
+ }
+}

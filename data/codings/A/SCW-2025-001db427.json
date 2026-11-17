@@ -1,0 +1,184 @@
+{
+ "paper_id": "SCW-2025-001db427",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Sect. 2, p. 5",
+  "quote": "A deterministic voting rule, or a voting rule for short, is a mapping",
+  "note": "Binary voting rules aggregating individuals' choices into a collective decision."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "WD",
+   "SB"
+  ],
+  "primary": "AX",
+  "loc": "Sect. 4.1, p. 10",
+  "quote": "a deterministic voting rule is robust if and only if it is a WMR",
+  "note": "Main results characterise rules satisfying robustness. WD covers the Pareto efficiency/responsiveness results (Sect. 5, App. D). SB covers the online appendix strategyproofness result (Lemma B)."
+ },
+ "C2.1": {
+  "value": "decision profile; decision variable",
+  "loc": "Sect. 2, p. 5",
+  "quote": "The choices of the group members are summarized by a decision profile"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Sect. 1.1, p. 5",
+  "quote": "individuals report their ordinal ranking of two alternatives",
+  "note": "Inputs are binary choices in {-1,1}, which the paper describes as an ordinal ranking of two alternatives. OTH would also fit; RANK is listed first."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Online Appendix A, p. 1",
+  "quote": "Individual \ud835\udc56 \u2208 \ud835\udc41 has a VNM utility function",
+  "note": "Preferences and VNM utilities are attributed to individuals."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Online Appendix A, p. 1",
+  "quote": "a voting mechanism, where individuals can vote insincerely",
+  "note": "Utilities u_i and votes sigma_i(u_i) have separate notation. The main text assumes sincerity and justifies it."
+ },
+ "C3.1": {
+  "code": "SOME",
+  "loc": "Online Appendix A, p. 2",
+  "quote": "the sincere voting strategy \ud835\udeff\ud835\udc56 is a best response to any strategy",
+  "note": "Main-text analyses assume sincere voting; the online appendix considers voting strategies."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Sect. 3, p. 8",
+  "quote": "An individual is assumed to vote sincerely",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "SP",
+  "loc": "Online Appendix A, p. 3",
+  "quote": "a sincere voting strategy is weakly dominant under a robust rule",
+  "note": ""
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Sect. 1, p. 2; Online Appendix B, p. 3",
+  "quote": "the utility from the passage of a favorable issue is one",
+  "note": "The online appendix defines the preferred alternative from u_i, and responsiveness as expected utility with 0/1 utilities."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used; 'dichotomous setting' refers to two alternatives."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sect. 5.1, p. 16",
+  "quote": "strict efficiency is equivalent to robustness as a requirement for voting rules",
+  "note": "Pareto efficiency in terms of responsiveness."
+ },
+ "C5.2": {
+  "code": "INPUT-STATED",
+  "loc": "Sect. 3, p. 8",
+  "quote": "An individual is assumed to vote sincerely and prefer a voting rule",
+  "note": "Responsiveness is computed on decision profiles. The online appendix also evaluates on held utilities."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Sect. 3, p. 8; Online Appendix A, p. 1",
+   "quote_behav": "An individual is assumed to vote sincerely",
+   "loc_info": "Sect. 2-3; Online Appendix A",
+   "quote_info": "none found",
+   "note": "Sincere in the main text; strategies analysed in the online appendix via weak dominance, with no information assumption about others."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "Y",
+   "behav": "NS",
+   "behav_stated": "NA",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Sect. 3, p. 8",
+   "quote_behav": "none found",
+   "loc_info": "Sect. 3, p. 8",
+   "quote_info": "The social planner knows that the true distribution lies in",
+   "note": "The social planner's criterion is defined, but the choice is not modelled as optimisation."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "N",
+  "loc": "",
+  "quote": "",
+  "note": "No analysis has one type STRAT and another NONSTRAT."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": ""
+ },
+ "C8.1": {
+  "codes": [
+   "DOM"
+  ],
+  "loc": "Online Appendix A, p. 2",
+  "quote": "a sincere voting strategy is weakly dominant under \ud835\udf19",
+  "note": ""
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Online Appendix A, p. 2",
+  "quote": "that is, \ud835\udf19 satisfies strategy-proofness"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Sect. 1, p. 2",
+    "quote": "propose it as a normative criterion for voting rules"
+   },
+   {
+    "loc": "Sect. 4.3, p. 15",
+    "quote": "we must be content with a nonanonymous rule such as a SMR"
+   },
+   {
+    "loc": "Sect. 7, p. 19",
+    "quote": "it prevents the collective decision from systematically reflecting only minority preferences"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sect. 3, p. 8; Online Appendix A-B",
+  "quote": "providing justification for the assumption of sincere voting",
+  "note": "Needed assumptions are sincere voting and responsiveness as welfare. Both are stated and justified in the online appendix."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sects. 1, 2, 3, 7",
+  "quote": "none found",
+  "note": ""
+ }
+}

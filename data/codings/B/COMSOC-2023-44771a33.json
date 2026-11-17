@@ -1,0 +1,178 @@
+{
+ "paper_id": "COMSOC-2023-44771a33",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "a protocol for aggregating grades to produce a single order",
+  "note": "Elicitation and aggregation of student ratings and comparisons into a collective ranking."
+ },
+ "C1": {
+  "types": [
+   "OT",
+   "EM",
+   "SI"
+  ],
+  "primary": "EM",
+  "loc": "Section 4, User Study",
+  "quote": "R2R was deployed and tested in a university course",
+  "note": "Mainly a modelling proposal with a user study on real data. Tie-count comparisons are resampled from real data. Primary is EM; OT is the proposal itself."
+ },
+ "C2.1": {
+  "value": "scores; ranked rating set; preference profile",
+  "loc": "Section 2-3",
+  "quote": "Each voter vi assigns a score s to each candidate.",
+  "note": ""
+ },
+ "C2.2": {
+  "codes": [
+   "CARD",
+   "RANK",
+   "PAIR"
+  ],
+  "loc": "Section 3.1",
+  "quote": "A ranked rating set contains attributes of both a rating set and a preference profile",
+  "note": "Scores 1-5 plus pairwise queries that produce a strict ranking."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 3.1",
+  "quote": "we deviate from the standard literature, where it is assumed that each voter holds",
+  "note": "The paper refers to voters' preferences and a held rating set or profile."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 3.1, Example 2",
+  "quote": "The rating set and the preference profile are initially unknown.",
+  "note": "Elicited inputs are treated as the voter's preferences with no statement about sincerity. The Example 2 held rating set is elicited directly."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Introduction; Discussion",
+  "quote": "however, this is not the focus of this paper",
+  "note": "Strategic manipulation is mentioned as motivation and future work (truth serum) but not analysed."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 3, 5",
+  "quote": "none found",
+  "note": "No statement that voters submit their held attitude. The future work mentions incentivizing honest preferences."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Section 2-3",
+  "quote": "",
+  "note": "Input is CARD, RANK and PAIR. RANK and PAIR are present but the paper uses no voter utility or welfare notion."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term dichotomous is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Section 4",
+  "quote": "none found",
+  "note": "Evaluation is by the number of ties, communication load and order bias, not by welfare or satisfaction criteria."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 3.1",
+   "quote_behav": "voter declares sji \u2208 D",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters answer scores and queries as fixed by the model. Manipulation is explicitly outside the scope."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates are only alternatives (projects), with no actions in the model."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "The system admin only initialises the system and does not choose anything in the model."
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Fewer than two types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no STRAT or MIXED type."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 5, Discussion",
+    "quote": "R2R provides a simple and effective approach for ranking alternatives"
+   },
+   {
+    "loc": "Abstract",
+    "quote": "showed promising results, including fewer ties between alternatives"
+   },
+   {
+    "loc": "Section 5, Discussion",
+    "quote": "Managers can use our model to establish their personal ranked list"
+   }
+  ],
+  "note": "Claims concern use in real settings such as classrooms and workplaces."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sections 1, 5",
+  "quote": "none found",
+  "note": "Claims of effectiveness for peer assessment need an assumption that voters answer sincerely or honestly and that students have no incentive to manipulate. This is not stated and is only raised as future work (truth serum)."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "No procedural-reading statement."
+ }
+}

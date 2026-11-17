@@ -1,0 +1,165 @@
+{
+ "paper_id": "AAAI-2024-b1dc2b1f",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.9790",
+  "quote": "We study the computational complexity of finding the possible and necessary winners",
+  "note": "Computational aspects of voting rules (possible/necessary winners) under incomplete information."
+ },
+ "C1": {
+  "types": [
+   "AL"
+  ],
+  "primary": "AL",
+  "loc": "Table 1, p.9791",
+  "quote": "Complexity results for computing the necessary and possible winners",
+  "note": "All results are algorithms or NP-completeness."
+ },
+ "C2.1": {
+  "value": "ranking profile; approval profile; partial spatial profile",
+  "loc": "Section 2, p.9791",
+  "quote": "A ranking profile R = (R1 , . . . , Rn ) consists of n linear orders"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK",
+   "APPR"
+  ],
+  "loc": "Sections 2 and 6, pp.9791-9795",
+  "quote": "Ai denotes the set of candidates that the voter vi \u201capproves.\u201d",
+  "note": "Rankings derived from spatial positions; approval for k-approval and AV."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.9791",
+  "quote": "Each Ri represents the preference order of voter vi .",
+  "note": "Ideal points and preferences are held attitudes; ranking derived from ideal points."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2, p.9791",
+  "quote": "each voter vj ranks candidates in C according to their Euclidean distance",
+  "note": "Rankings are constructed from ideal points and the rule applied directly; no statement on submission or reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "No analysis considers misreporting; the conclusion only mentions candidate strategic considerations as future work."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 2, 7",
+  "quote": "none found",
+  "note": "No statement that voters submit their held attitude."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "none found",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "No voter utility, welfare, or cost notions are used."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 4-6",
+  "quote": "none found",
+  "note": "Only possible/necessary winner complexity is studied."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "none found",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters have uncertain ideal points but take no action in the model."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates are fixed alternatives; relocation is mentioned only as future work."
+  },
+  "ORG": {
+   "present": "N",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "C6",
+  "quote": "none found",
+  "note": "No types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "C7.1",
+  "quote": "none found",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "C6",
+  "quote": "none found",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "C8.1",
+  "quote": "none found"
+ },
+ "C9.1": {
+  "code": "N",
+  "claims": [],
+  "note": "Abstract, introduction and conclusion summarise technical results; no claims on real institutions, voter well-being, or which rule to use."
+ },
+ "C9.2": {
+  "code": "NA",
+  "loc": "C9.1",
+  "quote": "none found",
+  "note": "C9.1 = N."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 2, 7",
+  "quote": "none found",
+  "note": "No procedural reading statement."
+ }
+}

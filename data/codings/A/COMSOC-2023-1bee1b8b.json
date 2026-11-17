@@ -1,0 +1,161 @@
+{
+ "paper_id": "COMSOC-2023-1bee1b8b",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "classic Chamberlin-Courant multiwinner voting rule (CC) on single-peaked preference profiles",
+  "note": "Winner determination algorithms for multiwinner voting rules."
+ },
+ "C1": {
+  "types": [
+   "AL"
+  ],
+  "primary": "AL",
+  "loc": "Abstract, p.1",
+  "quote": "it runs in almost linear time in the input size",
+  "note": "All main results are algorithms or ETH/SETH-based lower bounds."
+ },
+ "C2.1": {
+  "value": "preference profile / profile / preferences; misrepresentation function; approval ballots; votes",
+  "loc": "Section 2 Preliminaries",
+  "quote": "is called a preference profile or just a profile or preferences"
+ },
+ "C2.2": {
+  "codes": [
+   "CARD",
+   "APPR",
+   "RANK",
+   "WEAK"
+  ],
+  "loc": "Section 2 Preliminaries",
+  "quote": "A misrepresentation function r : V \u00d7 C \u2192 R\u22650 measures how much",
+  "note": "General misrepresentation or utility functions. Special cases are approval ballots and Borda (linear order); weak orders are allowed."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2 Preliminaries",
+  "quote": "Balloting a misrepresentation function fully is costly for a voter",
+  "note": "Voters are described as having preferences, utilities and misrepresentation values. These are referred to as things voters have and could ballot, but they are not separately notated."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2 Preliminaries",
+  "quote": "A tuple (V, C, r) or (V, C, u) is called a preference profile",
+  "note": "The rule is applied directly to preferences or utilities. There is no statement about reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 3-5",
+  "quote": "none found",
+  "note": "No strategic voting is analysed."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Introduction, Section 2 Preliminaries, Section 6 Conclusions",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 2 Preliminaries",
+  "quote": "u(v, c) = 1 iff c \u2208 Av and u(v, c) = 0",
+  "note": "Approval utility and Borda misrepresentation are defined from the ballots."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2 Preliminaries",
+  "quote": "we define total utility of C \u2032 by u(C \u2032 )",
+  "note": "The CC and Thiele problems are defined by total voter utility or misrepresentation. This is the rule's own objective."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 2 Preliminaries",
+  "quote": "Its dual measure is the utility function u : V \u00d7 C",
+  "note": "Utility is computed from the input. No statement relates the input to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2 Preliminaries",
+   "quote_behav": "a voter v gives an approval ballot as a vote",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Ballots are fixed inputs."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no type is STRAT or MIXED."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "N",
+  "claims": [],
+  "note": "Claims about practical efficiency concern computation only, not institutions, voter welfare or which rule to use."
+ },
+ "C9.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C9.1 is N."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction, Section 2 Preliminaries, Section 6 Conclusions",
+  "quote": "none found",
+  "note": ""
+ }
+}

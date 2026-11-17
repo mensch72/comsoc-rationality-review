@@ -1,0 +1,15 @@
+{
+ "paper_id": "COMSOC-2023-a7b148f7",
+ "decisions": {
+  "C0": {
+   "value": {
+    "code": "INELIG",
+    "loc": "Abstract, p.1; Sec. 2 Agreement and Other Election Indices; Sec. 3",
+    "quote": "We consider the notions of agreement, diversity, and polarization in ordinal elections",
+    "note": "The main object is a set of election indices: functions mapping a preference profile to a real number that measures agreement, diversity or polarization. k-Kemeny is used only to compute distances for these indices, not as a rule producing a collective decision. No strategic aspects are studied. This is a measurement and diagnostics paper, not a study of a voting procedure."
+   },
+   "chosen": "B",
+   "reason": "The paper studies descriptive indices of preference profiles and their computation rather than a procedure aggregating inputs into a collective decision, so INELIG fits better and the doubt rule does not apply."
+  }
+ }
+}

@@ -1,0 +1,184 @@
+{
+ "paper_id": "COMSOC-2025-889ed0d6",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Sections 2-3, pp. 1-5",
+  "quote": "Local elections are run, producing district representatives",
+  "note": "Repeated gerrymandering (district control) of representative elections combined with opinion dynamics."
+ },
+ "C1": {
+  "types": [
+   "SB",
+   "OT"
+  ],
+  "primary": "OT",
+  "loc": "Sections 3-5, pp. 4-8",
+  "quote": "Frankenmandering is a control problem",
+  "note": "Main contributions are a modelling proposal and two hand-crafted feasibility examples. The control problem is strategic (SB). No theorems or algorithms are given."
+ },
+ "C2.1": {
+  "value": "opinions",
+  "loc": "Section 2, p. 1",
+  "quote": "each characterised by a position in some \"physical\" space"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 2, p. 1; Section 3.1, p. 5",
+  "quote": "an opinion cv \u2208 Rm",
+  "note": "Real-valued multi-issue opinion vectors, with a median representative. In Sec 3.1 opinions are cast as preference orders with a plurality ballot projection. Not clearly any listed format."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p. 1",
+  "quote": "an opinion cv \u2208 Rm",
+  "note": "Voters hold opinions."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2.2, p. 3",
+  "quote": "we assume a \"median\" representative is elected",
+  "note": "The election rule is applied directly to the opinions, with no statement about submission or reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-4",
+  "quote": "none found",
+  "note": "No voter misreports. Only the districting agent is strategic."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 2, 3, 5 (model, gerrymandering, discussion)",
+  "quote": "none found",
+  "note": "No statement that voters submit their held opinion."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C2.2 contains only OTH, and no voter utility or welfare notion is used."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Section 3.2, p. 5",
+  "quote": "minimising the total distance from actual voter opinions",
+  "note": "The objective is the controller's distance to a target opinion, not welfare, representation or distortion."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2.2, p. 3",
+   "quote_behav": "we assume a \"median\" representative is elected",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters elect representatives by a fixed median rule and follow opinion dynamics. Their behaviour is fixed by the model."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Representatives are voters who become influencers by the model's rule."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "The districting agent is coded as DIS."
+  },
+  "DIS": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Section 3.2, p. 5",
+   "quote_behav": "within a given number, T , of strategic re-districtings",
+   "loc_info": "Sections 2.1, 3.2",
+   "quote_info": "none found",
+   "note": "The designer's knowledge of opinions is not specified. Sec 2.1 mentions only possible 'partial opinion information'."
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "Y",
+  "loc": "Sections 2-3",
+  "quote": "within a given number, T , of strategic re-districtings",
+  "note": "DIS is STRAT; VOT is NONSTRAT."
+ },
+ "C7.2": {
+  "code": "NONE",
+  "loc": "Sections 2-3",
+  "quote": "none found",
+  "note": "No reason is given for treating voters as non-strategic."
+ },
+ "C8.1": {
+  "codes": [
+   "DEV"
+  ],
+  "loc": "Section 3.2, p. 5",
+  "quote": "Frankenmandering is a control problem",
+  "note": "An optimisation problem over districtings to reach a target opinion."
+ },
+ "C8.2": {
+  "code": "N",
+  "loc": "Section 3.2, p. 5",
+  "quote": "It is captured by the following optimisation problem"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p. 1",
+    "quote": "in real life, both of these manipulations (social graph alteration and gerrymandering) occur simultaneously"
+   },
+   {
+    "loc": "Introduction, p. 1",
+    "quote": "gerrymandering can be effectively used as an opinion formation tool with long-term electoral effects"
+   }
+  ],
+  "note": "Claims concern real institutions and real-world feasibility."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Introduction, p. 1; Section 4",
+  "quote": "none found",
+  "note": "The real-world feasibility claim needs assumptions that are not stated or justified: that the opinion dynamics model real opinion change, and that the districting agent knows all opinions."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": ""
+ }
+}

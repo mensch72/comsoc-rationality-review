@@ -1,0 +1,10 @@
+{
+ "paper_id": "SCW-2021-0541ae4a",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "INELIG",
+  "loc": "Abstract, p. 835; Sections 1 and 5",
+  "quote": "We study criteria that compare mechanisms according to a property",
+  "note": "The main object is an axiomatic study of criteria for ranking mechanisms by a property (e.g. Pareto efficiency or stability) when equilibria are multiple. The paper does not study a voting rule. Its only application is school choice matching (DA2 vs BOS2, stability), which falls under matching, so it is ineligible. Coding stopped."
+ }
+}

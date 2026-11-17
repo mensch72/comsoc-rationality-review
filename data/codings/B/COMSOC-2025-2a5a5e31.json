@@ -1,0 +1,176 @@
+{
+ "paper_id": "COMSOC-2025-2a5a5e31",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Section 3, p.1-3",
+  "quote": "We study diversity in approval-based committee elections with incomplete or inaccurate information.",
+  "note": "Approval-based committee voting; computational query complexity."
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "WD",
+   "SI",
+   "EM"
+  ],
+  "primary": "AL",
+  "loc": "Abstract; Sections 4-6",
+  "quote": "requires \u03a9(m2) non-adaptive queries",
+  "note": "Query complexity bounds and approximation algorithms (AL) dominate. Approximation of Max Cover optimum coded WD. Experiments on Polis data (EM) and synthetic data (SI)."
+ },
+ "C2.1": {
+  "value": "approval profile; ballots; approval set",
+  "loc": "Section 3, p.2",
+  "quote": "The sequence of sets A = (A(1), . . . , A(n)) is called the approval profile"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Section 3, p.2",
+  "quote": "every voter vi \u2208 V approves of a subset of the candidates.",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 1, p.2; Section 5, p.7",
+  "quote": "voters can become inaccurate in representing their true beliefs",
+  "note": "True approvals/beliefs referenced as held attitude."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 5, p.7",
+  "quote": "the voters are inaccurate in reporting their true approvals",
+  "note": "Inaccurate setting separates reported from true approvals (A_p vs A)."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 4-5",
+  "quote": "we assume each query A(i, j) is incorrect with a probability p.",
+  "note": "Misreports are random noise, not strategic; no analysis has voters strategically submitting differing inputs."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 3, 4, 7",
+  "quote": "none found",
+  "note": "In incomplete/accurate setting, answers are taken as the true approval profile implicitly (A(i,j) defined directly); no statement of sincerity in words. Checked model, intro, conclusion."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED"
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "No voter utility, welfare or satisfaction notion used besides coverage score; Chamberlin-Courant score counts represented voters, not utility."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "Term dichotomous preferences not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 3, Definition 1, p.3",
+  "quote": "the Chamberlin-Courant (CC) score of a committee W",
+  "note": "Evaluates committees by number of voters with a representative (representation/diversity); results are on this."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Sections 3-5",
+  "quote": "none found",
+  "note": "Score is computed on approval profile; in the inaccurate setting the goal is the score w.r.t. true approvals A, which is held-like, but the no-noise case evaluates the input without relating to held attitudes. Closest: INPUT-UNSTATED."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 5, p.7",
+   "quote_behav": "Samples of X are independent between voters, between candidates",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters answer queries, randomly corrupted with probability p; fixed by model, not strategic."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates are only alternatives."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "The querying algorithm is a computational procedure, not an agent choosing in a game-theoretic model."
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Section 5",
+  "quote": "none found",
+  "note": "Only one type present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is NA"
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "No strategic types; NA."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 1, p.2",
+    "quote": "diverse summarizations can guarantee higher inclusivity"
+   },
+   {
+    "loc": "Section 7, p.10",
+    "quote": "we prove diverse committees can be found by querying only a small fraction"
+   },
+   {
+    "loc": "Abstract",
+    "quote": "our algorithms perform well also on smaller instances"
+   }
+  ],
+  "note": "Claims about deliberation platforms and real instances; weak claims about institutions."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 1, p.2; Section 6",
+  "quote": "voters can become inaccurate in representing their true beliefs",
+  "note": "Claim that diverse committees summarize group opinion needs assumption that answered approvals equal true opinions in the accurate setting, and that missing/neutral votes are disapprovals (stated in Appendix E); the sincerity link is not stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": ""
+ }
+}

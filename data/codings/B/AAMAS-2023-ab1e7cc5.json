@@ -1,0 +1,185 @@
+{
+ "paper_id": "AAMAS-2023-ab1e7cc5",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1752",
+  "quote": "voters cast approval ballots, two finalists are selected, and a runoff election",
+  "note": "Distortion of approval voting with runoff rules."
+ },
+ "C1": {
+  "types": [
+   "WD",
+   "SI"
+  ],
+  "primary": "WD",
+  "loc": "Sections 4-7",
+  "quote": "the best distortion achievable by approval voting with (majority) runoff is \u0398(\ud835\udc5a 2 )",
+  "note": "Main results are distortion bounds. Section 7 has simulations on synthetic data and PrefLib-based utilities (utilities are generated synthetically)."
+ },
+ "C2.1": {
+  "value": "approval ballots; approval profile",
+  "loc": "Section 3.1, p.1754",
+  "quote": "be the \ud835\udc5b approval profile"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR",
+   "RANK"
+  ],
+  "loc": "Section 3.2, p.1754",
+  "quote": "each voter approves an unranked subset of the candidates",
+  "note": "First-stage input is approval sets; the runoff uses rankings consistent with utilities."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 3, p.1753",
+  "quote": "each voter \ud835\udc56 \u2208 \ud835\udc41 has a utility function \ud835\udc62\ud835\udc56 : \ud835\udc36 \u2192 R\u2a7e0",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Introduction, p.1752",
+  "quote": "the vote that each voter submits stems from his utilities",
+  "note": "Utilities u_i are notated separately from approval votes \u03c0_i; ballots are induced from utilities by a threshold."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 3-7",
+  "quote": "none found",
+  "note": "No analysis considers voters misreporting; ballots are induced by a fixed threshold rule."
+ },
+ "C3.2": {
+  "code": "STATED",
+  "loc": "Introduction, p.1752",
+  "quote": "each voter only approves the candidates for which his utility is higher",
+  "note": "The paper states in words that ballots follow utilities (implicit utilitarian assumption)."
+ },
+ "C3.3": {
+  "code": "CONV",
+  "loc": "Introduction, p.1752",
+  "quote": "we use the implicit utilitarian framework introduced by Procaccia and Rosenschein",
+  "note": "Justified by reference to the framework in prior work."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 3.1, p.1754",
+  "quote": "each voter approves all the candidates for which she has utility at least \ud835\udf0f",
+  "note": "Rankings are consistent with utilities."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 3.3, p.1754",
+  "quote": "Define the distortion of a distribution over candidates",
+  "note": "Social welfare and distortion are the evaluation criteria."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 3.3, p.1754",
+  "quote": "dist(\ud835\udc65, \ud835\udc62) \u00ae = max\ud835\udc50 \u2208\ud835\udc36 SW(\ud835\udc50, \ud835\udc62) \u00ae / SW(\ud835\udc65, \ud835\udc62)",
+  "note": "Welfare is evaluated on the cardinal utilities, which are separate from the ballots."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Introduction, p.1752",
+   "quote_behav": "each voter only approves the candidates for which his utility is higher",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters mechanically approve by threshold and vote in the runoff by ranking."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates are only alternatives."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "The election designer picks the rules and the threshold as part of the analysis, which is treated as the designer (DES)."
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 1, p.1753",
+   "quote_behav": "we seek a pair-selection rule, which selects a pair of candidates",
+   "loc_info": "Section 3, p.1753",
+   "quote_info": "we do not have access to the utilities",
+   "note": "The designer's objective is explicit: minimize worst-case distortion. The designer sees only approval ballots and rankings, not the utilities."
+  },
+  "OTH": {
+   "present": "N",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "N",
+  "loc": "Section 3",
+  "quote": "none found",
+  "note": "Voters are NONSTRAT; the designer is STRAT in an optimizing sense, but not in the same analysis as voters acting strategically. The designer is arguably not an agent taking an action, so I took it conservatively."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is N."
+ },
+ "C8.1": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 1, p.1753",
+  "quote": "we seek a pair-selection rule",
+  "note": "The designer's choice is a worst-case optimization (minimax distortion), which is not a game-theoretic solution concept."
+ },
+ "C8.2": {
+  "code": "N",
+  "loc": "Sections 3-6",
+  "quote": "none found"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.1752",
+    "quote": "We pinpoint the use of majority runoff in the second stage as the culprit"
+   },
+   {
+    "loc": "Section 8, p.1759",
+    "quote": "distortion increases substantially when a majority runoff is used in the second round"
+   }
+  ],
+  "note": "The claims concern which runoff is better, with implications for rule choice."
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Introduction, p.1752",
+  "quote": "it is assumed that each voter only approves the candidates for which his utility",
+  "note": "The needed assumptions (ballots induced by a common-threshold utility, ranking consistent with utility, unit-sum utilities) are stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": ""
+ }
+}

@@ -1,0 +1,222 @@
+{
+ "paper_id": "IJCAI-2025-767a08ba",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Intro, p.330-331",
+  "quote": "Given a set of n rankings provided by voters on d candidates",
+  "note": "Fair rank aggregation (Kemeny-type) with approximation algorithms; borderline but treated as aggregation of voters' rankings into a collective ranking."
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "EM"
+  ],
+  "primary": "AL",
+  "loc": "Sections 3-6",
+  "quote": "there exists a (2 + \u03b5)-approximation algorithm for the fair rank aggregation problem",
+  "note": "Approximation algorithms are the main results; experiments on real-world datasets are secondary."
+ },
+ "C2.1": {
+  "value": "input rankings",
+  "loc": "Intro, p.331",
+  "quote": "minimizes the sum of distances to the input rankings"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2, p.332",
+  "quote": "We refer to the set of all rankings (or permutations) over [d]",
+  "note": ""
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Intro, p.330",
+  "quote": "multiple voters provide preference orders or rankings on candidates",
+  "note": "Mentions preference orders and the preference order of a single voter; weakly present."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Intro, p.331",
+  "quote": "it is essentially influenced by the preference order of a single voter",
+  "note": "Rankings are treated as preferences and the rule is applied directly, with no statement about submission or reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "No analysis considers misreporting."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1-2, 7",
+  "quote": "none found",
+  "note": "No statement that voters submit held attitudes."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No utility, welfare or satisfaction for voters used."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term is not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 3-6",
+  "quote": "none found",
+  "note": "The objective is the sum of Kendall tau distances, and fairness is for candidate groups. This is not voter welfare, representation of voters or distortion."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters only supply fixed input rankings and take no action in the model."
+  },
+  "CAN": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Candidates are alternatives only."
+  },
+  "ORG": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Fewer than two types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "No strategic agents, so C8 does not apply."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Intro, p.330",
+    "quote": "it is essential for any ranking algorithm to produce a fair ranking"
+   },
+   {
+    "loc": "Intro, p.331",
+    "quote": "it is essentially influenced by the preference order of a single voter"
+   }
+  ],
+  "note": "The claims concern real decisions such as hiring and admissions, and fairness to candidate groups."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Intro, p.330",
+  "quote": "to ensure equitable selection and to avoid the risk of reinforcing",
+  "note": "Claims about real applications need an unstated link between input rankings and held preferences, and that the Kendall tau objective and group quotas capture fairness."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": ""
+ }
+}

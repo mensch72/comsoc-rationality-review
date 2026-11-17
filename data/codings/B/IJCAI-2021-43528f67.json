@@ -1,0 +1,174 @@
+{
+ "paper_id": "IJCAI-2021-43528f67",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.299",
+  "quote": "a first formal framework for long-term PB",
+  "note": "Participatory budgeting aggregates approval ballots into collective decisions over projects; the paper studies axiomatic and complexity aspects."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "AL",
+   "WD"
+  ],
+  "primary": "AX",
+  "loc": "Section 5, Table 1",
+  "quote": "we investigate under which conditions these criteria can be satisfied",
+  "note": "Existence guarantees and impossibility results (AX) dominate. Complexity results (AL) are secondary. Fairness welfare criteria are WD-like but are coded mainly as AX."
+ },
+ "C2.1": {
+  "value": "approval ballots; ballots",
+  "loc": "Section 2, Example 1; Definition 1",
+  "quote": "the agents\u2019 approval ballots"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Definition 1",
+  "quote": "the set of projects Aj (i) \u2286 Pj she approves of",
+  "note": "Knapsack ballots are approval sets that satisfy the budget."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 4.2",
+  "quote": "agents can have personal utility functions to express their satisfaction",
+  "note": "Personal utility functions are mentioned but are private and not used in the model."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 4.2, Definition 6",
+  "quote": "We thus need to approximate the satisfaction of an agent.",
+  "note": "Satisfaction is computed directly from the ballots. No statement is made about misreporting or sincerity."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 4-5",
+  "quote": "none found",
+  "note": "No analysis considers misreporting. Strategyproofness is mentioned only in related work."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 2, 4, 6",
+  "quote": "none found",
+  "note": "The paper never states that voters submit their held attitudes."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "none found",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "PART",
+  "loc": "Section 4.2",
+  "quote": "agreement between a voter\u2019s ballot and the chosen projects",
+  "note": "Satisfaction is defined as cost of approved funded projects. It is described as an approximation of private utility, but the relation to utilities is not formally defined."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 4.2, Definitions 6-8",
+  "quote": "we have to specify how we measure the welfare of types",
+  "note": "Satisfaction, relative satisfaction and share are used in the results as welfare and proportionality criteria."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 4.2",
+  "quote": "sat m j (I, \u03c0j , i) = c(\u03c0j \u2229 Aj (i))",
+  "note": "Welfare is evaluated directly on ballots. No statement relates ballots to held attitudes, though satisfaction is called an approximation."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "NS",
+   "behav_stated": "NA",
+   "info": "NS",
+   "info_stated": "NA",
+   "loc_behav": "Section 3",
+   "quote_behav": "none found",
+   "loc_info": "Section 3",
+   "quote_info": "none found",
+   "note": "Agents only provide fixed approval ballots and take no modelled action."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N",
+   "note": "The municipality's choice of allocation is the rule's output, not a modelled agent."
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Section 3",
+  "quote": "none found",
+  "note": "Fewer than two types are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "none found",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "n/a",
+  "quote": "none found",
+  "note": "No strategic agents."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "none found"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.299",
+    "quote": "disregards the possibility of achieving fair outcomes over time"
+   },
+   {
+    "loc": "Conclusion, p.304",
+    "quote": "taking the long-term viewpoint allows us to approximate forms of fairness"
+   },
+   {
+    "loc": "Section 2, p.300",
+    "quote": "these outcomes are not particularly fair with respects to the two districts"
+   }
+  ],
+  "note": "Claims concern fairness towards voter types and the benefit of long-term PB."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 4.2",
+  "quote": "We thus need to approximate the satisfaction of an agent.",
+  "note": "Fairness towards voters from ballot-based satisfaction needs an assumption that ballots reflect held attitudes or welfare. This is not stated, and no strategic behaviour assumption is given."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No explicit procedural reading is stated."
+ }
+}

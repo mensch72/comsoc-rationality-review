@@ -1,0 +1,9 @@
+paper_id,model,mode,prompt_tokens,completion_tokens,reasoning_tokens,cost,status
+SCW-2025-dc68c333,anthropic/claude-sonnet-5.5-20260928,batch,40352,2409,0,,ok
+SCW-2025-22af23b5,anthropic/claude-sonnet-5.5-20260928,batch,33327,1683,0,,ok
+SCW-2023-e7335446,anthropic/claude-sonnet-5.5-20260928,batch,49122,2197,0,,ok
+AAMAS-2023-c511e46e,anthropic/claude-sonnet-5.5-20260928,batch,29284,1718,0,,ok
+COMSOC-2023-8eaab567,anthropic/claude-sonnet-5.5-20260928,batch,26146,1733,0,,ok
+GEB-2021-b542eb9a,anthropic/claude-sonnet-5.5-20260928,batch,49156,3826,1758,,ok
+SCW-2024-299d581a,anthropic/claude-sonnet-5.5-20260928,batch,43956,1587,0,,ok
+SCW-2025-467288ba,anthropic/claude-sonnet-5.5-20260928,batch,27929,696,0,,ok

@@ -1,0 +1,223 @@
+{
+ "paper_id": "SCW-2025-0d48b8b0",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Introduction, p.2",
+  "quote": "who should be allowed to vote in order to maximise ex ante",
+  "note": "The paper studies who is enfranchised in a majority vote, and how this affects expected welfare."
+ },
+ "C1": {
+  "types": [
+   "WD"
+  ],
+  "primary": "WD",
+  "loc": "Section 2, p.4",
+  "quote": "maximise ex ante expected aggregate welfare",
+  "note": "All results compare franchises by expected aggregate utility. Some propositions are only about who gains or loses from a franchise change, but they still serve the welfare comparison."
+ },
+ "C2.1": {
+  "value": "opinion (Xi); majority vote among franchise members",
+  "loc": "Section 2, p.4",
+  "quote": "is decided by a majority vote among members of C"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 2, p.3-4",
+  "quote": "is decided by a majority vote among members of C",
+  "note": "The input is a binary opinion Xi in {0,1} (favour or oppose the decision). It is not described as approval or dichotomous preferences."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Introduction, p.2",
+  "quote": "some agents have a greater stake in the decision",
+  "note": "Voters hold opinions, utilities and stakes."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2, p.4",
+  "quote": "to let them decide for themselves",
+  "note": "The majority rule is applied directly to the opinions Xi. Nothing is said about submission or sincerity."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-4, Appendices A-C",
+  "quote": "none found",
+  "note": "No analysis has voters submitting something different from their opinion."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 2, 3, 5",
+  "quote": "none found",
+  "note": "No statement that voters report their opinions."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Section 2",
+  "quote": "",
+  "note": "The input is a binary opinion coded OTH, so the applicability condition (RANK, WEAK, APPR, DICH or PAIR) is not met."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2, p.4-5",
+  "quote": "maximise ex ante expected aggregate welfare",
+  "note": "Expected aggregate welfare is the objective in all results."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 2, p.4",
+  "quote": "p(i, C) = P [Xi = YC ]",
+  "note": "Welfare is a function of whether the agent's opinion Xi matches the outcome. Xi is also the input, and no statement relates the input to a held attitude."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2, p.4",
+   "quote_behav": "is decided by a majority vote among members of C",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters' opinions are exogenous random variables. Appendix B has a toy endogenous-franchise vote, treated as peripheral."
+  },
+  "CAN": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "ORG": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 2, p.4",
+   "quote_behav": "the planner seeks to maximise its expected value",
+   "loc_info": "Section 2, p.5",
+   "quote_info": "In practice, a planner would compute \u2206i as an expectation",
+   "note": "The constitutional planner chooses the franchise. He knows the distribution of opinions and the expected stakes, but not the realised opinions. This agent could also be coded as a rule designer; coded here as ORG only."
+  },
+  "DIS": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "The planner's choice is coded under ORG."
+  },
+  "OTH": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "Y",
+  "loc": "Section 2, p.4",
+  "quote": "the planner seeks to maximise its expected value",
+  "note": "ORG is STRAT and VOT is NONSTRAT."
+ },
+ "C7.2": {
+  "code": "NONE",
+  "loc": "Section 2",
+  "quote": "none found",
+  "note": "No reason is given for treating voters' opinions as exogenous."
+ },
+ "C8.1": {
+  "codes": [
+   "DEV"
+  ],
+  "loc": "Section 2, p.4",
+  "quote": "the planner\u2019s problem is to find the corresponding optimal franchise",
+  "note": "The planner's problem is an optimisation problem over franchises."
+ },
+ "C8.2": {
+  "code": "N",
+  "loc": "Section 2",
+  "quote": "none found"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.1",
+    "quote": "optimal to restrict the franchise to the agents with the highest stakes"
+   },
+   {
+    "loc": "Introduction, p.3",
+    "quote": "we derive conditions under which universal suffrage in large populations is optimal"
+   }
+  ],
+  "note": "The claims concern which franchise should be used and what this means for institutions such as local elections and company boards."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Introduction, p.2-3; Section 2",
+  "quote": "to let them decide for themselves",
+  "note": "Selfishness, symmetric opinions and the planner's information are stated. Unstated: that cast votes equal held opinions (sincere voting) and that voters would not vote strategically in the proposed franchises."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1-5",
+  "quote": "none found",
+  "note": "The paper does not state a procedural reading."
+ }
+}

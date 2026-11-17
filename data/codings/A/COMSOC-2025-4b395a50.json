@@ -1,0 +1,176 @@
+{
+ "paper_id": "COMSOC-2025-4b395a50",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Introduction, p.1; Section 2.2, p.3",
+  "quote": "Finally, our model generalizes elections.",
+  "note": "Nodes are interpreted as voters and edges as votes. Committee selection is done by voting rules (MES, AV) applied to an election built from the graph."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "AL",
+   "SI",
+   "EM"
+  ],
+  "primary": "AX",
+  "loc": "Section 5, p.7; Theorem 1, p.5; Section 6, p.8-10",
+  "quote": "We now introduce axioms to formalize the intuition",
+  "note": "AX: proportionality axioms. AL: NP-hardness and polynomial-time results. SI: Euclidean synthetic graphs. EM: real-world network datasets."
+ },
+ "C2.1": {
+  "value": "graph (network); outgoing edges as 'votes'/'support'; election profile (V, C, \u00b5) with 'preferences expressed by the voters'",
+  "loc": "Section 2 and 2.2, p.2-3",
+  "quote": "outgoing edges as their support for other nodes, or simply their votes"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR",
+   "CARD",
+   "OTH"
+  ],
+  "loc": "Section 2.2, p.3; Section 3.1, p.4",
+  "quote": "using approval ballots where \u00b5i (c) = 1 if voter i approves",
+  "note": "OTH: the input to the group selection rule is a directed graph. Edges act as approvals. Cardinal utilities are derived from centrality."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 6.4, p.10",
+  "quote": "voters are more likely to prefer candidates closer to them",
+  "note": "In the Euclidean experiments voters have ideological positions and competence bias, separate from the edges."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 6.4, p.10",
+  "quote": "Edges between nodes are introduced based on the distances between them",
+  "note": "Doubt between DIST and IDU. In the main model the utilities \u00b5 are derived from the graph and the rule is applied directly. Only in the Euclidean model are positions separate from the edges. DIST is listed first."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 2-6",
+  "quote": "none found",
+  "note": "No strategic behaviour by nodes is analysed. Strategic selection is only cited in related work."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Introduction; Section 2; Section 3; Section 6.4; Conclusion",
+  "quote": "none found",
+  "note": ""
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Section 3.1, p.4",
+  "quote": "it defines a utility for node u derived from including node v",
+  "note": "Utility is defined via Equation (3) as the expected number of random-walk visits."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 5, p.7; Section 6, p.8-11",
+  "quote": "a cohesive group S is entitled to \u230ak \u00b7 |S |/n\u230b representatives",
+  "note": "Proportional representation axioms and experiments on group representation."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 5, p.7",
+  "quote": "We view a group of nodes as cohesive if all nodes mutually approve",
+  "note": "Axioms are defined on graph structure. Experiments use node labels and source groups, which are not related to held attitudes by any statement."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 2, p.2",
+   "quote_behav": "We will interpret nodes as voters and outgoing edges",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Edges are exogenous inputs. No strategic choice is modelled."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no strategic type."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.1",
+    "quote": "fostering a stronger connection between voters and their representatives"
+   },
+   {
+    "loc": "Introduction, p.2",
+    "quote": "experiments prove the potential for applying our methods in real scenarios"
+   },
+   {
+    "loc": "Conclusion, p.12",
+    "quote": "Both of our techniques show a significant improvement over the Top approach."
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Introduction; Section 2; Conclusion",
+  "quote": "none found",
+  "note": "The claims about voters' connection to representatives and real-world use need the assumption that edges reflect voters' actual trust or preferences, and that inputs equal held attitudes. Neither assumption is stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction; Section 2; Conclusion",
+  "quote": "none found",
+  "note": ""
+ }
+}

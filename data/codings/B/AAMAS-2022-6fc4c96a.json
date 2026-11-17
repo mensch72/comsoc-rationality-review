@@ -1,0 +1,184 @@
+{
+ "paper_id": "AAMAS-2022-6fc4c96a",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.714",
+  "quote": "we propose and study the safe bribery problem",
+  "note": "Computational complexity of bribery (strategic/computational aspect of voting)."
+ },
+ "C1": {
+  "types": [
+   "AL",
+   "SB"
+  ],
+  "primary": "AL",
+  "loc": "Section 1.1, p.715",
+  "quote": "We provide a comprehensive complexity theoretic landscape of",
+  "note": "Results are algorithms and hardness for bribery problems; bribery is a strategic-behaviour topic."
+ },
+ "C2.1": {
+  "value": "preference profile; preference order (vote)",
+  "loc": "Section 2, p.715",
+  "quote": "preference order \u227bi , which is a linear order over C"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 2, p.715",
+  "quote": "which is a linear order over C",
+  "note": "Strict linear orders."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 1, p.714",
+  "quote": "a set of voters each having a preference over the set of",
+  "note": "Voters are said to have preferences, but the same object is the input to the rule."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2, p.715",
+  "quote": "preference order \u227bi , which is a linear order over C",
+  "note": "The 'preference order (vote)' is used directly as rule input; there is no separate held attitude notation. The bribery setting implies voters may deviate (cast original vote), but this is not framed as submitted vs held."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Section 2.2, p.716",
+  "quote": "does not follow the briber's suggestion but casts their original votes",
+  "note": "Voters partially or fully ignoring the briber is not modelled as strategic misreporting of a held attitude."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 2, 5",
+  "quote": "none found",
+  "note": "No statement that voters submit their held attitude."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C3.2 is not STATED"
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Whole paper",
+  "quote": "",
+  "note": "No voter utility, welfare, satisfaction or cost notions. The briber's preference and costs are not voter utilities."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "Whole paper",
+  "quote": "",
+  "note": "Term not used"
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Sections 2-4",
+  "quote": "none found",
+  "note": "Results are on complexity of safe bribery; no welfare or efficiency criteria."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "n/a",
+  "quote": "",
+  "note": "C5.1 = N"
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Section 1, p.714",
+   "quote_behav": "some subset of voters follows the briber's recommendation exactly",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Bribed voters follow the briber fully, partially or ignore; this is modelled as worst case over all subsets, not as their own objective."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates are only alternatives."
+  },
+  "ORG": {
+   "present": "N",
+   "note": ""
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "COMPLETE",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 1, p.714",
+   "quote_behav": "the goal of the safe bribery problem is to compute if there exists",
+   "loc_info": "Section 2, p.715",
+   "quote_info": "we assume that the briber is aware of the votes cast by each voter",
+   "note": "Briber chooses whom to bribe and how, under budget, to make c win safely."
+  },
+  "DES": {
+   "present": "N",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "Y",
+  "loc": "Section 1, p.714",
+  "quote": "the briber has limited control on whether the bribed",
+  "note": "Briber STRAT, voters NONSTRAT."
+ },
+ "C7.2": {
+  "code": "NONE",
+  "loc": "Section 1, p.714",
+  "quote": "none found",
+  "note": "The motivation is given (campaigning) but not an argument for modelling the types differently."
+ },
+ "C8.1": {
+  "codes": [
+   "DEV"
+  ],
+  "loc": "Section 2.2, p.716",
+  "quote": "compute if there exists a subset of voters who can be bribed",
+  "note": "Bribery studied as a decision problem."
+ },
+ "C8.2": {
+  "code": "N",
+  "loc": "Section 2.2",
+  "quote": "none found"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 5, p.721",
+    "quote": "safety during bribery can often be achieved without"
+   },
+   {
+    "loc": "Abstract, p.714",
+    "quote": "in many applications of bribery, campaigning for"
+   }
+  ],
+  "note": "Claims about real applications such as campaigning and about the practicality of safe bribery."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 5, p.721",
+  "quote": "safety during bribery can often be achieved without",
+  "note": "Needed assumptions: the briber's preference over outcomes is a known strict order, and the model of partial compliance matches real campaigns. Voters' real behaviour under campaigning is only partly stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": ""
+ }
+}

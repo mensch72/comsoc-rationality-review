@@ -1,0 +1,177 @@
+{
+ "paper_id": "COMSOC-2025-4b395a50",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Section 1, p.1; Section 2.2",
+  "quote": "nodes as voters and outgoing edges as their support for other nodes",
+  "note": "Committee selection rules from network votes (MES-based election rules and absorbing rules); axiomatic, complexity and experimental analysis."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "AL",
+   "SI",
+   "EM"
+  ],
+  "primary": "AX",
+  "loc": "Sections 3-6",
+  "quote": "We analyze our methods axiomatically and characterize their behavior on special graph classes",
+  "note": "Axioms (Thm 4,5, Prop 3), NP-hardness and poly-time (Thm 1,2), experiments on real and synthetic data. Axiomatic is the largest share, roughly."
+ },
+ "C2.1": {
+  "value": "graph/network; edges as votes; election profile (V, C, \u00b5)",
+  "loc": "Section 2, p.2",
+  "quote": "outgoing edges as their support for other nodes, or simply their votes"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 2",
+  "quote": "We consider unweighted simple directed graphs.",
+  "note": "Input is a directed graph (edges as votes/approvals). Then transformed into utilities \u00b5 (CARD) for MES, but the rule's input is the graph."
+ },
+ "C2.3": {
+  "code": "N",
+  "loc": "Sections 2-3",
+  "quote": "none found",
+  "note": "Edges are votes; utilities \u00b5 are derived from the graph by the method, not held attitudes. Euclidean positions are only for generating graphs."
+ },
+ "C2.4": {
+  "code": "ONE",
+  "loc": "Section 2, p.2",
+  "quote": "outgoing edges as their support for other nodes, or simply their votes",
+  "note": "Input only described as submitted votes."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sections 3-6",
+  "quote": "none found",
+  "note": "No analysis considers misreporting."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C2.4 = ONE"
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is NA"
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Section 2.2",
+  "quote": "",
+  "note": "Input is a graph (OTH); utility \u00b5 is derived from graph, not from RANK/APPR etc."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 5, p.7; Section 6",
+  "quote": "a cohesive group S is entitled to \u230ak \u00b7 |S |/n\u230b representatives",
+  "note": "Proportional representation axioms and experiments measuring proportionality of outcomes."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 5",
+  "quote": "each node should have a significant influence over k/n of the committee",
+  "note": "Evaluated on the graph (the input) without any statement relating to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Nodes' edges are fixed inputs; no voter actions modelled as choices."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates only alternatives."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "The rule selects; no organiser choice modelled."
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N",
+   "note": "Designer's choice not modelled explicitly."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Fewer than two types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 not Y"
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no strategic type."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.1",
+    "quote": "our approach combines the benefits of indirect democracy with a more personalized voting process"
+   },
+   {
+    "loc": "Section 6.5, p.12",
+    "quote": "it is also a prefarable method to be combined with centrality measures"
+   },
+   {
+    "loc": "Conclusion, p.12",
+    "quote": "performs best across the datasets used in our evaluation"
+   }
+  ],
+  "note": "Claims on institutions and which rule to prefer."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Introduction, p.1",
+  "quote": "fostering a stronger connection between voters and their representatives",
+  "note": "Claims about representation of voters/democracy need an assumption that edges reflect voters' actual support and that voters vote sincerely; not stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 2-3",
+  "quote": "none found",
+  "note": "No statement of a procedural reading."
+ }
+}

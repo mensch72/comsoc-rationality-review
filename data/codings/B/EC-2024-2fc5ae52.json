@@ -1,0 +1,180 @@
+{
+ "paper_id": "EC-2024-2fc5ae52",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Sec. 2-3",
+  "quote": "a voting rule selects a slate of k statements that is proportionally representative",
+  "note": "Multiwinner-style selection process aggregating agents' preferences, with proportional representation axiom (BJR). Borderline due to LLM focus but the main object is a voting process."
+ },
+ "C1": {
+  "types": [
+   "AX",
+   "AL",
+   "EM",
+   "OT"
+  ],
+  "primary": "AX",
+  "loc": "Sec. 2-5",
+  "quote": "we show that, with access to polynomially many of these queries",
+  "note": "BJR axiom satisfiability and impossibilities (AX) plus query-complexity bounds (AL); LLM validation and survey pilot (EM); framework (OT). Axiomatic results are the largest share."
+ },
+ "C2.1": {
+  "value": "utility functions (accessed via Disc queries); ratings",
+  "loc": "Sec. 2",
+  "quote": "Each agent i \u2208 N has a utility function ui : U \u2192 R"
+ },
+ "C2.2": {
+  "codes": [
+   "CARD"
+  ],
+  "loc": "Sec. 2; Sec. 4",
+  "quote": "We equate ratings with utilities",
+  "note": "Input to process is accessed through queries returning cardinal utilities; ratings on 7-point scale."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec. 2",
+  "quote": "Each agent i \u2208 N has a utility function ui : U \u2192 R",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Sec. 2.1; Sec. 4",
+  "quote": "Disc(i, \u03b1) returns ui (\u03b1).",
+  "note": "Process is applied directly to utilities (via queries); no statement about submission or misreporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sec. 2-6",
+  "quote": "none found",
+  "note": "No analysis considers misreporting; the discussion mentions malicious input only as a future hardening issue."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sec. 2, 6; Introduction",
+  "quote": "none found",
+  "note": "No statement that voters submit their held attitude."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED"
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Sec. 2",
+  "quote": "",
+  "note": "Input format is cardinal only (CARD), so applicability condition not met."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "Sec. 2",
+  "quote": "",
+  "note": "Approval utilities are used but not described as dichotomous preferences."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sec. 2.2; Sec. 5.2",
+  "quote": "Our notion of representation expresses that agents have a claim to being represented",
+  "note": "BJR is a proportionality/representation axiom; pilot evaluates participant ratings of assigned statements."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Sec. 2.2; Sec. 5.2",
+  "quote": "utilities as expressing how accurately and completely the statement captures",
+  "note": "BJR and ratings are evaluated on utilities which the process uses directly; no statement relating them to a separate held attitude. Doubt vs HELD: utilities are the model's primitive and the process accesses them via queries (LLM-predicted)."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Agents have utilities but take no action in the model; the process is queried via oracle."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Statements are only alternatives."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "The democratic process is an algorithm, not a modelled choosing agent."
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "note": "Designer's choice is not modelled formally."
+  },
+  "OTH": {
+   "present": "N",
+   "note": "The LLM acts as an oracle, not a modelled agent with its own objective."
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Sec. 2",
+  "quote": "",
+  "note": "No types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y"
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no STRAT or MIXED type"
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract",
+    "quote": "84 out of 100 participants feel \u201cexcellently\u201d or \u201cexceptionally\u201d represented"
+   },
+   {
+    "loc": "Sec. 6 Discussion",
+    "quote": "the democratic process can tap into the power of LLMs"
+   },
+   {
+    "loc": "Sec. 5.2",
+    "quote": "the vast majority of participant opinions are represented accurately by our slate"
+   }
+  ],
+  "note": "Claims about representation of real participants and the process being democratic."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Sec. 6; Sec. 5.2",
+  "quote": "Hence, the vast majority of participant opinions are represented accurately by our slate.",
+  "note": "Representation claims rely on assuming ratings/utilities reflect participants' actual views (input-attitude relation) and non-strategic participation, which are not stated; the claim of democratic legitimacy also needs LLM accuracy and sincere behaviour."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sec. 2-6",
+  "quote": "none found",
+  "note": "No statement of purely procedural reading."
+ }
+}

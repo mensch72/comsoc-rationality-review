@@ -1,0 +1,174 @@
+{
+ "paper_id": "COMSOC-2021-500fd7b5",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Section 1, p.1",
+  "quote": "complexity of determining a winning committee under the Chamberlin\u2013Courant voting rule",
+  "note": "Winner determination for a multiwinner voting rule (computational aspects)."
+ },
+ "C1": {
+  "types": [
+   "AL"
+  ],
+  "primary": "AL",
+  "loc": "Abstract; Sections 3-5",
+  "quote": "we show that a simple tweak improves the time complexity to O(nmk)",
+  "note": "All main results are algorithms, running times and approximation."
+ },
+ "C2.1": {
+  "value": "preference profile",
+  "loc": "Section 2, p.2",
+  "quote": "the list P is referred to as a preference profile"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK",
+   "CARD"
+  ],
+  "loc": "Section 2, p.2",
+  "quote": "Voters rank candidates from best to worst",
+  "note": "Input is linear orders; misrepresentation function rho (consistent with P) is also given as input to the rule, so CARD is included."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 1, p.1",
+  "quote": "each voter is assumed to assign a numerical disutility to each candidate",
+  "note": "Preferences and disutilities are described as voters' attributes."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 2, p.2",
+  "quote": "takes as input a preference profile P",
+  "note": "Preferences are treated as the input and the rule is applied directly; no statement about submission or reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "No analysis considers misreporting."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 2, 6",
+  "quote": "none found",
+  "note": "No statement that voters submit their held attitude."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "PART",
+  "loc": "Section 2, p.2",
+  "quote": "we say that \u03c1 is consistent with P if",
+  "note": "Misrepresentation/dissatisfaction is tied to rankings via consistency (weakly monotone). Not a full utility specification, but a relation to the input is defined. Voter dissatisfaction is used. Applicable since RANK is included. The relation is defined as consistency, which could be SPEC; PART chosen because \u03c1 is an additional given input."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "Dichotomous preferences not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 2, p.2-3",
+  "quote": "\u03a6\u03c1 (P, w) measures to what extent the voters are dissatisfied",
+  "note": "Chamberlin\u2013Courant minimizes total voter dissatisfaction (representation); the algorithms optimise it."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Section 2, p.2-3",
+  "quote": "minimizes \u03a6\u03c1 (P, w) among all k-assignment functions for P",
+  "note": "Evaluated on the profile and \u03c1 given as input, with no statement relating them to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters take no action in the model."
+  },
+  "CAN": {
+   "present": "N",
+   "note": "Candidates are only alternatives."
+  },
+  "ORG": {
+   "present": "N",
+   "note": "No organiser choosing anything."
+  },
+  "DIS": {
+   "present": "N",
+   "note": ""
+  },
+  "BRI": {
+   "present": "N",
+   "note": ""
+  },
+  "DES": {
+   "present": "N",
+   "note": ""
+  },
+  "OTH": {
+   "present": "N",
+   "note": ""
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "Section 2",
+  "quote": "none found",
+  "note": "No agent types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "Section 2",
+  "quote": "none found",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "No strategic agents; NA."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "Whole paper",
+  "quote": "none found"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 1, p.2",
+    "quote": "This improvement is significant, as in some of the applications"
+   },
+   {
+    "loc": "Section 6, p.12",
+    "quote": "the performance of our algorithms makes them suitable for a broad range"
+   }
+  ],
+  "note": "Claims about practical applicability (e.g., movie selection, assemblies) and suitability of the rule; claims concern computation more than voter welfare."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 1, p.1",
+  "quote": "It has been argued that this rule is well-suited for a variety",
+  "note": "Claims about practical usefulness of results need the assumption that the profile and misrepresentation values reflect held attitudes (and are truthfully obtained); this is not stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "No procedural reading stated."
+ }
+}

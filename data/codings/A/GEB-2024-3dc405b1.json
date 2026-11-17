@@ -1,0 +1,176 @@
+{
+ "paper_id": "GEB-2024-3dc405b1",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.1",
+  "quote": "We study how voting rules shape voter coordination in large",
+  "note": "Compares Plurality, Anti-Plurality and Approval Voting under strategic voting."
+ },
+ "C1": {
+  "types": [
+   "EQ",
+   "WD",
+   "SI"
+  ],
+  "primary": "EQ",
+  "loc": "Abstract, p.1; Sections 4-5",
+  "quote": "We show that the Condorcet winner is always elected at some equilibrium",
+  "note": "Main results are equilibrium analyses in Poisson games, welfare guarantees (Props 4, 6), and Monte-Carlo simulations of a fictitious-play dynamic."
+ },
+ "C2.1": {
+  "value": "messages (or ballots); ballot profile",
+  "loc": "Section 2.2, p.6",
+  "quote": "defined by the set of messages (or ballots) available to each voter"
+ },
+ "C2.2": {
+  "codes": [
+   "APPR"
+  ],
+  "loc": "Section 2.2, p.6",
+  "quote": "Approval Voting is defined by M AV = {a, b, c, ab, ac, bc}",
+  "note": "Ballots are subsets of candidates. PL restricts them to singletons and APL to pairs."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2.1, p.5",
+  "quote": "A voter\u2019s type t consists of his von Neumann and Morgenstern preference",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 2.2, p.6",
+  "quote": "A (pure) strategy is a measurable function \u03c3 : T \u2192 M",
+  "note": "Types (held) and ballots (submitted) use separate notation. Ballots are chosen strategically."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Section 5.4, p.21",
+  "quote": "We assumed in the analysis above that all voters were strategic.",
+  "note": "The robustness analysis adds expressive voters, but a strategic fraction remains in every analysis."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL"
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 not STATED"
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Introduction, p.3; Proposition 1, p.8",
+  "quote": "voters approve of their second candidate only if she yields a utility",
+  "note": "Ballots are best replies derived from cardinal utilities via a threshold."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 4.1, p.14; Section 5.2.3",
+  "quote": "AV guarantees the election of an above-average candidate in terms of welfare",
+  "note": ""
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 4.1, p.13",
+  "quote": "this welfare criterion corresponds to relative utilitarianism",
+  "note": "Welfare is computed on utility distributions over types, not on ballots."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "MIXED",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 5.4, p.21",
+   "quote_behav": "a fraction of the electorate is strategic, while remaining voters are expressive",
+   "loc_info": "Section 3.2, p.9",
+   "quote_info": "given that voters believe that the aggregate behavior corresponds to \u03c4",
+   "note": "All voters are strategic in the main analyses. A fraction is expressive in the robustness analysis. Voters know the expected ballot shares or polls, not realisations."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Only voters are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 = NA"
+ },
+ "C8.1": {
+  "codes": [
+   "NE",
+   "ITER"
+  ],
+  "loc": "Section 3.2, p.9; Section 5.1, p.15",
+  "quote": "The procedure is based on the concept of fictitious play",
+  "note": "NE refers to an asymptotic fixed point of the best-reply function in Poisson games. ITER refers to the fictitious-play t\u00e2tonnement."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 3.2, p.9",
+  "quote": "We say that a profile \u03c4 is an equilibrium if \u03c4 ="
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 8, p.28",
+    "quote": "This work underlines the potential of AV as a promising alternative voting"
+   },
+   {
+    "loc": "Section 8, p.28",
+    "quote": "translates to significant gains in the quality of the collective decision"
+   },
+   {
+    "loc": "Introduction, p.4",
+    "quote": "This election method thus tends to confer political legitimacy to the winner."
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Sections 2, 4.1, 5.1, 5.4",
+  "quote": "we assume that for each ordinal type o, the distribution",
+  "note": "Needed assumptions are stated: strategic voters with robustness to expressive voters, the utility-ballot link via best replies, information through polls or beliefs, the symmetry assumption, and uniform draws of profiles and initial polls."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sections 1, 2, 8 checked",
+  "quote": "none found",
+  "note": ""
+ }
+}

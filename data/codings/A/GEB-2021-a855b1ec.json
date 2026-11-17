@@ -1,0 +1,184 @@
+{
+ "paper_id": "GEB-2021-a855b1ec",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Section 4, p.9",
+  "quote": "decisions are taken by (super)majority with cutoff \u03ba",
+  "note": "Dynamic binary voting games under supermajority rules."
+ },
+ "C1": {
+  "types": [
+   "EQ",
+   "WD"
+  ],
+  "primary": "EQ",
+  "loc": "Propositions 1-4, Corollaries 1-2, pp.12-19",
+  "quote": "\u03ba-majority voting uniquely implements the optimal policy",
+  "note": "Results characterise equilibria and the policies they implement, and compare their welfare."
+ },
+ "C2.1": {
+  "value": "votes (LEAVE-votes / REMAIN votes)",
+  "loc": "Section 4, p.9",
+  "quote": "The decision is LEAVE if the mass of LEAVE-votes, lt"
+ },
+ "C2.2": {
+  "codes": [
+   "OTH"
+  ],
+  "loc": "Section 4, p.9",
+  "quote": "all agents simultaneously vote for LEAVE or for REMAIN",
+  "note": "Binary vote between two alternatives (LEAVE / REMAIN)."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 2, p.7",
+  "quote": "each agent i obtains a stage payoff of \u03c0ti \u2208 {0, 1}",
+  "note": "Stage payoffs and agent types are held attitudes."
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Section 4, p.10",
+  "quote": "Let \u03bb(\u03c0ti ) denote the probability with which an agent of type \u03c0ti",
+  "note": "The vote is a strategy that depends on the type, so the two are separate objects."
+ },
+ "C3.1": {
+  "code": "ALL",
+  "loc": "Section 4, p.10; Section 5, p.18",
+  "quote": "no agent has an incentive to unilaterally deviate under the assumption",
+  "note": "Every voting analysis is an equilibrium analysis."
+ },
+ "C3.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.1 = ALL."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Input format is a binary vote (OTH), not RANK, WEAK, APPR, DICH or PAIR."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "The term is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Section 3, p.9; Corollary 1, p.14",
+  "quote": "The utilitarian welfare from cutoff policy p is VR (p).",
+  "note": ""
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Section 2, p.7",
+  "quote": "The planner is utilitarian: her stage payoff is the average stage payoff",
+  "note": "Welfare is computed from stage payoffs, not from votes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 4, p.10",
+   "quote_behav": "no agent has an incentive to unilaterally deviate under the assumption",
+   "loc_info": "Section 2, p.7",
+   "quote_info": "nature draws the mass of LEAVE-winners pt , and reveals it publicly",
+   "note": "Agents know the aggregate mass of LEAVE-winners and their own type, but not others' individual types."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "Y",
+   "behav": "STRAT",
+   "behav_stated": "EXPLICIT",
+   "info": "PARTIAL",
+   "info_stated": "EXPLICIT",
+   "loc_behav": "Section 4, p.15",
+   "quote_behav": "the planner fixes the majority rule \u03ba while she only knows that",
+   "loc_info": "Section 4, p.15",
+   "quote_info": "she only knows that the distribution F will be drawn",
+   "note": "Utilitarian planner choosing the (super)majority rule to maximise welfare."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "N",
+  "loc": "Sections 4-5",
+  "quote": "none found",
+  "note": "Both voters and the planner/designer optimise."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 = N."
+ },
+ "C8.1": {
+  "codes": [
+   "SPE",
+   "OTH"
+  ],
+  "loc": "Section 4, fn.8, p.10; Section 5, p.17",
+  "quote": "This equilibrium notion is a refinement of Markov perfect equilibrium.",
+  "note": "Symmetric Markov equilibrium with pivotal voting; in Section 5, beliefs follow Kreps-Wilson consistency (sequential-equilibrium-type notion)."
+ },
+ "C8.2": {
+  "code": "Y",
+  "loc": "Section 4, fn.8, p.10",
+  "quote": "This equilibrium notion is a refinement of Markov perfect equilibrium."
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Introduction, p.2",
+    "quote": "Supermajority rules can lead to better decisions."
+   },
+   {
+    "loc": "Abstract, p.1",
+    "quote": "a too low supermajority rule can have much higher welfare costs"
+   },
+   {
+    "loc": "Conclusion, p.21",
+    "quote": "Institutional innovations that transform the first game into the second game"
+   }
+  ],
+  "note": ""
+ },
+ "C9.2": {
+  "code": "ALL-STATED",
+  "loc": "Section 2, p.7; Section 4, pp.9-10",
+  "quote": "The planner is utilitarian: her stage payoff is the average stage payoff",
+  "note": "Needed assumptions are all stated: utilitarian welfare on stage payoffs, strategic pivotal voters, agents' information, and polarization (relaxed in Extension I)."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Introduction, Sections 2, 4, 6",
+  "quote": "none found",
+  "note": ""
+ }
+}

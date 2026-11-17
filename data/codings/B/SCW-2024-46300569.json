@@ -1,0 +1,163 @@
+{
+ "paper_id": "SCW-2024-46300569",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Section 1, p. 57",
+  "quote": "the pairwise majority relation of this society is acyclic",
+  "note": "Borderline: the paper studies Condorcet domains (preference restrictions guaranteeing acyclic majority relation) combinatorially. Treated as ELIG since the domains concern properties of majority voting."
+ },
+ "C1": {
+  "types": [
+   "AX"
+  ],
+  "primary": "AX",
+  "loc": "Theorems 1-4, pp. 62-64",
+  "quote": "for any K the domain FK is a maximal Condorcet domain",
+  "note": "Structural and combinatorial characterisation of domains; maximality, connectedness, single-peakedness on a circle."
+ },
+ "C2.1": {
+  "value": "linear orders (domain of linear orders; preferences)",
+  "loc": "Section 1, p. 58",
+  "quote": "A Condorcet domain is a set of linear orders on a given set of alternatives"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK"
+  ],
+  "loc": "Section 1, p. 58",
+  "quote": "By L(A) we will denote all linear orders on the set of alternatives A",
+  "note": "Domains of linear orders."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Section 1, p. 57",
+  "quote": "all voters of a certain society are known to have preferences over those alternatives",
+  "note": "Voters are said to have preferences represented by linear orders."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Section 1, p. 57",
+  "quote": "have preferences over those alternatives represented by linear orders from that set",
+  "note": "Linear orders are described as voters' preferences and the majority relation is applied to them directly, with no statement about submission or reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "No strategic analysis."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sections 1, 2, 3",
+  "quote": "none found",
+  "note": "No statement that voters submit their held preferences."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "NA",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "No utility, welfare or satisfaction notions for voters."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "Term not used."
+ },
+ "C5.1": {
+  "code": "N",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "Results are about domain structure, not welfare criteria."
+ },
+ "C5.2": {
+  "code": "NA",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "C5.1 = N."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters are not agents who act in the formal model."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "C6",
+  "quote": "none found",
+  "note": "Fewer than two types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "C6",
+  "quote": "none found",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "C6",
+  "quote": "none found",
+  "note": "NA: no strategic agents."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "C6",
+  "quote": "none found"
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Section 1, p. 57",
+    "quote": "they represent a compromise which allows a society to always have transitive collective decisions"
+   }
+  ],
+  "note": "Motivational claim about maximal Condorcet domains in the introduction, about individual freedom for voters and societal collective decisions. Weak claim, but it concerns institutions and voters."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Section 1, p. 57",
+  "quote": "provide voters with as much individual freedom as possible",
+  "note": "Needs an assumption that voters' held preferences are submitted as the orders in the domain. The relation between submitted inputs and held preferences is not stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Whole paper",
+  "quote": "none found",
+  "note": "No procedural-reading statement."
+ }
+}

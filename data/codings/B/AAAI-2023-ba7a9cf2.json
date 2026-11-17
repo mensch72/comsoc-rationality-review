@@ -1,0 +1,173 @@
+{
+ "paper_id": "AAAI-2023-ba7a9cf2",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract, p.5697",
+  "quote": "We design near-optimal voting rules which aggregate such preference rankings with intensities",
+  "note": "Voting rules aggregating rankings with intensities, analysed by distortion."
+ },
+ "C1": {
+  "types": [
+   "WD"
+  ],
+  "primary": "WD",
+  "loc": "Preliminaries and Theorems 1-12, pp.5699-5703",
+  "quote": "minimize the worst-case approximation ratio between the highest possible utilitarian social welfare",
+  "note": "All main results are distortion bounds, which are lower and upper bounds on welfare approximation. Some are algorithmic rule design but the evaluation is by distortion."
+ },
+ "C2.1": {
+  "value": "preference rankings with intensities; ordinal preference profile",
+  "loc": "Preliminaries, p.5699",
+  "quote": "Let \u20d7\u03c3 \u201c p\u03c31 , . . . , \u03c3nq denote the ordinal preference profile"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK",
+   "OTH"
+  ],
+  "loc": "Preliminaries, p.5699",
+  "quote": "\u2019i : rm\u00b41s \u00d1 t\u2018 \u0105 \u2019, \u2018\u0105\u0105\u2019u is a function that determines the intensities",
+  "note": "Strict rankings augmented with binary intensity marks between adjacent alternatives."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Preliminaries, p.5699",
+  "quote": "each agent i has an underlying utility function ui : A \u00d1 R\u011b0",
+  "note": ""
+ },
+ "C2.4": {
+  "code": "DIST",
+  "loc": "Introduction p.5697; Preliminaries p.5699",
+  "quote": "ordinal preferences reported by the agents stem from their underlying numerical utility",
+  "note": "Separate notation for the ordinal input \u03c3 and the utility u, related by \u03b1-consistency. Reported input is linked to utilities through consistency, not equality."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "No analysis considers misreporting of the ranking. Voters may choose whether to reveal intensity, but this is not modelled as strategic. Strategyproofness is left for future work."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Preliminaries, Introduction, Discussion",
+  "quote": "none found",
+  "note": "Reports are assumed consistent with utilities (consistency constraint), but there is no statement of sincere voting as such."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Preliminaries, p.5699",
+  "quote": "we have ui p\u03c0i pjqq \u011b ui p\u03c0i pj`1qq if \u2019i pjq \u201c \u2018 \u0105 \u2019",
+  "note": "\u03b1-consistency defines how utilities relate to the ranking with intensities."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "",
+  "note": "The term dichotomous preferences is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Preliminaries, p.5699",
+  "quote": "the social welfare of distribution x P \u2206pAq is swpx, \u20d7uq",
+  "note": "Distortion with respect to utilitarian social welfare."
+ },
+ "C5.2": {
+  "code": "HELD",
+  "loc": "Preliminaries, p.5699",
+  "quote": "each agent i has an underlying utility function ui : A \u00d1 R\u011b0",
+  "note": "Distortion is evaluated against the underlying cardinal utilities."
+ },
+ "C6": {
+  "VOT": {
+   "present": "Y",
+   "behav": "NONSTRAT",
+   "behav_stated": "IMPLICIT",
+   "info": "NA",
+   "info_stated": "NA",
+   "loc_behav": "Preliminaries, p.5699",
+   "quote_behav": "ordinal preferences of the agents stem from underlying cardinal preferences",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Agents report rankings consistent with their utilities. Their voluntary choice of whether to reveal intensity is treated as worst case, not as strategic behaviour."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N",
+   "note": "The designer chooses \u03b1 and the rule, but not as an explicit modelled objective or choice; the rule is analysed in the worst case."
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "Fewer than two types present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no STRAT or MIXED type."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "Y",
+  "claims": [
+   {
+    "loc": "Abstract, p.5697",
+    "quote": "traditional voting rules, which aggregate preference rankings while ignoring"
+   },
+   {
+    "loc": "Introduction, p.5698",
+    "quote": "What welfare loss might the designer incur when using a traditional voting rule"
+   },
+   {
+    "loc": "Discussion, p.5703",
+    "quote": "whether one can improve the distortion of deterministic rules to Opmq"
+   }
+  ],
+  "note": "The claims are about welfare loss of traditional rules and which rules or reporting regimes to use."
+ },
+ "C9.2": {
+  "code": "SOME-UNSTATED",
+  "loc": "Introduction p.5697; Preliminaries p.5699",
+  "quote": "agents (voluntarily) use \u2018\u0105\u0105\u2019 signs to reveal \u03b1-decisive preferences",
+  "note": "Welfare claims need reports consistent with the underlying utilities, which the model states through the \u03b1-consistency assumption. Truthful reporting and the intensity threshold \u03b1 are not discussed as an assumption about incentives, since strategic misreporting is never mentioned. The claim that real-world designers lose welfare also needs sincere voting, which is not stated."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "whole paper",
+  "quote": "none found",
+  "note": "The paper does not state a procedural reading."
+ }
+}

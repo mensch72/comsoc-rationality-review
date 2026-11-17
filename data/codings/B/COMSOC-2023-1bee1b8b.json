@@ -1,0 +1,161 @@
+{
+ "paper_id": "COMSOC-2023-1bee1b8b",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "ELIG",
+  "loc": "Abstract; Sec. 1",
+  "quote": "computational aspects of the Chamberlin-Courant voting rule (CC)",
+  "note": "Winner determination algorithms for multiwinner voting rules."
+ },
+ "C1": {
+  "types": [
+   "AL"
+  ],
+  "primary": "AL",
+  "loc": "Abstract; Sec. 3-5",
+  "quote": "runs in almost linear time in the input size",
+  "note": "Algorithms and ETH/SETH hardness."
+ },
+ "C2.1": {
+  "value": "preference profile; approval ballots",
+  "loc": "Sec. 2 Preliminaries, p.2",
+  "quote": "is called a preference profile or just a profile or preferences"
+ },
+ "C2.2": {
+  "codes": [
+   "RANK",
+   "WEAK",
+   "APPR",
+   "CARD"
+  ],
+  "loc": "Sec. 2, p.2",
+  "quote": "a voter v gives an approval ballot as a vote",
+  "note": "Misrepresentation function r (cardinal) is the general input; linear orders, weak orders and approval ballots are special cases."
+ },
+ "C2.3": {
+  "code": "Y",
+  "loc": "Sec. 2, p.2",
+  "quote": "utility function u : V \u00d7 C \u2192 R\u22650 that indicates how well a voter",
+  "note": "Utilities/misrepresentation and preferences are mentioned, but they coincide with the input."
+ },
+ "C2.4": {
+  "code": "IDU",
+  "loc": "Sec. 2, p.2",
+  "quote": "A tuple (V, C, r) or (V, C, u) is called a preference profile",
+  "note": "The input is described as preferences/misrepresentation and the rule is applied directly, with no statement about reporting."
+ },
+ "C3.1": {
+  "code": "NONE",
+  "loc": "Sec. 3-5",
+  "quote": "none found",
+  "note": "Pure winner-determination computation; no strategic voters."
+ },
+ "C3.2": {
+  "code": "NOT-STATED",
+  "loc": "Sec. 2, Intro, Conclusion",
+  "quote": "none found",
+  "note": "No statement that voters submit their held attitude."
+ },
+ "C3.3": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C3.2 is not STATED."
+ },
+ "C4.1": {
+  "code": "SPEC",
+  "loc": "Sec. 2, p.2",
+  "quote": "u(v, c) = 1 iff c \u2208 Av and u(v, c) = 0 iff c \u2209 Av",
+  "note": "Approval utility is defined; for SP and Borda the misrepresentation r is the input itself. Thiele utility is defined from approvals."
+ },
+ "C4.2": {
+  "code": "NA",
+  "loc": "whole paper",
+  "quote": "",
+  "note": "The term 'dichotomous preferences' is not used."
+ },
+ "C5.1": {
+  "code": "Y",
+  "loc": "Sec. 2, p.2-3",
+  "quote": "total utility of the voters is maximized",
+  "note": "CC and Thiele rules are defined to minimise total misrepresentation or maximise total utility, and results are about computing the optimum."
+ },
+ "C5.2": {
+  "code": "INPUT-UNSTATED",
+  "loc": "Sec. 2, p.2-3",
+  "quote": "we define total utility of C\u2032 by u(C\u2032) = \u03a3 u(v, C\u2032)",
+  "note": "Utility is evaluated directly on the input, with no statement relating it to held attitudes."
+ },
+ "C6": {
+  "VOT": {
+   "present": "N",
+   "behav": "",
+   "behav_stated": "",
+   "info": "",
+   "info_stated": "",
+   "loc_behav": "",
+   "quote_behav": "",
+   "loc_info": "",
+   "quote_info": "",
+   "note": "Voters are data of the input and take no action in the model."
+  },
+  "CAN": {
+   "present": "N"
+  },
+  "ORG": {
+   "present": "N"
+  },
+  "DIS": {
+   "present": "N"
+  },
+  "BRI": {
+   "present": "N"
+  },
+  "DES": {
+   "present": "N"
+  },
+  "OTH": {
+   "present": "N"
+  }
+ },
+ "C7.1": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "No agents are present."
+ },
+ "C7.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C7.1 is not Y."
+ },
+ "C8.1": {
+  "codes": [],
+  "loc": "",
+  "quote": "",
+  "note": "NA: no STRAT or MIXED type."
+ },
+ "C8.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": ""
+ },
+ "C9.1": {
+  "code": "N",
+  "claims": [],
+  "note": "The introduction mentions applications and practical efficiency of the algorithm, but makes no claims about voter well-being or which rule to use. The claim about the algorithm being efficient in practice concerns computation only."
+ },
+ "C9.2": {
+  "code": "NA",
+  "loc": "",
+  "quote": "",
+  "note": "C9.1 = N."
+ },
+ "C10.1": {
+  "code": "N",
+  "loc": "Sec. 1-6",
+  "quote": "none found",
+  "note": "No explicit procedural reading statement."
+ }
+}

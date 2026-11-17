@@ -1,0 +1,10 @@
+{
+ "paper_id": "MSS-2021-6d9bf6a1",
+ "codebook_version": "1.0",
+ "C0": {
+  "code": "INELIG",
+  "loc": "Abstract and Section 1, p.1-2",
+  "quote": "social welfare orders, on the set of infinite utility streams",
+  "note": "The paper studies representability and constructiveness of social welfare orders on infinite utility streams (intergenerational equity) under anonymity and Pareto-type axioms. There is no voting procedure, ballots or voters. It is welfare-economics axiomatics, not voting, so coding stops."
+ }
+}
