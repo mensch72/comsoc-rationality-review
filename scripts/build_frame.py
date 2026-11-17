@@ -35,7 +35,7 @@ KEYWORDS = re.compile(r"""\b(vot|elect|ballot|approv|committee|multi-?winner|sin
   kemeny|copeland|schulze|\bstv\b|runoff|run-off|instant-runoff|quorum|jury|single-peaked|single-crossing|
   distortion|metric\ (voting|social)|peer\ (selection|review)|sortition|deliberat)""", re.I | re.X)
 
-EXCL_TRACK = re.compile(r"extended abstract|\[short|blue sky|demo|doctoral|jaamas|keynote|survey|journal track|"
+EXCL_TRACK = re.compile(r"extended abstract|\[short|student|blue sky|demo|doctoral|jaamas|keynote|survey|journal track|"
                         r"sister conference|early career|student abstract|senior member|new faculty|eaai|"
                         r"best papers|invited|tutorial|competition", re.I)
 EXCL_TITLE = re.compile(r"^(correction|erratum|corrigendum|retraction|editorial|introduction to|"
