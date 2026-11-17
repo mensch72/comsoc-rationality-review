@@ -247,3 +247,27 @@ SCW-2025-97a41220,ok,publisher-OA,https://link.springer.com/content/pdf/10.1007/
 SCW-2025-9a60c861,ok,publisher-OA,https://link.springer.com/content/pdf/10.1007/s00355-025-01628-4.pdf,"published version, CC licence",41,144343
 SCW-2025-b61d9373,ok,publisher-OA,https://link.springer.com/content/pdf/10.1007/s00355-025-01594-x.pdf,"published version, CC licence",46,160965
 SCW-2025-e28536b8,ok,publisher-OA,https://link.springer.com/content/pdf/10.1007/s00355-025-01590-1.pdf,"published version, CC licence",43,145070
+JET-2021-7ee9c91b,ok,RePEc/working paper,https://papers.econ.ucy.ac.cy/RePEc/papers/09-19.pdf,"University of Cyprus WP 09-2019, same title",36,87875
+SCW-2021-93ac96bc,unavailable,,,web search: no open version found,,
+SCW-2021-4e992801,unavailable,,,"web search: only an earlier THEMA WP with a different title, not verified",,
+SCW-2021-905600f1,ok,publisher-OA,https://link.springer.com/content/pdf/10.1007/s00355-021-01310-5.pdf,"published version, CC licence",32,95989
+GEB-2021-08807490,unavailable,,,web search: no open version found,,
+GEB-2021-334f67af,ok,arXiv,https://arxiv.org/pdf/1211.3043,OpenAlex location: arXiv (Cornell University); version=submittedVersion,47,167086
+SCW-2022-38670e05,unavailable,,,web search: no open version found,,
+SCW-2022-09f8572e,unavailable,,,web search: no open version found,,
+SCW-2022-305481fc,ok,institutional repository,https://hal.science/hal-03799069/document,HAL deposit of the journal article,44,100175
+MSS-2022-62169744,unavailable,,,web search: no open version found,,
+MSS-2022-a65afef2,ok,arXiv,http://arxiv.org/pdf/2008.02041,OpenAlex location: RePEc: Research Papers in Economics; version=submittedVersion,17,27626
+GEB-2022-33d40829,unavailable,,,"web search: UPV/EHU repository record, PDF not reachable (404/403)",,
+MSS-2023-d1a3acb4,unavailable,,,web search: no open version found,,
+SCW-2023-04bef984,unavailable,,,"web search: HAL record, PDF not reachable (404)",,
+MSS-2023-11b8431b,unavailable,,,web search: no open version found,,
+GEB-2023-c88a3fb2,unavailable,,,web search: no open version found,,
+SCW-2023-2dcc4508,ok,publisher-OA,https://link.springer.com/content/pdf/10.1007/s00355-023-01469-z.pdf,"published version, CC licence",20,57255
+GEB-2023-bd99ebb0,unavailable,,,web search: only a publisher PDF on an institute page with unclear hosting rights; not used,,
+MSS-2024-ae9776b5,unavailable,,,web search: no open version found,,
+MSS-2024-78c812ca,unavailable,,,web search: no open version found,,
+SCW-2024-e2395b6d,ok,institutional repository,https://hal.science/hal-03479411/document,"HAL preprint 2021, same title, earlier version",45,77310
+GEB-2024-3dc405b1,ok,repository,https://shs.hal.science/halshs-03162184/document,OpenAlex location: HAL; version=submittedVersion,65,154268
+SCW-2024-88a5b280,ok,publisher-OA,https://link.springer.com/content/pdf/10.1007/s00355-024-01563-w.pdf,"published version, CC licence",28,72522
+MSS-2024-a6d01d44,unavailable,,,web search: no open version found,,
